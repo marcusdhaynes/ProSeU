@@ -1,5 +1,13 @@
 # ProSeU
 
-The original AI Studio interface is retained. GitHub Pages serves the web build at https://marcusdhaynes.github.io/ProSeU/. The native workflow packages the same interface for Windows, macOS, Linux and Android. iOS source can be initialized using npm run ios:init on macOS; distribution requires Apple signing.
+The original AI Studio components, styles and assets are retained. The web app is published at https://marcusdhaynes.github.io/ProSeU/.
 
-The original server is retained in server.ts. GitHub Pages cannot execute it. Server-dependent features require deployment of that server with its existing environment secrets, and configuration of the front end to use its endpoint. No private API keys are bundled into the web app. Firebase authentication also requires the published domain to be authorized in the original Firebase project.
+## Platforms
+
+The manual Native builds workflow builds Windows, macOS, Linux and Android packages using the same web interface. iOS source can be generated with npm run ios:init on macOS; device distribution requires Apple signing. Native packages are unsigned development builds, not app-store releases.
+
+## Services
+
+The included server requires its original Gemini environment key. GitHub Pages cannot run server code. Set the repository variable API_BASE_URL to a separately deployed server origin to connect server-based AI features. No Gemini secret is included in public code. The original Google Cloud project currently has no billing configured, so its AI Studio publishing path cannot deploy a new server. Firebase authentication keeps the original project and now authorizes marcusdhaynes.github.io.
+
+The original Next source remains under src/app. The web/ adapters retain those components while providing static, hash-based navigation on GitHub Pages. The original Genkit flows remain server-side under src/ai/flows.
