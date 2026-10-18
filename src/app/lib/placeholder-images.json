@@ -1,0 +1,59 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-legal",
+      "description": "Professional law office background with books and gavels",
+      "imageUrl": "https://picsum.photos/seed/law1/1200/600",
+      "imageHint": "law court"
+    },
+    {
+      "id": "learning-module",
+      "description": "Student studying legal documents",
+      "imageUrl": "https://picsum.photos/seed/study/600/400",
+      "imageHint": "studying legal"
+    },
+    {
+      "id": "case-builder",
+      "description": "Folder with documents and magnifying glass",
+      "imageUrl": "https://picsum.photos/seed/case/600/400",
+      "imageHint": "case files"
+    },
+    {
+      "id": "news-article-1",
+      "description": "Supreme court building",
+      "imageUrl": "https://picsum.photos/seed/news1/400/250",
+      "imageHint": "supreme court"
+    },
+    {
+      "id": "news-article-2",
+      "description": "Legal gavel on a desk",
+      "imageUrl": "https://picsum.photos/seed/news2/400/250",
+      "imageHint": "legal gavel"
+    },
+    {
+      "id": "news-article-3",
+      "description": "Scale of justice",
+      "imageUrl": "https://picsum.photos/seed/news3/400/250",
+      "imageHint": "justice scale"
+    },
+    {
+      "id": "tpl-hero",
+      "description": "Landing page hero template",
+      "imageUrl": "https://picsum.photos/seed/tpl1/400/250",
+      "imageHint": "hero landing"
+    },
+    {
+      "id": "tpl-card",
+      "description": "Information card template",
+      "imageUrl": "https://picsum.photos/seed/tpl2/400/250",
+      "imageHint": "info card"
+    },
+    {
+      "id": "tpl-header",
+      "description": "Section header template",
+      "imageUrl": "https://picsum.photos/seed/tpl3/400/250",
+      "imageHint": "section header"
+    }
+  ]
+}

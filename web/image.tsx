@@ -1,0 +1,1 @@
+import React from 'react';export default function Image({src,alt='',fill,priority,quality,loader,placeholder,blurDataURL,unoptimized,style,...rest}:any){return <img src={typeof src==='string'?src:src?.src} alt={alt} style={{...(fill?{position:'absolute',height:'100%',width:'100%',inset:0}:{}),...style}} {...rest}/>};

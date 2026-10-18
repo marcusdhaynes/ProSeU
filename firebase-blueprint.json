@@ -1,0 +1,81 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "UserProfile",
+      "type": "object",
+      "description": "Represents a user's profile information.",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "username": { "type": "string" },
+        "role": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "email"]
+    },
+    "Notebook": {
+      "title": "Notebook",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "NotebookPage": {
+      "title": "NotebookPage",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "notebookId": { "type": "string" },
+        "pageType": { "type": "string", "enum": ["standard", "concept", "mistake", "term", "case", "argument", "outline", "scratchpad"] },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "data": { "type": "object", "description": "Structured data for specialized page types" },
+        "domainId": { "type": "string" },
+        "fieldId": { "type": "string" },
+        "courseId": { "type": "string" },
+        "conceptId": { "type": "string" },
+        "pageNumber": { "type": "number" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  },
+  "auth": {
+    "providers": ["password", "google", "anonymous"]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/users/{userId}",
+        "definition": {
+          "entityName": "UserProfile",
+          "schema": { "$ref": "#/backend/entities/UserProfile" },
+          "description": "User profiles"
+        }
+      },
+      {
+        "path": "/user_notebooks/{notebookId}",
+        "definition": {
+          "entityName": "Notebook",
+          "schema": { "$ref": "#/backend/entities/Notebook" },
+          "description": "Collection of user notebooks"
+        }
+      },
+      {
+        "path": "/user_notebook_pages/{pageId}",
+        "definition": {
+          "entityName": "NotebookPage",
+          "schema": { "$ref": "#/backend/entities/NotebookPage" },
+          "description": "Individual pages within notebooks"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    function isAdmin() {
+      return isSignedIn() &&
+        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'executive' ||
+         (request.auth.token.email == "marcusdhaynes@gmail.com" && request.auth.token.email_verified == true));
+    }
+
+    // User profiles and their private sub-collections
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow list: if isAdmin();
+      allow write: if isOwner(userId) || isAdmin();
+      
+      match /enrollments/{id} { allow read, write: if isOwner(userId) || isAdmin(); }
+      match /caseFiles/{id} { allow read, write: if isOwner(userId) || isAdmin(); }
+      match /progress/{id} { allow read, write: if isOwner(userId) || isAdmin(); }
+    }
+
+    // Generic rule for user-owned root collections
+    // This pattern ensures 'list' operations work with .where('userId', '==', auth.uid)
+    function isDocOwner() {
+      return isSignedIn() && resource.data.userId == request.auth.uid;
+    }
+    function isNewDocOwner() {
+      return isSignedIn() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // Notebook and Legal Study Collections
+    match /user_notebooks/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_notebook_pages/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_notebook_terms/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_notebook_mistakes/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_notebook_cases/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_notebook_outlines/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    match /user_concepts/{id} {
+      allow read, update, delete: if isDocOwner() || isAdmin();
+      allow create: if isNewDocOwner() || isAdmin();
+    }
+
+    // Educational content collections (Global)
+    match /domains/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /fields/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /courses/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /atomic_concepts/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /siteContent/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /groups/{id} { allow read: if true; allow write: if isSignedIn(); }
+  }
+}

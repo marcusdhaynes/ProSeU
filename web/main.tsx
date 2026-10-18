@@ -1,0 +1,17 @@
+import React,{Suspense,useMemo} from 'react';import {createRoot} from 'react-dom/client';import {HashRouter,Routes,Route,useParams} from 'react-router-dom';import AppLayout from './layout';import LearnLayout from '../src/app/learn/layout';
+import Page0 from '../src/app/admin/page';
+import Page1 from '../src/app/coach/page';
+import Page2 from '../src/app/learn/page';
+import Page3 from '../src/app/login/page';
+import Page4 from '../src/app/lookup/page';
+import Page5 from '../src/app/lookup/[id]/page';
+import Page6 from '../src/app/page';
+import Page7 from '../src/app/prepare/debrief/page';
+import Page8 from '../src/app/prepare/new/page';
+import Page9 from '../src/app/prepare/page';
+import Page10 from '../src/app/profile/page';
+import Page11 from '../src/app/resources/page';
+import Page12 from '../src/app/situation-analysis/page';
+import Page13 from '../src/app/tools/letter-drafter/page';
+import Page14 from '../src/app/universitas/[courseId]/page';
+const cache=new Map();function Routed({Component}:any){const params=useParams();const key=JSON.stringify(params);if(!cache.has(key))cache.set(key,Promise.resolve(params));return <Component params={cache.get(key)}/>};createRoot(document.getElementById('root')!).render(<HashRouter><AppLayout><Suspense fallback={null}><Routes><Route path="/admin" element={<Routed Component={Page0}/>}/><Route path="/coach" element={<Routed Component={Page1}/>}/><Route path="/learn" element={<LearnLayout><Routed Component={Page2}/></LearnLayout>}/><Route path="/login" element={<Routed Component={Page3}/>}/><Route path="/lookup" element={<Routed Component={Page4}/>}/><Route path="/lookup/:id" element={<Routed Component={Page5}/>}/><Route path="/" element={<Routed Component={Page6}/>}/><Route path="/prepare/debrief" element={<Routed Component={Page7}/>}/><Route path="/prepare/new" element={<Routed Component={Page8}/>}/><Route path="/prepare" element={<Routed Component={Page9}/>}/><Route path="/profile" element={<Routed Component={Page10}/>}/><Route path="/resources" element={<Routed Component={Page11}/>}/><Route path="/situation-analysis" element={<Routed Component={Page12}/>}/><Route path="/tools/letter-drafter" element={<Routed Component={Page13}/>}/><Route path="/universitas/:courseId" element={<Routed Component={Page14}/>}/></Routes></Suspense></AppLayout></HashRouter>);
