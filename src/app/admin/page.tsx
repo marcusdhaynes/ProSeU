@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import { useCollection } from '@/firebase';
 import { collection } from 'firebase/firestore';
+import { isProSeUAdmin, PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 
 export default function AdminPage() {
   const { user, isUserLoading } = useUser();
@@ -39,8 +40,9 @@ export default function AdminPage() {
   
   const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
 
-  // For the prototype, we grant admin access to any logged-in user to ensure the console is accessible
-  const isVerifiedAdmin = !!user && !user.isAnonymous;
+  // Only the verified Firebase account for the authorized owner can use admin functions.
+  // Profile roles are not proof of permission because users can edit profile data.
+  const isVerifiedAdmin = isProSeUAdmin(user);
 
   const usersQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'users') : null, [db, isVerifiedAdmin]);
   const groupsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'groups') : null, [db, isVerifiedAdmin]);
@@ -57,17 +59,22 @@ export default function AdminPage() {
   const { data: fieldsRaw } = useCollection(fieldsQ);
   const { data: coursesRaw } = useCollection(coursesQ);
 
+  // Provision or repair the owner's profile after verified sign-in. Never elevate
+  // an unverified email or another user's profile on an admin-page visit.
   useEffect(() => {
-    if (db && user && !userDoc && !isUserDocLoading) {
-      setDoc(doc(db, 'users', user.uid), {
-        id: user.uid,
-        email: user.email,
-        displayName: user.displayName,
-        role: 'executive',
-        promotedAt: new Date().toISOString()
-      }, { merge: true });
-    }
-  }, [user, userDoc, isUserDocLoading, db]);
+    if (!db || !user || !isVerifiedAdmin || isUserDocLoading) return;
+    if (userDoc?.role === 'admin' && userDoc?.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL) return;
+
+    setDoc(doc(db, 'users', user.uid), {
+      id: user.uid,
+      email: PRIMARY_ADMIN_EMAIL,
+      displayName: user.displayName || 'Marcus Haynes',
+      role: 'admin',
+      promotedAt: new Date().toISOString()
+    }, { merge: true }).catch((error) => {
+      console.error('Could not provision verified owner administrator profile:', error);
+    });
+  }, [db, user, isVerifiedAdmin, userDoc, isUserDocLoading]);
 
     const [isClient, setIsClient] = useState(false);
 
@@ -92,7 +99,7 @@ export default function AdminPage() {
         </div>
         <div className="space-y-2">
           <h1 className="text-2xl font-bold tracking-tight">Access Restricted</h1>
-          <p className="text-muted-foreground max-w-sm">Please sign in to access the Content Engine.</p>
+          <p className="text-muted-foreground max-w-sm">Administrator access requires the verified marcusdhaynes@gmail.com account.</p>
         </div>
       </div>
     );
