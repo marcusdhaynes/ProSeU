@@ -48,7 +48,7 @@ service cloud.firestore {
       allow list: if isAdmin();
       // Users may create only their own unprivileged profile. Role assignments
       // and account identity are exclusively administrator-controlled.
-      allow create: if isAdmin() || (
+      allow create: if (isAdmin() && (!isOwner(userId) || isPrimaryAdmin())) || (
         isOwner(userId)
         && request.resource.data.id == userId
         && request.resource.data.email == request.auth.token.email
