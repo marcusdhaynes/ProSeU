@@ -29,7 +29,7 @@ export function useAdminAccess() {
   const isOwnerAdmin = isProSeUAdmin(user);
   const isDelegatedAdmin = Boolean(
     user && !user.isAnonymous && user.emailVerified && grant
-    && grant.role === 'admin'
+    && grant.id === user.uid && grant.role === 'admin'
     && grant.email.toLowerCase() === user.email?.trim().toLowerCase()
   );
   return useMemo(() => ({
