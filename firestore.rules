@@ -8,12 +8,37 @@ service cloud.firestore {
     function isOwner(userId) {
       return isSignedIn() && request.auth.uid == userId;
     }
-    // Firebase Authentication is authoritative. Firestore profile roles are not:
-    // historically users could write their own 'admin' or 'executive' role.
-    function isAdmin() {
+    // Admin authorization never trusts /users/{uid}.role: legacy clients could
+    // write it themselves. Only a verified primary owner or an authenticated,
+    // individually granted administrator has authority.
+    function isPrimaryAdmin() {
       return isSignedIn()
         && request.auth.token.email == 'marcusdhaynes@gmail.com'
         && request.auth.token.email_verified == true;
+    }
+    function isGrantedAdmin() {
+      return isSignedIn()
+        && request.auth.token.email_verified == true
+        && exists(/databases/$(database)/documents/adminGrants/$(request.auth.uid))
+        && get(/databases/$(database)/documents/adminGrants/$(request.auth.uid)).data.email == request.auth.token.email
+        && get(/databases/$(database)/documents/adminGrants/$(request.auth.uid)).data.role == 'admin';
+    }
+    function isAdmin() {
+      return isPrimaryAdmin() || isGrantedAdmin();
+    }
+
+    // A user can view their own grant, but only current admins can award or
+    // revoke admin access. Grant records are matched to authenticated UIDs
+    // AND verified email addresses. Admin appointments are made from /admin.
+    match /adminGrants/{userId} {
+      allow get: if isOwner(userId) || isAdmin();
+      allow list: if isAdmin();
+      allow create, update: if isAdmin()
+        && request.resource.data.keys().hasOnly(['email','role','grantedBy','grantedAt'])
+        && request.resource.data.role == 'admin'
+        && request.resource.data.email is string
+        && request.resource.data.email == get(/databases/$(database)/documents/users/$(userId)).data.email;
+      allow delete: if isAdmin();
     }
 
     // User profiles and their private sub-collections
