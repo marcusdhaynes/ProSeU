@@ -34,11 +34,12 @@ service cloud.firestore {
       allow get: if isOwner(userId) || isAdmin();
       allow list: if isAdmin();
       allow create, update: if isAdmin()
+        && (!isOwner(userId) || isPrimaryAdmin())
         && request.resource.data.keys().hasOnly(['email','role','grantedBy','grantedAt'])
         && request.resource.data.role == 'admin'
         && request.resource.data.email is string
         && request.resource.data.email == get(/databases/$(database)/documents/users/$(userId)).data.email;
-      allow delete: if isAdmin();
+      allow delete: if isAdmin() && (!isOwner(userId) || isPrimaryAdmin());
     }
 
     // User profiles and their private sub-collections
@@ -54,7 +55,7 @@ service cloud.firestore {
         && request.resource.data.role == 'free'
         && !('groupId' in request.resource.data)
       );
-      allow update: if isAdmin() || (
+      allow update: if (isAdmin() && (!isOwner(userId) || isPrimaryAdmin())) || (
         isOwner(userId)
         && !request.resource.data.diff(resource.data).affectedKeys()
           .hasAny(['role', 'groupId', 'email', 'id', 'promotedAt', 'promotedBy'])
