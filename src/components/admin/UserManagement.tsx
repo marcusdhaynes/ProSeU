@@ -42,9 +42,10 @@ import {
 import { useFirestore, updateDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
 import { doc } from 'firebase/firestore';
 import { cn } from '@/lib/utils';
+import { isProSeUAdmin, PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 
 const MARCUS_UID = 'M4aAAH071gevhmRgZ1diT857i5U2';
-const MARCUS_EMAILS = ['marcusdhaynes@gmail.com', 'marcusdhaynes@mail.com'];
+const MARCUS_EMAILS = [PRIMARY_ADMIN_EMAIL];
 
 const GROUP_TYPE_MAP = {
   'free': 'Free',
@@ -69,7 +70,7 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState('');
 
-  const isExecutive = currentUserDoc?.role === 'executive' || currentUser?.uid === MARCUS_UID || MARCUS_EMAILS.includes(currentUser?.email || '');
+  const isExecutive = isProSeUAdmin(currentUser);
 
   const groupTree = useMemo(() => {
     const roleGroups: Record<string, any[]> = {
@@ -122,8 +123,12 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
   }, [users, search, currentUser]);
 
   const handleUpdate = (userId: string, field: string, value: any) => {
-    if (!db) return;
-    
+    if (!db || !isExecutive) return;
+    // Never allow the primary administrator to be demoted via the role picker.
+    if (field === 'groupId' && users.some(u =>
+      u.id === userId && (u.id === MARCUS_UID || u.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL)
+    )) return;
+
     const updates: any = {
       [field]: value,
       updatedAt: new Date().toISOString()
@@ -154,7 +159,7 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
   };
 
   const handleDelete = () => {
-    if (!db || !deleteId || deleteConfirm !== 'delete') return;
+    if (!db || !isExecutive || !deleteId || deleteConfirm !== 'delete') return;
     deleteDocumentNonBlocking(doc(db, 'users', deleteId));
     setDeleteId(null);
     setDeleteConfirm('');
@@ -275,12 +280,12 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                   <TableCell className="py-0.5 px-2">
                     <div className="flex items-center justify-between gap-2">
                       <Select 
-                        disabled={isTargetMarcus && !isExecutive}
+                        disabled={isTargetMarcus}
                         value={u.groupId || 'none'} 
                         onValueChange={(val) => handleUpdate(u.id, 'groupId', val)}
                       >
                         <SelectTrigger className="h-6 w-44 text-[10px] rounded-lg border-none hover:bg-muted/50 font-bold uppercase py-0 px-2">
-                          <SelectValue placeholder="No Role Assigned" />
+                          <SelectValue placeholder={isTargetMarcus ? 'Administrator (Owner)' : 'No Role Assigned'} />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="none" className="text-[10px]">None / Basic Free</SelectItem>
