@@ -2,7 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { useFirestore, useDoc, useUser, useMemoFirebase } from '@/firebase';
+import { useAuth, useFirestore, useDoc, useMemoFirebase } from '@/firebase';
+import { sendEmailVerification, reload } from 'firebase/auth';
+import { Button } from '@/components/ui/button';
 import { doc, setDoc } from 'firebase/firestore';
 import { GroupManager } from '@/components/admin/GroupManager';
 import { UserManagement } from '@/components/admin/UserManagement';
@@ -28,6 +30,8 @@ import { useAdminAccess } from '@/hooks/use-admin-access';
 export default function AdminPage() {
   const { user, isAdmin: isVerifiedAdmin, isOwnerAdmin, isLoading: isAdminLoading } = useAdminAccess();
   const db = useFirestore();
+  const auth = useAuth();
+  const [verificationNotice, setVerificationNotice] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -92,6 +96,9 @@ export default function AdminPage() {
   }
 
   if (!isVerifiedAdmin) {
+    const isSignedIn = !!user && !user.isAnonymous;
+    const isUnverifiedOwner = isSignedIn &&
+      user.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL && !user.emailVerified;
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4 text-center px-4">
         <div className="bg-rose-500/10 p-6 rounded-full">
@@ -99,8 +106,45 @@ export default function AdminPage() {
         </div>
         <div className="space-y-2">
           <h1 className="text-2xl font-bold tracking-tight">Access Restricted</h1>
-          <p className="text-muted-foreground max-w-sm">Administrator access requires the verified marcusdhaynes@gmail.com account.</p>
+          <p className="text-muted-foreground max-w-sm">
+            {!isSignedIn
+              ? 'Sign in to your authorized ProSeU administrator account.'
+              : isUnverifiedOwner
+                ? 'Verify your email address to activate your primary administrator access.'
+                : 'Your account has not been granted administrator access. Contact an existing administrator.'}
+          </p>
         </div>
+        {isUnverifiedOwner && user && (
+          <div className="flex flex-wrap justify-center gap-2">
+            <Button
+              onClick={async () => {
+                try {
+                  await sendEmailVerification(user);
+                  setVerificationNotice('Verification email sent. Open the link in your email, then refresh access.');
+                } catch {
+                  setVerificationNotice('Could not send the verification email. Try again later.');
+                }
+              }}
+            >
+              Send verification email
+            </Button>
+            <Button
+              variant="outline"
+              onClick={async () => {
+                try {
+                  await reload(user);
+                  await auth.currentUser?.getIdToken(true);
+                  window.location.reload();
+                } catch {
+                  setVerificationNotice('Could not refresh verification status. Please sign in again.');
+                }
+              }}
+            >
+              I verified my email
+            </Button>
+          </div>
+        )}
+        {verificationNotice && <p role="status" className="max-w-sm text-xs text-muted-foreground">{verificationNotice}</p>}
       </div>
     );
   }
