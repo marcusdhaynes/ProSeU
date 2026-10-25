@@ -1,5 +1,7 @@
 'use client';
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { useUser } from '@/firebase';
+import { isProSeUAdmin } from '@/lib/admin-access';
 
 interface DevModeContextType {
   isEditMode: boolean;
@@ -14,7 +16,11 @@ interface DevModeContextType {
 const DevModeContext = createContext<DevModeContextType | undefined>(undefined);
 
 export function DevModeProvider({ children }: { children: React.ReactNode }) {
-  const [isEditMode, setIsEditMode] = useState(false);
+  const { user } = useUser();
+  const isAdmin = isProSeUAdmin(user);
+  const [requestedEditMode, setRequestedEditMode] = useState(false);
+  const isEditMode = requestedEditMode && isAdmin;
+  const setIsEditMode = (enabled: boolean) => setRequestedEditMode(enabled && isAdmin);
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
   const [pendingUrl, setPendingUrl] = useState<string | null>(null);
 
@@ -33,7 +39,7 @@ export function DevModeProvider({ children }: { children: React.ReactNode }) {
 
   const resetEdits = () => {
     setHasUnsavedChanges(false);
-    setIsEditMode(false);
+    setRequestedEditMode(false);
     setPendingUrl(null);
   };
 
