@@ -26,7 +26,7 @@ import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 import { useAdminAccess } from '@/hooks/use-admin-access';
 
 export default function AdminPage() {
-  const { user, isAdmin: isVerifiedAdmin, isLoading: isAdminLoading } = useAdminAccess();
+  const { user, isAdmin: isVerifiedAdmin, isOwnerAdmin, isLoading: isAdminLoading } = useAdminAccess();
   const db = useFirestore();
   const [mounted, setMounted] = useState(false);
 
@@ -62,7 +62,7 @@ export default function AdminPage() {
   // Provision or repair the owner's profile after verified sign-in. Never elevate
   // an unverified email or another user's profile on an admin-page visit.
   useEffect(() => {
-    if (!db || !user || !isVerifiedAdmin || isUserDocLoading) return;
+    if (!db || !user || !isOwnerAdmin || isUserDocLoading) return;
     if (userDoc?.role === 'admin' && userDoc?.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL) return;
 
     setDoc(doc(db, 'users', user.uid), {
@@ -74,7 +74,7 @@ export default function AdminPage() {
     }, { merge: true }).catch((error) => {
       console.error('Could not provision verified owner administrator profile:', error);
     });
-  }, [db, user, isVerifiedAdmin, userDoc, isUserDocLoading]);
+  }, [db, user, isOwnerAdmin, userDoc, isUserDocLoading]);
 
     const [isClient, setIsClient] = useState(false);
 
