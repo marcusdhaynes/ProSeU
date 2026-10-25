@@ -105,7 +105,7 @@ grant execute on function proseu_private.is_admin() to authenticated;
 -- database-table access and ordinary users always receive false.
 create or replace function public.proseu_is_admin()
 returns boolean language sql stable security invoker set search_path = ''
-as $ select proseu_private.is_admin(); $;
+as $$ select proseu_private.is_admin(); $$;
 revoke all on function public.proseu_is_admin() from public, anon;
 grant execute on function public.proseu_is_admin() to authenticated;
 
@@ -187,7 +187,7 @@ create policy "User deletes only own private records" on public.proseu_private_r
 -- Legacy ID links have RLS enabled with NO client policies (server/service role only).
 
 -- Trusted auth event generates a basic profile without granting any privileges.
-create or replace function public.proseu_new_user()
+create or replace function proseu_private.new_user()
 returns trigger language plpgsql security definer set search_path = ''
 as $$
 begin
@@ -202,7 +202,8 @@ end;
 $$;
 drop trigger if exists proseu_on_auth_user_created on auth.users;
 create trigger proseu_on_auth_user_created
-after insert on auth.users for each row execute function public.proseu_new_user();
+after insert on auth.users for each row execute function proseu_private.new_user();
+revoke all on function proseu_private.new_user() from public, anon, authenticated;
 
 -- Restricted directory exposes verified emails only to authenticated admins.
 -- It never permits ordinary users to enumerate auth.users.
@@ -210,21 +211,21 @@ create or replace function proseu_private.admin_directory()
 returns table (id uuid, email text, username text, display_name text,
                first_name text, last_name text, phone text, plan text)
 language sql stable security definer set search_path = ''
-as $
+as $$
   select p.id, u.email::text, p.username, p.display_name,
          p.first_name, p.last_name, p.phone, coalesce(e.plan, 'free')
   from public.proseu_profiles p
   join auth.users u on u.id = p.id
   left join public.proseu_entitlements e on e.user_id = p.id
   where (select proseu_private.is_admin());
-$;
+$$;
 revoke all on function proseu_private.admin_directory() from public, anon;
 grant execute on function proseu_private.admin_directory() to authenticated;
 create or replace function public.proseu_admin_directory()
 returns table (id uuid, email text, username text, display_name text,
                first_name text, last_name text, phone text, plan text)
 language sql stable security invoker set search_path = ''
-as $ select * from proseu_private.admin_directory(); $;
+as $$ select * from proseu_private.admin_directory(); $$;
 revoke all on function public.proseu_admin_directory() from public, anon;
 grant execute on function public.proseu_admin_directory() to authenticated;
 
