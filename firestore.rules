@@ -8,18 +8,33 @@ service cloud.firestore {
     function isOwner(userId) {
       return isSignedIn() && request.auth.uid == userId;
     }
+    // Firebase Authentication is authoritative. Firestore profile roles are not:
+    // historically users could write their own 'admin' or 'executive' role.
     function isAdmin() {
-      return isSignedIn() &&
-        (get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin' ||
-         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'executive' ||
-         (request.auth.token.email == "marcusdhaynes@gmail.com" && request.auth.token.email_verified == true));
+      return isSignedIn()
+        && request.auth.token.email == 'marcusdhaynes@gmail.com'
+        && request.auth.token.email_verified == true;
     }
 
     // User profiles and their private sub-collections
     match /users/{userId} {
-      allow read: if isOwner(userId) || isAdmin();
+      allow get: if isOwner(userId) || isAdmin();
       allow list: if isAdmin();
-      allow write: if isOwner(userId) || isAdmin();
+      // Users may create only their own unprivileged profile. Role assignments
+      // and account identity are exclusively administrator-controlled.
+      allow create: if isAdmin() || (
+        isOwner(userId)
+        && request.resource.data.id == userId
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.role == 'free'
+        && !('groupId' in request.resource.data)
+      );
+      allow update: if isAdmin() || (
+        isOwner(userId)
+        && !request.resource.data.diff(resource.data).affectedKeys()
+          .hasAny(['role', 'groupId', 'email', 'id', 'promotedAt', 'promotedBy'])
+      );
+      allow delete: if isAdmin();
       
       match /enrollments/{id} { allow read, write: if isOwner(userId) || isAdmin(); }
       match /caseFiles/{id} { allow read, write: if isOwner(userId) || isAdmin(); }
@@ -72,11 +87,11 @@ service cloud.firestore {
     }
 
     // Educational content collections (Global)
-    match /domains/{id} { allow read: if true; allow write: if isSignedIn(); }
-    match /fields/{id} { allow read: if true; allow write: if isSignedIn(); }
-    match /courses/{id} { allow read: if true; allow write: if isSignedIn(); }
-    match /atomic_concepts/{id} { allow read: if true; allow write: if isSignedIn(); }
-    match /siteContent/{id} { allow read: if true; allow write: if isSignedIn(); }
-    match /groups/{id} { allow read: if true; allow write: if isSignedIn(); }
+    match /domains/{id} { allow read: if true; allow write: if isAdmin(); }
+    match /fields/{id} { allow read: if true; allow write: if isAdmin(); }
+    match /courses/{id} { allow read: if true; allow write: if isAdmin(); }
+    match /atomic_concepts/{id} { allow read: if true; allow write: if isAdmin(); }
+    match /siteContent/{id} { allow read: if true; allow write: if isAdmin(); }
+    match /groups/{id} { allow read: if true; allow write: if isAdmin(); }
   }
 }
