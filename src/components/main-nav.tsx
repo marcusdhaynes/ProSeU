@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import { useUser } from "@/firebase";
+import { isProSeUAdmin } from "@/lib/admin-access";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -107,6 +108,7 @@ export function MainNav() {
   }
 
   const isAnonymous = user?.isAnonymous;
+  const isAdmin = isProSeUAdmin(user);
 
   return (
     <>
@@ -142,7 +144,7 @@ export function MainNav() {
               </Button>
             ))}
             
-            {user && !isAnonymous && (
+            {isAdmin && (
               <Button
                 variant="ghost"
                 size="sm"
@@ -161,7 +163,7 @@ export function MainNav() {
           </div>
 
           <div className="flex items-center gap-3 justify-self-end">
-            <div className="hidden sm:flex items-center gap-1.5 mr-1">
+            {isAdmin && <div className="hidden sm:flex items-center gap-1.5 mr-1">
               <Label className="text-[9px] font-bold uppercase tracking-widest opacity-50">
                 Edit
               </Label>
@@ -170,7 +172,7 @@ export function MainNav() {
                 onCheckedChange={handleToggleEditMode}
                 className="scale-75"
               />
-            </div>
+            </div>}
 
             <Button
               variant="ghost"
