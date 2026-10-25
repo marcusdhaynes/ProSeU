@@ -188,7 +188,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
     for (const field of fields) {
       // Do not replace the authentication email. An editable contact email is
       // explicitly separate from the provider-verified login identity.
-      if (normalized[field] !== (field === 'username' ? oldDraft[field].toLowerCase() : oldDraft[field])) {
+      if (normalized[field] !== (field === 'username' || field === 'contactEmail' ? oldDraft[field].toLowerCase() : oldDraft[field])) {
         patch[field] = normalized[field] || null;
       }
     }
@@ -244,7 +244,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
       const persisted = await getDocFromServer(ref);
       if (!persisted.exists() || Object.entries(patch).some(([key, value]) =>
         (persisted.data()[key] ?? null) !== (value ?? null))) {
-        throw new Error('The save was acknowledged but could not be verified. Reopen the record before trying again.');
+        throw new Error('The write completed, but its saved values could not be confirmed. Close and reopen the record before making another change.');
       }
 
       setEditingId(null);
@@ -398,10 +398,10 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
                 {field('contactEmail', 'Contact email', 'name@example.com', 'email')}
               </div>
               <div className="space-y-1.5 rounded-lg border border-border bg-muted/30 p-3">
-                <p className="text-xs font-semibold">Verified sign-in email</p>
+                <p className="text-xs font-semibold">Sign-in email (identity provider)</p>
                 <p className="break-all text-sm">{selectedUser.email || 'Unavailable'}</p>
                 <p className="text-[11px] text-muted-foreground">
-                  This is the Firebase/Google authentication identity. Editing the contact email above
+                  This is the account email recorded by Firebase. Editing the contact email above
                   does not change or compromise sign-in. Changing a login email requires provider verification.
                 </p>
               </div>
