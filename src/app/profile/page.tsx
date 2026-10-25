@@ -34,7 +34,7 @@ import {
 import { initiateSignOut } from "@/firebase/non-blocking-login";
 import { doc, collection } from "firebase/firestore";
 import Link from "next/link";
-import { isProSeUAdmin } from '@/lib/admin-access';
+import { useAdminAccess } from '@/hooks/use-admin-access';
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -49,7 +49,7 @@ export default function ProfilePage() {
   );
   const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
   
-  const isAdmin = isProSeUAdmin(user);
+  const { isAdmin } = useAdminAccess();
 
   // Ensure user document exists (Safe provision for legacy users or those missing fields)
   useEffect(() => {
