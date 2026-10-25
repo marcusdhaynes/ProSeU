@@ -11,35 +11,14 @@ import {
 } from '@/components/ui/table';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { 
-  Select, 
-  SelectContent, 
-  SelectItem, 
-  SelectTrigger, 
-  SelectValue,
-  SelectGroup,
-  SelectLabel
-} from '@/components/ui/select';
-import { 
-  AlertDialog, 
-  AlertDialogAction, 
-  AlertDialogCancel, 
-  AlertDialogContent, 
-  AlertDialogDescription, 
-  AlertDialogFooter, 
-  AlertDialogHeader, 
-  AlertDialogTitle 
-} from '@/components/ui/alert-dialog';
+
+
 import { 
   Search, 
   ShieldCheck, 
-  Check, 
-  Trash2, 
-  AlertCircle,
-  ChevronRight,
-  User as UserIcon
+  Check
 } from 'lucide-react';
-import { useFirestore, updateDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
+import { useFirestore, updateDocumentNonBlocking } from '@/firebase';
 import { doc } from 'firebase/firestore';
 import { cn } from '@/lib/utils';
 import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
@@ -47,13 +26,7 @@ import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 const MARCUS_UID = 'M4aAAH071gevhmRgZ1diT857i5U2';
 const MARCUS_EMAILS = [PRIMARY_ADMIN_EMAIL];
 
-const GROUP_TYPE_MAP = {
-  'free': 'Free',
-  'trial': 'Trial',
-  'membership': 'Memberships',
-  'organization': 'Organizations',
-  'admin': 'Administrators'
-} as const;
+
 
 interface UserManagementProps {
   users: any[];
@@ -67,38 +40,6 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
   const [search, setSearch] = useState('');
   const [editingCell, setEditingCell] = useState<{ userId: string; field: string } | null>(null);
   const [editValue, setEditValue] = useState<any>(null);
-  const [deleteId, setDeleteId] = useState<string | null>(null);
-  const [deleteConfirm, setDeleteConfirm] = useState('');
-
-  const [roleError, setRoleError] = useState<string | null>(null);
-  const [updatingRoleId, setUpdatingRoleId] = useState<string | null>(null);
-
-  const groupTree = useMemo(() => {
-    const roleGroups: Record<string, any[]> = {
-      'free': [],
-      'trial': [],
-      'membership': [],
-      'organization': [],
-      'admin': []
-    };
-
-    const buildTree = (parentId: string | null, type: string, depth = 0): any[] => {
-      return groups
-        .filter(g => g.category === type && g.parentId === parentId)
-        .sort((a, b) => (a.order || 0) - (b.order || 0))
-        .flatMap(g => [
-          { ...g, depth },
-          ...buildTree(g.id, type, depth + 1)
-        ]);
-    };
-
-    Object.keys(roleGroups).forEach(type => {
-      roleGroups[type] = buildTree(null, type);
-    });
-
-    return roleGroups;
-  }, [groups]);
-
   const filteredUsers = useMemo(() => {
     let list = [...users].sort((a, b) => {
       if (a.id === currentUser?.uid) return -1;
@@ -128,22 +69,11 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
   // adminGrants or allow role changes until verified Supabase Auth cutover.
   const handleUpdate = (userId: string, field: string, value: any) => {
     if (!db || !isAdmin || userId === currentUser?.uid) return;
-    if (field === 'groupId' || field === 'role') {
-      setRoleError('Roles are read-only during the Supabase migration. Admin appointments will resume with verified Supabase accounts.');
-      return;
-    }
+    if (field === 'groupId' || field === 'role' || field === 'email' || field === 'id') return;
     updateDocumentNonBlocking(doc(db, 'users', userId), {
       [field]: value, updatedAt: new Date().toISOString()
     });
     setEditingCell(null);
-  };
-
-  // Do not claim to delete an account by deleting only its legacy profile:
-  // Firebase Auth identity and private child records would remain.
-  const handleDelete = () => {
-    setDeleteId(null);
-    setDeleteConfirm('');
-    setRoleError('Account deletion is paused until the identity migration is complete.');
   };
 
   const isFiller = (val: string) => {
@@ -217,7 +147,6 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
       </div>
 
       <p role="status" className="rounded-lg border border-border bg-muted/30 p-3 text-xs text-muted-foreground">Legacy Firebase roles are read-only. Administrator appointments and account deletion will resume only after verified Supabase Google authentication and data migration.</p>
-      {roleError && <p role="alert" className="text-xs font-semibold text-rose-600">{roleError}</p>}
       <div className="rounded-xl border overflow-hidden bg-card font-mono">
         <Table>
           <TableHeader className="bg-muted/50">
@@ -275,16 +204,6 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
                         {legacyRoleLabel}
                       </span>
                       )}
-                      {!isMe && !isTargetMarcus && (
-                        <Button disabled title="Account deletion is paused until the Supabase migration completes" 
-                          size="icon" 
-                          variant="ghost" 
-                          className="h-6 w-6 text-rose-500 opacity-0 group-hover:opacity-100 hover:bg-rose-50"
-                          onClick={() => setDeleteId(u.id)}
-                        >
-                          <Trash2 className="h-3.5 w-3.5" />
-                        </Button>
-                      )}
                     </div>
                   </TableCell>
                 </TableRow>
@@ -294,38 +213,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin }: UserMana
         </Table>
       </div>
 
-      <AlertDialog open={!!deleteId} onOpenChange={() => { setDeleteId(null); setDeleteConfirm(''); }}>
-        <AlertDialogContent className="rounded-[2.5rem]">
-          <AlertDialogHeader>
-            <AlertDialogTitle className="flex items-center gap-2 text-rose-600">
-              <AlertCircle className="h-5 w-5" /> Confirm User Deletion
-            </AlertDialogTitle>
-            <AlertDialogDescription className="space-y-4 pt-2">
-              <p>This action will permanently delete this user account. All associated progress, enrollments, and case files will be lost.</p>
-              <div className="space-y-2">
-                <p className="text-xs font-bold text-foreground uppercase tracking-widest">Type <span className="text-rose-600">delete</span> to proceed:</p>
-                <Input 
-                  value={deleteConfirm}
-                  onChange={(e) => setDeleteConfirm(e.target.value)}
-                  placeholder="Type delete..."
-                  className="rounded-xl border-rose-200"
-                  onKeyDown={(e) => e.key === 'Enter' && e.currentTarget.blur()}
-                />
-              </div>
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel className="rounded-full">Cancel</AlertDialogCancel>
-            <AlertDialogAction 
-              onClick={handleDelete}
-              disabled={deleteConfirm !== 'delete'}
-              className="rounded-full bg-rose-600 hover:bg-rose-700 font-bold"
-            >
-              Permanently Delete User
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
+
     </div>
   );
 }
