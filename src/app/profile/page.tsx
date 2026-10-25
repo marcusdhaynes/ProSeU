@@ -47,13 +47,13 @@ export default function ProfilePage() {
     user && !user.isAnonymous ? doc(db, 'users', user.uid) : null, 
     [db, user]
   );
-  const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
+  const { data: userDoc, isLoading: isUserDocLoading, error: userDocError } = useDoc(userRef);
   
   const { isAdmin } = useAdminAccess();
 
   // Ensure user document exists (Safe provision for legacy users or those missing fields)
   useEffect(() => {
-    if (db && user && !userDoc && !isUserDocLoading && !user.isAnonymous) {
+    if (db && user && !userDoc && !userDocError && !isUserDocLoading && !user.isAnonymous) {
       setDocumentNonBlocking(doc(db, 'users', user.uid), {
         id: user.uid,
         email: user.email,
@@ -62,7 +62,7 @@ export default function ProfilePage() {
         updatedAt: new Date().toISOString()
       }, { merge: true });
     }
-  }, [user, userDoc, isUserDocLoading, db]);
+  }, [user, userDoc, userDocError, isUserDocLoading, db]);
 
   // Fetch user-owned data
   const enrollQ = useMemoFirebase(() => user ? collection(db, 'users', user.uid, 'enrollments') : null, [db, user]);
@@ -131,9 +131,16 @@ export default function ProfilePage() {
           </div>
           
           <div className="text-center md:text-left flex-1 space-y-1">
-            <h1 className="text-3xl font-bold tracking-tight">{user.displayName || userDoc?.firstName ? `${userDoc?.firstName} ${userDoc?.lastName || ''}` : "Law Student"}</h1>
+            <h1 className="text-3xl font-bold tracking-tight">{userDoc?.displayName ||
+              [userDoc?.firstName, userDoc?.lastName].filter(Boolean).join(' ') ||
+              user.displayName || 'Law Student'}</h1>
             <div className="flex flex-col gap-1">
               <p className="text-blue-100/70 font-medium text-sm">{user.email}</p>
+              {userDoc?.contactEmail && userDoc.contactEmail !== user.email && (
+                <p className="text-blue-100/70 text-xs">
+                  Contact: {userDoc.contactEmail}
+                </p>
+              )}
               {userDoc?.username && (
                 <div className="inline-flex items-center gap-1.5 text-accent font-bold text-sm">
                   <AtSign className="h-3 w-3" />
