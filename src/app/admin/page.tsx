@@ -2,10 +2,9 @@
 
 import React, { useState, useEffect } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { useAuth, useFirestore, useDoc, useMemoFirebase } from '@/firebase';
+import { useAuth, useFirestore, useMemoFirebase } from '@/firebase';
 import { sendEmailVerification, reload } from 'firebase/auth';
 import { Button } from '@/components/ui/button';
-import { doc, setDoc } from 'firebase/firestore';
 import { GroupManager } from '@/components/admin/GroupManager';
 import { UserManagement } from '@/components/admin/UserManagement';
 import { CurriculumManager } from '@/components/admin/CurriculumManager';
@@ -28,7 +27,7 @@ import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 import { useAdminAccess } from '@/hooks/use-admin-access';
 
 export default function AdminPage() {
-  const { user, isAdmin: isVerifiedAdmin, isOwnerAdmin, isLoading: isAdminLoading } = useAdminAccess();
+  const { user, isAdmin: isVerifiedAdmin, isLoading: isAdminLoading } = useAdminAccess();
   const db = useFirestore();
   const auth = useAuth();
   const [verificationNotice, setVerificationNotice] = useState<string | null>(null);
@@ -37,14 +36,6 @@ export default function AdminPage() {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const userRef = useMemoFirebase(() => 
-    db && user ? doc(db, 'users', user.uid) : null, 
-    [db, user]
-  );
-  
-  const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
-
 
   const usersQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'users') : null, [db, isVerifiedAdmin]);
   const groupsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'groups') : null, [db, isVerifiedAdmin]);
@@ -72,30 +63,13 @@ export default function AdminPage() {
     ['Courses', coursesError],
   ].filter((entry): entry is [string, Error] => Boolean(entry[1]));
 
-  // Provision or repair the owner's profile after verified sign-in. Never elevate
-  // an unverified email or another user's profile on an admin-page visit.
-  useEffect(() => {
-    if (!db || !user || !isOwnerAdmin || isUserDocLoading) return;
-    if (userDoc?.role === 'admin' && userDoc?.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL) return;
-
-    setDoc(doc(db, 'users', user.uid), {
-      id: user.uid,
-      email: PRIMARY_ADMIN_EMAIL,
-      displayName: user.displayName || 'Marcus Haynes',
-      role: 'admin',
-      promotedAt: new Date().toISOString()
-    }, { merge: true }).catch((error) => {
-      console.error('Could not provision verified owner administrator profile:', error);
-    });
-  }, [db, user, isOwnerAdmin, userDoc, isUserDocLoading]);
-
     const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
-  if (!isClient || !mounted || isAdminLoading || (isVerifiedAdmin && isUserDocLoading)) {
+  if (!isClient || !mounted || isAdminLoading) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 space-y-4">
         <div className="h-12 w-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
