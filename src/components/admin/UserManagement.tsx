@@ -279,8 +279,13 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                   <TableCell className="py-0.5 px-2">{renderCell(u, 'phone', 'Phone')}</TableCell>
                   <TableCell className="py-0.5 px-2">
                     <div className="flex items-center justify-between gap-2">
+                      {isTargetMarcus ? (
+                        <span className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-500/10 px-2 py-1 text-[10px] font-bold text-emerald-700 dark:text-emerald-300">
+                          <ShieldCheck className="h-3.5 w-3.5" />
+                          Administrator (Owner)
+                        </span>
+                      ) : (
                       <Select 
-                        disabled={isTargetMarcus}
                         value={u.groupId || 'none'} 
                         onValueChange={(val) => handleUpdate(u.id, 'groupId', val)}
                       >
@@ -313,6 +318,7 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                           ))}
                         </SelectContent>
                       </Select>
+                      )}
                       {!isMe && !isTargetMarcus && (
                         <Button 
                           size="icon" 
