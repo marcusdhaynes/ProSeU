@@ -34,6 +34,7 @@ import {
 import { initiateSignOut } from "@/firebase/non-blocking-login";
 import { doc, collection } from "firebase/firestore";
 import Link from "next/link";
+import { isProSeUAdmin } from '@/lib/admin-access';
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -48,8 +49,7 @@ export default function ProfilePage() {
   );
   const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
   
-  // Consistently grant admin access to authenticated users in prototype
-  const isAdmin = user && !user.isAnonymous;
+  const isAdmin = isProSeUAdmin(user);
 
   // Ensure user document exists (Safe provision for legacy users or those missing fields)
   useEffect(() => {
@@ -125,7 +125,7 @@ export default function ProfilePage() {
             </div>
             {isAdmin && (
               <Badge className="absolute -bottom-2 -right-2 bg-emerald-500 text-white border-2 border-[#2c426b] text-[8px] font-bold px-2 py-0.5 rounded-full">
-                {userDoc?.role === 'executive' ? 'EXEC' : 'ADMIN'}
+                ADMIN
               </Badge>
             )}
           </div>
