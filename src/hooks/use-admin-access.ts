@@ -1,41 +1,67 @@
 'use client';
 
-import { useMemo } from 'react';
-import { doc } from 'firebase/firestore';
-import { useDoc, useFirestore, useMemoFirebase, useUser } from '@/firebase';
+import { useEffect, useState } from 'react';
+import { doc, onSnapshot } from 'firebase/firestore';
+import { useFirestore, useUser } from '@/firebase';
 import { isProSeUAdmin } from '@/lib/admin-access';
 
 interface AdminGrant {
   email: string;
   role: 'admin';
-  grantedBy?: string;
-  grantedAt?: string;
+}
+
+interface GrantState {
+  uid: string | null;
+  grant: AdminGrant | null;
+  loading: boolean;
 }
 
 /**
- * Both primary and delegated admins use Firebase-verified identity. A mutable
- * /users/{uid}.role field is deliberately NOT a source of authorization.
- * Firestore rules independently enforce the same trusted adminGrants lookup.
+ * Authorize the verified owner or a separately delegated administrator.
+ * Never trust mutable /users/{uid}.role for administrator authorization.
+ * Firestore Security Rules must independently enforce the grant lookup.
  */
 export function useAdminAccess() {
   const { user, isUserLoading } = useUser();
   const db = useFirestore();
-  const grantRef = useMemoFirebase(
-    () => db && user && !user.isAnonymous && user.emailVerified
-      ? doc(db, 'adminGrants', user.uid) : null,
-    [db, user?.uid, user?.isAnonymous, user?.emailVerified]
-  );
-  const { data: grant, isLoading: isGrantLoading } = useDoc<AdminGrant>(grantRef);
   const isOwnerAdmin = isProSeUAdmin(user);
+  const needsGrant = !!user && !user.isAnonymous && user.emailVerified && !isOwnerAdmin;
+  const [state, setState] = useState<GrantState>({
+    uid: null, grant: null, loading: false
+  });
+
+  useEffect(() => {
+    if (!needsGrant || !user) {
+      setState({ uid: null, grant: null, loading: false });
+      return;
+    }
+
+    const uid = user.uid;
+    setState({ uid, grant: null, loading: true });
+    const unsubscribe = onSnapshot(doc(db, 'adminGrants', uid), snapshot => {
+      setState({
+        uid,
+        grant: snapshot.exists() ? snapshot.data() as AdminGrant : null,
+        loading: false
+      });
+    }, () => {
+      // Missing/undeployed grant read permissions are a denial of admin access,
+      // not a fatal error for ordinary users visiting public pages.
+      setState({ uid, grant: null, loading: false });
+    });
+    return unsubscribe;
+  }, [db, needsGrant, user?.uid]);
+
   const isDelegatedAdmin = Boolean(
-    user && !user.isAnonymous && user.emailVerified && grant
-    && grant.id === user.uid && grant.role === 'admin'
-    && grant.email.toLowerCase() === user.email?.trim().toLowerCase()
+    needsGrant && state.uid === user?.uid && state.grant
+    && state.grant.role === 'admin'
+    && state.grant.email === user?.email
   );
-  return useMemo(() => ({
+
+  return {
     user,
     isAdmin: isOwnerAdmin || isDelegatedAdmin,
     isOwnerAdmin,
-    isLoading: isUserLoading || (!!grantRef && isGrantLoading)
-  }), [user, isOwnerAdmin, isDelegatedAdmin, isUserLoading, grantRef, isGrantLoading]);
+    isLoading: isUserLoading || (needsGrant && (state.uid !== user?.uid || state.loading))
+  };
 }
