@@ -4,6 +4,11 @@
 -- the identity key. Existing Firebase UIDs are imported via a private mapping.
 -- All permissions below are enforced in PostgreSQL with Row Level Security.
 
+-- Security-definer helpers are in a schema NOT exposed through the Data API.
+create schema if not exists proseu_private;
+revoke all on schema proseu_private from public, anon;
+grant usage on schema proseu_private to authenticated;
+
 create table if not exists public.proseu_profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   username text unique,
@@ -68,7 +73,7 @@ create table if not exists public.proseu_legacy_identity_links (
 
 -- Prevent recursive RLS: SECURITY DEFINER functions resolve admin access
 -- against authoritative auth.users, not an editable profile.role field.
-create or replace function public.proseu_is_owner()
+create or replace function proseu_private.is_owner()
 returns boolean language sql stable security definer set search_path = ''
 as $$
   select exists (
@@ -79,10 +84,10 @@ as $$
   );
 $$;
 
-create or replace function public.proseu_is_admin()
+create or replace function proseu_private.is_admin()
 returns boolean language sql stable security definer set search_path = ''
 as $$
-  select (select public.proseu_is_owner()) or exists (
+  select (select proseu_private.is_owner()) or exists (
     select 1 from public.proseu_admin_grants g
     join auth.users u on u.id = g.user_id
     where g.user_id = (select auth.uid())
@@ -91,9 +96,17 @@ as $$
   );
 $$;
 
-revoke all on function public.proseu_is_owner() from public;
-revoke all on function public.proseu_is_admin() from public;
-grant execute on function public.proseu_is_owner() to authenticated;
+revoke all on function proseu_private.is_owner() from public, anon;
+revoke all on function proseu_private.is_admin() from public, anon;
+grant execute on function proseu_private.is_owner() to authenticated;
+grant execute on function proseu_private.is_admin() to authenticated;
+
+-- Public RPC is a harmless boolean wrapper; callers never receive privileged
+-- database-table access and ordinary users always receive false.
+create or replace function public.proseu_is_admin()
+returns boolean language sql stable security invoker set search_path = ''
+as $ select proseu_private.is_admin(); $;
+revoke all on function public.proseu_is_admin() from public, anon;
 grant execute on function public.proseu_is_admin() to authenticated;
 
 alter table public.proseu_profiles enable row level security;
@@ -106,7 +119,7 @@ alter table public.proseu_legacy_identity_links enable row level security;
 
 create policy "Read own profile or administer directory" on public.proseu_profiles
   for select to authenticated
-  using (id = (select auth.uid()) or (select public.proseu_is_admin()));
+  using (id = (select auth.uid()) or (select proseu_private.is_admin()));
 create policy "Edit only own editable profile details" on public.proseu_profiles
   for update to authenticated
   using (id = (select auth.uid()))
@@ -119,47 +132,48 @@ grant update (username, display_name, first_name, last_name, phone, updated_at)
 
 create policy "Read own grant or administer grants" on public.proseu_admin_grants
   for select to authenticated
-  using (user_id = (select auth.uid()) or (select public.proseu_is_admin()));
+  using (user_id = (select auth.uid()) or (select proseu_private.is_admin()));
 create policy "Current admin appoints another user" on public.proseu_admin_grants
   for insert to authenticated
-  with check ((select public.proseu_is_admin())
+  with check ((select proseu_private.is_admin())
+    and role = 'admin'
     and user_id <> (select auth.uid())
     and granted_by = (select auth.uid()));
 create policy "Current admin revokes another user" on public.proseu_admin_grants
   for delete to authenticated
-  using ((select public.proseu_is_admin()) and user_id <> (select auth.uid()));
+  using ((select proseu_private.is_admin()) and user_id <> (select auth.uid()));
 -- No UPDATE policy: grant changes require explicit revocation and re-appointment.
 
 create policy "Read own plan or administer plans" on public.proseu_entitlements
   for select to authenticated
-  using (user_id = (select auth.uid()) or (select public.proseu_is_admin()));
+  using (user_id = (select auth.uid()) or (select proseu_private.is_admin()));
 create policy "Admins create plans" on public.proseu_entitlements
-  for insert to authenticated with check ((select public.proseu_is_admin()));
+  for insert to authenticated with check ((select proseu_private.is_admin()));
 create policy "Admins change plans" on public.proseu_entitlements
-  for update to authenticated using ((select public.proseu_is_admin()))
-  with check ((select public.proseu_is_admin()));
+  for update to authenticated using ((select proseu_private.is_admin()))
+  with check ((select proseu_private.is_admin()));
 create policy "Admins delete plans" on public.proseu_entitlements
-  for delete to authenticated using ((select public.proseu_is_admin()));
+  for delete to authenticated using ((select proseu_private.is_admin()));
 
 create policy "Public learning catalog" on public.proseu_catalog
   for select to anon, authenticated using (true);
 create policy "Admins insert catalog" on public.proseu_catalog
-  for insert to authenticated with check ((select public.proseu_is_admin()));
+  for insert to authenticated with check ((select proseu_private.is_admin()));
 create policy "Admins update catalog" on public.proseu_catalog
-  for update to authenticated using ((select public.proseu_is_admin()))
-  with check ((select public.proseu_is_admin()));
+  for update to authenticated using ((select proseu_private.is_admin()))
+  with check ((select proseu_private.is_admin()));
 create policy "Admins delete catalog" on public.proseu_catalog
-  for delete to authenticated using ((select public.proseu_is_admin()));
+  for delete to authenticated using ((select proseu_private.is_admin()));
 
 create policy "Public site content" on public.proseu_site_content
   for select to anon, authenticated using (true);
 create policy "Admins insert site content" on public.proseu_site_content
-  for insert to authenticated with check ((select public.proseu_is_admin()));
+  for insert to authenticated with check ((select proseu_private.is_admin()));
 create policy "Admins update site content" on public.proseu_site_content
-  for update to authenticated using ((select public.proseu_is_admin()))
-  with check ((select public.proseu_is_admin()));
+  for update to authenticated using ((select proseu_private.is_admin()))
+  with check ((select proseu_private.is_admin()));
 create policy "Admins delete site content" on public.proseu_site_content
-  for delete to authenticated using ((select public.proseu_is_admin()));
+  for delete to authenticated using ((select proseu_private.is_admin()));
 
 create policy "User reads only own private records" on public.proseu_private_records
   for select to authenticated using (user_id = (select auth.uid()));
@@ -189,6 +203,30 @@ $$;
 drop trigger if exists proseu_on_auth_user_created on auth.users;
 create trigger proseu_on_auth_user_created
 after insert on auth.users for each row execute function public.proseu_new_user();
+
+-- Restricted directory exposes verified emails only to authenticated admins.
+-- It never permits ordinary users to enumerate auth.users.
+create or replace function proseu_private.admin_directory()
+returns table (id uuid, email text, username text, display_name text,
+               first_name text, last_name text, phone text, plan text)
+language sql stable security definer set search_path = ''
+as $
+  select p.id, u.email::text, p.username, p.display_name,
+         p.first_name, p.last_name, p.phone, coalesce(e.plan, 'free')
+  from public.proseu_profiles p
+  join auth.users u on u.id = p.id
+  left join public.proseu_entitlements e on e.user_id = p.id
+  where (select proseu_private.is_admin());
+$;
+revoke all on function proseu_private.admin_directory() from public, anon;
+grant execute on function proseu_private.admin_directory() to authenticated;
+create or replace function public.proseu_admin_directory()
+returns table (id uuid, email text, username text, display_name text,
+               first_name text, last_name text, phone text, plan text)
+language sql stable security invoker set search_path = ''
+as $ select * from proseu_private.admin_directory(); $;
+revoke all on function public.proseu_admin_directory() from public, anon;
+grant execute on function public.proseu_admin_directory() to authenticated;
 
 -- Browser SDK uses the anon/publishable key only; NEVER expose service_role.
 grant select on public.proseu_catalog, public.proseu_site_content to anon, authenticated;
