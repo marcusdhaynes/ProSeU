@@ -40,9 +40,9 @@ import {
   User as UserIcon
 } from 'lucide-react';
 import { useFirestore, updateDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
-import { doc } from 'firebase/firestore';
+import { doc, writeBatch } from 'firebase/firestore';
 import { cn } from '@/lib/utils';
-import { isProSeUAdmin, PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
+import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 
 const MARCUS_UID = 'M4aAAH071gevhmRgZ1diT857i5U2';
 const MARCUS_EMAILS = [PRIMARY_ADMIN_EMAIL];
@@ -60,9 +60,11 @@ interface UserManagementProps {
   groups: any[];
   currentUser: any;
   currentUserDoc: any;
+  isAdmin: boolean;
+  adminGrants: any[];
 }
 
-export function UserManagement({ users, groups, currentUser, currentUserDoc }: UserManagementProps) {
+export function UserManagement({ users, groups, currentUser, isAdmin, adminGrants }: UserManagementProps) {
   const db = useFirestore();
   const [search, setSearch] = useState('');
   const [editingCell, setEditingCell] = useState<{ userId: string; field: string } | null>(null);
@@ -70,7 +72,8 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
   const [deleteId, setDeleteId] = useState<string | null>(null);
   const [deleteConfirm, setDeleteConfirm] = useState('');
 
-  const isExecutive = isProSeUAdmin(currentUser);
+  const [roleError, setRoleError] = useState<string | null>(null);
+  const [updatingRoleId, setUpdatingRoleId] = useState<string | null>(null);
 
   const groupTree = useMemo(() => {
     const roleGroups: Record<string, any[]> = {
@@ -122,47 +125,87 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
     return list;
   }, [users, search, currentUser]);
 
-  const handleUpdate = (userId: string, field: string, value: any) => {
-    if (!db || !isExecutive) return;
-    // Never allow the primary administrator to be demoted via the role picker.
-    if (field === 'groupId' && users.some(u =>
-      u.id === userId && (u.id === MARCUS_UID || u.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL)
-    )) return;
+  const handleUpdate = async (userId: string, field: string, value: any) => {
+    if (!db || !isAdmin) return;
+    const target = users.find(u => u.id === userId);
+    if (!target) return;
+    // Owner cannot be demoted. Delegated admins cannot remove their own access.
+    if (field === 'groupId' && (userId === currentUser?.uid ||
+      userId === MARCUS_UID ||
+      target.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL)) return;
 
-    const updates: any = {
-      [field]: value,
-      updatedAt: new Date().toISOString()
-    };
-
-    if (field === 'groupId') {
-      if (value === 'none' || !value) {
-        updates.role = 'free';
-        updates.groupId = null;
-      } else {
-        const selectedGroup = groups.find(g => g.id === value);
-        if (selectedGroup) {
-          if (selectedGroup.category === 'admin') {
-            updates.role = selectedGroup.name.toLowerCase().includes('executive') ? 'executive' : 'admin';
-          } else if (selectedGroup.category === 'free') {
-            updates.role = 'free';
-          } else if (selectedGroup.category === 'trial') {
-            updates.role = selectedGroup.name.toLowerCase().includes('7') ? 'trial_7day' : 'trial_1day';
-          } else if (selectedGroup.category === 'membership') {
-            updates.role = selectedGroup.name.toLowerCase().includes('annual') ? 'paid_annual' : 'paid_monthly';
-          }
-        }
-      }
+    if (field !== 'groupId') {
+      updateDocumentNonBlocking(doc(db, 'users', userId), {
+        [field]: value, updatedAt: new Date().toISOString()
+      });
+      setEditingCell(null);
+      return;
     }
 
-    updateDocumentNonBlocking(doc(db, 'users', userId), updates);
-    setEditingCell(null);
+    const selectedGroup = groups.find(g => g.id === value);
+    const shouldGrantAdmin = value === '__admin__' ||
+      selectedGroup?.category === 'admin';
+    if (value !== 'none' && value !== '__admin__' && !selectedGroup) return;
+    if (shouldGrantAdmin && !target.email) {
+      setRoleError('Cannot appoint an administrator without an email address.');
+      return;
+    }
+
+    const role = shouldGrantAdmin ? 'admin' :
+      value === 'none' || selectedGroup?.category === 'free' ? 'free' :
+      selectedGroup?.category === 'trial' ?
+        (selectedGroup.name.includes('7') ? 'trial_7day' : 'trial_1day') :
+      selectedGroup?.category === 'membership' ?
+        (selectedGroup.name.toLowerCase().includes('annual') ? 'paid_annual' : 'paid_monthly') :
+      selectedGroup?.category === 'organization' ? 'organization' : 'free';
+
+    setRoleError(null);
+    setUpdatingRoleId(userId);
+    try {
+      // These two documents must change together. An ordinary user can never
+      // create or modify adminGrants or assign their own role.
+      const batch = writeBatch(db);
+      batch.set(doc(db, 'users', userId), {
+        groupId: value === 'none' || value === '__admin__' ? null : value,
+        role,
+        updatedAt: new Date().toISOString()
+      }, { merge: true });
+      if (shouldGrantAdmin) {
+        batch.set(doc(db, 'adminGrants', userId), {
+          email: target.email,
+          role: 'admin',
+          grantedBy: currentUser.uid,
+          grantedAt: new Date().toISOString()
+        });
+      } else {
+        batch.delete(doc(db, 'adminGrants', userId));
+      }
+      await batch.commit();
+      setEditingCell(null);
+    } catch (error) {
+      console.error('Could not change this user role:', error);
+      setRoleError('Unable to change the role. Check that Firestore security rules have been deployed.');
+    } finally {
+      setUpdatingRoleId(null);
+    }
   };
 
-  const handleDelete = () => {
-    if (!db || !isExecutive || !deleteId || deleteConfirm !== 'delete') return;
-    deleteDocumentNonBlocking(doc(db, 'users', deleteId));
-    setDeleteId(null);
-    setDeleteConfirm('');
+  const handleDelete = async () => {
+    if (!db || !isAdmin || !deleteId || deleteConfirm !== 'delete') return;
+    const target = users.find(u => u.id === deleteId);
+    if (deleteId === currentUser?.uid || deleteId === MARCUS_UID ||
+      target?.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL) return;
+    try {
+      const batch = writeBatch(db);
+      batch.delete(doc(db, 'adminGrants', deleteId));
+      batch.delete(doc(db, 'users', deleteId));
+      await batch.commit();
+      setDeleteId(null);
+      setDeleteConfirm('');
+    } catch (error) {
+      console.error('Could not delete this user profile:', error);
+      setRoleError('Could not delete the user profile.');
+    }
   };
 
   const isFiller = (val: string) => {
@@ -235,6 +278,7 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
         </div>
       </div>
 
+      {roleError && <p role="alert" className="text-xs font-semibold text-rose-600">{roleError}</p>}
       <div className="rounded-xl border overflow-hidden bg-card font-mono">
         <Table>
           <TableHeader className="bg-muted/50">
@@ -251,7 +295,13 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
           <TableBody>
             {filteredUsers.map((u) => {
               const isMe = u.id === currentUser?.uid;
-              const isTargetMarcus = u.id === MARCUS_UID || MARCUS_EMAILS.includes(u.email || '');
+              const isTargetMarcus = u.id === MARCUS_UID || MARCUS_EMAILS.includes(u.email?.toLowerCase() || '');
+              const grant = adminGrants.find(g => g.id === u.id && g.role === 'admin' &&
+                g.email?.toLowerCase() === u.email?.toLowerCase());
+              const selectedGroup = groups.find(g => g.id === u.groupId);
+              const roleValue = grant
+                ? (selectedGroup?.category === 'admin' ? u.groupId : '__admin__')
+                : (selectedGroup?.category === 'admin' ? 'none' : u.groupId || 'none');
 
               return (
                 <TableRow key={u.id} className={cn("group transition-colors", isMe && "bg-accent/5")}>
@@ -263,7 +313,7 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                       <div className="flex-1 min-w-0">
                         <div className="text-xs font-bold truncate flex items-center gap-1">
                           {u.displayName || 'Anonymous'}
-                          {isTargetMarcus && <ShieldCheck className="h-3 w-3 text-accent" />}
+                          {(isTargetMarcus || !!grant) && <ShieldCheck className="h-3 w-3 text-accent" />}
                         </div>
                       </div>
                     </div>
@@ -285,12 +335,13 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                           Administrator (Owner)
                         </span>
                       ) : (
-                      <Select 
-                        value={u.groupId || 'none'} 
-                        onValueChange={(val) => handleUpdate(u.id, 'groupId', val)}
+                      <Select
+                        disabled={!isAdmin || !!updatingRoleId || isMe}
+                        value={roleValue}
+                        onValueChange={(val) => void handleUpdate(u.id, 'groupId', val)}
                       >
                         <SelectTrigger className="h-6 w-44 text-[10px] rounded-lg border-none hover:bg-muted/50 font-bold uppercase py-0 px-2">
-                          <SelectValue placeholder={isTargetMarcus ? 'Administrator (Owner)' : 'No Role Assigned'} />
+                          <SelectValue placeholder="No Role Assigned" />
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="none" className="text-[10px]">None / Basic Free</SelectItem>
@@ -299,6 +350,11 @@ export function UserManagement({ users, groups, currentUser, currentUserDoc }: U
                               <SelectLabel className="text-[8px] font-bold uppercase tracking-[0.2em] text-muted-foreground bg-muted/30 px-2 py-1 my-1">
                                 {typeLabel}
                               </SelectLabel>
+                              {typeKey === 'admin' && (
+                                <SelectItem value="__admin__" className="text-[10px] font-bold">
+                                  Administrator
+                                </SelectItem>
+                              )}
                               {groupTree[typeKey].map(g => (
                                 <SelectItem 
                                   key={g.id} 
