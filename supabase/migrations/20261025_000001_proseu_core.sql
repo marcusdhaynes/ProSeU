@@ -124,8 +124,7 @@ create policy "Current admin appoints another user" on public.proseu_admin_grant
   for insert to authenticated
   with check ((select public.proseu_is_admin())
     and user_id <> (select auth.uid())
-    and granted_by = (select auth.uid())
-    and not (select public.proseu_is_owner()) is null);
+    and granted_by = (select auth.uid()));
 create policy "Current admin revokes another user" on public.proseu_admin_grants
   for delete to authenticated
   using ((select public.proseu_is_admin()) and user_id <> (select auth.uid()));
