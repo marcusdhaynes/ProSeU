@@ -40,7 +40,7 @@ import {
   User as UserIcon
 } from 'lucide-react';
 import { useFirestore, updateDocumentNonBlocking, deleteDocumentNonBlocking } from '@/firebase';
-import { doc, writeBatch } from 'firebase/firestore';
+import { doc } from 'firebase/firestore';
 import { cn } from '@/lib/utils';
 import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
 
@@ -59,12 +59,10 @@ interface UserManagementProps {
   users: any[];
   groups: any[];
   currentUser: any;
-  currentUserDoc: any;
   isAdmin: boolean;
-  adminGrants: any[];
 }
 
-export function UserManagement({ users, groups, currentUser, isAdmin, adminGrants }: UserManagementProps) {
+export function UserManagement({ users, groups, currentUser, isAdmin }: UserManagementProps) {
   const db = useFirestore();
   const [search, setSearch] = useState('');
   const [editingCell, setEditingCell] = useState<{ userId: string; field: string } | null>(null);
@@ -125,87 +123,27 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
     return list;
   }, [users, search, currentUser]);
 
-  const handleUpdate = async (userId: string, field: string, value: any) => {
-    if (!db || !isAdmin) return;
-    const target = users.find(u => u.id === userId);
-    if (!target) return;
-    // Owner cannot be demoted. Delegated admins cannot remove their own access.
-    if (field === 'groupId' && (userId === currentUser?.uid ||
-      userId === MARCUS_UID ||
-      target.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL)) return;
-
-    if (field !== 'groupId') {
-      updateDocumentNonBlocking(doc(db, 'users', userId), {
-        [field]: value, updatedAt: new Date().toISOString()
-      });
-      setEditingCell(null);
+  // The live application still authenticates with Firebase. Supabase admin
+  // grants cannot be safely assigned to Firebase UIDs, so don't write legacy
+  // adminGrants or allow role changes until verified Supabase Auth cutover.
+  const handleUpdate = (userId: string, field: string, value: any) => {
+    if (!db || !isAdmin || userId === currentUser?.uid) return;
+    if (field === 'groupId' || field === 'role') {
+      setRoleError('Roles are read-only during the Supabase migration. Admin appointments will resume with verified Supabase accounts.');
       return;
     }
-
-    const selectedGroup = groups.find(g => g.id === value);
-    const shouldGrantAdmin = value === '__admin__' ||
-      selectedGroup?.category === 'admin';
-    if (value !== 'none' && value !== '__admin__' && !selectedGroup) return;
-    if (shouldGrantAdmin && !target.email) {
-      setRoleError('Cannot appoint an administrator without an email address.');
-      return;
-    }
-
-    const role = shouldGrantAdmin ? 'admin' :
-      value === 'none' || selectedGroup?.category === 'free' ? 'free' :
-      selectedGroup?.category === 'trial' ?
-        (selectedGroup.name.includes('7') ? 'trial_7day' : 'trial_1day') :
-      selectedGroup?.category === 'membership' ?
-        (selectedGroup.name.toLowerCase().includes('annual') ? 'paid_annual' : 'paid_monthly') :
-      selectedGroup?.category === 'organization' ? 'organization' : 'free';
-
-    setRoleError(null);
-    setUpdatingRoleId(userId);
-    try {
-      // These two documents must change together. An ordinary user can never
-      // create or modify adminGrants or assign their own role.
-      const batch = writeBatch(db);
-      batch.set(doc(db, 'users', userId), {
-        groupId: value === 'none' || value === '__admin__' ? null : value,
-        role,
-        updatedAt: new Date().toISOString()
-      }, { merge: true });
-      if (shouldGrantAdmin) {
-        batch.set(doc(db, 'adminGrants', userId), {
-          email: target.email,
-          role: 'admin',
-          grantedBy: currentUser.uid,
-          grantedAt: new Date().toISOString()
-        });
-      } else {
-        batch.delete(doc(db, 'adminGrants', userId));
-      }
-      await batch.commit();
-      setEditingCell(null);
-    } catch (error) {
-      console.error('Could not change this user role:', error);
-      setRoleError('Unable to change the role. Check that Firestore security rules have been deployed.');
-    } finally {
-      setUpdatingRoleId(null);
-    }
+    updateDocumentNonBlocking(doc(db, 'users', userId), {
+      [field]: value, updatedAt: new Date().toISOString()
+    });
+    setEditingCell(null);
   };
 
-  const handleDelete = async () => {
-    if (!db || !isAdmin || !deleteId || deleteConfirm !== 'delete') return;
-    const target = users.find(u => u.id === deleteId);
-    if (deleteId === currentUser?.uid || deleteId === MARCUS_UID ||
-      target?.email?.toLowerCase() === PRIMARY_ADMIN_EMAIL) return;
-    try {
-      const batch = writeBatch(db);
-      batch.delete(doc(db, 'adminGrants', deleteId));
-      batch.delete(doc(db, 'users', deleteId));
-      await batch.commit();
-      setDeleteId(null);
-      setDeleteConfirm('');
-    } catch (error) {
-      console.error('Could not delete this user profile:', error);
-      setRoleError('Could not delete the user profile.');
-    }
+  // Do not claim to delete an account by deleting only its legacy profile:
+  // Firebase Auth identity and private child records would remain.
+  const handleDelete = () => {
+    setDeleteId(null);
+    setDeleteConfirm('');
+    setRoleError('Account deletion is paused until the identity migration is complete.');
   };
 
   const isFiller = (val: string) => {
@@ -264,7 +202,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h2 className="text-xl font-bold">Users</h2>
-          <p className="text-muted-foreground text-xs font-medium">Coordinate accounts, roles, and administrative access levels.</p>
+          <p className="text-muted-foreground text-xs font-medium">Review existing accounts while administrator roles move to Supabase.</p>
         </div>
         <div className="relative w-full md:w-80">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -278,6 +216,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
         </div>
       </div>
 
+      <p role="status" className="rounded-lg border border-border bg-muted/30 p-3 text-xs text-muted-foreground">Legacy Firebase roles are read-only. Administrator appointments and account deletion will resume only after verified Supabase Google authentication and data migration.</p>
       {roleError && <p role="alert" className="text-xs font-semibold text-rose-600">{roleError}</p>}
       <div className="rounded-xl border overflow-hidden bg-card font-mono">
         <Table>
@@ -296,12 +235,9 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
             {filteredUsers.map((u) => {
               const isMe = u.id === currentUser?.uid;
               const isTargetMarcus = u.id === MARCUS_UID || MARCUS_EMAILS.includes(u.email?.toLowerCase() || '');
-              const grant = adminGrants.find(g => g.id === u.id && g.role === 'admin' &&
-                g.email?.toLowerCase() === u.email?.toLowerCase());
               const selectedGroup = groups.find(g => g.id === u.groupId);
-              const roleValue = grant
-                ? (selectedGroup?.category === 'admin' ? u.groupId : '__admin__')
-                : (selectedGroup?.category === 'admin' ? 'none' : u.groupId || 'none');
+              const legacyRoleLabel = selectedGroup?.name || (u.role === 'admin'
+                ? 'Legacy Admin (inactive)' : (u.role || 'Basic Free'));
 
               return (
                 <TableRow key={u.id} className={cn("group transition-colors", isMe && "bg-accent/5")}>
@@ -313,7 +249,7 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
                       <div className="flex-1 min-w-0">
                         <div className="text-xs font-bold truncate flex items-center gap-1">
                           {u.displayName || 'Anonymous'}
-                          {(isTargetMarcus || !!grant) && <ShieldCheck className="h-3 w-3 text-accent" />}
+                          {isTargetMarcus && <ShieldCheck className="h-3 w-3 text-accent" />}
                         </div>
                       </div>
                     </div>
@@ -335,48 +271,12 @@ export function UserManagement({ users, groups, currentUser, isAdmin, adminGrant
                           Administrator (Owner)
                         </span>
                       ) : (
-                      <Select
-                        disabled={!isAdmin || !!updatingRoleId || isMe}
-                        value={roleValue}
-                        onValueChange={(val) => void handleUpdate(u.id, 'groupId', val)}
-                      >
-                        <SelectTrigger className="h-6 w-44 text-[10px] rounded-lg border-none hover:bg-muted/50 font-bold uppercase py-0 px-2">
-                          <SelectValue placeholder="No Role Assigned" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="none" className="text-[10px]">None / Basic Free</SelectItem>
-                          {Object.entries(GROUP_TYPE_MAP).map(([typeKey, typeLabel]) => (
-                            <SelectGroup key={typeKey}>
-                              <SelectLabel className="text-[8px] font-bold uppercase tracking-[0.2em] text-muted-foreground bg-muted/30 px-2 py-1 my-1">
-                                {typeLabel}
-                              </SelectLabel>
-                              {typeKey === 'admin' && (
-                                <SelectItem value="__admin__" className="text-[10px] font-bold">
-                                  Administrator
-                                </SelectItem>
-                              )}
-                              {groupTree[typeKey].map(g => (
-                                <SelectItem 
-                                  key={g.id} 
-                                  value={g.id} 
-                                  className="text-[10px] pl-4"
-                                >
-                                  <div className="flex items-center gap-1">
-                                    {Array.from({ length: g.depth }).map((_, i) => (
-                                      <span key={i} className="w-2" />
-                                    ))}
-                                    {g.depth > 0 && <ChevronRight className="h-2 w-2 text-muted-foreground" />}
-                                    {g.name}
-                                  </div>
-                                </SelectItem>
-                              ))}
-                            </SelectGroup>
-                          ))}
-                        </SelectContent>
-                      </Select>
+                      <span className="rounded-lg bg-muted/40 px-2 py-1 text-[10px] font-bold uppercase text-muted-foreground" title="Role changes will be available when Supabase Google sign-in is enabled">
+                        {legacyRoleLabel}
+                      </span>
                       )}
                       {!isMe && !isTargetMarcus && (
-                        <Button 
+                        <Button disabled title="Account deletion is paused until the Supabase migration completes" 
                           size="icon" 
                           variant="ghost" 
                           className="h-6 w-6 text-rose-500 opacity-0 group-hover:opacity-100 hover:bg-rose-50"
