@@ -7,7 +7,7 @@ alter table public.proseu_profiles
   add constraint proseu_contact_email_valid
   check (contact_email is null or (
     length(contact_email) <= 254 and
-    contact_email ~* '^[^[:space:]@]+@[^[:space:]@]+\\.[^[:space:]@]+$'
+    contact_email ~* '^[^[:space:]@]+@[^[:space:]@]+[.][^[:space:]@]+$'
   ));
 
 -- Admins edit any member's profile, while ordinary users can edit only their
