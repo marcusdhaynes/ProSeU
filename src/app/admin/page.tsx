@@ -47,7 +47,6 @@ export default function AdminPage() {
 
 
   const usersQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'users') : null, [db, isVerifiedAdmin]);
-  const grantsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'adminGrants') : null, [db, isVerifiedAdmin]);
   const groupsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'groups') : null, [db, isVerifiedAdmin]);
   const conceptsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'atomic_concepts') : null, [db, isVerifiedAdmin]);
   
@@ -56,7 +55,6 @@ export default function AdminPage() {
   const coursesQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'courses') : null, [db, isVerifiedAdmin]);
 
   const { data: allUsersRaw, error: usersError } = useCollection(usersQ);
-  const { data: adminGrantsRaw, error: grantsError } = useCollection(grantsQ);
   const { data: groupsRaw, error: groupsError } = useCollection(groupsQ);
   const { data: conceptsRaw, isLoading: isConceptsLoading, error: conceptsError } = useCollection(conceptsQ);
   const { data: domainsRaw, error: domainsError } = useCollection(domainsQ);
@@ -67,7 +65,6 @@ export default function AdminPage() {
   // denied query behind an empty user table or a global, context-free banner.
   const blockedCollections = [
     ['Users', usersError],
-    ['Admin grants', grantsError],
     ['Roles', groupsError],
     ['Atomic concepts', conceptsError],
     ['Domains', domainsError],
@@ -180,9 +177,9 @@ export default function AdminPage() {
             <strong className="ml-1 text-foreground">{blockedCollections.map(([label]) => label).join(', ')}</strong>.
           </p>
           <p className="text-xs text-muted-foreground">
-            This is a database-permissions problem, not a GitHub Pages problem.
-            The Firebase security rules must be deployed separately to the ProSeU Firestore database.
-            Until then, administrator records cannot be reliably loaded or modified.
+            Legacy Firebase data is still in use until the records are migrated to Supabase.
+            A remaining denial means this Firebase collection needs its existing access rules reviewed.
+            The obsolete Firebase admin-grants request has been removed.
           </p>
           <a
             className="inline-block text-xs font-semibold text-accent underline"
@@ -210,9 +207,7 @@ export default function AdminPage() {
             users={allUsersRaw || []} 
             groups={groupsRaw || []} 
             currentUser={user}
-            currentUserDoc={userDoc}
             isAdmin={isVerifiedAdmin}
-            adminGrants={adminGrantsRaw || []}
           />
         </TabsContent>
 
