@@ -55,13 +55,25 @@ export default function AdminPage() {
   const fieldsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'fields') : null, [db, isVerifiedAdmin]);
   const coursesQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'courses') : null, [db, isVerifiedAdmin]);
 
-  const { data: allUsersRaw } = useCollection(usersQ);
-  const { data: adminGrantsRaw } = useCollection(grantsQ);
-  const { data: groupsRaw } = useCollection(groupsQ);
-  const { data: conceptsRaw, isLoading: isConceptsLoading } = useCollection(conceptsQ);
-  const { data: domainsRaw } = useCollection(domainsQ);
-  const { data: fieldsRaw } = useCollection(fieldsQ);
-  const { data: coursesRaw } = useCollection(coursesQ);
+  const { data: allUsersRaw, error: usersError } = useCollection(usersQ);
+  const { data: adminGrantsRaw, error: grantsError } = useCollection(grantsQ);
+  const { data: groupsRaw, error: groupsError } = useCollection(groupsQ);
+  const { data: conceptsRaw, isLoading: isConceptsLoading, error: conceptsError } = useCollection(conceptsQ);
+  const { data: domainsRaw, error: domainsError } = useCollection(domainsQ);
+  const { data: fieldsRaw, error: fieldsError } = useCollection(fieldsQ);
+  const { data: coursesRaw, error: coursesError } = useCollection(coursesQ);
+
+  // Report precisely which protected backend requests failed. Do not hide a
+  // denied query behind an empty user table or a global, context-free banner.
+  const blockedCollections = [
+    ['Users', usersError],
+    ['Admin grants', grantsError],
+    ['Roles', groupsError],
+    ['Atomic concepts', conceptsError],
+    ['Domains', domainsError],
+    ['Fields', fieldsError],
+    ['Courses', coursesError],
+  ].filter((entry): entry is [string, Error] => Boolean(entry[1]));
 
   // Provision or repair the owner's profile after verified sign-in. Never elevate
   // an unverified email or another user's profile on an admin-page visit.
@@ -160,6 +172,29 @@ export default function AdminPage() {
         </div>
       </header>
 
+      {blockedCollections.length > 0 && (
+        <section role="alert" className="space-y-2 rounded-xl border border-amber-400/40 bg-amber-500/5 p-4">
+          <h2 className="text-sm font-bold">Administrator data could not be loaded</h2>
+          <p className="text-xs text-muted-foreground">
+            Your signed-in account passed the administrator screen check, but Firebase rejected these requests:
+            <strong className="ml-1 text-foreground">{blockedCollections.map(([label]) => label).join(', ')}</strong>.
+          </p>
+          <p className="text-xs text-muted-foreground">
+            This is a database-permissions problem, not a GitHub Pages problem.
+            The Firebase security rules must be deployed separately to the ProSeU Firestore database.
+            Until then, administrator records cannot be reliably loaded or modified.
+          </p>
+          <a
+            className="inline-block text-xs font-semibold text-accent underline"
+            href="https://console.firebase.google.com/project/proseu-working-03-624365-f0705/firestore"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open ProSeU in Firebase Console
+          </a>
+        </section>
+      )}
+
       <Tabs defaultValue="users" className="w-full">
         <TabsList className="bg-muted/50 p-1 rounded-xl mb-6 flex flex-wrap h-auto gap-1">
           <TabsTrigger value="users" className="gap-2 rounded-lg data-[state=active]:bg-background data-[state=active]:shadow-sm"><UsersIcon className="h-4 w-4" /> Users</TabsTrigger>
@@ -171,7 +206,7 @@ export default function AdminPage() {
         </TabsList>
 
         <TabsContent value="users">
-          <UserManagement 
+          <UserManagement
             users={allUsersRaw || []} 
             groups={groupsRaw || []} 
             currentUser={user}
