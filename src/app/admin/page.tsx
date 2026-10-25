@@ -22,10 +22,11 @@ import {
 } from 'lucide-react';
 import { useCollection } from '@/firebase';
 import { collection } from 'firebase/firestore';
-import { isProSeUAdmin, PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
+import { PRIMARY_ADMIN_EMAIL } from '@/lib/admin-access';
+import { useAdminAccess } from '@/hooks/use-admin-access';
 
 export default function AdminPage() {
-  const { user, isUserLoading } = useUser();
+  const { user, isAdmin: isVerifiedAdmin, isLoading: isAdminLoading } = useAdminAccess();
   const db = useFirestore();
   const [mounted, setMounted] = useState(false);
 
@@ -40,11 +41,9 @@ export default function AdminPage() {
   
   const { data: userDoc, isLoading: isUserDocLoading } = useDoc(userRef);
 
-  // Only the verified Firebase account for the authorized owner can use admin functions.
-  // Profile roles are not proof of permission because users can edit profile data.
-  const isVerifiedAdmin = isProSeUAdmin(user);
 
   const usersQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'users') : null, [db, isVerifiedAdmin]);
+  const grantsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'adminGrants') : null, [db, isVerifiedAdmin]);
   const groupsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'groups') : null, [db, isVerifiedAdmin]);
   const conceptsQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'atomic_concepts') : null, [db, isVerifiedAdmin]);
   
@@ -53,6 +52,7 @@ export default function AdminPage() {
   const coursesQ = useMemoFirebase(() => (db && isVerifiedAdmin) ? collection(db, 'courses') : null, [db, isVerifiedAdmin]);
 
   const { data: allUsersRaw } = useCollection(usersQ);
+  const { data: adminGrantsRaw } = useCollection(grantsQ);
   const { data: groupsRaw } = useCollection(groupsQ);
   const { data: conceptsRaw, isLoading: isConceptsLoading } = useCollection(conceptsQ);
   const { data: domainsRaw } = useCollection(domainsQ);
@@ -82,7 +82,7 @@ export default function AdminPage() {
     setIsClient(true);
   }, []);
 
-  if (!isClient || !mounted || isUserLoading || isUserDocLoading) {
+  if (!isClient || !mounted || isAdminLoading || (isVerifiedAdmin && isUserDocLoading)) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center p-8 space-y-4">
         <div className="h-12 w-12 border-4 border-primary border-t-transparent rounded-full animate-spin" />
@@ -132,6 +132,8 @@ export default function AdminPage() {
             groups={groupsRaw || []} 
             currentUser={user}
             currentUserDoc={userDoc}
+            isAdmin={isVerifiedAdmin}
+            adminGrants={adminGrantsRaw || []}
           />
         </TabsContent>
 
