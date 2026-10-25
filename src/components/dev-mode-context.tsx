@@ -1,7 +1,6 @@
 'use client';
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useUser } from '@/firebase';
-import { isProSeUAdmin } from '@/lib/admin-access';
+import { useAdminAccess } from '@/hooks/use-admin-access';
 
 interface DevModeContextType {
   isEditMode: boolean;
@@ -16,8 +15,7 @@ interface DevModeContextType {
 const DevModeContext = createContext<DevModeContextType | undefined>(undefined);
 
 export function DevModeProvider({ children }: { children: React.ReactNode }) {
-  const { user } = useUser();
-  const isAdmin = isProSeUAdmin(user);
+  const { isAdmin } = useAdminAccess();
   const [requestedEditMode, setRequestedEditMode] = useState(false);
   const isEditMode = requestedEditMode && isAdmin;
   const setIsEditMode = (enabled: boolean) => setRequestedEditMode(enabled && isAdmin);
