@@ -12,7 +12,7 @@ import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
 import { useUser } from "@/firebase";
-import { isProSeUAdmin } from "@/lib/admin-access";
+import { useAdminAccess } from '@/hooks/use-admin-access';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -29,6 +29,7 @@ export function MainNav() {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const { user, isUserLoading } = useUser();
+  const { isAdmin } = useAdminAccess();
   const { 
     isEditMode, 
     setIsEditMode, 
@@ -108,7 +109,6 @@ export function MainNav() {
   }
 
   const isAnonymous = user?.isAnonymous;
-  const isAdmin = isProSeUAdmin(user);
 
   return (
     <>
