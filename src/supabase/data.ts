@@ -59,8 +59,9 @@ export async function saveMyRecord(kind: string, id: string, value: Record<strin
 }
 
 export async function fetchUserDirectory() {
-  const { data, error } = await requireClient().from('proseu_profiles')
-    .select('id,username,display_name,first_name,last_name,phone,created_at');
+  // The privileged RPC checks administrator status inside PostgreSQL.
+  // Reading the profiles table directly intentionally excludes email addresses.
+  const { data, error } = await requireClient().rpc('proseu_admin_directory');
   if (error) throw error;
   return data || [];
 }
