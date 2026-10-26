@@ -8,7 +8,7 @@ import {
   addDocumentNonBlocking, 
   deleteDocumentNonBlocking 
 } from '@/firebase';
-import { collection, doc, Firestore } from 'firebase/firestore';
+import { collection, doc, Firestore, writeBatch } from 'firebase/firestore';
 import { 
   Plus, 
   PlusCircle, 
@@ -57,13 +57,14 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { CourseContentEditor } from './CourseContentEditor';
+import { FoundingCurriculumImport } from './FoundingCurriculumImport';
 import { useSiteContent } from '@/components/site-content-context';
 import { cn } from '@/lib/utils';
 import { generateIntuitiveCode } from '@/lib/codes';
 
 interface Domain { id: string; name: string; description: string; order: number; visible: boolean; slug: string; code?: string; }
 interface Field { id: string; name: string; description: string; domainId: string; order: number; visible: boolean; code?: string; }
-interface Course { id: string; title: string; domainId: string; fieldId: string; order: number; visible: boolean; description: string; slug: string; code?: string; }
+interface Course { id: string; title: string; domainId: string; fieldId: string; order: number; visible: boolean; description: string; slug: string; code?: string; curriculumCode?: string; }
 
 // --- Sub-Components moved outside to prevent re-mounting and hook errors ---
 
@@ -215,9 +216,9 @@ export function CurriculumManager({ db }: { db: Firestore }) {
   const fieldsQ = useMemoFirebase(() => collection(db, 'fields'), [db]);
   const coursesQ = useMemoFirebase(() => collection(db, 'courses'), [db]);
 
-  const { data: domsRaw } = useCollection<Domain>(domsQ);
-  const { data: fieldsRaw } = useCollection<Field>(fieldsQ);
-  const { data: coursesRaw } = useCollection<Course>(coursesQ);
+  const { data: domsRaw, isLoading: domainsLoading, error: domainsError } = useCollection<Domain>(domsQ);
+  const { data: fieldsRaw, isLoading: fieldsLoading, error: fieldsError } = useCollection<Field>(fieldsQ);
+  const { data: coursesRaw, isLoading: coursesLoading, error: coursesError } = useCollection<Course>(coursesQ);
 
   const [draggedItem, setDraggedItem] = useState<{ id: string, type: 'domain' | 'field' | 'course' } | null>(null);
   const [editingField, setEditingField] = useState<{ id: string; field: string } | null>(null);
@@ -372,24 +373,74 @@ export function CurriculumManager({ db }: { db: Firestore }) {
     }
   };
 
-  const handleDrop = (targetParentId: string, targetType: 'domain' | 'field' | 'course') => {
-    if (!draggedItem) return;
-
-    if (draggedItem.type === 'domain' && targetType === 'domain') {
-      const targetDom = domains.find(c => c.id === targetParentId);
-      const draggedDom = domains.find(c => c.id === draggedItem.id);
-      if (targetDom && draggedDom) {
-        const targetOrder = targetDom.order;
-        const draggedOrder = draggedDom.order;
-        updateItem('domains', draggedDom.id, { order: targetOrder });
-        updateItem('domains', targetDom.id, { order: draggedOrder });
-      }
-    } else if (draggedItem.type === 'field' && targetType === 'field') {
-      updateItem('fields', draggedItem.id, { domainId: targetParentId });
-    } else if (draggedItem.type === 'course' && targetType === 'course') {
-      updateItem('courses', draggedItem.id, { fieldId: targetParentId });
-    }
+  // Move or reorder ordinary Firestore curriculum documents. Keep each course's
+  // domainId synchronized with its fieldId so it stays editable and discoverable.
+  const handleDrop = async (targetId: string, targetType: 'domain' | 'field' | 'course') => {
+    const source = draggedItem;
     setDraggedItem(null);
+    if (!source || source.id === targetId) return;
+    const batch = writeBatch(db);
+    let updates = 0;
+    const update = (collectionName: string, id: string, data: Record<string, unknown>) => {
+      batch.update(doc(db, collectionName, id), data);
+      updates++;
+    };
+    if (source.type === 'domain' && targetType === 'domain') {
+      const siblings = domains.filter(d => d.id !== source.id);
+      const index = siblings.findIndex(d => d.id === targetId);
+      const moving = domains.find(d => d.id === source.id);
+      if (moving && index >= 0) {
+        siblings.splice(index, 0, moving);
+        siblings.forEach((d, index) => {
+          if (d.order !== index) update('domains', d.id, { order: index });
+        });
+      }
+    } else if (source.type === 'field') {
+      const moving = fields.find(f => f.id === source.id);
+      const targetField = targetType === 'field' ? fields.find(f => f.id === targetId) : null;
+      const targetDomain = targetType === 'domain' ? domains.find(d => d.id === targetId) : null;
+      const domainId = targetField?.domainId || targetDomain?.id;
+      if (moving && domainId) {
+        const siblings = fields.filter(f => f.domainId === domainId && f.id !== moving.id);
+        const index = targetField ? siblings.findIndex(f => f.id === targetField.id) : siblings.length;
+        siblings.splice(index < 0 ? siblings.length : index, 0, moving);
+        siblings.forEach((f, order) => {
+          if (f.id === moving.id || f.order !== order) update('fields', f.id, {
+            order, ...(f.id === moving.id ? { domainId } : {})
+          });
+        });
+        if (moving.domainId !== domainId) {
+          courses.filter(c => c.fieldId === moving.id).forEach(c => update('courses', c.id, { domainId }));
+        }
+      }
+    } else if (source.type === 'course') {
+      const moving = courses.find(c => c.id === source.id);
+      const targetCourse = targetType === 'course' ? courses.find(c => c.id === targetId) : null;
+      const targetField = targetType === 'field'
+        ? fields.find(f => f.id === targetId)
+        : targetCourse ? fields.find(f => f.id === targetCourse.fieldId) : null;
+      if (moving && targetField) {
+        const siblings = courses.filter(c => c.fieldId === targetField.id && c.id !== moving.id);
+        const index = targetCourse ? siblings.findIndex(c => c.id === targetCourse.id) : siblings.length;
+        siblings.splice(index < 0 ? siblings.length : index, 0, moving);
+        siblings.forEach((c, order) => {
+          if (c.id === moving.id || c.order !== order) update('courses', c.id, {
+            order, ...(c.id === moving.id ? { fieldId: targetField.id, domainId: targetField.domainId } : {})
+          });
+        });
+        if (moving.fieldId !== targetField.id) {
+          courses.filter(c => c.fieldId === moving.fieldId && c.id !== moving.id)
+            .forEach((c, index) => { if (c.order !== index) update('courses', c.id, { order: index }); });
+        }
+      }
+    }
+    if (updates) {
+      try { await batch.commit(); }
+      catch (cause) {
+        console.error('Could not move curriculum item:', cause);
+        window.alert('Could not save the curriculum order. Check your Firebase permissions.');
+      }
+    }
   };
 
   return (
@@ -399,6 +450,14 @@ export function CurriculumManager({ db }: { db: Firestore }) {
         <p className="text-muted-foreground text-xs font-medium">Manage hierarchical domains, fields, and specialized courses.</p>
       </header>
 
+      <FoundingCurriculumImport
+        db={db}
+        domains={domsRaw}
+        fields={fieldsRaw}
+        courses={coursesRaw}
+        loading={domainsLoading || fieldsLoading || coursesLoading}
+        error={Boolean(domainsError || fieldsError || coursesError)}
+      />
       <div className="flex justify-end">
         <Button onClick={handleAddDomain} className="gap-2 rounded-xl bg-accent hover:bg-accent/90 font-bold">
           <Plus className="h-4 w-4" /> Add Top-Level Domain
@@ -494,6 +553,8 @@ export function CurriculumManager({ db }: { db: Firestore }) {
                       </div>
                       <div 
                         className="flex items-center gap-3 pr-24 cursor-pointer hover:bg-muted/30 rounded-lg p-1 transition-colors"
+                        onDragOver={e => e.preventDefault()}
+                        onDrop={e => { e.preventDefault(); e.stopPropagation(); handleDrop(field.id, 'field'); }}
                         onClick={() => toggleField(field.id)}
                       >
                         <div 
@@ -535,9 +596,11 @@ export function CurriculumManager({ db }: { db: Firestore }) {
                         </div>
                       </div>
                       {isFieldExpanded && (
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[60px] p-2 border-2 border-dashed rounded-xl border-muted/30" onDragOver={e => e.preventDefault()} onDrop={e => { e.stopPropagation(); handleDrop(field.id, 'course'); }}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[60px] p-2 border-2 border-dashed rounded-xl border-muted/30" onDragOver={e => e.preventDefault()} onDrop={e => { e.preventDefault(); e.stopPropagation(); handleDrop(field.id, 'field'); }}>
                           {courses.filter(c => c.fieldId === field.id).map(course => (
-                            <Card key={course.id} className="p-3 border hover:border-accent transition-colors relative group/course bg-card shadow-none flex flex-col">
+                            <Card key={course.id} className="p-3 border hover:border-accent transition-colors relative group/course bg-card shadow-none flex flex-col"
+                              onDragOver={e => e.preventDefault()}
+                              onDrop={e => { e.preventDefault(); e.stopPropagation(); handleDrop(course.id, 'course'); }}>
                               <div className="flex items-start gap-2 h-full">
                                 <div draggable onDragStart={e => { e.stopPropagation(); setDraggedItem({ id: course.id, type: 'course' }); }} className="cursor-grab active:cursor-grabbing text-muted-foreground/20 hover:text-accent mt-1 shrink-0"><GripVertical className="h-3 w-3" /></div>
                                 <div className="flex-1 min-w-0 flex flex-col gap-1">
@@ -563,7 +626,8 @@ export function CurriculumManager({ db }: { db: Firestore }) {
                                 </div>
                                 <div className="flex flex-col justify-between items-end h-full min-h-[50px] shrink-0">
                                   <div className="flex items-center gap-1">
-                                    <CodeBadge 
+                                    {course.curriculumCode && <span className="text-[9px] font-mono font-semibold text-accent whitespace-nowrap">{course.curriculumCode}</span>}
+                                     <CodeBadge 
                                       id={course.id} 
                                       collection="courses" 
                                       code={course.code} 
