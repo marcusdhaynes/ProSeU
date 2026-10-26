@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '24'
-      - run: npm ci --no-audit --no-fund
+      - run: npm install --no-audit --no-fund
       - name: Check migration boundary
         run: node scripts/check-supabase-data-migration.mjs
       - name: Build web app
