@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { collection, doc, Firestore, writeBatch } from 'firebase/firestore';
+import { doc, Firestore, writeBatch } from 'firebase/firestore';
 import { Button } from '@/components/ui/button';
 import { FOUNDING_CURRICULUM } from '@/lib/founding-curriculum';
 
@@ -33,9 +33,12 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
   const [isError, setIsError] = useState(false);
 
   const ready = !loading && !error && domains !== null && fields !== null && courses !== null;
+  const safeDomains = domains ?? [];
+  const safeFields = fields ?? [];
+  const safeCourses = courses ?? [];
   const existingCourses = ready
     ? FOUNDING_CURRICULUM.flatMap(s => s.courses).filter(c =>
-        courses.some(x => x.curriculumCode === c.curriculumCode || x.slug === courseSlug(Number(c.curriculumCode.split(/[.-]/)[1]), Number(c.curriculumCode.split(/[.-]/)[2])))
+        safeCourses.some(x => x.curriculumCode === c.curriculumCode || x.slug === courseSlug(Number(c.curriculumCode.split(/[.-]/)[1]), Number(c.curriculumCode.split(/[.-]/)[2])))
       ).length
     : 0;
 
@@ -48,16 +51,15 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
     try {
       const batch = writeBatch(db);
       let additions = { domains: 0, fields: 0, courses: 0 };
-      let repairedLinks = 0;
-      const existingDomainIds = new Set(domains.map(d => d.id));
-      const existingFieldIds = new Set(fields.map(f => f.id));
-      const existingCourseIds = new Set(courses.map(c => c.id));
-      const domainOrderStart = Math.max(-1, ...domains.map(d => d.order ?? -1)) + 1;
+      const existingDomainIds = new Set(safeDomains.map(d => d.id));
+      const existingFieldIds = new Set(safeFields.map(f => f.id));
+      const existingCourseIds = new Set(safeCourses.map(c => c.id));
+      const domainOrderStart = Math.max(-1, ...safeDomains.map(d => d.order ?? -1)) + 1;
 
       for (const stage of FOUNDING_CURRICULUM) {
         const displayName = `Stage ${stage.roman}: ${stage.name}`;
         const slug = domainSlug(stage.number);
-        const matchingDomain = domains.find(d =>
+        const matchingDomain = safeDomains.find(d =>
           d.slug === slug || (d.curriculumSource === SOURCE && normalized(d.name) === normalized(displayName)) ||
           normalized(d.name) === normalized(displayName)
         );
@@ -78,7 +80,7 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
 
         // The existing Admin Console requires every course to have a fieldId.
         // One editable Core Courses field per stage keeps the proper Domain → Field → Course tree.
-        const matchingField = fields.find(f =>
+        const matchingField = safeFields.find(f =>
           f.domainId === domainId &&
           (f.curriculumSource === SOURCE || normalized(f.name) === 'core courses')
         );
@@ -89,7 +91,7 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
             description: `Eight required courses in Stage ${stage.roman}.`,
             domainId,
             code: `CO${stage.number}`,
-            order: Math.max(-1, ...fields.filter(f => f.domainId === domainId).map(f => f.order ?? -1)) + 1,
+            order: Math.max(-1, ...safeFields.filter(f => f.domainId === domainId).map(f => f.order ?? -1)) + 1,
             visible: true,
             curriculumSource: SOURCE,
             stageNumber: stage.number
@@ -99,21 +101,14 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
 
         for (const [index, sourceCourse] of stage.courses.entries()) {
           const slug = courseSlug(stage.number, index + 1);
-          const existing = courses.find(c =>
+          const existing = safeCourses.find(c =>
             c.curriculumCode === sourceCourse.curriculumCode ||
             c.slug === slug ||
             (c.domainId === domainId && normalized(c.title) === normalized(sourceCourse.title))
           );
-          if (existing) {
-            // Only repair links on previously imported records; never overwrite
-            // a manually configured course's stage or edited metadata.
-            if (existing.curriculumCode === sourceCourse.curriculumCode &&
-                (existing.domainId !== domainId || existing.fieldId !== fieldId)) {
-              batch.update(doc(db, 'courses', existing.id), { domainId, fieldId });
-              repairedLinks++;
-            }
-            continue;
-          }
+          // Existing imported records may have been renamed or moved by an admin.
+          // Treat them as authoritative and never undo those edits on re-import.
+          if (existing) continue;
           const courseId = `founding-psu-${stage.number}-${index + 1}`;
           if (existingCourseIds.has(courseId)) continue;
           batch.set(doc(db, 'courses', courseId), {
@@ -135,13 +130,13 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
         }
       }
 
-      const changed = additions.domains + additions.fields + additions.courses + repairedLinks;
+      const changed = additions.domains + additions.fields + additions.courses;
       if (!changed) {
-        setMessage('All 9 stages and 72 course references already exist. No records were changed.');
+        setMessage('No missing records to import. Existing curriculum records and edits were left unchanged.');
       } else {
         // A single atomic Firestore batch: either all new records are saved or none are.
         await batch.commit();
-        setMessage(`Saved: ${additions.domains} domains, ${additions.fields} fields, ${additions.courses} courses; ${repairedLinks} imported course links repaired. Existing edits were preserved.`);
+        setMessage(`Saved: ${additions.domains} domains, ${additions.fields} fields, ${additions.courses} courses. Existing edits were preserved.`);
       }
     } catch (cause) {
       console.error('Founding curriculum Admin import failed:', cause);
