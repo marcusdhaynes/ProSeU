@@ -65,8 +65,11 @@ import {
 } from "@/components/ui/table";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-import { useFirestore, useCollection, useMemoFirebase, useUser } from '@/firebase';
-import { collection, query, where, doc } from 'firebase/firestore';
+import {
+  getPublishedAcademyCatalog,
+  EMPTY_ACADEMY_CATALOG,
+  type AcademyCatalog,
+} from '@/supabase/public-curriculum';
 import { NotebookWorkspace } from '@/components/learn/notebook/notebook-workspace';
 
 // --- Types & Constants ---
@@ -537,18 +540,40 @@ export default function LearnPage() {
   const viewParam = searchParams.get('view');
   const notebookTab = searchParams.get('tab') || 'toc';
 
-  const db = useFirestore();
-  const domainsQ = useMemoFirebase(() => collection(db, 'domains'), [db]);
-  const { data: domainsData } = useCollection(domainsQ);
-  const domains = domainsData || [];
+  // The Academy is a public, read-only view of Supabase's published catalog.
+  // Firebase remains the login provider but is never queried for curriculum.
+  const [catalog, setCatalog] = useState<AcademyCatalog>(EMPTY_ACADEMY_CATALOG);
+  const [catalogLoading, setCatalogLoading] = useState(true);
+  const [catalogError, setCatalogError] = useState<string | null>(null);
+  const [catalogRefreshKey, setCatalogRefreshKey] = useState(0);
 
-  const fieldsQ = useMemoFirebase(() => activeDomain ? query(collection(db, 'fields'), where('domainId', '==', activeDomain.id)) : null, [db, activeDomain]);
-  const { data: fieldsData } = useCollection(fieldsQ);
-  const fields = fieldsData || [];
+  useEffect(() => {
+    let cancelled = false;
+    setCatalogLoading(true);
+    setCatalogError(null);
+    getPublishedAcademyCatalog()
+      .then(result => {
+        if (!cancelled) setCatalog(result);
+      })
+      .catch(error => {
+        if (!cancelled) setCatalogError(error instanceof Error ? error.message : String(error));
+      })
+      .finally(() => {
+        if (!cancelled) setCatalogLoading(false);
+      });
+    return () => { cancelled = true; };
+  }, [catalogRefreshKey]);
 
-  const coursesQ = useMemoFirebase(() => activeDomain ? query(collection(db, 'courses'), where('domainId', '==', activeDomain.id)) : null, [db, activeDomain]);
-  const { data: coursesData } = useCollection(coursesQ);
-  const courses = coursesData || [];
+  const domains = catalog.domains;
+  const fields = useMemo(
+    () => catalog.fields.filter(field => field.domainId === activeDomain?.id),
+    [catalog.fields, activeDomain?.id]
+  );
+  const coursesData = useMemo(
+    () => catalog.courses.filter(course => course.domainId === activeDomain?.id),
+    [catalog.courses, activeDomain?.id]
+  );
+  const courses = coursesData;
 
   // Sync state with URL
   useEffect(() => {
@@ -740,6 +765,24 @@ export default function LearnPage() {
                       <h2 className="text-2xl font-black text-primary tracking-tighter uppercase">Academic Domains</h2>
                       <p className="text-muted-foreground text-xs italic">Master the law through structured university-grade certification paths.</p>
                     </div>
+                    {catalogLoading && (
+                      <p role="status" className="text-sm text-muted-foreground">
+                        Loading published academic Domains from Supabase…
+                      </p>
+                    )}
+                    {catalogError && (
+                      <div role="alert" className="rounded-xl border border-destructive/30 p-4 space-y-3">
+                        <p className="text-sm text-destructive">{catalogError}</p>
+                        <Button variant="outline" size="sm" onClick={() => setCatalogRefreshKey(key => key + 1)}>
+                          Retry loading curriculum
+                        </Button>
+                      </div>
+                    )}
+                    {!catalogLoading && !catalogError && sortedDomains.length === 0 && (
+                      <p className="text-sm text-muted-foreground">
+                        No published Domains are currently available in Supabase.
+                      </p>
+                    )}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {sortedDomains.map(dom => (
                         <Card key={dom.id} className="bg-card border-2 border-border hover:border-accent transition-all cursor-pointer group rounded-[2rem] overflow-hidden" onClick={() => handleDomainSelect(dom)}>
@@ -750,7 +793,9 @@ export default function LearnPage() {
                               </div>
                               <div className="min-w-0">
                                 <h3 className="text-base font-black text-foreground uppercase tracking-tight truncate">{dom.name}</h3>
-                                <p className="text-[9px] font-black uppercase tracking-widest text-muted-foreground">Mastery track certification</p>
+                                <p className="text-[9px] font-black uppercase tracking-widest text-muted-foreground">
+                                   {catalog.courses.filter(course => course.domainId === dom.id).length} required courses
+                                 </p>
                               </div>
                             </div>
                             <div className="relative">
@@ -815,7 +860,9 @@ export default function LearnPage() {
                                       </div>
                                       <div className="min-w-0">
                                         <h3 className="text-xs font-black text-foreground uppercase tracking-tight truncate group-hover:text-accent transition-colors cursor-pointer" onClick={() => handleCourseSelect(course)}>{course.title}</h3>
-                                        <p className="text-[8px] font-black uppercase tracking-widest text-muted-foreground">Certified Course Unit</p>
+                                        <p className="text-[8px] font-black uppercase tracking-widest text-muted-foreground">
+                                           {course.curriculumCode || course.code || 'Course'}
+                                         </p>
                                       </div>
                                     </div>
                                     <div className="flex-1 relative">
