@@ -4,10 +4,11 @@ import React, { useState } from 'react';
 import { doc, Firestore, writeBatch } from 'firebase/firestore';
 import { Button } from '@/components/ui/button';
 import { FOUNDING_CURRICULUM } from '@/lib/founding-curriculum';
+import { generateIntuitiveCode } from '@/lib/codes';
 
-type Domain = { id: string; name: string; slug?: string; order?: number; curriculumSource?: string };
-type Field = { id: string; name: string; domainId: string; order?: number; curriculumSource?: string };
-type Course = { id: string; title: string; slug?: string; domainId: string; fieldId: string; curriculumCode?: string };
+type Domain = { id: string; name: string; slug?: string; code?: string; order?: number; curriculumSource?: string };
+type Field = { id: string; name: string; code?: string; domainId: string; order?: number; curriculumSource?: string };
+type Course = { id: string; title: string; slug?: string; code?: string; domainId: string; fieldId: string; curriculumCode?: string };
 type Props = {
   db: Firestore;
   domains: Domain[] | null;
@@ -55,6 +56,14 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
       const existingFieldIds = new Set(safeFields.map(f => f.id));
       const existingCourseIds = new Set(safeCourses.map(c => c.id));
       const domainOrderStart = Math.max(-1, ...safeDomains.map(d => d.order ?? -1)) + 1;
+      const usedDomainCodes = new Set(safeDomains.map(d => d.code).filter((c): c is string => Boolean(c)));
+      const usedFieldCodes = new Set(safeFields.map(f => f.code).filter((c): c is string => Boolean(c)));
+      const usedCourseCodes = new Set(safeCourses.map(c => c.code).filter((c): c is string => Boolean(c)));
+      const uniqueCode = (preferred: string, title: string, type: 'A' | 'B' | 'C', used: Set<string>) => {
+        const candidate = used.has(preferred) ? generateIntuitiveCode(title, type, [...used]) : preferred;
+        used.add(candidate);
+        return candidate;
+      };
 
       for (const stage of FOUNDING_CURRICULUM) {
         const displayName = `Stage ${stage.roman}: ${stage.name}`;
@@ -69,7 +78,7 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
             name: displayName,
             description: stage.subtitle,
             slug,
-            code: `ST${stage.number}`,
+            code: uniqueCode(`ST${stage.number}`, displayName, 'A', usedDomainCodes),
             order: domainOrderStart + stage.number - 1,
             visible: true,
             curriculumSource: SOURCE,
@@ -90,7 +99,7 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
             name: 'Core Courses',
             description: `Eight required courses in Stage ${stage.roman}.`,
             domainId,
-            code: `CO${stage.number}`,
+            code: uniqueCode(`CO${stage.number}`, 'Core Courses', 'B', usedFieldCodes),
             order: Math.max(-1, ...safeFields.filter(f => f.domainId === domainId).map(f => f.order ?? -1)) + 1,
             visible: true,
             curriculumSource: SOURCE,
@@ -117,7 +126,7 @@ export function FoundingCurriculumImport({ db, domains, fields, courses, loading
             domainId,
             fieldId,
             slug,
-            code: `${stage.number}0${index + 1}`,
+            code: uniqueCode(`${stage.number}0${index + 1}`, sourceCourse.title, 'C', usedCourseCodes),
             order: index,
             visible: true,
             required: true,
