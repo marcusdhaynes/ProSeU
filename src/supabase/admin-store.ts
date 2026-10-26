@@ -97,27 +97,3 @@ export async function listAdminGrantAudit(limit=100){
  if(error)throw error;
  return data||[];
 }
-
-/** Future Supabase-native equivalent of the Roles drag/drop operation.
- * Uses a single SQL transaction, validates revisions and checks hierarchy
- * invariants at commit. Never issue one REST update per moved sibling. */
-export async function applyRoleHierarchyMove(input:{
-  id:string;category:'free'|'trial'|'membership'|'organization'|'admin';
-  parent_id:string|null;position:number;revision:number;
-}[]) {
- await currentAdmin();
- if(!input.length)return 0;
- if(input.some(row=>!row.id||!Number.isInteger(row.position)||row.position<0||
-   !Number.isInteger(row.revision)||row.revision<1)) {
-   throw new Error('Invalid role hierarchy move.');
- }
- const {data,error}=await db().rpc('proseu_apply_role_hierarchy',{
-   p_changes:input.map(item=>({
-     id:item.id,category:item.category,
-     parent_id:item.parent_id,position:item.position,
-     expected_revision:item.revision
-   }))
- });
- if(error)throw error;
- return data as number;
-}
