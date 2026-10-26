@@ -1,9 +1,11 @@
 # ProSeU — zero-cost Supabase migration (staged, NOT enabled)
 
-The live website still uses Firebase until a Supabase project has been created,
-Google OAuth configured, the database seeded, existing records migrated, and
-all Firestore reads/writes replaced. This folder prepares a secure PostgreSQL
-foundation without disrupting existing ProSeU accounts.
+The Supabase Free project has been created and the normalized schema, ten template
+definitions, storage buckets, indexes, edit histories and RLS rules have been
+deployed. The live website still uses Firebase until Google OAuth is configured,
+existing records are migrated and verified, and production data access is switched.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the authoritative entity map, safety
+checks and cutover plan.
 
 ## Free architecture
 
@@ -17,18 +19,20 @@ foundation without disrupting existing ProSeU accounts.
   `marcusdhaynes@gmail.com` is the permanent primary administrator.
   The protected `proseu_admin_grants` table lets existing admins add/revoke
   other admins. An editable profile cannot assign a role.
-- Shared curriculum: `proseu_catalog` and `proseu_site_content`.
-  Non-admins may read these, but cannot alter them.
+- Shared curriculum: normalized `proseu_domains`, `proseu_fields`,
+  `proseu_courses`, `proseu_atomic_concepts` and `proseu_site_content`.
+  Generic `proseu_catalog` is legacy staging only. Non-admins can read
+  published catalog content but cannot alter it.
 
 ## One-time provider setup (no paid plan required)
 
-1. Create a **Free** project at https://supabase.com/dashboard.
-   Do not put the database password, `service_role` key, or Google client
-   secret in GitHub or frontend environment variables.
-2. In **SQL Editor**, inspect and run the migration file
-   `migrations/20261025_000001_proseu_core.sql` on that NEW project.
-   This creates tables, row-level policies, a profile trigger, and a
-   server-verified primary-owner check. It does not affect Firebase.
+1. **Completed:** the Supabase Free project `uylqbdjnonfcmlvxschj` has been
+   created and the migrations in this repository deployed. Never put the
+   database password, `service_role` key, or Google client secret in GitHub
+   or frontend environment variables.
+2. **Completed:** the canonical curriculum, profiles, memberships, mastery,
+   templates and storage schema are installed. Do not rerun initial migrations
+   manually on top of the existing migration history.
 3. In Google Cloud Console, configure an **External** OAuth consent screen
    requesting only basic Google sign-in scopes: `openid`, `email`, `profile`.
    Make a **Web application** OAuth client.
