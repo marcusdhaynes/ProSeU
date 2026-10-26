@@ -279,15 +279,21 @@ export function GroupManager({db}:{db:Firestore}) {
             currentHint==='after'&&'border-b-2 border-b-accent'
           )}
         >
-          <span role="button" tabIndex={0}
-            aria-label={`Drag ${node.name} to reorder`}
-            title="Drag to reorder, or use the arrow buttons"
+          <button type="button"
+            aria-label={`Drag ${node.name} to reorder; use arrow keys to move`}
+            title="Drag to reorder; arrow up/down to move"
             draggable={!saving}
             onDragStart={e=>startDrag(node.id,e)}
             onDragEnd={endDrag}
+            onKeyDown={e=>{
+              if(e.key==='ArrowUp'){e.preventDefault();upDown(node,-1);}
+              if(e.key==='ArrowDown'){e.preventDefault();upDown(node,1);}
+              if(e.key==='ArrowRight'&&e.altKey){e.preventDefault();indent(node);}
+              if(e.key==='ArrowLeft'&&e.altKey){e.preventDefault();outdent(node);}
+            }}
             className="flex h-7 w-5 shrink-0 cursor-grab items-center justify-center rounded text-muted-foreground hover:bg-muted hover:text-foreground active:cursor-grabbing">
             <GripVertical className="h-3.5 w-3.5"/>
-          </span>
+          </button>
           <button type="button" disabled={!children.length}
             aria-label={open?'Collapse child roles':'Expand child roles'}
             onClick={()=>setCollapsed(p=>{
@@ -302,10 +308,9 @@ export function GroupManager({db}:{db:Firestore}) {
               <Input autoFocus maxLength={80} value={draftName}
                 onFocus={e=>e.currentTarget.select()}
                 onChange={e=>setDraftName(e.target.value)}
-                onBlur={()=>void rename(node.id)}
                 onKeyDown={e=>{
-                  if(e.key==='Enter')e.currentTarget.blur();
-                  if(e.key==='Escape')setEditing(null);
+                  if(e.key==='Enter'){e.preventDefault();void rename(node.id);}
+                  if(e.key==='Escape'){e.preventDefault();setEditing(null);}
                 }}
                 disabled={saving} aria-label="Role name"
                 className="h-7 w-full min-w-0 rounded px-1.5 text-xs"/>
@@ -317,6 +322,15 @@ export function GroupManager({db}:{db:Firestore}) {
                 <Pencil className="h-3 w-3 shrink-0 opacity-0 group-hover:opacity-70"/>
               </button>}
           </div>
+          {isEditing&&
+            <div className="flex shrink-0 gap-px">
+              <button type="button" title="Save role name" aria-label="Save role name"
+                className="rounded p-1 text-emerald-600 hover:bg-muted" disabled={saving}
+                onClick={()=>void rename(node.id)}><Check className="h-3.5 w-3.5"/></button>
+              <button type="button" title="Cancel rename" aria-label="Cancel rename"
+                className="rounded p-1 hover:bg-muted" onClick={()=>setEditing(null)}>
+                <X className="h-3.5 w-3.5"/></button>
+            </div>}
           {children.length>0&&
             <span title={`${children.length} direct child roles`}
               className="rounded bg-muted px-1.5 py-0.5 text-[10px] tabular-nums text-muted-foreground">
