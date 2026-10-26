@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { useFirestore, useCollection, useMemoFirebase } from '@/firebase';
-import { collection, doc, Firestore } from 'firebase/firestore';
+import { collection, doc, Firestore, writeBatch } from 'firebase/firestore';
 import { updateDocumentNonBlocking, deleteDocumentNonBlocking, addDocumentNonBlocking } from '@/firebase/non-blocking-updates';
 import { Plus, GripVertical, ChevronRight, ChevronDown, Trash2, Folder, Users, Zap, ShieldCheck, Briefcase, UserCircle, AlertCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -41,14 +41,32 @@ export function GroupManager({ db }: { db: Firestore }) {
   const { data: groupsRaw } = useCollection<Group>(groupsQ);
   
   const [draggedId, setDraggedId] = useState<string | null>(null);
+  const [preview, setPreview] = useState<Group[] | null>(null);
+  const [dropHint, setDropHint] = useState<{ id: string; mode: 'before' | 'after' | 'inside' } | null>(null);
+  const dragRef = useRef<string | null>(null);
+  const previewRef = useRef<Group[] | null>(null);
+  const hoverRef = useRef<{ id: string; since: number } | null>(null);
+  const lastMoveRef = useRef('');
+  const groupsRef = useRef<Group[]>([]);
+  const clearDrag = () => {
+    dragRef.current = null;
+    previewRef.current = null;
+    hoverRef.current = null;
+    lastMoveRef.current = '';
+    setDraggedId(null);
+    setPreview(null);
+    setDropHint(null);
+  };
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
   const [editingField, setEditingField] = useState<{ id: string; field: string } | null>(null);
   const [itemToDelete, setItemToDelete] = useState<string | null>(null);
 
   const groups = useMemo(() => {
+    if (preview) return preview;
     if (!groupsRaw) return [];
     return [...groupsRaw].sort((a, b) => (a.order || 0) - (b.order || 0));
-  }, [groupsRaw]);
+  }, [groupsRaw, preview]);
+  groupsRef.current = groups;
 
   const tree = useMemo(() => {
     const map: Record<string, Group[]> = {};
@@ -91,52 +109,110 @@ export function GroupManager({ db }: { db: Firestore }) {
     setEditingField(null);
   };
 
+  // Preview all movements locally; persist once on drop rather than writing on every hover.
+  const moveGroup = (id: string, parentId: string | null, category: string, targetId?: string, after = false) => {
+    const current = groupsRef.current;
+    const moving = current.find(g => g.id === id);
+    if (!moving || parentId === id) return;
+    // A parent can never become a descendant of itself.
+    let ancestor = parentId;
+    const visited = new Set<string>();
+    while (ancestor) {
+      if (ancestor === id || visited.has(ancestor)) return;
+      visited.add(ancestor);
+      ancestor = current.find(g => g.id === ancestor)?.parentId || null;
+    }
+    const siblings = current.filter(g => g.id !== id && (g.parentId || null) === parentId && g.category === category)
+      .sort((a,b) => (a.order || 0) - (b.order || 0));
+    const targetIndex = targetId ? siblings.findIndex(g => g.id === targetId) : -1;
+    const index = targetIndex < 0 ? siblings.length : targetIndex + (after ? 1 : 0);
+    siblings.splice(index, 0, { ...moving, parentId, category });
+    const changed = new Map<string, Group>();
+    siblings.forEach((g, order) => changed.set(g.id, { ...g, order, parentId, category }));
+    const previous = current.filter(g => g.id !== id && (g.parentId || null) === (moving.parentId || null) && g.category === moving.category && !changed.has(g.id))
+      .sort((a,b) => (a.order || 0) - (b.order || 0));
+    previous.forEach((g, order) => changed.set(g.id, { ...g, order }));
+    // Preserve descendants and update their category if moved across columns.
+    const recategorize = (parent: string) => {
+      current.filter(g => g.parentId === parent).forEach(child => {
+        changed.set(child.id, { ...(changed.get(child.id) || child), category });
+        recategorize(child.id);
+      });
+    };
+    if (moving.category !== category) recategorize(id);
+    const next = current.map(g => changed.get(g.id) || g);
+    if (next.every((g, i) => g.parentId === current[i].parentId && g.category === current[i].category && g.order === current[i].order)) return;
+    previewRef.current = next;
+    groupsRef.current = next;
+    setPreview(next);
+    if (parentId) setExpandedIds(prev => new Set(prev).add(parentId));
+  };
+
   const onDragStart = (id: string, e: React.DragEvent) => {
+    dragRef.current = id;
+    previewRef.current = [...groupsRef.current];
     setDraggedId(id);
     e.dataTransfer.setData('text/plain', id);
     e.dataTransfer.effectAllowed = 'move';
   };
-  
-  const onDrop = (targetId: string, category: string, e: React.DragEvent) => {
+
+  const onItemOver = (target: Group, e: React.DragEvent) => {
+    if (!dragRef.current || dragRef.current === target.id) return;
     e.preventDefault();
     e.stopPropagation();
-    if (!draggedId || draggedId === targetId) return;
-
-    const draggedGroup = groups.find(g => g.id === draggedId);
-    if (!draggedGroup) return;
-
-    const targetGroup = groups.find(g => g.id === targetId);
-
-    if (targetId === category) {
-      updateGroup(draggedId, {
-        parentId: null,
-        category: category,
-        order: (tree[category]?.length || 0)
-      });
-      return;
+    e.dataTransfer.dropEffect = 'move';
+    const rect = e.currentTarget.getBoundingClientRect();
+    const ratio = (e.clientY - rect.top) / Math.max(rect.height, 1);
+    const now = Date.now();
+    if (hoverRef.current?.id !== target.id) hoverRef.current = { id: target.id, since: now };
+    const inside = ratio >= 0.25 && ratio <= 0.75 && now - hoverRef.current.since >= 550;
+    const mode = inside ? 'inside' : ratio < 0.5 ? 'before' : 'after';
+    setDropHint({ id: target.id, mode });
+    const signature = [dragRef.current, target.id, mode, target.parentId, target.category].join(':');
+    if (signature === lastMoveRef.current) return;
+    lastMoveRef.current = signature;
+    if (inside) {
+      moveGroup(dragRef.current, target.id, target.category);
+    } else {
+      moveGroup(dragRef.current, target.parentId || null, target.category, target.id, mode === 'after');
     }
+  };
 
-    if (targetGroup) {
-      const draggedKey = draggedGroup.parentId || draggedGroup.category;
-      const targetKey = targetGroup.parentId || targetGroup.category;
+  const onContainerOver = (category: string, parentId: string | null, e: React.DragEvent) => {
+    if (!dragRef.current) return;
+    e.preventDefault();
+    e.stopPropagation();
+    e.dataTransfer.dropEffect = 'move';
+    setDropHint(null);
+    hoverRef.current = null;
+    const signature = [dragRef.current, category, parentId || 'root', 'end'].join(':');
+    if (signature === lastMoveRef.current) return;
+    lastMoveRef.current = signature;
+    moveGroup(dragRef.current, parentId, category);
+  };
 
-      if (draggedKey === targetKey) {
-        const targetOrder = targetGroup.order;
-        const draggedOrder = draggedGroup.order;
-        updateGroup(draggedId, { order: targetOrder });
-        updateGroup(targetId, { order: draggedOrder });
-      } else {
-        updateGroup(draggedId, {
-          parentId: targetId,
-          category: targetGroup.category,
-          order: (tree[targetId]?.length || 0)
-        });
-        const next = new Set(expandedIds);
-        next.add(targetId);
-        setExpandedIds(next);
-      }
+  const onDrop = async (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const next = previewRef.current;
+    const original = groupsRaw || [];
+    clearDrag();
+    if (!next) return;
+    const changed = next.filter(g => {
+      const before = original.find(x => x.id === g.id);
+      return before && (before.parentId !== g.parentId || before.category !== g.category || before.order !== g.order);
+    });
+    if (!changed.length) return;
+    try {
+      const batch = writeBatch(db);
+      changed.forEach(g => batch.update(doc(db, 'groups', g.id), {
+        parentId: g.parentId || null, category: g.category, order: g.order
+      }));
+      await batch.commit();
+    } catch (error) {
+      console.error('Could not save role hierarchy:', error);
+      window.alert('The role hierarchy could not be saved. Please try again.');
     }
-    setDraggedId(null);
   };
 
   const renderItem = (group: Group, depth: number = 0) => {
@@ -148,19 +224,24 @@ export function GroupManager({ db }: { db: Firestore }) {
       <div 
         key={group.id} 
         className="space-y-1"
-        onDragOver={(e) => e.preventDefault()}
-        onDrop={(e) => onDrop(group.id, group.category, e)}
+        onDragOver={(e) => { if (e.target === e.currentTarget) onContainerOver(group.category, group.id, e); }}
+        onDrop={onDrop}
       >
         <div 
+          onDragOver={(e) => onItemOver(group, e)}
           className={cn(
             "group flex items-center gap-2 p-1.5 rounded-lg border transition-all hover:bg-muted/30 bg-card/30 relative",
             draggedId === group.id && "opacity-40 scale-95 border-accent/50",
-            depth > 0 && "ml-4 border-l-2"
+            depth > 0 && "border-l-2",
+            dropHint?.id === group.id && dropHint.mode === 'inside' && "ring-2 ring-accent/50 bg-accent/10",
+            dropHint?.id === group.id && dropHint.mode === 'before' && "border-t-2 border-t-accent",
+            dropHint?.id === group.id && dropHint.mode === 'after' && "border-b-2 border-b-accent"
           )}
         >
           <div 
             draggable 
             onDragStart={(e) => onDragStart(group.id, e)}
+            onDragEnd={clearDrag}
             className="cursor-grab active:cursor-grabbing p-1 text-muted-foreground/30 hover:text-accent transition-colors shrink-0"
           >
             <GripVertical className="h-4 w-4" />
@@ -247,8 +328,10 @@ export function GroupManager({ db }: { db: Firestore }) {
           </div>
         </div>
 
-        {isExpanded && children.length > 0 && (
-          <div className="space-y-1">
+        {(isExpanded || (draggedId && children.length > 0)) && children.length > 0 && (
+          <div className="ml-4 pl-2 py-1 space-y-1 rounded-lg border-l border-accent/20 bg-muted/20"
+            onDragOver={(e) => { if (e.target === e.currentTarget) onContainerOver(group.category, group.id, e); }}
+            onDrop={onDrop}>
             {children.map(c => renderItem(c, depth + 1))}
           </div>
         )}
@@ -260,7 +343,7 @@ export function GroupManager({ db }: { db: Firestore }) {
     <div className="space-y-6">
       <header>
         <h2 className="text-xl font-bold">Roles Hierarchy</h2>
-        <p className="text-muted-foreground text-xs font-medium">Manage structural permissions and organizational mapping across role groups.</p>
+        <p className="text-muted-foreground text-xs font-medium">Drag to reorder instantly. Hover over a role briefly to nest it; drag into a column or sub-container to move it back out.</p>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -270,8 +353,8 @@ export function GroupManager({ db }: { db: Firestore }) {
             <Card key={col.id} className="border-2 border-muted/50 shadow-none bg-card/50 flex flex-col h-[600px]">
               <CardHeader 
                 className="p-4 bg-muted/30 border-b cursor-default"
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => onDrop(col.id, col.id, e)}
+                onDragOver={(e) => onContainerOver(col.id, null, e)}
+                onDrop={onDrop}
               >
                 <div className="flex items-center gap-2">
                   <col.icon className={cn("h-4 w-4", col.color)} />
@@ -280,8 +363,8 @@ export function GroupManager({ db }: { db: Firestore }) {
               </CardHeader>
               <CardContent 
                 className="p-3 flex-1 overflow-y-auto space-y-2"
-                onDragOver={(e) => e.preventDefault()}
-                onDrop={(e) => onDrop(col.id, col.id, e)}
+                onDragOver={(e) => { if (e.target === e.currentTarget) onContainerOver(col.id, null, e); }}
+                onDrop={onDrop}
               >
                 {rootGroups.length === 0 ? (
                   <div className="h-full flex flex-col items-center justify-center text-muted-foreground/30 text-center space-y-2 py-20 pointer-events-none">
