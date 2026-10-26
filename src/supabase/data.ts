@@ -1,25 +1,76 @@
 import { supabase } from './client';
+import { listAcademic,saveAcademic,type AcademicType } from './academic-store';
 
-/** Typed operations for the new backend; none use admin/service credentials. */
+/** Compatibility façade: ALL new curriculum reads/writes go to canonical
+ * normalized tables; proseu_catalog is import-only, never live application data. */
 export type CatalogKind = 'domains' | 'fields' | 'courses' | 'atomic_concepts' | 'groups';
 
 function requireClient() {
   if (!supabase) throw new Error('Supabase project is not configured.');
   return supabase;
 }
-
-export async function fetchCatalog(kind: CatalogKind) {
-  const { data, error } = await requireClient()
-    .from('proseu_catalog').select('record_id,data').eq('kind', kind).order('record_id');
-  if (error) throw error;
-  return (data || []).map(x => ({ ...x.data, id: x.record_id }));
+export async function fetchCatalog(kind:CatalogKind) {
+ if(kind==='groups'){
+   const {data,error}=await requireClient().from('proseu_role_groups')
+     .select('*').order('position');
+   if(error)throw error;
+   return (data||[]).map(row=>({
+     ...row.settings,id:row.id,name:row.name,category:row.category,
+     parentId:row.parent_id,order:row.position
+   }));
+ }
+ const rows=await listAcademic(kind as AcademicType,{limit:1000});
+ return rows.map(row=>({
+   ...(row.content||{}),
+   id:row.id,
+   code:row.code,
+   name:row.name||row.title,
+   title:row.title||row.name,
+   domainId:row.domain_id,fieldId:row.field_id,courseId:row.course_id,
+   slug:row.slug,description:row.description,order:row.position,status:row.status
+ }));
 }
-
-export async function saveCatalog(kind: CatalogKind, id: string, value: Record<string, unknown>) {
-  const { error } = await requireClient().from('proseu_catalog').upsert({
-    kind, record_id: id, data: value, updated_at: new Date().toISOString(),
-  }, { onConflict: 'kind,record_id' });
-  if (error) throw error; // PostgreSQL RLS rejects non-admin changes.
+export async function saveCatalog(kind:CatalogKind,id:string,value:Record<string,unknown>) {
+ if(!id)throw new Error('A stable record ID is required.');
+ if(kind==='groups'){
+   const category=String(value.category||'');
+   if(!['free','trial','membership','organization','admin'].includes(category))
+     throw new Error('Invalid role group category.');
+   const {error}=await requireClient().from('proseu_role_groups').upsert({
+     id,name:String(value.name||'New Group'),category,
+     parent_id:typeof value.parentId==='string'?value.parentId:null,
+     position:Number(value.order)||0,settings:value
+   },{onConflict:'id'});
+   if(error)throw error;
+   return;
+ }
+ const name=String(value.name||value.title||value.CN||value.id||'').trim();
+ if(!name)throw new Error('A title/name is required.');
+ const input={
+   id,
+   code:typeof value.code==='string'?value.code:null,
+   domain_id:typeof value.domainId==='string'&&value.domainId?value.domainId:null,
+   field_id:typeof value.fieldId==='string'&&value.fieldId?value.fieldId:null,
+   course_id:typeof value.courseId==='string'&&value.courseId?value.courseId:null,
+   description:typeof value.description==='string'?value.description:null,
+   slug:typeof value.slug==='string'?value.slug:null,
+   position:Number(value.order)||0,
+   status:['draft','published','archived'].includes(String(value.status))?
+     value.status as 'draft'|'published'|'archived':'draft',
+   name,title:name,
+   ...(kind==='atomic_concepts'?{
+     principle_code:typeof value.principle_code==='string'?value.principle_code:null
+   }:{}),
+   content:value
+ };
+ const academic:Record<AcademicType,any>={
+   domains:{id:input.id,code:input.code,name:input.name,description:input.description,
+     slug:input.slug,position:input.position,status:input.status,content:value},
+   fields:{...input,course_id:undefined,field_id:undefined,title:undefined},
+   courses:{...input,name:undefined,course_id:undefined},
+   atomic_concepts:{...input,name:undefined,slug:undefined,code:undefined,description:undefined}
+ };
+ await saveAcademic(kind as AcademicType,academic[kind as AcademicType]);
 }
 
 export async function fetchSiteContent() {
