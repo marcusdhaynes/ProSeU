@@ -57,7 +57,7 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { CourseContentEditor } from './CourseContentEditor';
-import { FoundingCurriculumImport } from './FoundingCurriculumImport';
+
 import { useSiteContent } from '@/components/site-content-context';
 import { cn } from '@/lib/utils';
 import { generateIntuitiveCode } from '@/lib/codes';
@@ -450,14 +450,11 @@ export function CurriculumManager({ db }: { db: Firestore }) {
         <p className="text-muted-foreground text-xs font-medium">Manage hierarchical domains, fields, and specialized courses.</p>
       </header>
 
-      <FoundingCurriculumImport
-        db={db}
-        domains={domsRaw}
-        fields={fieldsRaw}
-        courses={coursesRaw}
-        loading={domainsLoading || fieldsLoading || coursesLoading}
-        error={Boolean(domainsError || fieldsError || coursesError)}
-      />
+      <div role="status" className="rounded-xl border border-amber-500/30 bg-amber-500/5 p-3 text-xs text-muted-foreground">
+        Founding Curriculum import paused: the legacy Domains editor still uses Firestore.
+        The replacement will create editable Domain, Field, and Course records in Supabase.
+        Do not add the 2026 curriculum to Firestore.
+      </div>
       <div className="flex justify-end">
         <Button onClick={handleAddDomain} className="gap-2 rounded-xl bg-accent hover:bg-accent/90 font-bold">
           <Plus className="h-4 w-4" /> Add Top-Level Domain
