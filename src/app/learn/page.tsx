@@ -65,8 +65,7 @@ import {
 } from "@/components/ui/table";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-import { useFirestore, useCollection, useMemoFirebase, useUser } from '@/firebase';
-import { collection, query, where, doc } from 'firebase/firestore';
+import { supabaseData } from '@/supabase/firebase-data-client';
 import { NotebookWorkspace } from '@/components/learn/notebook/notebook-workspace';
 
 // --- Types & Constants ---
@@ -537,18 +536,46 @@ export default function LearnPage() {
   const viewParam = searchParams.get('view');
   const notebookTab = searchParams.get('tab') || 'toc';
 
-  const db = useFirestore();
-  const domainsQ = useMemoFirebase(() => collection(db, 'domains'), [db]);
-  const { data: domainsData } = useCollection(domainsQ);
-  const domains = domainsData || [];
+  // Published curriculum comes exclusively from the normalized Supabase catalog.
+  const [catalog, setCatalog] = useState<{ domains: any[]; fields: any[]; courses: any[] }>({
+    domains: [], fields: [], courses: []
+  });
+  const [catalogError, setCatalogError] = useState<string | null>(null);
 
-  const fieldsQ = useMemoFirebase(() => activeDomain ? query(collection(db, 'fields'), where('domainId', '==', activeDomain.id)) : null, [db, activeDomain]);
-  const { data: fieldsData } = useCollection(fieldsQ);
-  const fields = fieldsData || [];
+  useEffect(() => {
+    let alive = true;
+    const load = async () => {
+      try {
+        const [doms, fields, courses] = await Promise.all([
+          supabaseData.from('proseu_domains').select('*').eq('status', 'published').order('position').limit(1000),
+          supabaseData.from('proseu_fields').select('*').eq('status', 'published').order('position').limit(1000),
+          supabaseData.from('proseu_courses').select('*').eq('status', 'published').order('position').limit(1000)
+        ]);
+        for (const response of [doms, fields, courses]) if (response.error) throw response.error;
+        if (!alive) return;
+        setCatalog({
+          domains: (doms.data || []).map(row => ({
+            ...row.content, ...row, order: row.position, visible: true
+          })),
+          fields: (fields.data || []).map(row => ({
+            ...row.content, ...row, domainId: row.domain_id, order: row.position, visible: true
+          })),
+          courses: (courses.data || []).map(row => ({
+            ...row.content, ...row, domainId: row.domain_id, fieldId: row.field_id, order: row.position, visible: true
+          }))
+        });
+      } catch (error) {
+        if (alive) setCatalogError(error instanceof Error ? error.message : String(error));
+      }
+    };
+    void load();
+    return () => { alive = false; };
+  }, []);
 
-  const coursesQ = useMemoFirebase(() => activeDomain ? query(collection(db, 'courses'), where('domainId', '==', activeDomain.id)) : null, [db, activeDomain]);
-  const { data: coursesData } = useCollection(coursesQ);
-  const courses = coursesData || [];
+  const domains = catalog.domains;
+  const fields = useMemo(() => catalog.fields.filter(f => f.domainId === activeDomain?.id), [catalog.fields, activeDomain?.id]);
+  const coursesData = useMemo(() => catalog.courses.filter(c => c.domainId === activeDomain?.id), [catalog.courses, activeDomain?.id]);
+  const courses = coursesData;
 
   // Sync state with URL
   useEffect(() => {
