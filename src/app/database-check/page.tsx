@@ -12,8 +12,10 @@ type Check = { label: string; state: CheckStatus; detail?: string };
 const baseChecks: Check[] = [
   { label: 'Supabase project connected', state: 'pending' },
   { label: 'Google OAuth session', state: 'pending' },
-  { label: 'ProSeU SQL migration and public catalog', state: 'pending' },
+  { label: 'Canonical curriculum tables', state: 'pending' },
+  { label: 'All ten activity template definitions', state: 'pending' },
   { label: 'PostgreSQL administrator authorization', state: 'pending' },
+  { label: 'Legacy Firebase data migration', state: 'pending' },
 ];
 
 export default function DatabaseCheckPage() {
@@ -43,32 +45,52 @@ export default function DatabaseCheckPage() {
       detail: auth.error?.message || (!verifiedUser ? 'Sign in with Google to continue.' : verifiedUser.email || ''),
     });
 
-    const catalog = await supabase.from('proseu_catalog').select('record_id', { count: 'exact', head: true });
+    const curriculumTables = ['proseu_domains','proseu_fields','proseu_courses','proseu_atomic_concepts'];
+    const curriculum = await Promise.all(curriculumTables.map(table =>
+      supabase.from(table).select('id', { count: 'exact', head: true })
+    ));
+    const missing = curriculumTables.filter((_, index) => curriculum[index].error);
     results.push({
-      label: baseChecks[2].label, state: catalog.error ? 'fail' : 'pass',
-      detail: catalog.error ? catalog.error.message : 'Schema reachable; catalog access allowed.',
+      label: baseChecks[2].label,
+      state: missing.length ? 'fail' : 'pass',
+      detail: missing.length ? `Unavailable tables: ${missing.join(', ')}` :
+        'All four normalized curriculum tables are accessible under database RLS.',
+    });
+
+    const templateCheck = await supabase.from('proseu_templates')
+      .select('id', { count: 'exact', head: true });
+    results.push({
+      label: baseChecks[3].label,
+      state: templateCheck.error || (templateCheck.count || 0) < 10 ? 'fail' : 'pass',
+      detail: templateCheck.error?.message ||
+        `${templateCheck.count || 0} teaching modes present in Supabase.`,
     });
 
     if (!verifiedUser) {
       results.push({
-        label: baseChecks[3].label, state: 'pending',
+        label: baseChecks[4].label, state: 'pending',
         detail: 'Sign in with Google to test administrator permissions.',
       });
     } else {
       try {
         const isAdmin = await getMyAdminStatus();
         results.push({
-          label: baseChecks[3].label, state: isAdmin ? 'pass' : 'fail',
+          label: baseChecks[4].label, state: isAdmin ? 'pass' : 'fail',
           detail: isAdmin ? 'Verified database administrator.' :
             'You are signed in but not authorized as an administrator.',
         });
       } catch (err) {
         results.push({
-          label: baseChecks[3].label, state: 'fail',
+          label: baseChecks[4].label, state: 'fail',
           detail: err instanceof Error ? err.message : 'Could not query admin permissions.',
         });
       }
     }
+    results.push({
+      label: baseChecks[5].label,
+      state: 'pending',
+      detail: 'Existing Firebase accounts, learning records, and case files have not yet been imported and reconciled.',
+    });
     setChecks(results);
     setBusy(false);
   }, []);
@@ -131,8 +153,8 @@ export default function DatabaseCheckPage() {
       {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
       <p className="text-xs text-muted-foreground">
         This diagnostic does not enable Supabase production login or data migration.
-        Full cutover requires a verified project, Google OAuth configuration and a
-        one-time migration of existing user records.
+        Full cutover requires working Supabase Google OAuth, verified identity mapping
+        and a one-time migration of all existing content and user-owned records.
       </p>
     </main>
   );
