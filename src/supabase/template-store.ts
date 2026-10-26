@@ -105,3 +105,43 @@ export async function saveTemplatePreferences(slug:TemplateSlug,preferences:Reco
  if(error)throw error;
  return data;
 }
+
+export async function deleteTemplateItem(id:string) {
+ const {error}=await db().from('proseu_template_items').delete().eq('id',id);
+ if(error)throw error;
+}
+export async function listTemplateRevisions(slug:TemplateSlug){
+ const {data,error}=await db().from('proseu_template_revisions')
+   .select('version,created_at,changed_by').eq('template_id',slug)
+   .order('version',{ascending:false}).limit(30);
+ if(error)throw error;
+ return data||[];
+}
+export async function assignTemplateToCourse(input:{
+ templateId:TemplateSlug;courseId:string;required?:boolean;position?:number;
+ settings?:Record<string,unknown>;
+}){
+ const {data,error}=await db().from('proseu_template_assignments').upsert({
+   template_id:input.templateId,course_id:input.courseId,
+   required:input.required||false,position:input.position||0,
+   settings:input.settings||{}
+ },{onConflict:'template_id,course_id'}).select('*').single();
+ if(error)throw error;
+ return data;
+}
+export async function listTemplateAssignments(courseId:string){
+ const {data,error}=await db().from('proseu_template_assignments').select('*')
+   .eq('course_id',courseId).order('position');
+ if(error)throw error;
+ return data||[];
+}
+export async function loadMyTemplateSessions(slug:TemplateSlug,limit=20){
+ const c=db(),{data:{user},error:authError}=await c.auth.getUser();
+ if(authError)throw authError;
+ if(!user)throw new Error('Sign in to view saved sessions.');
+ const {data,error}=await c.from('proseu_template_sessions').select('*')
+   .eq('user_id',user.id).eq('template_id',slug).order('started_at',{ascending:false})
+   .limit(Math.min(limit,100));
+ if(error)throw error;
+ return data||[];
+}
