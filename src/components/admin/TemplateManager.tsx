@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import { SupabaseTemplateStudio } from './SupabaseTemplateStudio';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ScholaIuris } from './templates/ScholaIuris';
 import { Inoblitus } from './templates/Inoblitus';
@@ -35,6 +36,8 @@ export function TemplateManager() {
         </h2>
         <p className="text-muted-foreground text-xs font-medium">Preview and configure pedagogical interfaces and game maps.</p>
       </header>
+
+      <SupabaseTemplateStudio />
 
       <Tabs defaultValue="scholoiuris" className="w-full">
         <TabsList className="bg-muted/30 p-1 rounded-xl mb-6 flex-wrap h-auto">
