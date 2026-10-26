@@ -1,0 +1,29 @@
+name: Academy Supabase Catalog
+on:
+  pull_request:
+    paths:
+      - "src/app/learn/page.tsx"
+      - "src/supabase/public-curriculum.ts"
+      - "supabase/migrations/**"
+      - "scripts/check-academy-supabase.mjs"
+      - ".github/workflows/academy-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+      # package-lock.json is already out of sync on main. Until the
+      # separate dependency normalization PR lands, use npm install.
+      - run: npm install --no-audit --no-fund
+      - run: node scripts/check-academy-supabase.mjs
+      - run: npm run build:web
+        env:
+          GITHUB_PAGES: "true"
