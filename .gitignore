@@ -13,6 +13,10 @@
 # testing
 /coverage
 
+# Internal curriculum crosswalk. Never commit the full maps or their notes.
+entry-to-course.json
+course-topics.json
+
 # next.js
 /.next/
 /out/

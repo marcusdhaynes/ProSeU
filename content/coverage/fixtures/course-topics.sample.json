@@ -1,0 +1,26 @@
+{
+  "PSU-1.1": {
+    "title": "Jurisprudence: What Law Is and Why It Binds",
+    "entry_count": 4,
+    "topics": [
+      {
+        "topic": "Critical and Feminist Legal Theory",
+        "competencies": [
+          "Policy Debates",
+          "Core Principles"
+        ],
+        "subsections": [
+          "Individual vs State Power",
+          "Stability vs Evolution",
+          "Legitimacy"
+        ],
+        "entry_ids": [
+          "M-DEFC49",
+          "M-C07FB6",
+          "M-0E9522",
+          "M-54B113"
+        ]
+      }
+    ]
+  }
+}
