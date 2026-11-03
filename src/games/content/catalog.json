@@ -1,0 +1,160 @@
+{
+  "levels": [
+    {
+      "id": "paralegal",
+      "position": 0,
+      "name": "Paralegal",
+      "audience": "Associate",
+      "colorHex": "#ff4b4b",
+      "shadowHex": "#9e2b2b",
+      "ringAt": 1,
+      "aliases": ["basic", "red"]
+    },
+    {
+      "id": "bachelor",
+      "position": 1,
+      "name": "Bachelor of Law",
+      "audience": "Bachelor",
+      "colorHex": "#FFD54F",
+      "shadowHex": "#B29500",
+      "ringAt": 9,
+      "aliases": ["electrum", "yellow"]
+    },
+    {
+      "id": "masters",
+      "position": 2,
+      "name": "Masters",
+      "audience": "Masters",
+      "colorHex": "#FF4500",
+      "shadowHex": "#8B0000",
+      "ringAt": 17,
+      "aliases": ["orichalcum", "orange"]
+    },
+    {
+      "id": "doctorate",
+      "position": 3,
+      "name": "Doctorate",
+      "audience": "Doctorate",
+      "colorHex": "#1a1a1a",
+      "shadowHex": "#000000",
+      "ringAt": 25,
+      "aliases": ["adamantine", "black"]
+    }
+  ],
+  "competencies": [
+    {
+      "id": "core-principles",
+      "position": 0,
+      "name": "Core Principles",
+      "definition": "Foundational concepts and state-individual relationships.",
+      "colorHex": "#ff4b4b",
+      "subsections": [
+        { "id": "core-principles.authority", "position": 0, "name": "Authority", "snippet": "WHO HAS LEGAL POWER..." },
+        { "id": "core-principles.rights", "position": 1, "name": "Rights", "snippet": "WHO IS PROTECTED..." },
+        { "id": "core-principles.duties", "position": 2, "name": "Duties", "snippet": "WHO IS OBLIGATED..." },
+        { "id": "core-principles.harm", "position": 3, "name": "Harm", "snippet": "WHAT COUNTS AS INJURY..." },
+        { "id": "core-principles.causation", "position": 4, "name": "Causation", "snippet": "LEGAL RESPONSIBILITY LINK..." },
+        { "id": "core-principles.remedy", "position": 5, "name": "Remedy", "snippet": "LEGAL CONSEQUENCES..." },
+        { "id": "core-principles.legitimacy", "position": 6, "name": "Legitimacy", "snippet": "WHY AUTHORITY IS VALID..." }
+      ]
+    },
+    {
+      "id": "major-doctrines",
+      "position": 1,
+      "name": "Major Doctrines",
+      "definition": "Key rules, standards, and legal definitions.",
+      "colorHex": "#ff9600",
+      "subsections": [
+        { "id": "major-doctrines.jurisdiction-doctrines", "position": 0, "name": "Jurisdiction Doctrines", "snippet": "AUTHORITY SCOPE DEFINED..." },
+        { "id": "major-doctrines.liability-doctrines", "position": 1, "name": "Liability Doctrines", "snippet": "CONDITIONS FOR RESPONSIBILITY..." },
+        { "id": "major-doctrines.defense-doctrines", "position": 2, "name": "Defense Doctrines", "snippet": "VALID EXCUSES..." },
+        { "id": "major-doctrines.remedy-doctrines", "position": 3, "name": "Remedy Doctrines", "snippet": "AVAILABLE RELIEF..." },
+        { "id": "major-doctrines.procedural-doctrines", "position": 4, "name": "Procedural Doctrines", "snippet": "CASE PROGRESSION RULES..." },
+        { "id": "major-doctrines.constitutional-doctrines", "position": 5, "name": "Constitutional Doctrines", "snippet": "RIGHTS AND STRUCTURE..." },
+        { "id": "major-doctrines.equity-doctrines", "position": 6, "name": "Equity Doctrines", "snippet": "FAIRNESS-BASED RULES..." }
+      ]
+    },
+    {
+      "id": "procedural-framework",
+      "position": 2,
+      "name": "Procedural Framework",
+      "definition": "Steps for application, enforcement, and adjudication.",
+      "colorHex": "#e6b400",
+      "aliases": ["Procedural Frameworks"],
+      "subsections": [
+        { "id": "procedural-framework.jurisdiction-establishment", "position": 0, "name": "Jurisdiction Establishment", "snippet": "COURT AUTHORITY CONFIRMED..." },
+        { "id": "procedural-framework.pleading", "position": 1, "name": "Pleading", "snippet": "CLAIMS AND DEFENSES STATED..." },
+        { "id": "procedural-framework.motion-practice", "position": 2, "name": "Motion Practice", "snippet": "ISSUES RESOLVED EARLY..." },
+        { "id": "procedural-framework.discovery", "position": 3, "name": "Discovery", "snippet": "EVIDENCE OBTAINED..." },
+        { "id": "procedural-framework.pre-trial-resolution", "position": 4, "name": "Pre-trial Resolution", "snippet": "SETTLEMENT OR DISMISSAL..." },
+        { "id": "procedural-framework.adjudication", "position": 5, "name": "Adjudication", "snippet": "CASE DECIDED..." },
+        { "id": "procedural-framework.appeal-and-review", "position": 6, "name": "Appeal and Review", "snippet": "DECISION REVIEWED..." }
+      ]
+    },
+    {
+      "id": "decision-standards",
+      "position": 3,
+      "name": "Decision Standards",
+      "definition": "The lens through which the court decides outcomes.",
+      "colorHex": "#58cc02",
+      "subsections": [
+        { "id": "decision-standards.burden-of-proof", "position": 0, "name": "Burden of Proof", "snippet": "WHO MUST PROVE..." },
+        { "id": "decision-standards.standard-of-proof", "position": 1, "name": "Standard of Proof", "snippet": "HOW MUCH PROOF..." },
+        { "id": "decision-standards.standard-of-review", "position": 2, "name": "Standard of Review", "snippet": "APPELLATE REVIEW..." },
+        { "id": "decision-standards.level-of-scrutiny", "position": 3, "name": "Level of Scrutiny", "snippet": "RIGHTS PROTECTION..." },
+        { "id": "decision-standards.evidentiary-weight", "position": 4, "name": "Evidentiary Weight", "snippet": "EVALUATING EVIDENCE..." },
+        { "id": "decision-standards.deference-doctrines", "position": 5, "name": "Deference Doctrines", "snippet": "WHEN COURTS DEFER..." },
+        { "id": "decision-standards.balancing-tests", "position": 6, "name": "Balancing Tests", "snippet": "WEIGHING INTERESTS..." }
+      ]
+    },
+    {
+      "id": "major-cases",
+      "position": 4,
+      "name": "Major Cases",
+      "definition": "Landmark judicial decisions and their impacts.",
+      "colorHex": "#1cb0f6",
+      "subsections": [
+        { "id": "major-cases.authority-defining-cases", "position": 0, "name": "Authority-Defining Cases", "snippet": "WHO HOLDS AUTHORITY..." },
+        { "id": "major-cases.rights-defining-cases", "position": 1, "name": "Rights-Defining Cases", "snippet": "SCOPE OF RIGHTS..." },
+        { "id": "major-cases.limits-of-power-cases", "position": 2, "name": "Limits-of-Power Cases", "snippet": "BOUNDARIES ENFORCED..." },
+        { "id": "major-cases.procedure-defining-cases", "position": 3, "name": "Procedure-Defining Cases", "snippet": "PROCESS REQUIREMENTS..." },
+        { "id": "major-cases.liability-expansion-cases", "position": 4, "name": "Liability-Expansion Cases", "snippet": "SCOPE BROADENED..." },
+        { "id": "major-cases.liability-restriction-cases", "position": 5, "name": "Liability-Restriction Cases", "snippet": "SCOPE NARROWED..." },
+        { "id": "major-cases.paradigm-shifting-cases", "position": 6, "name": "Paradigm-Shifting Cases", "snippet": "FRAMEWORK CHANGED..." }
+      ]
+    },
+    {
+      "id": "policy-debates",
+      "position": 5,
+      "name": "Policy Debates",
+      "definition": "Controversies, reforms, and competing arguments.",
+      "colorHex": "#9333ea",
+      "subsections": [
+        { "id": "policy-debates.individual-vs-state-power", "position": 0, "name": "Individual vs State Power", "snippet": "BALANCE OF POWER..." },
+        { "id": "policy-debates.fairness-vs-efficiency", "position": 1, "name": "Fairness vs Efficiency", "snippet": "JUSTICE VS SYSTEM..." },
+        { "id": "policy-debates.predictability-vs-flexibility", "position": 2, "name": "Predictability vs Flexibility", "snippet": "CONSISTENCY VS ADAPTATION..." },
+        { "id": "policy-debates.centralization-vs-decentralization", "position": 3, "name": "Centralization vs Decentralization", "snippet": "POWER DISTRIBUTION..." },
+        { "id": "policy-debates.formalism-vs-pragmatism", "position": 4, "name": "Formalism vs Pragmatism", "snippet": "STRICT VS PRACTICAL..." },
+        { "id": "policy-debates.stability-vs-evolution", "position": 5, "name": "Stability vs Evolution", "snippet": "CONTINUITY VS CHANGE..." },
+        { "id": "policy-debates.liberty-vs-security", "position": 6, "name": "Liberty vs Security", "snippet": "FREEDOM VS SAFETY..." }
+      ]
+    },
+    {
+      "id": "practical-skills",
+      "position": 6,
+      "name": "Practical Skills",
+      "definition": "Real-world application, drafting, and advocacy.",
+      "colorHex": "#ff66aa",
+      "aliases": ["Practical Application"],
+      "subsections": [
+        { "id": "practical-skills.issue-spotting", "position": 0, "name": "Issue Spotting", "snippet": "IDENTIFYING PROBLEMS..." },
+        { "id": "practical-skills.rule-extraction", "position": 1, "name": "Rule Extraction", "snippet": "DERIVING RULES..." },
+        { "id": "practical-skills.burden-manipulation", "position": 2, "name": "Burden Manipulation", "snippet": "SHIFTING PROOF..." },
+        { "id": "practical-skills.evidence-structuring", "position": 3, "name": "Evidence Structuring", "snippet": "ORGANIZING RECORDS..." },
+        { "id": "practical-skills.argument-construction", "position": 4, "name": "Argument Construction", "snippet": "LOGICAL REASONING..." },
+        { "id": "practical-skills.procedural-leverage", "position": 5, "name": "Procedural Leverage", "snippet": "USING PROCESS..." },
+        { "id": "practical-skills.judicial-psychology-navigation", "position": 6, "name": "Judicial Psychology Navigation", "snippet": "UNDERSTANDING TENDENCIES..." }
+      ]
+    }
+  ]
+}
