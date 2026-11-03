@@ -44,6 +44,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import { Concept, MULTI_ROW_COLUMNS, contentEngine } from '@/lib/contentEngine';
+import { MASTERY_MAP, competencyDisplayName } from '@/lib/mastery-catalog';
 
 interface Domain { id: string; name: string; code: string; order: number; }
 interface Field { id: string; name: string; code: string; domainId: string; order: number; }
@@ -58,16 +59,6 @@ interface UniversitasHierarchyTableProps {
   title?: string;
   description?: string;
 }
-
-const MASTERY_MAP: Record<string, string[]> = {
-  "Core Principles": ["Authority", "Rights", "Duties", "Harm", "Causation", "Remedy", "Legitimacy"],
-  "Major Doctrines": ["Jurisdiction Doctrines", "Liability Doctrines", "Defense Doctrines", "Remedy Doctrines", "Procedural Doctrines", "Constitutional Doctrines", "Equity Doctrines"],
-  "Procedural Framework": ["Jurisdiction Establishment", "Pleading", "Motion Practice", "Discovery", "Pre-trial Resolution", "Adjudication", "Appeal and Review"],
-  "Decision Standards": ["Authority-Defining Cases", "Rights-Defining Cases", "Limits-of-Power Cases", "Procedure-Defining Cases", "Liability-Expansion Cases", "Liability-Restriction Cases", "Paradigm-Shifting Cases"],
-  "Major Cases": ["Individual vs State Power", "Fairness vs Efficiency", "Predictability vs Flexibility", "Centralization vs Decentralization", "Formalism vs Pragmatism", "Stability vs Evolution", "Liberty vs Security"],
-  "Policy Debates": ["Issue Spotting", "Rule Extraction", "Burden Manipulation", "Evidence Structuring", "Argument Construction", "Procedural Leverage", "Judicial Psychology Navigation"],
-  "Practical Skills": ["Burden of Proof", "Standard of Proof", "Standard of Review", "Level of Scrutiny", "Evidentiary Weight", "Deference Doctrines", "Balancing Tests"]
-};
 
 export function UniversitasHierarchyTable({ 
   db, 
@@ -740,7 +731,7 @@ export function UniversitasHierarchyTable({
                                             checked={isChecked} 
                                             onCheckedChange={(checked) => handleMasteryToggle(row, m, !!checked)} 
                                           />
-                                          <Label htmlFor={`mastery-${m}`} className="text-xs font-bold leading-none cursor-pointer">{m}</Label>
+                                          <Label htmlFor={`mastery-${m}`} className="text-xs font-bold leading-none cursor-pointer">{competencyDisplayName(m)}</Label>
                                         </div>
                                       );
                                     })}
@@ -765,7 +756,7 @@ export function UniversitasHierarchyTable({
                                     
                                     return (
                                       <div key={m} className="space-y-2 animate-in fade-in slide-in-from-top-1 duration-200">
-                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-accent/60">{m}</p>
+                                        <p className="text-[9px] font-black uppercase tracking-[0.2em] text-accent/60">{competencyDisplayName(m)}</p>
                                         <div className="space-y-1.5 pl-2 border-l-2 border-accent/10">
                                           {sections.map(s => {
                                             const isChecked = tempValue.split('\n').map(l => l.trim()).includes(s);

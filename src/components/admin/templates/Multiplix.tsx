@@ -14,7 +14,54 @@ const MOCK_QUESTIONS = [
   { prompt: 'Who has the power to declare war?', options: ['President', 'Supreme Court', 'Congress', 'States'], correct: 0 },
 ];
 
-export function Multiplix() {
+export interface MultiplixProps {
+  embedded?: boolean;
+  prompt?: string;
+  options?: string[];
+  disabled?: boolean;
+  onChoose?: (choiceIndex: number) => void;
+}
+
+export function Multiplix(props: MultiplixProps = {}) {
+  if (props.embedded) {
+    return (
+      <MultiplixCard
+        prompt={props.prompt ?? ''}
+        options={props.options ?? []}
+        disabled={!!props.disabled}
+        onChoose={props.onChoose}
+      />
+    );
+  }
+  return <MultiplixPreview />;
+}
+
+function MultiplixCard({ prompt, options, disabled, onChoose }: { prompt: string; options: string[]; disabled: boolean; onChoose?: (choiceIndex: number) => void }) {
+  return (
+    <div className="space-y-6" data-testid="multiplix-question">
+      <div className="rounded-[2rem] border-2 border-border bg-card px-6 py-8 text-center shadow-sm">
+        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground">Question</p>
+        <h2 className="mt-3 text-xl font-black leading-snug text-primary">{prompt}</h2>
+      </div>
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+        {options.map((option, index) => (
+          <button
+            key={`${option}-${index}`}
+            type="button"
+            disabled={disabled}
+            onClick={() => onChoose?.(index)}
+            className="flex items-center gap-3 rounded-2xl border-2 border-b-8 border-border bg-card px-4 py-4 text-left font-bold text-foreground hover:border-accent disabled:opacity-50"
+          >
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-muted text-xs font-black">{String.fromCharCode(65 + index)}</span>
+            <span>{option}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function MultiplixPreview() {
   const [index, setIndex] = useState(0);
   const activeColor = COLORS[index % COLORS.length];
   const darkenedBg = getDarkenedRgb(activeColor, 0.85);

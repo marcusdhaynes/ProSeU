@@ -59,6 +59,7 @@ import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { useFirestore, useCollection, useMemoFirebase } from '@/firebase';
 import { collection, query, where } from 'firebase/firestore';
+import { MASTERY_SECTIONS } from '@/lib/mastery-catalog';
 
 // --- Types & Constants ---
 type TierType = 'basic' | 'electrum' | 'orichalcum' | 'adamantine';
@@ -77,107 +78,6 @@ const TIER_STYLES: Record<TierType, TierStyle> = {
 };
 
 const TIER_ORDER: TierType[] = ['basic', 'electrum', 'orichalcum', 'adamantine'];
-
-const MASTERY_SECTIONS = [
-  { 
-    name: 'Core Principles', 
-    desc: 'Foundational concepts and state-individual relationships.', 
-    color: '#ff4b4b',
-    principles: [
-      { name: 'Authority', snippet: 'WHO HAS LEGAL POWER...' },
-      { name: 'Rights', snippet: 'WHO IS PROTECTED...' },
-      { name: 'Duties', snippet: 'WHO IS OBLIGATED...' },
-      { name: 'Harm', snippet: 'WHAT COUNTS AS INJURY...' },
-      { name: 'Causation', snippet: 'LEGAL RESPONSIBILITY LINK...' },
-      { name: 'Remedy', snippet: 'LEGAL CONSEQUENCES...' },
-      { name: 'Legitimacy', snippet: 'WHY AUTHORITY IS VALID...' }
-    ]
-  },
-  { 
-    name: 'Major Doctrines', 
-    desc: 'Key rules, standards, and legal definitions.', 
-    color: '#ff9600',
-    principles: [
-      { name: 'Jurisdiction Doctrines', snippet: 'AUTHORITY SCOPE DEFINED...' },
-      { name: 'Liability Doctrines', snippet: 'CONDITIONS FOR RESPONSIBILITY...' },
-      { name: 'Defense Doctrines', snippet: 'VALID EXCUSES...' },
-      { name: 'Remedy Doctrines', snippet: 'AVAILABLE RELIEF...' },
-      { name: 'Procedural Doctrines', snippet: 'CASE PROGRESSION RULES...' },
-      { name: 'Constitutional Doctrines', snippet: 'RIGHTS AND STRUCTURE...' },
-      { name: 'Equity Doctrines', snippet: 'FAIRNESS-BASED RULES...' }
-    ]
-  },
-  { 
-    name: 'Procedural Framework', 
-    desc: 'Steps for application, enforcement, and adjudication.', 
-    color: '#e6b400',
-    principles: [
-      { name: 'Jurisdiction Establishment', snippet: 'COURT AUTHORITY CONFIRMED...' },
-      { name: 'Pleading', snippet: 'CLAIMS AND DEFENSES STATED...' },
-      { name: 'Motion Practice', snippet: 'ISSUES RESOLVED EARLY...' },
-      { name: 'Discovery', snippet: 'EVIDENCE OBTAINED...' },
-      { name: 'Pre-trial Resolution', snippet: 'SETTLEMENT OR DISMISSAL...' },
-      { name: 'Adjudication', snippet: 'CASE DECIDED...' },
-      { name: 'Appeal and Review', snippet: 'DECISION REVIEWED...' }
-    ]
-  }, 
-  { 
-    name: 'Decision Standards', 
-    desc: 'The lens through which the court decides outcomes.', 
-    color: '#58cc02',
-    principles: [
-      { name: 'Authority-Defining Cases', snippet: 'WHO HOLDS AUTHORITY...' },
-      { name: 'Rights-Defining Cases', snippet: 'SCOPE OF RIGHTS...' },
-      { name: 'Limits-of-Power Cases', snippet: 'BOUNDARIES ENFORCED...' },
-      { name: 'Procedure-Defining Cases', snippet: 'PROCESS REQUIREMENTS...' },
-      { name: 'Liability-Expansion Cases', snippet: 'SCOPE BROADENED...' },
-      { name: 'Liability-Restriction Cases', snippet: 'SCOPE NARROWED...' },
-      { name: 'Paradigm-Shifting Cases', snippet: 'FRAMEWORK CHANGED...' }
-    ]
-  },
-  { 
-    name: 'Major Cases', 
-    desc: 'Landmark judicial decisions and their impacts.', 
-    color: '#1cb0f6',
-    principles: [
-      { name: 'Individual vs State Power', snippet: 'BALANCE OF POWER...' },
-      { name: 'Fairness vs Efficiency', snippet: 'JUSTICE VS SYSTEM...' },
-      { name: 'Predictability vs Flexibility', snippet: 'CONSISTENCY VS ADAPTATION...' },
-      { name: 'Centralization vs Decentralization', snippet: 'POWER DISTRIBUTION...' },
-      { name: 'Formalism vs Pragmatism', snippet: 'STRICT VS PRACTICAL...' },
-      { name: 'Stability vs Evolution', snippet: 'CONTINUITY VS CHANGE...' },
-      { name: 'Liberty vs Security', snippet: 'FREEDOM VS SAFETY...' }
-    ]
-  },
-  { 
-    name: 'Policy Debates', 
-    desc: 'Controversies, reforms, and competing arguments.', 
-    color: '#9333ea',
-    principles: [
-      { name: 'Issue Spotting', snippet: 'IDENTIFYING PROBLEMS...' },
-      { name: 'Rule Extraction', snippet: 'DERIVING RULES...' },
-      { name: 'Burden Manipulation', snippet: 'SHIFTING PROOF...' },
-      { name: 'Evidence Structuring', snippet: 'ORGANIZING RECORDS...' },
-      { name: 'Argument Construction', snippet: 'LOGICAL REASONING...' },
-      { name: 'Procedural Leverage', snippet: 'USING PROCESS...' },
-      { name: 'Judicial Psychology Navigation', snippet: 'UNDERSTANDING TENDENCIES...' }
-    ]
-  }, 
-  { 
-    name: 'Practical Skills', 
-    desc: 'Real-world application, drafting, and advocacy.', 
-    color: '#ff66aa',
-    principles: [
-      { name: 'Burden of Proof', snippet: 'WHO MUST PROVE...' },
-      { name: 'Standard of Proof', snippet: 'HOW MUCH PROOF...' },
-      { name: 'Standard of Review', snippet: 'APPELLATE REVIEW...' },
-      { name: 'Level of Scrutiny', snippet: 'RIGHTS PROTECTION...' },
-      { name: 'Evidentiary Weight', snippet: 'EVALUATING EVIDENCE...' },
-      { name: 'Deference Doctrines', snippet: 'WHEN COURTS DEFER...' },
-      { name: 'Balancing Tests', snippet: 'WEIGHING INTERESTS...' }
-    ]
-  },
-];
 
 const CAREER_PATHS = [
   { title: "[Career Potential Path 1]", market: "--", salary: "---,---" },

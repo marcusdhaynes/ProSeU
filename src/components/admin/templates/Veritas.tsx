@@ -17,7 +17,51 @@ const MOCK_QUESTIONS = [
   { prompt: 'Habeas corpus translates to "you have the body."', answer: true },
 ];
 
-export function Veritas() {
+export interface VeritasProps {
+  /** Lesson player. The admin preview ignores this and keeps the mock deck. */
+  embedded?: boolean;
+  prompt?: string;
+  disabled?: boolean;
+  onChoose?: (answer: boolean) => void;
+}
+
+export function Veritas(props: VeritasProps = {}) {
+  if (props.embedded) {
+    return <VeritasCard prompt={props.prompt ?? ''} disabled={!!props.disabled} onChoose={props.onChoose} />;
+  }
+  return <VeritasPreview />;
+}
+
+function VeritasCard({ prompt, disabled, onChoose }: { prompt: string; disabled: boolean; onChoose?: (answer: boolean) => void }) {
+  return (
+    <div className="space-y-6" data-testid="veritas-question">
+      <div className="rounded-[2rem] border-2 border-border bg-card px-6 py-8 text-center shadow-sm">
+        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground">Statement</p>
+        <h2 className="mt-3 text-xl font-black leading-snug text-primary">{prompt}</h2>
+      </div>
+      <div className="flex flex-col gap-3 sm:flex-row">
+        <button
+          type="button"
+          disabled={disabled}
+          onClick={() => onChoose?.(true)}
+          className="flex flex-1 items-center justify-center gap-3 h-16 rounded-[1.5rem] bg-[#58cc02] border-b-8 border-[#46a302] text-white font-black uppercase tracking-widest active:translate-y-1 active:border-b-0 disabled:opacity-50"
+        >
+          <CheckCircle2 className="h-6 w-6" /> Verum
+        </button>
+        <button
+          type="button"
+          disabled={disabled}
+          onClick={() => onChoose?.(false)}
+          className="flex flex-1 items-center justify-center gap-3 h-16 rounded-[1.5rem] bg-[#ff4b4b] border-b-8 border-[#9e2b2b] text-white font-black uppercase tracking-widest active:translate-y-1 active:border-b-0 disabled:opacity-50"
+        >
+          <XCircle className="h-6 w-6" /> Falsum
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function VeritasPreview() {
   const [index, setIndex] = useState(0);
   const activeColor = COLORS[index % COLORS.length];
   const darkenedBg = getDarkenedRgb(activeColor, 0.85);

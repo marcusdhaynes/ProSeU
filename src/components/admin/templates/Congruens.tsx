@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { Columns, Info, Settings, ChevronLeft, ChevronRight, Zap } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -15,7 +15,107 @@ const MOCK_PAIRS = [
   { id: 5, term: 'Plaintiff', definition: 'The party bringing suit' },
 ];
 
-export function Congruens() {
+export interface CongruensPair {
+  term: string;
+  definition: string;
+}
+
+export interface CongruensProps {
+  embedded?: boolean;
+  pairs?: CongruensPair[];
+  disabled?: boolean;
+  onComplete?: (pairs: CongruensPair[]) => void;
+}
+
+export function Congruens(props: CongruensProps = {}) {
+  if (props.embedded) {
+    return <CongruensCard pairs={props.pairs ?? []} disabled={!!props.disabled} onComplete={props.onComplete} />;
+  }
+  return <CongruensPreview />;
+}
+
+function CongruensCard({ pairs, disabled, onComplete }: { pairs: CongruensPair[]; disabled: boolean; onComplete?: (pairs: CongruensPair[]) => void }) {
+  const signature = pairs.map(pair => `${pair.term}\u0000${pair.definition}`).join('\n');
+  const definitions = useMemo(() => shuffle(pairs.map(pair => pair.definition)), [signature]);
+  const [term, setTerm] = useState<string | null>(null);
+  const [matched, setMatched] = useState<CongruensPair[]>([]);
+  const [wrong, setWrong] = useState(false);
+  const matchedTerms = new Set(matched.map(pair => pair.term));
+  const matchedDefs = new Set(matched.map(pair => pair.definition));
+
+  const chooseDefinition = (definition: string) => {
+    if (!term || disabled) return;
+    const expected = pairs.find(pair => pair.term === term)?.definition;
+    if (expected === definition) {
+      const next = [...matched, { term, definition }];
+      setMatched(next);
+      setTerm(null);
+      setWrong(false);
+      if (next.length === pairs.length) onComplete?.(next);
+      return;
+    }
+    setWrong(true);
+    setTerm(null);
+  };
+
+  return (
+    <div className="space-y-4" data-testid="congruens-question">
+      <p className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground text-center">Match each term to its meaning</p>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="space-y-2">
+          {pairs.map(pair => {
+            const done = matchedTerms.has(pair.term);
+            return (
+              <button
+                key={pair.term}
+                type="button"
+                disabled={disabled || done}
+                onClick={() => { setWrong(false); setTerm(pair.term); }}
+                className={cn(
+                  'w-full rounded-2xl border-2 border-b-8 px-4 py-3 text-left text-sm font-black',
+                  done ? 'border-emerald-600 bg-emerald-50 text-emerald-800' : term === pair.term ? 'border-accent bg-accent/10' : 'border-border bg-card',
+                )}
+              >
+                {pair.term}
+              </button>
+            );
+          })}
+        </div>
+        <div className="space-y-2">
+          {definitions.map(definition => {
+            const done = matchedDefs.has(definition);
+            return (
+              <button
+                key={definition}
+                type="button"
+                disabled={disabled || done || !term}
+                onClick={() => chooseDefinition(definition)}
+                className={cn(
+                  'w-full rounded-2xl border-2 border-b-8 px-4 py-3 text-left text-sm font-bold',
+                  done ? 'border-emerald-600 bg-emerald-50 text-emerald-800' : 'border-border bg-card disabled:opacity-70',
+                )}
+              >
+                {definition}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      {wrong && <p className="text-sm font-bold text-[#ff4b4b]" role="status">Those two do not match. Try another pair.</p>}
+    </div>
+  );
+}
+
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swap]] = [copy[swap], copy[index]];
+  }
+  return copy;
+}
+
+function CongruensPreview() {
   const [index, setIndex] = useState(0);
   const [selectedTerm, setSelectedTerm] = useState<number | null>(null);
   const [selectedDef, setSelectedDef] = useState<number | null>(null);
