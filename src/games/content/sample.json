@@ -1,0 +1,252 @@
+{
+  "sample": true,
+  "curriculumCode": "SAMPLE",
+  "sourceEdition": "sample",
+  "lessons": [
+    {
+      "competencyId": "core-principles",
+      "subsectionId": "core-principles.authority",
+      "levelId": "paralegal",
+      "summary": "SAMPLE. Authority asks who is allowed to make or apply a rule.",
+      "checklist": ["SAMPLE. I can say who holds this power."],
+      "sections": [
+        { "heading": "SAMPLE. The question", "body": "SAMPLE. Authority is about who the law lets act, not about who is strongest.", "defaultOpen": true }
+      ],
+      "questions": [
+        {
+          "id": "sample-authority-tf",
+          "templateId": "veritas",
+          "questionType": "true_false",
+          "prompt": "SAMPLE. Authority asks who is allowed to make a rule.",
+          "answer": true,
+          "explanation": "SAMPLE. Authority is the question of who holds legal power. Strength alone does not create it."
+        },
+        {
+          "id": "sample-authority-mc",
+          "templateId": "multiplix",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. Which question does Authority ask?",
+          "options": ["Who has the power?", "Who was harmed?", "What is the remedy?", "Was the hearing fast?"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Authority is about who holds legal power, not about harm or remedy."
+        },
+        {
+          "id": "sample-authority-match",
+          "templateId": "congruens",
+          "questionType": "matching",
+          "pairs": [
+            { "term": "Authority", "definition": "Who has legal power" },
+            { "term": "Remedy", "definition": "What the law does about a breach" }
+          ]
+        },
+        {
+          "id": "sample-authority-fill",
+          "templateId": "scriptum",
+          "questionType": "fill_in",
+          "prompt": "SAMPLE. Authority asks who has legal ____.",
+          "blanks": [{ "answer": "power", "accepted": ["power", "authority"] }],
+          "explanation": "SAMPLE. The blank is power: who the law permits to act."
+        }
+      ],
+      "games": [
+        {
+          "id": "sample-authority-peractio",
+          "templateId": "peractio",
+          "questionType": "tetris",
+          "prompt": "SAMPLE. Place the term for who may make a rule.",
+          "acceptedAnswers": ["Authority"],
+          "distractors": ["Remedy"],
+          "blocksAwarded": 1,
+          "explanation": "SAMPLE. Authority names who may make the rule. Remedy names what follows a breach."
+        },
+        {
+          "id": "sample-authority-displodo",
+          "templateId": "displodo",
+          "questionType": "asteroids",
+          "prompt": "SAMPLE. Who has legal power?",
+          "correct": "The body the law names",
+          "distractors": ["Whoever is stronger", "The person who lost"],
+          "explanation": "SAMPLE. Legal power belongs to the body the rule names, not to the stronger party."
+        },
+        {
+          "id": "sample-authority-griffon",
+          "templateId": "griffon-juste",
+          "questionType": "griffon_juste",
+          "prompt": "SAMPLE. A town hearing about who may close the square.",
+          "explanation": "SAMPLE. The charter names the council, so a witness who names the loudest resident is contradicted.",
+          "testimony": [
+            { "id": "s1", "speaker": "Witness", "text": "SAMPLE. I was in the square when the rope went up.", "canObject": false },
+            { "id": "s2", "speaker": "Witness", "text": "SAMPLE. The loudest resident may close the square whenever they wish.", "canObject": true, "contradiction": "SAMPLE. Charter excerpt: only the town council may close the square.", "evidenceId": "charter" }
+          ],
+          "evidence": [
+            { "id": "charter", "label": "Charter excerpt", "text": "SAMPLE. Only the town council may close the square." },
+            { "id": "poster", "label": "Festival poster", "text": "SAMPLE. The square hosts a market on Saturdays." }
+          ]
+        }
+      ]
+    },
+    {
+      "competencyId": "core-principles",
+      "subsectionId": "core-principles.authority",
+      "levelId": "doctorate",
+      "summary": "SAMPLE. A harder pass on the same idea: authority can be limited by the grant that created it.",
+      "questions": [
+        {
+          "id": "sample-authority-doc-mc",
+          "templateId": "multiplix",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. A council closes the square for a private party. The charter lets it close the square only for safety. What is the best challenge?",
+          "options": [
+            "The act is outside the grant of authority",
+            "The square has no name",
+            "A poster is not a document",
+            "Safety is a kind of remedy"
+          ],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Authority includes its limit. An act outside the grant is the challenge, even if the body is the right one."
+        }
+      ],
+      "games": [
+        {
+          "id": "sample-authority-doc-blocks",
+          "templateId": "peractio",
+          "questionType": "tetris",
+          "prompt": "SAMPLE. Place the phrase for an act outside the grant.",
+          "acceptedAnswers": ["Ultra vires"],
+          "distractors": ["Remedy", "Harm", "Notice"],
+          "blocksAwarded": 2,
+          "explanation": "SAMPLE. Ultra vires means beyond the powers granted. It is not a remedy, a harm, or a notice."
+        },
+        {
+          "id": "sample-authority-doc-rocks",
+          "templateId": "displodo",
+          "questionType": "asteroids",
+          "prompt": "SAMPLE. Which limit travels with authority?",
+          "correct": "The grant that created the power",
+          "distractors": ["The loudest objection", "The size of the crowd", "The day of the week"],
+          "explanation": "SAMPLE. The grant both gives the power and marks where it stops."
+        }
+      ]
+    },
+    {
+      "competencyId": "core-principles",
+      "subsectionId": "core-principles.rights",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-rights-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. A right, in this course, is best described as:",
+          "options": ["Protection the law gives a person", "A prize for winning", "A clerk's stamp", "A kind of tax"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Rights are protections the law recognizes, not prizes or stamps."
+        }
+      ]
+    },
+    {
+      "competencyId": "core-principles",
+      "subsectionId": "core-principles.duties",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-duties-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. A duty asks:",
+          "options": ["Who must act or refrain", "Who owns the building", "Which color the seal is", "How long a speech may be"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Duty is about who is obligated to act or to hold back."
+        }
+      ]
+    },
+    {
+      "competencyId": "major-doctrines",
+      "subsectionId": "major-doctrines.jurisdiction-doctrines",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-jurisdiction-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. Jurisdiction doctrines mainly decide:",
+          "options": ["Whether this forum may hear the matter", "Which font a brief uses", "How loud a witness speaks", "The price of a filing stamp"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Jurisdiction is about the forum's power to hear the matter."
+        }
+      ]
+    },
+    {
+      "competencyId": "procedural-framework",
+      "subsectionId": "procedural-framework.pleading",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-pleading-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. Pleading is the step where parties:",
+          "options": ["State claims and defenses", "Choose a courtroom carpet", "Elect a mayor", "Destroy the file"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Pleadings put claims and defenses on the record."
+        }
+      ]
+    },
+    {
+      "competencyId": "decision-standards",
+      "subsectionId": "decision-standards.burden-of-proof",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-burden-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. The burden of proof answers:",
+          "options": ["Who must prove the point", "Which chair the judge uses", "How many pages a brief has", "Where the clerk sits"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. The burden of proof assigns who has to prove the point."
+        }
+      ]
+    },
+    {
+      "competencyId": "major-cases",
+      "subsectionId": "major-cases.authority-defining-cases",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-cases-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. An authority-defining case is studied because it:",
+          "options": ["Says who holds a power", "Lists office supplies", "Sets the lunch hour", "Chooses a typeface"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. These cases are landmarks about who holds a legal power."
+        }
+      ]
+    },
+    {
+      "competencyId": "policy-debates",
+      "subsectionId": "policy-debates.individual-vs-state-power",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-policy-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. The debate of individual versus state power weighs:",
+          "options": ["A person's liberty against public power", "Two brands of paper", "The height of a bench", "A clerk's handwriting"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. This debate is about liberty on one side and public power on the other."
+        }
+      ]
+    },
+    {
+      "competencyId": "practical-skills",
+      "subsectionId": "practical-skills.issue-spotting",
+      "levelId": "paralegal",
+      "questions": [
+        {
+          "id": "sample-issue-mc",
+          "questionType": "multiple_choice",
+          "prompt": "SAMPLE. Issue spotting means:",
+          "options": ["Finding the legal questions in a set of facts", "Counting the pages", "Memorizing a seal", "Skipping the facts"],
+          "correctIndex": 0,
+          "explanation": "SAMPLE. Issue spotting pulls the legal questions out of the facts."
+        }
+      ]
+    }
+  ]
+}
