@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "See why ancient judgments connected wrongs to consequences",
+          "summary": "Begin with the remedies and sanctions recorded in early legal collections. Learn to distinguish repair for an injured person from punishment meant to uphold a ruler's order.",
+          "checklist": [
+            "I can recognize repayment, compensation and penalties",
+            "I can distinguish repairing a loss from imposing a sanction",
+            "I can identify the legal source of the response"
+          ],
+          "sections": [
+            {
+              "title": "A Wrong Calls for a Response",
+              "body_md": "A buyer loses goods, a neighbor suffers injury, or a debt remains unpaid. The legal response might involve restitution, a monetary payment or a penalty. Hammurabi's recorded judgments contain varied consequences rather than one universal principle of repair. Some reflect social hierarchy in who receives payment or punishment. A historian should first identify which interest the provision protects and then ask what outcome the rule seeks. The fact that two responses both follow a wrong does not mean they serve the same goal.",
+              "example": null,
+              "audio_script": "A buyer loses goods, a neighbor suffers injury, or a debt remains unpaid. The legal response might involve restitution, a monetary payment or a penalty. Hammurabi's recorded judgments contain varied consequences rather than one universal principle of repair. Some reflect social hierarchy in who receives payment or punishment. A historian should first identify which interest the provision protects and then ask what outcome the rule seeks. The fact that two responses both follow a wrong does not mean they serve the same goal.",
+              "video": null
+            },
+            {
+              "title": "Pay Back or Punish?",
+              "body_md": "Returning property or its value may focus on restoring what was lost. A punishment may condemn wrongdoing or discourage repetition. Some ancient remedies combined features that modern law tends to classify separately. The particular wording and status of the parties are therefore crucial. A student should avoid describing every required payment as compensatory damages. The historically precise description states who pays, who receives, how the amount is calculated and what authority directs the response.",
+              "example": null,
+              "audio_script": "Returning property or its value may focus on restoring what was lost. A punishment may condemn wrongdoing or discourage repetition. Some ancient remedies combined features that modern law tends to classify separately. The particular wording and status of the parties are therefore crucial. A student should avoid describing every required payment as compensatory damages. The historically precise description states who pays, who receives, how the amount is calculated and what authority directs the response.",
+              "video": null
+            },
+            {
+              "title": "The Meaning of Repair",
+              "body_md": "A broken tool can sometimes be replaced; a lost life cannot. Every legal system must confront the limits of remedy. Ancient judgments show attempts to translate harm into enforceable consequences, but they do not necessarily reflect modern ideals of equal dignity. To study them responsibly, consider both practical effects and moral commitments. A court order that protects one person while disregarding another's status may be legally significant and ethically troubling at the same time.",
+              "example": null,
+              "audio_script": "A broken tool can sometimes be replaced; a lost life cannot. Every legal system must confront the limits of remedy. Ancient judgments show attempts to translate harm into enforceable consequences, but they do not necessarily reflect modern ideals of equal dignity. To study them responsibly, consider both practical effects and moral commitments. A court order that protects one person while disregarding another's status may be legally significant and ethically troubling at the same time.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Compensation describes relief intended to address recognized loss.",
+              "answer": true,
+              "explanation_if_true": "Compensation refers to relief intended to address recognized loss.",
+              "explanation_if_false": "Compensation refers to relief intended to address recognized loss."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "Every penalty recorded in an ancient legal text served only to repay the injured person.",
+              "answer": false,
+              "explanation_if_true": "Ancient consequences could be punitive or serve other social and political purposes.",
+              "explanation_if_false": "Ancient consequences could be punitive or serve other social and political purposes."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Restitution?",
+              "choices": [
+                "Legally available response to a wrong",
+                "Restoring a benefit or value under a legal rule",
+                "Relief intended to address recognized loss",
+                "Sanction connected with prohibited conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Restitution means restoring a benefit or value under a legal rule."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A judgment requires return of wrongfully held grain rather than punishment. Which idea best explains the order?",
+              "choices": [
+                "Restitution",
+                "Political sovereignty",
+                "Judicial review",
+                "A citizenship decree"
+              ],
+              "answer_index": 0,
+              "explanation": "Restitution focuses on returning a benefit or its value."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means sanction connected with prohibited conduct?",
+              "choices": [
+                "Penalty",
+                "Restitution",
+                "Remedy",
+                "Compensation"
+              ],
+              "answer_index": 0,
+              "explanation": "Penalty means sanction connected with prohibited conduct."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Restitution",
+                  "Restoring a benefit or value under a legal rule"
+                ],
+                [
+                  "Compensation",
+                  "Relief intended to address recognized loss"
+                ],
+                [
+                  "Penalty",
+                  "Sanction connected with prohibited conduct"
+                ],
+                [
+                  "Remedy",
+                  "Legally available response to a wrong"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for restoring a benefit or value under a legal rule is ___.",
+              "answer": "Restitution",
+              "accept": [
+                "Restitution"
+              ],
+              "explanation": "The term is Restitution."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally available response to a wrong is ___.",
+              "answer": "Remedy",
+              "accept": [
+                "Remedy"
+              ],
+              "explanation": "The term is Remedy."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare Roman actions and the organization of redress",
+          "summary": "Understand how Roman legal actions linked rights with available remedies. Learn why the form of an action could shape what a person recovered, and why later private-law systems developed from these categories.",
+          "checklist": [
+            "I can explain the relationship between an action and a remedy",
+            "I can identify damages and other forms of private redress",
+            "I can recognize procedural limits in Roman legal practice"
+          ],
+          "sections": [
+            {
+              "title": "The Action Matters",
+              "body_md": "Roman lawyers analyzed not only whether a person had a right, but which legal action could vindicate it. Actions involving property, obligation and wrongful damage differed in form and available result. That system did not map neatly onto all modern categories. A person could have a moral grievance without the action needed to pursue a recognized remedy. Legal history therefore treats remedy as part of how law defines protected interests rather than an optional step after an abstract right is announced.",
+              "example": null,
+              "audio_script": "Roman lawyers analyzed not only whether a person had a right, but which legal action could vindicate it. Actions involving property, obligation and wrongful damage differed in form and available result. That system did not map neatly onto all modern categories. A person could have a moral grievance without the action needed to pursue a recognized remedy. Legal history therefore treats remedy as part of how law defines protected interests rather than an optional step after an abstract right is announced.",
+              "video": null
+            },
+            {
+              "title": "Recovering and Vindicating",
+              "body_md": "Roman institutions developed varied means of seeking recovery of property, money or satisfaction for an actionable wrong. The details depended on time, forum and the legal status of the parties. Medieval scholars later studied Roman remedial distinctions while adapting them to new systems. A historian should avoid the temptation to translate every Roman action into a modern injunction or damages award. Better analysis names the historical procedural route and its function before drawing a comparison.",
+              "example": null,
+              "audio_script": "Roman institutions developed varied means of seeking recovery of property, money or satisfaction for an actionable wrong. The details depended on time, forum and the legal status of the parties. Medieval scholars later studied Roman remedial distinctions while adapting them to new systems. A historian should avoid the temptation to translate every Roman action into a modern injunction or damages award. Better analysis names the historical procedural route and its function before drawing a comparison.",
+              "video": null
+            },
+            {
+              "title": "The Persistence of Remedies",
+              "body_md": "When legal concepts travel between systems, remedial institutions often change even if the vocabulary remains familiar. A modern civil code may retain Roman-influenced classifications while giving a judge powers unavailable to an earlier Roman magistrate. The continuity is intellectual rather than mechanical. Compare the interest protected, the claimant's legal standing, the remedy's aim and the means of enforcement. These four questions reveal whether an old action genuinely resembles a present-day cause of action.",
+              "example": null,
+              "audio_script": "When legal concepts travel between systems, remedial institutions often change even if the vocabulary remains familiar. A modern civil code may retain Roman-influenced classifications while giving a judge powers unavailable to an earlier Roman magistrate. The continuity is intellectual rather than mechanical. Compare the interest protected, the claimant's legal standing, the remedy's aim and the means of enforcement. These four questions reveal whether an old action genuinely resembles a present-day cause of action.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Vindication describes legal assertion or protection of an entitlement.",
+              "answer": true,
+              "explanation_if_true": "Vindication refers to legal assertion or protection of an entitlement.",
+              "explanation_if_false": "Vindication refers to legal assertion or protection of an entitlement."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every Roman legal action yielded the same form of modern damages.",
+              "answer": false,
+              "explanation_if_true": "Roman remedial forms varied, and modern categories emerged through later legal development.",
+              "explanation_if_false": "Roman remedial forms varied, and modern categories emerged through later legal development."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Legal action?",
+              "choices": [
+                "Recognized procedure to pursue judicial relief",
+                "Legal assertion or protection of an entitlement",
+                "Obtaining return or value through lawful process",
+                "Court or procedure able to provide relief"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal action means recognized procedure to pursue judicial relief."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant owns an object but cannot identify an applicable Roman action. What historical issue arises?",
+              "choices": [
+                "The design of a modern app",
+                "The declaration of 1948",
+                "The adoption of a twentieth-century treaty",
+                "The procedural route to legal relief"
+              ],
+              "answer_index": 3,
+              "explanation": "In Roman systems, recognized actions shaped how rights could be vindicated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means obtaining return or value through lawful process?",
+              "choices": [
+                "Legal action",
+                "Remedial institution",
+                "Vindication",
+                "Recovery"
+              ],
+              "answer_index": 3,
+              "explanation": "Recovery means obtaining return or value through lawful process."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Legal action",
+                  "Recognized procedure to pursue judicial relief"
+                ],
+                [
+                  "Vindication",
+                  "Legal assertion or protection of an entitlement"
+                ],
+                [
+                  "Recovery",
+                  "Obtaining return or value through lawful process"
+                ],
+                [
+                  "Remedial institution",
+                  "Court or procedure able to provide relief"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for recognized procedure to pursue judicial relief is ___.",
+              "answer": "Legal action",
+              "accept": [
+                "Legal action"
+              ],
+              "explanation": "The term is Legal action."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for court or procedure able to provide relief is ___.",
+              "answer": "Remedial institution",
+              "accept": [
+                "Remedial institution"
+              ],
+              "explanation": "The term is Remedial institution."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Trace common-law remedies and the emergence of equity",
+          "summary": "Compare damages with historically distinct equitable responses. Explain why the separation and later administrative fusion of courts did not eliminate all substantive distinctions between remedies.",
+          "checklist": [
+            "I can distinguish common-law damages and equitable relief historically",
+            "I can explain why injunctions and specific performance developed",
+            "I can analyze the gap between a formal right and effective redress"
+          ],
+          "sections": [
+            {
+              "title": "Damages Are Not Every Answer",
+              "body_md": "Common-law courts developed important money remedies, but payment may be inadequate when a threatened wrong is repeated or a promised object is unique. Historically, English equity grew partly in response to perceived limits of ordinary legal remedies and procedures. Chancery's intervention developed its own doctrines, forms and constraints. Equity is not simply permission for a judge to ignore law. To understand a remedy, ask which institution historically supplied it and which legal considerations governed its availability.",
+              "example": null,
+              "audio_script": "Common-law courts developed important money remedies, but payment may be inadequate when a threatened wrong is repeated or a promised object is unique. Historically, English equity grew partly in response to perceived limits of ordinary legal remedies and procedures. Chancery's intervention developed its own doctrines, forms and constraints. Equity is not simply permission for a judge to ignore law. To understand a remedy, ask which institution historically supplied it and which legal considerations governed its availability.",
+              "video": null
+            },
+            {
+              "title": "Order Conduct or Pay Money",
+              "body_md": "An injunction may stop harmful conduct; specific performance may require a qualifying contractual obligation to be fulfilled. These orders affect future behavior and can demand practical judicial supervision. A damages award responds differently, typically through money. The remedy selected depends on the legal system, claim, adequacy of alternatives and relevant equitable factors. A historian should trace when an institution gained the power to issue a particular order instead of treating all remedies as historically universal.",
+              "example": null,
+              "audio_script": "An injunction may stop harmful conduct; specific performance may require a qualifying contractual obligation to be fulfilled. These orders affect future behavior and can demand practical judicial supervision. A damages award responds differently, typically through money. The remedy selected depends on the legal system, claim, adequacy of alternatives and relevant equitable factors. A historian should trace when an institution gained the power to issue a particular order instead of treating all remedies as historically universal.",
+              "video": null
+            },
+            {
+              "title": "Fusion Was Not Erasure",
+              "body_md": "English procedural reforms joined administration of common law and equity within restructured courts during the nineteenth century. That history did not necessarily abolish differences among substantive rights or remedial standards. Systems influenced by English law still debate the significance of legal and equitable classifications. The lesson is that institutional reorganization and doctrinal merger are not identical. A doctoral-level comparison later asks whether retaining distinct equitable standards still promotes justice or merely complicates accessible redress.",
+              "example": null,
+              "audio_script": "English procedural reforms joined administration of common law and equity within restructured courts during the nineteenth century. That history did not necessarily abolish differences among substantive rights or remedial standards. Systems influenced by English law still debate the significance of legal and equitable classifications. The lesson is that institutional reorganization and doctrinal merger are not identical. A doctoral-level comparison later asks whether retaining distinct equitable standards still promotes justice or merely complicates accessible redress.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Injunction describes order to do or refrain from specified conduct.",
+              "answer": true,
+              "explanation_if_true": "Injunction refers to order to do or refrain from specified conduct.",
+              "explanation_if_false": "Injunction refers to order to do or refrain from specified conduct."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "The administrative fusion of courts made every common-law and equitable remedy identical.",
+              "answer": false,
+              "explanation_if_true": "Procedural reorganization did not necessarily erase distinct substantive or remedial standards.",
+              "explanation_if_false": "Procedural reorganization did not necessarily erase distinct substantive or remedial standards."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Chancery?",
+              "choices": [
+                "Order to do or refrain from specified conduct",
+                "Order enforcing a qualifying obligation",
+                "Joining aspects of legal and equitable court administration",
+                "Historical English institution associated with equity"
+              ],
+              "answer_index": 3,
+              "explanation": "Chancery means historical english institution associated with equity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A threatened repeated trespass cannot be repaired adequately by money. Which historical remedy is most relevant?",
+              "choices": [
+                "Criminal transportation",
+                "A royal tax",
+                "Injunction",
+                "Citizenship grant"
+              ],
+              "answer_index": 2,
+              "explanation": "Equitable remedies could address continuing conduct where ordinary compensation was inadequate."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means order enforcing a qualifying obligation?",
+              "choices": [
+                "Fusion",
+                "Injunction",
+                "Specific performance",
+                "Chancery"
+              ],
+              "answer_index": 2,
+              "explanation": "Specific performance means order enforcing a qualifying obligation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Chancery",
+                  "Historical English institution associated with equity"
+                ],
+                [
+                  "Injunction",
+                  "Order to do or refrain from specified conduct"
+                ],
+                [
+                  "Specific performance",
+                  "Order enforcing a qualifying obligation"
+                ],
+                [
+                  "Fusion",
+                  "Joining aspects of legal and equitable court administration"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for historical english institution associated with equity is ___.",
+              "answer": "Chancery",
+              "accept": [
+                "Chancery"
+              ],
+              "explanation": "The term is Chancery."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for joining aspects of legal and equitable court administration is ___.",
+              "answer": "Fusion",
+              "accept": [
+                "Fusion"
+              ],
+              "explanation": "The term is Fusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate modern effective-remedy commitments",
+          "summary": "Connect the history of redress to constitutional and international human-rights commitments. Critically distinguish formal recognition of a right from timely, accessible and effective relief.",
+          "checklist": [
+            "I can explain the effective-remedy principle in human-rights law",
+            "I can evaluate institutional barriers to enforcement",
+            "I can design remedies attentive to dignity, capacity and cost"
+          ],
+          "sections": [
+            {
+              "title": "From Declaration to Enforcement",
+              "body_md": "The 1948 Universal Declaration of Human Rights includes an article addressing effective remedies for violations of fundamental rights granted by constitution or law. A declaration is not itself a universal domestic court order; enforceability depends on applicable institutions and legal commitments. Nevertheless, the principle reframes remedy as part of what makes rights meaningful. If a person's detention or exclusion is unlawful, a purely symbolic acknowledgment may be inadequate. Effective relief must be assessed against the actual injury and available powers.",
+              "example": null,
+              "audio_script": "The 1948 Universal Declaration of Human Rights includes an article addressing effective remedies for violations of fundamental rights granted by constitution or law. A declaration is not itself a universal domestic court order; enforceability depends on applicable institutions and legal commitments. Nevertheless, the principle reframes remedy as part of what makes rights meaningful. If a person's detention or exclusion is unlawful, a purely symbolic acknowledgment may be inadequate. Effective relief must be assessed against the actual injury and available powers.",
+              "video": null
+            },
+            {
+              "title": "A Right Can Fail in Practice",
+              "body_md": "A person may formally qualify for a remedy yet be unable to pay filing fees, obtain translation, prove discrimination or withstand delay. Institutional design can therefore make nominal rights ineffective. International, regional and domestic systems have developed different review and enforcement mechanisms, but their competence and access rules vary. The doctoral analyst should distinguish legal availability, procedural accessibility and practical effect. An idealized list of remedies does not substitute for examining what happens to affected people.",
+              "example": null,
+              "audio_script": "A person may formally qualify for a remedy yet be unable to pay filing fees, obtain translation, prove discrimination or withstand delay. Institutional design can therefore make nominal rights ineffective. International, regional and domestic systems have developed different review and enforcement mechanisms, but their competence and access rules vary. The doctoral analyst should distinguish legal availability, procedural accessibility and practical effect. An idealized list of remedies does not substitute for examining what happens to affected people.",
+              "video": null
+            },
+            {
+              "title": "Repair With Institutional Discipline",
+              "body_md": "Imagine designing redress for mass unlawful denial of public benefits. Individual payments may help past victims; a declaration may clarify the law; process reform may prevent recurrence. Each mechanism has limits involving proof, budget, oversight and third-party effects. A defensible proposal identifies the rights violated, the authority of the institution acting, measurable compliance and realistic review. The goal is not maximal judicial control but genuine protection consistent with separation of powers, dignity and lawful accountability.",
+              "example": null,
+              "audio_script": "Imagine designing redress for mass unlawful denial of public benefits. Individual payments may help past victims; a declaration may clarify the law; process reform may prevent recurrence. Each mechanism has limits involving proof, budget, oversight and third-party effects. A defensible proposal identifies the rights violated, the authority of the institution acting, measurable compliance and realistic review. The goal is not maximal judicial control but genuine protection consistent with separation of powers, dignity and lawful accountability.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "UDHR Article 8 describes 1948 declaration provision addressing effective national remedies.",
+              "answer": true,
+              "explanation_if_true": "UDHR Article 8 refers to 1948 declaration provision addressing effective national remedies.",
+              "explanation_if_false": "UDHR Article 8 refers to 1948 declaration provision addressing effective national remedies."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "A right's mere appearance in a declaration always guarantees an enforceable judgment in every domestic court.",
+              "answer": false,
+              "explanation_if_true": "Domestic legal force depends on applicable law, institutions and binding commitments.",
+              "explanation_if_false": "Domestic legal force depends on applicable law, institutions and binding commitments."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Effective remedy?",
+              "choices": [
+                "Practical ability to invoke legal institutions",
+                "Remedy addressing recurring organizational practices",
+                "Relief capable of meaningfully vindicating a right",
+                "1948 declaration provision addressing effective national remedies"
+              ],
+              "answer_index": 2,
+              "explanation": "Effective remedy means relief capable of meaningfully vindicating a right."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant wins a declaration, but a discriminatory agency practice continues. What does a remedial analysis need to examine?",
+              "choices": [
+                "The date of Hammurabi's reign alone",
+                "Practical effectiveness and enforceable follow-through",
+                "Only the length of the judgment",
+                "The court's interior design"
+              ],
+              "answer_index": 1,
+              "explanation": "Formal recognition may fail to change lived harm without suitable implementation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means practical ability to invoke legal institutions?",
+              "choices": [
+                "UDHR Article 8",
+                "Access to justice",
+                "Effective remedy",
+                "Institutional redress"
+              ],
+              "answer_index": 1,
+              "explanation": "Access to justice means practical ability to invoke legal institutions."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Effective remedy",
+                  "Relief capable of meaningfully vindicating a right"
+                ],
+                [
+                  "UDHR Article 8",
+                  "1948 declaration provision addressing effective national remedies"
+                ],
+                [
+                  "Access to justice",
+                  "Practical ability to invoke legal institutions"
+                ],
+                [
+                  "Institutional redress",
+                  "Remedy addressing recurring organizational practices"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for relief capable of meaningfully vindicating a right is ___.",
+              "answer": "Effective remedy",
+              "accept": [
+                "Effective remedy"
+              ],
+              "explanation": "The term is Effective remedy."
+            },
+            {
+              "id": "PSU-1.2.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for remedy addressing recurring organizational practices is ___.",
+              "answer": "Institutional redress",
+              "accept": [
+                "Institutional redress"
+              ],
+              "explanation": "The term is Institutional redress."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
