@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "discovery",
+      "name": "Discovery",
+      "levels": {
+        "red": {
+          "focus": "Find evidence without assuming the client’s account is complete.",
+          "summary": "Lawful factfinding can confirm, qualify, or contradict a claim. Learn why discovery serves truth, while relevance, privacy, and procedural rules limit what may be demanded.",
+          "checklist": [
+            "I can identify the evidence needed to test a factual claim",
+            "I can distinguish relevance from unrestricted access",
+            "I can explain the importance of preserving records"
+          ],
+          "sections": [
+            {
+              "title": "Start with a question, not a pile of documents",
+              "body_md": "An employee says their employer sent a dismissal notice on the wrong date. The lawyer needs the notice, transmission records, and relevant testimony. Discovery is a regulated process for obtaining or exchanging evidence in systems that use it. Other jurisdictions structure factfinding differently. In every system, the aim is to test the legal questions that matter. A demand for every document about the employer is less useful than a careful inquiry into the date and authority of the actual decision.",
+              "audio_script": "An employee says their employer sent a dismissal notice on the wrong date. The lawyer needs the notice, transmission records, and relevant testimony. Discovery is a regulated process for obtaining or exchanging evidence in systems that use it. Other jurisdictions structure factfinding differently. In every system, the aim is to test the legal questions that matter. A demand for every document about the employer is less useful than a careful inquiry into the date and authority of the actual decision.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Relevant does not mean unlimited",
+              "body_md": "Evidence is relevant when it can help resolve an issue the law treats as material. Yet relevant material may still be protected by privacy, legal privilege, confidentiality rules, or proportionality. A lawsuit is not permission to search every opponent’s private communication. Before requesting information, ask which proposition it could prove or disprove and whether the forum permits obtaining it. This protects the accuracy of the case and the dignity of persons who may never become parties.",
+              "audio_script": "Evidence is relevant when it can help resolve an issue the law treats as material. Yet relevant material may still be protected by privacy, legal privilege, confidentiality rules, or proportionality. A lawsuit is not permission to search every opponent’s private communication. Before requesting information, ask which proposition it could prove or disprove and whether the forum permits obtaining it. This protects the accuracy of the case and the dignity of persons who may never become parties.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A fact can disappear",
+              "body_md": "Electronic messages may be deleted routinely, and witnesses' memories can fade. Preservation duties may arise when litigation is reasonably anticipated under applicable law, but the exact timing and obligations vary. The lawyer should identify likely evidence, explain lawful preservation, and record any gaps honestly. Inventing a missing email or altering a screenshot is never a substitute for proof. A reliable process gives both sides the best available opportunity to establish what actually happened.",
+              "audio_script": "Electronic messages may be deleted routinely, and witnesses' memories can fade. Preservation duties may arise when litigation is reasonably anticipated under applicable law, but the exact timing and obligations vary. The lawyer should identify likely evidence, explain lawful preservation, and record any gaps honestly. Inventing a missing email or altering a screenshot is never a substitute for proof. A reliable process gives both sides the best available opportunity to establish what actually happened.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q1",
+              "type": "true_false",
+              "prompt": "Relevance refers to connection between evidence and an issue.",
+              "answer": true,
+              "explanation_if_true": "Relevance means connection between evidence and an issue.",
+              "explanation_if_false": "Relevance means connection between evidence and an issue."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q2",
+              "type": "true_false",
+              "prompt": "Any private information about a party is automatically obtainable once litigation begins.",
+              "answer": false,
+              "explanation_if_true": "Discovery remains subject to relevance, privilege, privacy, and procedural limits.",
+              "explanation_if_false": "Discovery remains subject to relevance, privilege, privacy, and procedural limits."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Discovery?",
+              "choices": [
+                "Safeguarding potential evidence",
+                "Regulated process of obtaining case information",
+                "Connection between evidence and an issue",
+                "Legal protection from specified disclosure"
+              ],
+              "answer_index": 1,
+              "explanation": "Discovery means regulated process of obtaining case information."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant seeks an unrelated stranger's medical records in a lease dispute. Which concern arises?",
+              "choices": [
+                "Relevance and privacy",
+                "The judge's education",
+                "Only the paper's age",
+                "Whether the claimant likes the answer"
+              ],
+              "answer_index": 0,
+              "explanation": "Information requests must serve legally material issues while respecting protection."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal protection from specified disclosure?",
+              "choices": [
+                "Privilege",
+                "Discovery",
+                "Preservation",
+                "Relevance"
+              ],
+              "answer_index": 0,
+              "explanation": "Privilege means legal protection from specified disclosure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q6",
+              "type": "matching",
+              "prompt": "Match each evidence concept to its meaning.",
+              "pairs": [
+                [
+                  "Discovery",
+                  "Regulated process of obtaining case information"
+                ],
+                [
+                  "Relevance",
+                  "Connection between evidence and an issue"
+                ],
+                [
+                  "Privilege",
+                  "Legal protection from specified disclosure"
+                ],
+                [
+                  "Preservation",
+                  "Safeguarding potential evidence"
+                ]
+              ],
+              "explanation": "Each concept serves a separate factfinding function."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for regulated process of obtaining case information is ___.",
+              "answer": "Discovery",
+              "accept": [
+                "Discovery"
+              ],
+              "explanation": "The answer is Discovery."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for safeguarding potential evidence is ___.",
+              "answer": "Preservation",
+              "accept": [
+                "Preservation"
+              ],
+              "explanation": "The answer is Preservation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare evidentiary tools and protections.",
+          "summary": "Document requests, interrogatories, depositions, and admissions serve different purposes. Learn how counsel chooses a proportionate method while respecting privilege.",
+          "checklist": [
+            "I can distinguish major fact-gathering tools",
+            "I can identify the limits of legal privilege",
+            "I can evaluate whether a request is proportionate"
+          ],
+          "sections": [
+            {
+              "title": "Choose the evidence method",
+              "body_md": "A document request seeks existing records; an interrogatory asks an opposing party a written question under applicable procedures; a deposition records sworn testimony in systems that permit it. A request for admission narrows disputed propositions. These tools are not universally available in the same forms. A good lawyer knows what question the evidence must answer before choosing a method. More questions and documents can create expense without improving the accuracy of a decision.",
+              "audio_script": "A document request seeks existing records; an interrogatory asks an opposing party a written question under applicable procedures; a deposition records sworn testimony in systems that permit it. A request for admission narrows disputed propositions. These tools are not universally available in the same forms. A good lawyer knows what question the evidence must answer before choosing a method. More questions and documents can create expense without improving the accuracy of a decision.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Privilege is a legal rule, not a label",
+              "body_md": "A client may disclose sensitive facts to legal counsel for advice. Attorney–client privilege and work-product protections can restrict disclosure under specified rules, but their holders, scope, and exceptions vary by legal system. Marking an email confidential does not necessarily make it privileged; equally, the facts underlying a protected communication may still be discoverable elsewhere. An advocate must examine the rule, purpose, and potential waiver before assuring a client that a record can never be disclosed.",
+              "audio_script": "A client may disclose sensitive facts to legal counsel for advice. Attorney–client privilege and work-product protections can restrict disclosure under specified rules, but their holders, scope, and exceptions vary by legal system. Marking an email confidential does not necessarily make it privileged; equally, the facts underlying a protected communication may still be discoverable elsewhere. An advocate must examine the rule, purpose, and potential waiver before assuring a client that a record can never be disclosed.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Proportionality governs scope",
+              "body_md": "A request covering ten years of files may be relevant to a limited degree but impose excessive costs compared with the matter in dispute. Courts may narrow requests or protect sensitive information. A proposed response should identify the factual issue, the necessary time period, available alternatives, and the burden of collection. The goal is enough reliable evidence to permit a fair decision, not maximum disclosure. Proportionality can serve the claimant and the opponent together.",
+              "audio_script": "A request covering ten years of files may be relevant to a limited degree but impose excessive costs compared with the matter in dispute. Courts may narrow requests or protect sensitive information. A proposed response should identify the factual issue, the necessary time period, available alternatives, and the burden of collection. The goal is enough reliable evidence to permit a fair decision, not maximum disclosure. Proportionality can serve the claimant and the opponent together.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q1",
+              "type": "true_false",
+              "prompt": "Interrogatory refers to written question answered under litigation rules.",
+              "answer": true,
+              "explanation_if_true": "Interrogatory means written question answered under litigation rules.",
+              "explanation_if_false": "Interrogatory means written question answered under litigation rules."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q2",
+              "type": "true_false",
+              "prompt": "Labelling a document confidential automatically places it under attorney–client privilege.",
+              "answer": false,
+              "explanation_if_true": "Legal privilege requires its own elements, which differ from general confidentiality.",
+              "explanation_if_false": "Legal privilege requires its own elements, which differ from general confidentiality."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Deposition?",
+              "choices": [
+                "Sworn out-of-court questioning under procedural rules",
+                "Written question answered under litigation rules",
+                "Protected lawyer-prepared material under applicable law",
+                "Court restriction on access or misuse of evidence"
+              ],
+              "answer_index": 0,
+              "explanation": "Deposition means sworn out-of-court questioning under procedural rules."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A document request seeks years of irrelevant files despite a narrow dispute. What should guide limitation?",
+              "choices": [
+                "The number of lawyers involved",
+                "The font of the document",
+                "Automatic waiver of all protections",
+                "Proportionality"
+              ],
+              "answer_index": 3,
+              "explanation": "Evidence burdens should be justified by material relevance."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means protected lawyer-prepared material under applicable law?",
+              "choices": [
+                "Deposition",
+                "Protective order",
+                "Interrogatory",
+                "Work product"
+              ],
+              "answer_index": 3,
+              "explanation": "Work product means protected lawyer-prepared material under applicable law."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each evidence concept to its meaning.",
+              "pairs": [
+                [
+                  "Deposition",
+                  "Sworn out-of-court questioning under procedural rules"
+                ],
+                [
+                  "Interrogatory",
+                  "Written question answered under litigation rules"
+                ],
+                [
+                  "Work product",
+                  "Protected lawyer-prepared material under applicable law"
+                ],
+                [
+                  "Protective order",
+                  "Court restriction on access or misuse of evidence"
+                ]
+              ],
+              "explanation": "Each concept serves a separate factfinding function."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for sworn out-of-court questioning under procedural rules is ___.",
+              "answer": "Deposition",
+              "accept": [
+                "Deposition"
+              ],
+              "explanation": "The answer is Deposition."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for court restriction on access or misuse of evidence is ___.",
+              "answer": "Protective order",
+              "accept": [
+                "Protective order"
+              ],
+              "explanation": "The answer is Protective order."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Design reliable factfinding under informational inequality.",
+          "summary": "Large institutions may control the records required to challenge their conduct. Develop evidence requests that target factual hypotheses, preserve authenticity, and protect nonparties.",
+          "checklist": [
+            "I can identify how information asymmetry affects proof",
+            "I can explain the value of provenance and authentication",
+            "I can design a targeted disclosure strategy"
+          ],
+          "sections": [
+            {
+              "title": "Start with a falsifiable hypothesis",
+              "body_md": "A platform denies a user access after automated screening. A claimant may need decision logs, relevant criteria, and the account history rather than the platform's entire database. Ask what evidence would confirm or challenge each claimed legal element. A staged request can reduce costs and protect third-party privacy while bringing critical records into view. The difficulty is not merely retrieving data; it is choosing an inquiry that a tribunal can interpret and test.",
+              "audio_script": "A platform denies a user access after automated screening. A claimant may need decision logs, relevant criteria, and the account history rather than the platform's entire database. Ask what evidence would confirm or challenge each claimed legal element. A staged request can reduce costs and protect third-party privacy while bringing critical records into view. The difficulty is not merely retrieving data; it is choosing an inquiry that a tribunal can interpret and test.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Records need a trustworthy history",
+              "body_md": "A screenshot may omit context; an exported log may have lost timestamps or been modified by processing. Authentication and chain-of-custody records help establish whether a document is what its proponent claims. Identify collection methods, custody, metadata, and any transformation. Technical evidence should be explained in terms a factfinder can evaluate. It is a mistake to treat more data as stronger evidence automatically: quantity cannot replace demonstrated reliability.",
+              "audio_script": "A screenshot may omit context; an exported log may have lost timestamps or been modified by processing. Authentication and chain-of-custody records help establish whether a document is what its proponent claims. Identify collection methods, custody, metadata, and any transformation. Technical evidence should be explained in terms a factfinder can evaluate. It is a mistake to treat more data as stronger evidence automatically: quantity cannot replace demonstrated reliability.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Balance access and protected interests",
+              "body_md": "An employer's internal messages might reveal discrimination while also containing private health information about unrelated employees. A court may authorize redaction, confidentiality restrictions, or in-camera review where applicable rules permit. An advanced proposal explains why particular records are material and why the chosen protective measure permits meaningful challenge. The parties' incentives should be examined rather than assumed: concealment and overdisclosure can both harm justice. The client deserves evidence that is usable, not merely voluminous.",
+              "audio_script": "An employer's internal messages might reveal discrimination while also containing private health information about unrelated employees. A court may authorize redaction, confidentiality restrictions, or in-camera review where applicable rules permit. An advanced proposal explains why particular records are material and why the chosen protective measure permits meaningful challenge. The parties' incentives should be examined rather than assumed: concealment and overdisclosure can both harm justice. The client deserves evidence that is usable, not merely voluminous.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q1",
+              "type": "true_false",
+              "prompt": "Provenance refers to traceable origin of evidence.",
+              "answer": true,
+              "explanation_if_true": "Provenance means traceable origin of evidence.",
+              "explanation_if_false": "Provenance means traceable origin of evidence."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q2",
+              "type": "true_false",
+              "prompt": "The largest possible data production necessarily provides the most reliable evidence.",
+              "answer": false,
+              "explanation_if_true": "Evidence quality depends on relevance, integrity, and intelligible provenance.",
+              "explanation_if_false": "Evidence quality depends on relevance, integrity, and intelligible provenance."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Information asymmetry?",
+              "choices": [
+                "Traceable origin of evidence",
+                "Showing an item is what it claims to be",
+                "Confidential judicial examination of material",
+                "Unequal access to relevant records"
+              ],
+              "answer_index": 3,
+              "explanation": "Information asymmetry means unequal access to relevant records."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A platform produces records without timestamps or collection history. What problem arises?",
+              "choices": [
+                "Every fact is therefore admitted",
+                "The judge lacks power to interpret statutes",
+                "Authentication and provenance",
+                "The case must automatically be dismissed"
+              ],
+              "answer_index": 2,
+              "explanation": "Without a reliable account of origin, the meaning of digital evidence may be uncertain."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means showing an item is what it claims to be?",
+              "choices": [
+                "In-camera review",
+                "Provenance",
+                "Authentication",
+                "Information asymmetry"
+              ],
+              "answer_index": 2,
+              "explanation": "Authentication means showing an item is what it claims to be."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q6",
+              "type": "matching",
+              "prompt": "Match each evidence concept to its meaning.",
+              "pairs": [
+                [
+                  "Information asymmetry",
+                  "Unequal access to relevant records"
+                ],
+                [
+                  "Provenance",
+                  "Traceable origin of evidence"
+                ],
+                [
+                  "Authentication",
+                  "Showing an item is what it claims to be"
+                ],
+                [
+                  "In-camera review",
+                  "Confidential judicial examination of material"
+                ]
+              ],
+              "explanation": "Each concept serves a separate factfinding function."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for unequal access to relevant records is ___.",
+              "answer": "Information asymmetry",
+              "accept": [
+                "Information asymmetry"
+              ],
+              "explanation": "The answer is Information asymmetry."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for confidential judicial examination of material is ___.",
+              "answer": "In-camera review",
+              "accept": [
+                "In-camera review"
+              ],
+              "explanation": "The answer is In-camera review."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate discovery as a distribution of institutional power.",
+          "summary": "Evidence rules decide who can expose a wrong and who must bear the cost of investigation. Defend a factfinding system that protects truth, privacy, and equal access.",
+          "checklist": [
+            "I can assess the costs of disclosure and secrecy",
+            "I can recognize litigation expense as potential leverage",
+            "I can propose reviewable and proportionate evidence procedures"
+          ],
+          "sections": [
+            {
+              "title": "Disclosure makes power visible",
+              "body_md": "An institution may possess all records of a harmful decision, while the person affected has only its consequences. A generous disclosure rule can reveal misconduct, yet broad demands can expose intimate data or bankrupt a small opponent. Discovery therefore allocates power before a final merits judgment. A doctoral analysis identifies who controls evidence, the cost of producing it, and the harms of both exclusion and excessive disclosure. There is no morally neutral choice to request everything or nothing.",
+              "audio_script": "An institution may possess all records of a harmful decision, while the person affected has only its consequences. A generous disclosure rule can reveal misconduct, yet broad demands can expose intimate data or bankrupt a small opponent. Discovery therefore allocates power before a final merits judgment. A doctoral analysis identifies who controls evidence, the cost of producing it, and the harms of both exclusion and excessive disclosure. There is no morally neutral choice to request everything or nothing.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Protected relationships have value",
+              "body_md": "Legal advice may depend on candid communication, and personal information may deserve protection even when litigation is public. Privilege and confidentiality can serve legitimate ends. But secrecy may also conceal unlawful conduct or deny the vulnerable a meaningful remedy. A principled account distinguishes what existing law protects from reform arguments about what it should protect. It asks whose autonomy, safety, or ability to defend a claim is advanced by the rule, and at whose expense.",
+              "audio_script": "Legal advice may depend on candid communication, and personal information may deserve protection even when litigation is public. Privilege and confidentiality can serve legitimate ends. But secrecy may also conceal unlawful conduct or deny the vulnerable a meaningful remedy. A principled account distinguishes what existing law protects from reform arguments about what it should protect. It asks whose autonomy, safety, or ability to defend a claim is advanced by the rule, and at whose expense.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design bounded evidence access",
+              "body_md": "Consider phased disclosure tied to specific legal elements, independent review of contested privilege, redaction of nonparty information, and sanctions for intentional destruction. Evaluate whether the design enables poor claimants to access essential evidence without imposing costs that force smaller defendants to capitulate. Require written reasons for restrictive orders and an appropriate path to challenge them. The objective is accountable truth seeking that treats parties and witnesses as persons rather than raw sources of information.",
+              "audio_script": "Consider phased disclosure tied to specific legal elements, independent review of contested privilege, redaction of nonparty information, and sanctions for intentional destruction. Evaluate whether the design enables poor claimants to access essential evidence without imposing costs that force smaller defendants to capitulate. Require written reasons for restrictive orders and an appropriate path to challenge them. The objective is accountable truth seeking that treats parties and witnesses as persons rather than raw sources of information.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q1",
+              "type": "true_false",
+              "prompt": "Privacy interest refers to protected control over sensitive personal information.",
+              "answer": true,
+              "explanation_if_true": "Privacy interest means protected control over sensitive personal information.",
+              "explanation_if_false": "Privacy interest means protected control over sensitive personal information."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q2",
+              "type": "true_false",
+              "prompt": "A procedure is necessarily just whenever it produces the greatest possible number of documents.",
+              "answer": false,
+              "explanation_if_true": "Evidence access must be weighed against privacy, cost, and relevance.",
+              "explanation_if_false": "Evidence access must be weighed against privacy, cost, and relevance."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Disclosure burden?",
+              "choices": [
+                "Destruction or material loss of relevant evidence",
+                "Evidence access limited to justified needs",
+                "Cost of obtaining or producing litigation information",
+                "Protected control over sensitive personal information"
+              ],
+              "answer_index": 2,
+              "explanation": "Disclosure burden means cost of obtaining or producing litigation information."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A large company sends vast requests solely to exhaust an individual claimant's funds. What should a judge scrutinize?",
+              "choices": [
+                "The number of attorneys in the courtroom",
+                "Strategic discovery burden",
+                "Only the claimant's writing style",
+                "The date of the company's founding"
+              ],
+              "answer_index": 1,
+              "explanation": "Misuse of evidence-gathering expense can defeat fair access to law."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means destruction or material loss of relevant evidence?",
+              "choices": [
+                "Privacy interest",
+                "Spoliation",
+                "Disclosure burden",
+                "Proportional disclosure"
+              ],
+              "answer_index": 1,
+              "explanation": "Spoliation means destruction or material loss of relevant evidence."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q6",
+              "type": "matching",
+              "prompt": "Match each evidence concept to its meaning.",
+              "pairs": [
+                [
+                  "Disclosure burden",
+                  "Cost of obtaining or producing litigation information"
+                ],
+                [
+                  "Privacy interest",
+                  "Protected control over sensitive personal information"
+                ],
+                [
+                  "Spoliation",
+                  "Destruction or material loss of relevant evidence"
+                ],
+                [
+                  "Proportional disclosure",
+                  "Evidence access limited to justified needs"
+                ]
+              ],
+              "explanation": "Each concept serves a separate factfinding function."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for cost of obtaining or producing litigation information is ___.",
+              "answer": "Disclosure burden",
+              "accept": [
+                "Disclosure burden"
+              ],
+              "explanation": "The answer is Disclosure burden."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.discovery.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for evidence access limited to justified needs is ___.",
+              "answer": "Proportional disclosure",
+              "accept": [
+                "Proportional disclosure"
+              ],
+              "explanation": "The answer is Proportional disclosure."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
