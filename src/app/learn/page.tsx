@@ -71,6 +71,11 @@ import {
   type AcademyCatalog,
 } from '@/supabase/public-curriculum';
 import { NotebookWorkspace } from '@/components/learn/notebook/notebook-workspace';
+import { LessonScreen } from '@/components/learn/lesson/LessonScreen';
+import { lessonAdapter } from '@/lib/lesson-adapter';
+import { competencyMasteryPercent, nextLessonLabel } from '@/lib/lesson-progress';
+import { MASTERY_SECTIONS, findSubsection, subsectionId } from '@/lib/mastery-catalog';
+
 
 // --- Types & Constants ---
 type TierType = 'basic' | 'electrum' | 'orichalcum' | 'adamantine';
@@ -89,107 +94,6 @@ const TIER_STYLES: Record<TierType, TierStyle> = {
 };
 
 const TIER_ORDER: TierType[] = ['basic', 'electrum', 'orichalcum', 'adamantine'];
-
-const MASTERY_SECTIONS = [
-  { 
-    name: 'Core Principles', 
-    desc: 'Foundational concepts and state-individual relationships.', 
-    color: '#ff4b4b',
-    principles: [
-      { name: 'Authority', snippet: 'WHO HAS LEGAL POWER...' },
-      { name: 'Rights', snippet: 'WHO IS PROTECTED...' },
-      { name: 'Duties', snippet: 'WHO IS OBLIGATED...' },
-      { name: 'Harm', snippet: 'WHAT COUNTS AS INJURY...' },
-      { name: 'Causation', snippet: 'LEGAL RESPONSIBILITY LINK...' },
-      { name: 'Remedy', snippet: 'LEGAL CONSEQUENCES...' },
-      { name: 'Legitimacy', snippet: 'WHY AUTHORITY IS VALID...' }
-    ]
-  },
-  { 
-    name: 'Major Doctrines', 
-    desc: 'Key rules, standards, and legal definitions.', 
-    color: '#ff9600',
-    principles: [
-      { name: 'Jurisdiction Doctrines', snippet: 'AUTHORITY SCOPE DEFINED...' },
-      { name: 'Liability Doctrines', snippet: 'CONDITIONS FOR RESPONSIBILITY...' },
-      { name: 'Defense Doctrines', snippet: 'VALID EXCUSES...' },
-      { name: 'Remedy Doctrines', snippet: 'AVAILABLE RELIEF...' },
-      { name: 'Procedural Doctrines', snippet: 'CASE PROGRESSION RULES...' },
-      { name: 'Constitutional Doctrines', snippet: 'RIGHTS AND STRUCTURE...' },
-      { name: 'Equity Doctrines', snippet: 'FAIRNESS-BASED RULES...' }
-    ]
-  },
-  { 
-    name: 'Procedural Framework', 
-    desc: 'Steps for application, enforcement, and adjudication.', 
-    color: '#e6b400',
-    principles: [
-      { name: 'Jurisdiction Establishment', snippet: 'COURT AUTHORITY CONFIRMED...' },
-      { name: 'Pleading', snippet: 'CLAIMS AND DEFENSES STATED...' },
-      { name: 'Motion Practice', snippet: 'ISSUES RESOLVED EARLY...' },
-      { name: 'Discovery', snippet: 'EVIDENCE OBTAINED...' },
-      { name: 'Pre-trial Resolution', snippet: 'SETTLEMENT OR DISMISSAL...' },
-      { name: 'Adjudication', snippet: 'CASE DECIDED...' },
-      { name: 'Appeal and Review', snippet: 'DECISION REVIEWED...' }
-    ]
-  }, 
-  { 
-    name: 'Decision Standards', 
-    desc: 'The lens through which the court decides outcomes.', 
-    color: '#58cc02',
-    principles: [
-      { name: 'Authority-Defining Cases', snippet: 'WHO HOLDS AUTHORITY...' },
-      { name: 'Rights-Defining Cases', snippet: 'SCOPE OF RIGHTS...' },
-      { name: 'Limits-of-Power Cases', snippet: 'BOUNDARIES ENFORCED...' },
-      { name: 'Procedure-Defining Cases', snippet: 'PROCESS REQUIREMENTS...' },
-      { name: 'Liability-Expansion Cases', snippet: 'SCOPE BROADENED...' },
-      { name: 'Liability-Restriction Cases', snippet: 'SCOPE NARROWED...' },
-      { name: 'Paradigm-Shifting Cases', snippet: 'FRAMEWORK CHANGED...' }
-    ]
-  },
-  { 
-    name: 'Major Cases', 
-    desc: 'Landmark judicial decisions and their impacts.', 
-    color: '#1cb0f6',
-    principles: [
-      { name: 'Individual vs State Power', snippet: 'BALANCE OF POWER...' },
-      { name: 'Fairness vs Efficiency', snippet: 'JUSTICE VS SYSTEM...' },
-      { name: 'Predictability vs Flexibility', snippet: 'CONSISTENCY VS ADAPTATION...' },
-      { name: 'Centralization vs Decentralization', snippet: 'POWER DISTRIBUTION...' },
-      { name: 'Formalism vs Pragmatism', snippet: 'STRICT VS PRACTICAL...' },
-      { name: 'Stability vs Evolution', snippet: 'CONTINUITY VS CHANGE...' },
-      { name: 'Liberty vs Security', snippet: 'FREEDOM VS SAFETY...' }
-    ]
-  },
-  { 
-    name: 'Policy Debates', 
-    desc: 'Controversies, reforms, and competing arguments.', 
-    color: '#9333ea',
-    principles: [
-      { name: 'Issue Spotting', snippet: 'IDENTIFYING PROBLEMS...' },
-      { name: 'Rule Extraction', snippet: 'DERIVING RULES...' },
-      { name: 'Burden Manipulation', snippet: 'SHIFTING PROOF...' },
-      { name: 'Evidence Structuring', snippet: 'ORGANIZING RECORDS...' },
-      { name: 'Argument Construction', snippet: 'LOGICAL REASONING...' },
-      { name: 'Procedural Leverage', snippet: 'USING PROCESS...' },
-      { name: 'Judicial Psychology Navigation', snippet: 'UNDERSTANDING TENDENCIES...' }
-    ]
-  }, 
-  { 
-    name: 'Practical Skills', 
-    desc: 'Real-world application, drafting, and advocacy.', 
-    color: '#ff66aa',
-    principles: [
-      { name: 'Burden of Proof', snippet: 'WHO MUST PROVE...' },
-      { name: 'Standard of Proof', snippet: 'HOW MUCH PROOF...' },
-      { name: 'Standard of Review', snippet: 'APPELLATE REVIEW...' },
-      { name: 'Level of Scrutiny', snippet: 'RIGHTS PROTECTION...' },
-      { name: 'Evidentiary Weight', snippet: 'EVALUATING EVIDENCE...' },
-      { name: 'Deference Doctrines', snippet: 'WHEN COURTS DEFER...' },
-      { name: 'Balancing Tests', snippet: 'WEIGHING INTERESTS...' }
-    ]
-  },
-];
 
 const CAREER_PATHS = [
   { title: "[Career Potential Path 1]", market: "--", salary: "---,---" },
@@ -359,12 +263,13 @@ function DuolingoNode({ color, progress, onNodeClick, id }: {
   );
 }
 
-function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM }: { 
+function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, setView, setIsICM }: { 
   course: any, 
   nodeProgress: Record<string, number>, 
+  masteryBySection: number[],
   onNodeClick: (sIdx: number, bIdx: number) => void,
   isICM: boolean,
-  setView: (v: 'academy' | 'domain' | 'course' | 'notebook') => void,
+  setView: (v: 'academy' | 'domain' | 'course' | 'notebook' | 'lesson') => void,
   setIsICM: (v: boolean) => void
 }) {
   return (
@@ -424,9 +329,9 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                   <div className="mr-4 w-32 space-y-1 shrink-0">
                     <div className="flex justify-between items-baseline">
                       <span className="text-[8px] font-black text-muted-foreground uppercase tracking-widest opacity-60">Mastery</span>
-                      <span className="text-xs font-black text-foreground">0%</span>
+                      <span className="text-xs font-black text-foreground">{masteryBySection[sIdx] ?? 0}%</span>
                     </div>
-                    <Progress value={0} className="h-1 bg-muted w-full" />
+                    <Progress value={masteryBySection[sIdx] ?? 0} className="h-1 bg-muted w-full" />
                   </div>
                 </div>
               </AccordionTrigger>
@@ -453,7 +358,7 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                           <div className="flex-1 bg-muted/20 border border-border rounded-lg p-1.5 space-y-0.5">
                             <p className="text-[7px] font-black text-muted-foreground uppercase tracking-[0.2em]">Next Lesson</p>
                             <p className="text-[9px] font-bold text-accent">
-                              {(nodeProgress[`${sIdx}-${pIdx}`] || 0) > 0 ? "Scheduled" : "Start track"}
+                              {nextLessonLabel(nodeProgress[`${sIdx}-${pIdx}`] || 0)}
                             </p>
                           </div>
                         </div>
@@ -527,7 +432,7 @@ function QuestItem({ label, current, total, color }: { label: string, current: n
 
 export default function LearnPage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [view, setView] = useState<'academy' | 'domain' | 'course' | 'notebook'>('academy');
+  const [view, setView] = useState<'academy' | 'domain' | 'course' | 'notebook' | 'lesson'>('academy');
   const [activeDomain, setActiveDomain] = useState<any>(null);
   const [activeCourse, setActiveCourse] = useState<any>(null);
   const [learnAccordionOpen, setLearnAccordionOpen] = useState(false);
@@ -538,6 +443,7 @@ export default function LearnPage() {
   const domSlug = searchParams.get('dom');
   const courseSlug = searchParams.get('course');
   const viewParam = searchParams.get('view');
+  const nodeParam = searchParams.get('node');
   const notebookTab = searchParams.get('tab') || 'toc';
 
   // The Academy is a public, read-only view of Supabase's published catalog.
@@ -591,7 +497,7 @@ export default function LearnPage() {
           const course = coursesData.find(c => c.slug === courseSlug);
           if (course) {
             setActiveCourse(course);
-            setView('course');
+            setView(nodeParam && findSubsection(nodeParam) ? 'lesson' : 'course');
           } else {
             setView('domain');
           }
@@ -602,7 +508,7 @@ export default function LearnPage() {
     } else {
       setView('academy');
     }
-  }, [domSlug, courseSlug, domains, coursesData, viewParam]);
+  }, [domSlug, courseSlug, nodeParam, domains, coursesData, viewParam]);
 
   const sortedDomains = useMemo(() => Array.isArray(domains) ? [...domains].sort((a, b) => (a.order || 0) - (b.order || 0)) : [], [domains]);
   const sortedFields = useMemo(() => Array.isArray(fields) ? [...fields].sort((a, b) => (a.order || 0) - (b.order || 0)) : [], [fields]);
@@ -614,6 +520,7 @@ export default function LearnPage() {
     const params = new URLSearchParams(searchParams.toString());
     params.set('dom', dom.slug);
     params.delete('course');
+    params.delete('node');
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
   };
@@ -622,17 +529,56 @@ export default function LearnPage() {
     const params = new URLSearchParams(searchParams.toString());
     params.set('dom', activeDomain.slug);
     params.set('course', course.slug);
+    params.delete('node');
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
   };
 
-  const handleNodeClick = (sIdx: number, bIdx: number) => {
-    const id = `${sIdx}-${bIdx}`;
-    setNodeProgress(prev => {
-      const current = prev[id] || 0;
-      if (current >= 32) return prev; 
-      return { ...prev, [id]: current + 1 };
+  const masteryBySection = useMemo(
+    () => MASTERY_SECTIONS.map((section, sIdx) => competencyMasteryPercent(
+      section.principles.map((_, bIdx) => nodeProgress[`${sIdx}-${bIdx}`] || 0),
+    )),
+    [nodeProgress],
+  );
+  const courseCompletion = useMemo(() => competencyMasteryPercent(
+    MASTERY_SECTIONS.flatMap((section, sIdx) => section.principles.map((_, bIdx) => nodeProgress[`${sIdx}-${bIdx}`] || 0)),
+  ), [nodeProgress]);
+
+  useEffect(() => {
+    if (!activeCourse?.id) return;
+    let cancelled = false;
+    const courseId = activeCourse.id as string;
+    Promise.all(MASTERY_SECTIONS.flatMap((section, sIdx) => section.principles.map(async (principle, bIdx) => {
+      const snap = await lessonAdapter.getProgress({
+        courseId,
+        subsectionId: subsectionId(section.slug, principle.slug),
+      });
+      return [`${sIdx}-${bIdx}`, snap.progress] as const;
+    }))).then(rows => {
+      if (!cancelled) setNodeProgress(Object.fromEntries(rows));
+    }).catch(() => {
+      if (!cancelled) setNodeProgress({});
     });
+    return () => { cancelled = true; };
+  }, [activeCourse?.id]);
+
+  const handleNodeClick = (sIdx: number, bIdx: number) => {
+    if (!activeDomain || !activeCourse) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle) return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('dom', activeDomain.slug);
+    params.set('course', activeCourse.slug);
+    params.set('node', subsectionId(section.slug, principle.slug));
+    params.delete('view');
+    router.push(`/learn?${params.toString()}`);
+  };
+
+  const closeLesson = () => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete('node');
+    router.push(`/learn?${params.toString()}`);
   };
 
   return (
@@ -886,11 +832,29 @@ export default function LearnPage() {
                   </div>
                 )}
 
+
+                {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
+                  <LessonScreen
+                    courseId={activeCourse.id}
+                    curriculumCode={activeCourse.curriculumCode || null}
+                    subsectionId={nodeParam}
+                    subsectionName={findSubsection(nodeParam)!.principle.name}
+                    competencyName={findSubsection(nodeParam)!.section.displayName}
+                    color={findSubsection(nodeParam)!.section.color}
+                    onBack={closeLesson}
+                    onProgress={snapshot => {
+                      const found = findSubsection(nodeParam);
+                      if (!found) return;
+                      setNodeProgress(prev => ({ ...prev, [`${found.sectionIndex}-${found.principleIndex}`]: snapshot.progress }));
+                    }}
+                  />
+                )}
                 {view === 'course' && activeCourse && (
                   <>
                     <PathView 
                       course={activeCourse} 
-                      nodeProgress={nodeProgress} 
+                      nodeProgress={nodeProgress}
+                      masteryBySection={masteryBySection}
                       onNodeClick={handleNodeClick}
                       isICM={isICM}
                       setView={setView}
@@ -1020,7 +984,7 @@ export default function LearnPage() {
             </CardContent>
           </Card>
 
-          {view === 'course' && activeCourse && (
+          {(view === 'course' || view === 'lesson') && activeCourse && (
             <div className="space-y-2.5 animate-in fade-in zoom-in duration-300">
               <Card className="rounded-[1.5rem] border-2 border-accent shadow-sm overflow-hidden bg-accent/5">
                 <CardHeader className="p-2.5 bg-accent text-white">
@@ -1032,13 +996,13 @@ export default function LearnPage() {
                   <div className="space-y-1">
                     <div className="flex justify-between text-[9px] font-black uppercase tracking-widest text-foreground">
                       <span>Completion</span>
-                      <span>0%</span>
+                      <span>{courseCompletion}%</span>
                     </div>
-                    <Progress value={0} className="h-1 bg-muted" />
+                    <Progress value={courseCompletion} className="h-1 bg-muted" />
                   </div>
                   <div className="p-2 bg-muted/20 rounded-xl space-y-0.5 border border-border">
                     <p className="text-[7px] font-black text-muted-foreground uppercase tracking-widest">Last Studied</p>
-                    <p className="text-[10px] font-black text-foreground">N/A</p>
+                    <p className="text-[10px] font-black text-foreground">{courseCompletion > 0 ? 'Today' : 'N/A'}</p>
                   </div>
                   <div className="p-2 bg-red-500/10 rounded-xl space-y-0.5 border border-red-200/50">
                     <p className="text-[7px] font-black text-red-500 uppercase tracking-widest">Difficulty Area</p>
