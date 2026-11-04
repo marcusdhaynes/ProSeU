@@ -26,6 +26,7 @@
  * `auth.getUser()` is empty, the way `saveStudyProgress` already does.
  */
 
+import { lessonAdapter as liveSupabaseLessonAdapter } from '@/learning/client';
 import { gradeLessonAnswer } from './lesson-grade';
 import { levelFillRatio, nodeMasteryPercent, nodeProgressFromLevels, type LevelActivity } from './lesson-progress';
 import { LEVELS_IN_ORDER, MASTERY_LEVELS, MASTERY_SECTIONS, subsectionId, type LevelId } from './mastery-catalog';
@@ -294,6 +295,7 @@ export function createMockLessonAdapter(options?: { persist?: boolean; storage?:
   };
 }
 
-export const lessonAdapter: LessonAdapter = createMockLessonAdapter({ persist: true });
+// Authenticated, server-graded, RLS-protected mastery data. Keep the mock factory for tests only.
+export const lessonAdapter: LessonAdapter = liveSupabaseLessonAdapter;
 
 export const MASTERY_LEVEL_IDS = MASTERY_LEVELS.map(level => level.id);
