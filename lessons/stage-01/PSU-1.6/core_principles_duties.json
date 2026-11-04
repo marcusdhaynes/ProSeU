@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Read legally operative obligations accurately",
+          "summary": "Duties often turn on a single verb, condition or definition in a text. Learn to separate mandatory wording from permission and advice without treating any one word as conclusive in every setting.",
+          "checklist": [
+            "I can recognize mandatory, permissive and prohibitory language",
+            "I can identify the person bound by a clause",
+            "I can read duty conditions and exceptions together"
+          ],
+          "sections": [
+            {
+              "title": "Words Tell Us What Is Required",
+              "body_md": "A lease says, 'The tenant shall maintain the garden,' while another clause says the tenant 'may' install a shed with consent. These words commonly signal different kinds of obligation, though legal context and drafting practice matter. A duty interpretation must identify the actor, required action, conditions and exceptions. Reading only the strongest verb can miss a definition or qualification elsewhere. The goal is to state precisely what performance the legal instrument requires.",
+              "example": null,
+              "audio_script": "A lease says, 'The tenant shall maintain the garden,' while another clause says the tenant 'may' install a shed with consent. These words commonly signal different kinds of obligation, though legal context and drafting practice matter. A duty interpretation must identify the actor, required action, conditions and exceptions. Reading only the strongest verb can miss a definition or qualification elsewhere. The goal is to state precisely what performance the legal instrument requires.",
+              "video": null
+            },
+            {
+              "title": "Who Owes the Duty?",
+              "body_md": "A statute may direct an agency to inspect premises while allowing a resident to request inspection. The duty and the entitlement belong to different actors. A reader who confuses them may promise an enforcement action that the resident cannot directly bring. Interpret grammatical subject, legal definitions and enforcement sections together. Clear legal analysis rewrites complex language into a simple relationship: who must do what, for whose protection, under which conditions.",
+              "example": null,
+              "audio_script": "A statute may direct an agency to inspect premises while allowing a resident to request inspection. The duty and the entitlement belong to different actors. A reader who confuses them may promise an enforcement action that the resident cannot directly bring. Interpret grammatical subject, legal definitions and enforcement sections together. Clear legal analysis rewrites complex language into a simple relationship: who must do what, for whose protection, under which conditions.",
+              "video": null
+            },
+            {
+              "title": "Permission Is Not Always a Command",
+              "body_md": "A clause stating that a company may disclose records under a specified exception does not necessarily require disclosure. Conversely, a law may impose an affirmative obligation regardless of a contract's silence. Lawyers should distinguish authorization, prohibition and duty. This prevents a common error: treating every legally possible action as mandatory. The distinction is vital when advice affects privacy, professional duties or a person's ability to make an independent choice.",
+              "example": null,
+              "audio_script": "A clause stating that a company may disclose records under a specified exception does not necessarily require disclosure. Conversely, a law may impose an affirmative obligation regardless of a contract's silence. Lawyers should distinguish authorization, prohibition and duty. This prevents a common error: treating every legally possible action as mandatory. The distinction is vital when advice affects privacy, professional duties or a person's ability to make an independent choice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Permissive language means wording authorizing but not necessarily requiring conduct.",
+              "answer": true,
+              "explanation_if_true": "Permissive language means wording authorizing but not necessarily requiring conduct.",
+              "explanation_if_false": "Permissive language means wording authorizing but not necessarily requiring conduct."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "Whenever a law says an actor may do something, it necessarily commands that actor to do it.",
+              "answer": false,
+              "explanation_if_true": "Permission and obligation are distinct unless the governing context shows otherwise.",
+              "explanation_if_false": "Permission and obligation are distinct unless the governing context shows otherwise."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Mandatory language?",
+              "choices": [
+                "Person or institution legally required to act",
+                "Wording directing required conduct",
+                "Wording authorizing but not necessarily requiring conduct",
+                "Rule forbidding specified conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Mandatory language means wording directing required conduct."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A rule permits an agency to disclose data in narrow circumstances. What cannot be assumed from that alone?",
+              "choices": [
+                "That disclosure is mandatory",
+                "That the agency has some legal power",
+                "That the text has conditions",
+                "That the rule exists"
+              ],
+              "answer_index": 0,
+              "explanation": "Permissive language does not automatically impose a duty."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means rule forbidding specified conduct?",
+              "choices": [
+                "Prohibition",
+                "Mandatory language",
+                "Duty holder",
+                "Permissive language"
+              ],
+              "answer_index": 0,
+              "explanation": "Prohibition means rule forbidding specified conduct."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Mandatory language",
+                  "Wording directing required conduct"
+                ],
+                [
+                  "Permissive language",
+                  "Wording authorizing but not necessarily requiring conduct"
+                ],
+                [
+                  "Prohibition",
+                  "Rule forbidding specified conduct"
+                ],
+                [
+                  "Duty holder",
+                  "Person or institution legally required to act"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Wording directing required conduct is called ___.",
+              "answer": "Mandatory language",
+              "accept": [
+                "Mandatory language"
+              ],
+              "explanation": "The answer is Mandatory language."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Person or institution legally required to act is called ___.",
+              "answer": "Duty holder",
+              "accept": [
+                "Duty holder"
+              ],
+              "explanation": "The answer is Duty holder."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Interpret contracts and statutes through defined obligations",
+          "summary": "Develop an element-by-element method for obligations that depend on dates, notice, performance standards and exceptions. Distinguish an obligation's trigger from its remedy.",
+          "checklist": [
+            "I can break obligations into conditions and required performance",
+            "I can interpret cross-references and defined terms",
+            "I can separate a breach from legal consequence"
+          ],
+          "sections": [
+            {
+              "title": "Trigger, Performance, Deadline",
+              "body_md": "A contract states that a supplier must replace a defective unit within ten business days after receiving written notice. The duty is conditional. The interpreter must determine what counts as defective, what written notice requires, when receipt occurred and how business days are defined. A superficial reading that the supplier always owes immediate replacement would be wrong. An accurate rule statement lists the trigger, actor, action, time and possible exceptions.",
+              "example": null,
+              "audio_script": "A contract states that a supplier must replace a defective unit within ten business days after receiving written notice. The duty is conditional. The interpreter must determine what counts as defective, what written notice requires, when receipt occurred and how business days are defined. A superficial reading that the supplier always owes immediate replacement would be wrong. An accurate rule statement lists the trigger, actor, action, time and possible exceptions.",
+              "video": null
+            },
+            {
+              "title": "Read Clauses as a Coherent Whole",
+              "body_md": "One clause may establish a delivery obligation while another allocates risk after acceptance. Their meaning may depend on definitions and the entire contractual scheme. Applicable law can also impose mandatory standards that override a term. For statutory duties, related provisions may distinguish regulated entities or exempt activities. Interpretation is therefore a structured reading of connected obligations rather than the choice of one isolated sentence that happens to favor the client.",
+              "example": null,
+              "audio_script": "One clause may establish a delivery obligation while another allocates risk after acceptance. Their meaning may depend on definitions and the entire contractual scheme. Applicable law can also impose mandatory standards that override a term. For statutory duties, related provisions may distinguish regulated entities or exempt activities. Interpretation is therefore a structured reading of connected obligations rather than the choice of one isolated sentence that happens to favor the client.",
+              "video": null
+            },
+            {
+              "title": "Duties and Consequences Differ",
+              "body_md": "Even if a party breached an obligation, the remedy may depend on loss, notice, limitations or other conditions. The interpreter should not write into the duty clause a punishment the instrument does not provide. Equally, the absence of an express remedy in the same clause does not necessarily mean no legal relief exists. A sound analysis first determines what conduct was required, then applies the separate legal rules governing breach and remedy.",
+              "example": null,
+              "audio_script": "Even if a party breached an obligation, the remedy may depend on loss, notice, limitations or other conditions. The interpreter should not write into the duty clause a punishment the instrument does not provide. Equally, the absence of an express remedy in the same clause does not necessarily mean no legal relief exists. A sound analysis first determines what conduct was required, then applies the separate legal rules governing breach and remedy.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Performance term means provision defining required conduct.",
+              "answer": true,
+              "explanation_if_true": "Performance term means provision defining required conduct.",
+              "explanation_if_false": "Performance term means provision defining required conduct."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "A contractual replacement duty triggered by written notice applies before the required notice occurs.",
+              "answer": false,
+              "explanation_if_true": "The duty must be read with its defined trigger and performance conditions.",
+              "explanation_if_false": "The duty must be read with its defined trigger and performance conditions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Condition precedent?",
+              "choices": [
+                "Specified event required before a duty takes effect",
+                "Provision defining required conduct",
+                "Reference connecting related clauses",
+                "Legal result that may follow nonperformance"
+              ],
+              "answer_index": 0,
+              "explanation": "Condition precedent means specified event required before a duty takes effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A warranty requires written notice before replacement. The buyer only called by phone. What matters?",
+              "choices": [
+                "Whether the warranty has many pages",
+                "Only the product's color",
+                "The buyer's occupation",
+                "Whether the governing definition accepts that form of notice"
+              ],
+              "answer_index": 3,
+              "explanation": "The obligation depends on interpreting the specified notice condition."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reference connecting related clauses?",
+              "choices": [
+                "Condition precedent",
+                "Breach consequence",
+                "Performance term",
+                "Cross-reference"
+              ],
+              "answer_index": 3,
+              "explanation": "Cross-reference means reference connecting related clauses."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Condition precedent",
+                  "Specified event required before a duty takes effect"
+                ],
+                [
+                  "Performance term",
+                  "Provision defining required conduct"
+                ],
+                [
+                  "Cross-reference",
+                  "Reference connecting related clauses"
+                ],
+                [
+                  "Breach consequence",
+                  "Legal result that may follow nonperformance"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Specified event required before a duty takes effect is called ___.",
+              "answer": "Condition precedent",
+              "accept": [
+                "Condition precedent"
+              ],
+              "explanation": "The answer is Condition precedent."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legal result that may follow nonperformance is called ___.",
+              "answer": "Breach consequence",
+              "accept": [
+                "Breach consequence"
+              ],
+              "explanation": "The answer is Breach consequence."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Resolve conflicting interpretations of transnational duties",
+          "summary": "Analyze agreements and regulations that operate across legal systems. Separate treaty obligations, private contracts and overriding mandatory rules rather than borrowing one interpretive method for all.",
+          "checklist": [
+            "I can identify an obligation's legal source and governing law",
+            "I can compare divergent language versions and negotiated clauses",
+            "I can recognize mandatory duties that private drafting cannot waive"
+          ],
+          "sections": [
+            {
+              "title": "The Source Determines the Method",
+              "body_md": "A commercial contract may select a governing law and define key terms. A treaty binds states under international law and uses its applicable interpretive framework. A regulation imposes public obligations under an authorizing legal system. These texts may address the same transaction but do not derive force from identical sources. A lawyer should first classify each obligation, then apply the appropriate method of interpretation. Confusing the methods may create a duty where none exists or overlook a mandatory requirement.",
+              "example": null,
+              "audio_script": "A commercial contract may select a governing law and define key terms. A treaty binds states under international law and uses its applicable interpretive framework. A regulation imposes public obligations under an authorizing legal system. These texts may address the same transaction but do not derive force from identical sources. A lawyer should first classify each obligation, then apply the appropriate method of interpretation. Confusing the methods may create a duty where none exists or overlook a mandatory requirement.",
+              "video": null
+            },
+            {
+              "title": "Language Differences Can Change Performance",
+              "body_md": "A contract executed in two languages may contain slightly different descriptions of delivery. The governing instrument might specify which version controls; if it does not, applicable contract law may provide an approach to reconcile them. Treaty texts may have special authentic-language rules. A translator's convenient phrasing cannot be assumed legally conclusive. The advanced interpreter records the authoritative versions, compares disputed wording and explains exactly how the difference affects performance.",
+              "example": null,
+              "audio_script": "A contract executed in two languages may contain slightly different descriptions of delivery. The governing instrument might specify which version controls; if it does not, applicable contract law may provide an approach to reconcile them. Treaty texts may have special authentic-language rules. A translator's convenient phrasing cannot be assumed legally conclusive. The advanced interpreter records the authoritative versions, compares disputed wording and explains exactly how the difference affects performance.",
+              "video": null
+            },
+            {
+              "title": "Mandatory Rules Persist",
+              "body_md": "A contract may seek to exclude employment, consumer or safety duties, yet applicable mandatory legislation can restrict what parties may waive. The answer depends on jurisdiction, connecting factors and the specific rule. Interpret the contract and law separately before resolving conflict. The fact that parties agreed to a clause does not establish that it defeats every public protection; conversely, not every protective rule in a foreign jurisdiction automatically governs. Contextual precision is essential.",
+              "example": null,
+              "audio_script": "A contract may seek to exclude employment, consumer or safety duties, yet applicable mandatory legislation can restrict what parties may waive. The answer depends on jurisdiction, connecting factors and the specific rule. Interpret the contract and law separately before resolving conflict. The fact that parties agreed to a clause does not establish that it defeats every public protection; conversely, not every protective rule in a foreign jurisdiction automatically governs. Contextual precision is essential.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Authentic language means text version given recognized authority.",
+              "answer": true,
+              "explanation_if_true": "Authentic language means text version given recognized authority.",
+              "explanation_if_false": "Authentic language means text version given recognized authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "Parties can always exclude every mandatory statutory duty simply by signing an unambiguous clause.",
+              "answer": false,
+              "explanation_if_true": "Applicable nonwaivable rules may constrain private agreements.",
+              "explanation_if_false": "Applicable nonwaivable rules may constrain private agreements."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Choice-of-law clause?",
+              "choices": [
+                "Text version given recognized authority",
+                "Applicable protection parties cannot simply exclude",
+                "Duty connected to more than one legal order",
+                "Agreement selecting governing legal rules"
+              ],
+              "answer_index": 3,
+              "explanation": "Choice-of-law clause means agreement selecting governing legal rules."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two language versions of a contract differ about delivery time, and no controlling version is specified. What should counsel examine?",
+              "choices": [
+                "The seller's website design",
+                "The courier's nationality alone",
+                "Applicable contract interpretation law and both executed texts",
+                "Only the English version by preference"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretive authority and the governing law determine how the conflict is resolved."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means applicable protection parties cannot simply exclude?",
+              "choices": [
+                "Cross-border obligation",
+                "Authentic language",
+                "Overriding mandatory rule",
+                "Choice-of-law clause"
+              ],
+              "answer_index": 2,
+              "explanation": "Overriding mandatory rule means applicable protection parties cannot simply exclude."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Choice-of-law clause",
+                  "Agreement selecting governing legal rules"
+                ],
+                [
+                  "Authentic language",
+                  "Text version given recognized authority"
+                ],
+                [
+                  "Overriding mandatory rule",
+                  "Applicable protection parties cannot simply exclude"
+                ],
+                [
+                  "Cross-border obligation",
+                  "Duty connected to more than one legal order"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Agreement selecting governing legal rules is called ___.",
+              "answer": "Choice-of-law clause",
+              "accept": [
+                "Choice-of-law clause"
+              ],
+              "explanation": "The answer is Choice-of-law clause."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Duty connected to more than one legal order is called ___.",
+              "answer": "Cross-border obligation",
+              "accept": [
+                "Cross-border obligation"
+              ],
+              "explanation": "The answer is Cross-border obligation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique interpretive power over obligations and consent",
+          "summary": "At doctoral depth, study how interpretation can reinforce or correct unequal bargaining power. Design principled methods that protect legitimate expectations without treating formal agreement as complete justice.",
+          "checklist": [
+            "I can evaluate literal terms against institutional context",
+            "I can analyze consent under information and power imbalance",
+            "I can distinguish lawful interpretation from judicial redrafting"
+          ],
+          "sections": [
+            {
+              "title": "Who Controlled the Wording?",
+              "body_md": "A powerful employer may write standard terms that a worker cannot realistically negotiate. The language may be clear while its effect is contested under consumer, employment or unconscionability rules. A doctoral analyst must distinguish what the words mean from whether the term is legally valid or enforceable. Interpreting an unfavorable term as though it says something else can obscure the real need for statutory protection or principled reform. Accuracy comes before moral critique.",
+              "example": null,
+              "audio_script": "A powerful employer may write standard terms that a worker cannot realistically negotiate. The language may be clear while its effect is contested under consumer, employment or unconscionability rules. A doctoral analyst must distinguish what the words mean from whether the term is legally valid or enforceable. Interpreting an unfavorable term as though it says something else can obscure the real need for statutory protection or principled reform. Accuracy comes before moral critique.",
+              "video": null
+            },
+            {
+              "title": "Expectation and Dependence",
+              "body_md": "Contracts support planning by making obligations predictable. That benefit depends partly on parties understanding the language and having meaningful opportunities to decide. Where one party controls information, the formal text may not capture the other's reasonable expectations. Different legal systems address these concerns through interpretation, disclosure rules, mandatory protections or validity doctrines. A sophisticated theory identifies the governing mechanism rather than combining all concerns into a vague appeal to fairness.",
+              "example": null,
+              "audio_script": "Contracts support planning by making obligations predictable. That benefit depends partly on parties understanding the language and having meaningful opportunities to decide. Where one party controls information, the formal text may not capture the other's reasonable expectations. Different legal systems address these concerns through interpretation, disclosure rules, mandatory protections or validity doctrines. A sophisticated theory identifies the governing mechanism rather than combining all concerns into a vague appeal to fairness.",
+              "video": null
+            },
+            {
+              "title": "Reasons Must Protect Both Sides",
+              "body_md": "A court interpreting a disputed promise can protect a vulnerable person while still giving the other party fair notice of legal duties. Excessive interpretive flexibility may undermine trust and invite arbitrary decisions; mechanical enforcement can reproduce serious dependency. A doctoral proposal should specify transparent criteria for interpreting ambiguity, evaluating unfairness and protecting reliance. The best method preserves contractual autonomy where meaningful and uses authorized legal safeguards when it is not.",
+              "example": null,
+              "audio_script": "A court interpreting a disputed promise can protect a vulnerable person while still giving the other party fair notice of legal duties. Excessive interpretive flexibility may undermine trust and invite arbitrary decisions; mechanical enforcement can reproduce serious dependency. A doctoral proposal should specify transparent criteria for interpreting ambiguity, evaluating unfairness and protecting reliance. The best method preserves contractual autonomy where meaningful and uses authorized legal safeguards when it is not.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Contra proferentem means doctrine sometimes construing ambiguity against the drafter.",
+              "answer": true,
+              "explanation_if_true": "Contra proferentem means doctrine sometimes construing ambiguity against the drafter.",
+              "explanation_if_false": "Contra proferentem means doctrine sometimes construing ambiguity against the drafter."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "A clear contractual term can never be challenged under any mandatory legal rule.",
+              "answer": false,
+              "explanation_if_true": "Enforceability and interpretation are distinct questions; mandatory protections can apply.",
+              "explanation_if_false": "Enforceability and interpretation are distinct questions; mandatory protections can apply."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Standard-form contract?",
+              "choices": [
+                "Objectively supported understanding of a party",
+                "Material imbalance in ability to shape terms",
+                "Agreement largely drafted in advance by one side",
+                "Doctrine sometimes construing ambiguity against the drafter"
+              ],
+              "answer_index": 2,
+              "explanation": "Standard-form contract means agreement largely drafted in advance by one side."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A worker signs a clear but legally prohibited waiver of minimum protection. What is the key issue?",
+              "choices": [
+                "The length of the signature",
+                "Validity under mandatory law, not merely word meaning",
+                "Whether the worker can spell waiver",
+                "The typeface used"
+              ],
+              "answer_index": 1,
+              "explanation": "Clarity of language does not establish legal enforceability."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means objectively supported understanding of a party?",
+              "choices": [
+                "Contra proferentem",
+                "Reasonable expectation",
+                "Standard-form contract",
+                "Unequal bargaining power"
+              ],
+              "answer_index": 1,
+              "explanation": "Reasonable expectation means objectively supported understanding of a party."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Standard-form contract",
+                  "Agreement largely drafted in advance by one side"
+                ],
+                [
+                  "Contra proferentem",
+                  "Doctrine sometimes construing ambiguity against the drafter"
+                ],
+                [
+                  "Reasonable expectation",
+                  "Objectively supported understanding of a party"
+                ],
+                [
+                  "Unequal bargaining power",
+                  "Material imbalance in ability to shape terms"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "Agreement largely drafted in advance by one side is called ___.",
+              "answer": "Standard-form contract",
+              "accept": [
+                "Standard-form contract"
+              ],
+              "explanation": "The answer is Standard-form contract."
+            },
+            {
+              "id": "PSU-1.6.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Material imbalance in ability to shape terms is called ___.",
+              "answer": "Unequal bargaining power",
+              "accept": [
+                "Unequal bargaining power"
+              ],
+              "explanation": "The answer is Unequal bargaining power."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
