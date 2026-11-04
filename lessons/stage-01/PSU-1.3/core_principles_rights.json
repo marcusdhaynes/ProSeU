@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "See how legal systems identify protected interests",
+          "summary": "Learn why the word 'right' does not guarantee the same remedy or scope in every country. Start with the source, beneficiary, and institution that makes a protection effective.",
+          "checklist": [
+            "I can identify the holder and scope of a legal right",
+            "I can distinguish constitutional, statutory and private rights",
+            "I can ask how a right is enforced in a particular legal order"
+          ],
+          "sections": [
+            {
+              "title": "Rights Need a Holder and a Source",
+              "body_md": "If a patient believes their medical information was disclosed unlawfully, the question is not solved by saying privacy is a right. A lawyer must find the rule protecting information, identify who can claim it, and determine what conduct the rule forbids. Constitutions, statutes, civil codes, court-made doctrines, and regulatory schemes can offer different forms of protection. A comparison is meaningful only when it specifies the source, the protected person, the opposing duty, and the forum.",
+              "example": null,
+              "audio_script": "If a patient believes their medical information was disclosed unlawfully, the question is not solved by saying privacy is a right. A lawyer must find the rule protecting information, identify who can claim it, and determine what conduct the rule forbids. Constitutions, statutes, civil codes, court-made doctrines, and regulatory schemes can offer different forms of protection. A comparison is meaningful only when it specifies the source, the protected person, the opposing duty, and the forum.",
+              "video": null
+            },
+            {
+              "title": "The Same Word, Different Tests",
+              "body_md": "One legal system may protect privacy primarily through a constitutional right against the state, another through extensive legislation applying to private organizations, and another through combinations of both. None is necessarily limited to that description in every setting. Legal labels travel more easily than their rules. To compare fairly, state what facts trigger the protection, whether exceptions apply, and what evidence is required. A right without its legal conditions is an aspiration, not yet a useful answer to a client.",
+              "example": null,
+              "audio_script": "One legal system may protect privacy primarily through a constitutional right against the state, another through extensive legislation applying to private organizations, and another through combinations of both. None is necessarily limited to that description in every setting. Legal labels travel more easily than their rules. To compare fairly, state what facts trigger the protection, whether exceptions apply, and what evidence is required. A right without its legal conditions is an aspiration, not yet a useful answer to a client.",
+              "video": null
+            },
+            {
+              "title": "From Right to Remedy",
+              "body_md": "A right may be enforced through damages, an injunction, administrative complaint, constitutional petition, or another process depending on the jurisdiction. Some international rights commitments require domestic implementation before individuals can sue upon them. Therefore, the existence of a respected rights declaration does not prove the client has an immediate court action. A responsible legal adviser distinguishes the moral significance of a claimed right from the present legal route for defending it.",
+              "example": null,
+              "audio_script": "A right may be enforced through damages, an injunction, administrative complaint, constitutional petition, or another process depending on the jurisdiction. Some international rights commitments require domestic implementation before individuals can sue upon them. Therefore, the existence of a respected rights declaration does not prove the client has an immediate court action. A responsible legal adviser distinguishes the moral significance of a claimed right from the present legal route for defending it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Constitutional right means protection established by constitutional law.",
+              "answer": true,
+              "explanation_if_true": "Constitutional right means protection established by constitutional law.",
+              "explanation_if_false": "Constitutional right means protection established by constitutional law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "A right with the same name has identical limits and remedies worldwide.",
+              "answer": false,
+              "explanation_if_true": "Source, scope, exception and enforcement differ across legal systems.",
+              "explanation_if_false": "Source, scope, exception and enforcement differ across legal systems."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Rights holder?",
+              "choices": [
+                "Procedure used to assert a legal protection",
+                "Person or entity legally entitled to a protection",
+                "Protection established by constitutional law",
+                "Protection created by enacted legislation"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights holder means person or entity legally entitled to a protection."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client cites 'privacy' without specifying country or the actor. What should be determined first?",
+              "choices": [
+                "Applicable source, rights holder and duty",
+                "A favorite moral philosopher",
+                "Only the client's age",
+                "The office's telephone prefix"
+              ],
+              "answer_index": 0,
+              "explanation": "A workable legal claim needs jurisdiction, protected interest and responsible actor."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to protection created by enacted legislation?",
+              "choices": [
+                "Statutory right",
+                "Rights holder",
+                "Enforcement route",
+                "Constitutional right"
+              ],
+              "answer_index": 0,
+              "explanation": "Statutory right means protection created by enacted legislation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Rights holder",
+                  "Person or entity legally entitled to a protection"
+                ],
+                [
+                  "Constitutional right",
+                  "Protection established by constitutional law"
+                ],
+                [
+                  "Statutory right",
+                  "Protection created by enacted legislation"
+                ],
+                [
+                  "Enforcement route",
+                  "Procedure used to assert a legal protection"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "Person or entity legally entitled to a protection is called ___.",
+              "answer": "Rights holder",
+              "accept": [
+                "Rights holder"
+              ],
+              "explanation": "The term is Rights holder."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "Procedure used to assert a legal protection is called ___.",
+              "answer": "Enforcement route",
+              "accept": [
+                "Enforcement route"
+              ],
+              "explanation": "The term is Enforcement route."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare public and private rights across legal traditions",
+          "summary": "Move from naming rights to distinguishing whom they bind and what conduct they regulate. Examine horizontal effect, constitutional protection, and statutory implementation.",
+          "checklist": [
+            "I can distinguish vertical and horizontal rights claims",
+            "I can identify the role of implementing legislation",
+            "I can compare remedies without assuming equal institutional power"
+          ],
+          "sections": [
+            {
+              "title": "Against the State or Another Person?",
+              "body_md": "Constitutional rights are often invoked against public authorities, but some legal systems also allow rights to shape disputes between private persons. Lawyers call this distinction vertical and horizontal effect. The exact rules differ: a constitution may apply directly in private litigation, influence common-law development, or operate indirectly through statutes. If a private employer excludes someone unfairly, the relevant protection may arise from employment legislation rather than a constitutional petition. A precise claim identifies both the defendant and the source.",
+              "example": null,
+              "audio_script": "Constitutional rights are often invoked against public authorities, but some legal systems also allow rights to shape disputes between private persons. Lawyers call this distinction vertical and horizontal effect. The exact rules differ: a constitution may apply directly in private litigation, influence common-law development, or operate indirectly through statutes. If a private employer excludes someone unfairly, the relevant protection may arise from employment legislation rather than a constitutional petition. A precise claim identifies both the defendant and the source.",
+              "video": null
+            },
+            {
+              "title": "Rights Can Overlap",
+              "body_md": "A journalist alleging unlawful surveillance might rely on constitutional guarantees, data-protection legislation, procedural law, and international commitments. These sources may protect overlapping interests but offer different thresholds and remedies. The first task is to avoid double counting them as identical rights. A helpful map separates the conduct prohibited, protected person, public or private duty, forum, and remedy. The same dispute can support several legal theories without making any one theory universal.",
+              "example": null,
+              "audio_script": "A journalist alleging unlawful surveillance might rely on constitutional guarantees, data-protection legislation, procedural law, and international commitments. These sources may protect overlapping interests but offer different thresholds and remedies. The first task is to avoid double counting them as identical rights. A helpful map separates the conduct prohibited, protected person, public or private duty, forum, and remedy. The same dispute can support several legal theories without making any one theory universal.",
+              "video": null
+            },
+            {
+              "title": "Comparative Effectiveness",
+              "body_md": "Two countries may recognize freedom of expression but differ over limitations, review, standing, and access to court. A textual comparison alone can mislead: one short provision may receive extensive judicial interpretation, while another detailed statute may be difficult to enforce. A good comparative study examines practice and procedure as well as written doctrine. This is especially important when assessing whether vulnerable people can actually obtain protection rather than merely cite impressive legal language.",
+              "example": null,
+              "audio_script": "Two countries may recognize freedom of expression but differ over limitations, review, standing, and access to court. A textual comparison alone can mislead: one short provision may receive extensive judicial interpretation, while another detailed statute may be difficult to enforce. A good comparative study examines practice and procedure as well as written doctrine. This is especially important when assessing whether vulnerable people can actually obtain protection rather than merely cite impressive legal language.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Horizontal effect means influence of rights in disputes involving private actors.",
+              "answer": true,
+              "explanation_if_true": "Horizontal effect means influence of rights in disputes involving private actors.",
+              "explanation_if_false": "Horizontal effect means influence of rights in disputes involving private actors."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "All constitutional rights apply directly to every private dispute in every country.",
+              "answer": false,
+              "explanation_if_true": "Horizontal application varies by constitutional system and implementing rules.",
+              "explanation_if_false": "Horizontal application varies by constitutional system and implementing rules."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Vertical effect?",
+              "choices": [
+                "Rights claim directed at a public authority",
+                "Influence of rights in disputes involving private actors",
+                "Domestic law giving effect to a wider norm",
+                "Legal capacity to bring a particular claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Vertical effect means rights claim directed at a public authority."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A private employer allegedly discriminates; constitutional rules address only state action in the jurisdiction. What source may be central?",
+              "choices": [
+                "A neighboring country's constitution",
+                "A treaty never adopted locally",
+                "An unrelated criminal code",
+                "Employment or equality legislation"
+              ],
+              "answer_index": 3,
+              "explanation": "Applicable statutory private-law protections may govern a claim against a private employer."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to domestic law giving effect to a wider norm?",
+              "choices": [
+                "Vertical effect",
+                "Standing",
+                "Horizontal effect",
+                "Implementing legislation"
+              ],
+              "answer_index": 3,
+              "explanation": "Implementing legislation means domestic law giving effect to a wider norm."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Vertical effect",
+                  "Rights claim directed at a public authority"
+                ],
+                [
+                  "Horizontal effect",
+                  "Influence of rights in disputes involving private actors"
+                ],
+                [
+                  "Implementing legislation",
+                  "Domestic law giving effect to a wider norm"
+                ],
+                [
+                  "Standing",
+                  "Legal capacity to bring a particular claim"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Rights claim directed at a public authority is called ___.",
+              "answer": "Vertical effect",
+              "accept": [
+                "Vertical effect"
+              ],
+              "explanation": "The term is Vertical effect."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legal capacity to bring a particular claim is called ___.",
+              "answer": "Standing",
+              "accept": [
+                "Standing"
+              ],
+              "explanation": "The term is Standing."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze rights conflicts and comparative proportionality",
+          "summary": "Study how systems balance competing rights and public interests. Distinguish a legitimate aim from evidence that a restriction is lawful and proportionate.",
+          "checklist": [
+            "I can structure a proportionality inquiry",
+            "I can recognize conflicts between privacy and expression",
+            "I can identify when rights limitations require explicit authorization"
+          ],
+          "sections": [
+            {
+              "title": "A Collision of Protected Interests",
+              "body_md": "A newspaper wants to report a matter of public concern while a private person seeks protection against disclosure of intimate details. Both interests can receive legal recognition. A comparative lawyer must identify the applicable rights, which parties can assert them, and the legal test for resolving conflict. Some systems use structured proportionality; others employ categorical rules or common-law balancing. Simply announcing that one right is more important avoids the legal question of how the competing claims are weighed.",
+              "example": null,
+              "audio_script": "A newspaper wants to report a matter of public concern while a private person seeks protection against disclosure of intimate details. Both interests can receive legal recognition. A comparative lawyer must identify the applicable rights, which parties can assert them, and the legal test for resolving conflict. Some systems use structured proportionality; others employ categorical rules or common-law balancing. Simply announcing that one right is more important avoids the legal question of how the competing claims are weighed.",
+              "video": null
+            },
+            {
+              "title": "A Proportionality Framework",
+              "body_md": "Where proportionality governs, analysis commonly asks whether a measure pursues a legitimate objective, whether it is suitable to advance it, whether less restrictive alternatives are available, and whether the benefits justify the burden. Formulations and burdens vary by jurisdiction, so do not present these elements as a universal four-part statute. The important discipline is to demand reasons and evidence at each stage. An official cannot justify a severe rights restriction solely by invoking a worthy goal.",
+              "example": null,
+              "audio_script": "Where proportionality governs, analysis commonly asks whether a measure pursues a legitimate objective, whether it is suitable to advance it, whether less restrictive alternatives are available, and whether the benefits justify the burden. Formulations and burdens vary by jurisdiction, so do not present these elements as a universal four-part statute. The important discipline is to demand reasons and evidence at each stage. An official cannot justify a severe rights restriction solely by invoking a worthy goal.",
+              "video": null
+            },
+            {
+              "title": "Practical Comparison",
+              "body_md": "Imagine a law requiring journalists to reveal confidential sources to investigate an ordinary administrative error. A court may consider the public interest, available alternatives, risk to expression, and procedural safeguards. Another jurisdiction may apply a different protection for source confidentiality. The analyst must identify both regimes before comparing results. A meaningful comparison explains why the legal structures lead toward the outcome, rather than choosing the outcome first and borrowing whichever doctrine supports it.",
+              "example": null,
+              "audio_script": "Imagine a law requiring journalists to reveal confidential sources to investigate an ordinary administrative error. A court may consider the public interest, available alternatives, risk to expression, and procedural safeguards. Another jurisdiction may apply a different protection for source confidentiality. The analyst must identify both regimes before comparing results. A meaningful comparison explains why the legal structures lead toward the outcome, rather than choosing the outcome first and borrowing whichever doctrine supports it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Legitimate aim means recognized objective pursued by a restriction.",
+              "answer": true,
+              "explanation_if_true": "Legitimate aim means recognized objective pursued by a restriction.",
+              "explanation_if_false": "Legitimate aim means recognized objective pursued by a restriction."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "Any restriction on rights is justified whenever an official names a legitimate objective.",
+              "answer": false,
+              "explanation_if_true": "A legitimate aim is only one element of many applicable justification tests.",
+              "explanation_if_false": "A legitimate aim is only one element of many applicable justification tests."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Proportionality?",
+              "choices": [
+                "Recognized objective pursued by a restriction",
+                "Requirement to examine suitable less-restrictive alternatives",
+                "Comparison of competing legally recognized interests",
+                "Structured assessment of a rights limitation's justification"
+              ],
+              "answer_index": 3,
+              "explanation": "Proportionality means structured assessment of a rights limitation's justification."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A government has a legitimate objective, but equally effective and far less restrictive means are available. Which step matters?",
+              "choices": [
+                "Citation formatting",
+                "Corporate form",
+                "Necessity",
+                "Subject-matter jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "A proportionality inquiry may reject an avoidably severe restriction."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to requirement to examine suitable less-restrictive alternatives?",
+              "choices": [
+                "Balancing",
+                "Legitimate aim",
+                "Necessity",
+                "Proportionality"
+              ],
+              "answer_index": 2,
+              "explanation": "Necessity means requirement to examine suitable less-restrictive alternatives."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Proportionality",
+                  "Structured assessment of a rights limitation's justification"
+                ],
+                [
+                  "Legitimate aim",
+                  "Recognized objective pursued by a restriction"
+                ],
+                [
+                  "Necessity",
+                  "Requirement to examine suitable less-restrictive alternatives"
+                ],
+                [
+                  "Balancing",
+                  "Comparison of competing legally recognized interests"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "Structured assessment of a rights limitation's justification is called ___.",
+              "answer": "Proportionality",
+              "accept": [
+                "Proportionality"
+              ],
+              "explanation": "The term is Proportionality."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "Comparison of competing legally recognized interests is called ___.",
+              "answer": "Balancing",
+              "accept": [
+                "Balancing"
+              ],
+              "explanation": "The term is Balancing."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique universalism, cultural difference and enforceability",
+          "summary": "At doctoral depth, examine whether universal rights can be protected without erasing legal traditions or tolerating coercion. Evaluate institutional power and the voices excluded from rights adjudication.",
+          "checklist": [
+            "I can critique superficial claims of cultural relativism or universalism",
+            "I can identify enforceability gaps in transnational rights",
+            "I can design participatory methods for resolving rights conflicts"
+          ],
+          "sections": [
+            {
+              "title": "The Universal Claim Meets Context",
+              "body_md": "Universal human-rights language asserts protections belonging to persons because of equal dignity. Local legal and moral traditions may conceptualize community obligations differently. A doctoral comparison should not treat universalism as mere Western preference or invoke cultural difference to excuse violence or discrimination. It must identify the precise norm, the affected persons' perspectives, any binding obligations, and the institution able to adjudicate the dispute. The question is how shared human protection can be justified through fair processes, not which culture wins a slogan.",
+              "example": null,
+              "audio_script": "Universal human-rights language asserts protections belonging to persons because of equal dignity. Local legal and moral traditions may conceptualize community obligations differently. A doctoral comparison should not treat universalism as mere Western preference or invoke cultural difference to excuse violence or discrimination. It must identify the precise norm, the affected persons' perspectives, any binding obligations, and the institution able to adjudicate the dispute. The question is how shared human protection can be justified through fair processes, not which culture wins a slogan.",
+              "video": null
+            },
+            {
+              "title": "Voice and Representation",
+              "body_md": "A rights case may feature government and elite organizations arguing about a community without that community's participation. That creates an epistemic and procedural problem: evidence about lived consequences may be missing. Standing rules, legal aid, collective representation, translation, and consultation influence whose rights are actually heard. Those mechanisms also need safeguards against powerful intermediaries claiming to speak for everyone. Legal pluralism is ethically credible only when individuals within communities can contest abuses without losing recognition of their broader identity.",
+              "example": null,
+              "audio_script": "A rights case may feature government and elite organizations arguing about a community without that community's participation. That creates an epistemic and procedural problem: evidence about lived consequences may be missing. Standing rules, legal aid, collective representation, translation, and consultation influence whose rights are actually heard. Those mechanisms also need safeguards against powerful intermediaries claiming to speak for everyone. Legal pluralism is ethically credible only when individuals within communities can contest abuses without losing recognition of their broader identity.",
+              "video": null
+            },
+            {
+              "title": "Effective Protection Across Borders",
+              "body_md": "Rights recognized by international bodies do not automatically yield relief from domestic officials. Treaty status, reservations, jurisdiction, available complaints mechanisms, and state compliance all matter. A defensible reform might combine domestic incorporation, accessible independent review, and publicly measurable implementation. Each proposal should acknowledge limits on institutional capacity and sovereignty. The ideal is not a long list of abstract entitlements but practical protection of people facing detention, exclusion, violence, or loss of livelihood.",
+              "example": null,
+              "audio_script": "Rights recognized by international bodies do not automatically yield relief from domestic officials. Treaty status, reservations, jurisdiction, available complaints mechanisms, and state compliance all matter. A defensible reform might combine domestic incorporation, accessible independent review, and publicly measurable implementation. Each proposal should acknowledge limits on institutional capacity and sovereignty. The ideal is not a long list of abstract entitlements but practical protection of people facing detention, exclusion, violence, or loss of livelihood.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Cultural relativism means view emphasizing variation in moral or legal standards.",
+              "answer": true,
+              "explanation_if_true": "Cultural relativism means view emphasizing variation in moral or legal standards.",
+              "explanation_if_false": "Cultural relativism means view emphasizing variation in moral or legal standards."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "Invoking local tradition automatically resolves whether an individual rights violation is justified.",
+              "answer": false,
+              "explanation_if_true": "Legal rights, affected persons and binding norms still require reasoned examination.",
+              "explanation_if_false": "Legal rights, affected persons and binding norms still require reasoned examination."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Universalism?",
+              "choices": [
+                "Institutional steps translating norms into protection",
+                "Justification strengthened by meaningful affected-person involvement",
+                "Claim that basic rights extend to all persons",
+                "View emphasizing variation in moral or legal standards"
+              ],
+              "answer_index": 2,
+              "explanation": "Universalism means claim that basic rights extend to all persons."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A human-rights policy was drafted without hearing the community it governs. What weakness deserves priority?",
+              "choices": [
+                "Absence of Latin maxims",
+                "Lack of participatory legitimacy",
+                "The number of footnotes",
+                "The size of the meeting room"
+              ],
+              "answer_index": 1,
+              "explanation": "Credible protection depends in part on affected persons' ability to participate and challenge claims."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to institutional steps translating norms into protection?",
+              "choices": [
+                "Cultural relativism",
+                "Rights implementation",
+                "Universalism",
+                "Participatory legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights implementation means institutional steps translating norms into protection."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Universalism",
+                  "Claim that basic rights extend to all persons"
+                ],
+                [
+                  "Cultural relativism",
+                  "View emphasizing variation in moral or legal standards"
+                ],
+                [
+                  "Rights implementation",
+                  "Institutional steps translating norms into protection"
+                ],
+                [
+                  "Participatory legitimacy",
+                  "Justification strengthened by meaningful affected-person involvement"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "Claim that basic rights extend to all persons is called ___.",
+              "answer": "Universalism",
+              "accept": [
+                "Universalism"
+              ],
+              "explanation": "The term is Universalism."
+            },
+            {
+              "id": "PSU-1.3.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification strengthened by meaningful affected-person involvement is called ___.",
+              "answer": "Participatory legitimacy",
+              "accept": [
+                "Participatory legitimacy"
+              ],
+              "explanation": "The term is Participatory legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
