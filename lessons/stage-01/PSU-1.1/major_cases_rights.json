@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "rights-defining-cases",
+      "name": "Rights-Defining Cases",
+      "levels": {
+        "red": {
+          "focus": "Understand the holding of Brown v. Board of Education.",
+          "summary": "A right to equal treatment must matter in real institutions. Learn why the U.S. Supreme Court held state-imposed segregation in public schools unconstitutional in 1954.",
+          "checklist": [
+            "I can identify the legal question Brown decided",
+            "I can explain the equal-protection holding",
+            "I can distinguish a judgment from its practical implementation"
+          ],
+          "sections": [
+            {
+              "title": "The law separated children by race",
+              "body_md": "Several families challenged laws requiring or permitting Black and white children to attend separate public schools. Officials argued that separate facilities could satisfy equality if the tangible resources were comparable. The Supreme Court considered whether government-imposed racial separation itself denied the equal protection guaranteed by the Fourteenth Amendment. This was not a dispute about whether one particular school had sufficient chairs. It addressed the constitutionality of legally enforced racial segregation in public education.",
+              "example": null,
+              "audio_script": "Several families challenged laws requiring or permitting Black and white children to attend separate public schools. Officials argued that separate facilities could satisfy equality if the tangible resources were comparable. The Supreme Court considered whether government-imposed racial separation itself denied the equal protection guaranteed by the Fourteenth Amendment. This was not a dispute about whether one particular school had sufficient chairs. It addressed the constitutionality of legally enforced racial segregation in public education.",
+              "video": null
+            },
+            {
+              "title": "Equality is not only a building",
+              "body_md": "In Brown v. Board of Education, decided May 17, 1954, the U.S. Supreme Court unanimously held that state-imposed racial segregation of public schools violated equal protection, even where material facilities appeared similar. The judgment rejected the separate-but-equal approach in that context. Its reasoning recognized the role of education in civic life and the harm caused by state-sanctioned separation. The decision changed the governing constitutional standard; it did not itself integrate every school the next morning.",
+              "example": null,
+              "audio_script": "In Brown v. Board of Education, decided May 17, 1954, the U.S. Supreme Court unanimously held that state-imposed racial segregation of public schools violated equal protection, even where material facilities appeared similar. The judgment rejected the separate-but-equal approach in that context. Its reasoning recognized the role of education in civic life and the harm caused by state-sanctioned separation. The decision changed the governing constitutional standard; it did not itself integrate every school the next morning.",
+              "video": null
+            },
+            {
+              "title": "A right needs practical protection",
+              "body_md": "After Brown, courts and public institutions faced resistance and difficult questions about implementation. An authoritative judgment can invalidate a policy while leaving additional legal and political work required to change actual conditions. A lawyer should distinguish the legal holding, the remedy ordered, and whether officials complied. The people seeking protection were children whose education and dignity were directly affected. Rights are not simply principles on paper when a case concerns the freedom to learn without official discrimination.",
+              "example": null,
+              "audio_script": "After Brown, courts and public institutions faced resistance and difficult questions about implementation. An authoritative judgment can invalidate a policy while leaving additional legal and political work required to change actual conditions. A lawyer should distinguish the legal holding, the remedy ordered, and whether officials complied. The people seeking protection were children whose education and dignity were directly affected. Rights are not simply principles on paper when a case concerns the freedom to learn without official discrimination.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Equal protection means constitutional guarantee concerning legal equality.",
+              "answer": true,
+              "explanation_if_true": "Equal protection means constitutional guarantee concerning legal equality.",
+              "explanation_if_false": "Equal protection means constitutional guarantee concerning legal equality."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q2",
+              "type": "true_false",
+              "prompt": "Brown found that legally segregated public schools were constitutional whenever desks and buildings were equal.",
+              "answer": false,
+              "explanation_if_true": "The Court held state-imposed school segregation unconstitutional despite apparently equal tangible facilities.",
+              "explanation_if_false": "The Court held state-imposed school segregation unconstitutional despite apparently equal tangible facilities."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Brown v. Board?",
+              "choices": [
+                "Practical steps giving effect to a judicial ruling",
+                "1954 U.S. ruling against state-enforced public school segregation",
+                "Constitutional guarantee concerning legal equality",
+                "Government-mandated racial separation"
+              ],
+              "answer_index": 1,
+              "explanation": "Brown v. Board means 1954 u.s. ruling against state-enforced public school segregation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Two public schools have comparable resources but students are segregated by state law. What did Brown establish?",
+              "choices": [
+                "State-imposed segregation violates equal protection",
+                "Equal desks always cure segregation",
+                "A court can ignore the Constitution",
+                "Education is not protected by any legal rule"
+              ],
+              "answer_index": 0,
+              "explanation": "Brown rejected state-enforced racial separation in public schools."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means government-mandated racial separation?",
+              "choices": [
+                "State segregation",
+                "Equal protection",
+                "Implementation",
+                "Brown v. Board"
+              ],
+              "answer_index": 0,
+              "explanation": "State segregation means government-mandated racial separation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match these rights case concepts.",
+              "pairs": [
+                [
+                  "Brown v. Board",
+                  "1954 U.S. ruling against state-enforced public school segregation"
+                ],
+                [
+                  "Equal protection",
+                  "Constitutional guarantee concerning legal equality"
+                ],
+                [
+                  "State segregation",
+                  "Government-mandated racial separation"
+                ],
+                [
+                  "Implementation",
+                  "Practical steps giving effect to a judicial ruling"
+                ]
+              ],
+              "explanation": "Read each case in its own constitutional and remedial setting."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1954 u.s. ruling against state-enforced public school segregation is ___.",
+              "answer": "Brown v. Board",
+              "accept": [
+                "Brown v. Board"
+              ],
+              "explanation": "The term is Brown v. Board."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for practical steps giving effect to a judicial ruling is ___.",
+              "answer": "Implementation",
+              "accept": [
+                "Implementation"
+              ],
+              "explanation": "The term is Implementation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Read Brown with its remedial and historical limits.",
+          "summary": "A landmark rights decision may transform doctrine without instant compliance. Study the relationship between Brown, earlier precedent, and the later desegregation remedy.",
+          "checklist": [
+            "I can explain Brown's rejection of Plessy's school-segregation rationale",
+            "I can distinguish Brown I from Brown II",
+            "I can identify the difficulties of enforcing equality"
+          ],
+          "sections": [
+            {
+              "title": "Precedent can preserve injustice",
+              "body_md": "In Plessy v. Ferguson (1896), the Supreme Court accepted separate-but-equal reasoning in a railway segregation dispute. Brown later rejected that principle in public education under the Fourteenth Amendment's Equal Protection Clause. Historical context matters: the Court assessed education's central role in contemporary society and the effects of state-enforced separation. A sophisticated reader should not claim that Brown instantly resolved every question about discriminatory laws or that the earlier constitutional record was completely undisputed.",
+              "example": null,
+              "audio_script": "In Plessy v. Ferguson (1896), the Supreme Court accepted separate-but-equal reasoning in a railway segregation dispute. Brown later rejected that principle in public education under the Fourteenth Amendment's Equal Protection Clause. Historical context matters: the Court assessed education's central role in contemporary society and the effects of state-enforced separation. A sophisticated reader should not claim that Brown instantly resolved every question about discriminatory laws or that the earlier constitutional record was completely undisputed.",
+              "video": null
+            },
+            {
+              "title": "Brown II addresses remedy",
+              "body_md": "Brown I decided the constitutional question in 1954. In Brown II (1955), the Court addressed implementation and directed desegregation under a remedial framework often associated with the phrase all deliberate speed. That approach became subject to criticism because it permitted delay. Distinguish the clear ruling that segregation was unconstitutional from the difficult and contested process of ending it. The remedy's pace could determine whether children actually obtained the protection the law promised them.",
+              "example": null,
+              "audio_script": "Brown I decided the constitutional question in 1954. In Brown II (1955), the Court addressed implementation and directed desegregation under a remedial framework often associated with the phrase all deliberate speed. That approach became subject to criticism because it permitted delay. Distinguish the clear ruling that segregation was unconstitutional from the difficult and contested process of ending it. The remedy's pace could determine whether children actually obtained the protection the law promised them.",
+              "video": null
+            },
+            {
+              "title": "Rights and resistance",
+              "body_md": "Federal legal authority alone did not remove local opposition to desegregation. Institutions responsible for education had to respond, and further litigation, organizing, and government action were necessary. An advocate should not reduce this history to a single victory date. Explain how the legal standard changed and why practical compliance remained contested. Studying both judgment and implementation teaches that judicial reasoning can be transformative without making the work of protecting people complete.",
+              "example": null,
+              "audio_script": "Federal legal authority alone did not remove local opposition to desegregation. Institutions responsible for education had to respond, and further litigation, organizing, and government action were necessary. An advocate should not reduce this history to a single victory date. Explain how the legal standard changed and why practical compliance remained contested. Studying both judgment and implementation teaches that judicial reasoning can be transformative without making the work of protecting people complete.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Brown I means 1954 judgment on school segregation's unconstitutionality.",
+              "answer": true,
+              "explanation_if_true": "Brown I means 1954 judgment on school segregation's unconstitutionality.",
+              "explanation_if_false": "Brown I means 1954 judgment on school segregation's unconstitutionality."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Supreme Court completed the integration of every U.S. public school by issuing Brown I.",
+              "answer": false,
+              "explanation_if_true": "The decision established a rule, but implementation required further orders and contested compliance.",
+              "explanation_if_false": "The decision established a rule, but implementation required further orders and contested compliance."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Plessy v. Ferguson?",
+              "choices": [
+                "1896 U.S. separate-but-equal precedent",
+                "1954 judgment on school segregation's unconstitutionality",
+                "1955 judgment concerning desegregation implementation",
+                "Passage of time preventing prompt effective relief"
+              ],
+              "answer_index": 0,
+              "explanation": "Plessy v. Ferguson means 1896 u.s. separate-but-equal precedent."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A school district accepts Brown's legal holding but indefinitely delays integration. Which issue remains?",
+              "choices": [
+                "Whether Brown was a criminal trial",
+                "An unrelated contract condition",
+                "The student's citizenship in Rome",
+                "Effective implementation of constitutional rights"
+              ],
+              "answer_index": 3,
+              "explanation": "The practical remedy determines whether declared equality becomes real."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means 1955 judgment concerning desegregation implementation?",
+              "choices": [
+                "Brown I",
+                "Remedial delay",
+                "Plessy v. Ferguson",
+                "Brown II"
+              ],
+              "answer_index": 3,
+              "explanation": "Brown II means 1955 judgment concerning desegregation implementation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match these rights case concepts.",
+              "pairs": [
+                [
+                  "Plessy v. Ferguson",
+                  "1896 U.S. separate-but-equal precedent"
+                ],
+                [
+                  "Brown I",
+                  "1954 judgment on school segregation's unconstitutionality"
+                ],
+                [
+                  "Brown II",
+                  "1955 judgment concerning desegregation implementation"
+                ],
+                [
+                  "Remedial delay",
+                  "Passage of time preventing prompt effective relief"
+                ]
+              ],
+              "explanation": "Read each case in its own constitutional and remedial setting."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1896 u.s. separate-but-equal precedent is ___.",
+              "answer": "Plessy v. Ferguson",
+              "accept": [
+                "Plessy v. Ferguson"
+              ],
+              "explanation": "The term is Plessy v. Ferguson."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for passage of time preventing prompt effective relief is ___.",
+              "answer": "Remedial delay",
+              "accept": [
+                "Remedial delay"
+              ],
+              "explanation": "The term is Remedial delay."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare Brown's equality reasoning with Grootboom's housing rights.",
+          "summary": "Different legal systems define rights and judicial remedies differently. Compare the U.S. ruling on enforced segregation with South Africa's requirement of reasonable housing measures.",
+          "checklist": [
+            "I can state Grootboom's section 26 framework",
+            "I can distinguish negative prohibition and positive governmental duties",
+            "I can explain why two rights cases require different remedies"
+          ],
+          "sections": [
+            {
+              "title": "A constitutional right can require action",
+              "body_md": "In Government of the Republic of South Africa v Grootboom, decided in 2000, the Constitutional Court examined section 26 of South Africa's Constitution, which protects access to adequate housing and requires reasonable measures within available resources toward progressive realization. People facing desperate housing conditions challenged the state's response. The Court did not announce an unlimited individual right to demand any particular house immediately. It assessed whether the government's program adequately addressed those with urgent needs.",
+              "example": null,
+              "audio_script": "In Government of the Republic of South Africa v Grootboom, decided in 2000, the Constitutional Court examined section 26 of South Africa's Constitution, which protects access to adequate housing and requires reasonable measures within available resources toward progressive realization. People facing desperate housing conditions challenged the state's response. The Court did not announce an unlimited individual right to demand any particular house immediately. It assessed whether the government's program adequately addressed those with urgent needs.",
+              "video": null
+            },
+            {
+              "title": "Different claims, different legal structures",
+              "body_md": "Brown addressed state-imposed racial segregation in public education under a U.S. equality guarantee. Grootboom addressed reasonable governmental measures to realize a constitutionally recognized social right. Both concern human dignity and institutional responsibilities, yet their legal tests and remedies differ substantially. A comparative lawyer cannot transfer Brown's holding into section 26 or treat housing policy as a school-segregation dispute. Start with the actual constitutional text and relief available in each jurisdiction.",
+              "example": null,
+              "audio_script": "Brown addressed state-imposed racial segregation in public education under a U.S. equality guarantee. Grootboom addressed reasonable governmental measures to realize a constitutionally recognized social right. Both concern human dignity and institutional responsibilities, yet their legal tests and remedies differ substantially. A comparative lawyer cannot transfer Brown's holding into section 26 or treat housing policy as a school-segregation dispute. Start with the actual constitutional text and relief available in each jurisdiction.",
+              "video": null
+            },
+            {
+              "title": "Implementation determines meaning",
+              "body_md": "Grootboom required attention to people in desperate circumstances, not only statistical progress toward broad housing goals. Brown likewise illustrates the gap between a declared right and effective social change. The shared analytical question is whether the state's response makes constitutional protection meaningful for actual people. The difference lies in the source and structure of the legal duty. A sound comparison preserves both the common moral concern and the doctrinal differences rather than using a vague slogan about fairness.",
+              "example": null,
+              "audio_script": "Grootboom required attention to people in desperate circumstances, not only statistical progress toward broad housing goals. Brown likewise illustrates the gap between a declared right and effective social change. The shared analytical question is whether the state's response makes constitutional protection meaningful for actual people. The difference lies in the source and structure of the legal duty. A sound comparison preserves both the common moral concern and the doctrinal differences rather than using a vague slogan about fairness.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Section 26 means south african constitutional provision concerning access to housing.",
+              "answer": true,
+              "explanation_if_true": "Section 26 means south african constitutional provision concerning access to housing.",
+              "explanation_if_false": "Section 26 means south african constitutional provision concerning access to housing."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Grootboom held that the state must immediately give every claimant any home they choose.",
+              "answer": false,
+              "explanation_if_true": "The Court evaluated reasonable housing measures within the constitutional framework and available resources.",
+              "explanation_if_false": "The Court evaluated reasonable housing measures within the constitutional framework and available resources."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Grootboom?",
+              "choices": [
+                "South African constitutional provision concerning access to housing",
+                "Achievement of a right over time through required measures",
+                "Assessment of government measures under legal standards",
+                "2000 South African constitutional housing-rights judgment"
+              ],
+              "answer_index": 3,
+              "explanation": "Grootboom means 2000 south african constitutional housing-rights judgment."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A housing program helps many people but entirely excludes those with the most urgent needs. What did Grootboom emphasize?",
+              "choices": [
+                "Every individual may choose any house",
+                "Housing rights are legally unenforceable",
+                "Reasonableness requires attention to desperate circumstances",
+                "Aggregate progress always ends the inquiry"
+              ],
+              "answer_index": 2,
+              "explanation": "The government's plan must reasonably address people facing acute need."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means achievement of a right over time through required measures?",
+              "choices": [
+                "Reasonableness review",
+                "Grootboom",
+                "Progressive realization",
+                "Section 26"
+              ],
+              "answer_index": 2,
+              "explanation": "Progressive realization means achievement of a right over time through required measures."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match these rights case concepts.",
+              "pairs": [
+                [
+                  "Grootboom",
+                  "2000 South African constitutional housing-rights judgment"
+                ],
+                [
+                  "Section 26",
+                  "South African constitutional provision concerning access to housing"
+                ],
+                [
+                  "Progressive realization",
+                  "Achievement of a right over time through required measures"
+                ],
+                [
+                  "Reasonableness review",
+                  "Assessment of government measures under legal standards"
+                ]
+              ],
+              "explanation": "Read each case in its own constitutional and remedial setting."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 2000 south african constitutional housing-rights judgment is ___.",
+              "answer": "Grootboom",
+              "accept": [
+                "Grootboom"
+              ],
+              "explanation": "The term is Grootboom."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for assessment of government measures under legal standards is ___.",
+              "answer": "Reasonableness review",
+              "accept": [
+                "Reasonableness review"
+              ],
+              "explanation": "The term is Reasonableness review."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate equality, social rights, and the institutions that enforce them.",
+          "summary": "Rights decisions raise difficult questions about remedies, democratic resource allocation, and historical exclusion. Develop a theory that respects constitutional text while requiring meaningful treatment of marginalized persons.",
+          "checklist": [
+            "I can critique formal equality without effective relief",
+            "I can compare judicial and legislative responsibilities in social-rights enforcement",
+            "I can design accountable implementation measures"
+          ],
+          "sections": [
+            {
+              "title": "A declared right is not a completed social reform",
+              "body_md": "Brown established a foundational equal-protection principle against state segregation, yet implementation faced sustained resistance. Grootboom required a housing program attentive to desperate needs, yet judicial oversight could not itself build homes or control all budget choices. The jurisprudential difficulty is how courts can enforce legal commitments without claiming unlimited executive competence. A doctoral account should distinguish which decisions the constitution assigns to judges, legislators, and administrators, and whether those bodies can be held accountable for inaction.",
+              "example": null,
+              "audio_script": "Brown established a foundational equal-protection principle against state segregation, yet implementation faced sustained resistance. Grootboom required a housing program attentive to desperate needs, yet judicial oversight could not itself build homes or control all budget choices. The jurisprudential difficulty is how courts can enforce legal commitments without claiming unlimited executive competence. A doctoral account should distinguish which decisions the constitution assigns to judges, legislators, and administrators, and whether those bodies can be held accountable for inaction.",
+              "video": null
+            },
+            {
+              "title": "The distribution of protection matters",
+              "body_md": "A government may report improved average housing access while leaving the most vulnerable without shelter. A school system may change formal admission rules while structural barriers continue to deny equal educational opportunity. The cases differ in legal questions, but each reveals the limits of measuring success solely through formal compliance or aggregate outcomes. Examine who benefits, who is excluded, and which remedies are lawful and effective. Legal dignity demands attention to real people rather than percentages alone.",
+              "example": null,
+              "audio_script": "A government may report improved average housing access while leaving the most vulnerable without shelter. A school system may change formal admission rules while structural barriers continue to deny equal educational opportunity. The cases differ in legal questions, but each reveals the limits of measuring success solely through formal compliance or aggregate outcomes. Examine who benefits, who is excluded, and which remedies are lawful and effective. Legal dignity demands attention to real people rather than percentages alone.",
+              "video": null
+            },
+            {
+              "title": "Design implementation that does not abandon law",
+              "body_md": "Propose publicly reasoned obligations, transparent measures of compliance, opportunities for affected communities to participate, and appropriate judicial review of unreasonable exclusion. Specify how remedies respect separation of powers and the governing constitution. Consider the risks of delayed relief and of overly detailed judicial management. An excellent lawyer protects clients through doctrines that actually exist while remaining intellectually honest about the need for reform. This combination of precision and humanity is the point of rights jurisprudence.",
+              "example": null,
+              "audio_script": "Propose publicly reasoned obligations, transparent measures of compliance, opportunities for affected communities to participate, and appropriate judicial review of unreasonable exclusion. Specify how remedies respect separation of powers and the governing constitution. Consider the risks of delayed relief and of overly detailed judicial management. An excellent lawyer protects clients through doctrines that actually exist while remaining intellectually honest about the need for reform. This combination of precision and humanity is the point of rights jurisprudence.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q1",
+              "type": "true_false",
+              "prompt": "Institutional remedy means relief directed toward recurring institutional conduct.",
+              "answer": true,
+              "explanation_if_true": "Institutional remedy means relief directed toward recurring institutional conduct.",
+              "explanation_if_false": "Institutional remedy means relief directed toward recurring institutional conduct."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q2",
+              "type": "true_false",
+              "prompt": "The constitutional validity of a right automatically ensures that it is implemented and enjoyed equally.",
+              "answer": false,
+              "explanation_if_true": "Institutions, resources, compliance, and procedural access shape effective protection.",
+              "explanation_if_false": "Institutions, resources, compliance, and procedural access shape effective protection."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Substantive equality?",
+              "choices": [
+                "Public distribution of authority and resources",
+                "Real-world ability to exercise a recognized right",
+                "Attention to actual disadvantage beyond identical wording",
+                "Relief directed toward recurring institutional conduct"
+              ],
+              "answer_index": 2,
+              "explanation": "Substantive equality means attention to actual disadvantage beyond identical wording."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A program satisfies aggregate targets while leaving the most disadvantaged people without meaningful access. What concern arises?",
+              "choices": [
+                "Whether the law is written in English",
+                "Substantive equality and effective implementation",
+                "Only whether the form uses modern fonts",
+                "The names of unrelated judges"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights protection requires examining distribution and actual relief."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means public distribution of authority and resources?",
+              "choices": [
+                "Substantive equality",
+                "Democratic allocation",
+                "Institutional remedy",
+                "Effective rights protection"
+              ],
+              "answer_index": 1,
+              "explanation": "Democratic allocation means public distribution of authority and resources."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match these rights case concepts.",
+              "pairs": [
+                [
+                  "Substantive equality",
+                  "Attention to actual disadvantage beyond identical wording"
+                ],
+                [
+                  "Institutional remedy",
+                  "Relief directed toward recurring institutional conduct"
+                ],
+                [
+                  "Democratic allocation",
+                  "Public distribution of authority and resources"
+                ],
+                [
+                  "Effective rights protection",
+                  "Real-world ability to exercise a recognized right"
+                ]
+              ],
+              "explanation": "Read each case in its own constitutional and remedial setting."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for attention to actual disadvantage beyond identical wording is ___.",
+              "answer": "Substantive equality",
+              "accept": [
+                "Substantive equality"
+              ],
+              "explanation": "The term is Substantive equality."
+            },
+            {
+              "id": "PSU-1.1.major_cases.rights-defining-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for real-world ability to exercise a recognized right is ___.",
+              "answer": "Effective rights protection",
+              "accept": [
+                "Effective rights protection"
+              ],
+              "explanation": "The term is Effective rights protection."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
