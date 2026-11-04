@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Break an obligation into facts the law must establish",
+          "summary": "Legal duties are tested through explicit rules and evidence. Learn to identify what a person must do, why, and what event might constitute noncompliance.",
+          "checklist": [
+            "I can state a duty in plain language",
+            "I can identify the person obligated",
+            "I can separate duty from breach and consequence"
+          ],
+          "sections": [
+            {
+              "title": "One Sentence Can Clarify the Issue",
+              "body_md": "A signed contract says a supplier must deliver equipment by Friday. That gives a concrete duty to identify and compare with what happened. If the goods arrive Monday, there may be a breach—but the legal result depends on interpretation, excuses, remedies and the governing law. A legal beginner should not jump from late delivery to a dramatic conclusion. State the promise, the relevant date, the actual conduct, and the rule supplying legal force.",
+              "example": null,
+              "audio_script": "A signed contract says a supplier must deliver equipment by Friday. That gives a concrete duty to identify and compare with what happened. If the goods arrive Monday, there may be a breach—but the legal result depends on interpretation, excuses, remedies and the governing law. A legal beginner should not jump from late delivery to a dramatic conclusion. State the promise, the relevant date, the actual conduct, and the rule supplying legal force.",
+              "video": null
+            },
+            {
+              "title": "Duty Is Not the Same as Harm",
+              "body_md": "A traffic rule may require a motorist to stop at a red light even if nobody is injured when they fail to stop. In a private damages claim, however, actual injury and causation may be additional elements. This is why an element chart matters: duty, breach, harm and legal consequence should not be collapsed. Different causes of action require different elements, and some do not use all these terms. The first analytic question is always what this specific rule requires.",
+              "example": null,
+              "audio_script": "A traffic rule may require a motorist to stop at a red light even if nobody is injured when they fail to stop. In a private damages claim, however, actual injury and causation may be additional elements. This is why an element chart matters: duty, breach, harm and legal consequence should not be collapsed. Different causes of action require different elements, and some do not use all these terms. The first analytic question is always what this specific rule requires.",
+              "video": null
+            },
+            {
+              "title": "Find the Actor and the Source",
+              "body_md": "A company's duty may arise from statute, contract, fiduciary relationship or a recognized tort principle. An employee's personal obligation may be different from the organization's. For each duty ask: who is bound, to whom or for whose protection, what conduct is required, and what source imposes it? The question becomes much easier to solve once these are written explicitly. That discipline prevents legal argument from depending on vague assertions that someone should have behaved better.",
+              "example": null,
+              "audio_script": "A company's duty may arise from statute, contract, fiduciary relationship or a recognized tort principle. An employee's personal obligation may be different from the organization's. For each duty ask: who is bound, to whom or for whose protection, what conduct is required, and what source imposes it? The question becomes much easier to solve once these are written explicitly. That discipline prevents legal argument from depending on vague assertions that someone should have behaved better.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Breach means failure to comply with an applicable duty.",
+              "answer": true,
+              "explanation_if_true": "Breach means failure to comply with an applicable duty.",
+              "explanation_if_false": "Breach means failure to comply with an applicable duty."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "A breach can be proved without first identifying the duty allegedly violated.",
+              "answer": false,
+              "explanation_if_true": "A breach analysis requires an applicable obligation and conduct that fails to satisfy it.",
+              "explanation_if_false": "A breach analysis requires an applicable obligation and conduct that fails to satisfy it."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Duty?",
+              "choices": [
+                "Recognized origin of a binding requirement",
+                "Conduct required by an applicable legal rule",
+                "Failure to comply with an applicable duty",
+                "Person required to perform a legal obligation"
+              ],
+              "answer_index": 1,
+              "explanation": "Duty means conduct required by an applicable legal rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A contract requires Friday delivery and goods arrive Monday. What question follows identifying the promise?",
+              "choices": [
+                "Whether the late performance breached an enforceable duty",
+                "Whether Monday has a different name",
+                "Whether all late goods are crimes",
+                "Whether the buyer likes the seller"
+              ],
+              "answer_index": 0,
+              "explanation": "Compare required performance with actual performance before assessing consequences."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means person required to perform a legal obligation?",
+              "choices": [
+                "Obligor",
+                "Duty",
+                "Legal source",
+                "Breach"
+              ],
+              "answer_index": 0,
+              "explanation": "Obligor means person required to perform a legal obligation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Duty",
+                  "Conduct required by an applicable legal rule"
+                ],
+                [
+                  "Breach",
+                  "Failure to comply with an applicable duty"
+                ],
+                [
+                  "Obligor",
+                  "Person required to perform a legal obligation"
+                ],
+                [
+                  "Legal source",
+                  "Recognized origin of a binding requirement"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Conduct required by an applicable legal rule is called ___.",
+              "answer": "Duty",
+              "accept": [
+                "Duty"
+              ],
+              "explanation": "The term is Duty."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Recognized origin of a binding requirement is called ___.",
+              "answer": "Legal source",
+              "accept": [
+                "Legal source"
+              ],
+              "explanation": "The term is Legal source."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Use element-by-element legal analysis",
+          "summary": "Develop the discipline of linking each required condition of a claim to supporting and adverse evidence. Learn why proving some elements does not prove the whole case.",
+          "checklist": [
+            "I can construct a legal elements matrix",
+            "I can identify unknown facts relevant to each element",
+            "I can separate a defense from denial of an element"
+          ],
+          "sections": [
+            {
+              "title": "A Claim Is a Set of Conditions",
+              "body_md": "Suppose a claimant alleges negligent injury. The applicable legal order may require a duty of care, breach, causation, legally recognized damage and consideration of defenses. These words are not identical in every system. Write each required condition separately, then list evidence supporting, opposing or missing for it. If a necessary element is not shown under the governing standard, the claim may fail even if other elements are strong. This prevents selective reasoning based on sympathy or narrative force.",
+              "example": null,
+              "audio_script": "Suppose a claimant alleges negligent injury. The applicable legal order may require a duty of care, breach, causation, legally recognized damage and consideration of defenses. These words are not identical in every system. Write each required condition separately, then list evidence supporting, opposing or missing for it. If a necessary element is not shown under the governing standard, the claim may fail even if other elements are strong. This prevents selective reasoning based on sympathy or narrative force.",
+              "video": null
+            },
+            {
+              "title": "Facts Must Do Analytical Work",
+              "body_md": "A witness says the floor was wet. That may support a breach question, but does not alone prove how long the spill existed or whether the defendant had the legally required opportunity to respond. A record showing maintenance inspections may matter differently. Good reasoning ties each fact to an element and explains its significance. Extraneous detail should be removed unless it changes a rule's application. This is how a concise analysis can be more rigorous than a long retelling.",
+              "example": null,
+              "audio_script": "A witness says the floor was wet. That may support a breach question, but does not alone prove how long the spill existed or whether the defendant had the legally required opportunity to respond. A record showing maintenance inspections may matter differently. Good reasoning ties each fact to an element and explains its significance. Extraneous detail should be removed unless it changes a rule's application. This is how a concise analysis can be more rigorous than a long retelling.",
+              "video": null
+            },
+            {
+              "title": "Defenses and Burdens Are Separate",
+              "body_md": "A defendant may deny that a duty existed or assert that a special defense applies despite the claimant's evidence. The allocation of burdens can differ. The writer must label a response accurately: an element denial attacks what the claimant must establish; an affirmative defense introduces a legally recognized additional issue. A clear matrix should show whose burden applies where, with any uncertainty disclosed. This structure makes later drafting and oral argument far easier.",
+              "example": null,
+              "audio_script": "A defendant may deny that a duty existed or assert that a special defense applies despite the claimant's evidence. The allocation of burdens can differ. The writer must label a response accurately: an element denial attacks what the claimant must establish; an affirmative defense introduces a legally recognized additional issue. A clear matrix should show whose burden applies where, with any uncertainty disclosed. This structure makes later drafting and oral argument far easier.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Burden of persuasion means responsibility to prove a disputed issue to the required standard.",
+              "answer": true,
+              "explanation_if_true": "Burden of persuasion means responsibility to prove a disputed issue to the required standard.",
+              "explanation_if_false": "Burden of persuasion means responsibility to prove a disputed issue to the required standard."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "Strong evidence for one element automatically proves every remaining element of a claim.",
+              "answer": false,
+              "explanation_if_true": "Each legally required condition must be independently established as the law requires.",
+              "explanation_if_false": "Each legally required condition must be independently established as the law requires."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Elements matrix?",
+              "choices": [
+                "Table mapping each legal requirement to facts and evidence",
+                "Responsibility to prove a disputed issue to the required standard",
+                "Argument that a claim's required condition is unproved",
+                "Response relying on an additional recognized legal ground"
+              ],
+              "answer_index": 0,
+              "explanation": "Elements matrix means table mapping each legal requirement to facts and evidence."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An injury is documented but no evidence shows a required breach. Which element should the analyst flag?",
+              "choices": [
+                "The spelling of the claimant's name",
+                "Only the filing fee",
+                "The title of the case",
+                "Breach"
+              ],
+              "answer_index": 3,
+              "explanation": "Proof of damage does not substitute for proof of the legal obligation's violation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means argument that a claim's required condition is unproved?",
+              "choices": [
+                "Elements matrix",
+                "Affirmative defense",
+                "Burden of persuasion",
+                "Element denial"
+              ],
+              "answer_index": 3,
+              "explanation": "Element denial means argument that a claim's required condition is unproved."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Elements matrix",
+                  "Table mapping each legal requirement to facts and evidence"
+                ],
+                [
+                  "Burden of persuasion",
+                  "Responsibility to prove a disputed issue to the required standard"
+                ],
+                [
+                  "Element denial",
+                  "Argument that a claim's required condition is unproved"
+                ],
+                [
+                  "Affirmative defense",
+                  "Response relying on an additional recognized legal ground"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Table mapping each legal requirement to facts and evidence is called ___.",
+              "answer": "Elements matrix",
+              "accept": [
+                "Elements matrix"
+              ],
+              "explanation": "The term is Elements matrix."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Response relying on an additional recognized legal ground is called ___.",
+              "answer": "Affirmative defense",
+              "accept": [
+                "Affirmative defense"
+              ],
+              "explanation": "The term is Affirmative defense."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze duties involving multiple actors and institutions",
+          "summary": "Learn to avoid assigning responsibility to the most visible person when law distributes duties among organizations, officials and individuals. Separate obligations from causal roles and legal powers.",
+          "checklist": [
+            "I can identify multiple potential duty holders",
+            "I can distinguish personal and institutional obligations",
+            "I can assess attribution and available defenses"
+          ],
+          "sections": [
+            {
+              "title": "The Visible Actor May Not Be the Only One",
+              "body_md": "A hospital patient is harmed after a record is misplaced, a medication order is unclear, and staffing protocols are inadequate. Different persons may have distinct duties under professional rules, employment law and the institution's obligations. A lawyer should not assume that the last person touching the record caused or legally answers for everything. Draw a duty map showing each actor, source, required conduct and relationship to the injury. Then analyze causation and defenses separately.",
+              "example": null,
+              "audio_script": "A hospital patient is harmed after a record is misplaced, a medication order is unclear, and staffing protocols are inadequate. Different persons may have distinct duties under professional rules, employment law and the institution's obligations. A lawyer should not assume that the last person touching the record caused or legally answers for everything. Draw a duty map showing each actor, source, required conduct and relationship to the injury. Then analyze causation and defenses separately.",
+              "video": null
+            },
+            {
+              "title": "Organizations Act Through People",
+              "body_md": "An entity can be responsible for conduct of employees or agents under recognized attribution rules. These rules differ by jurisdiction and claim. Personal wrongdoing, vicarious liability, regulatory responsibility and direct organizational fault are not synonyms. Advanced analysis identifies which theory permits liability against which defendant, and what additional facts each theory requires. This prevents both overcharging individuals and allowing institutions to disappear behind formal organizational charts.",
+              "example": null,
+              "audio_script": "An entity can be responsible for conduct of employees or agents under recognized attribution rules. These rules differ by jurisdiction and claim. Personal wrongdoing, vicarious liability, regulatory responsibility and direct organizational fault are not synonyms. Advanced analysis identifies which theory permits liability against which defendant, and what additional facts each theory requires. This prevents both overcharging individuals and allowing institutions to disappear behind formal organizational charts.",
+              "video": null
+            },
+            {
+              "title": "When Duties Conflict",
+              "body_md": "A professional may face confidentiality obligations and a statutory reporting requirement triggered by particular facts. The correct response depends on the governing hierarchy, statutory conditions and any recognized exceptions. Ethical alarm is not a substitute for legal analysis. Identify each duty's source, scope, trigger and consequence; then determine whether the apparent conflict can be reconciled. If the law remains uncertain, the client deserves an explanation of the competing risks and permitted choices.",
+              "example": null,
+              "audio_script": "A professional may face confidentiality obligations and a statutory reporting requirement triggered by particular facts. The correct response depends on the governing hierarchy, statutory conditions and any recognized exceptions. Ethical alarm is not a substitute for legal analysis. Identify each duty's source, scope, trigger and consequence; then determine whether the apparent conflict can be reconciled. If the law remains uncertain, the client deserves an explanation of the competing risks and permitted choices.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Vicarious liability means responsibility imposed for another's qualifying conduct.",
+              "answer": true,
+              "explanation_if_true": "Vicarious liability means responsibility imposed for another's qualifying conduct.",
+              "explanation_if_false": "Vicarious liability means responsibility imposed for another's qualifying conduct."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "The last person involved in a harmful event is necessarily the only legally responsible actor.",
+              "answer": false,
+              "explanation_if_true": "Duties and attribution can involve several individuals or institutions under different rules.",
+              "explanation_if_false": "Duties and attribution can involve several individuals or institutions under different rules."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Attribution?",
+              "choices": [
+                "Responsibility imposed for another's qualifying conduct",
+                "Entity's own failure under an applicable standard",
+                "Situation where two applicable obligations appear incompatible",
+                "Assignment of conduct or liability to a legally relevant actor"
+              ],
+              "answer_index": 3,
+              "explanation": "Attribution means assignment of conduct or liability to a legally relevant actor."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A hospital injury involves a worker's action and an unsafe institutional policy. What should be separated?",
+              "choices": [
+                "The color of the chart",
+                "The title of the hospital",
+                "Personal conduct, organizational duties and causation",
+                "Only the patient's age"
+              ],
+              "answer_index": 2,
+              "explanation": "Different actors can have distinct legal duties and causal contributions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means entity's own failure under an applicable standard?",
+              "choices": [
+                "Duty conflict",
+                "Vicarious liability",
+                "Direct organizational fault",
+                "Attribution"
+              ],
+              "answer_index": 2,
+              "explanation": "Direct organizational fault means entity's own failure under an applicable standard."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Attribution",
+                  "Assignment of conduct or liability to a legally relevant actor"
+                ],
+                [
+                  "Vicarious liability",
+                  "Responsibility imposed for another's qualifying conduct"
+                ],
+                [
+                  "Direct organizational fault",
+                  "Entity's own failure under an applicable standard"
+                ],
+                [
+                  "Duty conflict",
+                  "Situation where two applicable obligations appear incompatible"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Assignment of conduct or liability to a legally relevant actor is called ___.",
+              "answer": "Attribution",
+              "accept": [
+                "Attribution"
+              ],
+              "explanation": "The term is Attribution."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Situation where two applicable obligations appear incompatible is called ___.",
+              "answer": "Duty conflict",
+              "accept": [
+                "Duty conflict"
+              ],
+              "explanation": "The term is Duty conflict."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique duties and institutional accountability through precise legal reasoning",
+          "summary": "At doctoral depth, evaluate whether a doctrine distributes obligations fairly among persons who control risks and persons who bear them. Distinguish legal interpretation from proposals for institutional reform.",
+          "checklist": [
+            "I can evaluate a legal duty's normative justification",
+            "I can critique overbroad or underinclusive attribution",
+            "I can design duty rules sensitive to vulnerability and administrability"
+          ],
+          "sections": [
+            {
+              "title": "Why Does This Duty Exist?",
+              "body_md": "A doctrine might impose responsibility because an actor controls a risk, made a promise, induced reliance, or occupies a position of trust. These explanations are not interchangeable. A doctoral lawyer must identify which rationale underlies the applicable law and whether the proposed interpretation fits its limits. If an expanding duty would protect victims but create indefinite responsibility, that cost must be confronted openly. A legal conclusion is strongest when its normative reasoning remains consistent with institutional authority.",
+              "example": null,
+              "audio_script": "A doctrine might impose responsibility because an actor controls a risk, made a promise, induced reliance, or occupies a position of trust. These explanations are not interchangeable. A doctoral lawyer must identify which rationale underlies the applicable law and whether the proposed interpretation fits its limits. If an expanding duty would protect victims but create indefinite responsibility, that cost must be confronted openly. A legal conclusion is strongest when its normative reasoning remains consistent with institutional authority.",
+              "video": null
+            },
+            {
+              "title": "Duties Can Track Power Poorly",
+              "body_md": "A delivery worker may face direct liability for an incident shaped by platform instructions and time pressure beyond their control. The governing doctrine may or may not assign responsibility to the platform. The analyst should map actual control, foreseeability, contractual arrangements and public protections, then separate the current law from suggested reform. A theory that overlooks structural vulnerability can be formally neat and practically unjust. Conversely, blaming all powerful institutions for all outcomes neglects causal and legal boundaries.",
+              "example": null,
+              "audio_script": "A delivery worker may face direct liability for an incident shaped by platform instructions and time pressure beyond their control. The governing doctrine may or may not assign responsibility to the platform. The analyst should map actual control, foreseeability, contractual arrangements and public protections, then separate the current law from suggested reform. A theory that overlooks structural vulnerability can be formally neat and practically unjust. Conversely, blaming all powerful institutions for all outcomes neglects causal and legal boundaries.",
+              "video": null
+            },
+            {
+              "title": "Serve Through Candor",
+              "body_md": "In a difficult case, the client may seek a categorical answer about who should pay. Ethical excellence requires explaining the difference between moral responsibility, legal duty and provable liability. An opinion should tell the client what can be established, what remains uncertain, and where a law reform argument would begin. The legal scholar's task is not to transform every tragedy into an effortless lawsuit; it is to make law both intelligible and responsive to those whose lives it governs.",
+              "example": null,
+              "audio_script": "In a difficult case, the client may seek a categorical answer about who should pay. Ethical excellence requires explaining the difference between moral responsibility, legal duty and provable liability. An opinion should tell the client what can be established, what remains uncertain, and where a law reform argument would begin. The legal scholar's task is not to transform every tragedy into an effortless lawsuit; it is to make law both intelligible and responsive to those whose lives it governs.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Risk control means practical capacity to prevent or reduce harm.",
+              "answer": true,
+              "explanation_if_true": "Risk control means practical capacity to prevent or reduce harm.",
+              "explanation_if_false": "Risk control means practical capacity to prevent or reduce harm."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "Expanding liability to every participant is necessarily the fairest way to protect victims.",
+              "answer": false,
+              "explanation_if_true": "A defensible duty rule must consider control, causation, institutional capacity and competing harms.",
+              "explanation_if_false": "A defensible duty rule must consider control, causation, institutional capacity and competing harms."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Normative rationale?",
+              "choices": [
+                "Rule failing to cover some relevant cases",
+                "Capacity of institutions to apply the rule reliably",
+                "Reason offered to justify a legal obligation",
+                "Practical capacity to prevent or reduce harm"
+              ],
+              "answer_index": 2,
+              "explanation": "Normative rationale means reason offered to justify a legal obligation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A worker follows platform instructions that create foreseeable risk. What does a principled duty analysis ask?",
+              "choices": [
+                "Whether injury can occur without witnesses",
+                "Which actors controlled the risk and what law assigns each duty",
+                "Only who wore the uniform",
+                "Whether the platform logo is attractive"
+              ],
+              "answer_index": 1,
+              "explanation": "Duty allocation should connect applicable rules with actual power over the relevant risk."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means rule failing to cover some relevant cases?",
+              "choices": [
+                "Risk control",
+                "Underinclusive rule",
+                "Normative rationale",
+                "Administrability"
+              ],
+              "answer_index": 1,
+              "explanation": "Underinclusive rule means rule failing to cover some relevant cases."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Normative rationale",
+                  "Reason offered to justify a legal obligation"
+                ],
+                [
+                  "Risk control",
+                  "Practical capacity to prevent or reduce harm"
+                ],
+                [
+                  "Underinclusive rule",
+                  "Rule failing to cover some relevant cases"
+                ],
+                [
+                  "Administrability",
+                  "Capacity of institutions to apply the rule reliably"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "Reason offered to justify a legal obligation is called ___.",
+              "answer": "Normative rationale",
+              "accept": [
+                "Normative rationale"
+              ],
+              "explanation": "The term is Normative rationale."
+            },
+            {
+              "id": "PSU-1.4.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Capacity of institutions to apply the rule reliably is called ___.",
+              "answer": "Administrability",
+              "accept": [
+                "Administrability"
+              ],
+              "explanation": "The term is Administrability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
