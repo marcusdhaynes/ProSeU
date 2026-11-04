@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "procedural-doctrines",
+      "name": "Procedural Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Ancient procedure: how a claim became a decision",
+          "summary": "Study the practical steps visible in Babylonian legal sources: claims, testimony and written records. Learn why a procedure's existence does not prove that every participant received a fair hearing.",
+          "checklist": [
+            "I can recognize basic stages of an ancient legal dispute",
+            "I can identify witnesses and documents as historical evidence",
+            "I can distinguish prescribed process from proven practice"
+          ],
+          "sections": [
+            {
+              "title": "Bring the Dispute Before Authority",
+              "body_md": "A trader alleging unpaid delivery had to move from grievance to a claim an authorized institution would consider. Sources about ancient Mesopotamian practice describe disputants, witnesses, written tablets and decisions, though no single procedure governed every issue across all periods. This matters because private anger alone did not produce an enforceable legal result. The beginner's timeline is practical: raise the matter, identify the parties, present relevant proof and obtain a decision. Historians must not fill undocumented steps with modern assumptions.",
+              "audio_script": "A trader alleging unpaid delivery had to move from grievance to a claim an authorized institution would consider. Sources about ancient Mesopotamian practice describe disputants, witnesses, written tablets and decisions, though no single procedure governed every issue across all periods. This matters because private anger alone did not produce an enforceable legal result. The beginner's timeline is practical: raise the matter, identify the parties, present relevant proof and obtain a decision. Historians must not fill undocumented steps with modern assumptions.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Witnesses and Tablets",
+              "body_md": "In Mesopotamian legal culture, written records could help establish transactions and testimony could address disputed facts. Clay tablets make some proceedings unusually visible to historians, but surviving documents reflect only a fraction of actual life. Oaths also figured in some inquiries, often expressing religious understandings of truth. A historical description must separate what a document records, what the parties asserted and what a decision maker concluded. A formal writing system does not guarantee reliable evidence or equal access to justice.",
+              "audio_script": "In Mesopotamian legal culture, written records could help establish transactions and testimony could address disputed facts. Clay tablets make some proceedings unusually visible to historians, but surviving documents reflect only a fraction of actual life. Oaths also figured in some inquiries, often expressing religious understandings of truth. A historical description must separate what a document records, what the parties asserted and what a decision maker concluded. A formal writing system does not guarantee reliable evidence or equal access to justice.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Process Can Protect or Threaten",
+              "body_md": "A procedure allows someone to contest an accusation, yet it may also be used to reinforce hierarchy. A person excluded from the recognized forum or unable to produce acceptable evidence can suffer even where a rule appears clear. Examine who could testify, whose status mattered and what consequences attached to the recorded decision. This makes procedural history ethically important. The same institution that prevents a private feud may endanger a vulnerable person if the route to being heard is unequal.",
+              "audio_script": "A procedure allows someone to contest an accusation, yet it may also be used to reinforce hierarchy. A person excluded from the recognized forum or unable to produce acceptable evidence can suffer even where a rule appears clear. Examine who could testify, whose status mattered and what consequences attached to the recorded decision. This makes procedural history ethically important. The same institution that prevents a private feud may endanger a vulnerable person if the route to being heard is unequal.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Witness testimony means evidence offered by a person with relevant knowledge.",
+              "answer": true,
+              "explanation_if_true": "Witness testimony means evidence offered by a person with relevant knowledge.",
+              "explanation_if_false": "Witness testimony means evidence offered by a person with relevant knowledge."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "The survival of ancient court tablets proves every Babylonian proceeding used identical and fair steps.",
+              "answer": false,
+              "explanation_if_true": "Surviving records are partial and institutional practice varied over place, time and social standing.",
+              "explanation_if_false": "Surviving records are partial and institutional practice varied over place, time and social standing."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Pleading denote?",
+              "choices": [
+                "Authoritative determination of a dispute",
+                "Presentation of a claim or response",
+                "Evidence offered by a person with relevant knowledge",
+                "Written Mesopotamian document preserved on clay"
+              ],
+              "answer_index": 1,
+              "explanation": "Pleading denotes presentation of a claim or response."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An archaeologist finds a tablet listing witnesses to a transaction. What does it most directly establish?",
+              "choices": [
+                "The transaction had a written evidentiary record",
+                "Every later dispute was resolved fairly",
+                "No oral testimony was allowed",
+                "All people could litigate equally"
+              ],
+              "answer_index": 0,
+              "explanation": "Written evidence must not be generalized into a universal account of procedure."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means written mesopotamian document preserved on clay?",
+              "choices": [
+                "Witness testimony",
+                "Clay-tablet record",
+                "Pleading",
+                "Adjudication"
+              ],
+              "answer_index": 1,
+              "explanation": "Clay-tablet record means written mesopotamian document preserved on clay."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the procedures to their meanings.",
+              "pairs": [
+                [
+                  "Pleading",
+                  "Presentation of a claim or response"
+                ],
+                [
+                  "Witness testimony",
+                  "Evidence offered by a person with relevant knowledge"
+                ],
+                [
+                  "Clay-tablet record",
+                  "Written Mesopotamian document preserved on clay"
+                ],
+                [
+                  "Adjudication",
+                  "Authoritative determination of a dispute"
+                ]
+              ],
+              "explanation": "Legal process varies by institution and historical period."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for presentation of a claim or response is ___.",
+              "answer": "Pleading",
+              "accept": [
+                "Pleading"
+              ],
+              "explanation": "It is called Pleading."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for authoritative determination of a dispute is ___.",
+              "answer": "Adjudication",
+              "accept": [
+                "Adjudication"
+              ],
+              "explanation": "It is called Adjudication."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Roman procedure and the architecture of the legal action",
+          "summary": "Learn how Roman formulary procedure organized issues for decision. Explain why defining a claim and its exceptions could shape the substantive rights people could enforce.",
+          "checklist": [
+            "I can identify the function of a procedural formula",
+            "I can distinguish a claim's intentio from a defense's exceptio",
+            "I can explain why Roman judicial procedure changed over time"
+          ],
+          "sections": [
+            {
+              "title": "The Formula Organizes the Problem",
+              "body_md": "During the period of Roman formulary procedure, a praetor could authorize a formula specifying the dispute for a judge to decide. The formula could identify the claimant's assertion, conditions and potential condemnation or acquittal. This was not identical to a modern complaint followed by discovery and jury trial. The point is that the legal system placed the dispute into a defined procedural form. Which formula was available affected what facts mattered and what result the claimant could obtain.",
+              "audio_script": "During the period of Roman formulary procedure, a praetor could authorize a formula specifying the dispute for a judge to decide. The formula could identify the claimant's assertion, conditions and potential condemnation or acquittal. This was not identical to a modern complaint followed by discovery and jury trial. The point is that the legal system placed the dispute into a defined procedural form. Which formula was available affected what facts mattered and what result the claimant could obtain.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A Claim and an Exception",
+              "body_md": "The intentio expressed the legal claim or issue within a formula; an exceptio could specify a relevant defense. Their presence demonstrates how procedure could separate a claimant's entitlement from circumstances defeating its enforcement. A defendant might need an exception even when the formal claim's core allegation was accepted. This architecture makes an enduring methodological point: first determine what must be proved, then identify the response that might change the outcome. Do not assume today's pleading burdens map exactly onto the Roman design.",
+              "audio_script": "The intentio expressed the legal claim or issue within a formula; an exceptio could specify a relevant defense. Their presence demonstrates how procedure could separate a claimant's entitlement from circumstances defeating its enforcement. A defendant might need an exception even when the formal claim's core allegation was accepted. This architecture makes an enduring methodological point: first determine what must be proved, then identify the response that might change the outcome. Do not assume today's pleading burdens map exactly onto the Roman design.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Procedural Systems Evolve",
+              "body_md": "Rome used different procedural models over time, including earlier legis actiones, formulary practice and later forms of imperial cognition. Their dates and use overlap in complex ways. A history lesson should therefore avoid saying that one judge always heard a case through one timeless procedure. Identify the relevant era and institutional source before interpreting any technical term. Roman procedure changed because governing authority, the scale of empire and views of legal administration changed.",
+              "audio_script": "Rome used different procedural models over time, including earlier legis actiones, formulary practice and later forms of imperial cognition. Their dates and use overlap in complex ways. A history lesson should therefore avoid saying that one judge always heard a case through one timeless procedure. Identify the relevant era and institutional source before interpreting any technical term. Roman procedure changed because governing authority, the scale of empire and views of legal administration changed.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Intentio means clause specifying a claim in a roman formula.",
+              "answer": true,
+              "explanation_if_true": "Intentio means clause specifying a claim in a roman formula.",
+              "explanation_if_false": "Intentio means clause specifying a claim in a roman formula."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Roman formulary system was a single universal trial method from Rome's founding until the end of its empire.",
+              "answer": false,
+              "explanation_if_true": "Roman modes of procedure changed significantly across Republican and imperial periods.",
+              "explanation_if_false": "Roman modes of procedure changed significantly across Republican and imperial periods."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Formula denote?",
+              "choices": [
+                "Structured Roman instruction defining an action for judgment",
+                "Clause specifying a claim in a Roman formula",
+                "Clause expressing a legally recognized defense",
+                "Later Roman mode of official adjudicative procedure"
+              ],
+              "answer_index": 0,
+              "explanation": "Formula denotes structured roman instruction defining an action for judgment."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A Roman formula includes a claimant's allegation and a distinct fraud-related response. Which pair of devices is relevant?",
+              "choices": [
+                "A writ and habeas corpus",
+                "Judicial review and proportionality",
+                "A civil code and a treaty",
+                "Intentio and exceptio"
+              ],
+              "answer_index": 3,
+              "explanation": "The formula separated the legal claim from particular defensive conditions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means clause expressing a legally recognized defense?",
+              "choices": [
+                "Exceptio",
+                "Formula",
+                "Cognitio",
+                "Intentio"
+              ],
+              "answer_index": 0,
+              "explanation": "Exceptio means clause expressing a legally recognized defense."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the procedures to their meanings.",
+              "pairs": [
+                [
+                  "Formula",
+                  "Structured Roman instruction defining an action for judgment"
+                ],
+                [
+                  "Intentio",
+                  "Clause specifying a claim in a Roman formula"
+                ],
+                [
+                  "Exceptio",
+                  "Clause expressing a legally recognized defense"
+                ],
+                [
+                  "Cognitio",
+                  "Later Roman mode of official adjudicative procedure"
+                ]
+              ],
+              "explanation": "Legal process varies by institution and historical period."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for structured roman instruction defining an action for judgment is ___.",
+              "answer": "Formula",
+              "accept": [
+                "Formula"
+              ],
+              "explanation": "It is called Formula."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for later roman mode of official adjudicative procedure is ___.",
+              "answer": "Cognitio",
+              "accept": [
+                "Cognitio"
+              ],
+              "explanation": "It is called Cognitio."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Writs, pleading and access to royal justice",
+          "summary": "Explore how medieval English writs opened particular procedural routes to the king's courts. Explain why an unavailable writ could prevent a claimant from obtaining an otherwise plausible remedy.",
+          "checklist": [
+            "I can describe the role of the writ in common-law process",
+            "I can explain how forms of action shaped legal protection",
+            "I can compare royal and local adjudication"
+          ],
+          "sections": [
+            {
+              "title": "A Writ Opens a Route",
+              "body_md": "The royal writ was a formal instrument used to begin or direct specified legal proceedings in medieval English administration. Its wording and recognized form could matter immensely: litigants did not necessarily possess a general right to present any grievance in any way they wished. An available writ connected a claim with a recognized procedure and potential remedy. The historian should ask which court, cause and remedy the particular writ addressed instead of calling every medieval writ simply a modern lawsuit form.",
+              "audio_script": "The royal writ was a formal instrument used to begin or direct specified legal proceedings in medieval English administration. Its wording and recognized form could matter immensely: litigants did not necessarily possess a general right to present any grievance in any way they wished. An available writ connected a claim with a recognized procedure and potential remedy. The historian should ask which court, cause and remedy the particular writ addressed instead of calling every medieval writ simply a modern lawsuit form.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Form Affects the Right",
+              "body_md": "Over time, common-law forms of action helped shape doctrines of trespass, debt and other claims. A person's injury might be legally recognizable in an everyday sense while difficult to present under an available form. Innovations such as action on the case expanded possibilities, but not overnight. Procedure and substance developed together. A legal system can therefore change real rights by changing which cases its institutions permit. This insight makes historical pleading far more than an exercise in obsolete terminology.",
+              "audio_script": "Over time, common-law forms of action helped shape doctrines of trespass, debt and other claims. A person's injury might be legally recognizable in an everyday sense while difficult to present under an available form. Innovations such as action on the case expanded possibilities, but not overnight. Procedure and substance developed together. A legal system can therefore change real rights by changing which cases its institutions permit. This insight makes historical pleading far more than an exercise in obsolete terminology.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Royal Law Was Not Every Law",
+              "body_md": "Royal courts grew in importance while local, ecclesiastical and other tribunals continued to operate in defined areas. A litigant's route depended on geography, subject and status. Written court records can make the royal system appear more complete than it was in daily life. A careful comparison accounts for who could access each forum, the cost of a procedure and the enforceability of any result. The institutional growth of the common law was a process, not an instant replacement of all other authority.",
+              "audio_script": "Royal courts grew in importance while local, ecclesiastical and other tribunals continued to operate in defined areas. A litigant's route depended on geography, subject and status. Written court records can make the royal system appear more complete than it was in daily life. A careful comparison accounts for who could access each forum, the cost of a procedure and the enforceability of any result. The institutional growth of the common law was a process, not an instant replacement of all other authority.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Form of action means historical procedural category defining an actionable claim.",
+              "answer": true,
+              "explanation_if_true": "Form of action means historical procedural category defining an actionable claim.",
+              "explanation_if_false": "Form of action means historical procedural category defining an actionable claim."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Every medieval English dispute could be filed as a general lawsuit without an authorized procedural form.",
+              "answer": false,
+              "explanation_if_true": "Historical access to royal justice often depended on recognized writs and forms of action.",
+              "explanation_if_false": "Historical access to royal justice often depended on recognized writs and forms of action."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Royal writ denote?",
+              "choices": [
+                "Historical procedural category defining an actionable claim",
+                "Common-law form expanded to varied kinds of injuries",
+                "Formal statement of legal claims and responses",
+                "Formal order initiating or directing recognized legal proceedings"
+              ],
+              "answer_index": 3,
+              "explanation": "Royal writ denotes formal order initiating or directing recognized legal proceedings."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant suffers loss but cannot identify a writ that reaches the facts. What problem does that create?",
+              "choices": [
+                "A lack of Roman citizenship",
+                "The existence of an international treaty",
+                "A gap between grievance and authorized remedy",
+                "Automatic victory for the claimant"
+              ],
+              "answer_index": 2,
+              "explanation": "The procedural form could shape whether a medieval royal court could entertain a claim."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means common-law form expanded to varied kinds of injuries?",
+              "choices": [
+                "Royal writ",
+                "Pleading",
+                "Form of action",
+                "Action on the case"
+              ],
+              "answer_index": 3,
+              "explanation": "Action on the case means common-law form expanded to varied kinds of injuries."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the procedures to their meanings.",
+              "pairs": [
+                [
+                  "Royal writ",
+                  "Formal order initiating or directing recognized legal proceedings"
+                ],
+                [
+                  "Form of action",
+                  "Historical procedural category defining an actionable claim"
+                ],
+                [
+                  "Action on the case",
+                  "Common-law form expanded to varied kinds of injuries"
+                ],
+                [
+                  "Pleading",
+                  "Formal statement of legal claims and responses"
+                ]
+              ],
+              "explanation": "Legal process varies by institution and historical period."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for formal order initiating or directing recognized legal proceedings is ___.",
+              "answer": "Royal writ",
+              "accept": [
+                "Royal writ"
+              ],
+              "explanation": "It is called Royal writ."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for formal statement of legal claims and responses is ___.",
+              "answer": "Pleading",
+              "accept": [
+                "Pleading"
+              ],
+              "explanation": "It is called Pleading."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Codified procedure and the legitimacy of decision-making",
+          "summary": "Evaluate why modern states codified civil and criminal process, including French reforms after 1804. Critique procedural complexity that promises uniformity yet remains inaccessible to people without resources.",
+          "checklist": [
+            "I can identify nineteenth-century codification of procedural law",
+            "I can analyze whether uniform procedure improves actual access",
+            "I can design a fair process with transparent reasons and correction mechanisms"
+          ],
+          "sections": [
+            {
+              "title": "Codes Extend Beyond Substantive Rules",
+              "body_md": "France's Civil Code was promulgated in 1804, but separate codes later organized civil procedure, commerce and criminal investigation. The 1806 Code of Civil Procedure and the 1808 Code of Criminal Instruction demonstrate that defining rights does not itself establish a system for presenting, proving and deciding them. A legal historian must distinguish those enactments and the institutions that administered them. Codification aimed at greater organization and uniformity, yet practice still depended on interpretation, legal skill and public resources.",
+              "audio_script": "France's Civil Code was promulgated in 1804, but separate codes later organized civil procedure, commerce and criminal investigation. The 1806 Code of Civil Procedure and the 1808 Code of Criminal Instruction demonstrate that defining rights does not itself establish a system for presenting, proving and deciding them. A legal historian must distinguish those enactments and the institutions that administered them. Codification aimed at greater organization and uniformity, yet practice still depended on interpretation, legal skill and public resources.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Formal Equality Can Hide Exclusion",
+              "body_md": "A detailed procedural code may promise the same steps to everyone while remaining unusable for a person who cannot afford counsel, translate documents or appear at distant hearings. That observation applies to many legal orders, not only codified ones. Compare paper entitlements with practical opportunity: can the person learn the case against them, challenge evidence, receive reasons and seek review? A doctoral analysis should also address delay and institutional capacity. Unlimited procedural stages can obstruct justice just as arbitrary shortcuts can.",
+              "audio_script": "A detailed procedural code may promise the same steps to everyone while remaining unusable for a person who cannot afford counsel, translate documents or appear at distant hearings. That observation applies to many legal orders, not only codified ones. Compare paper entitlements with practical opportunity: can the person learn the case against them, challenge evidence, receive reasons and seek review? A doctoral analysis should also address delay and institutional capacity. Unlimited procedural stages can obstruct justice just as arbitrary shortcuts can.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design a Process That Earns Trust",
+              "body_md": "Suppose an agency denies essential benefits using a complex automated calculation. A sound procedure should consider timely notice, meaningful reasons, a route to correct factual errors, impartial review and realistic assistance where the law authorizes them. A legal historian compares this problem with earlier moves from unwritten practice to prescribed forms. The aim is not endless paperwork; it is a procedure that allocates authority transparently while protecting the affected person's dignity. The best design can explain why each safeguard is necessary.",
+              "audio_script": "Suppose an agency denies essential benefits using a complex automated calculation. A sound procedure should consider timely notice, meaningful reasons, a route to correct factual errors, impartial review and realistic assistance where the law authorizes them. A legal historian compares this problem with earlier moves from unwritten practice to prescribed forms. The aim is not endless paperwork; it is a procedure that allocates authority transparently while protecting the affected person's dignity. The best design can explain why each safeguard is necessary.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Code of Criminal Instruction means historical french enactment structuring criminal process.",
+              "answer": true,
+              "explanation_if_true": "Code of Criminal Instruction means historical french enactment structuring criminal process.",
+              "explanation_if_false": "Code of Criminal Instruction means historical french enactment structuring criminal process."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "France's 1804 Civil Code contained all later civil and criminal procedural codes within itself.",
+              "answer": false,
+              "explanation_if_true": "Distinct French codifications followed, including procedural enactments in 1806 and 1808.",
+              "explanation_if_false": "Distinct French codifications followed, including procedural enactments in 1806 and 1808."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Code of Civil Procedure denote?",
+              "choices": [
+                "Practical ability to use the legal process",
+                "Authorized reconsideration based on stated grounds",
+                "Enactment organizing civil litigation steps",
+                "Historical French enactment structuring criminal process"
+              ],
+              "answer_index": 2,
+              "explanation": "Code of Civil Procedure denotes enactment organizing civil litigation steps."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An individual has a formal right to appeal but cannot understand the agency's decision. Which problem is central?",
+              "choices": [
+                "The date of an unrelated Roman battle",
+                "Lack of meaningful reasons and accessible review",
+                "Only the length of the substantive code",
+                "Whether medieval courts used wax seals"
+              ],
+              "answer_index": 1,
+              "explanation": "A usable challenge requires enough explanation to identify and contest potential errors."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means practical ability to use the legal process?",
+              "choices": [
+                "Reasoned review",
+                "Code of Criminal Instruction",
+                "Procedural accessibility",
+                "Code of Civil Procedure"
+              ],
+              "answer_index": 2,
+              "explanation": "Procedural accessibility means practical ability to use the legal process."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the procedures to their meanings.",
+              "pairs": [
+                [
+                  "Code of Civil Procedure",
+                  "Enactment organizing civil litigation steps"
+                ],
+                [
+                  "Code of Criminal Instruction",
+                  "Historical French enactment structuring criminal process"
+                ],
+                [
+                  "Procedural accessibility",
+                  "Practical ability to use the legal process"
+                ],
+                [
+                  "Reasoned review",
+                  "Authorized reconsideration based on stated grounds"
+                ]
+              ],
+              "explanation": "Legal process varies by institution and historical period."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for enactment organizing civil litigation steps is ___.",
+              "answer": "Code of Civil Procedure",
+              "accept": [
+                "Code of Civil Procedure"
+              ],
+              "explanation": "It is called Code of Civil Procedure."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.procedural-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for authorized reconsideration based on stated grounds is ___.",
+              "answer": "Reasoned review",
+              "accept": [
+                "Reasoned review"
+              ],
+              "explanation": "It is called Reasoned review."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
