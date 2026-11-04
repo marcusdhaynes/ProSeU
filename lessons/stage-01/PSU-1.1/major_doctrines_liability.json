@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "liability-doctrines",
+      "name": "Liability Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Separate legal responsibility from moral blame.",
+          "summary": "Learn how law assigns responsibility for conduct without assuming every harm proves wrongdoing. Identify the basic questions about duty, conduct, connection and consequence.",
+          "checklist": [
+            "I can separate harm from liability",
+            "I can identify a duty, a breach, and a causal connection",
+            "I can distinguish civil and criminal responsibility"
+          ],
+          "sections": [
+            {
+              "title": "Harm Is Not Yet Liability",
+              "body_md": "Someone slips on a wet pavement and breaks an arm. The injury is real, but it does not by itself prove that a shop owner owes compensation. Law asks whether an applicable rule imposed a duty, whether anyone breached it, and whether that breach sufficiently connects to the injury. These questions are distinct. A legal system may recognize duties without any resulting loss, and losses without anyone's legal responsibility. The doctrine of liability explains when the law moves from a harmful event to an obligation or penalty.",
+              "example": null,
+              "audio_script": "Someone slips on a wet pavement and breaks an arm. The injury is real, but it does not by itself prove that a shop owner owes compensation. Law asks whether an applicable rule imposed a duty, whether anyone breached it, and whether that breach sufficiently connects to the injury. These questions are distinct. A legal system may recognize duties without any resulting loss, and losses without anyone's legal responsibility. The doctrine of liability explains when the law moves from a harmful event to an obligation or penalty.",
+              "video": null
+            },
+            {
+              "title": "Different Kinds of Responsibility",
+              "body_md": "Civil liability commonly concerns a remedy between persons, such as compensation or an order to stop an act. Criminal liability concerns a public accusation that an offense occurred and may result in punishment. Both require a legal basis, but they differ in purposes, procedures, and standards of proof. A single event may give rise to both proceedings or neither. Calling behavior immoral is not a substitute for identifying the applicable legal rule. The law can condemn conduct without making every moral wrong actionable.",
+              "example": null,
+              "audio_script": "Civil liability commonly concerns a remedy between persons, such as compensation or an order to stop an act. Criminal liability concerns a public accusation that an offense occurred and may result in punishment. Both require a legal basis, but they differ in purposes, procedures, and standards of proof. A single event may give rise to both proceedings or neither. Calling behavior immoral is not a substitute for identifying the applicable legal rule. The law can condemn conduct without making every moral wrong actionable.",
+              "video": null
+            },
+            {
+              "title": "The First Liability Map",
+              "body_md": "For a first analysis, identify the legally protected interest, the actor's duty, what happened, and the alleged result. Ask what level of fault the rule requires, if any, and whether a valid defense applies. Do not assume that every system uses a single negligence test. Contracts, torts, crimes, administrative penalties, and constitutional claims have different elements. This compact map organizes investigation before a lawyer can conclude that a person is legally responsible. It also reveals facts still missing from the story.",
+              "example": null,
+              "audio_script": "For a first analysis, identify the legally protected interest, the actor's duty, what happened, and the alleged result. Ask what level of fault the rule requires, if any, and whether a valid defense applies. Do not assume that every system uses a single negligence test. Contracts, torts, crimes, administrative penalties, and constitutional claims have different elements. This compact map organizes investigation before a lawyer can conclude that a person is legally responsible. It also reveals facts still missing from the story.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Breach means failure to satisfy an applicable duty.",
+              "answer": true,
+              "explanation_if_true": "Breach concerns failure to satisfy an applicable duty.",
+              "explanation_if_false": "Breach concerns failure to satisfy an applicable duty."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Whenever an injury occurs, the nearest person is legally liable.",
+              "answer": false,
+              "explanation_if_true": "Injury alone does not show an applicable duty, breach, or required connection.",
+              "explanation_if_false": "Injury alone does not show an applicable duty, breach, or required connection."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Duty?",
+              "choices": [
+                "Responsibility imposed under an applicable legal rule",
+                "A legal requirement to act or refrain",
+                "Failure to satisfy an applicable duty",
+                "A legally sufficient connection to a result"
+              ],
+              "answer_index": 1,
+              "explanation": "Duty means a legal requirement to act or refrain."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A passerby is hurt, but no duty of the defendant has been established. What question comes first?",
+              "choices": [
+                "Whether an applicable duty existed",
+                "The amount of punishment",
+                "Which appeal court to use",
+                "The winner's legal fees"
+              ],
+              "answer_index": 0,
+              "explanation": "Liability cannot be inferred from harm alone; first identify the rule imposing responsibility."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: A legally sufficient connection to a result?",
+              "choices": [
+                "Causation",
+                "Duty",
+                "Liability",
+                "Breach"
+              ],
+              "answer_index": 0,
+              "explanation": "Causation is a legally sufficient connection to a result."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Duty",
+                  "A legal requirement to act or refrain"
+                ],
+                [
+                  "Breach",
+                  "Failure to satisfy an applicable duty"
+                ],
+                [
+                  "Causation",
+                  "A legally sufficient connection to a result"
+                ],
+                [
+                  "Liability",
+                  "Responsibility imposed under an applicable legal rule"
+                ]
+              ],
+              "explanation": "These distinctions support this lesson's reasoning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "A legal requirement to act or refrain is called ___.",
+              "answer": "Duty",
+              "accept": [
+                "Duty"
+              ],
+              "explanation": "The term is Duty."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Responsibility imposed under an applicable legal rule is called ___.",
+              "answer": "Liability",
+              "accept": [
+                "Liability"
+              ],
+              "explanation": "The term is Liability."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare fault-based, strict and attributed liability.",
+          "summary": "Extend the basic liability map to different grounds for responsibility. Study when the law demands intent or carelessness and when it assigns liability because of activity, status or another person's conduct.",
+          "checklist": [
+            "I can distinguish fault and strict liability",
+            "I can explain vicarious responsibility without confusing it with personal blame",
+            "I can identify a legal system's chosen liability threshold"
+          ],
+          "sections": [
+            {
+              "title": "Fault Is One Choice, Not the Whole Law",
+              "body_md": "A fault-based rule ties liability to a mental state or failure to take required care. Negligence usually asks whether conduct fell below a legally defined standard of care; intentional wrongs use a different inquiry. Strict liability can impose responsibility without proof of fault in specified circumstances, while still requiring all other elements of that rule. Calling liability strict does not mean that a claimant automatically wins. The rule's scope, causal requirements, defenses and statutory limits still matter.",
+              "example": null,
+              "audio_script": "A fault-based rule ties liability to a mental state or failure to take required care. Negligence usually asks whether conduct fell below a legally defined standard of care; intentional wrongs use a different inquiry. Strict liability can impose responsibility without proof of fault in specified circumstances, while still requiring all other elements of that rule. Calling liability strict does not mean that a claimant automatically wins. The rule's scope, causal requirements, defenses and statutory limits still matter.",
+              "video": null
+            },
+            {
+              "title": "Responsibility for Another's Conduct",
+              "body_md": "Vicarious liability may make an employer responsible for certain wrongs committed by an employee within the relevant relationship and scope of activity. The doctrine is not a declaration that the employer personally intended the harm. Its exact tests vary across systems and over time. Other forms of attributed responsibility include responsibility for agents or legal entities. A sound analysis separates the actor who caused the event from the person or institution to whom the rule assigns legal consequences.",
+              "example": null,
+              "audio_script": "Vicarious liability may make an employer responsible for certain wrongs committed by an employee within the relevant relationship and scope of activity. The doctrine is not a declaration that the employer personally intended the harm. Its exact tests vary across systems and over time. Other forms of attributed responsibility include responsibility for agents or legal entities. A sound analysis separates the actor who caused the event from the person or institution to whom the rule assigns legal consequences.",
+              "video": null
+            },
+            {
+              "title": "Why Choose a Liability Rule?",
+              "body_md": "Fault standards may encourage reasonable care and avoid making every unfortunate event compensable. Strict rules may simplify proof, allocate the cost of dangerous activities, or place risk on parties better able to prevent or insure against it. Vicarious rules may put enterprise costs on the enterprise benefiting from the activity. Each explanation invites a counterquestion about overdeterrence, fairness and access to compensation. The legal test must come from binding law; the policy helps explain why that test exists.",
+              "example": null,
+              "audio_script": "Fault standards may encourage reasonable care and avoid making every unfortunate event compensable. Strict rules may simplify proof, allocate the cost of dangerous activities, or place risk on parties better able to prevent or insure against it. Vicarious rules may put enterprise costs on the enterprise benefiting from the activity. Each explanation invites a counterquestion about overdeterrence, fairness and access to compensation. The legal test must come from binding law; the policy helps explain why that test exists.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Strict liability means responsibility without a requirement to prove fault.",
+              "answer": true,
+              "explanation_if_true": "Strict liability concerns responsibility without a requirement to prove fault.",
+              "explanation_if_false": "Strict liability concerns responsibility without a requirement to prove fault."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Strict liability always eliminates the need to establish causation.",
+              "answer": false,
+              "explanation_if_true": "Strict liability removes a fault requirement in some rules, not every other element.",
+              "explanation_if_false": "Strict liability removes a fault requirement in some rules, not every other element."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Fault liability?",
+              "choices": [
+                "Responsibility requiring a specified fault element",
+                "Responsibility without a requirement to prove fault",
+                "Responsibility assigned for another's qualifying act",
+                "Failure to meet a legally required standard of care"
+              ],
+              "answer_index": 0,
+              "explanation": "Fault liability means responsibility requiring a specified fault element."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An employee injures someone during assigned work and the employer is sued despite no personal wrongdoing. Which doctrine may apply?",
+              "choices": [
+                "Res judicata",
+                "Exclusive jurisdiction",
+                "Constitutional supremacy",
+                "Vicarious liability"
+              ],
+              "answer_index": 3,
+              "explanation": "Attribution to an employer depends on the applicable relationship and scope test, not assumed personal intent."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Responsibility assigned for another's qualifying act?",
+              "choices": [
+                "Fault liability",
+                "Negligence",
+                "Strict liability",
+                "Vicarious liability"
+              ],
+              "answer_index": 3,
+              "explanation": "Vicarious liability is responsibility assigned for another's qualifying act."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Fault liability",
+                  "Responsibility requiring a specified fault element"
+                ],
+                [
+                  "Strict liability",
+                  "Responsibility without a requirement to prove fault"
+                ],
+                [
+                  "Vicarious liability",
+                  "Responsibility assigned for another's qualifying act"
+                ],
+                [
+                  "Negligence",
+                  "Failure to meet a legally required standard of care"
+                ]
+              ],
+              "explanation": "These distinctions support this lesson's reasoning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Responsibility requiring a specified fault element is called ___.",
+              "answer": "Fault liability",
+              "accept": [
+                "Fault liability"
+              ],
+              "explanation": "The term is Fault liability."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Failure to meet a legally required standard of care is called ___.",
+              "answer": "Negligence",
+              "accept": [
+                "Negligence"
+              ],
+              "explanation": "The term is Negligence."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze attribution, risk and competing causal theories.",
+          "summary": "Master how different liability systems attribute conduct and losses to individuals or organizations. Distinguish factual causal contribution from the normative question of which consequences a rule should assign.",
+          "checklist": [
+            "I can separate factual causation from legal scope of liability",
+            "I can compare responsibility for risk and responsibility for wrongdoing",
+            "I can evaluate uncertainty in institutional and collective harms"
+          ],
+          "sections": [
+            {
+              "title": "Causal Connection Has Two Layers",
+              "body_md": "Even if an event would not have occurred without a person's conduct, law may refuse to assign every downstream consequence to that person. Factual causation investigates the historical connection; legal scope asks whether this kind of loss is appropriately attributed under the governing rule. Different systems use foreseeability, remoteness, protected interests, adequate causation, or explicit statutory limits. None can be applied responsibly without knowing the claim. A lawyer should disclose where a supposedly factual conclusion actually depends on a normative judgment.",
+              "example": null,
+              "audio_script": "Even if an event would not have occurred without a person's conduct, law may refuse to assign every downstream consequence to that person. Factual causation investigates the historical connection; legal scope asks whether this kind of loss is appropriately attributed under the governing rule. Different systems use foreseeability, remoteness, protected interests, adequate causation, or explicit statutory limits. None can be applied responsibly without knowing the claim. A lawyer should disclose where a supposedly factual conclusion actually depends on a normative judgment.",
+              "video": null
+            },
+            {
+              "title": "Attributing Group Conduct",
+              "body_md": "Organizations act through people, yet legal responsibility can attach to an entity, its officers, particular employees, or several actors jointly. Rules about agency, authorization, corporate fault and complicity answer different questions. Collective harm complicates proof: several polluters may contribute to one illness, or several decision makers to one harmful policy. A court may face probabilistic evidence and an uncertain causal chain. It cannot solve that uncertainty merely by announcing that the outcome was serious. The allocation rule and evidentiary rule must both be identified.",
+              "example": null,
+              "audio_script": "Organizations act through people, yet legal responsibility can attach to an entity, its officers, particular employees, or several actors jointly. Rules about agency, authorization, corporate fault and complicity answer different questions. Collective harm complicates proof: several polluters may contribute to one illness, or several decision makers to one harmful policy. A court may face probabilistic evidence and an uncertain causal chain. It cannot solve that uncertainty merely by announcing that the outcome was serious. The allocation rule and evidentiary rule must both be identified.",
+              "video": null
+            },
+            {
+              "title": "Risk, Incentives and Fairness",
+              "body_md": "Enterprise liability may shift accident costs to institutions that can spread risk, while fault rules may express blame and respect individual autonomy. These goals do not always align. Imagine a hospital adopting a reasonable system that nevertheless produces an unforeseeable injury. Compensation, deterrence and desert may support different outcomes. Advanced analysis states which goal a doctrine serves and which costs it imposes. It then distinguishes a criticism of the rule from an argument about how existing law must be applied.",
+              "example": null,
+              "audio_script": "Enterprise liability may shift accident costs to institutions that can spread risk, while fault rules may express blame and respect individual autonomy. These goals do not always align. Imagine a hospital adopting a reasonable system that nevertheless produces an unforeseeable injury. Compensation, deterrence and desert may support different outcomes. Advanced analysis states which goal a doctrine serves and which costs it imposes. It then distinguishes a criticism of the rule from an argument about how existing law must be applied.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Scope of liability means normative boundary of attributable consequences.",
+              "answer": true,
+              "explanation_if_true": "Scope of liability concerns normative boundary of attributable consequences.",
+              "explanation_if_false": "Scope of liability concerns normative boundary of attributable consequences."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Proving factual causation always decides the full legal scope of liability.",
+              "answer": false,
+              "explanation_if_true": "Legal systems may limit which causally connected consequences are attributable.",
+              "explanation_if_false": "Legal systems may limit which causally connected consequences are attributable."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Factual causation?",
+              "choices": [
+                "Normative boundary of attributable consequences",
+                "Hazards generated by an organized activity",
+                "Loss to which several actors may contribute",
+                "Historical contribution of conduct to an outcome"
+              ],
+              "answer_index": 3,
+              "explanation": "Factual causation means historical contribution of conduct to an outcome."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Several firms contributed to an injury, but each firm's causal role is uncertain. What is the advanced doctrinal problem?",
+              "choices": [
+                "Textual interpretation only",
+                "Whether witnesses swear an oath",
+                "Attribution under causal uncertainty",
+                "Venue selection"
+              ],
+              "answer_index": 2,
+              "explanation": "A fair conclusion requires the applicable substantive allocation rule and the evidentiary burden."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Hazards generated by an organized activity?",
+              "choices": [
+                "Collective harm",
+                "Scope of liability",
+                "Enterprise risk",
+                "Factual causation"
+              ],
+              "answer_index": 2,
+              "explanation": "Enterprise risk is hazards generated by an organized activity."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Factual causation",
+                  "Historical contribution of conduct to an outcome"
+                ],
+                [
+                  "Scope of liability",
+                  "Normative boundary of attributable consequences"
+                ],
+                [
+                  "Enterprise risk",
+                  "Hazards generated by an organized activity"
+                ],
+                [
+                  "Collective harm",
+                  "Loss to which several actors may contribute"
+                ]
+              ],
+              "explanation": "These distinctions support this lesson's reasoning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Historical contribution of conduct to an outcome is called ___.",
+              "answer": "Factual causation",
+              "accept": [
+                "Factual causation"
+              ],
+              "explanation": "The term is Factual causation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Loss to which several actors may contribute is called ___.",
+              "answer": "Collective harm",
+              "accept": [
+                "Collective harm"
+              ],
+              "explanation": "The term is Collective harm."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend a theory of responsibility under institutional constraints.",
+          "summary": "At doctoral depth, connect liability doctrine to corrective justice, distributive justice and legal institutions. Test whether a rule explains who should answer for harm, rather than merely who can afford to pay.",
+          "checklist": [
+            "I can compare corrective and distributive theories without collapsing them",
+            "I can identify gaps between normative responsibility and administrable proof",
+            "I can defend liability reform under uncertainty"
+          ],
+          "sections": [
+            {
+              "title": "Two Rival Accounts of a Wrong",
+              "body_md": "Corrective justice asks what one wrongdoer owes to the person wronged, often emphasizing the relationship between breach and repair. Distributive justice asks how a society should allocate risks, resources and losses, perhaps through insurance or public compensation. A liability rule can partly serve both, but they answer different questions. If a person cannot prove which polluter injured them, a public compensation scheme may help without identifying a particular wrongdoer. Calling the scheme compensation does not settle its underlying justice theory.",
+              "example": null,
+              "audio_script": "Corrective justice asks what one wrongdoer owes to the person wronged, often emphasizing the relationship between breach and repair. Distributive justice asks how a society should allocate risks, resources and losses, perhaps through insurance or public compensation. A liability rule can partly serve both, but they answer different questions. If a person cannot prove which polluter injured them, a public compensation scheme may help without identifying a particular wrongdoer. Calling the scheme compensation does not settle its underlying justice theory.",
+              "video": null
+            },
+            {
+              "title": "Rules Must Be Administered",
+              "body_md": "A morally attractive rule may fail when evidence is scarce, courts are expensive, or defendants cannot satisfy judgments. Conversely, an easy strict rule may overreach and deter beneficial activity. Evidentiary presumptions, collective proceedings, insurance mandates and administrative funds can change the system's practical effects. A doctoral proposal must ask who bears proof costs, who is absent from the courtroom, how error is distributed, and whether institutions can administer the remedy without creating a second injustice. Ideal theory does not replace implementation.",
+              "example": null,
+              "audio_script": "A morally attractive rule may fail when evidence is scarce, courts are expensive, or defendants cannot satisfy judgments. Conversely, an easy strict rule may overreach and deter beneficial activity. Evidentiary presumptions, collective proceedings, insurance mandates and administrative funds can change the system's practical effects. A doctoral proposal must ask who bears proof costs, who is absent from the courtroom, how error is distributed, and whether institutions can administer the remedy without creating a second injustice. Ideal theory does not replace implementation.",
+              "video": null
+            },
+            {
+              "title": "Responsibility Without a Scapegoat",
+              "body_md": "Suppose an algorithmic service spreads risk across designers, deployers, users and regulators. Naming the most visible person as liable may be easy but normatively weak. Analyze control over risk, ability to foresee or prevent harm, relevant duties, victim protection and the effects of competing allocations. Separate existing law from reform. Good legal reasoning can explain why a client is not presently liable while still identifying a genuine gap in protection. That intellectual honesty is central to excellent representation.",
+              "example": null,
+              "audio_script": "Suppose an algorithmic service spreads risk across designers, deployers, users and regulators. Naming the most visible person as liable may be easy but normatively weak. Analyze control over risk, ability to foresee or prevent harm, relevant duties, victim protection and the effects of competing allocations. Separate existing law from reform. Good legal reasoning can explain why a client is not presently liable while still identifying a genuine gap in protection. That intellectual honesty is central to excellent representation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Distributive justice means fair allocation of benefits, burdens and risk.",
+              "answer": true,
+              "explanation_if_true": "Distributive justice concerns fair allocation of benefits, burdens and risk.",
+              "explanation_if_false": "Distributive justice concerns fair allocation of benefits, burdens and risk."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "Making victims whole and assigning individual blame are always the same objective.",
+              "answer": false,
+              "explanation_if_true": "Compensation can be delivered without proving a particular person's culpability.",
+              "explanation_if_false": "Compensation can be delivered without proving a particular person's culpability."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Corrective justice?",
+              "choices": [
+                "Whether institutions can apply a rule reliably",
+                "Harms caused by mistaken legal determinations",
+                "Repair of a wrong between particular parties",
+                "Fair allocation of benefits, burdens and risk"
+              ],
+              "answer_index": 2,
+              "explanation": "Corrective justice means repair of a wrong between particular parties."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A compensation fund assists victims where no individual polluter can be identified. Which justice theory most directly explains the allocation?",
+              "choices": [
+                "The doctrine of precedent",
+                "Distributive justice",
+                "Only criminal desert",
+                "Personal jurisdiction"
+              ],
+              "answer_index": 1,
+              "explanation": "The public scheme spreads losses even when a bilateral wrongdoer-victim relation cannot be established."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Whether institutions can apply a rule reliably?",
+              "choices": [
+                "Distributive justice",
+                "Administrability",
+                "Corrective justice",
+                "Error costs"
+              ],
+              "answer_index": 1,
+              "explanation": "Administrability is whether institutions can apply a rule reliably."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Corrective justice",
+                  "Repair of a wrong between particular parties"
+                ],
+                [
+                  "Distributive justice",
+                  "Fair allocation of benefits, burdens and risk"
+                ],
+                [
+                  "Administrability",
+                  "Whether institutions can apply a rule reliably"
+                ],
+                [
+                  "Error costs",
+                  "Harms caused by mistaken legal determinations"
+                ]
+              ],
+              "explanation": "These distinctions support this lesson's reasoning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Repair of a wrong between particular parties is called ___.",
+              "answer": "Corrective justice",
+              "accept": [
+                "Corrective justice"
+              ],
+              "explanation": "The term is Corrective justice."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.liability-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Harms caused by mistaken legal determinations is called ___.",
+              "answer": "Error costs",
+              "accept": [
+                "Error costs"
+              ],
+              "explanation": "The term is Error costs."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
