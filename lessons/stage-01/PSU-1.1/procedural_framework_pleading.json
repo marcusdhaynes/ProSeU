@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "pleading",
+      "name": "Pleading",
+      "levels": {
+        "red": {
+          "focus": "Convert a person's grievance into a legal claim.",
+          "summary": "A client’s story may reveal genuine suffering without yet identifying a legal cause of action. Learn how pleadings state who acted, what happened, and which rule is invoked.",
+          "checklist": [
+            "I can distinguish allegations from legal conclusions",
+            "I can identify the parties, facts, and claim",
+            "I can explain why opposing parties need fair notice"
+          ],
+          "sections": [
+            {
+              "title": "From harm to a claim",
+              "body_md": "A woman says her license was taken unfairly. A pleading needs more than that conclusion. Who withdrew it, on what date, under which legal power, and what process was provided? An allegation identifies a fact the party asserts, while a cause of action connects the facts to a recognized legal rule. The pleading organizes the issue a court can decide. A client should be able to read the account and recognize their own experience, not a distorted performance written only for lawyers.",
+              "audio_script": "A woman says her license was taken unfairly. A pleading needs more than that conclusion. Who withdrew it, on what date, under which legal power, and what process was provided? An allegation identifies a fact the party asserts, while a cause of action connects the facts to a recognized legal rule. The pleading organizes the issue a court can decide. A client should be able to read the account and recognize their own experience, not a distorted performance written only for lawyers.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Describe facts before labels",
+              "body_md": "Calling an official corrupt or unlawful is not a substitute for identifying conduct. A statement that a board cancelled a license without giving notice states a concrete event that might satisfy a legal requirement. Whether it does depends on the governing law. Procedural rules differ in how much specificity they demand, but the purpose of fair notice remains important. The other side must be able to understand the accusation and respond. Unsupported dramatic allegations can damage both the claim and the client.",
+              "audio_script": "Calling an official corrupt or unlawful is not a substitute for identifying conduct. A statement that a board cancelled a license without giving notice states a concrete event that might satisfy a legal requirement. Whether it does depends on the governing law. Procedural rules differ in how much specificity they demand, but the purpose of fair notice remains important. The other side must be able to understand the accusation and respond. Unsupported dramatic allegations can damage both the claim and the client.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Make room for the response",
+              "body_md": "A defendant may admit a date, deny the alleged action, or rely on a recognized defense. A response that accepts an act does not necessarily admit liability, because the law may permit the conduct. A good pleading separates disputed facts from legal issues and avoids unnecessary accusations. The question for students is practical: if you were the opposing party, would you understand what must be answered? Clarity is not merely a writing preference; it supports a fair opportunity to be heard.",
+              "audio_script": "A defendant may admit a date, deny the alleged action, or rely on a recognized defense. A response that accepts an act does not necessarily admit liability, because the law may permit the conduct. A good pleading separates disputed facts from legal issues and avoids unnecessary accusations. The question for students is practical: if you were the opposing party, would you understand what must be answered? Clarity is not merely a writing preference; it supports a fair opportunity to be heard.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q1",
+              "type": "true_false",
+              "prompt": "Allegation refers to assertion of a fact to be established.",
+              "answer": true,
+              "explanation_if_true": "Allegation means assertion of a fact to be established.",
+              "explanation_if_false": "Allegation means assertion of a fact to be established."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q2",
+              "type": "true_false",
+              "prompt": "Calling conduct unlawful without alleging any relevant facts is always sufficient to establish a cause of action.",
+              "answer": false,
+              "explanation_if_true": "A legal conclusion needs a factual foundation under the governing pleading rules.",
+              "explanation_if_false": "A legal conclusion needs a factual foundation under the governing pleading rules."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Pleading?",
+              "choices": [
+                "Legal response challenging a claim or its consequence",
+                "Formal statement of a legal claim or response",
+                "Assertion of a fact to be established",
+                "Legally recognized basis for obtaining relief"
+              ],
+              "answer_index": 1,
+              "explanation": "Pleading means formal statement of a legal claim or response."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A filing says only 'the agency was unjust' without identifying an act. What is primarily missing?",
+              "choices": [
+                "Specific facts tied to a legal claim",
+                "An appeal after judgment",
+                "A list of unrelated cases",
+                "An estimate of court building costs"
+              ],
+              "answer_index": 0,
+              "explanation": "The claim must identify conduct and a basis for legal relief."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legally recognized basis for obtaining relief?",
+              "choices": [
+                "Cause of action",
+                "Pleading",
+                "Defense",
+                "Allegation"
+              ],
+              "answer_index": 0,
+              "explanation": "Cause of action means legally recognized basis for obtaining relief."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q6",
+              "type": "matching",
+              "prompt": "Match each pleading concept with its meaning.",
+              "pairs": [
+                [
+                  "Pleading",
+                  "Formal statement of a legal claim or response"
+                ],
+                [
+                  "Allegation",
+                  "Assertion of a fact to be established"
+                ],
+                [
+                  "Cause of action",
+                  "Legally recognized basis for obtaining relief"
+                ],
+                [
+                  "Defense",
+                  "Legal response challenging a claim or its consequence"
+                ]
+              ],
+              "explanation": "Procedural vocabulary separates different legal tasks."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for formal statement of a legal claim or response is ___.",
+              "answer": "Pleading",
+              "accept": [
+                "Pleading"
+              ],
+              "explanation": "The term is Pleading."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal response challenging a claim or its consequence is ___.",
+              "answer": "Defense",
+              "accept": [
+                "Defense"
+              ],
+              "explanation": "The term is Defense."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply pleading standards and amendment rules.",
+          "summary": "Different systems balance informative allegations against barriers to filing. Learn to distinguish notice, particularity, amendments, and the preservation of claims.",
+          "checklist": [
+            "I can explain the purpose of pleading specificity",
+            "I can recognize when amendment may matter",
+            "I can distinguish a pleading defect from a merits decision"
+          ],
+          "sections": [
+            {
+              "title": "Pleading thresholds differ",
+              "body_md": "Some jurisdictions permit relatively concise notice pleading; others require greater factual particularity, and selected claims may face special standards. A pleading rule protects defendants against unclear accusations while allowing claimants a lawful path to the evidence. Too little detail may conceal what is disputed; excessive requirements may bar legitimate claims where the evidence is held by the opposing party. Identify the forum and governing procedural rule before judging sufficiency. A familiar textbook formula is not universally binding.",
+              "audio_script": "Some jurisdictions permit relatively concise notice pleading; others require greater factual particularity, and selected claims may face special standards. A pleading rule protects defendants against unclear accusations while allowing claimants a lawful path to the evidence. Too little detail may conceal what is disputed; excessive requirements may bar legitimate claims where the evidence is held by the opposing party. Identify the forum and governing procedural rule before judging sufficiency. A familiar textbook formula is not universally binding.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "An amendment can change the dispute",
+              "body_md": "A client may discover a new document after filing. An amended pleading can add or revise facts or claims when law allows it, but timing, prejudice, and limitation periods can constrain changes. Never assume that filing an initial complaint preserves every conceivable later claim. A lawyer must compare the proposed amendment with the original filing and the jurisdiction's procedural standards. The ethical aim is an accurate record, not a constantly shifting accusation that opponents cannot fairly answer.",
+              "audio_script": "A client may discover a new document after filing. An amended pleading can add or revise facts or claims when law allows it, but timing, prejudice, and limitation periods can constrain changes. Never assume that filing an initial complaint preserves every conceivable later claim. A lawyer must compare the proposed amendment with the original filing and the jurisdiction's procedural standards. The ethical aim is an accurate record, not a constantly shifting accusation that opponents cannot fairly answer.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A failed pleading is not always a failed grievance",
+              "body_md": "A court may dismiss because the document does not state an actionable claim, because it lacks jurisdiction, or because the filing was untimely. Those grounds may have different consequences for refiling and for the merits. A lawyer should explain precisely why the court acted. An allegation can describe a serious personal harm while failing to meet a legal requirement; conversely, a sufficient pleading may still be disproved after evidence is heard. This distinction avoids both unjustified optimism and premature despair.",
+              "audio_script": "A court may dismiss because the document does not state an actionable claim, because it lacks jurisdiction, or because the filing was untimely. Those grounds may have different consequences for refiling and for the merits. A lawyer should explain precisely why the court acted. An allegation can describe a serious personal harm while failing to meet a legal requirement; conversely, a sufficient pleading may still be disproved after evidence is heard. This distinction avoids both unjustified optimism and premature despair.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q1",
+              "type": "true_false",
+              "prompt": "Particularity refers to required factual specificity in allegations.",
+              "answer": true,
+              "explanation_if_true": "Particularity means required factual specificity in allegations.",
+              "explanation_if_false": "Particularity means required factual specificity in allegations."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every court worldwide applies the same factual pleading requirements.",
+              "answer": false,
+              "explanation_if_true": "Pleading standards and special requirements vary among jurisdictions and claims.",
+              "explanation_if_false": "Pleading standards and special requirements vary among jurisdictions and claims."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Notice pleading?",
+              "choices": [
+                "Pleading intended to inform opposing parties",
+                "Required factual specificity in allegations",
+                "Authorized revision of an existing pleading",
+                "Legally prescribed time to bring a claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Notice pleading means pleading intended to inform opposing parties."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "New facts arise after a complaint was filed. What procedural device may allow correction?",
+              "choices": [
+                "Automatic final judgment",
+                "An appeal before any order",
+                "A court-appointed treaty",
+                "Amendment"
+              ],
+              "answer_index": 3,
+              "explanation": "Amendment may be available subject to applicable timing and fairness rules."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means authorized revision of an existing pleading?",
+              "choices": [
+                "Notice pleading",
+                "Limitation period",
+                "Particularity",
+                "Amendment"
+              ],
+              "answer_index": 3,
+              "explanation": "Amendment means authorized revision of an existing pleading."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each pleading concept with its meaning.",
+              "pairs": [
+                [
+                  "Notice pleading",
+                  "Pleading intended to inform opposing parties"
+                ],
+                [
+                  "Particularity",
+                  "Required factual specificity in allegations"
+                ],
+                [
+                  "Amendment",
+                  "Authorized revision of an existing pleading"
+                ],
+                [
+                  "Limitation period",
+                  "Legally prescribed time to bring a claim"
+                ]
+              ],
+              "explanation": "Procedural vocabulary separates different legal tasks."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for pleading intended to inform opposing parties is ___.",
+              "answer": "Notice pleading",
+              "accept": [
+                "Notice pleading"
+              ],
+              "explanation": "The term is Notice pleading."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally prescribed time to bring a claim is ___.",
+              "answer": "Limitation period",
+              "accept": [
+                "Limitation period"
+              ],
+              "explanation": "The term is Limitation period."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Plead responsibly when the defendant controls the evidence.",
+          "summary": "Examine how pleading requirements interact with evidence asymmetry. Build a truthful claim that identifies known facts, reasonable inferences, and necessary investigation.",
+          "checklist": [
+            "I can separate known facts from informed inference",
+            "I can recognize disclosure barriers to precise allegations",
+            "I can propose claims within the forum's permitted procedural standards"
+          ],
+          "sections": [
+            {
+              "title": "The missing file is not proof",
+              "body_md": "A person receives a benefits denial but cannot obtain the agency's internal decision notes. The lawyer may know the dates and written reasons while being uncertain about motives. Plead what can be supported, distinguish inference from fact, and identify which missing records could resolve the issue. Some jurisdictions permit allegations on information and belief in defined circumstances; others impose different thresholds. Never manufacture an internal instruction because the actual evidence is unavailable. Uncertainty acknowledged is stronger than certainty invented.",
+              "audio_script": "A person receives a benefits denial but cannot obtain the agency's internal decision notes. The lawyer may know the dates and written reasons while being uncertain about motives. Plead what can be supported, distinguish inference from fact, and identify which missing records could resolve the issue. Some jurisdictions permit allegations on information and belief in defined circumstances; others impose different thresholds. Never manufacture an internal instruction because the actual evidence is unavailable. Uncertainty acknowledged is stronger than certainty invented.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Differentiate the legal and evidentiary gaps",
+              "body_md": "A claimant may lack proof that an official acted deliberately yet still possess a potentially viable cause of action if intent is not a required element. Conversely, comprehensive evidence of harm cannot create a duty that the law does not recognize. A rigorous pleading identifies each element, the facts supporting it, and the evidence necessary for any remaining dispute. This method clarifies whether the proper next step is to seek permitted disclosure, amend a theory, or honestly advise the client that the claim is legally unavailable.",
+              "audio_script": "A claimant may lack proof that an official acted deliberately yet still possess a potentially viable cause of action if intent is not a required element. Conversely, comprehensive evidence of harm cannot create a duty that the law does not recognize. A rigorous pleading identifies each element, the facts supporting it, and the evidence necessary for any remaining dispute. This method clarifies whether the proper next step is to seek permitted disclosure, amend a theory, or honestly advise the client that the claim is legally unavailable.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Use alternative positions cautiously",
+              "body_md": "Some systems permit alternative pleading when facts are genuinely uncertain. A claimant might argue that an agency's decision violated one procedural rule and, alternatively, a distinct substantive requirement. That does not justify knowingly inconsistent factual assertions presented as certain truth. Each theory needs a lawful basis, and procedural rules limit joinder, timing, and amendment. The goal is a precise framework that permits the tribunal to decide the actual controversy, not a sprawling catalogue of accusations designed to confuse the other party.",
+              "audio_script": "Some systems permit alternative pleading when facts are genuinely uncertain. A claimant might argue that an agency's decision violated one procedural rule and, alternatively, a distinct substantive requirement. That does not justify knowingly inconsistent factual assertions presented as certain truth. Each theory needs a lawful basis, and procedural rules limit joinder, timing, and amendment. The goal is a precise framework that permits the tribunal to decide the actual controversy, not a sprawling catalogue of accusations designed to confuse the other party.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q1",
+              "type": "true_false",
+              "prompt": "Inference refers to reasoned conclusion from established facts.",
+              "answer": true,
+              "explanation_if_true": "Inference means reasoned conclusion from established facts.",
+              "explanation_if_false": "Inference means reasoned conclusion from established facts."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q2",
+              "type": "true_false",
+              "prompt": "When evidence is controlled by an opponent, a lawyer may freely assert invented facts as established.",
+              "answer": false,
+              "explanation_if_true": "Professional candor requires distinguishing known facts, reasonable inference, and uncertainty.",
+              "explanation_if_false": "Professional candor requires distinguishing known facts, reasonable inference, and uncertainty."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Information asymmetry?",
+              "choices": [
+                "Reasoned conclusion from established facts",
+                "Permitted presentation of contingent legal theories",
+                "Whether allegations satisfy procedural requirements",
+                "Unequal access to material records"
+              ],
+              "answer_index": 3,
+              "explanation": "Information asymmetry means unequal access to material records."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A client knows a license was cancelled but not why. Which approach best respects candor?",
+              "choices": [
+                "Ignore whether the rule requires intent",
+                "Assert every imagined allegation as certain",
+                "Plead supported facts and identify the missing evidence",
+                "Invent a hostile official's exact words"
+              ],
+              "answer_index": 2,
+              "explanation": "Candor and procedural strategy can coexist."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means permitted presentation of contingent legal theories?",
+              "choices": [
+                "Claim sufficiency",
+                "Inference",
+                "Alternative pleading",
+                "Information asymmetry"
+              ],
+              "answer_index": 2,
+              "explanation": "Alternative pleading means permitted presentation of contingent legal theories."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q6",
+              "type": "matching",
+              "prompt": "Match each pleading concept with its meaning.",
+              "pairs": [
+                [
+                  "Information asymmetry",
+                  "Unequal access to material records"
+                ],
+                [
+                  "Inference",
+                  "Reasoned conclusion from established facts"
+                ],
+                [
+                  "Alternative pleading",
+                  "Permitted presentation of contingent legal theories"
+                ],
+                [
+                  "Claim sufficiency",
+                  "Whether allegations satisfy procedural requirements"
+                ]
+              ],
+              "explanation": "Procedural vocabulary separates different legal tasks."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for unequal access to material records is ___.",
+              "answer": "Information asymmetry",
+              "accept": [
+                "Information asymmetry"
+              ],
+              "explanation": "The term is Information asymmetry."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for whether allegations satisfy procedural requirements is ___.",
+              "answer": "Claim sufficiency",
+              "accept": [
+                "Claim sufficiency"
+              ],
+              "explanation": "The term is Claim sufficiency."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique pleading as a gatekeeper of public justice.",
+          "summary": "Pleading rules distribute the risk of mistaken decisions before evidence is tested. Design procedural thresholds that protect defendants without excluding people who lack resources or access to records.",
+          "checklist": [
+            "I can evaluate both false dismissals and baseless claims",
+            "I can identify unequal access hidden by neutral procedural language",
+            "I can defend an accountable and proportionate pleading rule"
+          ],
+          "sections": [
+            {
+              "title": "A filing can compel and exclude",
+              "body_md": "The filing of a case can impose serious costs and demand public responses before liability is found. Screening implausible claims protects defendants from coercive litigation. Yet an overly strict standard can extinguish genuine grievances where the claimant lacks documents available only to a powerful institution. The normative issue is reciprocal: what risk of error should be borne by each party? A doctoral analysis considers both false-positive advancement of baseless claims and false-negative dismissal of meritorious ones.",
+              "audio_script": "The filing of a case can impose serious costs and demand public responses before liability is found. Screening implausible claims protects defendants from coercive litigation. Yet an overly strict standard can extinguish genuine grievances where the claimant lacks documents available only to a powerful institution. The normative issue is reciprocal: what risk of error should be borne by each party? A doctoral analysis considers both false-positive advancement of baseless claims and false-negative dismissal of meritorious ones.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Equal words do not mean equal opportunity",
+              "body_md": "A corporation and an unrepresented worker may formally face the same pleading standard while possessing radically different legal assistance and evidence. High specificity requirements may shift the real cost of public justice onto those least able to meet them. Possible reforms include clear forms, proportionate correction opportunities, limited early disclosure, and accessible explanations of dismissals. Their validity and effectiveness must be evaluated, not assumed. Fairness requires examining who can actually use the process, not just who is named in its rule.",
+              "audio_script": "A corporation and an unrepresented worker may formally face the same pleading standard while possessing radically different legal assistance and evidence. High specificity requirements may shift the real cost of public justice onto those least able to meet them. Possible reforms include clear forms, proportionate correction opportunities, limited early disclosure, and accessible explanations of dismissals. Their validity and effectiveness must be evaluated, not assumed. Fairness requires examining who can actually use the process, not just who is named in its rule.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design a justified threshold",
+              "body_md": "Propose a pleading rule with minimum concrete allegations, correction of remediable defects, reasons explaining dismissals, and stronger sanctions for deliberate fabrication. Show how the rule respects binding constitutional and statutory requirements, rather than treating reform as current law. Measure litigation costs, erroneous exclusion, and abuse over time. The aim is a process that allows a frightened person to be heard while refusing to turn a defendant's resources or reputation into leverage for an unsupported claim.",
+              "audio_script": "Propose a pleading rule with minimum concrete allegations, correction of remediable defects, reasons explaining dismissals, and stronger sanctions for deliberate fabrication. Show how the rule respects binding constitutional and statutory requirements, rather than treating reform as current law. Measure litigation costs, erroneous exclusion, and abuse over time. The aim is a process that allows a frightened person to be heard while refusing to turn a defendant's resources or reputation into leverage for an unsupported claim.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q1",
+              "type": "true_false",
+              "prompt": "False-positive claim refers to baseless claim allowed to proceed erroneously.",
+              "answer": true,
+              "explanation_if_true": "False-positive claim means baseless claim allowed to proceed erroneously.",
+              "explanation_if_false": "False-positive claim means baseless claim allowed to proceed erroneously."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q2",
+              "type": "true_false",
+              "prompt": "The strictest imaginable pleading standard necessarily produces the fairest legal system.",
+              "answer": false,
+              "explanation_if_true": "A strict threshold may deter weak claims but can also block true grievances before evidence is accessible.",
+              "explanation_if_false": "A strict threshold may deter weak claims but can also block true grievances before evidence is accessible."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Procedural gatekeeping?",
+              "choices": [
+                "Meritorious claim barred erroneously",
+                "Procedural protection of both parties",
+                "Rules controlling whether a claim can proceed",
+                "Baseless claim allowed to proceed erroneously"
+              ],
+              "answer_index": 2,
+              "explanation": "Procedural gatekeeping means rules controlling whether a claim can proceed."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A detailed-facts requirement bars claims when only the defendant holds the needed documents. What issue arises?",
+              "choices": [
+                "The numbering of unrelated laws",
+                "Competing risks of unfair exclusion and abusive filing",
+                "The word count of the judge's biography",
+                "Only the cost of postage"
+              ],
+              "answer_index": 1,
+              "explanation": "A defensible procedural standard balances both sides' risks of error."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means meritorious claim barred erroneously?",
+              "choices": [
+                "False-positive claim",
+                "False-negative dismissal",
+                "Procedural gatekeeping",
+                "Reciprocal fairness"
+              ],
+              "answer_index": 1,
+              "explanation": "False-negative dismissal means meritorious claim barred erroneously."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q6",
+              "type": "matching",
+              "prompt": "Match each pleading concept with its meaning.",
+              "pairs": [
+                [
+                  "Procedural gatekeeping",
+                  "Rules controlling whether a claim can proceed"
+                ],
+                [
+                  "False-positive claim",
+                  "Baseless claim allowed to proceed erroneously"
+                ],
+                [
+                  "False-negative dismissal",
+                  "Meritorious claim barred erroneously"
+                ],
+                [
+                  "Reciprocal fairness",
+                  "Procedural protection of both parties"
+                ]
+              ],
+              "explanation": "Procedural vocabulary separates different legal tasks."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for rules controlling whether a claim can proceed is ___.",
+              "answer": "Procedural gatekeeping",
+              "accept": [
+                "Procedural gatekeeping"
+              ],
+              "explanation": "The term is Procedural gatekeeping."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pleading.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for procedural protection of both parties is ___.",
+              "answer": "Reciprocal fairness",
+              "accept": [
+                "Reciprocal fairness"
+              ],
+              "explanation": "The term is Reciprocal fairness."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
