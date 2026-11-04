@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Explain why words are read as a connected whole",
+          "summary": "The meaning of a disputed legal phrase often depends on the words around it. Learn to explain how a definition, exception or neighboring clause changes an apparent reading.",
+          "checklist": [
+            "I can identify a context clue that changes meaning",
+            "I can distinguish a general rule from its exception",
+            "I can show each step linking text to interpretation"
+          ],
+          "sections": [
+            {
+              "title": "One Clause Can Change Another",
+              "body_md": "A rule says visitors may enter a building and later specifies that entry is prohibited during emergency repairs. The second clause limits the first. An interpreter who quotes only the general permission would create a false impression. This is a reasoning chain from text: identify the proposition, locate the exception, and apply both to the facts. No speculation about the author's personality is needed. The words the legal instrument uses supply the first evidence of meaning.",
+              "example": null,
+              "audio_script": "A rule says visitors may enter a building and later specifies that entry is prohibited during emergency repairs. The second clause limits the first. An interpreter who quotes only the general permission would create a false impression. This is a reasoning chain from text: identify the proposition, locate the exception, and apply both to the facts. No speculation about the author's personality is needed. The words the legal instrument uses supply the first evidence of meaning.",
+              "video": null
+            },
+            {
+              "title": "Define the Question First",
+              "body_md": "A reader asks whether a vehicle is permitted on a path. Before opening a dictionary, check whether the ordinance defines vehicle, describes the path, or distinguishes bicycles from motor cars. Each provision can affect the result. The proper interpretation must explain which text controls and why. A disagreement about meaning is not resolved by a louder assertion; it is resolved by identifying relevant legal sources and applying recognized methods.",
+              "example": null,
+              "audio_script": "A reader asks whether a vehicle is permitted on a path. Before opening a dictionary, check whether the ordinance defines vehicle, describes the path, or distinguishes bicycles from motor cars. Each provision can affect the result. The proper interpretation must explain which text controls and why. A disagreement about meaning is not resolved by a louder assertion; it is resolved by identifying relevant legal sources and applying recognized methods.",
+              "video": null
+            },
+            {
+              "title": "Text Is Not the Same as Outcome",
+              "body_md": "A provision may be clear but its application to an unexpected fact may be uncertain. For example, a rule drafted before electric scooters existed may not explain whether they fall under a defined category. The interpreter must distinguish uncertainty about the words from uncertainty about whether the facts satisfy them. That distinction keeps the analysis organized and helps the client understand what evidence or legal development may change the answer.",
+              "example": null,
+              "audio_script": "A provision may be clear but its application to an unexpected fact may be uncertain. For example, a rule drafted before electric scooters existed may not explain whether they fall under a defined category. The interpreter must distinguish uncertainty about the words from uncertainty about whether the facts satisfy them. That distinction keeps the analysis organized and helps the client understand what evidence or legal development may change the answer.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "General rule means provision covering a broad class of situations.",
+              "answer": true,
+              "explanation_if_true": "General rule means provision covering a broad class of situations.",
+              "explanation_if_false": "General rule means provision covering a broad class of situations."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "A broad legal permission should be read without considering a nearby explicit exception.",
+              "answer": false,
+              "explanation_if_true": "Exceptions can limit the operative scope of a general provision.",
+              "explanation_if_false": "Exceptions can limit the operative scope of a general provision."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Context clue?",
+              "choices": [
+                "Whether actual facts satisfy a legal category",
+                "Related language informing the meaning of a phrase",
+                "Provision covering a broad class of situations",
+                "Provision excluding defined circumstances"
+              ],
+              "answer_index": 1,
+              "explanation": "Context clue means related language informing the meaning of a phrase."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An ordinance permits entry except during repairs. The building is under repair. What interpretive step matters?",
+              "choices": [
+                "Apply the explicit exception with the general rule",
+                "Ignore the later clause",
+                "Ask which clause is longer",
+                "Replace the ordinance with a dictionary"
+              ],
+              "answer_index": 0,
+              "explanation": "The provision must be read as a whole."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means provision excluding defined circumstances?",
+              "choices": [
+                "Exception",
+                "Context clue",
+                "Application question",
+                "General rule"
+              ],
+              "answer_index": 0,
+              "explanation": "Exception means provision excluding defined circumstances."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Context clue",
+                  "Related language informing the meaning of a phrase"
+                ],
+                [
+                  "General rule",
+                  "Provision covering a broad class of situations"
+                ],
+                [
+                  "Exception",
+                  "Provision excluding defined circumstances"
+                ],
+                [
+                  "Application question",
+                  "Whether actual facts satisfy a legal category"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Related language informing the meaning of a phrase is called ___.",
+              "answer": "Context clue",
+              "accept": [
+                "Context clue"
+              ],
+              "explanation": "The term is Context clue."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Whether actual facts satisfy a legal category is called ___.",
+              "answer": "Application question",
+              "accept": [
+                "Application question"
+              ],
+              "explanation": "The term is Application question."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Identify intent, purpose and permissible evidence",
+          "summary": "Legal interpretation may involve the objective conveyed by words, the purpose of a rule and particular background materials. Learn why a court's permitted evidence depends on the instrument and jurisdiction.",
+          "checklist": [
+            "I can distinguish textual meaning from an individual's private hope",
+            "I can identify when purpose or context is relevant",
+            "I can recognize limits on extrinsic material"
+          ],
+          "sections": [
+            {
+              "title": "A Private Wish Is Not Always Meaning",
+              "body_md": "A contract drafter may privately intend 'delivery' to mean shipment, while the signed agreement defines it as receipt. Interpretation commonly focuses on the legally recognized meaning of the agreement rather than an uncommunicated thought. Applicable law may permit some evidence of negotiations or commercial setting while excluding other material. The student should find the governing rule before relying on a participant's later statement that they meant something different.",
+              "example": null,
+              "audio_script": "A contract drafter may privately intend 'delivery' to mean shipment, while the signed agreement defines it as receipt. Interpretation commonly focuses on the legally recognized meaning of the agreement rather than an uncommunicated thought. Applicable law may permit some evidence of negotiations or commercial setting while excluding other material. The student should find the governing rule before relying on a participant's later statement that they meant something different.",
+              "video": null
+            },
+            {
+              "title": "Purpose Requires a Legal Anchor",
+              "body_md": "A statute enacted to improve road safety can guide interpretation of an ambiguous vehicle restriction, but a broad purpose does not justify ignoring clear enacted limits. The decision maker's method and permissible materials vary by jurisdiction. If a legislative report is invoked, explain whether it is a recognized aid and what precise ambiguity it addresses. Purpose is evidence for interpretation within a legal framework, not a license to replace legislative language with a preferred policy.",
+              "example": null,
+              "audio_script": "A statute enacted to improve road safety can guide interpretation of an ambiguous vehicle restriction, but a broad purpose does not justify ignoring clear enacted limits. The decision maker's method and permissible materials vary by jurisdiction. If a legislative report is invoked, explain whether it is a recognized aid and what precise ambiguity it addresses. Purpose is evidence for interpretation within a legal framework, not a license to replace legislative language with a preferred policy.",
+              "video": null
+            },
+            {
+              "title": "Construct the Chain of Reasoning",
+              "body_md": "A strong interpretive paragraph identifies the disputed phrase, the related text, an applicable interpretive rule and the effect on the facts. If more than one reading remains plausible, state the competing explanations and their consequences. Avoid jumping from a desirable outcome directly to a claim about what the text must mean. This method makes disagreement precise and gives a reviewing institution reasons to accept or reject the argument.",
+              "example": null,
+              "audio_script": "A strong interpretive paragraph identifies the disputed phrase, the related text, an applicable interpretive rule and the effect on the facts. If more than one reading remains plausible, state the competing explanations and their consequences. Avoid jumping from a desirable outcome directly to a claim about what the text must mean. This method makes disagreement precise and gives a reviewing institution reasons to accept or reject the argument.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Extrinsic evidence means material outside the operative text considered when legally permitted.",
+              "answer": true,
+              "explanation_if_true": "Extrinsic evidence means material outside the operative text considered when legally permitted.",
+              "explanation_if_false": "Extrinsic evidence means material outside the operative text considered when legally permitted."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "A person's uncommunicated private intention necessarily overrides the executed terms of a contract.",
+              "answer": false,
+              "explanation_if_true": "Legal interpretation may apply objective standards and rules limiting extrinsic evidence.",
+              "explanation_if_false": "Legal interpretation may apply objective standards and rules limiting extrinsic evidence."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Objective meaning?",
+              "choices": [
+                "Meaning attributed by recognized interpretive standards",
+                "Material outside the operative text considered when legally permitted",
+                "Objective the enactment seeks to advance",
+                "Sequence of reasons supporting an assigned meaning"
+              ],
+              "answer_index": 0,
+              "explanation": "Objective meaning means meaning attributed by recognized interpretive standards."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A contract defines delivery as receipt, but a drafter later claims they meant shipment. What is central?",
+              "choices": [
+                "The drafter's private preference",
+                "The carrier's logo",
+                "The length of the contract",
+                "The binding definition and governing interpretive law"
+              ],
+              "answer_index": 3,
+              "explanation": "Uncommunicated intention does not automatically displace an operative definition."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means objective the enactment seeks to advance?",
+              "choices": [
+                "Objective meaning",
+                "Interpretive chain",
+                "Extrinsic evidence",
+                "Legislative purpose"
+              ],
+              "answer_index": 3,
+              "explanation": "Legislative purpose means objective the enactment seeks to advance."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Objective meaning",
+                  "Meaning attributed by recognized interpretive standards"
+                ],
+                [
+                  "Extrinsic evidence",
+                  "Material outside the operative text considered when legally permitted"
+                ],
+                [
+                  "Legislative purpose",
+                  "Objective the enactment seeks to advance"
+                ],
+                [
+                  "Interpretive chain",
+                  "Sequence of reasons supporting an assigned meaning"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Meaning attributed by recognized interpretive standards is called ___.",
+              "answer": "Objective meaning",
+              "accept": [
+                "Objective meaning"
+              ],
+              "explanation": "The term is Objective meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Sequence of reasons supporting an assigned meaning is called ___.",
+              "answer": "Interpretive chain",
+              "accept": [
+                "Interpretive chain"
+              ],
+              "explanation": "The term is Interpretive chain."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Reason through treaty object, purpose and subsequent practice",
+          "summary": "Advanced treaty interpretation requires a structured account of the treaty text and legally relevant context. Explain when later conduct informs meaning and when supplementary materials are permitted.",
+          "checklist": [
+            "I can apply Vienna Convention Article 31 coherently",
+            "I can distinguish subsequent agreement from incidental conduct",
+            "I can identify proper use of Article 32 preparatory materials"
+          ],
+          "sections": [
+            {
+              "title": "Article 31 Works as a Whole",
+              "body_md": "The ordinary meaning, context, object and purpose of a treaty are analyzed in good faith under Article 31 of the Vienna Convention on the Law of Treaties. A decision maker should not select whichever element most favors one state while disregarding the others. The provision also identifies further context, including certain agreements and subsequent practice establishing agreement on interpretation. That practice requires legal analysis of what states actually did and accepted, not merely a list of political speeches.",
+              "example": null,
+              "audio_script": "The ordinary meaning, context, object and purpose of a treaty are analyzed in good faith under Article 31 of the Vienna Convention on the Law of Treaties. A decision maker should not select whichever element most favors one state while disregarding the others. The provision also identifies further context, including certain agreements and subsequent practice establishing agreement on interpretation. That practice requires legal analysis of what states actually did and accepted, not merely a list of political speeches.",
+              "video": null
+            },
+            {
+              "title": "Later Practice Is Not Every Later Event",
+              "body_md": "A government agency may act in a way consistent with one treaty reading without thereby creating an agreement among all relevant parties. Article 31(3) sets specific standards for subsequent agreements and practice. Analyze the actors, conduct, legal relevance and evidence of agreement. The difference matters because law should not convert an isolated administrative habit into an amendment of international obligations. This is an exercise in careful inference as much as textual reading.",
+              "example": null,
+              "audio_script": "A government agency may act in a way consistent with one treaty reading without thereby creating an agreement among all relevant parties. Article 31(3) sets specific standards for subsequent agreements and practice. Analyze the actors, conduct, legal relevance and evidence of agreement. The difference matters because law should not convert an isolated administrative habit into an amendment of international obligations. This is an exercise in careful inference as much as textual reading.",
+              "video": null
+            },
+            {
+              "title": "Supplementary Means Have Conditions",
+              "body_md": "Preparatory work can help confirm a treaty interpretation or address obscurity or a manifestly unreasonable result within Article 32's framework. It should not be selected opportunistically to defeat the general rule. A strong legal memorandum states the Article 31 reading first, then explains the limited role of supplementary evidence. That structure makes the claim reviewable by states, courts and persons whose rights may depend on the treaty.",
+              "example": null,
+              "audio_script": "Preparatory work can help confirm a treaty interpretation or address obscurity or a manifestly unreasonable result within Article 32's framework. It should not be selected opportunistically to defeat the general rule. A strong legal memorandum states the Article 31 reading first, then explains the limited role of supplementary evidence. That structure makes the claim reviewable by states, courts and persons whose rights may depend on the treaty.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Subsequent agreement means later party agreement on treaty interpretation or application.",
+              "answer": true,
+              "explanation_if_true": "Subsequent agreement means later party agreement on treaty interpretation or application.",
+              "explanation_if_false": "Subsequent agreement means later party agreement on treaty interpretation or application."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "Any single state's later political statement automatically becomes binding subsequent practice for all treaty parties.",
+              "answer": false,
+              "explanation_if_true": "Article 31 requires an appropriate form of agreement or practice establishing interpretive agreement.",
+              "explanation_if_false": "Article 31 requires an appropriate form of agreement or practice establishing interpretive agreement."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Article 31 inquiry?",
+              "choices": [
+                "Later party agreement on treaty interpretation or application",
+                "Qualifying later conduct establishing interpretive agreement",
+                "Treaty negotiations used as supplementary interpretive material",
+                "Good-faith treaty meaning in context and light of purpose"
+              ],
+              "answer_index": 3,
+              "explanation": "Article 31 inquiry means good-faith treaty meaning in context and light of purpose."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A state cites one isolated speech as conclusive proof of all parties' treaty meaning. What is missing?",
+              "choices": [
+                "A televised ceremony",
+                "An English-only quotation",
+                "Evidence that the legal requirements for relevant subsequent practice are met",
+                "A longer speech"
+              ],
+              "answer_index": 2,
+              "explanation": "Subsequent practice is a specific legal category, not any later statement."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means qualifying later conduct establishing interpretive agreement?",
+              "choices": [
+                "Preparatory work",
+                "Subsequent agreement",
+                "Subsequent practice",
+                "Article 31 inquiry"
+              ],
+              "answer_index": 2,
+              "explanation": "Subsequent practice means qualifying later conduct establishing interpretive agreement."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Article 31 inquiry",
+                  "Good-faith treaty meaning in context and light of purpose"
+                ],
+                [
+                  "Subsequent agreement",
+                  "Later party agreement on treaty interpretation or application"
+                ],
+                [
+                  "Subsequent practice",
+                  "Qualifying later conduct establishing interpretive agreement"
+                ],
+                [
+                  "Preparatory work",
+                  "Treaty negotiations used as supplementary interpretive material"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Good-faith treaty meaning in context and light of purpose is called ___.",
+              "answer": "Article 31 inquiry",
+              "accept": [
+                "Article 31 inquiry"
+              ],
+              "explanation": "The term is Article 31 inquiry."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Treaty negotiations used as supplementary interpretive material is called ___.",
+              "answer": "Preparatory work",
+              "accept": [
+                "Preparatory work"
+              ],
+              "explanation": "The term is Preparatory work."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique claims about purpose, authorship and interpretive legitimacy",
+          "summary": "At doctoral depth, analyze why interpreting legal meaning is not the same as reconstructing every author's private mental state. Defend interpretive methods under incomplete historical evidence and competing institutional values.",
+          "checklist": [
+            "I can compare intentionalist and textual-contextual accounts",
+            "I can evaluate limits of preparatory materials",
+            "I can defend an interpretive method that makes reasons public"
+          ],
+          "sections": [
+            {
+              "title": "The Author Is Often Many People",
+              "body_md": "Legislation is produced through institutions with multiple participants and compromises. A treaty is negotiated among states; a commercial agreement may be assembled by teams and standard forms. Searching for one unified private intention can be misleading. A doctoral theory must explain whose intentions count, how they are legally evidenced, and when enacted language rather than subjective hopes controls. Interpretation should produce reasons capable of being contested by people who did not participate in drafting.",
+              "example": null,
+              "audio_script": "Legislation is produced through institutions with multiple participants and compromises. A treaty is negotiated among states; a commercial agreement may be assembled by teams and standard forms. Searching for one unified private intention can be misleading. A doctoral theory must explain whose intentions count, how they are legally evidenced, and when enacted language rather than subjective hopes controls. Interpretation should produce reasons capable of being contested by people who did not participate in drafting.",
+              "video": null
+            },
+            {
+              "title": "Purpose Can Multiply",
+              "body_md": "An enactment may seek public safety, administrative efficiency and protection of privacy at the same time. Stating a single broad purpose can obscure conflicts among enacted choices. A good interpreter grounds each purpose in the instrument and relevant legally recognized materials. Where purposes point in different directions, the argument must explain how language, structure and institutional authority resolve the tension. Sophisticated reasoning admits where a normative choice is being made rather than presenting it as inevitable.",
+              "example": null,
+              "audio_script": "An enactment may seek public safety, administrative efficiency and protection of privacy at the same time. Stating a single broad purpose can obscure conflicts among enacted choices. A good interpreter grounds each purpose in the instrument and relevant legally recognized materials. Where purposes point in different directions, the argument must explain how language, structure and institutional authority resolve the tension. Sophisticated reasoning admits where a normative choice is being made rather than presenting it as inevitable.",
+              "video": null
+            },
+            {
+              "title": "An Interpretive System Must Be Accountable",
+              "body_md": "A court that can always discover a hidden purpose supporting its favored outcome risks undermining public notice and democratic authority. A court that refuses to adapt general language to unforeseen facts may also fail the purpose law was designed to serve. The doctoral task is to specify transparent constraints, methods of review and standards for legitimate development. Interpretive power should be exercised with reasons people can examine, especially when it controls freedom, property or protection from violence.",
+              "example": null,
+              "audio_script": "A court that can always discover a hidden purpose supporting its favored outcome risks undermining public notice and democratic authority. A court that refuses to adapt general language to unforeseen facts may also fail the purpose law was designed to serve. The doctoral task is to specify transparent constraints, methods of review and standards for legitimate development. Interpretive power should be exercised with reasons people can examine, especially when it controls freedom, property or protection from violence.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Textual-contextual method means reading operative words within legally relevant context.",
+              "answer": true,
+              "explanation_if_true": "Textual-contextual method means reading operative words within legally relevant context.",
+              "explanation_if_false": "Textual-contextual method means reading operative words within legally relevant context."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "Every legal instrument has one identifiable private author whose personal wish necessarily decides its meaning.",
+              "answer": false,
+              "explanation_if_true": "Collective drafting and governing interpretive law complicate subjective-intention claims.",
+              "explanation_if_false": "Collective drafting and governing interpretive law complicate subjective-intention claims."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Intentionalism?",
+              "choices": [
+                "Enactment advancing several partly competing aims",
+                "Reasons accessible for examination and challenge",
+                "Interpretive account emphasizing relevant authors' intentions",
+                "Reading operative words within legally relevant context"
+              ],
+              "answer_index": 2,
+              "explanation": "Intentionalism means interpretive account emphasizing relevant authors' intentions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Legislation reflects competing purposes and many lawmakers. What method is most defensible?",
+              "choices": [
+                "Assume policy preference alone determines meaning",
+                "Explain meaning through recognized text, context and institutional rules",
+                "Invent a single legislator's hidden wish",
+                "Ignore enactment language"
+              ],
+              "answer_index": 1,
+              "explanation": "Legally accountable interpretation requires public reasons, not speculation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means enactment advancing several partly competing aims?",
+              "choices": [
+                "Textual-contextual method",
+                "Multi-purpose statute",
+                "Intentionalism",
+                "Public justification"
+              ],
+              "answer_index": 1,
+              "explanation": "Multi-purpose statute means enactment advancing several partly competing aims."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Intentionalism",
+                  "Interpretive account emphasizing relevant authors' intentions"
+                ],
+                [
+                  "Textual-contextual method",
+                  "Reading operative words within legally relevant context"
+                ],
+                [
+                  "Multi-purpose statute",
+                  "Enactment advancing several partly competing aims"
+                ],
+                [
+                  "Public justification",
+                  "Reasons accessible for examination and challenge"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Interpretive account emphasizing relevant authors' intentions is called ___.",
+              "answer": "Intentionalism",
+              "accept": [
+                "Intentionalism"
+              ],
+              "explanation": "The term is Intentionalism."
+            },
+            {
+              "id": "PSU-1.6.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Reasons accessible for examination and challenge is called ___.",
+              "answer": "Public justification",
+              "accept": [
+                "Public justification"
+              ],
+              "explanation": "The term is Public justification."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
