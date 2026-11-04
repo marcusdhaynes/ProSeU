@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Separate legal force from a justified right to govern",
+          "summary": "The fact that a rule is enforced does not finish the question of why it should be respected. Learn to distinguish recognized legality, claimed legitimacy and the experiences of those governed.",
+          "checklist": [
+            "I can state the difference between force and authority",
+            "I can recognize sources of legitimacy beyond punishment",
+            "I can ask who has a voice in the legal order"
+          ],
+          "sections": [
+            {
+              "title": "Law Is More Than Power",
+              "body_md": "Imagine a town with two rule makers: one issues threats; the other governs under publicly accepted procedures. Both may secure compliance, but only the second can point to an institutional claim of rightful authority. Every legal order has reasons its institutions give for making binding decisions. Those reasons may rest on constitutions, tradition, religion, democratic participation, or recognized practices. Legal force and justified authority must still be distinguished. A ruler can enforce an unjust rule; a benevolent adviser may lack legal power.",
+              "example": null,
+              "audio_script": "Imagine a town with two rule makers: one issues threats; the other governs under publicly accepted procedures. Both may secure compliance, but only the second can point to an institutional claim of rightful authority. Every legal order has reasons its institutions give for making binding decisions. Those reasons may rest on constitutions, tradition, religion, democratic participation, or recognized practices. Legal force and justified authority must still be distinguished. A ruler can enforce an unjust rule; a benevolent adviser may lack legal power.",
+              "video": null
+            },
+            {
+              "title": "Legal Families Are Not Moral Rankings",
+              "body_md": "A country organized largely around civil codes is not automatically more legitimate than one using precedent, and the reverse is equally false. Legitimacy depends on institutions, accountable procedures, rights protection, participation, and the particular legal context. Customary systems can be responsive or exclusionary; state institutions can be effective or oppressive. A fair comparative lawyer does not use the legal-family label as a substitute for evidence about how people are governed.",
+              "example": null,
+              "audio_script": "A country organized largely around civil codes is not automatically more legitimate than one using precedent, and the reverse is equally false. Legitimacy depends on institutions, accountable procedures, rights protection, participation, and the particular legal context. Customary systems can be responsive or exclusionary; state institutions can be effective or oppressive. A fair comparative lawyer does not use the legal-family label as a substitute for evidence about how people are governed.",
+              "video": null
+            },
+            {
+              "title": "The People Matter",
+              "body_md": "A decision affecting family relationships, property or liberty is more legitimate when the people concerned can understand the rules, be heard and seek correction under applicable law. That does not mean all decisions must have unanimous consent. It means the state should be able to explain its authority and provide fair methods for contesting mistakes. Studying legitimacy should produce a practical habit: ask how the law protects those with little power to influence it.",
+              "example": null,
+              "audio_script": "A decision affecting family relationships, property or liberty is more legitimate when the people concerned can understand the rules, be heard and seek correction under applicable law. That does not mean all decisions must have unanimous consent. It means the state should be able to explain its authority and provide fair methods for contesting mistakes. Studying legitimacy should produce a practical habit: ask how the law protects those with little power to influence it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Legitimacy means justification of a claim to exercise authority.",
+              "answer": true,
+              "explanation_if_true": "Legitimacy means justification of a claim to exercise authority.",
+              "explanation_if_false": "Legitimacy means justification of a claim to exercise authority."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "A rule is necessarily just because officials can enforce it.",
+              "answer": false,
+              "explanation_if_true": "Enforceability does not itself establish moral or political legitimacy.",
+              "explanation_if_false": "Enforceability does not itself establish moral or political legitimacy."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Legality?",
+              "choices": [
+                "Requirement that power holders answer for decisions",
+                "Conformity with recognized legal requirements",
+                "Justification of a claim to exercise authority",
+                "Meaningful opportunity to influence a process"
+              ],
+              "answer_index": 1,
+              "explanation": "Legality means conformity with recognized legal requirements."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A tribunal obeys formal procedures but excludes the affected community from every hearing. What concern arises?",
+              "choices": [
+                "Participatory legitimacy",
+                "Lack of territorial jurisdiction automatically",
+                "The judge's clothing",
+                "The number of statutes on the shelf"
+              ],
+              "answer_index": 0,
+              "explanation": "Fair and accountable rule depends on more than the power to issue a binding command."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means meaningful opportunity to influence a process?",
+              "choices": [
+                "Participation",
+                "Legality",
+                "Accountability",
+                "Legitimacy"
+              ],
+              "answer_index": 0,
+              "explanation": "Participation means meaningful opportunity to influence a process."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Legality",
+                  "Conformity with recognized legal requirements"
+                ],
+                [
+                  "Legitimacy",
+                  "Justification of a claim to exercise authority"
+                ],
+                [
+                  "Participation",
+                  "Meaningful opportunity to influence a process"
+                ],
+                [
+                  "Accountability",
+                  "Requirement that power holders answer for decisions"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Conformity with recognized legal requirements is called ___.",
+              "answer": "Legality",
+              "accept": [
+                "Legality"
+              ],
+              "explanation": "The term is Legality."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Requirement that power holders answer for decisions is called ___.",
+              "answer": "Accountability",
+              "accept": [
+                "Accountability"
+              ],
+              "explanation": "The term is Accountability."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare procedural and democratic legitimacy",
+          "summary": "Learn how fair hearing processes, reasoned decisions and public accountability support legal authority. Distinguish a lawful rule's validity from approval of every particular outcome.",
+          "checklist": [
+            "I can recognize procedural justice features",
+            "I can compare public accountability with adjudicative independence",
+            "I can explain why institutional reasons matter"
+          ],
+          "sections": [
+            {
+              "title": "Voice, Neutrality and Reasons",
+              "body_md": "A tribunal can reach a substantively correct result while treating a litigant unfairly. Notice, opportunity to respond, impartiality, and intelligible reasons can make a proceeding more legitimate. The details vary by legal system and case. Procedural justice does not guarantee victory; it gives parties a fair chance to understand and contest the decision. Without those conditions, compliance may result from fear or exhaustion rather than respect for lawful authority.",
+              "example": null,
+              "audio_script": "A tribunal can reach a substantively correct result while treating a litigant unfairly. Notice, opportunity to respond, impartiality, and intelligible reasons can make a proceeding more legitimate. The details vary by legal system and case. Procedural justice does not guarantee victory; it gives parties a fair chance to understand and contest the decision. Without those conditions, compliance may result from fear or exhaustion rather than respect for lawful authority.",
+              "video": null
+            },
+            {
+              "title": "Democracy Is Not a Blank Check",
+              "body_md": "Elections can legitimate institutions that make general rules, but popular approval does not necessarily permit violations of binding constitutional protections. Conversely, unelected courts must also justify the scope of their power. Legal systems distribute these responsibilities differently. Some use strong constitutional review; others rely more heavily on political branches and legal conventions. A comparative lawyer asks how a particular structure balances popular accountability with principled limits on coercion.",
+              "example": null,
+              "audio_script": "Elections can legitimate institutions that make general rules, but popular approval does not necessarily permit violations of binding constitutional protections. Conversely, unelected courts must also justify the scope of their power. Legal systems distribute these responsibilities differently. Some use strong constitutional review; others rely more heavily on political branches and legal conventions. A comparative lawyer asks how a particular structure balances popular accountability with principled limits on coercion.",
+              "video": null
+            },
+            {
+              "title": "Reasons Make Review Possible",
+              "body_md": "An official may announce a benefit has been denied without disclosing the governing criteria. The decision may technically be valid, but the person affected cannot evaluate or contest it effectively. Transparent reasons support consistent application, detection of errors and institutional learning. Yet privacy, national security and procedural settings can legitimately affect disclosure under specific laws. The sound method is to identify the required explanation, permissible exceptions, and available review, rather than invoke transparency as an unlimited slogan.",
+              "example": null,
+              "audio_script": "An official may announce a benefit has been denied without disclosing the governing criteria. The decision may technically be valid, but the person affected cannot evaluate or contest it effectively. Transparent reasons support consistent application, detection of errors and institutional learning. Yet privacy, national security and procedural settings can legitimately affect disclosure under specific laws. The sound method is to identify the required explanation, permissible exceptions, and available review, rather than invoke transparency as an unlimited slogan.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Judicial independence means protection of adjudication from improper control.",
+              "answer": true,
+              "explanation_if_true": "Judicial independence means protection of adjudication from improper control.",
+              "explanation_if_false": "Judicial independence means protection of adjudication from improper control."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "An election grants officials unlimited authority to override every constitutional right.",
+              "answer": false,
+              "explanation_if_true": "Democratic authority operates within whatever binding constitutional and legal constraints apply.",
+              "explanation_if_false": "Democratic authority operates within whatever binding constitutional and legal constraints apply."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Procedural justice?",
+              "choices": [
+                "Fairness in the decision-making process",
+                "Protection of adjudication from improper control",
+                "Political answerability of public institutions",
+                "Statement of the grounds for a legal decision"
+              ],
+              "answer_index": 0,
+              "explanation": "Procedural justice means fairness in the decision-making process."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency denies a benefit without stating the applicable criterion, making appeal impossible. What principle is endangered?",
+              "choices": [
+                "Common-law property ownership",
+                "Treaty succession",
+                "Corporate registration",
+                "Reason-giving and meaningful review"
+              ],
+              "answer_index": 3,
+              "explanation": "People need sufficient reasons to understand and challenge decisions affecting their rights."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means political answerability of public institutions?",
+              "choices": [
+                "Procedural justice",
+                "Reason-giving",
+                "Judicial independence",
+                "Democratic accountability"
+              ],
+              "answer_index": 3,
+              "explanation": "Democratic accountability means political answerability of public institutions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Procedural justice",
+                  "Fairness in the decision-making process"
+                ],
+                [
+                  "Judicial independence",
+                  "Protection of adjudication from improper control"
+                ],
+                [
+                  "Democratic accountability",
+                  "Political answerability of public institutions"
+                ],
+                [
+                  "Reason-giving",
+                  "Statement of the grounds for a legal decision"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Fairness in the decision-making process is called ___.",
+              "answer": "Procedural justice",
+              "accept": [
+                "Procedural justice"
+              ],
+              "explanation": "The term is Procedural justice."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Statement of the grounds for a legal decision is called ___.",
+              "answer": "Reason-giving",
+              "accept": [
+                "Reason-giving"
+              ],
+              "explanation": "The term is Reason-giving."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate plural sources of legitimacy in comparative law",
+          "summary": "Examine the relationships among community acceptance, constitutional recognition, and external legal obligations. Identify conflicts where different institutions claim authority over the same people.",
+          "checklist": [
+            "I can compare community and state claims to legal authority",
+            "I can analyze recognition of Indigenous and customary orders",
+            "I can identify structural risks in state-led legal reform"
+          ],
+          "sections": [
+            {
+              "title": "Acceptance and Recognition Diverge",
+              "body_md": "An Indigenous community may recognize elders or assemblies as legitimate decision makers, while state courts recognize only certain parts of their authority. Neither community acceptance nor state recognition automatically resolves every dispute about rights. An advanced lawyer identifies the actual source of each institution's power, the people subject to it, and any constitutional safeguards. This helps distinguish a genuine inter-institutional conflict from an outsider's inaccurate impression that the community has no law.",
+              "example": null,
+              "audio_script": "An Indigenous community may recognize elders or assemblies as legitimate decision makers, while state courts recognize only certain parts of their authority. Neither community acceptance nor state recognition automatically resolves every dispute about rights. An advanced lawyer identifies the actual source of each institution's power, the people subject to it, and any constitutional safeguards. This helps distinguish a genuine inter-institutional conflict from an outsider's inaccurate impression that the community has no law.",
+              "video": null
+            },
+            {
+              "title": "Reform Can Reproduce Domination",
+              "body_md": "A national government may introduce a uniform family code promising clarity and equality. Yet if affected communities have no voice and practical access to courts is weak, a formally progressive reform may leave people worse off. Equally, protecting customary authority without safeguards may perpetuate coercion within a community. Comparative legitimacy requires attention to internal disagreement, especially from women, children and other less powerful members. The aim is accountable participation, not romantic preservation or automatic uniformity.",
+              "example": null,
+              "audio_script": "A national government may introduce a uniform family code promising clarity and equality. Yet if affected communities have no voice and practical access to courts is weak, a formally progressive reform may leave people worse off. Equally, protecting customary authority without safeguards may perpetuate coercion within a community. Comparative legitimacy requires attention to internal disagreement, especially from women, children and other less powerful members. The aim is accountable participation, not romantic preservation or automatic uniformity.",
+              "video": null
+            },
+            {
+              "title": "International Claims Are Another Layer",
+              "body_md": "States may undertake treaty obligations concerning rights, equality or due process. These obligations can constrain the moral and international legitimacy of domestic institutions, even when their domestic enforceability follows separate rules. A scholar should not assume that an international body's statement replaces every national procedure. Instead, analyze the treaty's binding status, local implementation, oversight mechanisms and the experiences of the individuals whose rights are at stake.",
+              "example": null,
+              "audio_script": "States may undertake treaty obligations concerning rights, equality or due process. These obligations can constrain the moral and international legitimacy of domestic institutions, even when their domestic enforceability follows separate rules. A scholar should not assume that an international body's statement replaces every national procedure. Instead, analyze the treaty's binding status, local implementation, oversight mechanisms and the experiences of the individuals whose rights are at stake.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "State recognition means formal legal acknowledgment by governmental institutions.",
+              "answer": true,
+              "explanation_if_true": "State recognition means formal legal acknowledgment by governmental institutions.",
+              "explanation_if_false": "State recognition means formal legal acknowledgment by governmental institutions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "Community recognition always eliminates any need to examine the rights of dissenting members.",
+              "answer": false,
+              "explanation_if_true": "Legitimacy also requires attention to affected persons and protections against coercion.",
+              "explanation_if_false": "Legitimacy also requires attention to affected persons and protections against coercion."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Community legitimacy?",
+              "choices": [
+                "Formal legal acknowledgment by governmental institutions",
+                "Disagreement among persons within a legal community",
+                "Coexistence of distinct decision-making authorities",
+                "Authority accepted and justified within a community"
+              ],
+              "answer_index": 3,
+              "explanation": "Community legitimacy means authority accepted and justified within a community."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A reform protects a traditional council but bars women from questioning its rulings. What should an analyst examine?",
+              "choices": [
+                "Whether the community knows Latin",
+                "Only the age of its traditions",
+                "Participation and rights of excluded members",
+                "The council's building style"
+              ],
+              "answer_index": 2,
+              "explanation": "Responsible comparison does not treat internal exclusion as invisible."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means disagreement among persons within a legal community?",
+              "choices": [
+                "Institutional pluralism",
+                "State recognition",
+                "Internal dissent",
+                "Community legitimacy"
+              ],
+              "answer_index": 2,
+              "explanation": "Internal dissent means disagreement among persons within a legal community."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Community legitimacy",
+                  "Authority accepted and justified within a community"
+                ],
+                [
+                  "State recognition",
+                  "Formal legal acknowledgment by governmental institutions"
+                ],
+                [
+                  "Internal dissent",
+                  "Disagreement among persons within a legal community"
+                ],
+                [
+                  "Institutional pluralism",
+                  "Coexistence of distinct decision-making authorities"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Authority accepted and justified within a community is called ___.",
+              "answer": "Community legitimacy",
+              "accept": [
+                "Community legitimacy"
+              ],
+              "explanation": "The term is Community legitimacy."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Coexistence of distinct decision-making authorities is called ___.",
+              "answer": "Institutional pluralism",
+              "accept": [
+                "Institutional pluralism"
+              ],
+              "explanation": "The term is Institutional pluralism."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design legitimate plural legal systems centered on human dignity",
+          "summary": "At doctoral depth, reconcile demands for autonomy, equal rights, rule of law and democratic participation. Develop a method for judging legitimacy that respects legal diversity but allows reasoned criticism.",
+          "checklist": [
+            "I can separate social acceptance from moral justification",
+            "I can evaluate institutional legitimacy under historical domination",
+            "I can propose fair conflict resolution with meaningful affected-person voice"
+          ],
+          "sections": [
+            {
+              "title": "Consent Is Historically Complicated",
+              "body_md": "A state may trace its territorial authority to colonial conquest while its present courts and legislatures operate under a recognized constitution. That history does not by itself decide every current legal issue, but it raises questions about the origins and justification of power. A doctoral analysis distinguishes positive validity, sociological acceptance and moral legitimacy. It evaluates meaningful opportunities for constitutional change, participation and remedy rather than asserting that longstanding institutions are either automatically legitimate or void.",
+              "example": null,
+              "audio_script": "A state may trace its territorial authority to colonial conquest while its present courts and legislatures operate under a recognized constitution. That history does not by itself decide every current legal issue, but it raises questions about the origins and justification of power. A doctoral analysis distinguishes positive validity, sociological acceptance and moral legitimacy. It evaluates meaningful opportunities for constitutional change, participation and remedy rather than asserting that longstanding institutions are either automatically legitimate or void.",
+              "video": null
+            },
+            {
+              "title": "Neither State Nor Custom Is Infallible",
+              "body_md": "An Indigenous governance system may protect community identity and collective responsibility in ways national courts overlook. It may also face internal disputes about representation and rights. A centralized state can provide stable rights review while reproducing historical exclusion. Comparison should assess actual procedures, the ability of affected people to challenge decisions, and the institutional capacity for correction. A fair legal order need not erase plural identities to defend the rights of every person.",
+              "example": null,
+              "audio_script": "An Indigenous governance system may protect community identity and collective responsibility in ways national courts overlook. It may also face internal disputes about representation and rights. A centralized state can provide stable rights review while reproducing historical exclusion. Comparison should assess actual procedures, the ability of affected people to challenge decisions, and the institutional capacity for correction. A fair legal order need not erase plural identities to defend the rights of every person.",
+              "video": null
+            },
+            {
+              "title": "A Conflict-Resolution Framework",
+              "body_md": "Imagine a child-welfare dispute between state officials and an Indigenous community with distinct legal traditions. A principled process would identify governing law, jurisdiction, the child's welfare, recognized community authority, rights protections and opportunities for meaningful participation. Where law permits, coordination or consultation may reduce unnecessary conflict. A doctoral proposal must also specify review, remedies and limits on coercion. Great lawyers protect human lives by making institutional authority answerable to those it affects.",
+              "example": null,
+              "audio_script": "Imagine a child-welfare dispute between state officials and an Indigenous community with distinct legal traditions. A principled process would identify governing law, jurisdiction, the child's welfare, recognized community authority, rights protections and opportunities for meaningful participation. Where law permits, coordination or consultation may reduce unnecessary conflict. A doctoral proposal must also specify review, remedies and limits on coercion. Great lawyers protect human lives by making institutional authority answerable to those it affects.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Normative legitimacy means moral justification for exercising power.",
+              "answer": true,
+              "explanation_if_true": "Normative legitimacy means moral justification for exercising power.",
+              "explanation_if_false": "Normative legitimacy means moral justification for exercising power."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "Legal legitimacy can always be inferred solely from the survival of a state institution.",
+              "answer": false,
+              "explanation_if_true": "Institutional endurance is compatible with oppression and does not alone justify authority.",
+              "explanation_if_false": "Institutional endurance is compatible with oppression and does not alone justify authority."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Sociological acceptance?",
+              "choices": [
+                "Constitutional relationship among distinct authorities",
+                "Institutional scrutiny of a decision's grounds",
+                "Observed recognition of authority in practice",
+                "Moral justification for exercising power"
+              ],
+              "answer_index": 2,
+              "explanation": "Sociological acceptance means observed recognition of authority in practice."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Two legal orders claim authority over a child's welfare. What method is most defensible?",
+              "choices": [
+                "Treat historical precedent as the only criterion",
+                "Analyze governing law, rights and meaningful participation",
+                "Assume the stronger institution is right",
+                "Ignore the child's interests"
+              ],
+              "answer_index": 1,
+              "explanation": "Justified resolution combines legal authority with protection of affected persons."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means constitutional relationship among distinct authorities?",
+              "choices": [
+                "Normative legitimacy",
+                "Plural constitutionalism",
+                "Sociological acceptance",
+                "Reasoned review"
+              ],
+              "answer_index": 1,
+              "explanation": "Plural constitutionalism means constitutional relationship among distinct authorities."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Sociological acceptance",
+                  "Observed recognition of authority in practice"
+                ],
+                [
+                  "Normative legitimacy",
+                  "Moral justification for exercising power"
+                ],
+                [
+                  "Plural constitutionalism",
+                  "Constitutional relationship among distinct authorities"
+                ],
+                [
+                  "Reasoned review",
+                  "Institutional scrutiny of a decision's grounds"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Observed recognition of authority in practice is called ___.",
+              "answer": "Sociological acceptance",
+              "accept": [
+                "Sociological acceptance"
+              ],
+              "explanation": "The term is Sociological acceptance."
+            },
+            {
+              "id": "PSU-1.3.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Institutional scrutiny of a decision's grounds is called ___.",
+              "answer": "Reasoned review",
+              "accept": [
+                "Reasoned review"
+              ],
+              "explanation": "The term is Reasoned review."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
