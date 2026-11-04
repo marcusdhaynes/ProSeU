@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "constitutional-doctrines",
+      "name": "Constitutional Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Early public-law limits without inventing a modern constitution",
+          "summary": "Study the Roman Twelve Tables as a historical demand that rules become publicly knowable. Learn why publicly recorded laws are important but do not themselves create universal rights or a modern separation of powers.",
+          "checklist": [
+            "I can identify the Twelve Tables' basic historical significance",
+            "I can distinguish publicity of law from constitutional supremacy",
+            "I can explain how social status limited early legal protection"
+          ],
+          "sections": [
+            {
+              "title": "The Demand for Knowable Rules",
+              "body_md": "The Twelve Tables, traditionally dated to the mid-fifth century BCE, were an early Roman public statement of laws. Later authors preserve fragments, but the original tablets are lost. Ancient accounts connect their appearance with conflict about the control and accessibility of legal rules. What matters for legal history is the claim that law should be knowable outside a small group of officials. That claim is not equivalent to a fully written modern constitution or the equal right of everyone to vote.",
+              "audio_script": "The Twelve Tables, traditionally dated to the mid-fifth century BCE, were an early Roman public statement of laws. Later authors preserve fragments, but the original tablets are lost. Ancient accounts connect their appearance with conflict about the control and accessibility of legal rules. What matters for legal history is the claim that law should be knowable outside a small group of officials. That claim is not equivalent to a fully written modern constitution or the equal right of everyone to vote.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Public Text Does Not End Hierarchy",
+              "body_md": "Roman public rules operated in a society with differences among citizens, women, noncitizens, enslaved persons and family positions. An inscribed rule might constrain a magistrate or inform a litigant without abolishing those distinctions. The lesson is to separate publicity, legal predictability and equality. They can reinforce one another but are not the same doctrine. To understand any ancient provision, identify the text's source, whose conduct it regulated and which authority could enforce it. Historical rights must be read with their historical exclusions.",
+              "audio_script": "Roman public rules operated in a society with differences among citizens, women, noncitizens, enslaved persons and family positions. An inscribed rule might constrain a magistrate or inform a litigant without abolishing those distinctions. The lesson is to separate publicity, legal predictability and equality. They can reinforce one another but are not the same doctrine. To understand any ancient provision, identify the text's source, whose conduct it regulated and which authority could enforce it. Historical rights must be read with their historical exclusions.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "What Makes a Rule Fundamental?",
+              "body_md": "Modern constitutions may control the legal validity of ordinary laws, distribute powers among institutions and secure protected rights. The Twelve Tables did not do all of that in the modern sense. They were nevertheless important in Rome's legal development and its later memory. This distinction helps students avoid describing every old legal compilation as a constitution. The proper question is which institution a text constrained and by what recognized legal mechanism. A visible rule is a first step, not the entire structure of accountable government.",
+              "audio_script": "Modern constitutions may control the legal validity of ordinary laws, distribute powers among institutions and secure protected rights. The Twelve Tables did not do all of that in the modern sense. They were nevertheless important in Rome's legal development and its later memory. This distinction helps students avoid describing every old legal compilation as a constitution. The proper question is which institution a text constrained and by what recognized legal mechanism. A visible rule is a first step, not the entire structure of accountable government.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Publicity of law means accessibility and announcement of legal rules.",
+              "answer": true,
+              "explanation_if_true": "Publicity of law means accessibility and announcement of legal rules.",
+              "explanation_if_false": "Publicity of law means accessibility and announcement of legal rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "The Twelve Tables created a complete modern democratic constitution with universal political rights.",
+              "answer": false,
+              "explanation_if_true": "They were ancient Roman legal provisions within a society structured by significant legal and political inequalities.",
+              "explanation_if_false": "They were ancient Roman legal provisions within a society structured by significant legal and political inequalities."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What best describes Twelve Tables?",
+              "choices": [
+                "Ordered relation among recognized sources of authority",
+                "Early Roman publicly known legal provisions",
+                "Accessibility and announcement of legal rules",
+                "Priority of fundamental law over conflicting ordinary rules"
+              ],
+              "answer_index": 1,
+              "explanation": "Twelve Tables means early roman publicly known legal provisions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A researcher calls the Twelve Tables the first modern bill of rights. What correction matters most?",
+              "choices": [
+                "Separate public lawmaking from modern universal constitutional rights",
+                "Deny that any Roman law existed",
+                "Treat all public inscriptions as private contracts",
+                "Ignore the role of later Roman writers"
+              ],
+              "answer_index": 0,
+              "explanation": "Public rules did not establish modern political equality or a full constitutional charter."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means priority of fundamental law over conflicting ordinary rules?",
+              "choices": [
+                "Publicity of law",
+                "Constitutional supremacy",
+                "Twelve Tables",
+                "Legal hierarchy"
+              ],
+              "answer_index": 1,
+              "explanation": "Constitutional supremacy means priority of fundamental law over conflicting ordinary rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional document or principle with its meaning.",
+              "pairs": [
+                [
+                  "Twelve Tables",
+                  "Early Roman publicly known legal provisions"
+                ],
+                [
+                  "Publicity of law",
+                  "Accessibility and announcement of legal rules"
+                ],
+                [
+                  "Constitutional supremacy",
+                  "Priority of fundamental law over conflicting ordinary rules"
+                ],
+                [
+                  "Legal hierarchy",
+                  "Ordered relation among recognized sources of authority"
+                ]
+              ],
+              "explanation": "Source, date and legal force distinguish these ideas."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Early Roman publicly known legal provisions is called ___.",
+              "answer": "Twelve Tables",
+              "accept": [
+                "Twelve Tables"
+              ],
+              "explanation": "The answer is Twelve Tables."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Ordered relation among recognized sources of authority is called ___.",
+              "answer": "Legal hierarchy",
+              "accept": [
+                "Legal hierarchy"
+              ],
+              "explanation": "The answer is Legal hierarchy."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Magna Carta and the negotiated restraint of royal power",
+          "summary": "Read Magna Carta as an agreement born of conflict in 1215 and developed through reissues. Examine its limits on royal action without calling it an immediate universal constitution.",
+          "checklist": [
+            "I can distinguish 1215 Magna Carta from its later reissues",
+            "I can identify lawful-judgment and access-to-justice themes",
+            "I can explain why enforcement depended on political institutions"
+          ],
+          "sections": [
+            {
+              "title": "A Charter in a Crisis",
+              "body_md": "King John sealed Magna Carta at Runnymede on 15 June 1215 in conflict with rebellious barons. Its provisions addressed specific grievances and protected particular liberties within the feudal order. The promise concerning lawful judgment and the law of the land later became influential in constitutional thought. But the first charter was a political settlement, not an immediately functioning modern universal bill of rights. Explain who negotiated the charter, which people its clauses addressed and what authority could compel royal compliance.",
+              "audio_script": "King John sealed Magna Carta at Runnymede on 15 June 1215 in conflict with rebellious barons. Its provisions addressed specific grievances and protected particular liberties within the feudal order. The promise concerning lawful judgment and the law of the land later became influential in constitutional thought. But the first charter was a political settlement, not an immediately functioning modern universal bill of rights. Explain who negotiated the charter, which people its clauses addressed and what authority could compel royal compliance.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Reissue Changes the Story",
+              "body_md": "The 1215 settlement quickly failed. Magna Carta was reissued after John's death, notably in revised forms in 1216, 1225 and 1297. The 1297 version entered the English statute rolls. A legal historian should not treat every clause of every version as identical. The charter's later symbolic significance arose from continued legal and political argument. To analyze a quoted provision, identify its text, date and legal status before describing what it meant to contemporaries or to later constitutional lawyers.",
+              "audio_script": "The 1215 settlement quickly failed. Magna Carta was reissued after John's death, notably in revised forms in 1216, 1225 and 1297. The 1297 version entered the English statute rolls. A legal historian should not treat every clause of every version as identical. The charter's later symbolic significance arose from continued legal and political argument. To analyze a quoted provision, identify its text, date and legal status before describing what it meant to contemporaries or to later constitutional lawyers.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Rule-of-Law Problem",
+              "body_md": "A ruler can promise to obey limits, but who decides whether the promise was breached? Magna Carta's history illustrates the difficulty of constraining monarchy through documents without reliable enforcement institutions. Its influence later became connected with legal process and the idea that power answers to law. Yet the charter's immediate terms protected people unequally. Both facts belong in an accurate account. The promise of lawful government must be assessed by whether affected persons can invoke it in practice.",
+              "audio_script": "A ruler can promise to obey limits, but who decides whether the promise was breached? Magna Carta's history illustrates the difficulty of constraining monarchy through documents without reliable enforcement institutions. Its influence later became connected with legal process and the idea that power answers to law. Yet the charter's immediate terms protected people unequally. Both facts belong in an accurate account. The promise of lawful government must be assessed by whether affected persons can invoke it in practice.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Law of the land means historical phrase connected with lawful royal process.",
+              "answer": true,
+              "explanation_if_true": "Law of the land means historical phrase connected with lawful royal process.",
+              "explanation_if_false": "Law of the land means historical phrase connected with lawful royal process."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The 1215 Magna Carta remained in force unchanged and universally enforced from the day King John sealed it.",
+              "answer": false,
+              "explanation_if_true": "The first settlement failed and later reissues altered its wording and legal status.",
+              "explanation_if_false": "The first settlement failed and later reissues altered its wording and legal status."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What best describes Magna Carta?",
+              "choices": [
+                "English charter sealed by King John in 1215",
+                "Historical phrase connected with lawful royal process",
+                "Renewed promulgation of a revised instrument",
+                "Official record in which enacted texts could be entered"
+              ],
+              "answer_index": 0,
+              "explanation": "Magna Carta means english charter sealed by king john in 1215."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A textbook quotes a clause said to come from Magna Carta but does not identify its year. What is the first research step?",
+              "choices": [
+                "Assume all versions are identical",
+                "Replace it with a Roman law",
+                "Ignore the clause's historical setting",
+                "Determine which charter version contains the clause"
+              ],
+              "answer_index": 3,
+              "explanation": "The charter's form, clauses and status changed with its reissues."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means renewed promulgation of a revised instrument?",
+              "choices": [
+                "Reissue",
+                "Magna Carta",
+                "Statute roll",
+                "Law of the land"
+              ],
+              "answer_index": 0,
+              "explanation": "Reissue means renewed promulgation of a revised instrument."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional document or principle with its meaning.",
+              "pairs": [
+                [
+                  "Magna Carta",
+                  "English charter sealed by King John in 1215"
+                ],
+                [
+                  "Law of the land",
+                  "Historical phrase connected with lawful royal process"
+                ],
+                [
+                  "Reissue",
+                  "Renewed promulgation of a revised instrument"
+                ],
+                [
+                  "Statute roll",
+                  "Official record in which enacted texts could be entered"
+                ]
+              ],
+              "explanation": "Source, date and legal force distinguish these ideas."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "English charter sealed by King John in 1215 is called ___.",
+              "answer": "Magna Carta",
+              "accept": [
+                "Magna Carta"
+              ],
+              "explanation": "The answer is Magna Carta."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Official record in which enacted texts could be entered is called ___.",
+              "answer": "Statute roll",
+              "accept": [
+                "Statute roll"
+              ],
+              "explanation": "The answer is Statute roll."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Rights declarations and institutional restraint in the late 1600s and 1700s",
+          "summary": "Compare English, American and French constitutional settlements without making them identical. Identify the distinct legal mechanisms by which institutions limited rulers and asserted personal rights.",
+          "checklist": [
+            "I can identify the English Bill of Rights of 1689",
+            "I can distinguish the U.S. Constitution from its 1791 amendments",
+            "I can explain the French 1789 Declaration's account of rights and separated powers"
+          ],
+          "sections": [
+            {
+              "title": "England's Parliamentary Settlement",
+              "body_md": "The English Bill of Rights received statutory effect in 1689 following the Glorious Revolution and settlement with William and Mary. It addressed particular abuses associated with James II and asserted limits on royal authority in relation to Parliament. UK Parliament notes that it was not a statement of universal liberties. Its significance lies in shifting the legal relationship between crown, Parliament and subjects. A historical comparison must identify which commitments took statutory form rather than describe every European rights declaration as operating through the same constitutional hierarchy.",
+              "audio_script": "The English Bill of Rights received statutory effect in 1689 following the Glorious Revolution and settlement with William and Mary. It addressed particular abuses associated with James II and asserted limits on royal authority in relation to Parliament. UK Parliament notes that it was not a statement of universal liberties. Its significance lies in shifting the legal relationship between crown, Parliament and subjects. A historical comparison must identify which commitments took statutory form rather than describe every European rights declaration as operating through the same constitutional hierarchy.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The American Amendment Story",
+              "body_md": "The United States Constitution was signed in 1787 and established a federal framework of government. Political debate over ratification led to amendments protecting individual liberties. Ten amendments became the Bill of Rights in 1791, not in 1787. Later changes, legislation and judicial interpretation altered how constitutional protections operate. The historical analyst should distinguish founding text, amendment and subsequent doctrine. Do not claim the early federal constitution offered equal protection in practice to every person living under it; profound exclusions and slavery coexisted with constitutional language.",
+              "audio_script": "The United States Constitution was signed in 1787 and established a federal framework of government. Political debate over ratification led to amendments protecting individual liberties. Ten amendments became the Bill of Rights in 1791, not in 1787. Later changes, legislation and judicial interpretation altered how constitutional protections operate. The historical analyst should distinguish founding text, amendment and subsequent doctrine. Do not claim the early federal constitution offered equal protection in practice to every person living under it; profound exclusions and slavery coexisted with constitutional language.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "France's Declaration and Power",
+              "body_md": "The French Declaration of the Rights of Man and of the Citizen was adopted in August 1789. Its Article 16 links the idea of a constitution to guarantees of rights and separation of powers. That is a normative constitutional claim made amid revolutionary change, not proof that those ideals were immediately or consistently realized. The declaration and the later Civil Code of 1804 are distinct documents with different functions. Compare the legal sources and political settings before assuming they created the same type of judicial review.",
+              "audio_script": "The French Declaration of the Rights of Man and of the Citizen was adopted in August 1789. Its Article 16 links the idea of a constitution to guarantees of rights and separation of powers. That is a normative constitutional claim made amid revolutionary change, not proof that those ideals were immediately or consistently realized. The declaration and the later Civil Code of 1804 are distinct documents with different functions. Compare the legal sources and political settings before assuming they created the same type of judicial review.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "U.S. Bill of Rights means ten federal constitutional amendments ratified in 1791.",
+              "answer": true,
+              "explanation_if_true": "U.S. Bill of Rights means ten federal constitutional amendments ratified in 1791.",
+              "explanation_if_false": "U.S. Bill of Rights means ten federal constitutional amendments ratified in 1791."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "The English 1689, U.S. 1791 and French 1789 rights texts were one legal instrument with identical effects.",
+              "answer": false,
+              "explanation_if_true": "They arose in distinct political orders, using different institutional forms and mechanisms of enforcement.",
+              "explanation_if_false": "They arose in distinct political orders, using different institutional forms and mechanisms of enforcement."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What best describes English Bill of Rights?",
+              "choices": [
+                "Ten federal constitutional amendments ratified in 1791",
+                "1789 declaration of rights and constitutional principles",
+                "Allocation of governing functions to limit concentration",
+                "1689 statute constraining certain royal practices"
+              ],
+              "answer_index": 3,
+              "explanation": "English Bill of Rights means 1689 statute constraining certain royal practices."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An account says the U.S. Constitution was signed in 1787 with its first ten amendments already ratified. What correction is needed?",
+              "choices": [
+                "France enacted its Civil Code in 1689",
+                "Rome adopted the U.S. Constitution",
+                "The Bill of Rights was ratified in 1791",
+                "Magna Carta was written in the twentieth century"
+              ],
+              "answer_index": 2,
+              "explanation": "The original Constitution and later amendments belong to different moments."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means 1789 declaration of rights and constitutional principles?",
+              "choices": [
+                "English Bill of Rights",
+                "Separation of powers",
+                "U.S. Bill of Rights",
+                "French Declaration"
+              ],
+              "answer_index": 3,
+              "explanation": "French Declaration means 1789 declaration of rights and constitutional principles."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional document or principle with its meaning.",
+              "pairs": [
+                [
+                  "English Bill of Rights",
+                  "1689 statute constraining certain royal practices"
+                ],
+                [
+                  "U.S. Bill of Rights",
+                  "Ten federal constitutional amendments ratified in 1791"
+                ],
+                [
+                  "French Declaration",
+                  "1789 declaration of rights and constitutional principles"
+                ],
+                [
+                  "Separation of powers",
+                  "Allocation of governing functions to limit concentration"
+                ]
+              ],
+              "explanation": "Source, date and legal force distinguish these ideas."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "1689 statute constraining certain royal practices is called ___.",
+              "answer": "English Bill of Rights",
+              "accept": [
+                "English Bill of Rights"
+              ],
+              "explanation": "The answer is English Bill of Rights."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Allocation of governing functions to limit concentration is called ___.",
+              "answer": "Separation of powers",
+              "accept": [
+                "Separation of powers"
+              ],
+              "explanation": "The answer is Separation of powers."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Constitutional hierarchy, exclusion and enduring legitimacy",
+          "summary": "Evaluate why constitutional settlements that restrained rulers sometimes preserved domination or exclusion. Critique the tension between foundational stability and a population's right to reform institutions that govern their freedom.",
+          "checklist": [
+            "I can distinguish constitutional validity from moral legitimacy",
+            "I can analyze exclusion embedded in foundational settlements",
+            "I can defend mechanisms that protect rights while allowing accountable change"
+          ],
+          "sections": [
+            {
+              "title": "Foundations Were Not Equally Shared",
+              "body_md": "The modern constitutional tradition includes vital restraints on arbitrary government alongside slavery, unequal citizenship, colonial domination and limited political voice. The texts of 1689, 1787 and 1789 must be studied with both their achievements and their exclusions. A doctoral historian cannot infer that a declaration's universal vocabulary immediately produced universal lived rights. The appropriate method is to identify the people allowed to participate in constitutional creation, those governed without meaningful consent and the later legal reforms required to expand protection.",
+              "audio_script": "The modern constitutional tradition includes vital restraints on arbitrary government alongside slavery, unequal citizenship, colonial domination and limited political voice. The texts of 1689, 1787 and 1789 must be studied with both their achievements and their exclusions. A doctoral historian cannot infer that a declaration's universal vocabulary immediately produced universal lived rights. The appropriate method is to identify the people allowed to participate in constitutional creation, those governed without meaningful consent and the later legal reforms required to expand protection.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Entrenchment Creates a Dilemma",
+              "body_md": "Making constitutional rules difficult to change can protect vulnerable people against a temporary majority. The same rigidity can preserve earlier exclusions or block urgent reform. Different legal systems respond through amendments, courts, political practices and sometimes exceptional founding transformations. Evaluate the benefits of stability alongside the distribution of power in setting the rules. Formal legality is relevant but not sufficient to answer whether a foundational settlement deserves moral obedience. A credible constitutional design must offer principled routes for correction.",
+              "audio_script": "Making constitutional rules difficult to change can protect vulnerable people against a temporary majority. The same rigidity can preserve earlier exclusions or block urgent reform. Different legal systems respond through amendments, courts, political practices and sometimes exceptional founding transformations. Evaluate the benefits of stability alongside the distribution of power in setting the rules. Formal legality is relevant but not sufficient to answer whether a foundational settlement deserves moral obedience. A credible constitutional design must offer principled routes for correction.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Legal Order and Human Dignity",
+              "body_md": "Imagine a constitution securing speech but denying a segment of the population political participation. A lawyer must first analyze the binding legal position, relevant rights and lawful avenues for challenge. A historian must then ask how such an exclusion arose and what movements contested it. These roles complement rather than replace each other. Constitutional mastery means identifying text, institution, remedy and legitimacy without pretending that familiar founding documents are flawless. The deeper purpose of legal education is to protect real lives and freedoms through accountable law.",
+              "audio_script": "Imagine a constitution securing speech but denying a segment of the population political participation. A lawyer must first analyze the binding legal position, relevant rights and lawful avenues for challenge. A historian must then ask how such an exclusion arose and what movements contested it. These roles complement rather than replace each other. Constitutional mastery means identifying text, institution, remedy and legitimacy without pretending that familiar founding documents are flawless. The deeper purpose of legal education is to protect real lives and freedoms through accountable law.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Constituent power means authority claimed to establish a constitutional order.",
+              "answer": true,
+              "explanation_if_true": "Constituent power means authority claimed to establish a constitutional order.",
+              "explanation_if_false": "Constituent power means authority claimed to establish a constitutional order."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A foundational document is necessarily morally legitimate whenever courts regard it as formally binding.",
+              "answer": false,
+              "explanation_if_true": "Recognized legal validity does not alone answer whose participation or rights the settlement protects.",
+              "explanation_if_false": "Recognized legal validity does not alone answer whose participation or rights the settlement protects."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What best describes Constitutional entrenchment?",
+              "choices": [
+                "Denial of full participation to particular persons or groups",
+                "Justification for a foundational legal order's authority",
+                "Special barriers to changing foundational legal rules",
+                "Authority claimed to establish a constitutional order"
+              ],
+              "answer_index": 2,
+              "explanation": "Constitutional entrenchment means special barriers to changing foundational legal rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A stable constitution protects many liberties but permanently excludes a minority from participation. What dilemma arises?",
+              "choices": [
+                "The precise shape of a writ",
+                "Entrenchment versus legitimate reform",
+                "Only an arithmetic problem",
+                "Whether the charter was carved in stone"
+              ],
+              "answer_index": 1,
+              "explanation": "Constitutional stability must be weighed against just participation and the capacity to correct exclusions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means denial of full participation to particular persons or groups?",
+              "choices": [
+                "Constitutional legitimacy",
+                "Constituent power",
+                "Excluded citizenship",
+                "Constitutional entrenchment"
+              ],
+              "answer_index": 2,
+              "explanation": "Excluded citizenship means denial of full participation to particular persons or groups."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional document or principle with its meaning.",
+              "pairs": [
+                [
+                  "Constitutional entrenchment",
+                  "Special barriers to changing foundational legal rules"
+                ],
+                [
+                  "Constituent power",
+                  "Authority claimed to establish a constitutional order"
+                ],
+                [
+                  "Excluded citizenship",
+                  "Denial of full participation to particular persons or groups"
+                ],
+                [
+                  "Constitutional legitimacy",
+                  "Justification for a foundational legal order's authority"
+                ]
+              ],
+              "explanation": "Source, date and legal force distinguish these ideas."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Special barriers to changing foundational legal rules is called ___.",
+              "answer": "Constitutional entrenchment",
+              "accept": [
+                "Constitutional entrenchment"
+              ],
+              "explanation": "The answer is Constitutional entrenchment."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.constitutional-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification for a foundational legal order's authority is called ___.",
+              "answer": "Constitutional legitimacy",
+              "accept": [
+                "Constitutional legitimacy"
+              ],
+              "explanation": "The answer is Constitutional legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
