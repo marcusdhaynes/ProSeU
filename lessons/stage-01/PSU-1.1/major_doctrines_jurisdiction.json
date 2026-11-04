@@ -60,12 +60,12 @@
               "type": "multiple_choice",
               "prompt": "Which definition best describes Jurisdiction?",
               "choices": [
+                "Authority tied to a place or connection",
                 "Legally conferred authority to decide or act",
                 "Authority over a category of cases",
-                "Authority over an identified party",
-                "Authority tied to a place or connection"
+                "Authority over an identified party"
               ],
-              "answer_index": 0,
+              "answer_index": 1,
               "explanation": "Jurisdiction means legally conferred authority to decide or act."
             },
             {
@@ -86,12 +86,12 @@
               "type": "multiple_choice",
               "prompt": "Which term means: Authority over an identified party?",
               "choices": [
-                "Subject-matter jurisdiction",
                 "Personal jurisdiction",
                 "Jurisdiction",
-                "Territorial jurisdiction"
+                "Territorial jurisdiction",
+                "Subject-matter jurisdiction"
               ],
-              "answer_index": 1,
+              "answer_index": 0,
               "explanation": "Personal jurisdiction is authority over an identified party."
             },
             {
@@ -208,12 +208,12 @@
               "type": "multiple_choice",
               "prompt": "A court has power to hear a case, but it was filed in the wrong district. What should be examined?",
               "choices": [
-                "Venue",
                 "Choice of law only",
                 "The claimant's character",
-                "Criminal guilt"
+                "Criminal guilt",
+                "Venue"
               ],
-              "answer_index": 0,
+              "answer_index": 3,
               "explanation": "Venue can be wrong even though the court has legal authority over the dispute."
             },
             {
@@ -221,12 +221,12 @@
               "type": "multiple_choice",
               "prompt": "Which term means: Authority reserved to a particular forum?",
               "choices": [
-                "Choice of law",
-                "Exclusive jurisdiction",
                 "Venue",
-                "Concurrent jurisdiction"
+                "Concurrent jurisdiction",
+                "Choice of law",
+                "Exclusive jurisdiction"
               ],
-              "answer_index": 1,
+              "answer_index": 3,
               "explanation": "Exclusive jurisdiction is authority reserved to a particular forum."
             },
             {
@@ -330,12 +330,12 @@
               "type": "multiple_choice",
               "prompt": "Which definition best describes Prescriptive jurisdiction?",
               "choices": [
-                "Power to prescribe binding rules",
                 "Power of a tribunal to decide",
                 "Power to compel compliance physically",
-                "Acceptance of a foreign judgment's legal effect"
+                "Acceptance of a foreign judgment's legal effect",
+                "Power to prescribe binding rules"
               ],
-              "answer_index": 0,
+              "answer_index": 3,
               "explanation": "Prescriptive jurisdiction means power to prescribe binding rules."
             },
             {
@@ -343,12 +343,12 @@
               "type": "multiple_choice",
               "prompt": "A state regulates foreign commerce but wants to send officers to seize goods abroad without consent. Which power poses the clearest problem?",
               "choices": [
-                "Enforcement jurisdiction",
-                "Choice of law",
                 "Venue",
-                "Private arbitration"
+                "Private arbitration",
+                "Enforcement jurisdiction",
+                "Choice of law"
               ],
-              "answer_index": 0,
+              "answer_index": 2,
               "explanation": "Coercive action on foreign territory invokes distinct sovereignty limits on enforcement."
             },
             {
@@ -356,12 +356,12 @@
               "type": "multiple_choice",
               "prompt": "Which term means: Power to compel compliance physically?",
               "choices": [
+                "Recognition",
                 "Adjudicative jurisdiction",
                 "Enforcement jurisdiction",
-                "Prescriptive jurisdiction",
-                "Recognition"
+                "Prescriptive jurisdiction"
               ],
-              "answer_index": 1,
+              "answer_index": 2,
               "explanation": "Enforcement jurisdiction is power to compel compliance physically."
             },
             {
@@ -465,12 +465,12 @@
               "type": "multiple_choice",
               "prompt": "Which definition best describes Jurisdictional pluralism?",
               "choices": [
-                "Overlapping claims of authority by distinct legal orders",
-                "Practical opportunity to obtain a hearing",
                 "Ability to anticipate the forum governing conduct",
-                "Justification for an institution's claim to decide"
+                "Justification for an institution's claim to decide",
+                "Overlapping claims of authority by distinct legal orders",
+                "Practical opportunity to obtain a hearing"
               ],
-              "answer_index": 0,
+              "answer_index": 2,
               "explanation": "Jurisdictional pluralism means overlapping claims of authority by distinct legal orders."
             },
             {
@@ -478,12 +478,12 @@
               "type": "multiple_choice",
               "prompt": "An online-harm rule allows victims to sue anywhere but makes exposure limitless. What is the central trade-off?",
               "choices": [
+                "Statute versus custom",
                 "Access versus predictability",
                 "Venue versus evidence",
-                "Fact versus procedure",
-                "Statute versus custom"
+                "Fact versus procedure"
               ],
-              "answer_index": 0,
+              "answer_index": 1,
               "explanation": "An accessible forum can become unpredictable for defendants; legitimacy requires confronting both interests."
             },
             {
