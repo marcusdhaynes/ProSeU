@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "liability-doctrines",
+      "name": "Liability Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Reading ancient responsibility without inventing modern negligence",
+          "summary": "Hammurabi's builders and traders were assigned consequences under particular judgments. Learn to separate the text's conditional rule from modern ideas of fault and equal treatment.",
+          "checklist": [
+            "I can identify the facts triggering an ancient responsibility rule",
+            "I can distinguish a fixed historical consequence from a modern damages test",
+            "I can recognize social status in ancient liability judgments"
+          ],
+          "sections": [
+            {
+              "title": "A House Falls",
+              "body_md": "A provision of Hammurabi's collection concerns a builder whose poorly secured house collapses and kills its owner. The rule records a severe consequence, linking specified construction conduct with a specified result. The first task is to read its conditions accurately: who built, what failed and what harm followed. This is evidence of an ancient assignment of legal responsibility, not proof that Babylonian judges applied the modern negligence elements of duty, breach, causation and foreseeability in every construction case.",
+              "audio_script": "A provision of Hammurabi's collection concerns a builder whose poorly secured house collapses and kills its owner. The rule records a severe consequence, linking specified construction conduct with a specified result. The first task is to read its conditions accurately: who built, what failed and what harm followed. This is evidence of an ancient assignment of legal responsibility, not proof that Babylonian judges applied the modern negligence elements of duty, breach, causation and foreseeability in every construction case.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "If and Then",
+              "body_md": "The Louvre notes that Hammurabi's judgments commonly use conditional language: if a situation occurs, then a response follows. This form can look like a modern statute, but its institutional context and purpose differ. The text may specify liability where harm occurs to particular persons or property. Its conditions must be read together. A responsible historian refuses to isolate the sentence's punishment while ignoring which status categories the provision recognizes and which facts the ruler chose to emphasize.",
+              "audio_script": "The Louvre notes that Hammurabi's judgments commonly use conditional language: if a situation occurs, then a response follows. This form can look like a modern statute, but its institutional context and purpose differ. The text may specify liability where harm occurs to particular persons or property. Its conditions must be read together. A responsible historian refuses to isolate the sentence's punishment while ignoring which status categories the provision recognizes and which facts the ruler chose to emphasize.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Human Consequence",
+              "body_md": "A builder's work protects a person's home and life. That human stake helps explain why legal orders have long grappled with responsibility for dangerous construction. Yet compassion cannot settle the historical rule or excuse an unjust punishment. Compare the need to protect occupants with the harshness and hierarchy of recorded consequences. The beginner learns two disciplines: identify the legal trigger precisely, and evaluate the fairness of the response without pretending that the ancient text already contains modern standards.",
+              "audio_script": "A builder's work protects a person's home and life. That human stake helps explain why legal orders have long grappled with responsibility for dangerous construction. Yet compassion cannot settle the historical rule or excuse an unjust punishment. Compare the need to protect occupants with the harshness and hierarchy of recorded consequences. The beginner learns two disciplines: identify the legal trigger precisely, and evaluate the fairness of the response without pretending that the ancient text already contains modern standards.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Builder responsibility means liability assigned for qualifying construction harm.",
+              "answer": true,
+              "explanation_if_true": "Builder responsibility is liability assigned for qualifying construction harm.",
+              "explanation_if_false": "Builder responsibility is liability assigned for qualifying construction harm."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "A builder's liability rule on Hammurabi's stele proves Babylon had a complete modern negligence code.",
+              "answer": false,
+              "explanation_if_true": "A conditional historical judgment cannot establish the elements or procedures of a modern negligence system.",
+              "explanation_if_false": "A conditional historical judgment cannot establish the elements or procedures of a modern negligence system."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Conditional judgment?",
+              "choices": [
+                "Assignment of consequence under a past legal norm",
+                "Rule applying a stated response when specified facts arise",
+                "Liability assigned for qualifying construction harm",
+                "Different legal treatment based on recognized social rank"
+              ],
+              "answer_index": 1,
+              "explanation": "Conditional judgment is rule applying a stated response when specified facts arise."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A provision links a collapsed house to a severe punishment but says nothing about modern negligence doctrine. What can be concluded?",
+              "choices": [
+                "The text prescribed responsibility for stated circumstances",
+                "Modern negligence was fully codified",
+                "Every building defect always carried the same penalty",
+                "Only private damages could be recovered"
+              ],
+              "answer_index": 0,
+              "explanation": "Read the stated rule without importing doctrinal elements from another era."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes different legal treatment based on recognized social rank?",
+              "choices": [
+                "Builder responsibility",
+                "Status distinction",
+                "Conditional judgment",
+                "Historical attribution"
+              ],
+              "answer_index": 1,
+              "explanation": "Status distinction is different legal treatment based on recognized social rank."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match these historical liability concepts.",
+              "pairs": [
+                [
+                  "Conditional judgment",
+                  "Rule applying a stated response when specified facts arise"
+                ],
+                [
+                  "Builder responsibility",
+                  "Liability assigned for qualifying construction harm"
+                ],
+                [
+                  "Status distinction",
+                  "Different legal treatment based on recognized social rank"
+                ],
+                [
+                  "Historical attribution",
+                  "Assignment of consequence under a past legal norm"
+                ]
+              ],
+              "explanation": "These terms belong to distinct legal contexts."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Rule applying a stated response when specified facts arise is known as ___.",
+              "answer": "Conditional judgment",
+              "accept": [
+                "Conditional judgment"
+              ],
+              "explanation": "The term is Conditional judgment."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Assignment of consequence under a past legal norm is known as ___.",
+              "answer": "Historical attribution",
+              "accept": [
+                "Historical attribution"
+              ],
+              "explanation": "The term is Historical attribution."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Roman Aquilian liability and the role of fault",
+          "summary": "Study the Lex Aquilia as a concrete source of Roman wrongful-damage liability. Learn how jurists extended its initially narrower categories through interpretation and procedural remedies.",
+          "checklist": [
+            "I can identify wrongful damage under the Lex Aquilia",
+            "I can distinguish property damage from broader modern personal injury law",
+            "I can explain why juristic interpretation altered practical coverage"
+          ],
+          "sections": [
+            {
+              "title": "The Lex Aquilia's Starting Point",
+              "body_md": "The Lex Aquilia, probably enacted around the third century BCE, addressed certain wrongful damage to another's property. Its well-known first chapter covered the wrongful killing of another's slave or specified livestock; another chapter dealt with other damage to property. The historical categories reflect a world in which enslaved humans were treated as property by law. That fact is indispensable and morally troubling. The provision's scope was not a general modern tort law embracing every person and injury.",
+              "audio_script": "The Lex Aquilia, probably enacted around the third century BCE, addressed certain wrongful damage to another's property. Its well-known first chapter covered the wrongful killing of another's slave or specified livestock; another chapter dealt with other damage to property. The historical categories reflect a world in which enslaved humans were treated as property by law. That fact is indispensable and morally troubling. The provision's scope was not a general modern tort law embracing every person and injury.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Wrongfulness and Fault",
+              "body_md": "Roman jurists developed the idea of damnum iniuria datum, wrongful damage, and analyzed when conduct should be attributed to a defendant. Their discussions of culpa, fault, helped shape later private-law thought. But translations of iniuria and culpa cannot be treated as timeless equivalents of today's negligence vocabulary. A historian must identify the relevant passage, its era and the legal action. The same word can carry meanings shaped by procedural history and the interests the institution actually protected.",
+              "audio_script": "Roman jurists developed the idea of damnum iniuria datum, wrongful damage, and analyzed when conduct should be attributed to a defendant. Their discussions of culpa, fault, helped shape later private-law thought. But translations of iniuria and culpa cannot be treated as timeless equivalents of today's negligence vocabulary. A historian must identify the relevant passage, its era and the legal action. The same word can carry meanings shaped by procedural history and the interests the institution actually protected.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Extending an Old Rule",
+              "body_md": "Jurists and praetors explored remedies for indirect damage and cases outside the statute's original wording. Actions such as an actio utilis or actio in factum could widen practical protection, though their grounds varied. That is a lesson about doctrinal change through interpretation: a legal system can adapt a written rule without rewriting the original text. Whether the expansion was justified depends on how the court reasoned from recognized authority, facts and the legal problem presented.",
+              "audio_script": "Jurists and praetors explored remedies for indirect damage and cases outside the statute's original wording. Actions such as an actio utilis or actio in factum could widen practical protection, though their grounds varied. That is a lesson about doctrinal change through interpretation: a legal system can adapt a written rule without rewriting the original text. Whether the expansion was justified depends on how the court reasoned from recognized authority, facts and the legal problem presented.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Culpa means roman concept of fault interpreted in its historical context.",
+              "answer": true,
+              "explanation_if_true": "Culpa is roman concept of fault interpreted in its historical context.",
+              "explanation_if_false": "Culpa is roman concept of fault interpreted in its historical context."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Lex Aquilia originally protected every free person's bodily injury in the same way as damaged property.",
+              "answer": false,
+              "explanation_if_true": "Its early scope was directed to specified property interests, with later juristic extensions.",
+              "explanation_if_false": "Its early scope was directed to specified property interests, with later juristic extensions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Lex Aquilia?",
+              "choices": [
+                "Roman statute addressing specified wrongful property damage",
+                "Roman concept of fault interpreted in its historical context",
+                "Wrongful damage to property in Roman private law",
+                "Adapted legal action extending protection in appropriate cases"
+              ],
+              "answer_index": 0,
+              "explanation": "Lex Aquilia is roman statute addressing specified wrongful property damage."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A Roman claimant suffered indirect damage outside a statute's literal wording. What development might a jurist consider?",
+              "choices": [
+                "Automatic modern product liability",
+                "Appeal to the European Union Court",
+                "The twentieth-century human-rights declaration",
+                "An adapted action based on the statute's policy"
+              ],
+              "answer_index": 3,
+              "explanation": "Roman legal reasoning sometimes extended protection through adapted procedural actions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes wrongful damage to property in roman private law?",
+              "choices": [
+                "Damnum iniuria datum",
+                "Lex Aquilia",
+                "Actio utilis",
+                "Culpa"
+              ],
+              "answer_index": 0,
+              "explanation": "Damnum iniuria datum is wrongful damage to property in roman private law."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match these historical liability concepts.",
+              "pairs": [
+                [
+                  "Lex Aquilia",
+                  "Roman statute addressing specified wrongful property damage"
+                ],
+                [
+                  "Culpa",
+                  "Roman concept of fault interpreted in its historical context"
+                ],
+                [
+                  "Damnum iniuria datum",
+                  "Wrongful damage to property in Roman private law"
+                ],
+                [
+                  "Actio utilis",
+                  "Adapted legal action extending protection in appropriate cases"
+                ]
+              ],
+              "explanation": "These terms belong to distinct legal contexts."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Roman statute addressing specified wrongful property damage is known as ___.",
+              "answer": "Lex Aquilia",
+              "accept": [
+                "Lex Aquilia"
+              ],
+              "explanation": "The term is Lex Aquilia."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Adapted legal action extending protection in appropriate cases is known as ___.",
+              "answer": "Actio utilis",
+              "accept": [
+                "Actio utilis"
+              ],
+              "explanation": "The term is Actio utilis."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "The modern duty of care emerges from common-law cases",
+          "summary": "Examine how case-by-case common-law reasoning came to recognize duties toward people outside a direct contract. Study Donoghue v Stevenson as a major illustration without treating its reasoning as universal world law.",
+          "checklist": [
+            "I can state the legal problem in Donoghue v Stevenson",
+            "I can distinguish a negligence duty from a contractual duty",
+            "I can explain historical growth through precedent"
+          ],
+          "sections": [
+            {
+              "title": "A Bottle and an Unseen Risk",
+              "body_md": "In Donoghue v Stevenson, decided by the UK House of Lords in 1932, the claimant alleged illness after drinking ginger beer from a bottle containing a decomposed snail. She had not purchased the drink herself. The dispute raised whether the manufacturer could owe her a duty of care without a contract between them. A legal-history student must distinguish the alleged facts, the legal principle under consideration and the actual procedural disposition. The decision was significant for duty reasoning, not a final factual trial finding that every allegation was proven.",
+              "audio_script": "In Donoghue v Stevenson, decided by the UK House of Lords in 1932, the claimant alleged illness after drinking ginger beer from a bottle containing a decomposed snail. She had not purchased the drink herself. The dispute raised whether the manufacturer could owe her a duty of care without a contract between them. A legal-history student must distinguish the alleged facts, the legal principle under consideration and the actual procedural disposition. The decision was significant for duty reasoning, not a final factual trial finding that every allegation was proven.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Neighbor Principle",
+              "body_md": "Lord Atkin explained a broad principle concerning reasonable care toward people closely and directly affected by one's acts, subject to legal limits. This reasoning helped develop modern negligence. It should not be summarized as a rule that everyone owes everyone compensation for any foreseeable harm. Courts later refined duty principles and placed additional limits on liability. The historical point is a movement toward recognizing responsibilities to people outside contractual relationships, while preserving the distinct legal questions of breach, causation and actionable damage.",
+              "audio_script": "Lord Atkin explained a broad principle concerning reasonable care toward people closely and directly affected by one's acts, subject to legal limits. This reasoning helped develop modern negligence. It should not be summarized as a rule that everyone owes everyone compensation for any foreseeable harm. Courts later refined duty principles and placed additional limits on liability. The historical point is a movement toward recognizing responsibilities to people outside contractual relationships, while preserving the distinct legal questions of breach, causation and actionable damage.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A Doctrine Has a History",
+              "body_md": "Donoghue did not erase Roman law, contractual remedies or statutory duties. It sits within a developing common-law tradition and has influenced many jurisdictions differently. When studying later decisions, ask which aspect of its reasoning is binding, how courts distinguished it and which policy concerns altered its reach. A single landmark can change the vocabulary of law without becoming an all-purpose legal test. A lawyer must cite the current governing law, not merely the case's fame.",
+              "audio_script": "Donoghue did not erase Roman law, contractual remedies or statutory duties. It sits within a developing common-law tradition and has influenced many jurisdictions differently. When studying later decisions, ask which aspect of its reasoning is binding, how courts distinguished it and which policy concerns altered its reach. A single landmark can change the vocabulary of law without becoming an all-purpose legal test. A lawyer must cite the current governing law, not merely the case's fame.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Duty of care means legal requirement to take specified reasonable precautions.",
+              "answer": true,
+              "explanation_if_true": "Duty of care is legal requirement to take specified reasonable precautions.",
+              "explanation_if_false": "Duty of care is legal requirement to take specified reasonable precautions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Donoghue v Stevenson finally proved every contested fact and made manufacturers automatically liable for all accidents.",
+              "answer": false,
+              "explanation_if_true": "The decision concerned whether a duty could arise; proof of other negligence elements remained necessary.",
+              "explanation_if_false": "The decision concerned whether a duty could arise; proof of other negligence elements remained necessary."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Donoghue v Stevenson?",
+              "choices": [
+                "Legal requirement to take specified reasonable precautions",
+                "Atkin's account of responsibility to closely affected persons",
+                "Earlier judicial decision used as legal authority",
+                "1932 House of Lords negligence decision"
+              ],
+              "answer_index": 3,
+              "explanation": "Donoghue v Stevenson is 1932 house of lords negligence decision."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant did not buy a bottled drink but sues its maker after alleged injury. Which historical issue is central?",
+              "choices": [
+                "Whether a Roman praetor had jurisdiction",
+                "Whether a contract was signed by a judge",
+                "A manufacturer's duty to a noncontracting consumer",
+                "Only whether the plaintiff paid sales tax"
+              ],
+              "answer_index": 2,
+              "explanation": "The case helped develop duties beyond a direct contractual relationship."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes atkin's account of responsibility to closely affected persons?",
+              "choices": [
+                "Donoghue v Stevenson",
+                "Precedent",
+                "Duty of care",
+                "Neighbor principle"
+              ],
+              "answer_index": 3,
+              "explanation": "Neighbor principle is atkin's account of responsibility to closely affected persons."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match these historical liability concepts.",
+              "pairs": [
+                [
+                  "Donoghue v Stevenson",
+                  "1932 House of Lords negligence decision"
+                ],
+                [
+                  "Duty of care",
+                  "Legal requirement to take specified reasonable precautions"
+                ],
+                [
+                  "Neighbor principle",
+                  "Atkin's account of responsibility to closely affected persons"
+                ],
+                [
+                  "Precedent",
+                  "Earlier judicial decision used as legal authority"
+                ]
+              ],
+              "explanation": "These terms belong to distinct legal contexts."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "1932 House of Lords negligence decision is known as ___.",
+              "answer": "Donoghue v Stevenson",
+              "accept": [
+                "Donoghue v Stevenson"
+              ],
+              "explanation": "The term is Donoghue v Stevenson."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Earlier judicial decision used as legal authority is known as ___.",
+              "answer": "Precedent",
+              "accept": [
+                "Precedent"
+              ],
+              "explanation": "The term is Precedent."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Liability systems and the politics of industrial risk",
+          "summary": "Compare fault liability with statutory and enterprise-based responses to mass production. Evaluate when a rule that looks neutral fails people least able to investigate or insure against industrial harm.",
+          "checklist": [
+            "I can differentiate fault and risk allocation theories historically",
+            "I can explain how evidence barriers shaped industrial reform",
+            "I can critique liability proposals without conflating policy and existing law"
+          ],
+          "sections": [
+            {
+              "title": "Industry Exposes the Limits of Fault",
+              "body_md": "Factories and mass markets produce injuries involving complex systems, poorly documented decisions and defendants who control much of the relevant evidence. Fault-based litigation can sometimes deter negligence, yet proving an individual employee's breach may be impossible even when an enterprise creates substantial risk. Legislatures in different jurisdictions responded through workers' compensation, product regulation and other mechanisms. The historical lesson is not that strict liability replaced negligence everywhere. It is that industrial organization changed both the pattern of harm and the practicality of proof.",
+              "audio_script": "Factories and mass markets produce injuries involving complex systems, poorly documented decisions and defendants who control much of the relevant evidence. Fault-based litigation can sometimes deter negligence, yet proving an individual employee's breach may be impossible even when an enterprise creates substantial risk. Legislatures in different jurisdictions responded through workers' compensation, product regulation and other mechanisms. The historical lesson is not that strict liability replaced negligence everywhere. It is that industrial organization changed both the pattern of harm and the practicality of proof.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Risk Allocation Has a Price",
+              "body_md": "An enterprise-liability approach may place predictable accident costs on businesses that benefit from an activity and can insure or improve safety. But a poorly designed rule may overdeterr beneficial work, shift excessive costs to consumers or impose liability unrelated to meaningful control. A doctoral historian compares institutional capacity, evidence costs and the distribution of losses. It is essential to separate a case's present doctrinal elements from the reasons reformers give for changing those elements. Moral urgency does not authorize a court to invent statutory liability.",
+              "audio_script": "An enterprise-liability approach may place predictable accident costs on businesses that benefit from an activity and can insure or improve safety. But a poorly designed rule may overdeterr beneficial work, shift excessive costs to consumers or impose liability unrelated to meaningful control. A doctoral historian compares institutional capacity, evidence costs and the distribution of losses. It is essential to separate a case's present doctrinal elements from the reasons reformers give for changing those elements. Moral urgency does not authorize a court to invent statutory liability.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Best Rule Protects People",
+              "body_md": "Imagine workers injured by a machine when no single supervisor can be shown to have acted carelessly. A comprehensive answer examines workplace regulation, insurance, possible civil remedies and the actual claims available in that legal system. It also asks who could prevent future harm and who bears the cost of delay. The goal is not maximum punishment. It is a rule that promotes safety, offers fair redress and avoids arbitrary responsibility. A student should be able to defend its trade-offs with evidence, not slogans.",
+              "audio_script": "Imagine workers injured by a machine when no single supervisor can be shown to have acted carelessly. A comprehensive answer examines workplace regulation, insurance, possible civil remedies and the actual claims available in that legal system. It also asks who could prevent future harm and who bears the cost of delay. The goal is not maximum punishment. It is a rule that promotes safety, offers fair redress and avoids arbitrary responsibility. A student should be able to defend its trade-offs with evidence, not slogans.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Workers' compensation means statutory mechanisms for employment-related injury benefits.",
+              "answer": true,
+              "explanation_if_true": "Workers' compensation is statutory mechanisms for employment-related injury benefits.",
+              "explanation_if_false": "Workers' compensation is statutory mechanisms for employment-related injury benefits."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "Industrialization led all legal systems to abolish fault-based liability entirely.",
+              "answer": false,
+              "explanation_if_true": "Statutory, strict and fault-based regimes still coexist and vary across legal systems.",
+              "explanation_if_false": "Statutory, strict and fault-based regimes still coexist and vary across legal systems."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning fits Enterprise liability?",
+              "choices": [
+                "Responsibility under specified rules without requiring fault proof",
+                "Allocation of accident costs among affected groups",
+                "Responsibility tied to risks of organized productive activity",
+                "Statutory mechanisms for employment-related injury benefits"
+              ],
+              "answer_index": 2,
+              "explanation": "Enterprise liability is responsibility tied to risks of organized productive activity."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A factory injury is difficult to trace to one careless employee. Which historical reform might address the compensation gap?",
+              "choices": [
+                "A claim based only on the factory's name",
+                "Statutory workers' compensation",
+                "A medieval writ alone",
+                "Automatically applying all Roman delicts"
+              ],
+              "answer_index": 1,
+              "explanation": "Such statutes can address work-related injury without requiring the same proof as a negligence action."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes responsibility under specified rules without requiring fault proof?",
+              "choices": [
+                "Loss distribution",
+                "Workers' compensation",
+                "Strict liability",
+                "Enterprise liability"
+              ],
+              "answer_index": 2,
+              "explanation": "Strict liability is responsibility under specified rules without requiring fault proof."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match these historical liability concepts.",
+              "pairs": [
+                [
+                  "Enterprise liability",
+                  "Responsibility tied to risks of organized productive activity"
+                ],
+                [
+                  "Workers' compensation",
+                  "Statutory mechanisms for employment-related injury benefits"
+                ],
+                [
+                  "Strict liability",
+                  "Responsibility under specified rules without requiring fault proof"
+                ],
+                [
+                  "Loss distribution",
+                  "Allocation of accident costs among affected groups"
+                ]
+              ],
+              "explanation": "These terms belong to distinct legal contexts."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Responsibility tied to risks of organized productive activity is known as ___.",
+              "answer": "Enterprise liability",
+              "accept": [
+                "Enterprise liability"
+              ],
+              "explanation": "The term is Enterprise liability."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.liability-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Allocation of accident costs among affected groups is known as ___.",
+              "answer": "Loss distribution",
+              "accept": [
+                "Loss distribution"
+              ],
+              "explanation": "The term is Loss distribution."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
