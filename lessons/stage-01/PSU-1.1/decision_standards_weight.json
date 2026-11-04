@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "evidentiary-weight",
+      "name": "Evidentiary Weight",
+      "levels": {
+        "red": {
+          "focus": "Distinguish relevant evidence from convincing evidence.",
+          "summary": "Evidence can concern the issue without proving it. Learn how source reliability, context, and competing explanations influence a factfinder's assessment.",
+          "checklist": [
+            "I can recognize relevant but weak evidence",
+            "I can explain why source reliability matters",
+            "I can compare evidence supporting opposing accounts"
+          ],
+          "sections": [
+            {
+              "title": "Relevance only opens the door",
+              "body_md": "A witness says a driver was near the scene of a collision. That fact may be relevant, but it does not prove who drove the vehicle or caused the harm. Evidentiary weight concerns how strongly admitted information supports a disputed proposition. A court should not confuse the right to consider an item with a duty to believe it. Ask what the evidence shows, what it leaves unknown, and whether the legal issue requires a stronger connection.",
+              "example": null,
+              "audio_script": "A witness says a driver was near the scene of a collision. That fact may be relevant, but it does not prove who drove the vehicle or caused the harm. Evidentiary weight concerns how strongly admitted information supports a disputed proposition. A court should not confuse the right to consider an item with a duty to believe it. Ask what the evidence shows, what it leaves unknown, and whether the legal issue requires a stronger connection.",
+              "video": null
+            },
+            {
+              "title": "The source changes the weight",
+              "body_md": "A signed contemporaneous receipt may provide stronger evidence of payment than a person's distant memory, but even a document may contain errors or be forged. Assess origin, time, firsthand knowledge, consistency, and whether the item has been authenticated where required. A confident witness can be mistaken; an official record can be incomplete. The weight of evidence depends on the specific proposition and context, not merely whether the source looks formal or impressive.",
+              "example": null,
+              "audio_script": "A signed contemporaneous receipt may provide stronger evidence of payment than a person's distant memory, but even a document may contain errors or be forged. Assess origin, time, firsthand knowledge, consistency, and whether the item has been authenticated where required. A confident witness can be mistaken; an official record can be incomplete. The weight of evidence depends on the specific proposition and context, not merely whether the source looks formal or impressive.",
+              "video": null
+            },
+            {
+              "title": "Compare competing accounts fairly",
+              "body_md": "Two witnesses remember different times. Rather than choosing the person with the most persuasive manner, examine opportunities to observe, documentary records, possible inconsistencies, and what each account actually establishes. The factfinder should explain how the evidence supports a reasoned conclusion under the applicable standard of proof. Legal fairness requires care because an unexamined assumption about credibility can change someone's liberty, livelihood, or reputation.",
+              "example": null,
+              "audio_script": "Two witnesses remember different times. Rather than choosing the person with the most persuasive manner, examine opportunities to observe, documentary records, possible inconsistencies, and what each account actually establishes. The factfinder should explain how the evidence supports a reasoned conclusion under the applicable standard of proof. Legal fairness requires care because an unexamined assumption about credibility can change someone's liberty, livelihood, or reputation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q1",
+              "type": "true_false",
+              "prompt": "Relevance means connection between evidence and a fact in dispute.",
+              "answer": true,
+              "explanation_if_true": "Relevance means connection between evidence and a fact in dispute.",
+              "explanation_if_false": "Relevance means connection between evidence and a fact in dispute."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q2",
+              "type": "true_false",
+              "prompt": "Evidence becomes conclusive merely because a court finds it relevant.",
+              "answer": false,
+              "explanation_if_true": "Relevance does not determine reliability or its overall persuasive force.",
+              "explanation_if_false": "Relevance does not determine reliability or its overall persuasive force."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Evidentiary weight?",
+              "choices": [
+                "Independent support for an asserted fact",
+                "Persuasive force of information on an issue",
+                "Connection between evidence and a fact in dispute",
+                "Trustworthiness of the evidence's method or source"
+              ],
+              "answer_index": 1,
+              "explanation": "Evidentiary weight means persuasive force of information on an issue."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A witness saw a person near an accident but not the accident itself. What is appropriate?",
+              "choices": [
+                "Treat the observation as relevant but limited",
+                "Treat the person as proven responsible",
+                "Ignore all other records",
+                "Assume presence establishes causation"
+              ],
+              "answer_index": 0,
+              "explanation": "An observation may support inquiry without resolving the central issue."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means trustworthiness of the evidence's method or source?",
+              "choices": [
+                "Relevance",
+                "Reliability",
+                "Evidentiary weight",
+                "Corroboration"
+              ],
+              "answer_index": 1,
+              "explanation": "Reliability is trustworthiness of the evidence's method or source."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q6",
+              "type": "matching",
+              "prompt": "Match each evidentiary concept.",
+              "pairs": [
+                [
+                  "Evidentiary weight",
+                  "Persuasive force of information on an issue"
+                ],
+                [
+                  "Relevance",
+                  "Connection between evidence and a fact in dispute"
+                ],
+                [
+                  "Reliability",
+                  "Trustworthiness of the evidence's method or source"
+                ],
+                [
+                  "Corroboration",
+                  "Independent support for an asserted fact"
+                ]
+              ],
+              "explanation": "Evidence must be evaluated for the particular claim it supports."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for persuasive force of information on an issue is ___.",
+              "answer": "Evidentiary weight",
+              "accept": [
+                "Evidentiary weight"
+              ],
+              "explanation": "The term is Evidentiary weight."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for independent support for an asserted fact is ___.",
+              "answer": "Corroboration",
+              "accept": [
+                "Corroboration"
+              ],
+              "explanation": "The term is Corroboration."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Evaluate credibility, authentication, and corroboration.",
+          "summary": "A competent factfinder distinguishes eyewitness memory, documentary integrity, expert method, and independent support. Learn why admissibility and weight remain different inquiries.",
+          "checklist": [
+            "I can identify factors affecting witness credibility",
+            "I can explain authentication and corroboration",
+            "I can distinguish admissibility from the weight of admitted material"
+          ],
+          "sections": [
+            {
+              "title": "Memory is not a recording",
+              "body_md": "A witness may sincerely recall an event inaccurately. Stress, exposure time, suggestive questioning, and passage of time can influence memory. Credibility analysis asks what the person could observe, whether their account changed, and how independent evidence relates. It should not treat confidence as a scientific guarantee of accuracy or assume that visible nervousness proves dishonesty. The court must apply its jurisdiction's evidence rules while reasoning carefully from what the testimony can actually support.",
+              "example": null,
+              "audio_script": "A witness may sincerely recall an event inaccurately. Stress, exposure time, suggestive questioning, and passage of time can influence memory. Credibility analysis asks what the person could observe, whether their account changed, and how independent evidence relates. It should not treat confidence as a scientific guarantee of accuracy or assume that visible nervousness proves dishonesty. The court must apply its jurisdiction's evidence rules while reasoning carefully from what the testimony can actually support.",
+              "video": null
+            },
+            {
+              "title": "Documents need an origin",
+              "body_md": "A screenshot of a message may appear decisive but omit context or fail to establish who wrote it. Authentication is the process of showing an item is what its proponent claims, under applicable evidentiary law. Metadata, other records, or testimony may support it. Even an authenticated record may be incomplete or ambiguous. Do not equate successful authentication with proof that every statement inside the record is true. Each inference requires a separate explanation.",
+              "example": null,
+              "audio_script": "A screenshot of a message may appear decisive but omit context or fail to establish who wrote it. Authentication is the process of showing an item is what its proponent claims, under applicable evidentiary law. Metadata, other records, or testimony may support it. Even an authenticated record may be incomplete or ambiguous. Do not equate successful authentication with proof that every statement inside the record is true. Each inference requires a separate explanation.",
+              "video": null
+            },
+            {
+              "title": "Independent support adds value",
+              "body_md": "Two witnesses who independently observed an event may corroborate one another. Ten people repeating one rumor do not provide ten independent sources. A lawyer should track how information traveled and distinguish original observations from repeated narratives. Corroboration can strengthen an account, but contradictions also need to be assessed for significance rather than used to dismiss an entire witness automatically. Weight reflects the relation between each piece of evidence and the particular fact to be proved.",
+              "example": null,
+              "audio_script": "Two witnesses who independently observed an event may corroborate one another. Ten people repeating one rumor do not provide ten independent sources. A lawyer should track how information traveled and distinguish original observations from repeated narratives. Corroboration can strengthen an account, but contradictions also need to be assessed for significance rather than used to dismiss an entire witness automatically. Weight reflects the relation between each piece of evidence and the particular fact to be proved.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q1",
+              "type": "true_false",
+              "prompt": "Authentication means showing a record is what it purports to be.",
+              "answer": true,
+              "explanation_if_true": "Authentication means showing a record is what it purports to be.",
+              "explanation_if_false": "Authentication means showing a record is what it purports to be."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q2",
+              "type": "true_false",
+              "prompt": "Once a document is authenticated, every statement in it is automatically true.",
+              "answer": false,
+              "explanation_if_true": "Authentication concerns identity or origin, while truthfulness and weight are separate.",
+              "explanation_if_false": "Authentication concerns identity or origin, while truthfulness and weight are separate."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Credibility?",
+              "choices": [
+                "Trustworthiness assigned to a source or account",
+                "Showing a record is what it purports to be",
+                "Independent evidence supporting a claim",
+                "Whether a rule permits evidence to be considered"
+              ],
+              "answer_index": 0,
+              "explanation": "Credibility means trustworthiness assigned to a source or account."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Ten witnesses repeat a claim made by one source without independent observations. What weakness matters?",
+              "choices": [
+                "An automatic requirement of acquittal",
+                "Proof of ten separate events",
+                "Guaranteed expert validity",
+                "Lack of independent corroboration"
+              ],
+              "answer_index": 3,
+              "explanation": "Repetition from one source may add less weight than independent evidence."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means independent evidence supporting a claim?",
+              "choices": [
+                "Corroboration",
+                "Credibility",
+                "Admissibility",
+                "Authentication"
+              ],
+              "answer_index": 0,
+              "explanation": "Corroboration is independent evidence supporting a claim."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each evidentiary concept.",
+              "pairs": [
+                [
+                  "Credibility",
+                  "Trustworthiness assigned to a source or account"
+                ],
+                [
+                  "Authentication",
+                  "Showing a record is what it purports to be"
+                ],
+                [
+                  "Corroboration",
+                  "Independent evidence supporting a claim"
+                ],
+                [
+                  "Admissibility",
+                  "Whether a rule permits evidence to be considered"
+                ]
+              ],
+              "explanation": "Evidence must be evaluated for the particular claim it supports."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for trustworthiness assigned to a source or account is ___.",
+              "answer": "Credibility",
+              "accept": [
+                "Credibility"
+              ],
+              "explanation": "The term is Credibility."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for whether a rule permits evidence to be considered is ___.",
+              "answer": "Admissibility",
+              "accept": [
+                "Admissibility"
+              ],
+              "explanation": "The term is Admissibility."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Assess expert and statistical evidence without overclaiming.",
+          "summary": "Technical evidence can aid legal reasoning but can also conceal unreliable assumptions. Examine method, base rates, causal inference, and the difference between group findings and a specific legal claim.",
+          "checklist": [
+            "I can identify reliability questions for expert methods",
+            "I can distinguish statistical association from causal proof",
+            "I can explain why strong evidence must match the legal proposition"
+          ],
+          "sections": [
+            {
+              "title": "Ask how the result was produced",
+              "body_md": "A forensic expert reports a laboratory match. The court needs to know which method was used, its error rates, whether procedures were followed, and what the result actually signifies. Qualifications alone do not make every conclusion reliable. Evidence rules vary on how experts are admitted and challenged; a lawyer should name the governing test. The factfinder must separate the expert's measured observation from the inference that a particular person committed a legal wrong.",
+              "example": null,
+              "audio_script": "A forensic expert reports a laboratory match. The court needs to know which method was used, its error rates, whether procedures were followed, and what the result actually signifies. Qualifications alone do not make every conclusion reliable. Evidence rules vary on how experts are admitted and challenged; a lawyer should name the governing test. The factfinder must separate the expert's measured observation from the inference that a particular person committed a legal wrong.",
+              "video": null
+            },
+            {
+              "title": "Group risk is not always individual cause",
+              "body_md": "A study may show higher disease rates among people exposed to a substance. That can support a population-level association but may not determine which source caused one person's illness. Confounding variables, selection effects, and incomplete records matter. A legal system may provide specific causal or evidentiary rules, which must be applied explicitly. An advanced argument distinguishes what the data estimate from what a liability conclusion additionally requires. Avoid treating scientific uncertainty as either automatic liability or proof that no harm occurred.",
+              "example": null,
+              "audio_script": "A study may show higher disease rates among people exposed to a substance. That can support a population-level association but may not determine which source caused one person's illness. Confounding variables, selection effects, and incomplete records matter. A legal system may provide specific causal or evidentiary rules, which must be applied explicitly. An advanced argument distinguishes what the data estimate from what a liability conclusion additionally requires. Avoid treating scientific uncertainty as either automatic liability or proof that no harm occurred.",
+              "video": null
+            },
+            {
+              "title": "Evidence must answer the real question",
+              "body_md": "A company may produce thousands of emails establishing that its staff worked hard, while the legal issue is whether a particular required notice was sent. The evidentiary weight of material depends on the proposition it supports, not its volume or prestige. Organize competing explanations by fact, source, and inference. State where the record remains inconclusive. Accurate limitation of a claim can be more persuasive than a sweeping assertion that available evidence does not justify.",
+              "example": null,
+              "audio_script": "A company may produce thousands of emails establishing that its staff worked hard, while the legal issue is whether a particular required notice was sent. The evidentiary weight of material depends on the proposition it supports, not its volume or prestige. Organize competing explanations by fact, source, and inference. State where the record remains inconclusive. Accurate limitation of a claim can be more persuasive than a sweeping assertion that available evidence does not justify.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q1",
+              "type": "true_false",
+              "prompt": "Error rate means frequency of mistaken outcomes in a method.",
+              "answer": true,
+              "explanation_if_true": "Error rate means frequency of mistaken outcomes in a method.",
+              "explanation_if_false": "Error rate means frequency of mistaken outcomes in a method."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q2",
+              "type": "true_false",
+              "prompt": "A statistical correlation necessarily proves causation in each individual case.",
+              "answer": false,
+              "explanation_if_true": "Association, confounding and individual attribution require distinct analysis.",
+              "explanation_if_false": "Association, confounding and individual attribution require distinct analysis."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Expert method?",
+              "choices": [
+                "Frequency of mistaken outcomes in a method",
+                "Additional factor affecting an apparent relationship",
+                "Reasoned conclusion about what produced an effect",
+                "Specialized procedure supporting a technical conclusion"
+              ],
+              "answer_index": 3,
+              "explanation": "Expert method means specialized procedure supporting a technical conclusion."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A study links exposure and illness but cannot identify an individual's causal source. What remains contested?",
+              "choices": [
+                "Whether the study used numbers",
+                "The court's address",
+                "Individual causal attribution",
+                "The definition of a judge"
+              ],
+              "answer_index": 2,
+              "explanation": "Population-level evidence may not establish every individual causal element."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means additional factor affecting an apparent relationship?",
+              "choices": [
+                "Expert method",
+                "Causal inference",
+                "Error rate",
+                "Confounding"
+              ],
+              "answer_index": 3,
+              "explanation": "Confounding is additional factor affecting an apparent relationship."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q6",
+              "type": "matching",
+              "prompt": "Match each evidentiary concept.",
+              "pairs": [
+                [
+                  "Expert method",
+                  "Specialized procedure supporting a technical conclusion"
+                ],
+                [
+                  "Error rate",
+                  "Frequency of mistaken outcomes in a method"
+                ],
+                [
+                  "Confounding",
+                  "Additional factor affecting an apparent relationship"
+                ],
+                [
+                  "Causal inference",
+                  "Reasoned conclusion about what produced an effect"
+                ]
+              ],
+              "explanation": "Evidence must be evaluated for the particular claim it supports."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for specialized procedure supporting a technical conclusion is ___.",
+              "answer": "Expert method",
+              "accept": [
+                "Expert method"
+              ],
+              "explanation": "The term is Expert method."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for reasoned conclusion about what produced an effect is ___.",
+              "answer": "Causal inference",
+              "accept": [
+                "Causal inference"
+              ],
+              "explanation": "The term is Causal inference."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique the epistemic justice of evidence evaluation.",
+          "summary": "Rules of evidence can promote accuracy while excluding people who lack access to recognized forms of proof. Design assessment practices that are reliable, transparent, and alert to unequal power.",
+          "checklist": [
+            "I can evaluate credibility practices for structural bias",
+            "I can compare formal admissibility and actual truthfinding",
+            "I can propose accountable evaluation of algorithmic evidence"
+          ],
+          "sections": [
+            {
+              "title": "An evidentiary rule can silence experience",
+              "body_md": "A person subjected to discrimination may lack documents because the institution committing the wrong controls the records. Conversely, untested testimony may wrongly accuse another person. Evidence doctrines manage risks in both directions. A doctoral account should examine whose accounts the institution systematically distrusts, which methods receive unwarranted prestige, and which safeguards could improve reliable participation. Treating every story as true or every official record as objective would be equally careless.",
+              "example": null,
+              "audio_script": "A person subjected to discrimination may lack documents because the institution committing the wrong controls the records. Conversely, untested testimony may wrongly accuse another person. Evidence doctrines manage risks in both directions. A doctoral account should examine whose accounts the institution systematically distrusts, which methods receive unwarranted prestige, and which safeguards could improve reliable participation. Treating every story as true or every official record as objective would be equally careless.",
+              "video": null
+            },
+            {
+              "title": "Algorithms can amplify error",
+              "body_md": "A predictive model used in a legal proceeding may embed training bias, measurement errors, or opaque assumptions. A numerical score is not self-authenticating and does not replace the governing legal standard. The court should know what the model predicts, whether it generalizes to the relevant population, and what opportunities exist to challenge its use. An expert's technical vocabulary cannot substitute for public reasons when state power affects liberty or livelihood.",
+              "example": null,
+              "audio_script": "A predictive model used in a legal proceeding may embed training bias, measurement errors, or opaque assumptions. A numerical score is not self-authenticating and does not replace the governing legal standard. The court should know what the model predicts, whether it generalizes to the relevant population, and what opportunities exist to challenge its use. An expert's technical vocabulary cannot substitute for public reasons when state power affects liberty or livelihood.",
+              "video": null
+            },
+            {
+              "title": "Design evidence evaluation with humility",
+              "body_md": "Propose documented provenance, transparent expert methods, adversarial testing where appropriate, and reasons explaining how conflicting proof was assessed. Provide mechanisms to correct serious mistakes and assess the effect on marginalized groups. Do not claim that method eliminates human judgment. Instead, make the judgment reviewable and anchored in reliable facts. A legitimate legal order should give every person a meaningful chance to be believed when their evidence warrants it, and protection from unsupported accusations when it does not.",
+              "example": null,
+              "audio_script": "Propose documented provenance, transparent expert methods, adversarial testing where appropriate, and reasons explaining how conflicting proof was assessed. Provide mechanisms to correct serious mistakes and assess the effect on marginalized groups. Do not claim that method eliminates human judgment. Instead, make the judgment reviewable and anchored in reliable facts. A legitimate legal order should give every person a meaningful chance to be believed when their evidence warrants it, and protection from unsupported accusations when it does not.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q1",
+              "type": "true_false",
+              "prompt": "Algorithmic bias means systematic unfair distortion in automated assessment.",
+              "answer": true,
+              "explanation_if_true": "Algorithmic bias means systematic unfair distortion in automated assessment.",
+              "explanation_if_false": "Algorithmic bias means systematic unfair distortion in automated assessment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q2",
+              "type": "true_false",
+              "prompt": "An official or algorithmic evidence source is necessarily neutral because it uses formal procedures.",
+              "answer": false,
+              "explanation_if_true": "Processes can produce systematic bias and error despite formal appearance.",
+              "explanation_if_false": "Processes can produce systematic bias and error despite formal appearance."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Epistemic injustice?",
+              "choices": [
+                "Visibility of methods and reasons",
+                "Capacity to challenge an evidentiary decision",
+                "Unfair treatment concerning knowledge or credibility",
+                "Systematic unfair distortion in automated assessment"
+              ],
+              "answer_index": 2,
+              "explanation": "Epistemic injustice means unfair treatment concerning knowledge or credibility."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court relies on a secret predictive score that cannot be challenged. What value is especially endangered?",
+              "choices": [
+                "Automatic guilt under every standard",
+                "Transparent and reviewable evidence assessment",
+                "A party's right to choose the court's paint",
+                "Only the number of documents"
+              ],
+              "answer_index": 1,
+              "explanation": "Coercive decisions require justifiable evidence and meaningful scrutiny."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means visibility of methods and reasons?",
+              "choices": [
+                "Reviewability",
+                "Algorithmic bias",
+                "Transparency",
+                "Epistemic injustice"
+              ],
+              "answer_index": 2,
+              "explanation": "Transparency is visibility of methods and reasons."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q6",
+              "type": "matching",
+              "prompt": "Match each evidentiary concept.",
+              "pairs": [
+                [
+                  "Epistemic injustice",
+                  "Unfair treatment concerning knowledge or credibility"
+                ],
+                [
+                  "Algorithmic bias",
+                  "Systematic unfair distortion in automated assessment"
+                ],
+                [
+                  "Transparency",
+                  "Visibility of methods and reasons"
+                ],
+                [
+                  "Reviewability",
+                  "Capacity to challenge an evidentiary decision"
+                ]
+              ],
+              "explanation": "Evidence must be evaluated for the particular claim it supports."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for unfair treatment concerning knowledge or credibility is ___.",
+              "answer": "Epistemic injustice",
+              "accept": [
+                "Epistemic injustice"
+              ],
+              "explanation": "The term is Epistemic injustice."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.evidentiary-weight.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for capacity to challenge an evidentiary decision is ___.",
+              "answer": "Reviewability",
+              "accept": [
+                "Reviewability"
+              ],
+              "explanation": "The term is Reviewability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
