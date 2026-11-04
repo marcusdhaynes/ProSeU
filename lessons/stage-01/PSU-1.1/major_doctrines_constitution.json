@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "constitutional-doctrines",
+      "name": "Constitutional Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Recognize constitutional rules as limits on public authority.",
+          "summary": "Learn why a state may have officials with great power yet still place legal limits on what those officials can do. Distinguish the basic ideas of constitutional hierarchy, separation of powers and rights.",
+          "checklist": [
+            "I can identify a constitution's role in allocating power",
+            "I can distinguish ordinary rules from higher-law limits",
+            "I can explain why limits protect both people and institutions"
+          ],
+          "sections": [
+            {
+              "title": "Power Needs a Frame",
+              "body_md": "A constitution establishes or recognizes a political order's fundamental arrangements. It may create institutions, divide powers, protect rights, and prescribe how rules are made. Some states use one principal written text, while others draw constitutional rules from several sources. In either case the central question is not only who can make a decision, but which higher constraints, if any, govern that decision. Jurisprudence studies why such constraints claim authority over officials who might otherwise command obedience.",
+              "example": null,
+              "audio_script": "A constitution establishes or recognizes a political order's fundamental arrangements. It may create institutions, divide powers, protect rights, and prescribe how rules are made. Some states use one principal written text, while others draw constitutional rules from several sources. In either case the central question is not only who can make a decision, but which higher constraints, if any, govern that decision. Jurisprudence studies why such constraints claim authority over officials who might otherwise command obedience.",
+              "video": null
+            },
+            {
+              "title": "Higher Rules and Ordinary Rules",
+              "body_md": "In a system of constitutional supremacy, an ordinary statute cannot validly override an inconsistent constitutional rule. A court or other institution may have power to respond when a conflict arises. Yet constitutional arrangements differ: some systems stress parliamentary sovereignty, political accountability, or more flexible conventions. Never assume every country uses the same hierarchy or the same judicial power. First identify the relevant constitutional sources, then ask which body may interpret or enforce them and what remedy is legally available.",
+              "example": null,
+              "audio_script": "In a system of constitutional supremacy, an ordinary statute cannot validly override an inconsistent constitutional rule. A court or other institution may have power to respond when a conflict arises. Yet constitutional arrangements differ: some systems stress parliamentary sovereignty, political accountability, or more flexible conventions. Never assume every country uses the same hierarchy or the same judicial power. First identify the relevant constitutional sources, then ask which body may interpret or enforce them and what remedy is legally available.",
+              "video": null
+            },
+            {
+              "title": "Separate Powers to Limit Power",
+              "body_md": "Legislatures make general rules, executives administer them, and courts resolve disputes, but real systems divide duties in different ways. Separation of powers attempts to prevent unchecked concentration, often alongside checks and balances. Rights provisions restrain what public institutions may do to individuals. Neither idea guarantees that every branch will always agree or that rights are unlimited. The beginner's method is to ask who acted, where the authority came from, and what constitutional limit may apply.",
+              "example": null,
+              "audio_script": "Legislatures make general rules, executives administer them, and courts resolve disputes, but real systems divide duties in different ways. Separation of powers attempts to prevent unchecked concentration, often alongside checks and balances. Rights provisions restrain what public institutions may do to individuals. Neither idea guarantees that every branch will always agree or that rights are unlimited. The beginner's method is to ask who acted, where the authority came from, and what constitutional limit may apply.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Constitutional supremacy means priority of constitutional norms over inconsistent ordinary law.",
+              "answer": true,
+              "explanation_if_true": "Constitutional supremacy means priority of constitutional norms over inconsistent ordinary law.",
+              "explanation_if_false": "Constitutional supremacy means priority of constitutional norms over inconsistent ordinary law."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Every nation uses an identical written constitution and identical judicial review.",
+              "answer": false,
+              "explanation_if_true": "Constitutional sources and enforcement arrangements vary substantially across legal orders.",
+              "explanation_if_false": "Constitutional sources and enforcement arrangements vary substantially across legal orders."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Constitution?",
+              "choices": [
+                "Protected interests that constrain public power",
+                "Foundational rules organizing public power",
+                "Priority of constitutional norms over inconsistent ordinary law",
+                "Allocation of governing functions among institutions"
+              ],
+              "answer_index": 1,
+              "explanation": "Constitution means foundational rules organizing public power."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A legislature enacts a statute contrary to an entrenched constitutional provision. Which doctrine describes the higher norm's priority?",
+              "choices": [
+                "Constitutional supremacy",
+                "Concurrent jurisdiction",
+                "Strict liability",
+                "Res judicata"
+              ],
+              "answer_index": 0,
+              "explanation": "Where constitutional supremacy applies, inconsistent ordinary law yields to the superior norm."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means allocation of governing functions among institutions?",
+              "choices": [
+                "Separation of powers",
+                "Constitution",
+                "Fundamental rights",
+                "Constitutional supremacy"
+              ],
+              "answer_index": 0,
+              "explanation": "Separation of powers means allocation of governing functions among institutions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Constitution",
+                  "Foundational rules organizing public power"
+                ],
+                [
+                  "Constitutional supremacy",
+                  "Priority of constitutional norms over inconsistent ordinary law"
+                ],
+                [
+                  "Separation of powers",
+                  "Allocation of governing functions among institutions"
+                ],
+                [
+                  "Fundamental rights",
+                  "Protected interests that constrain public power"
+                ]
+              ],
+              "explanation": "The four terms identify distinct constitutional issues."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Foundational rules organizing public power is called ___.",
+              "answer": "Constitution",
+              "accept": [
+                "Constitution"
+              ],
+              "explanation": "The term is Constitution."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Protected interests that constrain public power is called ___.",
+              "answer": "Fundamental rights",
+              "accept": [
+                "Fundamental rights"
+              ],
+              "explanation": "The term is Fundamental rights."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze constitutional review, amendment and institutional design.",
+          "summary": "Build from constitutional limits to the ways systems enforce or change them. Compare courts' constitutional roles with the responsibility of elected and administrative institutions.",
+          "checklist": [
+            "I can separate constitutional validity from preferred public policy",
+            "I can explain the point of amendment and entrenchment rules",
+            "I can distinguish strong judicial review from political enforcement"
+          ],
+          "sections": [
+            {
+              "title": "Review Is a Power with a Source",
+              "body_md": "Judicial review may allow a court to test official action against constitutional requirements. The source, scope, and consequences of this power differ across systems. Some courts can invalidate legislation; others may issue declarations or employ interpretive techniques while leaving a legislature to respond. Political and administrative accountability can also enforce constitutional commitments. The jurisprudential issue is why a particular institution, rather than another, should have authority to settle disputes about the fundamental law.",
+              "example": null,
+              "audio_script": "Judicial review may allow a court to test official action against constitutional requirements. The source, scope, and consequences of this power differ across systems. Some courts can invalidate legislation; others may issue declarations or employ interpretive techniques while leaving a legislature to respond. Political and administrative accountability can also enforce constitutional commitments. The jurisprudential issue is why a particular institution, rather than another, should have authority to settle disputes about the fundamental law.",
+              "video": null
+            },
+            {
+              "title": "Amendment and Entrenchment",
+              "body_md": "A constitution may demand a special majority, referendum, consent of regions, or other procedure before it can be amended. Such entrenchment protects stability but can make needed reform difficult. Some constitutions recognize limits even on amendments; others allow broad formal change. A lawyer must distinguish changing the constitutional text from interpreting it and from ordinary legislative action. The key questions are who holds the power to amend, what procedure must be followed, and whether any substantive limit applies.",
+              "example": null,
+              "audio_script": "A constitution may demand a special majority, referendum, consent of regions, or other procedure before it can be amended. Such entrenchment protects stability but can make needed reform difficult. Some constitutions recognize limits even on amendments; others allow broad formal change. A lawyer must distinguish changing the constitutional text from interpreting it and from ordinary legislative action. The key questions are who holds the power to amend, what procedure must be followed, and whether any substantive limit applies.",
+              "video": null
+            },
+            {
+              "title": "Democracy and Rights Can Pull Apart",
+              "body_md": "Elections authorize governments to make policy, but a constitutional right may prohibit a popular measure. Judicial enforcement can protect minorities while raising questions about unelected power. Legislative enforcement may preserve democratic control while leaving rights vulnerable to current majorities. Institutional design distributes those risks. An intelligent answer identifies the governing arrangement before defending what it ought to be. The fact that a decision is popular does not alone decide whether it is constitutional; judicial disagreement does not alone prove a democratic failure.",
+              "example": null,
+              "audio_script": "Elections authorize governments to make policy, but a constitutional right may prohibit a popular measure. Judicial enforcement can protect minorities while raising questions about unelected power. Legislative enforcement may preserve democratic control while leaving rights vulnerable to current majorities. Institutional design distributes those risks. An intelligent answer identifies the governing arrangement before defending what it ought to be. The fact that a decision is popular does not alone decide whether it is constitutional; judicial disagreement does not alone prove a democratic failure.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Entrenchment means special protection making a norm harder to change.",
+              "answer": true,
+              "explanation_if_true": "Entrenchment means special protection making a norm harder to change.",
+              "explanation_if_false": "Entrenchment means special protection making a norm harder to change."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Any court can invalidate any statute whenever it disagrees with policy.",
+              "answer": false,
+              "explanation_if_true": "A court's review authority and remedial power must be legally established.",
+              "explanation_if_false": "A court's review authority and remedial power must be legally established."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Judicial review?",
+              "choices": [
+                "Judicial testing of action against higher legal standards",
+                "Special protection making a norm harder to change",
+                "Lawful change under constitutional revision rules",
+                "Constitutional accountability through political institutions"
+              ],
+              "answer_index": 0,
+              "explanation": "Judicial review means judicial testing of action against higher legal standards."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A constitution requires a referendum and supermajority to alter a rights article. What feature is illustrated?",
+              "choices": [
+                "Ordinary administrative discretion",
+                "Consent to arbitration",
+                "Private restitution",
+                "Entrenchment"
+              ],
+              "answer_index": 3,
+              "explanation": "Special amendment requirements make foundational norms harder to change than ordinary legislation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means lawful change under constitutional revision rules?",
+              "choices": [
+                "Judicial review",
+                "Political constitutionalism",
+                "Entrenchment",
+                "Constitutional amendment"
+              ],
+              "answer_index": 3,
+              "explanation": "Constitutional amendment means lawful change under constitutional revision rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Judicial review",
+                  "Judicial testing of action against higher legal standards"
+                ],
+                [
+                  "Entrenchment",
+                  "Special protection making a norm harder to change"
+                ],
+                [
+                  "Constitutional amendment",
+                  "Lawful change under constitutional revision rules"
+                ],
+                [
+                  "Political constitutionalism",
+                  "Constitutional accountability through political institutions"
+                ]
+              ],
+              "explanation": "The four terms identify distinct constitutional issues."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Judicial testing of action against higher legal standards is called ___.",
+              "answer": "Judicial review",
+              "accept": [
+                "Judicial review"
+              ],
+              "explanation": "The term is Judicial review."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Constitutional accountability through political institutions is called ___.",
+              "answer": "Political constitutionalism",
+              "accept": [
+                "Political constitutionalism"
+              ],
+              "explanation": "The term is Political constitutionalism."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare competing constitutional theories in practice.",
+          "summary": "Analyze how constitutional texts, judicial institutions and popular authority interact across legal traditions. Explain why the same rights language can produce different outcomes under different interpretive methods.",
+          "checklist": [
+            "I can compare text, structure, history and purpose in constitutional interpretation",
+            "I can analyze judicial supremacy versus constitutional dialogue",
+            "I can identify the constitutional status of emergency powers"
+          ],
+          "sections": [
+            {
+              "title": "Constitutional Meaning Is Contested",
+              "body_md": "A constitutional clause may speak broadly of liberty or equality without specifying every future case. Interpreters may emphasize text, historical understanding, constitutional structure, purpose, precedent, or evolving practice. These methods may converge or produce divergent results. Their use depends on the actual legal order and the nature of the dispute. Advanced reasoning must show the interpretive steps, not merely announce a method's name. A plausible conclusion should expose the strongest rival interpretation and the institutional consequences of choosing between them.",
+              "example": null,
+              "audio_script": "A constitutional clause may speak broadly of liberty or equality without specifying every future case. Interpreters may emphasize text, historical understanding, constitutional structure, purpose, precedent, or evolving practice. These methods may converge or produce divergent results. Their use depends on the actual legal order and the nature of the dispute. Advanced reasoning must show the interpretive steps, not merely announce a method's name. A plausible conclusion should expose the strongest rival interpretation and the institutional consequences of choosing between them.",
+              "video": null
+            },
+            {
+              "title": "Who Has the Last Word?",
+              "body_md": "Judicial supremacy gives courts a decisive role in constitutional meaning, while dialogic approaches permit legislatures and courts to respond to one another within legal constraints. Constitutional conventions and administrative interpretations add further participants. The allocation of interpretive authority cannot be read only from a court's institutional prestige. A lawyer asks what the constitution, statutes, precedents and practice actually authorize. At the normative level, the tension is between principled legal restraint, democratic self-government, and meaningful protection for people whose interests are politically weak.",
+              "example": null,
+              "audio_script": "Judicial supremacy gives courts a decisive role in constitutional meaning, while dialogic approaches permit legislatures and courts to respond to one another within legal constraints. Constitutional conventions and administrative interpretations add further participants. The allocation of interpretive authority cannot be read only from a court's institutional prestige. A lawyer asks what the constitution, statutes, precedents and practice actually authorize. At the normative level, the tension is between principled legal restraint, democratic self-government, and meaningful protection for people whose interests are politically weak.",
+              "video": null
+            },
+            {
+              "title": "Emergency Does Not Erase the Question",
+              "body_md": "War, pandemic, or other crisis may activate special powers, but the source, duration, oversight, proportionality and reviewability of those powers remain legal questions. Some rights may be subject to lawful limitations or derogations, while others retain stronger protection. International obligations can also matter. A system's emergency clause is not a universal blank check. An advanced analysis separates whether exceptional power exists, whether its conditions are met, and whether its exercise remains constrained by other constitutional commitments.",
+              "example": null,
+              "audio_script": "War, pandemic, or other crisis may activate special powers, but the source, duration, oversight, proportionality and reviewability of those powers remain legal questions. Some rights may be subject to lawful limitations or derogations, while others retain stronger protection. International obligations can also matter. A system's emergency clause is not a universal blank check. An advanced analysis separates whether exceptional power exists, whether its conditions are met, and whether its exercise remains constrained by other constitutional commitments.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Constitutional dialogue means institutional exchange over constitutional requirements.",
+              "answer": true,
+              "explanation_if_true": "Constitutional dialogue means institutional exchange over constitutional requirements.",
+              "explanation_if_false": "Constitutional dialogue means institutional exchange over constitutional requirements."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Declaring an emergency automatically suspends every constitutional limitation.",
+              "answer": false,
+              "explanation_if_true": "Emergency authority remains bounded by its source and applicable non-derogable protections.",
+              "explanation_if_false": "Emergency authority remains bounded by its source and applicable non-derogable protections."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Constitutional interpretation?",
+              "choices": [
+                "Institutional exchange over constitutional requirements",
+                "Exceptional legally authorized state power",
+                "Lawfully permitted temporary departure from certain obligations",
+                "Method of determining constitutional meaning"
+              ],
+              "answer_index": 3,
+              "explanation": "Constitutional interpretation means method of determining constitutional meaning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A court and legislature exchange responses to a rights ruling within a constitutionally defined scheme. What model best captures this?",
+              "choices": [
+                "Venue transfer",
+                "Restitution",
+                "Constitutional dialogue",
+                "Strict liability"
+              ],
+              "answer_index": 2,
+              "explanation": "Constitutional dialogue emphasizes interaction rather than assuming only one institution participates in meaning."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means exceptional legally authorized state power?",
+              "choices": [
+                "Derogation",
+                "Constitutional dialogue",
+                "Emergency power",
+                "Constitutional interpretation"
+              ],
+              "answer_index": 2,
+              "explanation": "Emergency power means exceptional legally authorized state power."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Constitutional interpretation",
+                  "Method of determining constitutional meaning"
+                ],
+                [
+                  "Constitutional dialogue",
+                  "Institutional exchange over constitutional requirements"
+                ],
+                [
+                  "Emergency power",
+                  "Exceptional legally authorized state power"
+                ],
+                [
+                  "Derogation",
+                  "Lawfully permitted temporary departure from certain obligations"
+                ]
+              ],
+              "explanation": "The four terms identify distinct constitutional issues."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Method of determining constitutional meaning is called ___.",
+              "answer": "Constitutional interpretation",
+              "accept": [
+                "Constitutional interpretation"
+              ],
+              "explanation": "The term is Constitutional interpretation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Lawfully permitted temporary departure from certain obligations is called ___.",
+              "answer": "Derogation",
+              "accept": [
+                "Derogation"
+              ],
+              "explanation": "The term is Derogation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate constitutional legitimacy across generations and legal orders.",
+          "summary": "At doctoral depth, connect constitutional authority to popular sovereignty, minority protection, institutional trust and change. Critique when stable constitutions restrain domination and when entrenchment reproduces it.",
+          "checklist": [
+            "I can analyze the constituent-power problem",
+            "I can defend constitutional constraints without assuming courts are infallible",
+            "I can evaluate plural constitutional claims under crisis or transition"
+          ],
+          "sections": [
+            {
+              "title": "Who Authorized the Constitution?",
+              "body_md": "Constituent power is the claimed authority to establish a constitutional order. Ordinary officials exercise constituted powers created within that order. The difference raises a difficult question: why should people today be bound by foundational rules adopted by earlier generations or under unequal conditions? Longevity alone may not justify authority, yet continual constitutional refounding threatens stability and settled expectations. A serious theory examines consent, participation, rights protection, effective contestation, and lawful amendment rather than treating either tradition or current majority preference as a complete answer.",
+              "example": null,
+              "audio_script": "Constituent power is the claimed authority to establish a constitutional order. Ordinary officials exercise constituted powers created within that order. The difference raises a difficult question: why should people today be bound by foundational rules adopted by earlier generations or under unequal conditions? Longevity alone may not justify authority, yet continual constitutional refounding threatens stability and settled expectations. A serious theory examines consent, participation, rights protection, effective contestation, and lawful amendment rather than treating either tradition or current majority preference as a complete answer.",
+              "video": null
+            },
+            {
+              "title": "Entrenchment Can Protect or Exclude",
+              "body_md": "Hard-to-change rules can shield civil liberties and independent courts from temporary political pressure. The same rigidity can preserve unjust compromises and block communities previously denied a voice. Evaluate which interests a provision protects, who could participate in adopting it, and whether lawful routes exist to challenge it. Judicial review can restrain dominant political groups, but courts can also reflect institutional bias. A doctoral argument must assess actual institutional performance, not assume that the label constitutional makes the result legitimate.",
+              "example": null,
+              "audio_script": "Hard-to-change rules can shield civil liberties and independent courts from temporary political pressure. The same rigidity can preserve unjust compromises and block communities previously denied a voice. Evaluate which interests a provision protects, who could participate in adopting it, and whether lawful routes exist to challenge it. Judicial review can restrain dominant political groups, but courts can also reflect institutional bias. A doctoral argument must assess actual institutional performance, not assume that the label constitutional makes the result legitimate.",
+              "video": null
+            },
+            {
+              "title": "Constitutions in a Plural World",
+              "body_md": "National constitutions interact with treaties, regional human-rights systems, Indigenous governance, and transnational institutions. Some arrangements assign priority to a domestic constitution; others recognize external obligations or differentiated legal authority. Conflicts cannot be resolved by simply announcing that one legal order is universally supreme. Identify each order's claim, relevant consent and enforcement rules, and the persons whose rights are affected. An intellectually honest solution states where positive law is clear, where orders genuinely collide, and which principles should govern reform.",
+              "example": null,
+              "audio_script": "National constitutions interact with treaties, regional human-rights systems, Indigenous governance, and transnational institutions. Some arrangements assign priority to a domestic constitution; others recognize external obligations or differentiated legal authority. Conflicts cannot be resolved by simply announcing that one legal order is universally supreme. Identify each order's claim, relevant consent and enforcement rules, and the persons whose rights are affected. An intellectually honest solution states where positive law is clear, where orders genuinely collide, and which principles should govern reform.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Constituted power means authority exercised under an existing constitutional order.",
+              "answer": true,
+              "explanation_if_true": "Constituted power means authority exercised under an existing constitutional order.",
+              "explanation_if_false": "Constituted power means authority exercised under an existing constitutional order."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A constitution is necessarily legitimate merely because it has existed for a long time.",
+              "answer": false,
+              "explanation_if_true": "Duration may support stability but does not itself establish fair origins or continuing accountability.",
+              "explanation_if_false": "Duration may support stability but does not itself establish fair origins or continuing accountability."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Constituent power?",
+              "choices": [
+                "Justification for rules binding later generations",
+                "Interaction of multiple constitutional claims or orders",
+                "Authority claimed to establish a constitutional order",
+                "Authority exercised under an existing constitutional order"
+              ],
+              "answer_index": 2,
+              "explanation": "Constituent power means authority claimed to establish a constitutional order."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A long-standing constitutional limit protects rights but blocks participation by a historically excluded group. What issue is central?",
+              "choices": [
+                "A venue objection",
+                "Intergenerational legitimacy",
+                "Only personal jurisdiction",
+                "Damages calculations"
+              ],
+              "answer_index": 1,
+              "explanation": "A defensible constitutional order needs reasons why its limits continue to bind people who did not author them."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means justification for rules binding later generations?",
+              "choices": [
+                "Constituted power",
+                "Intergenerational legitimacy",
+                "Constituent power",
+                "Constitutional pluralism"
+              ],
+              "answer_index": 1,
+              "explanation": "Intergenerational legitimacy means justification for rules binding later generations."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Constituent power",
+                  "Authority claimed to establish a constitutional order"
+                ],
+                [
+                  "Constituted power",
+                  "Authority exercised under an existing constitutional order"
+                ],
+                [
+                  "Intergenerational legitimacy",
+                  "Justification for rules binding later generations"
+                ],
+                [
+                  "Constitutional pluralism",
+                  "Interaction of multiple constitutional claims or orders"
+                ]
+              ],
+              "explanation": "The four terms identify distinct constitutional issues."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Authority claimed to establish a constitutional order is called ___.",
+              "answer": "Constituent power",
+              "accept": [
+                "Constituent power"
+              ],
+              "explanation": "The term is Constituent power."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.constitutional-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Interaction of multiple constitutional claims or orders is called ___.",
+              "answer": "Constitutional pluralism",
+              "accept": [
+                "Constitutional pluralism"
+              ],
+              "explanation": "The term is Constitutional pluralism."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
