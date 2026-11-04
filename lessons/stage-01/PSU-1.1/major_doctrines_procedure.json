@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "procedural-doctrines",
+      "name": "Procedural Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Recognize process as part of lawful judgment.",
+          "summary": "Learn why a legally correct rule can be applied unfairly when a person never hears the accusation or cannot answer it. Identify notice, opportunity to respond and impartial decision-making.",
+          "checklist": [
+            "I can describe the purpose of notice and a hearing",
+            "I can recognize the importance of an impartial decision maker",
+            "I can distinguish procedure from the substantive rule"
+          ],
+          "sections": [
+            {
+              "title": "A Fair Answer Needs a Fair Process",
+              "body_md": "Suppose an official takes away a license without explaining why. Even if a rule allows license withdrawal for misconduct, the person affected may need notice and an opportunity to respond. Procedure concerns how legal decisions are reached; substance concerns what rights and obligations the law recognizes. Procedure is not merely decorative. It can expose mistaken facts, let affected people participate, and make decisions more trustworthy. Its requirements come from the relevant legal order and may differ according to the decision and urgency.",
+              "example": null,
+              "audio_script": "Suppose an official takes away a license without explaining why. Even if a rule allows license withdrawal for misconduct, the person affected may need notice and an opportunity to respond. Procedure concerns how legal decisions are reached; substance concerns what rights and obligations the law recognizes. Procedure is not merely decorative. It can expose mistaken facts, let affected people participate, and make decisions more trustworthy. Its requirements come from the relevant legal order and may differ according to the decision and urgency.",
+              "video": null
+            },
+            {
+              "title": "Hear Both Sides",
+              "body_md": "Many legal traditions recognize the value of hearing an affected person and avoiding bias. The familiar principles are often called audi alteram partem, hear the other side, and nemo judex in causa sua, no one should judge their own cause. These are useful starting ideas, not a single worldwide procedural code. The nature of the hearing, available documents, representation and appeal rights depend on context. A fair procedure may sometimes be written rather than oral, and urgent temporary steps can require later review.",
+              "example": null,
+              "audio_script": "Many legal traditions recognize the value of hearing an affected person and avoiding bias. The familiar principles are often called audi alteram partem, hear the other side, and nemo judex in causa sua, no one should judge their own cause. These are useful starting ideas, not a single worldwide procedural code. The nature of the hearing, available documents, representation and appeal rights depend on context. A fair procedure may sometimes be written rather than oral, and urgent temporary steps can require later review.",
+              "video": null
+            },
+            {
+              "title": "Sequence Protects Meaning",
+              "body_md": "An institution normally needs to identify the issue, give relevant notice, receive submissions or evidence, apply the governing rule, and communicate its decision. Skipping a step can conceal an error or prevent someone from correcting one. Not every omission voids every decision: law may distinguish serious defects, harmless mistakes, waiver and available remedies. The first study question is therefore practical: what decision is proposed, who is affected, which procedural rule applies, and what opportunity exists to challenge it?",
+              "example": null,
+              "audio_script": "An institution normally needs to identify the issue, give relevant notice, receive submissions or evidence, apply the governing rule, and communicate its decision. Skipping a step can conceal an error or prevent someone from correcting one. Not every omission voids every decision: law may distinguish serious defects, harmless mistakes, waiver and available remedies. The first study question is therefore practical: what decision is proposed, who is affected, which procedural rule applies, and what opportunity exists to challenge it?",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Notice means information allowing an affected person to respond.",
+              "answer": true,
+              "explanation_if_true": "Notice means information allowing an affected person to respond.",
+              "explanation_if_false": "Notice means information allowing an affected person to respond."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "A correct substantive result always cures a serious failure to hear the affected party.",
+              "answer": false,
+              "explanation_if_true": "Substantive correctness and procedural lawfulness are separate issues.",
+              "explanation_if_false": "Substantive correctness and procedural lawfulness are separate issues."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Procedure?",
+              "choices": [
+                "Decision-making free from disqualifying bias",
+                "Rules about how legal decisions are made",
+                "Information allowing an affected person to respond",
+                "Opportunity to present a relevant position"
+              ],
+              "answer_index": 1,
+              "explanation": "Procedure means rules about how legal decisions are made."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A licensing board gives no explanation or chance to answer before final revocation. What procedural value is most obviously threatened?",
+              "choices": [
+                "Notice and opportunity to be heard",
+                "Concurrent jurisdiction",
+                "Compensatory damages",
+                "Restitution"
+              ],
+              "answer_index": 0,
+              "explanation": "Basic fairness often requires knowing the case to meet and an opportunity to answer it."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means opportunity to present a relevant position?",
+              "choices": [
+                "Hearing",
+                "Procedure",
+                "Impartiality",
+                "Notice"
+              ],
+              "answer_index": 0,
+              "explanation": "Hearing means opportunity to present a relevant position."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each term to its meaning.",
+              "pairs": [
+                [
+                  "Procedure",
+                  "Rules about how legal decisions are made"
+                ],
+                [
+                  "Notice",
+                  "Information allowing an affected person to respond"
+                ],
+                [
+                  "Hearing",
+                  "Opportunity to present a relevant position"
+                ],
+                [
+                  "Impartiality",
+                  "Decision-making free from disqualifying bias"
+                ]
+              ],
+              "explanation": "These distinctions support procedural analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Rules about how legal decisions are made is called ___.",
+              "answer": "Procedure",
+              "accept": [
+                "Procedure"
+              ],
+              "explanation": "The term is Procedure."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Decision-making free from disqualifying bias is called ___.",
+              "answer": "Impartiality",
+              "accept": [
+                "Impartiality"
+              ],
+              "explanation": "The term is Impartiality."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain how procedural rights operate and vary.",
+          "summary": "Build from basic fairness to procedural standards, proof rules and the consequences of error. Distinguish access to a hearing from an entitlement to prevail on the substance.",
+          "checklist": [
+            "I can separate burden of proof from the standard of proof",
+            "I can recognize waiver, prejudice and procedural error",
+            "I can compare adversarial and judge-led processes carefully"
+          ],
+          "sections": [
+            {
+              "title": "Access Is Not Success",
+              "body_md": "A right to be heard means a meaningful opportunity to participate under the applicable rules; it does not guarantee that a tribunal will accept a person's argument. Time limits, disclosure duties, admissibility rules and representation requirements shape that opportunity. A serious procedural defect may permit a rehearing or appeal, while some mistakes may be harmless. Jurisdictions differ on which errors require reversal. A sound analysis names the procedural entitlement, the actual deviation, the harm or prejudice, and the available corrective process.",
+              "example": null,
+              "audio_script": "A right to be heard means a meaningful opportunity to participate under the applicable rules; it does not guarantee that a tribunal will accept a person's argument. Time limits, disclosure duties, admissibility rules and representation requirements shape that opportunity. A serious procedural defect may permit a rehearing or appeal, while some mistakes may be harmless. Jurisdictions differ on which errors require reversal. A sound analysis names the procedural entitlement, the actual deviation, the harm or prejudice, and the available corrective process.",
+              "video": null
+            },
+            {
+              "title": "Evidence and Burdens",
+              "body_md": "The burden of production asks who must offer enough evidence to put an issue before the decision maker. The burden of persuasion asks who must convince the fact finder. The standard of proof identifies how convincing the evidence must be, such as a civil balance-of-probabilities standard in some systems. Criminal proceedings may require proof beyond reasonable doubt. These are general illustrations, not universal defaults. The procedural rule must be identified before conclusions are drawn about which person should lose when the facts remain uncertain.",
+              "example": null,
+              "audio_script": "The burden of production asks who must offer enough evidence to put an issue before the decision maker. The burden of persuasion asks who must convince the fact finder. The standard of proof identifies how convincing the evidence must be, such as a civil balance-of-probabilities standard in some systems. Criminal proceedings may require proof beyond reasonable doubt. These are general illustrations, not universal defaults. The procedural rule must be identified before conclusions are drawn about which person should lose when the facts remain uncertain.",
+              "video": null
+            },
+            {
+              "title": "Who Directs the Inquiry?",
+              "body_md": "In more adversarial designs, parties largely present cases and challenge each other's evidence before a neutral decision maker. In more inquisitorial designs, the court or investigator may direct more of the fact finding. Real systems combine features, especially across different proceedings. Neither label automatically proves fairness. The key questions are whether evidence can be tested, decision makers are impartial, affected parties can participate meaningfully, and errors can be corrected. Comparative procedure concerns actual safeguards, not national stereotypes.",
+              "example": null,
+              "audio_script": "In more adversarial designs, parties largely present cases and challenge each other's evidence before a neutral decision maker. In more inquisitorial designs, the court or investigator may direct more of the fact finding. Real systems combine features, especially across different proceedings. Neither label automatically proves fairness. The key questions are whether evidence can be tested, decision makers are impartial, affected parties can participate meaningfully, and errors can be corrected. Comparative procedure concerns actual safeguards, not national stereotypes.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Burden of persuasion means duty to establish a disputed claim to the standard.",
+              "answer": true,
+              "explanation_if_true": "Burden of persuasion means duty to establish a disputed claim to the standard.",
+              "explanation_if_false": "Burden of persuasion means duty to establish a disputed claim to the standard."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The party with the production burden must always meet the final burden of persuasion.",
+              "answer": false,
+              "explanation_if_true": "A legal system can allocate those burdens differently.",
+              "explanation_if_false": "A legal system can allocate those burdens differently."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Burden of production?",
+              "choices": [
+                "Duty to bring forward enough evidence",
+                "Duty to establish a disputed claim to the standard",
+                "Degree of confidence the law requires",
+                "A procedural mistake not requiring relief under governing rules"
+              ],
+              "answer_index": 0,
+              "explanation": "Burden of production means duty to bring forward enough evidence."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "The parties were heard, but the tribunal applied the wrong proof threshold. What was misapplied?",
+              "choices": [
+                "Subject-matter jurisdiction",
+                "Restitution",
+                "Substantive remedy alone",
+                "Standard of proof"
+              ],
+              "answer_index": 3,
+              "explanation": "Giving a hearing does not excuse use of an incorrect legal threshold for proof."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means degree of confidence the law requires?",
+              "choices": [
+                "Burden of production",
+                "Harmless error",
+                "Burden of persuasion",
+                "Standard of proof"
+              ],
+              "answer_index": 3,
+              "explanation": "Standard of proof means degree of confidence the law requires."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each term to its meaning.",
+              "pairs": [
+                [
+                  "Burden of production",
+                  "Duty to bring forward enough evidence"
+                ],
+                [
+                  "Burden of persuasion",
+                  "Duty to establish a disputed claim to the standard"
+                ],
+                [
+                  "Standard of proof",
+                  "Degree of confidence the law requires"
+                ],
+                [
+                  "Harmless error",
+                  "A procedural mistake not requiring relief under governing rules"
+                ]
+              ],
+              "explanation": "These distinctions support procedural analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Duty to bring forward enough evidence is called ___.",
+              "answer": "Burden of production",
+              "accept": [
+                "Burden of production"
+              ],
+              "explanation": "The term is Burden of production."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "A procedural mistake not requiring relief under governing rules is called ___.",
+              "answer": "Harmless error",
+              "accept": [
+                "Harmless error"
+              ],
+              "explanation": "The term is Harmless error."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze procedure as an institutional method of finding truth.",
+          "summary": "Compare procedural architectures under scarcity, inequality and incomplete evidence. Explain how disclosure, participation, finality and correction interact rather than assuming that more procedure always means more justice.",
+          "checklist": [
+            "I can analyze error costs of procedural choices",
+            "I can compare party-led and official-led fact finding",
+            "I can evaluate procedural proportionality in complex disputes"
+          ],
+          "sections": [
+            {
+              "title": "Procedure Allocates Error",
+              "body_md": "A process designed for speed may save resources but increase the chance of factual mistakes. One designed for extensive disclosure and review may improve reliability while becoming too expensive for ordinary people. Procedural law distributes the risks of erroneous decisions. Standards of proof, admissibility rules, appeal rights and finality rules embody choices about which mistakes are most serious. An advanced analysis makes those choices explicit and asks whether evidence about cost and error supports the design.",
+              "example": null,
+              "audio_script": "A process designed for speed may save resources but increase the chance of factual mistakes. One designed for extensive disclosure and review may improve reliability while becoming too expensive for ordinary people. Procedural law distributes the risks of erroneous decisions. Standards of proof, admissibility rules, appeal rights and finality rules embody choices about which mistakes are most serious. An advanced analysis makes those choices explicit and asks whether evidence about cost and error supports the design.",
+              "video": null
+            },
+            {
+              "title": "Participation Under Inequality",
+              "body_md": "A formally equal right to submit evidence can conceal unequal ability to find witnesses, retain counsel or translate documents. Courts may use case management, legal aid, discovery duties or specialist procedures to reduce disadvantage where authorized. Yet broad procedural powers can also create bias or surprise. The comparison between adversarial and inquisitorial systems is therefore incomplete without asking how institutional design affects real access. Good analysis measures practical participation, not only the number of rights written in a rulebook.",
+              "example": null,
+              "audio_script": "A formally equal right to submit evidence can conceal unequal ability to find witnesses, retain counsel or translate documents. Courts may use case management, legal aid, discovery duties or specialist procedures to reduce disadvantage where authorized. Yet broad procedural powers can also create bias or surprise. The comparison between adversarial and inquisitorial systems is therefore incomplete without asking how institutional design affects real access. Good analysis measures practical participation, not only the number of rights written in a rulebook.",
+              "video": null
+            },
+            {
+              "title": "Finality and Correction",
+              "body_md": "Litigation cannot continue forever, but ending a case too soon may lock in an injustice. Appeal, reconsideration and reopening mechanisms manage the tension between reliability and finality. Some procedural errors justify immediate review; others can be addressed after final judgment; some are waived unless raised promptly. Each design alters incentives to object and the costs of delay. Jurisprudence asks which finality rule a legitimate system can justify, even when every available choice leaves someone at risk of error.",
+              "example": null,
+              "audio_script": "Litigation cannot continue forever, but ending a case too soon may lock in an injustice. Appeal, reconsideration and reopening mechanisms manage the tension between reliability and finality. Some procedural errors justify immediate review; others can be addressed after final judgment; some are waived unless raised promptly. Each design alters incentives to object and the costs of delay. Jurisprudence asks which finality rule a legitimate system can justify, even when every available choice leaves someone at risk of error.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Case management means judicial organization of steps and evidence.",
+              "answer": true,
+              "explanation_if_true": "Case management means judicial organization of steps and evidence.",
+              "explanation_if_false": "Case management means judicial organization of steps and evidence."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Adding every conceivable procedural step necessarily improves access to justice.",
+              "answer": false,
+              "explanation_if_true": "Expensive or delayed procedures can prevent effective participation and relief.",
+              "explanation_if_false": "Expensive or delayed procedures can prevent effective participation and relief."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Error allocation?",
+              "choices": [
+                "Judicial organization of steps and evidence",
+                "Legal closure of a dispute",
+                "A procedure for revisiting an existing decision",
+                "Distribution of risks from mistaken outcomes"
+              ],
+              "answer_index": 3,
+              "explanation": "Error allocation means distribution of risks from mistaken outcomes."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A system makes appeals unlimited, causing disputes to last indefinitely. Which competing value does this most clearly weaken?",
+              "choices": [
+                "Subject-matter competence",
+                "Legal personality",
+                "Finality",
+                "Territorial power"
+              ],
+              "answer_index": 2,
+              "explanation": "Review can correct error, but endless proceedings undermine closure and practical justice."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal closure of a dispute?",
+              "choices": [
+                "Reconsideration",
+                "Case management",
+                "Finality",
+                "Error allocation"
+              ],
+              "answer_index": 2,
+              "explanation": "Finality means legal closure of a dispute."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each term to its meaning.",
+              "pairs": [
+                [
+                  "Error allocation",
+                  "Distribution of risks from mistaken outcomes"
+                ],
+                [
+                  "Case management",
+                  "Judicial organization of steps and evidence"
+                ],
+                [
+                  "Finality",
+                  "Legal closure of a dispute"
+                ],
+                [
+                  "Reconsideration",
+                  "A procedure for revisiting an existing decision"
+                ]
+              ],
+              "explanation": "These distinctions support procedural analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Distribution of risks from mistaken outcomes is called ___.",
+              "answer": "Error allocation",
+              "accept": [
+                "Error allocation"
+              ],
+              "explanation": "The term is Error allocation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "A procedure for revisiting an existing decision is called ___.",
+              "answer": "Reconsideration",
+              "accept": [
+                "Reconsideration"
+              ],
+              "explanation": "The term is Reconsideration."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design procedures that are both legitimate and humane.",
+          "summary": "At doctoral depth, examine whether procedure respects the dignity of people subject to power. Defend a model of adjudication that accounts for truth, participation, bias, cost and justified limits on judicial authority.",
+          "checklist": [
+            "I can evaluate procedural justice as more than accuracy",
+            "I can critique unequal participation in nominally neutral procedures",
+            "I can propose review and accountability mechanisms for automated decisions"
+          ],
+          "sections": [
+            {
+              "title": "Why Voice Matters",
+              "body_md": "A person may lose a case after a correct decision yet regard the process as more legitimate because they were listened to and treated respectfully. Procedural justice therefore includes dignity, opportunity for voice, impartiality and reasons, not only accuracy. Still, ceremonial listening can be hollow when the institution ignores relevant submissions. A serious theory asks what participation should change, whether decision makers are accountable, and why procedure deserves obedience from those who disagree with the result. Trust should be earned by institutional conduct, not presumed.",
+              "example": null,
+              "audio_script": "A person may lose a case after a correct decision yet regard the process as more legitimate because they were listened to and treated respectfully. Procedural justice therefore includes dignity, opportunity for voice, impartiality and reasons, not only accuracy. Still, ceremonial listening can be hollow when the institution ignores relevant submissions. A serious theory asks what participation should change, whether decision makers are accountable, and why procedure deserves obedience from those who disagree with the result. Trust should be earned by institutional conduct, not presumed.",
+              "video": null
+            },
+            {
+              "title": "Technology Changes the Hearing",
+              "body_md": "Automated administrative decisions may process many claims quickly but conceal assumptions in training data or rule design. An affected person may receive a score without understanding which facts mattered or how to challenge an error. A defensible process should consider notice of material reasons, accessible correction, auditability, human responsibility, and remedies calibrated to stakes. Not every automated system requires an identical hearing. The governing law and demonstrable risks must determine safeguards, and technical explanation must remain usable to the person whose life is affected.",
+              "example": null,
+              "audio_script": "Automated administrative decisions may process many claims quickly but conceal assumptions in training data or rule design. An affected person may receive a score without understanding which facts mattered or how to challenge an error. A defensible process should consider notice of material reasons, accessible correction, auditability, human responsibility, and remedies calibrated to stakes. Not every automated system requires an identical hearing. The governing law and demonstrable risks must determine safeguards, and technical explanation must remain usable to the person whose life is affected.",
+              "video": null
+            },
+            {
+              "title": "A Test for Legitimate Procedure",
+              "body_md": "Imagine designing an appeals process for housing benefits. More review may protect recipients but slow urgent payments; fewer stages may speed service but leave erroneous denials uncorrected. Define the legal interests, likely mistakes, evidence asymmetries, and costs for both applicants and institutions. Then propose a timely first decision, reasons, accessible internal correction, independent review for contested issues, and measurement of actual outcomes where law permits. A procedure is masterful when it protects real people, not merely when its flowchart is elaborate.",
+              "example": null,
+              "audio_script": "Imagine designing an appeals process for housing benefits. More review may protect recipients but slow urgent payments; fewer stages may speed service but leave erroneous denials uncorrected. Define the legal interests, likely mistakes, evidence asymmetries, and costs for both applicants and institutions. Then propose a timely first decision, reasons, accessible internal correction, independent review for contested issues, and measurement of actual outcomes where law permits. A procedure is masterful when it protects real people, not merely when its flowchart is elaborate.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Voice means meaningful opportunity to present one's account.",
+              "answer": true,
+              "explanation_if_true": "Voice means meaningful opportunity to present one's account.",
+              "explanation_if_false": "Voice means meaningful opportunity to present one's account."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A fast automated decision is necessarily legitimate if its overall accuracy is high.",
+              "answer": false,
+              "explanation_if_true": "Legitimacy also concerns understandable reasons, challenge rights, bias and accountable correction.",
+              "explanation_if_false": "Legitimacy also concerns understandable reasons, challenge rights, bias and accountable correction."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Procedural justice?",
+              "choices": [
+                "Ability to examine how a decision was reached",
+                "Answerability for decisions and correction of error",
+                "Fairness in treatment and decision process",
+                "Meaningful opportunity to present one's account"
+              ],
+              "answer_index": 2,
+              "explanation": "Procedural justice means fairness in treatment and decision process."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An automated benefits rejection is accurate on average but gives no reasons or route to correction. What key safeguard is lacking?",
+              "choices": [
+                "A different paper format",
+                "Meaningful review and explanation",
+                "A second data center",
+                "Only stricter filing fees"
+              ],
+              "answer_index": 1,
+              "explanation": "A person should have an accessible lawful way to contest an erroneous or unjustified outcome."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means ability to examine how a decision was reached?",
+              "choices": [
+                "Voice",
+                "Auditability",
+                "Procedural justice",
+                "Accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "Auditability means ability to examine how a decision was reached."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each term to its meaning.",
+              "pairs": [
+                [
+                  "Procedural justice",
+                  "Fairness in treatment and decision process"
+                ],
+                [
+                  "Voice",
+                  "Meaningful opportunity to present one's account"
+                ],
+                [
+                  "Auditability",
+                  "Ability to examine how a decision was reached"
+                ],
+                [
+                  "Accountability",
+                  "Answerability for decisions and correction of error"
+                ]
+              ],
+              "explanation": "These distinctions support procedural analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Fairness in treatment and decision process is called ___.",
+              "answer": "Procedural justice",
+              "accept": [
+                "Procedural justice"
+              ],
+              "explanation": "The term is Procedural justice."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.procedural-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Answerability for decisions and correction of error is called ___.",
+              "answer": "Accountability",
+              "accept": [
+                "Accountability"
+              ],
+              "explanation": "The term is Accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
