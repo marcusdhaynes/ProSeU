@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Explain legal conclusions with reasons, not force",
+          "summary": "Good legal reasoning distinguishes an answer supported by law from a conclusion asserted with confidence. Learn the habit of showing the rule, relevant facts and reasoning between them.",
+          "checklist": [
+            "I can give a reason for a legal proposition",
+            "I can separate authority from personal preference",
+            "I can identify uncertainty honestly"
+          ],
+          "sections": [
+            {
+              "title": "A Conclusion Needs a Because",
+              "body_md": "Saying 'the tenant loses' is not legal analysis. Saying the tenancy statute requires written notice and no notice was served begins to explain an outcome. The word because forces the writer to connect a rule with a fact. The point is not to make every answer long. It is to give the client a short chain they can inspect: applicable rule, fact meeting or failing a condition, and likely legal consequence. Clear reasons build trust and expose errors.",
+              "example": null,
+              "audio_script": "Saying 'the tenant loses' is not legal analysis. Saying the tenancy statute requires written notice and no notice was served begins to explain an outcome. The word because forces the writer to connect a rule with a fact. The point is not to make every answer long. It is to give the client a short chain they can inspect: applicable rule, fact meeting or failing a condition, and likely legal consequence. Clear reasons build trust and expose errors.",
+              "video": null
+            },
+            {
+              "title": "Confidence Is Not Authority",
+              "body_md": "An advocate may speak forcefully without citing any controlling legal source. A quieter argument may be stronger because it rests on an enacted rule and reliable evidence. Legal reasoning should not ask the reader to obey the writer's confidence. It should invite the reader to examine the authority and each inference. That openness matters because law permits disagreement and review. A conclusion that cannot survive an ordinary question about its source should not govern a person's freedom.",
+              "example": null,
+              "audio_script": "An advocate may speak forcefully without citing any controlling legal source. A quieter argument may be stronger because it rests on an enacted rule and reliable evidence. Legal reasoning should not ask the reader to obey the writer's confidence. It should invite the reader to examine the authority and each inference. That openness matters because law permits disagreement and review. A conclusion that cannot survive an ordinary question about its source should not govern a person's freedom.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty Is Part of Service",
+              "body_md": "A case may depend on facts still being investigated or a statute that courts have interpreted differently. A beginner can still give useful advice by identifying what is known, what is uncertain, and what needs verification. Saying 'I cannot yet conclude' is sometimes more professional than predicting victory. The client deserves honesty because the outcome may affect their family, livelihood or liberty. Legal clarity means explaining genuine limits, not pretending they do not exist.",
+              "example": null,
+              "audio_script": "A case may depend on facts still being investigated or a statute that courts have interpreted differently. A beginner can still give useful advice by identifying what is known, what is uncertain, and what needs verification. Saying 'I cannot yet conclude' is sometimes more professional than predicting victory. The client deserves honesty because the outcome may affect their family, livelihood or liberty. Legal clarity means explaining genuine limits, not pretending they do not exist.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Source means recognized basis for a legal proposition.",
+              "answer": true,
+              "explanation_if_true": "Source means recognized basis for a legal proposition.",
+              "explanation_if_false": "Source means recognized basis for a legal proposition."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "Speaking with confidence makes an unsupported legal conclusion authoritative.",
+              "answer": false,
+              "explanation_if_true": "Authority comes from applicable law and justified reasoning, not performance.",
+              "explanation_if_false": "Authority comes from applicable law and justified reasoning, not performance."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Legal justification?",
+              "choices": [
+                "Truthful disclosure of significant information or uncertainty",
+                "Reasons linking an authoritative rule to an outcome",
+                "Recognized basis for a legal proposition",
+                "Conclusion drawn from identified facts"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal justification means reasons linking an authoritative rule to an outcome."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A lawyer confidently predicts victory without checking the law or key facts. What is missing?",
+              "choices": [
+                "A reasoned legal basis",
+                "More persuasive gestures",
+                "A dramatic conclusion",
+                "A different office"
+              ],
+              "answer_index": 0,
+              "explanation": "Reliable advice must connect governing sources to supported facts."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means conclusion drawn from identified facts?",
+              "choices": [
+                "Inference",
+                "Legal justification",
+                "Candor",
+                "Source"
+              ],
+              "answer_index": 0,
+              "explanation": "Inference means conclusion drawn from identified facts."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Legal justification",
+                  "Reasons linking an authoritative rule to an outcome"
+                ],
+                [
+                  "Source",
+                  "Recognized basis for a legal proposition"
+                ],
+                [
+                  "Inference",
+                  "Conclusion drawn from identified facts"
+                ],
+                [
+                  "Candor",
+                  "Truthful disclosure of significant information or uncertainty"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Reasons linking an authoritative rule to an outcome is called ___.",
+              "answer": "Legal justification",
+              "accept": [
+                "Legal justification"
+              ],
+              "explanation": "The term is Legal justification."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Truthful disclosure of significant information or uncertainty is called ___.",
+              "answer": "Candor",
+              "accept": [
+                "Candor"
+              ],
+              "explanation": "The term is Candor."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Recognize weak inferences and argumentative fallacies",
+          "summary": "Learn why a conclusion may fail despite containing true statements. Distinguish genuine support from assumptions, irrelevant attacks and omitted alternatives.",
+          "checklist": [
+            "I can identify an unsupported inference",
+            "I can distinguish evidence from an attack on a speaker",
+            "I can reconstruct a stronger, fairer argument"
+          ],
+          "sections": [
+            {
+              "title": "True Premises Can Support a Weak Conclusion",
+              "body_md": "A lawyer argues, 'The company earned a profit, so it must have acted unlawfully.' Profit may be relevant in some disputes but does not establish the required elements of a violation. An inference is valid only if the premises support the conclusion under an applicable rule. The first check is simple: what proposition needs proof, which evidence supports it, and is there an unstated assumption? Exposing the missing link makes the argument correctable.",
+              "example": null,
+              "audio_script": "A lawyer argues, 'The company earned a profit, so it must have acted unlawfully.' Profit may be relevant in some disputes but does not establish the required elements of a violation. An inference is valid only if the premises support the conclusion under an applicable rule. The first check is simple: what proposition needs proof, which evidence supports it, and is there an unstated assumption? Exposing the missing link makes the argument correctable.",
+              "video": null
+            },
+            {
+              "title": "Attack the Reason, Not the Person",
+              "body_md": "A witness's motive, ability to observe or prior inconsistency can matter to credibility, but insulting the witness's background or appearance does not prove a factual proposition false. An ad hominem fallacy substitutes an irrelevant personal attack for analysis. Lawyers must distinguish genuine credibility evidence from prejudice. The best cross-examination and written argument test what a person perceived, remembered and reported, while respecting dignity and applicable evidence rules.",
+              "example": null,
+              "audio_script": "A witness's motive, ability to observe or prior inconsistency can matter to credibility, but insulting the witness's background or appearance does not prove a factual proposition false. An ad hominem fallacy substitutes an irrelevant personal attack for analysis. Lawyers must distinguish genuine credibility evidence from prejudice. The best cross-examination and written argument test what a person perceived, remembered and reported, while respecting dignity and applicable evidence rules.",
+              "video": null
+            },
+            {
+              "title": "Consider the Strongest Alternative",
+              "body_md": "When a worker is injured near a machine, a careless argument may presume the employer was negligent. A stronger analysis examines maintenance records, design, training, alternative causes and the applicable duty. This does not mean every possibility deserves equal weight. It means serious alternatives should be tested rather than ignored. Legal legitimacy benefits when the argument shows the reader that opposing evidence has been understood and fairly assessed.",
+              "example": null,
+              "audio_script": "When a worker is injured near a machine, a careless argument may presume the employer was negligent. A stronger analysis examines maintenance records, design, training, alternative causes and the applicable duty. This does not mean every possibility deserves equal weight. It means serious alternatives should be tested rather than ignored. Legal legitimacy benefits when the argument shows the reader that opposing evidence has been understood and fairly assessed.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Ad hominem means irrelevant personal attack replacing substantive argument.",
+              "answer": true,
+              "explanation_if_true": "Ad hominem means irrelevant personal attack replacing substantive argument.",
+              "explanation_if_false": "Ad hominem means irrelevant personal attack replacing substantive argument."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "A company's profit proves any injury occurring nearby was caused by wrongdoing.",
+              "answer": false,
+              "explanation_if_true": "Profit does not satisfy required elements such as breach and causation.",
+              "explanation_if_false": "Profit does not satisfy required elements such as breach and causation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Unsupported inference?",
+              "choices": [
+                "Conclusion not adequately supported by stated premises",
+                "Irrelevant personal attack replacing substantive argument",
+                "Unstated proposition necessary to an inference",
+                "Competing account capable of fitting the evidence"
+              ],
+              "answer_index": 0,
+              "explanation": "Unsupported inference means conclusion not adequately supported by stated premises."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Counsel attacks a witness's clothing instead of their ability to observe. What error is being made?",
+              "choices": [
+                "Valid causal inference",
+                "Proper interpretation",
+                "Application of a statute",
+                "Ad hominem reasoning"
+              ],
+              "answer_index": 3,
+              "explanation": "An irrelevant personal attack does not answer the evidentiary question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means unstated proposition necessary to an inference?",
+              "choices": [
+                "Unsupported inference",
+                "Alternative explanation",
+                "Ad hominem",
+                "Assumption"
+              ],
+              "answer_index": 3,
+              "explanation": "Assumption means unstated proposition necessary to an inference."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Unsupported inference",
+                  "Conclusion not adequately supported by stated premises"
+                ],
+                [
+                  "Ad hominem",
+                  "Irrelevant personal attack replacing substantive argument"
+                ],
+                [
+                  "Assumption",
+                  "Unstated proposition necessary to an inference"
+                ],
+                [
+                  "Alternative explanation",
+                  "Competing account capable of fitting the evidence"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Conclusion not adequately supported by stated premises is called ___.",
+              "answer": "Unsupported inference",
+              "accept": [
+                "Unsupported inference"
+              ],
+              "explanation": "The term is Unsupported inference."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Competing account capable of fitting the evidence is called ___.",
+              "answer": "Alternative explanation",
+              "accept": [
+                "Alternative explanation"
+              ],
+              "explanation": "The term is Alternative explanation."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate legal reasoning under cognitive bias and adversarial pressure",
+          "summary": "Analyze how strong advocacy can distort fact selection or probability estimates. Develop safeguards against confirmation bias, motivated reasoning and one-sided presentation.",
+          "checklist": [
+            "I can recognize confirmation bias in legal research",
+            "I can evaluate adverse authority fairly",
+            "I can apply a structured devil's-advocate test"
+          ],
+          "sections": [
+            {
+              "title": "Research Can Become Self-Confirmation",
+              "body_md": "An advocate finds a case supporting the client's position and stops searching. That is a risk of confirmation bias: giving more attention to evidence that fits an initial belief. A disciplined researcher actively seeks contrary cases, legislative changes and facts that would weaken the theory. This need not be endless. A bounded search plan identifies relevant courts, time periods and issues and records why an authority does or does not control. The resulting opinion is more reliable because it survived an attempt to disprove it.",
+              "example": null,
+              "audio_script": "An advocate finds a case supporting the client's position and stops searching. That is a risk of confirmation bias: giving more attention to evidence that fits an initial belief. A disciplined researcher actively seeks contrary cases, legislative changes and facts that would weaken the theory. This need not be endless. A bounded search plan identifies relevant courts, time periods and issues and records why an authority does or does not control. The resulting opinion is more reliable because it survived an attempt to disprove it.",
+              "video": null
+            },
+            {
+              "title": "Advocacy and Prediction Have Different Roles",
+              "body_md": "An advocate may present the strongest lawful argument for a client, but internal advice must still estimate risk candidly. A predictive memo should not present contested authority as settled. Legal ethics may impose explicit duties of candor toward tribunals, while exact rules differ by jurisdiction. A mature lawyer separates the private assessment of likely outcome from an appropriately forceful public submission, without fabricating facts or concealing legally required disclosures.",
+              "example": null,
+              "audio_script": "An advocate may present the strongest lawful argument for a client, but internal advice must still estimate risk candidly. A predictive memo should not present contested authority as settled. Legal ethics may impose explicit duties of candor toward tribunals, while exact rules differ by jurisdiction. A mature lawyer separates the private assessment of likely outcome from an appropriately forceful public submission, without fabricating facts or concealing legally required disclosures.",
+              "video": null
+            },
+            {
+              "title": "Build a Bias Check",
+              "body_md": "Before finalizing a legal conclusion, write the strongest opposing argument, the fact that would most change the answer, and the authority that most threatens the position. Ask whether those points were fairly considered. This short exercise can reveal a missing element or an unjustified confidence level. It is especially important when the client is vulnerable, because an avoidable legal mistake can have consequences that exceed embarrassment or money. Intellectual humility is a practical protective skill.",
+              "example": null,
+              "audio_script": "Before finalizing a legal conclusion, write the strongest opposing argument, the fact that would most change the answer, and the authority that most threatens the position. Ask whether those points were fairly considered. This short exercise can reveal a missing element or an unjustified confidence level. It is especially important when the client is vulnerable, because an avoidable legal mistake can have consequences that exceed embarrassment or money. Intellectual humility is a practical protective skill.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Motivated reasoning means analysis shaped by a desired conclusion.",
+              "answer": true,
+              "explanation_if_true": "Motivated reasoning means analysis shaped by a desired conclusion.",
+              "explanation_if_false": "Motivated reasoning means analysis shaped by a desired conclusion."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "A lawyer's duty to advocate always permits hiding legally required adverse authority.",
+              "answer": false,
+              "explanation_if_true": "Professional candor obligations and reliable reasoning constrain advocacy.",
+              "explanation_if_false": "Professional candor obligations and reliable reasoning constrain advocacy."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Confirmation bias?",
+              "choices": [
+                "Analysis shaped by a desired conclusion",
+                "Legal source materially weakening a position",
+                "Deliberate reconstruction of the strongest opposing case",
+                "Preference for information supporting an existing belief"
+              ],
+              "answer_index": 3,
+              "explanation": "Confirmation bias means preference for information supporting an existing belief."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A researcher finds a favorable case and ignores later decisions discussing it. What bias threatens the analysis?",
+              "choices": [
+                "A valid binding precedent",
+                "Proportionality",
+                "Confirmation bias",
+                "Base-rate neglect only"
+              ],
+              "answer_index": 2,
+              "explanation": "A sound search examines subsequent treatment and opposing authority."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal source materially weakening a position?",
+              "choices": [
+                "Devil's advocate test",
+                "Motivated reasoning",
+                "Adverse authority",
+                "Confirmation bias"
+              ],
+              "answer_index": 2,
+              "explanation": "Adverse authority means legal source materially weakening a position."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Confirmation bias",
+                  "Preference for information supporting an existing belief"
+                ],
+                [
+                  "Motivated reasoning",
+                  "Analysis shaped by a desired conclusion"
+                ],
+                [
+                  "Adverse authority",
+                  "Legal source materially weakening a position"
+                ],
+                [
+                  "Devil's advocate test",
+                  "Deliberate reconstruction of the strongest opposing case"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Preference for information supporting an existing belief is called ___.",
+              "answer": "Confirmation bias",
+              "accept": [
+                "Confirmation bias"
+              ],
+              "explanation": "The term is Confirmation bias."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Deliberate reconstruction of the strongest opposing case is called ___.",
+              "answer": "Devil's advocate test",
+              "accept": [
+                "Devil's advocate test"
+              ],
+              "explanation": "The term is Devil's advocate test."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend the ethics and epistemology of legal reasoning",
+          "summary": "At doctoral depth, ask what makes a legal conclusion worthy of trust when interpreters are fallible and legal consequences are severe. Design institutional and personal safeguards for reasoned disagreement.",
+          "checklist": [
+            "I can distinguish sound argument from persuasive performance",
+            "I can evaluate procedural protections against biased judgment",
+            "I can defend a client-centered standard of intellectual honesty"
+          ],
+          "sections": [
+            {
+              "title": "Law's Coercive Force Raises the Stakes",
+              "body_md": "Legal conclusions can authorize detention, loss of property, family separation or restrictions on liberty. That power imposes a special demand for justification. A doctoral account must distinguish the epistemic quality of an argument—whether its sources and inferences are sound—from its rhetorical appeal. Courts and lawyers need methods that expose errors to challenge. A beautiful argument with an invented premise is more dangerous than a dull but accurate account of the law.",
+              "example": null,
+              "audio_script": "Legal conclusions can authorize detention, loss of property, family separation or restrictions on liberty. That power imposes a special demand for justification. A doctoral account must distinguish the epistemic quality of an argument—whether its sources and inferences are sound—from its rhetorical appeal. Courts and lawyers need methods that expose errors to challenge. A beautiful argument with an invented premise is more dangerous than a dull but accurate account of the law.",
+              "video": null
+            },
+            {
+              "title": "Disagreement Needs a Fair Forum",
+              "body_md": "Two careful judges may disagree over a broadly worded constitutional guarantee or the proper weight of precedent. Legitimacy does not require pretending the law always yields one mechanical answer. It requires a system of reasons, open argument, review and stable methods for resolving disagreement. An advanced scholar should identify which features of a dispute are genuinely contested and which claims about certainty are false. Thoughtful legal reasoning supports institutional trust precisely because its conclusions can be questioned.",
+              "example": null,
+              "audio_script": "Two careful judges may disagree over a broadly worded constitutional guarantee or the proper weight of precedent. Legitimacy does not require pretending the law always yields one mechanical answer. It requires a system of reasons, open argument, review and stable methods for resolving disagreement. An advanced scholar should identify which features of a dispute are genuinely contested and which claims about certainty are false. Thoughtful legal reasoning supports institutional trust precisely because its conclusions can be questioned.",
+              "video": null
+            },
+            {
+              "title": "Justice Requires Serving the Person",
+              "body_md": "A lawyer may be rewarded for winning, producing publications or advancing a legal theory. The client may need something simpler: safety, clear choices, a fair hearing, and respect. Ethical legal excellence joins technical mastery with listening and truthful risk assessment. A doctoral-level student should be able to defend a sophisticated position while explaining it to a frightened person without condescension. The highest form of reasoning is not intellectual display. It is rigorous thought used responsibly for human life and freedom.",
+              "example": null,
+              "audio_script": "A lawyer may be rewarded for winning, producing publications or advancing a legal theory. The client may need something simpler: safety, clear choices, a fair hearing, and respect. Ethical legal excellence joins technical mastery with listening and truthful risk assessment. A doctoral-level student should be able to defend a sophisticated position while explaining it to a frightened person without condescension. The highest form of reasoning is not intellectual display. It is rigorous thought used responsibly for human life and freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Procedural legitimacy means justification arising from fair decision methods.",
+              "answer": true,
+              "explanation_if_true": "Procedural legitimacy means justification arising from fair decision methods.",
+              "explanation_if_false": "Procedural legitimacy means justification arising from fair decision methods."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "An elegant persuasive argument is necessarily sound even if its key factual premise was invented.",
+              "answer": false,
+              "explanation_if_true": "Argument quality depends on accurate premises, legitimate authority and valid inference.",
+              "explanation_if_false": "Argument quality depends on accurate premises, legitimate authority and valid inference."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Epistemic rigor?",
+              "choices": [
+                "Conflict expressed through contestable arguments",
+                "Respect for the person affected by legal decisions",
+                "Careful evaluation of evidence and inference",
+                "Justification arising from fair decision methods"
+              ],
+              "answer_index": 2,
+              "explanation": "Epistemic rigor means careful evaluation of evidence and inference."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A novel theory offers public recognition but puts a client's immediate freedom at greater risk. What must counsel prioritize?",
+              "choices": [
+                "Avoiding explanation of uncertainty",
+                "Informed client choice and accurate risk advice",
+                "Personal prestige",
+                "A dramatic appellate opinion at any cost"
+              ],
+              "answer_index": 1,
+              "explanation": "Rigor and ethics demand serving the client rather than using the case as an abstract project."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means conflict expressed through contestable arguments?",
+              "choices": [
+                "Procedural legitimacy",
+                "Reasoned disagreement",
+                "Epistemic rigor",
+                "Client dignity"
+              ],
+              "answer_index": 1,
+              "explanation": "Reasoned disagreement means conflict expressed through contestable arguments."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Epistemic rigor",
+                  "Careful evaluation of evidence and inference"
+                ],
+                [
+                  "Procedural legitimacy",
+                  "Justification arising from fair decision methods"
+                ],
+                [
+                  "Reasoned disagreement",
+                  "Conflict expressed through contestable arguments"
+                ],
+                [
+                  "Client dignity",
+                  "Respect for the person affected by legal decisions"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Careful evaluation of evidence and inference is called ___.",
+              "answer": "Epistemic rigor",
+              "accept": [
+                "Epistemic rigor"
+              ],
+              "explanation": "The term is Epistemic rigor."
+            },
+            {
+              "id": "PSU-1.4.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Respect for the person affected by legal decisions is called ___.",
+              "answer": "Client dignity",
+              "accept": [
+                "Client dignity"
+              ],
+              "explanation": "The term is Client dignity."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
