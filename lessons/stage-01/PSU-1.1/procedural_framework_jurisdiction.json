@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "jurisdiction-establishment",
+      "name": "Jurisdiction Establishment",
+      "levels": {
+        "red": {
+          "focus": "Identify the legal source of a tribunal's authority.",
+          "summary": "A legal question cannot be decided by just anyone. Begin by locating the forum empowered to hear a dispute and distinguishing its power from the merits.",
+          "checklist": [
+            "I can identify the body authorized to hear a dispute",
+            "I can distinguish jurisdiction from a decision on the merits",
+            "I can check the source and limits of a forum's power"
+          ],
+          "sections": [
+            {
+              "title": "Choose a lawful decision maker",
+              "body_md": "A renter disputes an eviction. A sympathetic official cannot issue a binding order merely because the renter deserves help. First identify which court, tribunal, or agency has legal authority over the kind of dispute. That authority may come from a statute, constitution, or other recognized source. Jurisdiction is the power to decide; the merits concern who should win. A convincing argument on the merits cannot cure a complete absence of legal authority.",
+              "audio_script": "A renter disputes an eviction. A sympathetic official cannot issue a binding order merely because the renter deserves help. First identify which court, tribunal, or agency has legal authority over the kind of dispute. That authority may come from a statute, constitution, or other recognized source. Jurisdiction is the power to decide; the merits concern who should win. A convincing argument on the merits cannot cure a complete absence of legal authority.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Separate types of jurisdiction",
+              "body_md": "Subject-matter jurisdiction asks whether a tribunal can hear this kind of case. Personal jurisdiction concerns its authority over a particular party. Territorial jurisdiction concerns the legally relevant geographic connection. These inquiries may overlap, but they are not synonyms. A court may have authority over contract cases yet lack authority over a distant defendant. Venue asks where proceedings should be located within an authorized system, a further question that should not be confused with jurisdiction.",
+              "audio_script": "Subject-matter jurisdiction asks whether a tribunal can hear this kind of case. Personal jurisdiction concerns its authority over a particular party. Territorial jurisdiction concerns the legally relevant geographic connection. These inquiries may overlap, but they are not synonyms. A court may have authority over contract cases yet lack authority over a distant defendant. Venue asks where proceedings should be located within an authorized system, a further question that should not be confused with jurisdiction.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Check authority before outcome",
+              "body_md": "Write down the decision maker, its enabling law, the subject of the dispute, the parties, and the relevant location. Then ask whether another institution has exclusive jurisdiction. This method prevents a legal argument from beginning in the wrong place. Do not assume that the rules are uniform across countries: an agency's power, an arbitration clause, and a national court's authority may be governed by very different sources. The habit is universal; the specific answer is local.",
+              "audio_script": "Write down the decision maker, its enabling law, the subject of the dispute, the parties, and the relevant location. Then ask whether another institution has exclusive jurisdiction. This method prevents a legal argument from beginning in the wrong place. Do not assume that the rules are uniform across countries: an agency's power, an arbitration clause, and a national court's authority may be governed by very different sources. The habit is universal; the specific answer is local.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q1",
+              "type": "true_false",
+              "prompt": "Subject-matter jurisdiction means power over a class of disputes.",
+              "answer": true,
+              "explanation_if_true": "Subject-matter jurisdiction is power over a class of disputes.",
+              "explanation_if_false": "Subject-matter jurisdiction is power over a class of disputes."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q2",
+              "type": "true_false",
+              "prompt": "A court with no lawful authority acquires jurisdiction whenever the claimant has a morally powerful case.",
+              "answer": false,
+              "explanation_if_true": "The strength of a claim and an institution's authority to hear it are distinct issues.",
+              "explanation_if_false": "The strength of a claim and an institution's authority to hear it are distinct issues."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Jurisdiction?",
+              "choices": [
+                "Legally appropriate location of a proceeding",
+                "Legal authority to decide a dispute",
+                "Power over a class of disputes",
+                "Power over particular parties"
+              ],
+              "answer_index": 1,
+              "explanation": "Jurisdiction means legal authority to decide a dispute."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A housing tribunal is asked to settle patent ownership. What is the first concern?",
+              "choices": [
+                "Subject-matter jurisdiction",
+                "The cost of the patent",
+                "The defendant's moral character",
+                "The likely amount of compensation"
+              ],
+              "answer_index": 0,
+              "explanation": "The tribunal must have legal authority over the category of dispute."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches power over particular parties?",
+              "choices": [
+                "Personal jurisdiction",
+                "Jurisdiction",
+                "Venue",
+                "Subject-matter jurisdiction"
+              ],
+              "answer_index": 0,
+              "explanation": "Personal jurisdiction means power over particular parties."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q6",
+              "type": "matching",
+              "prompt": "Match each jurisdiction concept to its meaning.",
+              "pairs": [
+                [
+                  "Jurisdiction",
+                  "Legal authority to decide a dispute"
+                ],
+                [
+                  "Subject-matter jurisdiction",
+                  "Power over a class of disputes"
+                ],
+                [
+                  "Personal jurisdiction",
+                  "Power over particular parties"
+                ],
+                [
+                  "Venue",
+                  "Legally appropriate location of a proceeding"
+                ]
+              ],
+              "explanation": "These concepts answer different questions of authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for legal authority to decide a dispute is ___.",
+              "answer": "Jurisdiction",
+              "accept": [
+                "Jurisdiction"
+              ],
+              "explanation": "The term is Jurisdiction."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally appropriate location of a proceeding is ___.",
+              "answer": "Venue",
+              "accept": [
+                "Venue"
+              ],
+              "explanation": "The term is Venue."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Trace jurisdiction to source, consent, and exclusivity.",
+          "summary": "A forum's name tells only part of the story. Learn how enabling legislation, specialized competence, party consent, and choice-of-law rules interact.",
+          "checklist": [
+            "I can trace a tribunal's competence to binding authority",
+            "I can distinguish jurisdiction, venue, and choice of law",
+            "I can identify legal limits on consent to a forum"
+          ],
+          "sections": [
+            {
+              "title": "Find the rule that confers power",
+              "body_md": "A specialist court may hear employment disputes without having the power to resolve every kind of civil claim. Read the provisions that establish the body, define its jurisdiction, and authorize specific remedies. Some systems allow multiple courts to hear the same kind of dispute; others reserve certain matters to one forum. Never infer a power to grant any requested order simply because a tribunal may hear the underlying controversy. Competence and available remedy deserve separate analysis.",
+              "audio_script": "A specialist court may hear employment disputes without having the power to resolve every kind of civil claim. Read the provisions that establish the body, define its jurisdiction, and authorize specific remedies. Some systems allow multiple courts to hear the same kind of dispute; others reserve certain matters to one forum. Never infer a power to grant any requested order simply because a tribunal may hear the underlying controversy. Competence and available remedy deserve separate analysis.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Consent does not decide everything",
+              "body_md": "A contract can sometimes validly select a court or arbitration procedure. Yet an agreement cannot necessarily create subject-matter jurisdiction withheld by law or override mandatory protections. Its validity, scope, and effect on nonparties depend on the governing system. A lawyer should distinguish a party's consent to a forum from the authority that public law actually gives the forum. This prevents contractual language from being treated as a universal license to exercise coercive power.",
+              "audio_script": "A contract can sometimes validly select a court or arbitration procedure. Yet an agreement cannot necessarily create subject-matter jurisdiction withheld by law or override mandatory protections. Its validity, scope, and effect on nonparties depend on the governing system. A lawyer should distinguish a party's consent to a forum from the authority that public law actually gives the forum. This prevents contractual language from being treated as a universal license to exercise coercive power.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The forum need not supply the law",
+              "body_md": "A national court can have jurisdiction to hear a commercial dispute while applying another country's substantive law. Venue may identify the proper district inside the same court system. Choice of law identifies rules governing the dispute. These are separate inquiries, and answering one does not automatically answer the others. Good analysis names the court with power, the appropriate place of hearing, and the source that determines which substantive rules apply to the claim.",
+              "audio_script": "A national court can have jurisdiction to hear a commercial dispute while applying another country's substantive law. Venue may identify the proper district inside the same court system. Choice of law identifies rules governing the dispute. These are separate inquiries, and answering one does not automatically answer the others. Good analysis names the court with power, the appropriate place of hearing, and the source that determines which substantive rules apply to the claim.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q1",
+              "type": "true_false",
+              "prompt": "Exclusive jurisdiction means power reserved to one forum.",
+              "answer": true,
+              "explanation_if_true": "Exclusive jurisdiction is power reserved to one forum.",
+              "explanation_if_false": "Exclusive jurisdiction is power reserved to one forum."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q2",
+              "type": "true_false",
+              "prompt": "Parties can create any court power they wish simply by agreeing to a forum clause.",
+              "answer": false,
+              "explanation_if_true": "Consent operates within the limits imposed by the governing legal system.",
+              "explanation_if_false": "Consent operates within the limits imposed by the governing legal system."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Enabling law?",
+              "choices": [
+                "Law establishing and empowering an institution",
+                "Power reserved to one forum",
+                "Agreement assigning qualifying disputes to arbitration",
+                "Selection of legal rules governing the dispute"
+              ],
+              "answer_index": 0,
+              "explanation": "Enabling law means law establishing and empowering an institution."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A competent national court applies foreign contract law. Which distinction explains that?",
+              "choices": [
+                "The parties waived all remedies",
+                "The court is necessarily unauthorized",
+                "The case automatically becomes criminal",
+                "Jurisdiction differs from choice of law"
+              ],
+              "answer_index": 3,
+              "explanation": "A forum's power to hear a claim and the law governing that claim are distinct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches agreement assigning qualifying disputes to arbitration?",
+              "choices": [
+                "Enabling law",
+                "Choice of law",
+                "Exclusive jurisdiction",
+                "Arbitration clause"
+              ],
+              "answer_index": 3,
+              "explanation": "Arbitration clause means agreement assigning qualifying disputes to arbitration."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each jurisdiction concept to its meaning.",
+              "pairs": [
+                [
+                  "Enabling law",
+                  "Law establishing and empowering an institution"
+                ],
+                [
+                  "Exclusive jurisdiction",
+                  "Power reserved to one forum"
+                ],
+                [
+                  "Arbitration clause",
+                  "Agreement assigning qualifying disputes to arbitration"
+                ],
+                [
+                  "Choice of law",
+                  "Selection of legal rules governing the dispute"
+                ]
+              ],
+              "explanation": "These concepts answer different questions of authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for law establishing and empowering an institution is ___.",
+              "answer": "Enabling law",
+              "accept": [
+                "Enabling law"
+              ],
+              "explanation": "The term is Enabling law."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for selection of legal rules governing the dispute is ___.",
+              "answer": "Choice of law",
+              "accept": [
+                "Choice of law"
+              ],
+              "explanation": "The term is Choice of law."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Navigate concurrent forums and transnational enforcement.",
+          "summary": "Cross-border disputes can fall within several courts' authority at once. Examine forum connections, recognition of judgments, and the limits on coercive action abroad.",
+          "checklist": [
+            "I can distinguish adjudicative and enforcement jurisdiction",
+            "I can analyze concurrent cross-border claims of authority",
+            "I can plan a forum strategy that can lead to enforceable relief"
+          ],
+          "sections": [
+            {
+              "title": "Two courts may both claim jurisdiction",
+              "body_md": "A platform in one state harms users in several others. Different legal systems may have plausible grounds to hear related claims, based on statutory authority, relevant conduct, or a valid agreement. The existence of parallel jurisdiction is not itself proof that one court is acting unlawfully. Analyze the specific connection each forum relies on, any exclusive rules, and mechanisms that manage duplicative proceedings. These tests vary by system and cannot be resolved by choosing whichever country seems most sympathetic.",
+              "audio_script": "A platform in one state harms users in several others. Different legal systems may have plausible grounds to hear related claims, based on statutory authority, relevant conduct, or a valid agreement. The existence of parallel jurisdiction is not itself proof that one court is acting unlawfully. Analyze the specific connection each forum relies on, any exclusive rules, and mechanisms that manage duplicative proceedings. These tests vary by system and cannot be resolved by choosing whichever country seems most sympathetic.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A judgment does not cross borders automatically",
+              "body_md": "An authorized court may render a valid judgment while lacking power to seize assets in another sovereign's territory. Recognition and enforcement depend on treaties, domestic law, and conditions such as notice or fairness. A lawyer must distinguish adjudicative jurisdiction, the power to decide, from enforcement jurisdiction, the power to compel obedience. A favorable order that cannot be recognized where assets or people are located may provide little practical benefit. Jurisdictional strategy should therefore consider remedy from the start.",
+              "audio_script": "An authorized court may render a valid judgment while lacking power to seize assets in another sovereign's territory. Recognition and enforcement depend on treaties, domestic law, and conditions such as notice or fairness. A lawyer must distinguish adjudicative jurisdiction, the power to decide, from enforcement jurisdiction, the power to compel obedience. A favorable order that cannot be recognized where assets or people are located may provide little practical benefit. Jurisdictional strategy should therefore consider remedy from the start.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Plan backward from a meaningful remedy",
+              "body_md": "Identify what the client needs: compensation, an injunction, or clarification of legal status. Find the persons or assets whose conduct matters, then evaluate authorized forums and lawful recognition routes. Consider cost, delay, parallel proceedings, and the risk of conflicting outcomes. Practical wisdom does not erase doctrinal constraints: a court's legitimacy still depends on its recognized power. An advanced argument shows why the selected forum can hear the case and why the resulting order will meaningfully protect the client.",
+              "audio_script": "Identify what the client needs: compensation, an injunction, or clarification of legal status. Find the persons or assets whose conduct matters, then evaluate authorized forums and lawful recognition routes. Consider cost, delay, parallel proceedings, and the risk of conflicting outcomes. Practical wisdom does not erase doctrinal constraints: a court's legitimacy still depends on its recognized power. An advanced argument shows why the selected forum can hear the case and why the resulting order will meaningfully protect the client.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q1",
+              "type": "true_false",
+              "prompt": "Adjudicative jurisdiction means power to render a legal decision.",
+              "answer": true,
+              "explanation_if_true": "Adjudicative jurisdiction is power to render a legal decision.",
+              "explanation_if_false": "Adjudicative jurisdiction is power to render a legal decision."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q2",
+              "type": "true_false",
+              "prompt": "A lawful judgment from one country always authorizes police seizure of property in any other country.",
+              "answer": false,
+              "explanation_if_true": "Foreign enforcement requires lawful authority in the territory where coercive action occurs.",
+              "explanation_if_false": "Foreign enforcement requires lawful authority in the territory where coercive action occurs."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Concurrent jurisdiction?",
+              "choices": [
+                "Power to render a legal decision",
+                "Power to compel compliance",
+                "Acceptance of a foreign judgment's legal effect",
+                "Overlapping authority of multiple forums"
+              ],
+              "answer_index": 3,
+              "explanation": "Concurrent jurisdiction means overlapping authority of multiple forums."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "The defendant's assets are in a third country after a judgment is issued elsewhere. What problem remains?",
+              "choices": [
+                "The case's original title",
+                "Whether the claimant likes the judge",
+                "Recognition and enforcement",
+                "Only factual causation"
+              ],
+              "answer_index": 2,
+              "explanation": "A judgment may need recognition before it can be enforced where the assets are located."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches power to compel compliance?",
+              "choices": [
+                "Recognition",
+                "Adjudicative jurisdiction",
+                "Enforcement jurisdiction",
+                "Concurrent jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "Enforcement jurisdiction means power to compel compliance."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q6",
+              "type": "matching",
+              "prompt": "Match each jurisdiction concept to its meaning.",
+              "pairs": [
+                [
+                  "Concurrent jurisdiction",
+                  "Overlapping authority of multiple forums"
+                ],
+                [
+                  "Adjudicative jurisdiction",
+                  "Power to render a legal decision"
+                ],
+                [
+                  "Enforcement jurisdiction",
+                  "Power to compel compliance"
+                ],
+                [
+                  "Recognition",
+                  "Acceptance of a foreign judgment's legal effect"
+                ]
+              ],
+              "explanation": "These concepts answer different questions of authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for overlapping authority of multiple forums is ___.",
+              "answer": "Concurrent jurisdiction",
+              "accept": [
+                "Concurrent jurisdiction"
+              ],
+              "explanation": "The term is Concurrent jurisdiction."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for acceptance of a foreign judgment's legal effect is ___.",
+              "answer": "Recognition",
+              "accept": [
+                "Recognition"
+              ],
+              "explanation": "The term is Recognition."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique who should be allowed to exercise legal coercion.",
+          "summary": "Jurisdiction allocates power, not just paperwork. Defend a system that gives injured people access while protecting others against unpredictable or politically unequal forums.",
+          "checklist": [
+            "I can evaluate territoriality, consent, and access as jurisdictional theories",
+            "I can identify exclusion within plural legal orders",
+            "I can defend a principled rule for competing forums"
+          ],
+          "sections": [
+            {
+              "title": "Jurisdiction embodies a theory of authority",
+              "body_md": "Territoriality protects sovereign boundaries, consent can protect autonomy, and victim-centered rules can improve access to redress. Each principle has limits. A narrow territorial rule may leave digital harms without a realistic forum; an unlimited effects rule may subject people to unforeseeable coercion. A doctoral account explains why a proposed connection to the forum is sufficient, what interest it protects, and which costs it places on those compelled to participate.",
+              "audio_script": "Territoriality protects sovereign boundaries, consent can protect autonomy, and victim-centered rules can improve access to redress. Each principle has limits. A narrow territorial rule may leave digital harms without a realistic forum; an unlimited effects rule may subject people to unforeseeable coercion. A doctoral account explains why a proposed connection to the forum is sufficient, what interest it protects, and which costs it places on those compelled to participate.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Plural forums do not guarantee equal voice",
+              "body_md": "National courts, Indigenous institutions, international bodies, and arbitral tribunals may claim authority over related conduct. Some are recognized by law but lack independent enforcement; others dominate the allocation of legal power. A formally plural system can still exclude a community if another institution alone decides which customs count. Study who draws jurisdictional boundaries, whose participation the rules recognize, and how a person may challenge an unfair choice of forum. Describing institutions is not the same as justifying their authority.",
+              "audio_script": "National courts, Indigenous institutions, international bodies, and arbitral tribunals may claim authority over related conduct. Some are recognized by law but lack independent enforcement; others dominate the allocation of legal power. A formally plural system can still exclude a community if another institution alone decides which customs count. Study who draws jurisdictional boundaries, whose participation the rules recognize, and how a person may challenge an unfair choice of forum. Describing institutions is not the same as justifying their authority.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Build an accountable jurisdiction rule",
+              "body_md": "Imagine an online service harming users in five countries. A proposed rule could require a meaningful forum connection, reasonably predictable exposure, accessible proceedings, and safeguards against contradictory judgments. Explain what evidence would show the rule systematically excludes low-income claimants or exposes defendants to arbitrary suit. Respect binding treaty and constitutional limits rather than replacing existing law with preference. The goal is authority that can be defended to everyone subject to it, including the person who ultimately loses.",
+              "audio_script": "Imagine an online service harming users in five countries. A proposed rule could require a meaningful forum connection, reasonably predictable exposure, accessible proceedings, and safeguards against contradictory judgments. Explain what evidence would show the rule systematically excludes low-income claimants or exposes defendants to arbitrary suit. Respect binding treaty and constitutional limits rather than replacing existing law with preference. The goal is authority that can be defended to everyone subject to it, including the person who ultimately loses.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q1",
+              "type": "true_false",
+              "prompt": "Predictability means ability to foresee legal exposure.",
+              "answer": true,
+              "explanation_if_true": "Predictability is ability to foresee legal exposure.",
+              "explanation_if_false": "Predictability is ability to foresee legal exposure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q2",
+              "type": "true_false",
+              "prompt": "The forum with the broadest possible coercive reach is necessarily the most legitimate.",
+              "answer": false,
+              "explanation_if_true": "Legitimacy also depends on fair connection, access, predictability, and institutional restraint.",
+              "explanation_if_false": "Legitimacy also depends on fair connection, access, predictability, and institutional restraint."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Territoriality?",
+              "choices": [
+                "Practical chance to seek lawful relief",
+                "Overlapping claims by distinct legal orders",
+                "Jurisdiction linked to a place",
+                "Ability to foresee legal exposure"
+              ],
+              "answer_index": 2,
+              "explanation": "Territoriality means jurisdiction linked to a place."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A rule makes justice accessible to claimants but leaves every defendant exposed to courts worldwide. What is the tension?",
+              "choices": [
+                "Property versus contract",
+                "Access versus predictability",
+                "Punishment versus evidence",
+                "Venue versus translation"
+              ],
+              "answer_index": 1,
+              "explanation": "A defensible rule must protect access without arbitrary exposure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches practical chance to seek lawful relief?",
+              "choices": [
+                "Predictability",
+                "Access to justice",
+                "Territoriality",
+                "Jurisdictional pluralism"
+              ],
+              "answer_index": 1,
+              "explanation": "Access to justice means practical chance to seek lawful relief."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q6",
+              "type": "matching",
+              "prompt": "Match each jurisdiction concept to its meaning.",
+              "pairs": [
+                [
+                  "Territoriality",
+                  "Jurisdiction linked to a place"
+                ],
+                [
+                  "Predictability",
+                  "Ability to foresee legal exposure"
+                ],
+                [
+                  "Access to justice",
+                  "Practical chance to seek lawful relief"
+                ],
+                [
+                  "Jurisdictional pluralism",
+                  "Overlapping claims by distinct legal orders"
+                ]
+              ],
+              "explanation": "These concepts answer different questions of authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for jurisdiction linked to a place is ___.",
+              "answer": "Territoriality",
+              "accept": [
+                "Territoriality"
+              ],
+              "explanation": "The term is Territoriality."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.jurisdiction-establishment.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for overlapping claims by distinct legal orders is ___.",
+              "answer": "Jurisdictional pluralism",
+              "accept": [
+                "Jurisdictional pluralism"
+              ],
+              "explanation": "The term is Jurisdictional pluralism."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
