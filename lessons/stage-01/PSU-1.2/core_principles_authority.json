@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "From royal command to public law",
+          "summary": "Begin with Hammurabi's Babylon to see why rulers put legal decisions in public form. Learn what an inscribed judgment could accomplish—and what it could not guarantee.",
+          "checklist": [
+            "I can identify Hammurabi's monument and its purpose",
+            "I can explain the difference between a public rule and equal protection",
+            "I can connect visible legal rules to claims of royal authority"
+          ],
+          "sections": [
+            {
+              "title": "The King Makes Justice Visible",
+              "body_md": "Around 1750 BCE, King Hammurabi of Babylon presented a large inscribed monument recording judgments about property, family, commerce and injury. Its carved scene associated royal authority with the sun god Shamash. The monument did not operate like a complete modern statute book: it offered a collection of legal judgments and examples. Its significance is that a ruler publicly represented the administration of justice as a duty of kingship, not just an occasional personal order.",
+              "example": null,
+              "audio_script": "Around 1750 BCE, King Hammurabi of Babylon presented a large inscribed monument recording judgments about property, family, commerce and injury. Its carved scene associated royal authority with the sun god Shamash. The monument did not operate like a complete modern statute book: it offered a collection of legal judgments and examples. Its significance is that a ruler publicly represented the administration of justice as a duty of kingship, not just an occasional personal order.",
+              "video": null
+            },
+            {
+              "title": "An Inscription Is a Claim",
+              "body_md": "Putting judgments in stone made legal expectations visible and more durable than an unrecorded royal command. A reader could see that a dispute about payment or bodily injury was treated as part of an organized legal order. But the monument's public existence does not prove that everyone could read it, invoke it equally, or obtain a fair hearing. Historical evidence requires us to distinguish what a ruler claimed about justice from how officials actually treated people.",
+              "example": null,
+              "audio_script": "Putting judgments in stone made legal expectations visible and more durable than an unrecorded royal command. A reader could see that a dispute about payment or bodily injury was treated as part of an organized legal order. But the monument's public existence does not prove that everyone could read it, invoke it equally, or obtain a fair hearing. Historical evidence requires us to distinguish what a ruler claimed about justice from how officials actually treated people.",
+              "video": null
+            },
+            {
+              "title": "The First Historical Question",
+              "body_md": "Compare a robber demanding money with a king demanding a lawful tax. The difference cannot be understood only by the power to punish; it includes a claim of authority, an announced norm and institutions to apply it. Hammurabi's monument makes that claim especially visible. Yet a legal historian must ask whose consent mattered, what groups received protection, and who could challenge a decision. Public law can both restrain violence and legitimize unequal power.",
+              "example": null,
+              "audio_script": "Compare a robber demanding money with a king demanding a lawful tax. The difference cannot be understood only by the power to punish; it includes a claim of authority, an announced norm and institutions to apply it. Hammurabi's monument makes that claim especially visible. Yet a legal historian must ask whose consent mattered, what groups received protection, and who could challenge a decision. Public law can both restrain violence and legitimize unequal power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Shamash refers to mesopotamian sun deity shown legitimizing the king.",
+              "answer": true,
+              "explanation_if_true": "The term denotes mesopotamian sun deity shown legitimizing the king.",
+              "explanation_if_false": "The term denotes mesopotamian sun deity shown legitimizing the king."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "The monument proves that all Babylonian residents enjoyed identical legal status.",
+              "answer": false,
+              "explanation_if_true": "The collection reflects differentiated social status, and a public inscription alone cannot demonstrate equal protection.",
+              "explanation_if_false": "The collection reflects differentiated social status, and a public inscription alone cannot demonstrate equal protection."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Hammurabi?",
+              "choices": [
+                "A ruler's claimed lawful power to govern",
+                "King of Babylon associated with an inscribed collection of judgments",
+                "Mesopotamian sun deity shown legitimizing the king",
+                "Recorded legal decision or example displayed in public"
+              ],
+              "answer_index": 1,
+              "explanation": "Hammurabi means king of babylon associated with an inscribed collection of judgments."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A historian sees a royal monument displaying decisions but no records of actual hearings. What conclusion is best supported?",
+              "choices": [
+                "The ruler publicly claimed a role in administering justice",
+                "Every decision was followed exactly",
+                "All residents could appeal on equal terms",
+                "No other legal customs existed"
+              ],
+              "answer_index": 0,
+              "explanation": "The source establishes an official claim, not universal practice."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes recorded legal decision or example displayed in public?",
+              "choices": [
+                "Hammurabi",
+                "Inscribed judgment",
+                "Shamash",
+                "Royal authority"
+              ],
+              "answer_index": 1,
+              "explanation": "Inscribed judgment means recorded legal decision or example displayed in public."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Hammurabi",
+                  "King of Babylon associated with an inscribed collection of judgments"
+                ],
+                [
+                  "Shamash",
+                  "Mesopotamian sun deity shown legitimizing the king"
+                ],
+                [
+                  "Inscribed judgment",
+                  "Recorded legal decision or example displayed in public"
+                ],
+                [
+                  "Royal authority",
+                  "A ruler's claimed lawful power to govern"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for king of babylon associated with an inscribed collection of judgments is ___.",
+              "answer": "Hammurabi",
+              "accept": [
+                "Hammurabi"
+              ],
+              "explanation": "The answer is Hammurabi."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for a ruler's claimed lawful power to govern is ___.",
+              "answer": "Royal authority",
+              "accept": [
+                "Royal authority"
+              ],
+              "explanation": "The answer is Royal authority."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Roman legal authority and its changing institutions",
+          "summary": "Move from Babylonian kingship to Roman republican and imperial lawmaking. Distinguish legislation, magistrates, jurists and imperial enactments instead of treating Roman law as a single voice.",
+          "checklist": [
+            "I can distinguish the Twelve Tables from imperial legislation",
+            "I can identify the role of Roman jurists and magistrates",
+            "I can explain why Roman legal authority changed over time"
+          ],
+          "sections": [
+            {
+              "title": "The Twelve Tables",
+              "body_md": "In the mid-fifth century BCE, Rome produced the Twelve Tables, traditionally associated with publicizing rules after conflict over access to legal knowledge. The original tablets have not survived, and later writers transmit fragments of their content. The episode matters because it linked legitimate legal authority with publicly knowable standards rather than exclusive control of custom by a narrow group. It did not create modern equality or end Roman hierarchy. Its value is historical and institutional, not mythical.",
+              "example": null,
+              "audio_script": "In the mid-fifth century BCE, Rome produced the Twelve Tables, traditionally associated with publicizing rules after conflict over access to legal knowledge. The original tablets have not survived, and later writers transmit fragments of their content. The episode matters because it linked legitimate legal authority with publicly knowable standards rather than exclusive control of custom by a narrow group. It did not create modern equality or end Roman hierarchy. Its value is historical and institutional, not mythical.",
+              "video": null
+            },
+            {
+              "title": "More Than One Lawmaker",
+              "body_md": "Roman law developed through statutes, magistrates' edicts, juristic interpretation and eventually imperial constitutions. Praetors shaped available legal actions, while trained jurists reasoned about disputes and legal categories. During the empire, the emperor's enactments gained substantial importance. Describing all of this as 'Roman law' can obscure changes in who could produce an authoritative norm. To understand a rule, ask its period, source, intended audience and method of application before attributing it to an emperor or senate.",
+              "example": null,
+              "audio_script": "Roman law developed through statutes, magistrates' edicts, juristic interpretation and eventually imperial constitutions. Praetors shaped available legal actions, while trained jurists reasoned about disputes and legal categories. During the empire, the emperor's enactments gained substantial importance. Describing all of this as 'Roman law' can obscure changes in who could produce an authoritative norm. To understand a rule, ask its period, source, intended audience and method of application before attributing it to an emperor or senate.",
+              "video": null
+            },
+            {
+              "title": "Authority as a Legal Argument",
+              "body_md": "Consider a dispute in imperial Rome. A lawyer might draw on an enacted rule, an established procedural form or respected juristic interpretation, but the weight of each source varied by era. The existence of multiple legal sources required methods for reconciling them. That is the bridge to modern research: identifying a rule means identifying the institution or practice giving it force. The legal historian should resist reading today's neat hierarchy of sources backward into every Roman century.",
+              "example": null,
+              "audio_script": "Consider a dispute in imperial Rome. A lawyer might draw on an enacted rule, an established procedural form or respected juristic interpretation, but the weight of each source varied by era. The existence of multiple legal sources required methods for reconciling them. That is the bridge to modern research: identifying a rule means identifying the institution or practice giving it force. The legal historian should resist reading today's neat hierarchy of sources backward into every Roman century.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Praetor refers to roman magistrate who could shape legal procedure and remedies.",
+              "answer": true,
+              "explanation_if_true": "The term denotes roman magistrate who could shape legal procedure and remedies.",
+              "explanation_if_false": "The term denotes roman magistrate who could shape legal procedure and remedies."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "Roman legal authority had one unchanging source from the Republic through the Empire.",
+              "answer": false,
+              "explanation_if_true": "Statutes, magistrates, jurists and imperial enactments played different roles across Roman periods.",
+              "explanation_if_false": "Statutes, magistrates, jurists and imperial enactments played different roles across Roman periods."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Twelve Tables?",
+              "choices": [
+                "Early Roman public statement of laws known through later fragments",
+                "Roman magistrate who could shape legal procedure and remedies",
+                "Specialist who interpreted and analyzed legal rules",
+                "Normative enactment issued under imperial authority"
+              ],
+              "answer_index": 0,
+              "explanation": "Twelve Tables means early roman public statement of laws known through later fragments."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A researcher attributes an imperial enactment to the original Twelve Tables. What should be checked first?",
+              "choices": [
+                "The width of a Roman road",
+                "The name of a modern appellate court",
+                "The English translation's font",
+                "The date and legal source of the rule"
+              ],
+              "answer_index": 3,
+              "explanation": "Roman institutions and sources evolved; chronology is essential."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes specialist who interpreted and analyzed legal rules?",
+              "choices": [
+                "Jurist",
+                "Praetor",
+                "Imperial constitution",
+                "Twelve Tables"
+              ],
+              "answer_index": 0,
+              "explanation": "Jurist means specialist who interpreted and analyzed legal rules."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Twelve Tables",
+                  "Early Roman public statement of laws known through later fragments"
+                ],
+                [
+                  "Praetor",
+                  "Roman magistrate who could shape legal procedure and remedies"
+                ],
+                [
+                  "Jurist",
+                  "Specialist who interpreted and analyzed legal rules"
+                ],
+                [
+                  "Imperial constitution",
+                  "Normative enactment issued under imperial authority"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for early roman public statement of laws known through later fragments is ___.",
+              "answer": "Twelve Tables",
+              "accept": [
+                "Twelve Tables"
+              ],
+              "explanation": "The answer is Twelve Tables."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for normative enactment issued under imperial authority is ___.",
+              "answer": "Imperial constitution",
+              "accept": [
+                "Imperial constitution"
+              ],
+              "explanation": "The answer is Imperial constitution."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Competing medieval authorities and the rise of constraint",
+          "summary": "Study medieval legal pluralism and the negotiated limits imposed on rulers. Explain why a royal charter's significance must be read against feudal privilege and competing jurisdictions.",
+          "checklist": [
+            "I can compare royal, ecclesiastical and local jurisdictions",
+            "I can explain the historical limits of Magna Carta",
+            "I can analyze how a written charter could constrain monarchy"
+          ],
+          "sections": [
+            {
+              "title": "Law Without One Exclusive Center",
+              "body_md": "Medieval European communities could encounter royal courts, local customs, feudal jurisdictions and ecclesiastical law. Each institution claimed authority in particular matters, sometimes with overlapping boundaries. A marriage question and a land dispute might travel through different legal routes. This was not simply confusion awaiting modern central government; legal pluralism reflected competing institutions and social relationships. Understanding it prevents the mistaken assumption that a modern national court hierarchy is law's natural starting point.",
+              "example": null,
+              "audio_script": "Medieval European communities could encounter royal courts, local customs, feudal jurisdictions and ecclesiastical law. Each institution claimed authority in particular matters, sometimes with overlapping boundaries. A marriage question and a land dispute might travel through different legal routes. This was not simply confusion awaiting modern central government; legal pluralism reflected competing institutions and social relationships. Understanding it prevents the mistaken assumption that a modern national court hierarchy is law's natural starting point.",
+              "video": null
+            },
+            {
+              "title": "Magna Carta in Its Own Time",
+              "body_md": "Magna Carta emerged from a crisis between King John and rebel barons in 1215. It protected specified liberties and imposed commitments on royal action, especially toward free people within the charter's political order. It was not a modern universal bill of rights. Its later constitutional significance developed through reissues, reinterpretation and political struggle. An expert separates the text's immediate bargaining context from the broader principle later readers drew from it: even royal power can be held to lawful forms.",
+              "example": null,
+              "audio_script": "Magna Carta emerged from a crisis between King John and rebel barons in 1215. It protected specified liberties and imposed commitments on royal action, especially toward free people within the charter's political order. It was not a modern universal bill of rights. Its later constitutional significance developed through reissues, reinterpretation and political struggle. An expert separates the text's immediate bargaining context from the broader principle later readers drew from it: even royal power can be held to lawful forms.",
+              "video": null
+            },
+            {
+              "title": "Constraining the Source of Law",
+              "body_md": "A charter creates an especially difficult authority question. If a king issues or accepts a limitation on his power, why must later officials honor it when inconvenient? The answer may involve oath, custom, recognition by institutions and the costs of breach. Magna Carta's influence cannot be measured solely by its immediate compliance. Its historical importance also lies in how later generations invoked it to challenge arbitrary action. The historian must track each reinterpretation rather than assume one unbroken meaning.",
+              "example": null,
+              "audio_script": "A charter creates an especially difficult authority question. If a king issues or accepts a limitation on his power, why must later officials honor it when inconvenient? The answer may involve oath, custom, recognition by institutions and the costs of breach. Magna Carta's influence cannot be measured solely by its immediate compliance. Its historical importance also lies in how later generations invoked it to challenge arbitrary action. The historian must track each reinterpretation rather than assume one unbroken meaning.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Ecclesiastical jurisdiction refers to authority exercised by religious courts in defined matters.",
+              "answer": true,
+              "explanation_if_true": "The term denotes authority exercised by religious courts in defined matters.",
+              "explanation_if_false": "The term denotes authority exercised by religious courts in defined matters."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "Magna Carta in 1215 granted identical modern rights to every inhabitant of England.",
+              "answer": false,
+              "explanation_if_true": "It emerged within a hierarchical feudal setting and protected particular persons and interests.",
+              "explanation_if_false": "It emerged within a hierarchical feudal setting and protected particular persons and interests."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Legal pluralism?",
+              "choices": [
+                "Authority exercised by religious courts in defined matters",
+                "1215 English royal charter associated with restraints on King John",
+                "Written instrument recording recognized obligations or privileges",
+                "Coexistence of distinct legal authorities"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal pluralism means coexistence of distinct legal authorities."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A medieval dispute concerns marriage while another concerns land tenure. What feature explains different possible forums?",
+              "choices": [
+                "Modern federal preemption",
+                "The Universal Declaration",
+                "Overlapping institutional jurisdictions",
+                "A single worldwide constitution"
+              ],
+              "answer_index": 2,
+              "explanation": "Medieval jurisdiction could be divided among royal, local and ecclesiastical authorities."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes 1215 english royal charter associated with restraints on king john?",
+              "choices": [
+                "Ecclesiastical jurisdiction",
+                "Charter",
+                "Legal pluralism",
+                "Magna Carta"
+              ],
+              "answer_index": 3,
+              "explanation": "Magna Carta means 1215 english royal charter associated with restraints on king john."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Legal pluralism",
+                  "Coexistence of distinct legal authorities"
+                ],
+                [
+                  "Ecclesiastical jurisdiction",
+                  "Authority exercised by religious courts in defined matters"
+                ],
+                [
+                  "Magna Carta",
+                  "1215 English royal charter associated with restraints on King John"
+                ],
+                [
+                  "Charter",
+                  "Written instrument recording recognized obligations or privileges"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for coexistence of distinct legal authorities is ___.",
+              "answer": "Legal pluralism",
+              "accept": [
+                "Legal pluralism"
+              ],
+              "explanation": "The answer is Legal pluralism."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for written instrument recording recognized obligations or privileges is ___.",
+              "answer": "Charter",
+              "accept": [
+                "Charter"
+              ],
+              "explanation": "The answer is Charter."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Codification, source hierarchy and the legitimacy of legal order",
+          "summary": "Examine Justinian's compilation and later codification as projects that select what counts as authoritative law. Evaluate how organizing inherited materials can both clarify legal obligations and concentrate political power.",
+          "checklist": [
+            "I can distinguish compilation from the creation of entirely new law",
+            "I can evaluate codification as an assertion of institutional authority",
+            "I can criticize a source hierarchy that hides excluded traditions"
+          ],
+          "sections": [
+            {
+              "title": "Justinian's Legal Project",
+              "body_md": "Under Emperor Justinian I in the sixth century, scholars compiled and reorganized Roman legal materials, including juristic writings and imperial enactments, in works later known collectively as the Corpus Juris Civilis. The project was not merely a neutral library catalog. Selection and official promulgation were ways to establish which texts could claim current authority. Much inherited reasoning was preserved through imperial control over its presentation. Codification can therefore preserve legal knowledge while reshaping its institutional meaning.",
+              "example": null,
+              "audio_script": "Under Emperor Justinian I in the sixth century, scholars compiled and reorganized Roman legal materials, including juristic writings and imperial enactments, in works later known collectively as the Corpus Juris Civilis. The project was not merely a neutral library catalog. Selection and official promulgation were ways to establish which texts could claim current authority. Much inherited reasoning was preserved through imperial control over its presentation. Codification can therefore preserve legal knowledge while reshaping its institutional meaning.",
+              "video": null
+            },
+            {
+              "title": "The Promise and Price of a Code",
+              "body_md": "A code offers accessibility, system and a relatively visible hierarchy among sources. Yet the apparent completeness of a written code may suppress local practice, minority norms or interpretive disagreement. The Napoleonic Civil Code of 1804 illustrates the later ambition to organize private law into general legislative rules, while practical legal reasoning still depended on interpretation. The doctoral question is not whether codes are good or bad; it is what authority they claim, what they simplify and whose lived legal world they leave out.",
+              "example": null,
+              "audio_script": "A code offers accessibility, system and a relatively visible hierarchy among sources. Yet the apparent completeness of a written code may suppress local practice, minority norms or interpretive disagreement. The Napoleonic Civil Code of 1804 illustrates the later ambition to organize private law into general legislative rules, while practical legal reasoning still depended on interpretation. The doctoral question is not whether codes are good or bad; it is what authority they claim, what they simplify and whose lived legal world they leave out.",
+              "video": null
+            },
+            {
+              "title": "Authority After Conquest and Reform",
+              "body_md": "A state may declare that an imported code replaces earlier customs, but formal enactment does not by itself settle whether people experience the system as legitimate. Colonial administration and postcolonial reform make this distinction especially sharp. Analyze source hierarchy, access to adjudication, recognition of local traditions and the opportunity of affected communities to contest the rule. A legally valid enactment can be a powerful fact, while a legitimate legal order requires a deeper justification rooted in accountability and the people subject to it.",
+              "example": null,
+              "audio_script": "A state may declare that an imported code replaces earlier customs, but formal enactment does not by itself settle whether people experience the system as legitimate. Colonial administration and postcolonial reform make this distinction especially sharp. Analyze source hierarchy, access to adjudication, recognition of local traditions and the opportunity of affected communities to contest the rule. A legally valid enactment can be a powerful fact, while a legitimate legal order requires a deeper justification rooted in accountability and the people subject to it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Codification refers to systematic official organization of legal rules.",
+              "answer": true,
+              "explanation_if_true": "The term denotes systematic official organization of legal rules.",
+              "explanation_if_false": "The term denotes systematic official organization of legal rules."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "Codification always preserves every earlier custom in its original form.",
+              "answer": false,
+              "explanation_if_true": "Official selection and reorganization can change or displace prior sources and practices.",
+              "explanation_if_false": "Official selection and reorganization can change or displace prior sources and practices."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Corpus Juris Civilis?",
+              "choices": [
+                "French civil code enacted in 1804",
+                "Ranking of legally authoritative materials",
+                "Collection of Justinianic Roman legal texts",
+                "Systematic official organization of legal rules"
+              ],
+              "answer_index": 2,
+              "explanation": "Corpus Juris Civilis means collection of justinianic roman legal texts."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A new code simplifies land law but invalidates an Indigenous community's long-used practices. What must a legitimacy analysis examine?",
+              "choices": [
+                "The number of clerks in the capital",
+                "Who was excluded from authority and participation",
+                "Only the code's page count",
+                "Whether the code uses alphabetical chapters"
+              ],
+              "answer_index": 1,
+              "explanation": "Source hierarchy can carry distributive and political consequences beyond convenience."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes french civil code enacted in 1804?",
+              "choices": [
+                "Source hierarchy",
+                "Corpus Juris Civilis",
+                "Napoleonic Civil Code",
+                "Codification"
+              ],
+              "answer_index": 2,
+              "explanation": "Napoleonic Civil Code means french civil code enacted in 1804."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Corpus Juris Civilis",
+                  "Collection of Justinianic Roman legal texts"
+                ],
+                [
+                  "Codification",
+                  "Systematic official organization of legal rules"
+                ],
+                [
+                  "Napoleonic Civil Code",
+                  "French civil code enacted in 1804"
+                ],
+                [
+                  "Source hierarchy",
+                  "Ranking of legally authoritative materials"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for collection of justinianic roman legal texts is ___.",
+              "answer": "Corpus Juris Civilis",
+              "accept": [
+                "Corpus Juris Civilis"
+              ],
+              "explanation": "The answer is Corpus Juris Civilis."
+            },
+            {
+              "id": "PSU-1.2.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for ranking of legally authoritative materials is ___.",
+              "answer": "Source hierarchy",
+              "accept": [
+                "Source hierarchy"
+              ],
+              "explanation": "The answer is Source hierarchy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

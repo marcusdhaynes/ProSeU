@@ -1,0 +1,31 @@
+name: Stage 01 lesson-content validation
+
+on:
+  pull_request:
+    paths:
+      - 'lessons/stage-01/**'
+      - 'src/learning/**'
+      - 'scripts/course-content-inventory.ts'
+      - 'scripts/stage-01-completion-gate.ts'
+      - 'scripts/import-mastery-content.ts'
+      - '.github/workflows/stage-01-content-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate full Stage 01 lesson JSON without database access
+        run: npx --yes --package=tsx@4.21.0 tsx scripts/import-mastery-content.ts --dry-run --strict --require-all-levels lessons/stage-01
+      - name: Inventory every Stage 01 learning slot and flag source gaps
+        run: npx --yes --package=tsx@4.21.0 tsx scripts/stage-01-completion-gate.ts
