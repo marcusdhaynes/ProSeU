@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "remedy-doctrines",
+      "name": "Remedy Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Proportionate response in early legal collections",
+          "summary": "Read the ancient principle often summarized as an eye for an eye as a rule about proportion and status. Distinguish a ruler's prescribed response from modern individual compensation.",
+          "checklist": [
+            "I can identify lex talionis as a rule of corresponding retaliation",
+            "I can explain why ancient remedies varied with social status",
+            "I can distinguish punishment and repayment in early rules"
+          ],
+          "sections": [
+            {
+              "title": "The Meaning of an Eye for an Eye",
+              "body_md": "A provision of Hammurabi's collection describes a severe response to bodily injury, commonly associated with lex talionis, a corresponding or proportionate retaliation. The Louvre cautions that the collection is a series of legal judgments, not a modern complete code. Reading the condition matters: the persons' status and the injury category affected the recorded consequence. The doctrine represents an attempt to delimit an official response, not an invitation to unregulated private revenge. It must still be assessed against the value of human dignity.",
+              "audio_script": "A provision of Hammurabi's collection describes a severe response to bodily injury, commonly associated with lex talionis, a corresponding or proportionate retaliation. The Louvre cautions that the collection is a series of legal judgments, not a modern complete code. Reading the condition matters: the persons' status and the injury category affected the recorded consequence. The doctrine represents an attempt to delimit an official response, not an invitation to unregulated private revenge. It must still be assessed against the value of human dignity.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Equal Injury, Unequal Consequence",
+              "body_md": "Other judgments associated with the same legal world provide monetary responses in circumstances involving different social categories. That variation reveals that a principle of proportionality did not necessarily entail equal treatment of every injured person. A legal historian should therefore resist extracting one slogan and calling it the entire rule. Examine who injured whom, whose rights were recognized and how a monetary measure or bodily sanction was calculated. The method keeps historical description separate from present judgment about justice.",
+              "audio_script": "Other judgments associated with the same legal world provide monetary responses in circumstances involving different social categories. That variation reveals that a principle of proportionality did not necessarily entail equal treatment of every injured person. A legal historian should therefore resist extracting one slogan and calling it the entire rule. Examine who injured whom, whose rights were recognized and how a monetary measure or bodily sanction was calculated. The method keeps historical description separate from present judgment about justice.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "What Did the Remedy Do?",
+              "body_md": "Suppose a merchant fails to deliver goods while a builder's work injures a person. One response might aim at restoring value; another may punish a dangerous violation. The ancient collection could treat such situations differently. A modern student should identify the remedy's beneficiary, purpose and enforcing authority rather than assume every consequence is compensation. The question is always whether the response addresses the wrong, deters repetition, protects the vulnerable or simply displays public power.",
+              "audio_script": "Suppose a merchant fails to deliver goods while a builder's work injures a person. One response might aim at restoring value; another may punish a dangerous violation. The ancient collection could treat such situations differently. A modern student should identify the remedy's beneficiary, purpose and enforcing authority rather than assume every consequence is compensation. The question is always whether the response addresses the wrong, deters repetition, protects the vulnerable or simply displays public power.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Proportion describes relationship between harm and legal response.",
+              "answer": true,
+              "explanation_if_true": "Proportion means relationship between harm and legal response.",
+              "explanation_if_false": "Proportion means relationship between harm and legal response."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Hammurabi's use of proportional retaliation proves all residents were punished alike regardless of status.",
+              "answer": false,
+              "explanation_if_true": "The recorded consequences distinguish social categories; proportionality and equal protection are different claims.",
+              "explanation_if_false": "The recorded consequences distinguish social categories; proportionality and equal protection are different claims."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Lex talionis mean?",
+              "choices": [
+                "Legally imposed consequence of prohibited conduct",
+                "Doctrine of corresponding or retaliatory response",
+                "Relationship between harm and legal response",
+                "Payment directed to a legally recognized loss"
+              ],
+              "answer_index": 1,
+              "explanation": "Lex talionis is doctrine of corresponding or retaliatory response."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Two ancient provisions prescribe different responses for similar injuries against people of different status. What must the reader note?",
+              "choices": [
+                "The rule's status-specific remedial conditions",
+                "That the injuries were imaginary",
+                "That the judges applied modern equality law",
+                "That only money could ever be awarded"
+              ],
+              "answer_index": 0,
+              "explanation": "The text must be interpreted with its social and legal distinctions intact."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes payment directed to a legally recognized loss?",
+              "choices": [
+                "Lex talionis",
+                "Compensation",
+                "Proportion",
+                "Sanction"
+              ],
+              "answer_index": 1,
+              "explanation": "Compensation means payment directed to a legally recognized loss."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the remedial doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Lex talionis",
+                  "Doctrine of corresponding or retaliatory response"
+                ],
+                [
+                  "Proportion",
+                  "Relationship between harm and legal response"
+                ],
+                [
+                  "Compensation",
+                  "Payment directed to a legally recognized loss"
+                ],
+                [
+                  "Sanction",
+                  "Legally imposed consequence of prohibited conduct"
+                ]
+              ],
+              "explanation": "A remedy must be analyzed in its specific historical setting."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Doctrine of corresponding or retaliatory response is known as ___.",
+              "answer": "Lex talionis",
+              "accept": [
+                "Lex talionis"
+              ],
+              "explanation": "The term is Lex talionis."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Legally imposed consequence of prohibited conduct is known as ___.",
+              "answer": "Sanction",
+              "accept": [
+                "Sanction"
+              ],
+              "explanation": "The term is Sanction."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Roman Aquilian valuation as a distinct remedial rule",
+          "summary": "Examine how the Lex Aquilia connected wrongful damage with a distinctive monetary measure. Learn why a valuation formula is not the same thing as proving a right to recover in every case.",
+          "checklist": [
+            "I can describe the special valuation associated with the Lex Aquilia",
+            "I can identify why wrongful damage must first be established",
+            "I can distinguish Roman valuation from general modern damages"
+          ],
+          "sections": [
+            {
+              "title": "Not Every Loss Used Today's Price",
+              "body_md": "The first chapter of the Lex Aquilia required compensation calculated by reference to the highest value a covered slave or qualifying animal had during the preceding year. This rule reflected Roman property categories, including the unjust status of enslaved persons as property. Its method differed from simply reimbursing the item's price on the day of injury. A legal historian must identify the chapter and category before describing the measure. Different Roman actions and later legal systems used other rules.",
+              "audio_script": "The first chapter of the Lex Aquilia required compensation calculated by reference to the highest value a covered slave or qualifying animal had during the preceding year. This rule reflected Roman property categories, including the unjust status of enslaved persons as property. Its method differed from simply reimbursing the item's price on the day of injury. A legal historian must identify the chapter and category before describing the measure. Different Roman actions and later legal systems used other rules.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Measure Follows a Claim",
+              "body_md": "A claimant still needed to establish that the relevant facts fell within an actionable rule. A formula about valuation does not answer whether the defendant caused the injury or whether circumstances excluded wrongfulness. Roman jurists debated the relation between damage, fault, causation and available procedural actions. That jurisprudence helped connect the remedy to the scope of the claim. A useful student exercise is to keep two separate questions on paper: why this defendant owes anything, and how much the particular law permits recovery.",
+              "audio_script": "A claimant still needed to establish that the relevant facts fell within an actionable rule. A formula about valuation does not answer whether the defendant caused the injury or whether circumstances excluded wrongfulness. Roman jurists debated the relation between damage, fault, causation and available procedural actions. That jurisprudence helped connect the remedy to the scope of the claim. A useful student exercise is to keep two separate questions on paper: why this defendant owes anything, and how much the particular law permits recovery.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Remedy Can Also Deter",
+              "body_md": "A valuation pegged to a favorable historical value may exceed an ordinary replacement calculation. Scholars have therefore described elements of the Aquilian action as having compensatory and penal characteristics. Do not assume every Roman remedy fits neatly into a modern civil-versus-criminal box. An advanced comparison should identify the rule's wording, later juristic development and who received the payment. Historical labels describe legal functions only when tied to the underlying institution and its actual method of enforcement.",
+              "audio_script": "A valuation pegged to a favorable historical value may exceed an ordinary replacement calculation. Scholars have therefore described elements of the Aquilian action as having compensatory and penal characteristics. Do not assume every Roman remedy fits neatly into a modern civil-versus-criminal box. An advanced comparison should identify the rule's wording, later juristic development and who received the payment. Historical labels describe legal functions only when tied to the underlying institution and its actual method of enforcement.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Highest-year value describes valuation using the peak value within the preceding year.",
+              "answer": true,
+              "explanation_if_true": "Highest-year value means valuation using the peak value within the preceding year.",
+              "explanation_if_false": "Highest-year value means valuation using the peak value within the preceding year."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Lex Aquilia always measured every injury by the market value on the exact date of harm.",
+              "answer": false,
+              "explanation_if_true": "Its valuation provisions used specific measures, including a preceding year's highest value for certain injuries.",
+              "explanation_if_false": "Its valuation provisions used specific measures, including a preceding year's highest value for certain injuries."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Aquilian valuation mean?",
+              "choices": [
+                "Statutory measure associated with Roman wrongful property damage",
+                "Valuation using the peak value within the preceding year",
+                "Roman legal action based on the Lex Aquilia",
+                "Relief possessing compensatory and penal characteristics"
+              ],
+              "answer_index": 0,
+              "explanation": "Aquilian valuation is statutory measure associated with roman wrongful property damage."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A Roman claimant sues over damage covered by the Lex Aquilia's first chapter. Which assessment may matter?",
+              "choices": [
+                "A universal modern pain-and-suffering table",
+                "A twentieth-century sentencing tariff",
+                "An unlimited amount chosen solely by sympathy",
+                "Highest relevant value in the preceding year"
+              ],
+              "answer_index": 3,
+              "explanation": "The historical chapter specifies a distinctive valuation rather than a general modern damages formula."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes roman legal action based on the lex aquilia?",
+              "choices": [
+                "Actio legis Aquiliae",
+                "Highest-year value",
+                "Mixed remedy",
+                "Aquilian valuation"
+              ],
+              "answer_index": 0,
+              "explanation": "Actio legis Aquiliae means roman legal action based on the lex aquilia."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the remedial doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Aquilian valuation",
+                  "Statutory measure associated with Roman wrongful property damage"
+                ],
+                [
+                  "Highest-year value",
+                  "Valuation using the peak value within the preceding year"
+                ],
+                [
+                  "Actio legis Aquiliae",
+                  "Roman legal action based on the Lex Aquilia"
+                ],
+                [
+                  "Mixed remedy",
+                  "Relief possessing compensatory and penal characteristics"
+                ]
+              ],
+              "explanation": "A remedy must be analyzed in its specific historical setting."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Statutory measure associated with Roman wrongful property damage is known as ___.",
+              "answer": "Aquilian valuation",
+              "accept": [
+                "Aquilian valuation"
+              ],
+              "explanation": "The term is Aquilian valuation."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Relief possessing compensatory and penal characteristics is known as ___.",
+              "answer": "Mixed remedy",
+              "accept": [
+                "Mixed remedy"
+              ],
+              "explanation": "The term is Mixed remedy."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "English equity and the evolution of tailored remedies",
+          "summary": "Trace the historical development of Chancery relief alongside common-law remedies. Explain why an enforceable command to do or refrain from something presents different institutional demands than an award of money.",
+          "checklist": [
+            "I can explain the relation between common-law and Chancery remedies",
+            "I can distinguish injunction from damages",
+            "I can identify why supervision and discretion matter"
+          ],
+          "sections": [
+            {
+              "title": "A Court of Conscience",
+              "body_md": "The English Court of Chancery developed an equitable jurisdiction addressing disputes where available common-law forms could provide inadequate relief. It heard cases involving obligations, trusts, land and other interests, although practices changed over centuries. The Chancellor's institutional authority and procedural framework mattered: equity was never simply unlimited personal goodwill. A legal historian studies why litigants sought Chancery, what orders were available and how its jurisdiction interacted with ordinary courts rather than describing two entirely separate moral universes.",
+              "audio_script": "The English Court of Chancery developed an equitable jurisdiction addressing disputes where available common-law forms could provide inadequate relief. It heard cases involving obligations, trusts, land and other interests, although practices changed over centuries. The Chancellor's institutional authority and procedural framework mattered: equity was never simply unlimited personal goodwill. A legal historian studies why litigants sought Chancery, what orders were available and how its jurisdiction interacted with ordinary courts rather than describing two entirely separate moral universes.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Money Cannot Always Prevent Harm",
+              "body_md": "A claimant threatened with repeated interference may need an injunction directing a person to stop specified conduct. A contract involving a distinctive asset may sometimes justify specific performance rather than a money substitute. These remedies impose obligations whose compliance may require supervision. Their historical expansion reflects a judgment that vindicating an interest can require behavior, not just payment. The availability of relief still depends on legal standards such as adequacy, hardship, delay and the court's power in the particular system.",
+              "audio_script": "A claimant threatened with repeated interference may need an injunction directing a person to stop specified conduct. A contract involving a distinctive asset may sometimes justify specific performance rather than a money substitute. These remedies impose obligations whose compliance may require supervision. Their historical expansion reflects a judgment that vindicating an interest can require behavior, not just payment. The availability of relief still depends on legal standards such as adequacy, hardship, delay and the court's power in the particular system.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Reform of the Courts",
+              "body_md": "Nineteenth-century English reforms brought common-law and equitable administration together in a unified court structure, but did not automatically make every remedy interchangeable. Earlier institutional divisions continued to influence doctrines and vocabulary. A historian should distinguish changing where a litigant files from changing what substantive right or remedy exists. That discipline helps explain why contemporary lawyers can still speak of equitable relief even where one modern court may administer both legal and equitable rules.",
+              "audio_script": "Nineteenth-century English reforms brought common-law and equitable administration together in a unified court structure, but did not automatically make every remedy interchangeable. Earlier institutional divisions continued to influence doctrines and vocabulary. A historian should distinguish changing where a litigant files from changing what substantive right or remedy exists. That discipline helps explain why contemporary lawyers can still speak of equitable relief even where one modern court may administer both legal and equitable rules.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Injunction describes judicial order restraining or directing conduct.",
+              "answer": true,
+              "explanation_if_true": "Injunction means judicial order restraining or directing conduct.",
+              "explanation_if_false": "Injunction means judicial order restraining or directing conduct."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "After English court reform, every equitable order automatically became available in any dispute.",
+              "answer": false,
+              "explanation_if_true": "Administrative fusion did not remove substantive tests or the legal limits on particular remedies.",
+              "explanation_if_false": "Administrative fusion did not remove substantive tests or the legal limits on particular remedies."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Chancery mean?",
+              "choices": [
+                "Judicial order restraining or directing conduct",
+                "Order requiring performance of a qualifying obligation",
+                "Historical reorganization of court administration",
+                "English court historically associated with equity"
+              ],
+              "answer_index": 3,
+              "explanation": "Chancery is english court historically associated with equity."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A landowner faces repeated unlawful interference that money cannot prevent. Which order may provide targeted relief?",
+              "choices": [
+                "A medieval ordeal",
+                "A royal trade tariff",
+                "Injunction",
+                "A change of citizenship"
+              ],
+              "answer_index": 2,
+              "explanation": "An injunction may prevent continuing harm when legal conditions for equitable relief are satisfied."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes order requiring performance of a qualifying obligation?",
+              "choices": [
+                "Injunction",
+                "Judicature reform",
+                "Chancery",
+                "Specific performance"
+              ],
+              "answer_index": 3,
+              "explanation": "Specific performance means order requiring performance of a qualifying obligation."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the remedial doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Chancery",
+                  "English court historically associated with equity"
+                ],
+                [
+                  "Injunction",
+                  "Judicial order restraining or directing conduct"
+                ],
+                [
+                  "Specific performance",
+                  "Order requiring performance of a qualifying obligation"
+                ],
+                [
+                  "Judicature reform",
+                  "Historical reorganization of court administration"
+                ]
+              ],
+              "explanation": "A remedy must be analyzed in its specific historical setting."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "English court historically associated with equity is known as ___.",
+              "answer": "Chancery",
+              "accept": [
+                "Chancery"
+              ],
+              "explanation": "The term is Chancery."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Historical reorganization of court administration is known as ___.",
+              "answer": "Judicature reform",
+              "accept": [
+                "Judicature reform"
+              ],
+              "explanation": "The term is Judicature reform."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "The modern demand for remedies that actually protect rights",
+          "summary": "Evaluate why international and constitutional texts increasingly emphasize effective redress. Design remedies for structural violations without confusing judicial ambition with legal authority or lived improvement.",
+          "checklist": [
+            "I can explain the effective-remedy idea and its historical development",
+            "I can assess barriers between judgment and actual relief",
+            "I can defend institutional solutions proportionate to recurring violations"
+          ],
+          "sections": [
+            {
+              "title": "The Promise of Effective Redress",
+              "body_md": "Article 8 of the Universal Declaration of Human Rights expresses an aspiration to an effective remedy through competent national tribunals for acts violating fundamental rights recognized in constitution or law. The declaration is not itself a universal enforcement treaty, but it influenced later rights reasoning. Its significance for remedial history is the shift from announcing protected interests toward examining whether an affected person can actually vindicate them. An order that leaves a continuing violation untouched may be insufficient even when the court uses correct words.",
+              "audio_script": "Article 8 of the Universal Declaration of Human Rights expresses an aspiration to an effective remedy through competent national tribunals for acts violating fundamental rights recognized in constitution or law. The declaration is not itself a universal enforcement treaty, but it influenced later rights reasoning. Its significance for remedial history is the shift from announcing protected interests toward examining whether an affected person can actually vindicate them. An order that leaves a continuing violation untouched may be insufficient even when the court uses correct words.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Institutions Shape the Outcome",
+              "body_md": "Delay, cost, inaccessible records, language barriers and institutional resistance can turn legally available relief into an empty promise. Different jurisdictions address these problems through administrative review, legal aid, judicial supervision, compensation schemes and other arrangements. None works automatically. A doctoral analysis should compare who can invoke the remedy, the time and expense of pursuing it, and the power to secure compliance. Effective law is measured in people's lives, not only in the elegance of its written doctrine.",
+              "audio_script": "Delay, cost, inaccessible records, language barriers and institutional resistance can turn legally available relief into an empty promise. Different jurisdictions address these problems through administrative review, legal aid, judicial supervision, compensation schemes and other arrangements. None works automatically. A doctoral analysis should compare who can invoke the remedy, the time and expense of pursuing it, and the power to secure compliance. Effective law is measured in people's lives, not only in the elegance of its written doctrine.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Choose Repair Without Overreach",
+              "body_md": "Imagine repeated unlawful denials of education benefits affecting thousands of families. Money may repair past losses, a declaration may clarify rights, and a prospective administrative remedy may prevent recurrence. Each has distinctive effects on nonparties, public resources and institutional responsibility. A justified design must connect relief to the actual legal injury and provide transparent standards for review. The lawyer's ethical obligation is to seek the client's meaningful protection while acknowledging the boundaries of judicial competence.",
+              "audio_script": "Imagine repeated unlawful denials of education benefits affecting thousands of families. Money may repair past losses, a declaration may clarify rights, and a prospective administrative remedy may prevent recurrence. Each has distinctive effects on nonparties, public resources and institutional responsibility. A justified design must connect relief to the actual legal injury and provide transparent standards for review. The lawyer's ethical obligation is to seek the client's meaningful protection while acknowledging the boundaries of judicial competence.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "UDHR Article 8 describes declaration provision addressing effective national remedies.",
+              "answer": true,
+              "explanation_if_true": "UDHR Article 8 means declaration provision addressing effective national remedies.",
+              "explanation_if_false": "UDHR Article 8 means declaration provision addressing effective national remedies."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A declaration automatically guarantees an identical enforceable remedy in every national court.",
+              "answer": false,
+              "explanation_if_true": "International and domestic law differ on legal force, available procedures and the powers of institutions.",
+              "explanation_if_false": "International and domestic law differ on legal force, available procedures and the powers of institutions."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Effective remedy mean?",
+              "choices": [
+                "Judicial response directed to recurring institutional conduct",
+                "Process checking implementation of an order",
+                "Relief capable of meaningfully vindicating a legal right",
+                "Declaration provision addressing effective national remedies"
+              ],
+              "answer_index": 2,
+              "explanation": "Effective remedy is relief capable of meaningfully vindicating a legal right."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court declares a public practice unlawful but the agency continues it. What is the key remaining issue?",
+              "choices": [
+                "Whether Roman jurists used Greek",
+                "Practical implementation of effective relief",
+                "Whether the judgment has enough footnotes",
+                "Whether the court's building is historic"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights protection requires examination of enforceability and actual institutional response."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes judicial response directed to recurring institutional conduct?",
+              "choices": [
+                "Compliance oversight",
+                "Effective remedy",
+                "Structural relief",
+                "UDHR Article 8"
+              ],
+              "answer_index": 2,
+              "explanation": "Structural relief means judicial response directed to recurring institutional conduct."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the remedial doctrine to its meaning.",
+              "pairs": [
+                [
+                  "Effective remedy",
+                  "Relief capable of meaningfully vindicating a legal right"
+                ],
+                [
+                  "UDHR Article 8",
+                  "Declaration provision addressing effective national remedies"
+                ],
+                [
+                  "Structural relief",
+                  "Judicial response directed to recurring institutional conduct"
+                ],
+                [
+                  "Compliance oversight",
+                  "Process checking implementation of an order"
+                ]
+              ],
+              "explanation": "A remedy must be analyzed in its specific historical setting."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Relief capable of meaningfully vindicating a legal right is known as ___.",
+              "answer": "Effective remedy",
+              "accept": [
+                "Effective remedy"
+              ],
+              "explanation": "The term is Effective remedy."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.remedy-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Process checking implementation of an order is known as ___.",
+              "answer": "Compliance oversight",
+              "accept": [
+                "Compliance oversight"
+              ],
+              "explanation": "The term is Compliance oversight."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
