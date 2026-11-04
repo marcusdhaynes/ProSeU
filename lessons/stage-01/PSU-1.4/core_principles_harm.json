@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Separate legally material facts from background detail",
+          "summary": "An effective legal analysis identifies which facts change the outcome under a rule. Learn to recognize a real injury while avoiding irrelevant narrative detail.",
+          "checklist": [
+            "I can identify a fact that affects a legal element",
+            "I can separate evidence of harm from moral indignation",
+            "I can write a concise issue statement"
+          ],
+          "sections": [
+            {
+              "title": "Facts Are Not All Equal",
+              "body_md": "A client reports that a driver was rude, wore a blue jacket, and ran a red light before striking a pedestrian. The jacket may be irrelevant, the insult may matter to the human experience, and the red-light violation may be legally significant. A material fact changes how an applicable rule is applied. To identify it, first find the rule and its elements. Then ask which pieces of the story establish or undermine a required condition. That is the beginning of useful legal analysis.",
+              "example": null,
+              "audio_script": "A client reports that a driver was rude, wore a blue jacket, and ran a red light before striking a pedestrian. The jacket may be irrelevant, the insult may matter to the human experience, and the red-light violation may be legally significant. A material fact changes how an applicable rule is applied. To identify it, first find the rule and its elements. Then ask which pieces of the story establish or undermine a required condition. That is the beginning of useful legal analysis.",
+              "video": null
+            },
+            {
+              "title": "Harm Must Be Legally Located",
+              "body_md": "A client may feel betrayed after a broken promise, but a remedy depends on the legal claim and its rules for loss or injury. The lawyer should listen respectfully while distinguishing emotional reaction, factual loss, and legally recognized harm. Some legal systems protect emotional injury in defined circumstances; others require particular proof or limits. A clear issue statement does not erase the client's experience. It turns the experience into questions a court or other institution can actually decide.",
+              "example": null,
+              "audio_script": "A client may feel betrayed after a broken promise, but a remedy depends on the legal claim and its rules for loss or injury. The lawyer should listen respectfully while distinguishing emotional reaction, factual loss, and legally recognized harm. Some legal systems protect emotional injury in defined circumstances; others require particular proof or limits. A clear issue statement does not erase the client's experience. It turns the experience into questions a court or other institution can actually decide.",
+              "video": null
+            },
+            {
+              "title": "Use a Materiality Test",
+              "body_md": "Write each asserted fact on a line and ask: if this were different, might the governing rule produce a different answer? If yes, the fact may be material. If not, it may be useful context or irrelevant. Materiality also depends on disputed defenses and remedies, so do not discard a fact before identifying the whole legal issue. A concise account should preserve what affects law, evidence and client welfare without repeating details that cannot alter the analysis.",
+              "example": null,
+              "audio_script": "Write each asserted fact on a line and ask: if this were different, might the governing rule produce a different answer? If yes, the fact may be material. If not, it may be useful context or irrelevant. Materiality also depends on disputed defenses and remedies, so do not discard a fact before identifying the whole legal issue. A concise account should preserve what affects law, evidence and client welfare without repeating details that cannot alter the analysis.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Legal injury means harm recognized under an applicable claim.",
+              "answer": true,
+              "explanation_if_true": "Legal injury means harm recognized under an applicable claim.",
+              "explanation_if_false": "Legal injury means harm recognized under an applicable claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "A vivid or emotionally important detail is always legally material to every claim.",
+              "answer": false,
+              "explanation_if_true": "Legal materiality depends on the applicable rule and question.",
+              "explanation_if_false": "Legal materiality depends on the applicable rule and question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Material fact?",
+              "choices": [
+                "Connection between evidence and a matter to be decided",
+                "Fact affecting application of a legal rule",
+                "Harm recognized under an applicable claim",
+                "Concise formulation of the legal question"
+              ],
+              "answer_index": 1,
+              "explanation": "Material fact means fact affecting application of a legal rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A negligence claim turns on a traffic light violation; a witness also notes the driver's jacket color. Which fact is more likely material?",
+              "choices": [
+                "The traffic light violation",
+                "The jacket color by itself",
+                "The weather forecast in another country",
+                "The driver's preferred music"
+              ],
+              "answer_index": 0,
+              "explanation": "The violation may bear on conduct under the applicable rule, while color usually does not."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means concise formulation of the legal question?",
+              "choices": [
+                "Issue statement",
+                "Material fact",
+                "Relevance",
+                "Legal injury"
+              ],
+              "answer_index": 0,
+              "explanation": "Issue statement means concise formulation of the legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Material fact",
+                  "Fact affecting application of a legal rule"
+                ],
+                [
+                  "Legal injury",
+                  "Harm recognized under an applicable claim"
+                ],
+                [
+                  "Issue statement",
+                  "Concise formulation of the legal question"
+                ],
+                [
+                  "Relevance",
+                  "Connection between evidence and a matter to be decided"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "Fact affecting application of a legal rule is called ___.",
+              "answer": "Material fact",
+              "accept": [
+                "Material fact"
+              ],
+              "explanation": "The term is Material fact."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "Connection between evidence and a matter to be decided is called ___.",
+              "answer": "Relevance",
+              "accept": [
+                "Relevance"
+              ],
+              "explanation": "The term is Relevance."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze materiality through elements and defenses",
+          "summary": "Move beyond identifying significant facts to organizing conflicting evidence. Learn to explain how the same fact may matter differently to duty, breach, causation or a defense.",
+          "checklist": [
+            "I can map material facts to claim elements",
+            "I can identify a missing fact that could change the outcome",
+            "I can distinguish favorable evidence from conclusive evidence"
+          ],
+          "sections": [
+            {
+              "title": "Build a Fact-to-Element Map",
+              "body_md": "A visitor slips in a shop. A photograph shows water on the floor, an employee's log shows a recent inspection, and the claimant says no warning sign was visible. The photograph can prove a condition existed but may not show how long it existed. The log may support reasonable care or invite a question about what inspectors actually saw. Each fact should be mapped to the applicable duty and breach standards. One compelling image does not prove every required legal element.",
+              "example": null,
+              "audio_script": "A visitor slips in a shop. A photograph shows water on the floor, an employee's log shows a recent inspection, and the claimant says no warning sign was visible. The photograph can prove a condition existed but may not show how long it existed. The log may support reasonable care or invite a question about what inspectors actually saw. Each fact should be mapped to the applicable duty and breach standards. One compelling image does not prove every required legal element.",
+              "video": null
+            },
+            {
+              "title": "Defenses Change the Map",
+              "body_md": "If the governing law permits a comparative-fault defense, the claimant's conduct may become material even though it does not erase the defendant's potential wrong. Evidence concerning warning, visibility, or avoidability could matter. But the defense and its allocation of proof depend on jurisdiction. The lawyer must not import a defense from another system merely because it sounds familiar. Add the defense as a separate set of elements and ask which facts support or weaken it.",
+              "example": null,
+              "audio_script": "If the governing law permits a comparative-fault defense, the claimant's conduct may become material even though it does not erase the defendant's potential wrong. Evidence concerning warning, visibility, or avoidability could matter. But the defense and its allocation of proof depend on jurisdiction. The lawyer must not import a defense from another system merely because it sounds familiar. Add the defense as a separate set of elements and ask which facts support or weaken it.",
+              "video": null
+            },
+            {
+              "title": "Write a Fair Statement of Uncertainty",
+              "body_md": "A witness remembers the spill, but video footage begins after the fall. The uncertainty concerns how long the spill existed and whether the shop had a legally required opportunity to address it. The strongest analysis states that uncertainty explicitly and identifies evidence that could resolve it. Overstating what a photograph or witness proves may persuade briefly but weakens the reliability of legal advice. Clear thinking distinguishes possible, probable and legally established facts.",
+              "example": null,
+              "audio_script": "A witness remembers the spill, but video footage begins after the fall. The uncertainty concerns how long the spill existed and whether the shop had a legally required opportunity to address it. The strongest analysis states that uncertainty explicitly and identifies evidence that could resolve it. Overstating what a photograph or witness proves may persuade briefly but weakens the reliability of legal advice. Clear thinking distinguishes possible, probable and legally established facts.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Counterevidence means evidence tending against an asserted proposition.",
+              "answer": true,
+              "explanation_if_true": "Counterevidence means evidence tending against an asserted proposition.",
+              "explanation_if_false": "Counterevidence means evidence tending against an asserted proposition."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "A photograph showing a dangerous condition always proves how long it existed.",
+              "answer": false,
+              "explanation_if_true": "The image may show the condition without establishing its duration or knowledge of it.",
+              "explanation_if_false": "The image may show the condition without establishing its duration or knowledge of it."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Element mapping?",
+              "choices": [
+                "Linking evidence to required legal conditions",
+                "Evidence tending against an asserted proposition",
+                "Rule allocating consequences partly by a claimant's conduct",
+                "Missing proof relevant to a legal conclusion"
+              ],
+              "answer_index": 0,
+              "explanation": "Element mapping means linking evidence to required legal conditions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "The key disputed issue is whether a shop knew about a spill. Which fact would most help?",
+              "choices": [
+                "The customer's favorite product",
+                "The shop logo's age",
+                "The shopper's postcode alone",
+                "Reliable evidence of how long the spill existed and when staff saw it"
+              ],
+              "answer_index": 3,
+              "explanation": "Notice and opportunity to address the danger require facts about awareness or duration under the applicable rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means rule allocating consequences partly by a claimant's conduct?",
+              "choices": [
+                "Element mapping",
+                "Evidentiary gap",
+                "Counterevidence",
+                "Comparative fault"
+              ],
+              "answer_index": 3,
+              "explanation": "Comparative fault means rule allocating consequences partly by a claimant's conduct."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Element mapping",
+                  "Linking evidence to required legal conditions"
+                ],
+                [
+                  "Counterevidence",
+                  "Evidence tending against an asserted proposition"
+                ],
+                [
+                  "Comparative fault",
+                  "Rule allocating consequences partly by a claimant's conduct"
+                ],
+                [
+                  "Evidentiary gap",
+                  "Missing proof relevant to a legal conclusion"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Linking evidence to required legal conditions is called ___.",
+              "answer": "Element mapping",
+              "accept": [
+                "Element mapping"
+              ],
+              "explanation": "The term is Element mapping."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Missing proof relevant to a legal conclusion is called ___.",
+              "answer": "Evidentiary gap",
+              "accept": [
+                "Evidentiary gap"
+              ],
+              "explanation": "The term is Evidentiary gap."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate contested fact patterns and inferential strength",
+          "summary": "Analyze cases with inconsistent testimony and incomplete records. Distinguish legal proof from a coherent story and identify alternative explanations that must be tested.",
+          "checklist": [
+            "I can evaluate competing narratives against the actual evidence",
+            "I can distinguish credibility from corroboration",
+            "I can identify when a fact supports multiple explanations"
+          ],
+          "sections": [
+            {
+              "title": "A Coherent Story Can Be False",
+              "body_md": "A witness offers a detailed account of a crash, but the physical traces support only parts of it. A legal analyst must distinguish internal consistency from external corroboration. Memory, incentives, conditions of observation and later information may affect testimony. The weight a tribunal gives this evidence follows the governing rules, not simply a personal impression that a speaker seems confident. A structured analysis states each disputed proposition, the evidence bearing on it, and the strongest competing explanation.",
+              "example": null,
+              "audio_script": "A witness offers a detailed account of a crash, but the physical traces support only parts of it. A legal analyst must distinguish internal consistency from external corroboration. Memory, incentives, conditions of observation and later information may affect testimony. The weight a tribunal gives this evidence follows the governing rules, not simply a personal impression that a speaker seems confident. A structured analysis states each disputed proposition, the evidence bearing on it, and the strongest competing explanation.",
+              "video": null
+            },
+            {
+              "title": "One Fact, Several Inferences",
+              "body_md": "An employee deleted messages shortly after receiving a legal complaint. The timing might support an inference of concealment, but alternative explanations could exist, including routine retention practices. The analyst must identify which inference the law permits and what foundation is required. An adverse inference should never be treated as automatic merely because the conduct appears suspicious. The larger skill is proportional inference: conclusions should be no stronger than the evidence and applicable doctrine justify.",
+              "example": null,
+              "audio_script": "An employee deleted messages shortly after receiving a legal complaint. The timing might support an inference of concealment, but alternative explanations could exist, including routine retention practices. The analyst must identify which inference the law permits and what foundation is required. An adverse inference should never be treated as automatic merely because the conduct appears suspicious. The larger skill is proportional inference: conclusions should be no stronger than the evidence and applicable doctrine justify.",
+              "video": null
+            },
+            {
+              "title": "Materiality Includes Process",
+              "body_md": "Some facts matter to whether a case can be heard, not to whether a wrong occurred. A filing deadline, signed notice, or jurisdictional connection may decide procedure before a tribunal examines injury. A mature fact map separates threshold questions, substantive elements, defenses, remedies and credibility. This structure prevents the writer from conflating a likely moral wrong with a legally viable case. It also guides investigation toward the missing fact most likely to change the outcome.",
+              "example": null,
+              "audio_script": "Some facts matter to whether a case can be heard, not to whether a wrong occurred. A filing deadline, signed notice, or jurisdictional connection may decide procedure before a tribunal examines injury. A mature fact map separates threshold questions, substantive elements, defenses, remedies and credibility. This structure prevents the writer from conflating a likely moral wrong with a legally viable case. It also guides investigation toward the missing fact most likely to change the outcome.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Credibility means believability of an evidence source.",
+              "answer": true,
+              "explanation_if_true": "Credibility means believability of an evidence source.",
+              "explanation_if_false": "Credibility means believability of an evidence source."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "A confident and internally consistent witness must be correct as a matter of law.",
+              "answer": false,
+              "explanation_if_true": "Credibility is assessed alongside corroboration and competing evidence under the governing standard.",
+              "explanation_if_false": "Credibility is assessed alongside corroboration and competing evidence under the governing standard."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Corroboration?",
+              "choices": [
+                "Believability of an evidence source",
+                "Different plausible conclusion from the same facts",
+                "Fact affecting whether a decision process may proceed",
+                "Independent evidence supporting a proposition"
+              ],
+              "answer_index": 3,
+              "explanation": "Corroboration means independent evidence supporting a proposition."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Messages were deleted after a complaint, but automatic retention rules may explain it. What should counsel do?",
+              "choices": [
+                "Ignore the timing entirely",
+                "Argue without examining policy",
+                "Test both inferences against records and legal standards",
+                "Presume concealment conclusively"
+              ],
+              "answer_index": 2,
+              "explanation": "Suspicion can be relevant without replacing evidentiary analysis."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means different plausible conclusion from the same facts?",
+              "choices": [
+                "Threshold fact",
+                "Credibility",
+                "Alternative inference",
+                "Corroboration"
+              ],
+              "answer_index": 2,
+              "explanation": "Alternative inference means different plausible conclusion from the same facts."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Corroboration",
+                  "Independent evidence supporting a proposition"
+                ],
+                [
+                  "Credibility",
+                  "Believability of an evidence source"
+                ],
+                [
+                  "Alternative inference",
+                  "Different plausible conclusion from the same facts"
+                ],
+                [
+                  "Threshold fact",
+                  "Fact affecting whether a decision process may proceed"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "Independent evidence supporting a proposition is called ___.",
+              "answer": "Corroboration",
+              "accept": [
+                "Corroboration"
+              ],
+              "explanation": "The term is Corroboration."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "Fact affecting whether a decision process may proceed is called ___.",
+              "answer": "Threshold fact",
+              "accept": [
+                "Threshold fact"
+              ],
+              "explanation": "The term is Threshold fact."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique fact construction and structural invisibility in adjudication",
+          "summary": "At doctoral depth, examine how institutions determine which harms and evidence count as legally relevant. Develop methods that make excluded perspectives visible without relaxing standards arbitrarily.",
+          "checklist": [
+            "I can identify how legal categories shape visible injury",
+            "I can evaluate evidentiary asymmetries affecting vulnerable parties",
+            "I can defend reforms that preserve reliable proof and fair notice"
+          ],
+          "sections": [
+            {
+              "title": "Legal Categories Can Hide Harms",
+              "body_md": "A worker experiences repeated low-level discriminatory actions, none of which seems decisive alone. A doctrine focused only on isolated events may fail to capture cumulative experience, while a pattern-based test may recognize it under applicable law. The analyst must not simply assert that every unfair act constitutes a legal violation. The doctoral question is how the governing rule defines an actionable pattern, what evidence supports it, and whether the rule's categories reflect the actual problem the law aims to address.",
+              "example": null,
+              "audio_script": "A worker experiences repeated low-level discriminatory actions, none of which seems decisive alone. A doctrine focused only on isolated events may fail to capture cumulative experience, while a pattern-based test may recognize it under applicable law. The analyst must not simply assert that every unfair act constitutes a legal violation. The doctoral question is how the governing rule defines an actionable pattern, what evidence supports it, and whether the rule's categories reflect the actual problem the law aims to address.",
+              "video": null
+            },
+            {
+              "title": "Evidence Is Unequally Held",
+              "body_md": "An employer may control internal messages and data needed to establish a claim while the worker has only personal records. Procedural disclosure, presumptions, protective orders and confidentiality safeguards can alter that imbalance, where authorized. The institutional choice matters: unlimited disclosure can invade third-party privacy and produce burdens, while strict proof rules can make valid rights unreachable. A principled reform identifies the facts truly necessary and allocates access and cost proportionately.",
+              "example": null,
+              "audio_script": "An employer may control internal messages and data needed to establish a claim while the worker has only personal records. Procedural disclosure, presumptions, protective orders and confidentiality safeguards can alter that imbalance, where authorized. The institutional choice matters: unlimited disclosure can invade third-party privacy and produce burdens, while strict proof rules can make valid rights unreachable. A principled reform identifies the facts truly necessary and allocates access and cost proportionately.",
+              "video": null
+            },
+            {
+              "title": "A Defensible Theory of Materiality",
+              "body_md": "A doctoral proposal should not treat every socially meaningful fact as legally decisive. It should specify the protected interest, relevant pattern, evidence standard and safeguards against false attribution. Invite affected people to describe harms while preserving the right of others to challenge allegations. The art of legal reasoning is to create accurate, reviewable pathways from experience to a legal conclusion. Sensitivity and rigor are complementary when the law is meant to protect real human beings.",
+              "example": null,
+              "audio_script": "A doctoral proposal should not treat every socially meaningful fact as legally decisive. It should specify the protected interest, relevant pattern, evidence standard and safeguards against false attribution. Invite affected people to describe harms while preserving the right of others to challenge allegations. The art of legal reasoning is to create accurate, reviewable pathways from experience to a legal conclusion. Sensitivity and rigor are complementary when the law is meant to protect real human beings.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Evidentiary asymmetry means unequal access to proof.",
+              "answer": true,
+              "explanation_if_true": "Evidentiary asymmetry means unequal access to proof.",
+              "explanation_if_false": "Evidentiary asymmetry means unequal access to proof."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "Expanding legal relevance means every allegation must be accepted without proof.",
+              "answer": false,
+              "explanation_if_true": "A fair system can recognize structural patterns while retaining evidence and contestation.",
+              "explanation_if_false": "A fair system can recognize structural patterns while retaining evidence and contestation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Structural harm?",
+              "choices": [
+                "Evidence of connected recurring conduct",
+                "Rule protecting fairness in fact finding",
+                "Injury arising through repeated institutional patterns",
+                "Unequal access to proof"
+              ],
+              "answer_index": 2,
+              "explanation": "Structural harm means injury arising through repeated institutional patterns."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A discrimination claim depends on internal data held only by the respondent. What procedural reform might help?",
+              "choices": [
+                "Only longer closing arguments",
+                "Targeted disclosure with privacy safeguards",
+                "Automatic liability without evidence",
+                "A ban on all documents"
+              ],
+              "answer_index": 1,
+              "explanation": "Proportionate access to evidence can reduce asymmetry without eliminating fair process."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means evidence of connected recurring conduct?",
+              "choices": [
+                "Evidentiary asymmetry",
+                "Pattern evidence",
+                "Structural harm",
+                "Procedural safeguard"
+              ],
+              "answer_index": 1,
+              "explanation": "Pattern evidence means evidence of connected recurring conduct."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Structural harm",
+                  "Injury arising through repeated institutional patterns"
+                ],
+                [
+                  "Evidentiary asymmetry",
+                  "Unequal access to proof"
+                ],
+                [
+                  "Pattern evidence",
+                  "Evidence of connected recurring conduct"
+                ],
+                [
+                  "Procedural safeguard",
+                  "Rule protecting fairness in fact finding"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "Injury arising through repeated institutional patterns is called ___.",
+              "answer": "Structural harm",
+              "accept": [
+                "Structural harm"
+              ],
+              "explanation": "The term is Structural harm."
+            },
+            {
+              "id": "PSU-1.4.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "Rule protecting fairness in fact finding is called ___.",
+              "answer": "Procedural safeguard",
+              "accept": [
+                "Procedural safeguard"
+              ],
+              "explanation": "The term is Procedural safeguard."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
