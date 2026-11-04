@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Argue respectfully from reasons rather than personal status",
+          "summary": "Disagreement becomes productive when participants explain premises and allow them to be challenged. Learn to assess a legal argument without insulting its author or assuming authority from confidence.",
+          "checklist": [
+            "I can distinguish reasons from assertions",
+            "I can recognize an irrelevant personal attack",
+            "I can state a respectful counterargument"
+          ],
+          "sections": [
+            {
+              "title": "A Claim Needs Support",
+              "body_md": "An advocate says, 'This ordinance is unlawful because I know the law.' That assertion offers no legal source or application. A useful argument identifies the governing provision, the relevant facts and the reasoning connecting them. Confidence and reputation can help a listener decide where to investigate, but they do not replace proof. A student should ask what proposition is asserted and what evidence or authority makes it credible.",
+              "example": null,
+              "audio_script": "An advocate says, 'This ordinance is unlawful because I know the law.' That assertion offers no legal source or application. A useful argument identifies the governing provision, the relevant facts and the reasoning connecting them. Confidence and reputation can help a listener decide where to investigate, but they do not replace proof. A student should ask what proposition is asserted and what evidence or authority makes it credible.",
+              "video": null
+            },
+            {
+              "title": "Disagree With the Reasoning",
+              "body_md": "A colleague proposes a legal interpretation that seems incorrect. Instead of questioning their intelligence, identify the exact rule, qualification or fact they overlooked. Such criticism can be forceful and respectful at once. An ad hominem attack is especially harmful when it targets race, accent, poverty or another irrelevant characteristic. Legal institutions depend on reasons that can be examined, not on the social status of the person giving them.",
+              "example": null,
+              "audio_script": "A colleague proposes a legal interpretation that seems incorrect. Instead of questioning their intelligence, identify the exact rule, qualification or fact they overlooked. Such criticism can be forceful and respectful at once. An ad hominem attack is especially harmful when it targets race, accent, poverty or another irrelevant characteristic. Legal institutions depend on reasons that can be examined, not on the social status of the person giving them.",
+              "video": null
+            },
+            {
+              "title": "A Fair Summary Comes First",
+              "body_md": "Before responding, state the other person's strongest argument in words they would recognize. This helps prevent a straw-man argument, which attacks a weaker claim rather than the one actually made. Fair summary does not mean agreement. It creates a shared question to resolve. The habit is valuable for courtroom advocacy, negotiations and advising frightened clients who need to feel understood before they can consider difficult legal information.",
+              "example": null,
+              "audio_script": "Before responding, state the other person's strongest argument in words they would recognize. This helps prevent a straw-man argument, which attacks a weaker claim rather than the one actually made. Fair summary does not mean agreement. It creates a shared question to resolve. The habit is valuable for courtroom advocacy, negotiations and advising frightened clients who need to feel understood before they can consider difficult legal information.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Ad hominem means irrelevant attack on the person making a claim.",
+              "answer": true,
+              "explanation_if_true": "Ad hominem means irrelevant attack on the person making a claim.",
+              "explanation_if_false": "Ad hominem means irrelevant attack on the person making a claim."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "An argument becomes false merely because its speaker lacks prestige or formal credentials.",
+              "answer": false,
+              "explanation_if_true": "The source, evidence and inference must be assessed independently of irrelevant status.",
+              "explanation_if_false": "The source, evidence and inference must be assessed independently of irrelevant status."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Reasoned argument?",
+              "choices": [
+                "Accurate statement of another person's actual position",
+                "Claim supported by identifiable premises and inference",
+                "Irrelevant attack on the person making a claim",
+                "Misrepresentation of a position to make it easier to attack"
+              ],
+              "answer_index": 1,
+              "explanation": "Reasoned argument refers to claim supported by identifiable premises and inference."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A lawyer mocks the opponent's accent instead of answering the statute cited. What failure is shown?",
+              "choices": [
+                "Ad hominem reasoning",
+                "A valid statutory distinction",
+                "Proportionality analysis",
+                "A legal source hierarchy"
+              ],
+              "answer_index": 0,
+              "explanation": "An irrelevant personal attack does not refute the underlying legal proposition."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means misrepresentation of a position to make it easier to attack?",
+              "choices": [
+                "Straw man",
+                "Reasoned argument",
+                "Fair summary",
+                "Ad hominem"
+              ],
+              "answer_index": 0,
+              "explanation": "Straw man means misrepresentation of a position to make it easier to attack."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Reasoned argument",
+                  "Claim supported by identifiable premises and inference"
+                ],
+                [
+                  "Ad hominem",
+                  "Irrelevant attack on the person making a claim"
+                ],
+                [
+                  "Straw man",
+                  "Misrepresentation of a position to make it easier to attack"
+                ],
+                [
+                  "Fair summary",
+                  "Accurate statement of another person's actual position"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Claim supported by identifiable premises and inference is called ___.",
+              "answer": "Reasoned argument",
+              "accept": [
+                "Reasoned argument"
+              ],
+              "explanation": "The term is Reasoned argument."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Accurate statement of another person's actual position is called ___.",
+              "answer": "Fair summary",
+              "accept": [
+                "Fair summary"
+              ],
+              "explanation": "The term is Fair summary."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Steelman an opposing position before refuting it",
+          "summary": "A persuasive legal argument confronts the strongest reasonable version of the other side's claim. Learn to allocate the burden of argument fairly and answer adverse evidence directly.",
+          "checklist": [
+            "I can state an opponent's strongest legally plausible argument",
+            "I can identify which party must prove a disputed issue",
+            "I can answer with law and facts rather than distortion"
+          ],
+          "sections": [
+            {
+              "title": "The Strongest Objection Matters",
+              "body_md": "A client says a rule is unfair, while the opposing party cites a statutory exception. Ignoring that exception creates a weak argument, however moving the client's experience may be. The steelman method reconstructs the strongest reasonable objection, including the source and facts that support it. The lawyer then tests whether the exception truly applies. This method makes advocacy more robust because it prepares for the objection a careful decision maker is likely to raise.",
+              "example": null,
+              "audio_script": "A client says a rule is unfair, while the opposing party cites a statutory exception. Ignoring that exception creates a weak argument, however moving the client's experience may be. The steelman method reconstructs the strongest reasonable objection, including the source and facts that support it. The lawyer then tests whether the exception truly applies. This method makes advocacy more robust because it prepares for the objection a careful decision maker is likely to raise.",
+              "video": null
+            },
+            {
+              "title": "Burden of Argument Is Not Always Burden of Proof",
+              "body_md": "In discussion, a person offering a controversial conclusion ordinarily owes reasons for it. In court, formal burdens of production and persuasion are assigned by law and can differ by issue. A lawyer should not confuse rhetorical obligations with procedural rules. Identify exactly who must establish the elements and any defenses. Then present evidence that satisfies the relevant standard rather than asking the judge to accept a conclusion because the other side has not offered a perfect alternative.",
+              "example": null,
+              "audio_script": "In discussion, a person offering a controversial conclusion ordinarily owes reasons for it. In court, formal burdens of production and persuasion are assigned by law and can differ by issue. A lawyer should not confuse rhetorical obligations with procedural rules. Identify exactly who must establish the elements and any defenses. Then present evidence that satisfies the relevant standard rather than asking the judge to accept a conclusion because the other side has not offered a perfect alternative.",
+              "video": null
+            },
+            {
+              "title": "Counterargument Should Improve the Answer",
+              "body_md": "After stating an opposing claim fairly, respond to the material point: perhaps the cited statute was amended, the facts differ from the precedent or the burden was misstated. Do not invent an easier objection. Where the other side is genuinely strong, acknowledge uncertainty and explain practical consequences. The point of legal argument is not to score verbal victories but to reach a defensible conclusion upon which someone can safely act.",
+              "example": null,
+              "audio_script": "After stating an opposing claim fairly, respond to the material point: perhaps the cited statute was amended, the facts differ from the precedent or the burden was misstated. Do not invent an easier objection. Where the other side is genuinely strong, acknowledge uncertainty and explain practical consequences. The point of legal argument is not to score verbal victories but to reach a defensible conclusion upon which someone can safely act.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Burden of proof means legally allocated responsibility for establishing an issue.",
+              "answer": true,
+              "explanation_if_true": "Burden of proof means legally allocated responsibility for establishing an issue.",
+              "explanation_if_false": "Burden of proof means legally allocated responsibility for establishing an issue."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Effective legal advocacy requires attacking the weakest imaginable version of the other side's argument.",
+              "answer": false,
+              "explanation_if_true": "Answering the strongest material objection improves the accuracy and credibility of advocacy.",
+              "explanation_if_false": "Answering the strongest material objection improves the accuracy and credibility of advocacy."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Steelman?",
+              "choices": [
+                "Strongest reasonable reconstruction of an opposing position",
+                "Legally allocated responsibility for establishing an issue",
+                "Relevant material weakening a claim",
+                "Reasoned answer to an opposing proposition"
+              ],
+              "answer_index": 0,
+              "explanation": "Steelman refers to strongest reasonable reconstruction of an opposing position."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A lawyer ignores a controlling statutory exception because it weakens the client's position. What should be done?",
+              "choices": [
+                "Replace the statute with an opinion",
+                "Mock opposing counsel",
+                "Assume the exception has vanished",
+                "Analyze and answer the exception fairly"
+              ],
+              "answer_index": 3,
+              "explanation": "A strong argument addresses lawfully relevant adverse authority."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means relevant material weakening a claim?",
+              "choices": [
+                "Steelman",
+                "Rebuttal",
+                "Burden of proof",
+                "Adverse evidence"
+              ],
+              "answer_index": 3,
+              "explanation": "Adverse evidence means relevant material weakening a claim."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Steelman",
+                  "Strongest reasonable reconstruction of an opposing position"
+                ],
+                [
+                  "Burden of proof",
+                  "Legally allocated responsibility for establishing an issue"
+                ],
+                [
+                  "Adverse evidence",
+                  "Relevant material weakening a claim"
+                ],
+                [
+                  "Rebuttal",
+                  "Reasoned answer to an opposing proposition"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Strongest reasonable reconstruction of an opposing position is called ___.",
+              "answer": "Steelman",
+              "accept": [
+                "Steelman"
+              ],
+              "explanation": "The term is Steelman."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Reasoned answer to an opposing proposition is called ___.",
+              "answer": "Rebuttal",
+              "accept": [
+                "Rebuttal"
+              ],
+              "explanation": "The term is Rebuttal."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Detect motivated reasoning in legal institutions",
+          "summary": "Legal professionals and officials can favor evidence supporting a desired result while overlooking disconfirming information. Learn methods to reduce that bias without pretending institutional neutrality is automatic.",
+          "checklist": [
+            "I can identify confirmation bias in research",
+            "I can design a structured opposing-hypothesis test",
+            "I can explain how institutional incentives shape reasoning"
+          ],
+          "sections": [
+            {
+              "title": "A Desired Result Can Shape the Search",
+              "body_md": "An investigator convinced of a suspect's guilt may focus on incriminating records and stop looking for exculpatory evidence. That is confirmation bias. The concern is not whether the investigator is personally malicious but whether the procedure exposes the inference to meaningful testing. A better method identifies alternate explanations, searches for disconfirming evidence and records why each account is supported or rejected. Legal fairness requires safeguards against reasoning that turns early suspicion into apparent certainty.",
+              "example": null,
+              "audio_script": "An investigator convinced of a suspect's guilt may focus on incriminating records and stop looking for exculpatory evidence. That is confirmation bias. The concern is not whether the investigator is personally malicious but whether the procedure exposes the inference to meaningful testing. A better method identifies alternate explanations, searches for disconfirming evidence and records why each account is supported or rejected. Legal fairness requires safeguards against reasoning that turns early suspicion into apparent certainty.",
+              "video": null
+            },
+            {
+              "title": "Institutions Reward Particular Conclusions",
+              "body_md": "An agency evaluated only on quick case closure may resist reopening doubtful decisions. A private lawyer paid by a particular outcome may face incentives to overstate confidence. Professional duties, supervision, judicial review and transparent audit can moderate those pressures but cannot eliminate them automatically. A mature legal analyst examines what evidence the institution sees and how its rewards may affect interpretation. Accountability is strongest when reasons can be contested by affected people.",
+              "example": null,
+              "audio_script": "An agency evaluated only on quick case closure may resist reopening doubtful decisions. A private lawyer paid by a particular outcome may face incentives to overstate confidence. Professional duties, supervision, judicial review and transparent audit can moderate those pressures but cannot eliminate them automatically. A mature legal analyst examines what evidence the institution sees and how its rewards may affect interpretation. Accountability is strongest when reasons can be contested by affected people.",
+              "video": null
+            },
+            {
+              "title": "Do Not Replace Bias With Cynicism",
+              "body_md": "Recognizing cognitive bias does not prove that every judge or researcher reaches a predetermined result. The correct response is evidence-sensitive: identify the possible distortion, the relevant safeguards and the facts needed to establish an actual error. Overgeneralized accusations of corruption can be another fallacy. Strong advocacy distinguishes an institution's demonstrated mistake from speculation about motive, then uses lawful review procedures to correct it.",
+              "example": null,
+              "audio_script": "Recognizing cognitive bias does not prove that every judge or researcher reaches a predetermined result. The correct response is evidence-sensitive: identify the possible distortion, the relevant safeguards and the facts needed to establish an actual error. Overgeneralized accusations of corruption can be another fallacy. Strong advocacy distinguishes an institution's demonstrated mistake from speculation about motive, then uses lawful review procedures to correct it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Confirmation bias means selective attention to supporting evidence.",
+              "answer": true,
+              "explanation_if_true": "Confirmation bias means selective attention to supporting evidence.",
+              "explanation_if_false": "Confirmation bias means selective attention to supporting evidence."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "The possibility of cognitive bias proves every decision by an official is corrupt.",
+              "answer": false,
+              "explanation_if_true": "Bias risk warrants evidence and safeguards, not an unsupported universal accusation.",
+              "explanation_if_false": "Bias risk warrants evidence and safeguards, not an unsupported universal accusation."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Motivated reasoning?",
+              "choices": [
+                "Selective attention to supporting evidence",
+                "Deliberate examination of evidence against a hypothesis",
+                "Organizational reward affecting decision behavior",
+                "Analysis influenced by a preferred conclusion"
+              ],
+              "answer_index": 3,
+              "explanation": "Motivated reasoning refers to analysis influenced by a preferred conclusion."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An investigator ignores records contradicting the first suspect theory. Which corrective method is best?",
+              "choices": [
+                "Trust initial intuition more strongly",
+                "Choose a different font for the report",
+                "Test rival hypotheses using disconfirming evidence",
+                "Suppress conflicting records"
+              ],
+              "answer_index": 2,
+              "explanation": "Structured alternative testing helps reduce confirmation bias."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means deliberate examination of evidence against a hypothesis?",
+              "choices": [
+                "Institutional incentive",
+                "Confirmation bias",
+                "Disconfirming test",
+                "Motivated reasoning"
+              ],
+              "answer_index": 2,
+              "explanation": "Disconfirming test means deliberate examination of evidence against a hypothesis."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Motivated reasoning",
+                  "Analysis influenced by a preferred conclusion"
+                ],
+                [
+                  "Confirmation bias",
+                  "Selective attention to supporting evidence"
+                ],
+                [
+                  "Disconfirming test",
+                  "Deliberate examination of evidence against a hypothesis"
+                ],
+                [
+                  "Institutional incentive",
+                  "Organizational reward affecting decision behavior"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Analysis influenced by a preferred conclusion is called ___.",
+              "answer": "Motivated reasoning",
+              "accept": [
+                "Motivated reasoning"
+              ],
+              "explanation": "The term is Motivated reasoning."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Organizational reward affecting decision behavior is called ___.",
+              "answer": "Institutional incentive",
+              "accept": [
+                "Institutional incentive"
+              ],
+              "explanation": "The term is Institutional incentive."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend epistemic humility and the lawyer's duty to human beings",
+          "summary": "At doctoral depth, examine why legal authority requires transparent reasoning, fair contestation and willingness to correct error. Connect intellectual rigor with the responsibility attorneys bear for clients' lives and freedoms.",
+          "checklist": [
+            "I can evaluate legitimacy through contestable public reasons",
+            "I can distinguish intellectual humility from indecision",
+            "I can defend correction mechanisms for high-stakes error"
+          ],
+          "sections": [
+            {
+              "title": "Legal Force Demands Exceptional Reasons",
+              "body_md": "Courts and officials may authorize detention, removal of children, eviction or loss of livelihood. The severity of those powers increases the need for accurate premises, genuine hearings and reasons that others can inspect. A doctoral theory of legal argument should distinguish persuasive performance from warranted belief. The law's authority is strengthened when even an unpopular person can challenge the evidence and legal rule used against them. A decision resistant to scrutiny is not made legitimate by confidence.",
+              "example": null,
+              "audio_script": "Courts and officials may authorize detention, removal of children, eviction or loss of livelihood. The severity of those powers increases the need for accurate premises, genuine hearings and reasons that others can inspect. A doctoral theory of legal argument should distinguish persuasive performance from warranted belief. The law's authority is strengthened when even an unpopular person can challenge the evidence and legal rule used against them. A decision resistant to scrutiny is not made legitimate by confidence.",
+              "video": null
+            },
+            {
+              "title": "Humility Is Not Avoidance",
+              "body_md": "Lawyers must sometimes recommend action despite incomplete evidence and unsettled law. Epistemic humility means stating what is known, what is uncertain and which additional facts could alter the conclusion. It does not mean refusing all judgment. A reliable adviser can make a reasoned recommendation while disclosing risks and alternatives. That candor is essential when the client may bear consequences that cannot be easily repaired. The professional's duty is to equip the person for a lawful, informed choice.",
+              "example": null,
+              "audio_script": "Lawyers must sometimes recommend action despite incomplete evidence and unsettled law. Epistemic humility means stating what is known, what is uncertain and which additional facts could alter the conclusion. It does not mean refusing all judgment. A reliable adviser can make a reasoned recommendation while disclosing risks and alternatives. That candor is essential when the client may bear consequences that cannot be easily repaired. The professional's duty is to equip the person for a lawful, informed choice.",
+              "video": null
+            },
+            {
+              "title": "Excellence Is Both Technical and Moral",
+              "body_md": "A lawyer can win arguments while neglecting the humanity of the people affected. Great representation requires listening, clear explanation, protection of confidences, respect for client autonomy and scrupulous attention to law and evidence. A doctoral student should be able to defend an intricate doctrine and then explain it without condescension to someone afraid of losing freedom or family. The purpose of legal mastery is not intellectual display. It is responsible use of knowledge to protect dignity and justice.",
+              "example": null,
+              "audio_script": "A lawyer can win arguments while neglecting the humanity of the people affected. Great representation requires listening, clear explanation, protection of confidences, respect for client autonomy and scrupulous attention to law and evidence. A doctoral student should be able to defend an intricate doctrine and then explain it without condescension to someone afraid of losing freedom or family. The purpose of legal mastery is not intellectual display. It is responsible use of knowledge to protect dignity and justice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Public reason means justification open to examination and challenge.",
+              "answer": true,
+              "explanation_if_true": "Public reason means justification open to examination and challenge.",
+              "explanation_if_false": "Public reason means justification open to examination and challenge."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "A lawyer should hide significant uncertainty whenever a confident answer might impress a client.",
+              "answer": false,
+              "explanation_if_true": "Truthful risk disclosure and informed choice are central to responsible legal service.",
+              "explanation_if_false": "Truthful risk disclosure and informed choice are central to responsible legal service."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Epistemic humility?",
+              "choices": [
+                "Institutional mechanism for detecting and fixing error",
+                "Faithfulness to legal and ethical duties in representation",
+                "Accurate awareness of the limits of one's knowledge",
+                "Justification open to examination and challenge"
+              ],
+              "answer_index": 2,
+              "explanation": "Epistemic humility refers to accurate awareness of the limits of one's knowledge."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Counsel faces uncertain precedent and a client risking loss of liberty. What is the right professional response?",
+              "choices": [
+                "Prioritize scholarly prestige",
+                "Explain verified law, uncertainty, options and risks clearly",
+                "Guarantee victory to appear confident",
+                "Conceal adverse authority"
+              ],
+              "answer_index": 1,
+              "explanation": "High stakes demand candor, rigorous analysis and respect for the person's decisions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means institutional mechanism for detecting and fixing error?",
+              "choices": [
+                "Public reason",
+                "Corrective process",
+                "Epistemic humility",
+                "Professional integrity"
+              ],
+              "answer_index": 1,
+              "explanation": "Corrective process means institutional mechanism for detecting and fixing error."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Epistemic humility",
+                  "Accurate awareness of the limits of one's knowledge"
+                ],
+                [
+                  "Public reason",
+                  "Justification open to examination and challenge"
+                ],
+                [
+                  "Corrective process",
+                  "Institutional mechanism for detecting and fixing error"
+                ],
+                [
+                  "Professional integrity",
+                  "Faithfulness to legal and ethical duties in representation"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Accurate awareness of the limits of one's knowledge is called ___.",
+              "answer": "Epistemic humility",
+              "accept": [
+                "Epistemic humility"
+              ],
+              "explanation": "The term is Epistemic humility."
+            },
+            {
+              "id": "PSU-1.8.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Faithfulness to legal and ethical duties in representation is called ___.",
+              "answer": "Professional integrity",
+              "accept": [
+                "Professional integrity"
+              ],
+              "explanation": "The term is Professional integrity."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
