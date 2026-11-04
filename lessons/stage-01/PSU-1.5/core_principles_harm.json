@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Recognize how bad research harms people",
+          "summary": "A mistaken citation or overlooked deadline is not a harmless academic error. Learn why legal accuracy and careful fact handling protect a client's life, money, and freedom.",
+          "checklist": [
+            "I can identify a research error that could change legal advice",
+            "I can verify key citations before writing",
+            "I can distinguish accuracy from an impressive bibliography"
+          ],
+          "sections": [
+            {
+              "title": "The Cost of a Wrong Rule",
+              "body_md": "Suppose counsel tells a tenant that a notice period is thirty days based on an outdated webpage. The governing statute now requires a shorter action deadline, and the client loses a chance to challenge eviction. The problem began with source verification, not with elegant writing. A wrong legal proposition can cause concrete harm even when presented in confident prose. The researcher must check current primary law and relevant dates before giving advice about a decision that cannot easily be reversed.",
+              "example": null,
+              "audio_script": "Suppose counsel tells a tenant that a notice period is thirty days based on an outdated webpage. The governing statute now requires a shorter action deadline, and the client loses a chance to challenge eviction. The problem began with source verification, not with elegant writing. A wrong legal proposition can cause concrete harm even when presented in confident prose. The researcher must check current primary law and relevant dates before giving advice about a decision that cannot easily be reversed.",
+              "video": null
+            },
+            {
+              "title": "A Citation Is a Promise",
+              "body_md": "When a memorandum cites a case for a legal rule, it implicitly tells the reader that the source exists and supports the proposition. A citation to an unrelated passage, an overruled decision, or a nonexistent case breaks that promise. Verification means opening the authority, reading the relevant text, checking its status and placing it in context. More citations do not repair a false central statement. Good legal writing values a few accurate controlling sources over a display of unverified references.",
+              "example": null,
+              "audio_script": "When a memorandum cites a case for a legal rule, it implicitly tells the reader that the source exists and supports the proposition. A citation to an unrelated passage, an overruled decision, or a nonexistent case breaks that promise. Verification means opening the authority, reading the relevant text, checking its status and placing it in context. More citations do not repair a false central statement. Good legal writing values a few accurate controlling sources over a display of unverified references.",
+              "video": null
+            },
+            {
+              "title": "Protect the Client's Account",
+              "body_md": "Research errors can also arise from misunderstanding facts. Misstating a medical history, filing date or employment event may change the legal rule's application. Separate the client's account from independently verified records and ask about uncertainty without blaming the person. This combination of diligence and respectful listening is crucial when legal work concerns trauma, poverty or loss of liberty. The lawyer's job is to make the information more reliable, not to make the client sound more certain than they are.",
+              "example": null,
+              "audio_script": "Research errors can also arise from misunderstanding facts. Misstating a medical history, filing date or employment event may change the legal rule's application. Separate the client's account from independently verified records and ask about uncertainty without blaming the person. This combination of diligence and respectful listening is crucial when legal work concerns trauma, poverty or loss of liberty. The lawyer's job is to make the information more reliable, not to make the client sound more certain than they are.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Citation integrity means accurate representation of source and proposition.",
+              "answer": true,
+              "explanation_if_true": "Citation integrity means accurate representation of source and proposition.",
+              "explanation_if_false": "Citation integrity means accurate representation of source and proposition."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "A memo with many citations is reliable even if its central cited case does not exist.",
+              "answer": false,
+              "explanation_if_true": "A fabricated or irrelevant source undermines the legal proposition regardless of citation volume.",
+              "explanation_if_false": "A fabricated or irrelevant source undermines the legal proposition regardless of citation volume."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Material error?",
+              "choices": [
+                "Checking the reliability of case-specific information",
+                "Mistake capable of changing a legal conclusion",
+                "Accurate representation of source and proposition",
+                "Legal rule superseded or changed for the relevant period"
+              ],
+              "answer_index": 1,
+              "explanation": "Material error means mistake capable of changing a legal conclusion."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client is told a filing deadline based only on a dated blog. What is the urgent research correction?",
+              "choices": [
+                "Verify current governing law and effective dates",
+                "Add more decorative citations",
+                "Rewrite the title",
+                "Ask an unrelated court"
+              ],
+              "answer_index": 0,
+              "explanation": "Filing advice requires authoritative and time-specific verification."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal rule superseded or changed for the relevant period?",
+              "choices": [
+                "Outdated law",
+                "Material error",
+                "Fact verification",
+                "Citation integrity"
+              ],
+              "answer_index": 0,
+              "explanation": "Outdated law means legal rule superseded or changed for the relevant period."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Material error",
+                  "Mistake capable of changing a legal conclusion"
+                ],
+                [
+                  "Citation integrity",
+                  "Accurate representation of source and proposition"
+                ],
+                [
+                  "Outdated law",
+                  "Legal rule superseded or changed for the relevant period"
+                ],
+                [
+                  "Fact verification",
+                  "Checking the reliability of case-specific information"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "Mistake capable of changing a legal conclusion is called ___.",
+              "answer": "Material error",
+              "accept": [
+                "Material error"
+              ],
+              "explanation": "The term is Material error."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "Checking the reliability of case-specific information is called ___.",
+              "answer": "Fact verification",
+              "accept": [
+                "Fact verification"
+              ],
+              "explanation": "The term is Fact verification."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Audit claims and sources for preventable mistakes",
+          "summary": "Develop a structured error-checking routine for legal memoranda. Verify not just the existence of authority but the proposition, quotation, procedural context, and remedy it actually supports.",
+          "checklist": [
+            "I can conduct a proposition-to-source audit",
+            "I can identify selective quotation and false paraphrase",
+            "I can check material deadlines and adverse authority"
+          ],
+          "sections": [
+            {
+              "title": "Match the Claim to the Source",
+              "body_md": "A legal memo states that a case requires proof of intent, but the opinion actually discusses negligence. The citation exists, yet the legal proposition is wrong. Review each material sentence and ask which source supports it, where, and under what conditions. A reliable audit checks the jurisdiction, holding, procedural posture, later treatment and any statutory changes. The purpose is not to punish drafts. It is to prevent a client's decision from resting on a confident but false statement.",
+              "example": null,
+              "audio_script": "A legal memo states that a case requires proof of intent, but the opinion actually discusses negligence. The citation exists, yet the legal proposition is wrong. Review each material sentence and ask which source supports it, where, and under what conditions. A reliable audit checks the jurisdiction, holding, procedural posture, later treatment and any statutory changes. The purpose is not to punish drafts. It is to prevent a client's decision from resting on a confident but false statement.",
+              "video": null
+            },
+            {
+              "title": "Quotes Need Their Surroundings",
+              "body_md": "A court may say, 'This action is generally unavailable,' and then explain a statutory exception. Quoting only the first clause can mislead as much as inventing a rule. Read enough context to preserve qualifications, dissent versus majority, and whether the statement is binding or incidental. Good paraphrasing reflects what the source actually decided, not merely what an advocate wishes it had said. If the meaning is uncertain, state that limitation rather than silently choosing the broadest interpretation.",
+              "example": null,
+              "audio_script": "A court may say, 'This action is generally unavailable,' and then explain a statutory exception. Quoting only the first clause can mislead as much as inventing a rule. Read enough context to preserve qualifications, dissent versus majority, and whether the statement is binding or incidental. Good paraphrasing reflects what the source actually decided, not merely what an advocate wishes it had said. If the meaning is uncertain, state that limitation rather than silently choosing the broadest interpretation.",
+              "video": null
+            },
+            {
+              "title": "Prioritize Consequential Checks",
+              "body_md": "Not every sentence deserves equal audit time. Legal deadlines, jurisdiction, key elements, defenses, adverse authority and requested relief can change whether a case succeeds at all. Check these first, then verify supporting background propositions. Keep a short log of corrections so another reviewer can see what changed. This risk-based method protects clients while respecting the need for concise, efficient work.",
+              "example": null,
+              "audio_script": "Not every sentence deserves equal audit time. Legal deadlines, jurisdiction, key elements, defenses, adverse authority and requested relief can change whether a case succeeds at all. Check these first, then verify supporting background propositions. Keep a short log of corrections so another reviewer can see what changed. This risk-based method protects clients while respecting the need for concise, efficient work.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Selective quotation means omission that distorts a passage's meaning.",
+              "answer": true,
+              "explanation_if_true": "Selective quotation means omission that distorts a passage's meaning.",
+              "explanation_if_false": "Selective quotation means omission that distorts a passage's meaning."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "An authentic court quotation is never misleading if a lawyer removes its statutory exception.",
+              "answer": false,
+              "explanation_if_true": "Omitting legally essential qualifications can misrepresent the source.",
+              "explanation_if_false": "Omitting legally essential qualifications can misrepresent the source."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Proposition audit?",
+              "choices": [
+                "Checking each legal claim against its cited source",
+                "Omission that distorts a passage's meaning",
+                "Stage and setting of a judicial decision",
+                "Checking the most consequential claims first"
+              ],
+              "answer_index": 0,
+              "explanation": "Proposition audit means checking each legal claim against its cited source."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A memo quotes a prohibition but omits its exception. What should the reviewer do?",
+              "choices": [
+                "Leave it because the quotation is technically real",
+                "Add unrelated cases",
+                "Conceal the omission",
+                "Restore context and reassess the legal claim"
+              ],
+              "answer_index": 3,
+              "explanation": "Accurate legal writing must preserve conditions and exceptions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means stage and setting of a judicial decision?",
+              "choices": [
+                "Proposition audit",
+                "Risk-based review",
+                "Selective quotation",
+                "Procedural posture"
+              ],
+              "answer_index": 3,
+              "explanation": "Procedural posture means stage and setting of a judicial decision."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Proposition audit",
+                  "Checking each legal claim against its cited source"
+                ],
+                [
+                  "Selective quotation",
+                  "Omission that distorts a passage's meaning"
+                ],
+                [
+                  "Procedural posture",
+                  "Stage and setting of a judicial decision"
+                ],
+                [
+                  "Risk-based review",
+                  "Checking the most consequential claims first"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Checking each legal claim against its cited source is called ___.",
+              "answer": "Proposition audit",
+              "accept": [
+                "Proposition audit"
+              ],
+              "explanation": "The term is Proposition audit."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Checking the most consequential claims first is called ___.",
+              "answer": "Risk-based review",
+              "accept": [
+                "Risk-based review"
+              ],
+              "explanation": "The term is Risk-based review."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate evidence provenance and research bias",
+          "summary": "Advanced research requires tracking how factual claims and legal sources entered the record. Learn to investigate missing documents, unreliable databases, and one-sided selection without overclaiming causation.",
+          "checklist": [
+            "I can trace a factual assertion to an identifiable record",
+            "I can identify data gaps and provenance risks",
+            "I can challenge a favored legal conclusion with adverse evidence"
+          ],
+          "sections": [
+            {
+              "title": "Provenance Makes Evidence Inspectable",
+              "body_md": "A spreadsheet summarizing thousands of transactions may appear convincing, but the researcher should know who collected the figures, from what system, and with what exclusions. Records can be altered, deduplicated incorrectly or stripped of context. Legal admissibility and weight remain separate inquiries governed by the tribunal's rules. A responsible memo describes the data source, transformations and limits before inferring wrongdoing. This is especially important when a single analysis may affect many employees, patients or customers.",
+              "example": null,
+              "audio_script": "A spreadsheet summarizing thousands of transactions may appear convincing, but the researcher should know who collected the figures, from what system, and with what exclusions. Records can be altered, deduplicated incorrectly or stripped of context. Legal admissibility and weight remain separate inquiries governed by the tribunal's rules. A responsible memo describes the data source, transformations and limits before inferring wrongdoing. This is especially important when a single analysis may affect many employees, patients or customers.",
+              "video": null
+            },
+            {
+              "title": "Databases Contain Selection Effects",
+              "body_md": "A case search may emphasize published appellate decisions while omitting unreported lower-court outcomes, settlements or non-English sources. Those gaps can distort predictions about how often claims succeed. A sophisticated lawyer distinguishes the law expressed in controlling precedents from empirical claims about outcomes. The fact that a database contains many decisions of one kind is not proof every dispute ends that way. Research design must account for what was never recorded or indexed.",
+              "example": null,
+              "audio_script": "A case search may emphasize published appellate decisions while omitting unreported lower-court outcomes, settlements or non-English sources. Those gaps can distort predictions about how often claims succeed. A sophisticated lawyer distinguishes the law expressed in controlling precedents from empirical claims about outcomes. The fact that a database contains many decisions of one kind is not proof every dispute ends that way. Research design must account for what was never recorded or indexed.",
+              "video": null
+            },
+            {
+              "title": "Test the Unfavorable Hypothesis",
+              "body_md": "If early research suggests a defendant violated a duty, seek reliable facts and sources that would rebut that claim. This reduces motivated reasoning and exposes missing elements. The result may strengthen or weaken the client's case. Accurate advice needs both possibilities because it informs settlement, litigation and ethical choices. The researcher's credibility comes from trying to discover the truth under the applicable law, not from assembling the largest collection of favorable materials.",
+              "example": null,
+              "audio_script": "If early research suggests a defendant violated a duty, seek reliable facts and sources that would rebut that claim. This reduces motivated reasoning and exposes missing elements. The result may strengthen or weaken the client's case. Accurate advice needs both possibilities because it informs settlement, litigation and ethical choices. The researcher's credibility comes from trying to discover the truth under the applicable law, not from assembling the largest collection of favorable materials.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Selection effect means distortion from which information is collected or visible.",
+              "answer": true,
+              "explanation_if_true": "Selection effect means distortion from which information is collected or visible.",
+              "explanation_if_false": "Selection effect means distortion from which information is collected or visible."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "An accurate-looking spreadsheet proves its underlying data was collected and processed correctly.",
+              "answer": false,
+              "explanation_if_true": "Provenance, exclusions and processing must be examined independently.",
+              "explanation_if_false": "Provenance, exclusions and processing must be examined independently."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Evidence provenance?",
+              "choices": [
+                "Distortion from which information is collected or visible",
+                "Processing that changes raw records into analyzed form",
+                "Deliberate search for evidence against an asserted conclusion",
+                "Record of an item's origin and handling"
+              ],
+              "answer_index": 3,
+              "explanation": "Evidence provenance means record of an item's origin and handling."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A damages estimate relies on a data export with unknown filters. What should counsel request?",
+              "choices": [
+                "Only the final total",
+                "A different font",
+                "Source records and documentation of transformations",
+                "A brighter chart"
+              ],
+              "answer_index": 2,
+              "explanation": "A reliable factual inference needs traceable inputs and processing."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means processing that changes raw records into analyzed form?",
+              "choices": [
+                "Adversarial testing",
+                "Selection effect",
+                "Data transformation",
+                "Evidence provenance"
+              ],
+              "answer_index": 2,
+              "explanation": "Data transformation means processing that changes raw records into analyzed form."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Evidence provenance",
+                  "Record of an item's origin and handling"
+                ],
+                [
+                  "Selection effect",
+                  "Distortion from which information is collected or visible"
+                ],
+                [
+                  "Data transformation",
+                  "Processing that changes raw records into analyzed form"
+                ],
+                [
+                  "Adversarial testing",
+                  "Deliberate search for evidence against an asserted conclusion"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "Record of an item's origin and handling is called ___.",
+              "answer": "Evidence provenance",
+              "accept": [
+                "Evidence provenance"
+              ],
+              "explanation": "The term is Evidence provenance."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "Deliberate search for evidence against an asserted conclusion is called ___.",
+              "answer": "Adversarial testing",
+              "accept": [
+                "Adversarial testing"
+              ],
+              "explanation": "The term is Adversarial testing."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design research safeguards against systemic informational harm",
+          "summary": "At doctoral depth, examine how flawed legal information systems can reproduce injustice at scale. Propose verifiable, privacy-respecting methods for legal research and communication.",
+          "checklist": [
+            "I can analyze systemic risks of fabricated authority",
+            "I can design reproducible research review",
+            "I can evaluate unequal access to trustworthy legal information"
+          ],
+          "sections": [
+            {
+              "title": "A Small Error Can Scale",
+              "body_md": "An automated legal database may repeat a mistaken summary across hundreds of answers, turning one flawed interpretation into routine advice. Systems that prioritize speed without verifying primary sources can magnify legal harm. The scholar's task is to specify failure modes: nonexistent cases, outdated statutes, mistranslations, omitted exceptions and unauthorized disclosure. Quality assurance should target each risk with traceable sources, version control and a process for reporting and correcting errors.",
+              "example": null,
+              "audio_script": "An automated legal database may repeat a mistaken summary across hundreds of answers, turning one flawed interpretation into routine advice. Systems that prioritize speed without verifying primary sources can magnify legal harm. The scholar's task is to specify failure modes: nonexistent cases, outdated statutes, mistranslations, omitted exceptions and unauthorized disclosure. Quality assurance should target each risk with traceable sources, version control and a process for reporting and correcting errors.",
+              "video": null
+            },
+            {
+              "title": "Correction Must Be Possible",
+              "body_md": "A trustworthy research system retains a minimal record showing which sources supported a material assertion, which version was used, and who reviewed it. Corrections should update dependent conclusions and alert affected users where necessary and lawful. At the same time, audit records must avoid unnecessary storage of confidential client information. The balance between reproducibility and privacy is not solved by collecting everything. A disciplined system preserves what reviewers genuinely need and protects what clients entrusted.",
+              "example": null,
+              "audio_script": "A trustworthy research system retains a minimal record showing which sources supported a material assertion, which version was used, and who reviewed it. Corrections should update dependent conclusions and alert affected users where necessary and lawful. At the same time, audit records must avoid unnecessary storage of confidential client information. The balance between reproducibility and privacy is not solved by collecting everything. A disciplined system preserves what reviewers genuinely need and protects what clients entrusted.",
+              "video": null
+            },
+            {
+              "title": "Access Is a Justice Issue",
+              "body_md": "Commercial databases and specialist counsel can make authoritative law easier for well-resourced parties to find than for those without money. Public access to laws, accessible legal education and reliable low-cost research tools can reduce that disparity. Yet simplified advice can be dangerous if it conceals jurisdictional differences or limitations. A doctoral proposal must pair accessibility with source accuracy, clear warnings about uncertainty, and practical routes to qualified assistance when a person's life or liberty is at stake.",
+              "example": null,
+              "audio_script": "Commercial databases and specialist counsel can make authoritative law easier for well-resourced parties to find than for those without money. Public access to laws, accessible legal education and reliable low-cost research tools can reduce that disparity. Yet simplified advice can be dangerous if it conceals jurisdictional differences or limitations. A doctoral proposal must pair accessibility with source accuracy, clear warnings about uncertainty, and practical routes to qualified assistance when a person's life or liberty is at stake.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Version control means tracking changes to sources and analysis.",
+              "answer": true,
+              "explanation_if_true": "Version control means tracking changes to sources and analysis.",
+              "explanation_if_false": "Version control means tracking changes to sources and analysis."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "Automating legal research eliminates the need for source verification and qualified review.",
+              "answer": false,
+              "explanation_if_true": "Automation can multiply incorrect or fabricated information without safeguards.",
+              "explanation_if_false": "Automation can multiply incorrect or fabricated information without safeguards."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Systemic misinformation?",
+              "choices": [
+                "Procedure for identifying and remedying errors",
+                "Unequal opportunity to obtain reliable legal information",
+                "Repeated false legal information distributed at scale",
+                "Tracking changes to sources and analysis"
+              ],
+              "answer_index": 2,
+              "explanation": "Systemic misinformation means repeated false legal information distributed at scale."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An automated system repeatedly cites a repealed statute to vulnerable users. Which reform is most protective?",
+              "choices": [
+                "Suppressing user questions",
+                "Verified source updates and a correction process",
+                "More confident wording",
+                "Removing all version dates"
+              ],
+              "answer_index": 1,
+              "explanation": "Accuracy must be maintained and errors corrected when their consequences are serious."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means procedure for identifying and remedying errors?",
+              "choices": [
+                "Version control",
+                "Correction protocol",
+                "Systemic misinformation",
+                "Access inequality"
+              ],
+              "answer_index": 1,
+              "explanation": "Correction protocol means procedure for identifying and remedying errors."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Systemic misinformation",
+                  "Repeated false legal information distributed at scale"
+                ],
+                [
+                  "Version control",
+                  "Tracking changes to sources and analysis"
+                ],
+                [
+                  "Correction protocol",
+                  "Procedure for identifying and remedying errors"
+                ],
+                [
+                  "Access inequality",
+                  "Unequal opportunity to obtain reliable legal information"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "Repeated false legal information distributed at scale is called ___.",
+              "answer": "Systemic misinformation",
+              "accept": [
+                "Systemic misinformation"
+              ],
+              "explanation": "The term is Systemic misinformation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "Unequal opportunity to obtain reliable legal information is called ___.",
+              "answer": "Access inequality",
+              "accept": [
+                "Access inequality"
+              ],
+              "explanation": "The term is Access inequality."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
