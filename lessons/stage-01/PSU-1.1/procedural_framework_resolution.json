@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "pre-trial-resolution",
+      "name": "Pre-trial Resolution",
+      "levels": {
+        "red": {
+          "focus": "Distinguish settlement from a judgment on the merits.",
+          "summary": "A dispute can end by agreement, withdrawal, or court order. Learn why those outcomes have different meanings and why the client must understand the rights being exchanged.",
+          "checklist": [
+            "I can distinguish settlement from a merits ruling",
+            "I can identify obligations in a proposed settlement",
+            "I can recognize the importance of informed client consent"
+          ],
+          "sections": [
+            {
+              "title": "There is more than one way to finish",
+              "body_md": "A worker may agree to resolve unpaid wages for a payment, or a court may dismiss the complaint for a procedural defect. Both end a proceeding, but they say different things about whether the employer breached the law. A settlement is an agreement, not automatically a court finding of innocence or fault. A lawyer must explain what the agreement settles and whether the client may bring related claims later. These consequences depend on the terms and the governing law.",
+              "audio_script": "A worker may agree to resolve unpaid wages for a payment, or a court may dismiss the complaint for a procedural defect. Both end a proceeding, but they say different things about whether the employer breached the law. A settlement is an agreement, not automatically a court finding of innocence or fault. A lawyer must explain what the agreement settles and whether the client may bring related claims later. These consequences depend on the terms and the governing law.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The client owns the decision",
+              "body_md": "A settlement may trade a claim for money, changed behavior, or a promise about future conduct. The client should understand the amount, deadlines, release of claims, and possibility of enforcement. Counsel can recommend, but cannot simply replace the client's informed choice with personal convenience. A person facing urgent financial pressure may need a particularly clear explanation of risks. Legal representation is a responsibility toward someone whose security and freedom may depend on the decision.",
+              "audio_script": "A settlement may trade a claim for money, changed behavior, or a promise about future conduct. The client should understand the amount, deadlines, release of claims, and possibility of enforcement. Counsel can recommend, but cannot simply replace the client's informed choice with personal convenience. A person facing urgent financial pressure may need a particularly clear explanation of risks. Legal representation is a responsibility toward someone whose security and freedom may depend on the decision.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Closure must be real",
+              "body_md": "An agreement can fail if it leaves the payment method, performance date, or consequence of breach uncertain. A precise settlement names the parties, required acts, timing, and claims resolved. In some situations, court approval or special safeguards are required. Do not assume every promise will be enforced in every jurisdiction. A humane resolution is not just a signature or a celebratory announcement; it is a workable plan that helps the affected person move forward.",
+              "audio_script": "An agreement can fail if it leaves the payment method, performance date, or consequence of breach uncertain. A precise settlement names the parties, required acts, timing, and claims resolved. In some situations, court approval or special safeguards are required. Do not assume every promise will be enforced in every jurisdiction. A humane resolution is not just a signature or a celebratory announcement; it is a workable plan that helps the affected person move forward.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q1",
+              "type": "true_false",
+              "prompt": "Release means agreement relinquishing identified claims.",
+              "answer": true,
+              "explanation_if_true": "Release means agreement relinquishing identified claims.",
+              "explanation_if_false": "Release means agreement relinquishing identified claims."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q2",
+              "type": "true_false",
+              "prompt": "Signing a settlement necessarily proves the defendant committed no legal wrong.",
+              "answer": false,
+              "explanation_if_true": "Settlement typically ends a dispute without a final finding on the underlying merits.",
+              "explanation_if_false": "Settlement typically ends a dispute without a final finding on the underlying merits."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Settlement mean?",
+              "choices": [
+                "Capacity of law to give effect to an obligation",
+                "Agreement resolving a legal dispute",
+                "Agreement relinquishing identified claims",
+                "Choice made with adequate understanding"
+              ],
+              "answer_index": 1,
+              "explanation": "Settlement is agreement resolving a legal dispute."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client wants to accept payment but does not understand the claims being released. What must happen?",
+              "choices": [
+                "Explain the scope before informed agreement",
+                "Sign immediately to avoid paperwork",
+                "Assume no rights are affected",
+                "Tell the court the parties were already acquitted"
+              ],
+              "answer_index": 0,
+              "explanation": "Meaningful consent requires knowing what the agreement changes."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches choice made with adequate understanding?",
+              "choices": [
+                "Informed consent",
+                "Settlement",
+                "Enforceability",
+                "Release"
+              ],
+              "answer_index": 0,
+              "explanation": "Informed consent is choice made with adequate understanding."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q6",
+              "type": "matching",
+              "prompt": "Match each resolution concept.",
+              "pairs": [
+                [
+                  "Settlement",
+                  "Agreement resolving a legal dispute"
+                ],
+                [
+                  "Release",
+                  "Agreement relinquishing identified claims"
+                ],
+                [
+                  "Informed consent",
+                  "Choice made with adequate understanding"
+                ],
+                [
+                  "Enforceability",
+                  "Capacity of law to give effect to an obligation"
+                ]
+              ],
+              "explanation": "Agreement, judgment, and enforceability remain distinct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for agreement resolving a legal dispute is ___.",
+              "answer": "Settlement",
+              "accept": [
+                "Settlement"
+              ],
+              "explanation": "The term is Settlement."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for capacity of law to give effect to an obligation is ___.",
+              "answer": "Enforceability",
+              "accept": [
+                "Enforceability"
+              ],
+              "explanation": "The term is Enforceability."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare negotiation, mediation, arbitration, and preclusion.",
+          "summary": "Alternative paths to resolution differ in who decides and what becomes binding. Learn how finality rules can prevent unnecessary relitigation while also risking unfair exclusion.",
+          "checklist": [
+            "I can distinguish mediation from arbitration",
+            "I can recognize the effect of a release or judgment",
+            "I can explain how power imbalance affects negotiation"
+          ],
+          "sections": [
+            {
+              "title": "Who holds the power to decide?",
+              "body_md": "Negotiation allows parties to reach their own agreement, sometimes through counsel. Mediation uses a facilitator, who ordinarily helps parties communicate rather than issuing a binding decision. Arbitration can lead to a binding award from a decision maker empowered under a valid agreement or applicable law. These distinctions matter to consent, evidence rules, and routes of review. Referring to all three as one process conceals who actually decides the outcome.",
+              "audio_script": "Negotiation allows parties to reach their own agreement, sometimes through counsel. Mediation uses a facilitator, who ordinarily helps parties communicate rather than issuing a binding decision. Arbitration can lead to a binding award from a decision maker empowered under a valid agreement or applicable law. These distinctions matter to consent, evidence rules, and routes of review. Referring to all three as one process conceals who actually decides the outcome.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Finality has legal limits",
+              "body_md": "A final judgment may bar renewed litigation of a claim or an issue under the law of preclusion. A private settlement may release selected claims, but the scope and effect depend on its terms and governing rules. A person may unwittingly relinquish claims not expressly discussed in negotiation if the release is broad. Counsel should explain precisely what becomes closed and what remains possible. Finality protects stability, yet overly broad closure can become a new source of injustice.",
+              "audio_script": "A final judgment may bar renewed litigation of a claim or an issue under the law of preclusion. A private settlement may release selected claims, but the scope and effect depend on its terms and governing rules. A person may unwittingly relinquish claims not expressly discussed in negotiation if the release is broad. Counsel should explain precisely what becomes closed and what remains possible. Finality protects stability, yet overly broad closure can become a new source of injustice.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Power influences agreement",
+              "body_md": "One party may be a company with large reserves while the other needs wages to pay rent. Both may sign the same document, but their bargaining positions are unequal. An ethical lawyer evaluates the time value of relief, risks of trial, valid protections, and the client's own priorities. A mediator's presence does not automatically cure coercion or make every term lawful. The central distinction is between a compromise entered with meaningful understanding and one obtained through legally improper pressure or deception.",
+              "audio_script": "One party may be a company with large reserves while the other needs wages to pay rent. Both may sign the same document, but their bargaining positions are unequal. An ethical lawyer evaluates the time value of relief, risks of trial, valid protections, and the client's own priorities. A mediator's presence does not automatically cure coercion or make every term lawful. The central distinction is between a compromise entered with meaningful understanding and one obtained through legally improper pressure or deception.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q1",
+              "type": "true_false",
+              "prompt": "Arbitration means adjudication under an authorized private or statutory procedure.",
+              "answer": true,
+              "explanation_if_true": "Arbitration means adjudication under an authorized private or statutory procedure.",
+              "explanation_if_false": "Arbitration means adjudication under an authorized private or statutory procedure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q2",
+              "type": "true_false",
+              "prompt": "A mediator ordinarily has the same authority to impose a judgment as an arbitrator.",
+              "answer": false,
+              "explanation_if_true": "Mediation assists agreement; arbitration can involve an authorized binding adjudicative award.",
+              "explanation_if_false": "Mediation assists agreement; arbitration can involve an authorized binding adjudicative award."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Mediation mean?",
+              "choices": [
+                "Facilitated negotiation without an imposed merits decision",
+                "Adjudication under an authorized private or statutory procedure",
+                "Restriction on relitigating resolved claims",
+                "Practical capacity to shape agreement terms"
+              ],
+              "answer_index": 0,
+              "explanation": "Mediation is facilitated negotiation without an imposed merits decision."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A party settles one debt but later disputes a different transaction. What must be checked?",
+              "choices": [
+                "Whether the mediator was popular",
+                "The courthouse's opening hours",
+                "The unrelated transaction's publicity",
+                "The actual scope of the release and applicable preclusion rules"
+              ],
+              "answer_index": 3,
+              "explanation": "An agreement's reach cannot be assumed without its terms and governing law."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches restriction on relitigating resolved claims?",
+              "choices": [
+                "Mediation",
+                "Bargaining power",
+                "Arbitration",
+                "Claim preclusion"
+              ],
+              "answer_index": 3,
+              "explanation": "Claim preclusion is restriction on relitigating resolved claims."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each resolution concept.",
+              "pairs": [
+                [
+                  "Mediation",
+                  "Facilitated negotiation without an imposed merits decision"
+                ],
+                [
+                  "Arbitration",
+                  "Adjudication under an authorized private or statutory procedure"
+                ],
+                [
+                  "Claim preclusion",
+                  "Restriction on relitigating resolved claims"
+                ],
+                [
+                  "Bargaining power",
+                  "Practical capacity to shape agreement terms"
+                ]
+              ],
+              "explanation": "Agreement, judgment, and enforceability remain distinct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for facilitated negotiation without an imposed merits decision is ___.",
+              "answer": "Mediation",
+              "accept": [
+                "Mediation"
+              ],
+              "explanation": "The term is Mediation."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for practical capacity to shape agreement terms is ___.",
+              "answer": "Bargaining power",
+              "accept": [
+                "Bargaining power"
+              ],
+              "explanation": "The term is Bargaining power."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Design a settlement that addresses real human interests.",
+          "summary": "Effective resolution includes implementation, not just a number. Analyze releases, confidentiality, verification, and consequences for people beyond the immediate parties.",
+          "checklist": [
+            "I can identify material nonmonetary settlement terms",
+            "I can evaluate whether confidentiality is lawful and appropriate",
+            "I can anticipate the risk of performance failure"
+          ],
+          "sections": [
+            {
+              "title": "The headline amount may not solve the problem",
+              "body_md": "A claimant in an employment dispute may value a corrected personnel record, future safety measures, or a reference as much as a cash payment. A settlement should identify every material term, the exact act promised, the person responsible, and the time for performance. Broad release language or vague promises can generate new conflict. A thoughtful lawyer translates the client's concrete life goals into legal obligations that a court or other authorized institution could realistically enforce.",
+              "audio_script": "A claimant in an employment dispute may value a corrected personnel record, future safety measures, or a reference as much as a cash payment. A settlement should identify every material term, the exact act promised, the person responsible, and the time for performance. Broad release language or vague promises can generate new conflict. A thoughtful lawyer translates the client's concrete life goals into legal obligations that a court or other authorized institution could realistically enforce.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Confidentiality can protect or harm",
+              "body_md": "A confidentiality clause may shield a victim's sensitive experience, but may also conceal ongoing danger or restrict reporting in ways prohibited by law. A non-disparagement clause can have similar effects. Evaluate statutory restrictions, public interests, third-party safety, and the client's autonomy. The right answer is not a blanket rule that privacy is good or secrecy is bad. Identify what information the clause covers and whether a narrower provision protects legitimate interests without suppressing lawful accountability.",
+              "audio_script": "A confidentiality clause may shield a victim's sensitive experience, but may also conceal ongoing danger or restrict reporting in ways prohibited by law. A non-disparagement clause can have similar effects. Evaluate statutory restrictions, public interests, third-party safety, and the client's autonomy. The right answer is not a blanket rule that privacy is good or secrecy is bad. Identify what information the clause covers and whether a narrower provision protects legitimate interests without suppressing lawful accountability.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Plan for the promise to fail",
+              "body_md": "An installment agreement with an unstable payer may be valuable only if it includes workable security and lawful enforcement provisions. Define milestones, proof of compliance, notice of breach, and a forum able to resolve disputes about performance. Distinguish a private contract from a consent judgment where relevant. Advanced counsel should also consider taxes, confidentiality, and obligations continuing after payment, as the governing law requires. The purpose is durable peace rather than a temporary appearance of victory.",
+              "audio_script": "An installment agreement with an unstable payer may be valuable only if it includes workable security and lawful enforcement provisions. Define milestones, proof of compliance, notice of breach, and a forum able to resolve disputes about performance. Distinguish a private contract from a consent judgment where relevant. Advanced counsel should also consider taxes, confidentiality, and obligations continuing after payment, as the governing law requires. The purpose is durable peace rather than a temporary appearance of victory.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q1",
+              "type": "true_false",
+              "prompt": "Confidentiality clause means restriction on disclosure of specified information.",
+              "answer": true,
+              "explanation_if_true": "Confidentiality clause means restriction on disclosure of specified information.",
+              "explanation_if_false": "Confidentiality clause means restriction on disclosure of specified information."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q2",
+              "type": "true_false",
+              "prompt": "A settlement needs only a total payment amount, because all other terms will be supplied automatically.",
+              "answer": false,
+              "explanation_if_true": "Scope, timing, releases, conditions, and implementation require deliberate drafting.",
+              "explanation_if_false": "Scope, timing, releases, conditions, and implementation require deliberate drafting."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Material term mean?",
+              "choices": [
+                "Restriction on disclosure of specified information",
+                "Judicially entered resolution embodying consent",
+                "Defined lawful response to nonperformance",
+                "Provision central to the parties' agreement"
+              ],
+              "answer_index": 3,
+              "explanation": "Material term is provision central to the parties' agreement."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An agreement promises future corrections but contains no completion deadline or verification. What weakness matters?",
+              "choices": [
+                "Too few decorative headings",
+                "Lack of an arbitration game",
+                "Unclear performance and enforcement",
+                "Excessive citation of legal theory"
+              ],
+              "answer_index": 2,
+              "explanation": "Terms must be sufficiently precise to implement and enforce."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches judicially entered resolution embodying consent?",
+              "choices": [
+                "Enforcement mechanism",
+                "Confidentiality clause",
+                "Consent judgment",
+                "Material term"
+              ],
+              "answer_index": 2,
+              "explanation": "Consent judgment is judicially entered resolution embodying consent."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q6",
+              "type": "matching",
+              "prompt": "Match each resolution concept.",
+              "pairs": [
+                [
+                  "Material term",
+                  "Provision central to the parties' agreement"
+                ],
+                [
+                  "Confidentiality clause",
+                  "Restriction on disclosure of specified information"
+                ],
+                [
+                  "Consent judgment",
+                  "Judicially entered resolution embodying consent"
+                ],
+                [
+                  "Enforcement mechanism",
+                  "Defined lawful response to nonperformance"
+                ]
+              ],
+              "explanation": "Agreement, judgment, and enforceability remain distinct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for provision central to the parties' agreement is ___.",
+              "answer": "Material term",
+              "accept": [
+                "Material term"
+              ],
+              "explanation": "The term is Material term."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for defined lawful response to nonperformance is ___.",
+              "answer": "Enforcement mechanism",
+              "accept": [
+                "Enforcement mechanism"
+              ],
+              "explanation": "The term is Enforcement mechanism."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Examine private peace versus public accountability.",
+          "summary": "Confidential resolution can protect dignity but can also hide recurring institutional harm. Defend a system that respects victims' autonomy without allowing powerful parties to purchase silence where law forbids it.",
+          "checklist": [
+            "I can assess third-party interests in settlement terms",
+            "I can distinguish real consent from legally impermissible pressure",
+            "I can propose safeguards for high-stakes resolutions"
+          ],
+          "sections": [
+            {
+              "title": "A private agreement may affect strangers",
+              "body_md": "An institution accused of repeated safety failures may offer generous settlements with secrecy provisions. Individual claimants can have legitimate reasons to protect their privacy, but the public may also need information to prevent further harm. A principled analysis identifies who bears the risk of concealment and which disclosures the law requires. It does not assume all confidentiality is unjust. The real challenge is protecting informed choice while preventing private agreements from undermining duties owed to others.",
+              "audio_script": "An institution accused of repeated safety failures may offer generous settlements with secrecy provisions. Individual claimants can have legitimate reasons to protect their privacy, but the public may also need information to prevent further harm. A principled analysis identifies who bears the risk of concealment and which disclosures the law requires. It does not assume all confidentiality is unjust. The real challenge is protecting informed choice while preventing private agreements from undermining duties owed to others.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A signature is not all of autonomy",
+              "body_md": "A person facing loss of housing or immigration status may accept terms under severe pressure despite understanding their wording. That does not automatically make the settlement legally void, but it raises important questions about bargaining power, counsel, and potential coercion. A sophisticated theory distinguishes ordinary hardships from legally disqualifying pressure and examines available safeguards. It refuses to turn the urgency of a vulnerable person's life into a bargaining technique to be exploited.",
+              "audio_script": "A person facing loss of housing or immigration status may accept terms under severe pressure despite understanding their wording. That does not automatically make the settlement legally void, but it raises important questions about bargaining power, counsel, and potential coercion. A sophisticated theory distinguishes ordinary hardships from legally disqualifying pressure and examines available safeguards. It refuses to turn the urgency of a vulnerable person's life into a bargaining technique to be exploited.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design a legitimate resolution process",
+              "body_md": "Consider clear releases, opportunities for independent advice, special review where minors or collective rights are affected, and legally required disclosure of systemic wrongdoing. Specify which features existing law authorizes and which require reform. Evaluate whether extra steps delay compensation or meaningfully reduce exploitation. A just system should make settlement an option for achieving peace, not a secret transfer of accountability from those with power onto those already harmed.",
+              "audio_script": "Consider clear releases, opportunities for independent advice, special review where minors or collective rights are affected, and legally required disclosure of systemic wrongdoing. Specify which features existing law authorizes and which require reform. Evaluate whether extra steps delay compensation or meaningfully reduce exploitation. A just system should make settlement an option for achieving peace, not a secret transfer of accountability from those with power onto those already harmed.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q1",
+              "type": "true_false",
+              "prompt": "Coercion means pressure undermining legally meaningful agreement.",
+              "answer": true,
+              "explanation_if_true": "Coercion means pressure undermining legally meaningful agreement.",
+              "explanation_if_false": "Coercion means pressure undermining legally meaningful agreement."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q2",
+              "type": "true_false",
+              "prompt": "Every confidential settlement is necessarily unlawful and unethical.",
+              "answer": false,
+              "explanation_if_true": "Confidentiality can protect legitimate privacy, but its scope must respect governing law and others' interests.",
+              "explanation_if_false": "Confidentiality can protect legitimate privacy, but its scope must respect governing law and others' interests."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Public accountability mean?",
+              "choices": [
+                "Legal concern of persons not signing an agreement",
+                "Procedural protection against unfair resolution",
+                "Answerability for conduct affecting a community",
+                "Pressure undermining legally meaningful agreement"
+              ],
+              "answer_index": 2,
+              "explanation": "Public accountability is answerability for conduct affecting a community."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A proposed agreement suppresses disclosure of ongoing dangers to uninvolved people. What wider issue arises?",
+              "choices": [
+                "The claimant's choice of signature ink",
+                "Public accountability and third-party safety",
+                "Only the number of contract pages",
+                "The mediator's preferred format"
+              ],
+              "answer_index": 1,
+              "explanation": "Private peace must be weighed against lawful duties and risks to others."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term matches legal concern of persons not signing an agreement?",
+              "choices": [
+                "Coercion",
+                "Third-party interest",
+                "Public accountability",
+                "Settlement safeguard"
+              ],
+              "answer_index": 1,
+              "explanation": "Third-party interest is legal concern of persons not signing an agreement."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q6",
+              "type": "matching",
+              "prompt": "Match each resolution concept.",
+              "pairs": [
+                [
+                  "Public accountability",
+                  "Answerability for conduct affecting a community"
+                ],
+                [
+                  "Coercion",
+                  "Pressure undermining legally meaningful agreement"
+                ],
+                [
+                  "Third-party interest",
+                  "Legal concern of persons not signing an agreement"
+                ],
+                [
+                  "Settlement safeguard",
+                  "Procedural protection against unfair resolution"
+                ]
+              ],
+              "explanation": "Agreement, judgment, and enforceability remain distinct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for answerability for conduct affecting a community is ___.",
+              "answer": "Public accountability",
+              "accept": [
+                "Public accountability"
+              ],
+              "explanation": "The term is Public accountability."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.pre-trial-resolution.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for procedural protection against unfair resolution is ___.",
+              "answer": "Settlement safeguard",
+              "accept": [
+                "Settlement safeguard"
+              ],
+              "explanation": "The term is Settlement safeguard."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
