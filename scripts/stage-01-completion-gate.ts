@@ -95,18 +95,93 @@ for (const id of entries.keys()) {
   }
 }
 
+type SourceObjective = {
+  id: string; officialSyllabusUrl: string;
+  lessonIds: string[]; questionIds: string[]; reviewer: string; reviewedAt: string;
+};
+type SourceRequirement = {
+  title: string; mandatory: boolean; objectives: SourceObjective[];
+};
+type SourceProgram = {
+  institution: string; officialProgramUrl: string; academicYear: string;
+  requiredCourseAuditCompleted: boolean; reviewedBy: string; reviewedAt: string;
+  requirements: SourceRequirement[];
+};
+type EvidenceManifest = {
+  institutions: SourceProgram[];
+  academicSignoff: { reviewer: string; reviewedAt: string; approved: boolean };
+};
+const requiredInstitutions = [
+  'Harvard', 'Oxford', 'Cambridge', 'Yale', 'Stanford',
+  'National University of Singapore', 'New York University',
+  'Columbia', 'London School of Economics', 'UC Berkeley',
+];
 const coverageManifestPath = 'content/coverage/stage-01-verified-objectives.json';
 const objectiveEvidenceAvailable = existsSync(coverageManifestPath);
+let objectiveEvidenceVerified = false;
+const sourceIssues: string[] = [];
+if (objectiveEvidenceAvailable) {
+  try {
+    const manifest = JSON.parse(readFileSync(coverageManifestPath, 'utf8')) as EvidenceManifest;
+    const programs = Array.isArray(manifest.institutions) ? manifest.institutions : [];
+    for (const name of requiredInstitutions) {
+      const matches = programs.filter(row => row.institution === name);
+      if (matches.length !== 1) {
+        sourceIssues.push(`Expected one verified programme record for ${name}`);
+        continue;
+      }
+      const program = matches[0];
+      if (!program.officialProgramUrl?.startsWith('https://') || !program.academicYear ||
+          !program.requiredCourseAuditCompleted || !program.reviewedBy || !program.reviewedAt) {
+        sourceIssues.push(`${name}: missing verified requirement-list source or academic reviewer sign-off`);
+      }
+      if (!Array.isArray(program.requirements) || program.requirements.length === 0) {
+        sourceIssues.push(`${name}: no required university subjects audited`);
+        continue;
+      }
+      for (const requirement of program.requirements.filter(row => row.mandatory)) {
+        if (!Array.isArray(requirement.objectives) || requirement.objectives.length === 0) {
+          sourceIssues.push(`${name}: required subject ${requirement.title} lacks verified objectives`);
+          continue;
+        }
+        for (const objective of requirement.objectives) {
+          if (!objective.id || !objective.reviewer || !objective.reviewedAt ||
+              !objective.officialSyllabusUrl?.startsWith('https://')) {
+            sourceIssues.push(`${name}: objective ${objective.id || '[unknown]'} missing syllabus evidence or reviewer`);
+          }
+          if (!Array.isArray(objective.lessonIds) || !objective.lessonIds.length ||
+              !objective.lessonIds.some(id => entries.get(id)?.status === 'published')) {
+            sourceIssues.push(`${name}: objective ${objective.id} not mapped to a published lesson`);
+          }
+          if (!Array.isArray(objective.questionIds) || !objective.questionIds.length ||
+              !objective.questionIds.some(id => stableKeys.has(id))) {
+            sourceIssues.push(`${name}: objective ${objective.id} not mapped to a question`);
+          }
+        }
+      }
+    }
+    if (programs.length !== requiredInstitutions.length) {
+      sourceIssues.push('Manifest includes an unexpected number of programmes');
+    }
+    if (!manifest.academicSignoff?.approved || !manifest.academicSignoff.reviewer ||
+        !manifest.academicSignoff.reviewedAt) {
+      sourceIssues.push('Final academic signoff is missing');
+    }
+    objectiveEvidenceVerified = sourceIssues.length === 0;
+  } catch (error) {
+    sourceIssues.push(`Unable to parse verified source manifest: ${String(error)}`);
+  }
+}
 const stage01 = {
   stage: 1, expectedLessons: expected, presentLessons: expected - counts.missing,
   authoredAndPublished: counts.published, counts, totalQuestions: stableKeys.size,
   sourceObjectiveEvidenceAvailable: objectiveEvidenceAvailable,
-  sourceObjectiveEvidenceVerified: false,
+  sourceObjectiveEvidenceVerified: objectiveEvidenceVerified,
   note: 'A complete authoring matrix does not establish 10-university educational equivalence. Objective-level evidence and reviewer sign-off remain mandatory.',
-  courses: report, errors: issues, warnings,
+  courses: report, errors: [...issues, ...sourceIssues], warnings,
 };
 console.log(JSON.stringify(stage01, null, 2));
 const enforce = process.argv.includes('--enforce');
-if (issues.length || (enforce && (counts.missing !== 0 || counts.draft !== 0 || counts.archived !== 0 || !objectiveEvidenceAvailable || !stage01.sourceObjectiveEvidenceVerified))) {
+if (issues.length || sourceIssues.length || (enforce && (counts.missing !== 0 || counts.draft !== 0 || counts.archived !== 0 || !objectiveEvidenceAvailable || !objectiveEvidenceVerified))) {
   process.exitCode = 1;
 }
