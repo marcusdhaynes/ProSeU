@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Understand duties recorded in early public judgments",
+          "summary": "Begin with the obligations that ancient legal texts placed on buyers, sellers, household members and people causing harm. Learn that the duties of an ancient society differed according to status and institutional power.",
+          "checklist": [
+            "I can identify an obligation in an early legal text",
+            "I can distinguish a contractual promise from a public penalty",
+            "I can connect duties with their historical social setting"
+          ],
+          "sections": [
+            {
+              "title": "Duties Make Expectations Visible",
+              "body_md": "Hammurabi's collection includes provisions concerning exchange, property, wages and household relationships. These examples show how a legal order could specify consequences when people failed to perform expected conduct. A farmer, trader or builder might face duties defined by the ruler's legal framework. Yet these were not modern universally equal contract rules. Their effect depended on the person's role and social position, and the form of proof or sanction prescribed by the judgment. Studying them teaches that law organizes expectations before a wrong happens.",
+              "example": null,
+              "audio_script": "Hammurabi's collection includes provisions concerning exchange, property, wages and household relationships. These examples show how a legal order could specify consequences when people failed to perform expected conduct. A farmer, trader or builder might face duties defined by the ruler's legal framework. Yet these were not modern universally equal contract rules. Their effect depended on the person's role and social position, and the form of proof or sanction prescribed by the judgment. Studying them teaches that law organizes expectations before a wrong happens.",
+              "video": null
+            },
+            {
+              "title": "The Meaning of an Obligation",
+              "body_md": "A duty says that an identified person ought, under an applicable rule, to do something or refrain from doing it. A private obligation may require delivery of goods or repayment; a public prohibition may forbid conduct and attach a penalty. Ancient sources sometimes combined these ideas in forms unlike modern categories. A historian should avoid calling every ancient transaction a contract as we understand it today. The safer method is to state who owed what, to whom, under which legal source, and with what consequence.",
+              "example": null,
+              "audio_script": "A duty says that an identified person ought, under an applicable rule, to do something or refrain from doing it. A private obligation may require delivery of goods or repayment; a public prohibition may forbid conduct and attach a penalty. Ancient sources sometimes combined these ideas in forms unlike modern categories. A historian should avoid calling every ancient transaction a contract as we understand it today. The safer method is to state who owed what, to whom, under which legal source, and with what consequence.",
+              "video": null
+            },
+            {
+              "title": "Duties Reflect Social Design",
+              "body_md": "A rule about a builder's responsibility, a debtor's payment or a household obligation communicates more than individual morality. It reveals what the governing order sought to protect: trade, property, hierarchy, family organization or public security. The same text may protect one person's interest while reinforcing another person's subordination. Early legal duties thus teach a double lesson. Law coordinates human activity and makes promises predictable, yet the content of legal obligation must still be judged against justice and the people it affects.",
+              "example": null,
+              "audio_script": "A rule about a builder's responsibility, a debtor's payment or a household obligation communicates more than individual morality. It reveals what the governing order sought to protect: trade, property, hierarchy, family organization or public security. The same text may protect one person's interest while reinforcing another person's subordination. Early legal duties thus teach a double lesson. Law coordinates human activity and makes promises predictable, yet the content of legal obligation must still be judged against justice and the people it affects.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Private obligation refers to duty arising in a defined relationship.",
+              "answer": true,
+              "explanation_if_true": "The term denotes duty arising in a defined relationship.",
+              "explanation_if_false": "The term denotes duty arising in a defined relationship."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "Every duty in ancient Babylon matched a modern contract obligation.",
+              "answer": false,
+              "explanation_if_true": "Ancient judgments used different social categories and did not simply reproduce today's contract law.",
+              "explanation_if_false": "Ancient judgments used different social categories and did not simply reproduce today's contract law."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Legal duty?",
+              "choices": [
+                "Requirement shaped by a person's legal category",
+                "Conduct required by an applicable rule",
+                "Duty arising in a defined relationship",
+                "Sanction imposed for prohibited conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal duty means conduct required by an applicable rule."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An early legal text says a builder must repair a defective work. What should be identified first?",
+              "choices": [
+                "Who owes the duty and the legal source",
+                "The builder's favorite tool",
+                "A modern national appellate court",
+                "An unrelated treaty"
+              ],
+              "answer_index": 0,
+              "explanation": "A duty analysis starts with the person bound, required conduct and legal source."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes sanction imposed for prohibited conduct?",
+              "choices": [
+                "Legal duty",
+                "Public penalty",
+                "Private obligation",
+                "Status-based duty"
+              ],
+              "answer_index": 1,
+              "explanation": "Public penalty means sanction imposed for prohibited conduct."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Legal duty",
+                  "Conduct required by an applicable rule"
+                ],
+                [
+                  "Private obligation",
+                  "Duty arising in a defined relationship"
+                ],
+                [
+                  "Public penalty",
+                  "Sanction imposed for prohibited conduct"
+                ],
+                [
+                  "Status-based duty",
+                  "Requirement shaped by a person's legal category"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for conduct required by an applicable rule is ___.",
+              "answer": "Legal duty",
+              "accept": [
+                "Legal duty"
+              ],
+              "explanation": "The answer is Legal duty."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for requirement shaped by a person's legal category is ___.",
+              "answer": "Status-based duty",
+              "accept": [
+                "Status-based duty"
+              ],
+              "explanation": "The answer is Status-based duty."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Trace Roman obligations and legal categories",
+          "summary": "Study how Roman jurists refined obligations involving agreement, wrongdoing and transfer of value. See why modern private-law vocabulary owes much to Roman classification without treating Roman doctrine as identical to current law.",
+          "checklist": [
+            "I can distinguish obligations arising from agreements and wrongs",
+            "I can explain the role of Roman juristic classification",
+            "I can identify the limits of historical analogy"
+          ],
+          "sections": [
+            {
+              "title": "An Obligation Links Persons",
+              "body_md": "Roman legal thought developed sophisticated ways to explain why one person owed performance to another. Jurists described obligations arising in connection with contracts and delicts, among other sources. This vocabulary helped organize different claims and remedies. It did not mean that all persons could contract on identical terms or that every present legal category existed unchanged. The important intellectual move was to treat obligation as a legal relationship that could be analyzed separately from ownership or political authority.",
+              "example": null,
+              "audio_script": "Roman legal thought developed sophisticated ways to explain why one person owed performance to another. Jurists described obligations arising in connection with contracts and delicts, among other sources. This vocabulary helped organize different claims and remedies. It did not mean that all persons could contract on identical terms or that every present legal category existed unchanged. The important intellectual move was to treat obligation as a legal relationship that could be analyzed separately from ownership or political authority.",
+              "video": null
+            },
+            {
+              "title": "From Transactions to Doctrine",
+              "body_md": "A sale or loan can generate duties between people; a wrong causing legally recognized harm can generate a duty to answer for it. Roman lawyers distinguished these kinds of legal relationships and explored what actions the claimant could bring. Their answers depended on historical procedure and social status. Studying these origins makes current legal categories easier to question: when a modern text uses the word contract, does it identify a genuine consensual duty, or has the jurisdiction assigned liability through another rule?",
+              "example": null,
+              "audio_script": "A sale or loan can generate duties between people; a wrong causing legally recognized harm can generate a duty to answer for it. Roman lawyers distinguished these kinds of legal relationships and explored what actions the claimant could bring. Their answers depended on historical procedure and social status. Studying these origins makes current legal categories easier to question: when a modern text uses the word contract, does it identify a genuine consensual duty, or has the jurisdiction assigned liability through another rule?",
+              "video": null
+            },
+            {
+              "title": "Transmission Without Identity",
+              "body_md": "Roman concepts influenced medieval scholarly learning and later European codification. But reception involved translation, selection and adaptation rather than copying the past intact. A term may survive while its social setting, legal remedy or definition changes. The historical lawyer compares the old and new rule's source, beneficiaries, elements and enforcement. This approach avoids two opposite errors: assuming modern private law was invented without precedent and assuming it is merely Roman law under different names.",
+              "example": null,
+              "audio_script": "Roman concepts influenced medieval scholarly learning and later European codification. But reception involved translation, selection and adaptation rather than copying the past intact. A term may survive while its social setting, legal remedy or definition changes. The historical lawyer compares the old and new rule's source, beneficiaries, elements and enforcement. This approach avoids two opposite errors: assuming modern private law was invented without precedent and assuming it is merely Roman law under different names.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Contract refers to recognized source of duties between parties.",
+              "answer": true,
+              "explanation_if_true": "The term denotes recognized source of duties between parties.",
+              "explanation_if_false": "The term denotes recognized source of duties between parties."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "A Roman delict and every modern tort have identical elements.",
+              "answer": false,
+              "explanation_if_true": "Historical categories influenced later doctrine but changed through reception and local law.",
+              "explanation_if_false": "Historical categories influenced later doctrine but changed through reception and local law."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Obligation?",
+              "choices": [
+                "Legal relation requiring performance or responsibility",
+                "Recognized source of duties between parties",
+                "Historical legal category involving certain wrongful acts",
+                "Adoption and adaptation of older legal ideas"
+              ],
+              "answer_index": 0,
+              "explanation": "Obligation means legal relation requiring performance or responsibility."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A modern civil code uses a Roman-sounding term but defines it differently. What should the historian do?",
+              "choices": [
+                "Assume their rules match",
+                "Ignore the statutory definition",
+                "Apply criminal procedure",
+                "Compare its present elements and historical source"
+              ],
+              "answer_index": 3,
+              "explanation": "Shared vocabulary is evidence of influence, not identity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes historical legal category involving certain wrongful acts?",
+              "choices": [
+                "Delict",
+                "Contract",
+                "Reception",
+                "Obligation"
+              ],
+              "answer_index": 0,
+              "explanation": "Delict means historical legal category involving certain wrongful acts."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Obligation",
+                  "Legal relation requiring performance or responsibility"
+                ],
+                [
+                  "Contract",
+                  "Recognized source of duties between parties"
+                ],
+                [
+                  "Delict",
+                  "Historical legal category involving certain wrongful acts"
+                ],
+                [
+                  "Reception",
+                  "Adoption and adaptation of older legal ideas"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for legal relation requiring performance or responsibility is ___.",
+              "answer": "Obligation",
+              "accept": [
+                "Obligation"
+              ],
+              "explanation": "The answer is Obligation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for adoption and adaptation of older legal ideas is ___.",
+              "answer": "Reception",
+              "accept": [
+                "Reception"
+              ],
+              "explanation": "The answer is Reception."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare feudal obligations with emerging private-law duties",
+          "summary": "Examine a world where land tenure, personal allegiance and customary service intertwined. Distinguish duties created by social rank from obligations increasingly framed through general private-law concepts.",
+          "checklist": [
+            "I can explain duties linked to feudal tenure",
+            "I can compare customary service with contractual exchange",
+            "I can recognize changing forms of legal obligation"
+          ],
+          "sections": [
+            {
+              "title": "Land and Service Were Entangled",
+              "body_md": "In many medieval European arrangements, landholding could bring obligations of service, payments and loyalty within a hierarchical political order. Such duties were not always freely negotiated like modern commercial promises. Their legal meaning depended on status, tenure, local custom and the institutions enforcing them. A historian should avoid presenting feudalism as a single uniform code across Europe. The more accurate question is which relationship the particular source described and what recognized duties followed from it.",
+              "example": null,
+              "audio_script": "In many medieval European arrangements, landholding could bring obligations of service, payments and loyalty within a hierarchical political order. Such duties were not always freely negotiated like modern commercial promises. Their legal meaning depended on status, tenure, local custom and the institutions enforcing them. A historian should avoid presenting feudalism as a single uniform code across Europe. The more accurate question is which relationship the particular source described and what recognized duties followed from it.",
+              "video": null
+            },
+            {
+              "title": "Promises Become Legal Problems",
+              "body_md": "As trade, towns and royal courts developed, questions about agreements, debt and commercial assurance acquired new institutional forms. Customary practices, canon law, revived Roman learning and local procedures influenced different legal systems. Not every promise was enforceable in the same way. An analytical comparison asks whether the duty rested on tenure, oath, exchange, religious obligation or an actionable form of agreement. The point is not that modern contract law suddenly replaced feudal duty, but that sources of obligation diversified and their relative importance changed.",
+              "example": null,
+              "audio_script": "As trade, towns and royal courts developed, questions about agreements, debt and commercial assurance acquired new institutional forms. Customary practices, canon law, revived Roman learning and local procedures influenced different legal systems. Not every promise was enforceable in the same way. An analytical comparison asks whether the duty rested on tenure, oath, exchange, religious obligation or an actionable form of agreement. The point is not that modern contract law suddenly replaced feudal duty, but that sources of obligation diversified and their relative importance changed.",
+              "video": null
+            },
+            {
+              "title": "Who Could Demand Performance?",
+              "body_md": "Legal duties have a human dimension: who was entitled to demand performance and which forum could enforce that demand? A lord, tenant, merchant or ecclesiastical institution might possess different legal powers. Some relationships involved coercion and social dependence rather than meaningful bargaining equality. This history matters when modern law appeals to consent as the justification for obligation. A lawyer should ask whether a formally voluntary undertaking was made under conditions in which refusal was genuinely possible.",
+              "example": null,
+              "audio_script": "Legal duties have a human dimension: who was entitled to demand performance and which forum could enforce that demand? A lord, tenant, merchant or ecclesiastical institution might possess different legal powers. Some relationships involved coercion and social dependence rather than meaningful bargaining equality. This history matters when modern law appeals to consent as the justification for obligation. A lawyer should ask whether a formally voluntary undertaking was made under conditions in which refusal was genuinely possible.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Allegiance refers to duty of loyalty under a recognized political relationship.",
+              "answer": true,
+              "explanation_if_true": "The term denotes duty of loyalty under a recognized political relationship.",
+              "explanation_if_false": "The term denotes duty of loyalty under a recognized political relationship."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "All medieval land duties were freely negotiated contracts between equal parties.",
+              "answer": false,
+              "explanation_if_true": "Many arose from tenure, hierarchy and custom rather than equal bargaining.",
+              "explanation_if_false": "Many arose from tenure, hierarchy and custom rather than equal bargaining."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Tenure?",
+              "choices": [
+                "Duty of loyalty under a recognized political relationship",
+                "Obligation grounded in established local practice",
+                "Duty connected to exchange or trade",
+                "Conditions under which land was held"
+              ],
+              "answer_index": 3,
+              "explanation": "Tenure means conditions under which land was held."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A medieval tenant owes service because of the terms of landholding. What is the primary historical source?",
+              "choices": [
+                "International human-rights treaty",
+                "Corporate negligence",
+                "Tenure and customary obligation",
+                "Modern consumer contract law"
+              ],
+              "answer_index": 2,
+              "explanation": "The duty followed an institutional relationship tied to land and rank."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes obligation grounded in established local practice?",
+              "choices": [
+                "Allegiance",
+                "Commercial obligation",
+                "Tenure",
+                "Customary duty"
+              ],
+              "answer_index": 3,
+              "explanation": "Customary duty means obligation grounded in established local practice."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Tenure",
+                  "Conditions under which land was held"
+                ],
+                [
+                  "Allegiance",
+                  "Duty of loyalty under a recognized political relationship"
+                ],
+                [
+                  "Customary duty",
+                  "Obligation grounded in established local practice"
+                ],
+                [
+                  "Commercial obligation",
+                  "Duty connected to exchange or trade"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for conditions under which land was held is ___.",
+              "answer": "Tenure",
+              "accept": [
+                "Tenure"
+              ],
+              "explanation": "The answer is Tenure."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for duty connected to exchange or trade is ___.",
+              "answer": "Commercial obligation",
+              "accept": [
+                "Commercial obligation"
+              ],
+              "explanation": "The answer is Commercial obligation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique the historical expansion of legal duty and social responsibility",
+          "summary": "Trace how modern legal systems came to recognize obligations beyond a narrow bargain or individual wrong. Evaluate the relation between industrial risk, the welfare state and duties to people who cannot effectively negotiate their protection.",
+          "checklist": [
+            "I can analyze why industrialization challenged older duty categories",
+            "I can distinguish contractual freedom from actual bargaining power",
+            "I can defend duties that protect vulnerable parties without arbitrary overreach"
+          ],
+          "sections": [
+            {
+              "title": "Industrial Change Exposed New Risks",
+              "body_md": "Factories, railways and mass markets created recurring harms that could exceed traditional bilateral bargains. Workers, passengers and consumers might face danger without meaningful control over the enterprise causing it. Legal systems developed varied responses through labor regulation, accident compensation, negligence, insurance and social security. These reforms did not occur everywhere at the same speed, nor did they eliminate private responsibility. Their shared historical question is whether duty should depend only on a personal promise when social organization creates predictable risks for strangers.",
+              "example": null,
+              "audio_script": "Factories, railways and mass markets created recurring harms that could exceed traditional bilateral bargains. Workers, passengers and consumers might face danger without meaningful control over the enterprise causing it. Legal systems developed varied responses through labor regulation, accident compensation, negligence, insurance and social security. These reforms did not occur everywhere at the same speed, nor did they eliminate private responsibility. Their shared historical question is whether duty should depend only on a personal promise when social organization creates predictable risks for strangers.",
+              "video": null
+            },
+            {
+              "title": "Freedom to Agree Is Uneven",
+              "body_md": "Classical private-law accounts often emphasize autonomy: people are bound because they chose an agreement. Yet consent may be constrained by poverty, monopoly, dependency or unequal information. Consumer-protection and employment laws in many jurisdictions respond through nonwaivable duties and minimum standards. Such laws may protect dignity but can also raise practical costs or limit choices. A doctoral comparison distinguishes the moral ideal of genuine consent from the institutional conditions under which it is claimed.",
+              "example": null,
+              "audio_script": "Classical private-law accounts often emphasize autonomy: people are bound because they chose an agreement. Yet consent may be constrained by poverty, monopoly, dependency or unequal information. Consumer-protection and employment laws in many jurisdictions respond through nonwaivable duties and minimum standards. Such laws may protect dignity but can also raise practical costs or limit choices. A doctoral comparison distinguishes the moral ideal of genuine consent from the institutional conditions under which it is claimed.",
+              "video": null
+            },
+            {
+              "title": "A Theory of Duty for the Present",
+              "body_md": "Modern problems such as platform work, algorithmic decision systems and environmental harm cross familiar boundaries among contract, tort and public regulation. A credible reform proposal should identify who controls the risk, who benefits, who can prevent injury, and which institution can enforce a duty proportionately. The historical lesson is not that duties always become broader. It is that changing social facts can expose an outdated allocation of responsibility, requiring explicit reasons for keeping or revising the rule.",
+              "example": null,
+              "audio_script": "Modern problems such as platform work, algorithmic decision systems and environmental harm cross familiar boundaries among contract, tort and public regulation. A credible reform proposal should identify who controls the risk, who benefits, who can prevent injury, and which institution can enforce a duty proportionately. The historical lesson is not that duties always become broader. It is that changing social facts can expose an outdated allocation of responsibility, requiring explicit reasons for keeping or revising the rule.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Nonwaivable duty refers to legal requirement parties cannot simply contract away.",
+              "answer": true,
+              "explanation_if_true": "The term denotes legal requirement parties cannot simply contract away.",
+              "explanation_if_false": "The term denotes legal requirement parties cannot simply contract away."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "A signed agreement always proves that both parties had equal bargaining power.",
+              "answer": false,
+              "explanation_if_true": "Formal consent may coexist with substantial dependency or unequal information.",
+              "explanation_if_false": "Formal consent may coexist with substantial dependency or unequal information."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Industrial risk?",
+              "choices": [
+                "Practical ability to shape transaction terms",
+                "Legal or moral obligation toward wider affected persons",
+                "Hazard associated with large-scale productive activity",
+                "Legal requirement parties cannot simply contract away"
+              ],
+              "answer_index": 2,
+              "explanation": "Industrial risk means hazard associated with large-scale productive activity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A factory harms nearby residents who never agreed to take its risk. What challenge to contract-only responsibility emerges?",
+              "choices": [
+                "No state may regulate industry",
+                "Duties may extend to nonconsenting affected persons",
+                "All duties must be private promises",
+                "Only medieval tenure governs"
+              ],
+              "answer_index": 1,
+              "explanation": "Large-scale activities can create duties to persons outside a bargain."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes practical ability to shape transaction terms?",
+              "choices": [
+                "Social responsibility",
+                "Industrial risk",
+                "Bargaining power",
+                "Nonwaivable duty"
+              ],
+              "answer_index": 2,
+              "explanation": "Bargaining power means practical ability to shape transaction terms."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Industrial risk",
+                  "Hazard associated with large-scale productive activity"
+                ],
+                [
+                  "Nonwaivable duty",
+                  "Legal requirement parties cannot simply contract away"
+                ],
+                [
+                  "Bargaining power",
+                  "Practical ability to shape transaction terms"
+                ],
+                [
+                  "Social responsibility",
+                  "Legal or moral obligation toward wider affected persons"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for hazard associated with large-scale productive activity is ___.",
+              "answer": "Industrial risk",
+              "accept": [
+                "Industrial risk"
+              ],
+              "explanation": "The answer is Industrial risk."
+            },
+            {
+              "id": "PSU-1.2.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal or moral obligation toward wider affected persons is ___.",
+              "answer": "Social responsibility",
+              "accept": [
+                "Social responsibility"
+              ],
+              "explanation": "The answer is Social responsibility."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
