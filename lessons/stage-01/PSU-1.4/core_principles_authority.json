@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Find which legal source controls an argument",
+          "summary": "Legal reasoning begins by identifying the rule that can decide the dispute. Learn to distinguish a binding source from an interesting but nonbinding opinion.",
+          "checklist": [
+            "I can identify a court's governing jurisdiction",
+            "I can distinguish statutes and decisions from commentary",
+            "I can explain why source rank matters before argument"
+          ],
+          "sections": [
+            {
+              "title": "Begin With the Governing Rule",
+              "body_md": "A client asks whether a tenancy notice was valid. Before deciding whether the notice seems fair, find the law governing that tenancy and the court or tribunal that would hear a dispute. Relevant sources might include legislation, regulations, binding decisions, or a contract. A lawyer should not start with a textbook quotation simply because it explains the subject well. An explanation is valuable, but the legal conclusion must rest on an authoritative rule applied to the client's facts.",
+              "example": null,
+              "audio_script": "A client asks whether a tenancy notice was valid. Before deciding whether the notice seems fair, find the law governing that tenancy and the court or tribunal that would hear a dispute. Relevant sources might include legislation, regulations, binding decisions, or a contract. A lawyer should not start with a textbook quotation simply because it explains the subject well. An explanation is valuable, but the legal conclusion must rest on an authoritative rule applied to the client's facts.",
+              "video": null
+            },
+            {
+              "title": "Authority Has a Rank",
+              "body_md": "A statute enacted by the competent legislature may control despite a contrary statement in an old textbook. A higher court's binding interpretation can matter even when a lower court would prefer another answer. Rules of hierarchy vary by jurisdiction, so first identify the legal system and its source rules. A legal argument becomes stronger when it explains exactly why the cited material governs, rather than presenting many citations and hoping one looks impressive.",
+              "example": null,
+              "audio_script": "A statute enacted by the competent legislature may control despite a contrary statement in an old textbook. A higher court's binding interpretation can matter even when a lower court would prefer another answer. Rules of hierarchy vary by jurisdiction, so first identify the legal system and its source rules. A legal argument becomes stronger when it explains exactly why the cited material governs, rather than presenting many citations and hoping one looks impressive.",
+              "video": null
+            },
+            {
+              "title": "Use a Three-Step Source Check",
+              "body_md": "Ask: which legal system decides; which institution made the source; and is this source binding, persuasive, or no longer authoritative? Check the date and whether a law has been amended or a decision overruled. A citation without those checks can mislead the court and harm the client. This simple source method is the foundation of reliable legal reasoning: reach for the governing rule before reaching for a preferred outcome.",
+              "example": null,
+              "audio_script": "Ask: which legal system decides; which institution made the source; and is this source binding, persuasive, or no longer authoritative? Check the date and whether a law has been amended or a decision overruled. A citation without those checks can mislead the court and harm the client. This simple source method is the foundation of reliable legal reasoning: reach for the governing rule before reaching for a preferred outcome.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Persuasive authority means source that may influence but does not control.",
+              "answer": true,
+              "explanation_if_true": "Persuasive authority means source that may influence but does not control.",
+              "explanation_if_false": "Persuasive authority means source that may influence but does not control."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "A respected academic article automatically overrides a binding statute.",
+              "answer": false,
+              "explanation_if_true": "Scholarly work may persuade but cannot displace applicable higher legal authority.",
+              "explanation_if_false": "Scholarly work may persuade but cannot displace applicable higher legal authority."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Binding authority?",
+              "choices": [
+                "Replacement of an earlier legal ruling by authorized court",
+                "Legal source a decision maker must follow",
+                "Source that may influence but does not control",
+                "Legally defined authority of an institution"
+              ],
+              "answer_index": 1,
+              "explanation": "Binding authority means legal source a decision maker must follow."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A lower court faces binding precedent and a recent article criticizing it. Which governs unless validly distinguishable or displaced?",
+              "choices": [
+                "The binding precedent",
+                "The article's popularity",
+                "The judge's preference",
+                "The litigant's online poll"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal force is determined by the recognized hierarchy of sources."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legally defined authority of an institution?",
+              "choices": [
+                "Jurisdiction",
+                "Binding authority",
+                "Overruling",
+                "Persuasive authority"
+              ],
+              "answer_index": 0,
+              "explanation": "Jurisdiction means legally defined authority of an institution."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Binding authority",
+                  "Legal source a decision maker must follow"
+                ],
+                [
+                  "Persuasive authority",
+                  "Source that may influence but does not control"
+                ],
+                [
+                  "Jurisdiction",
+                  "Legally defined authority of an institution"
+                ],
+                [
+                  "Overruling",
+                  "Replacement of an earlier legal ruling by authorized court"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Legal source a decision maker must follow is called ___.",
+              "answer": "Binding authority",
+              "accept": [
+                "Binding authority"
+              ],
+              "explanation": "The term is Binding authority."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Replacement of an earlier legal ruling by authorized court is called ___.",
+              "answer": "Overruling",
+              "accept": [
+                "Overruling"
+              ],
+              "explanation": "The term is Overruling."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Extract authoritative legal rules from cases",
+          "summary": "Move from citation to legal reasoning by identifying holdings, necessary propositions and factual limits. Learn to distinguish what a court decided from incidental commentary.",
+          "checklist": [
+            "I can identify the issue, rule and result of a decision",
+            "I can separate ratio decidendi from obiter dicta where applicable",
+            "I can compare facts that matter to the court's reasoning"
+          ],
+          "sections": [
+            {
+              "title": "What Did the Court Actually Decide?",
+              "body_md": "A reported judgment may recount many facts, arguments and policy concerns. Not every sentence is the binding rule. In common-law reasoning, the ratio decidendi is commonly understood as the legal principle necessary to the decision; other observations are often called obiter dicta. These concepts are debated and depend on the court system. The practical task is to state the question the court had to answer, the reasoning essential to its answer, and the outcome supported by it.",
+              "example": null,
+              "audio_script": "A reported judgment may recount many facts, arguments and policy concerns. Not every sentence is the binding rule. In common-law reasoning, the ratio decidendi is commonly understood as the legal principle necessary to the decision; other observations are often called obiter dicta. These concepts are debated and depend on the court system. The practical task is to state the question the court had to answer, the reasoning essential to its answer, and the outcome supported by it.",
+              "video": null
+            },
+            {
+              "title": "Facts Give the Rule Its Shape",
+              "body_md": "Suppose an earlier case held that a hospital owed a duty in specified circumstances. A later dispute involving a volunteer medical charity may share some features but differ in control, reliance, or statutory context. The lawyer must identify which differences affect the reasoning, not merely list every factual difference. An analogy becomes credible when it shows why the earlier rule's rationale applies to the new case. A distinction becomes credible when it explains why that rationale does not apply.",
+              "example": null,
+              "audio_script": "Suppose an earlier case held that a hospital owed a duty in specified circumstances. A later dispute involving a volunteer medical charity may share some features but differ in control, reliance, or statutory context. The lawyer must identify which differences affect the reasoning, not merely list every factual difference. An analogy becomes credible when it shows why the earlier rule's rationale applies to the new case. A distinction becomes credible when it explains why that rationale does not apply.",
+              "video": null
+            },
+            {
+              "title": "Verify Current Force",
+              "body_md": "After extracting a proposition, ask what later law did to it. A legislature may alter the governing rule; a higher court may limit or overrule an earlier decision; another court may distinguish it. A negative-treatment signal from a research database is an instruction to investigate, not an automatic answer. Accurate legal work checks the actual subsequent sources and explains any uncertainty. The correct rule is the rule presently controlling the client's jurisdiction and facts.",
+              "example": null,
+              "audio_script": "After extracting a proposition, ask what later law did to it. A legislature may alter the governing rule; a higher court may limit or overrule an earlier decision; another court may distinguish it. A negative-treatment signal from a research database is an instruction to investigate, not an automatic answer. Accurate legal work checks the actual subsequent sources and explains any uncertainty. The correct rule is the rule presently controlling the client's jurisdiction and facts.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Obiter dictum means judicial observation not necessary to the decision.",
+              "answer": true,
+              "explanation_if_true": "Obiter dictum means judicial observation not necessary to the decision.",
+              "explanation_if_false": "Obiter dictum means judicial observation not necessary to the decision."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every sentence of a court's opinion is equally binding on later courts.",
+              "answer": false,
+              "explanation_if_true": "The legal effect of a judgment depends on its holding, court, and relevant source rules.",
+              "explanation_if_false": "The legal effect of a judgment depends on its holding, court, and relevant source rules."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Ratio decidendi?",
+              "choices": [
+                "Legal basis necessary to a judgment in common-law analysis",
+                "Judicial observation not necessary to the decision",
+                "Explaining why a precedent does not govern differing facts",
+                "Later legal consideration of an earlier authority"
+              ],
+              "answer_index": 0,
+              "explanation": "Ratio decidendi means legal basis necessary to a judgment in common-law analysis."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A prior decision turns on the defendant's control over premises. Today's defendant had no control. What is the strongest move?",
+              "choices": [
+                "Cite an unrelated case",
+                "Ignore the control issue",
+                "Assume all facts are irrelevant",
+                "Distinguish on the legally material fact"
+              ],
+              "answer_index": 3,
+              "explanation": "An analogy or distinction must connect differences to the earlier rule's rationale."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means explaining why a precedent does not govern differing facts?",
+              "choices": [
+                "Ratio decidendi",
+                "Subsequent treatment",
+                "Obiter dictum",
+                "Distinguishing"
+              ],
+              "answer_index": 3,
+              "explanation": "Distinguishing means explaining why a precedent does not govern differing facts."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Ratio decidendi",
+                  "Legal basis necessary to a judgment in common-law analysis"
+                ],
+                [
+                  "Obiter dictum",
+                  "Judicial observation not necessary to the decision"
+                ],
+                [
+                  "Distinguishing",
+                  "Explaining why a precedent does not govern differing facts"
+                ],
+                [
+                  "Subsequent treatment",
+                  "Later legal consideration of an earlier authority"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Legal basis necessary to a judgment in common-law analysis is called ___.",
+              "answer": "Ratio decidendi",
+              "accept": [
+                "Ratio decidendi"
+              ],
+              "explanation": "The term is Ratio decidendi."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Later legal consideration of an earlier authority is called ___.",
+              "answer": "Subsequent treatment",
+              "accept": [
+                "Subsequent treatment"
+              ],
+              "explanation": "The term is Subsequent treatment."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Resolve conflicts among multiple legal authorities",
+          "summary": "Analyze situations where statutes, precedents and principles appear to point in different directions. Distinguish a genuine conflict from a misunderstanding of context, exception or temporal scope.",
+          "checklist": [
+            "I can identify conflicts requiring hierarchy or interpretation",
+            "I can synthesize a rule from several relevant decisions",
+            "I can explain uncertainty without concealing adverse authority"
+          ],
+          "sections": [
+            {
+              "title": "First Ask Whether the Rules Truly Conflict",
+              "body_md": "Two decisions may appear inconsistent because they involve different statutes, facts, legal tests or procedural stages. A skilled reader reconstructs the precise question each tribunal answered. If the issues differ, both propositions may remain valid. If they address the same issue and conflict, court hierarchy, later legislation, en banc procedure or recognized overruling rules may resolve the difference. Calling cases contradictory before performing this analysis gives away an avoidable error.",
+              "example": null,
+              "audio_script": "Two decisions may appear inconsistent because they involve different statutes, facts, legal tests or procedural stages. A skilled reader reconstructs the precise question each tribunal answered. If the issues differ, both propositions may remain valid. If they address the same issue and conflict, court hierarchy, later legislation, en banc procedure or recognized overruling rules may resolve the difference. Calling cases contradictory before performing this analysis gives away an avoidable error.",
+              "video": null
+            },
+            {
+              "title": "Synthesize Without Inventing a Rule",
+              "body_md": "A line of decisions may express a narrow common principle while disagreeing at the margins. Synthesis requires identifying shared holdings, relevant distinctions, and unresolved questions. The resulting rule should be no broader than the authorities justify. An advocate who quietly erases an unfavorable exception may create a persuasive paragraph but an unreliable legal opinion. The stronger method states the best synthesis, acknowledges the hard case, and shows how the client's facts fit the binding framework.",
+              "example": null,
+              "audio_script": "A line of decisions may express a narrow common principle while disagreeing at the margins. Synthesis requires identifying shared holdings, relevant distinctions, and unresolved questions. The resulting rule should be no broader than the authorities justify. An advocate who quietly erases an unfavorable exception may create a persuasive paragraph but an unreliable legal opinion. The stronger method states the best synthesis, acknowledges the hard case, and shows how the client's facts fit the binding framework.",
+              "video": null
+            },
+            {
+              "title": "Authority Can Be Unsettled",
+              "body_md": "A statutory amendment may leave old precedents only partly useful. Courts may divide over a new technology or right. Where the law is unsettled, present plausible interpretations, their supporting sources, and the risk each creates. A client deserves probabilities and contingencies rather than invented certainty. Advanced legal reasoning becomes a disciplined map of the decision maker's options, not a prediction disguised as a rule. The need for clear reasons grows when the sources are ambiguous.",
+              "example": null,
+              "audio_script": "A statutory amendment may leave old precedents only partly useful. Courts may divide over a new technology or right. Where the law is unsettled, present plausible interpretations, their supporting sources, and the risk each creates. A client deserves probabilities and contingencies rather than invented certainty. Advanced legal reasoning becomes a disciplined map of the decision maker's options, not a prediction disguised as a rule. The need for clear reasons grows when the sources are ambiguous.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Apparent conflict means tension that may disappear with accurate issue analysis.",
+              "answer": true,
+              "explanation_if_true": "Apparent conflict means tension that may disappear with accurate issue analysis.",
+              "explanation_if_false": "Apparent conflict means tension that may disappear with accurate issue analysis."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "A lawyer may omit controlling adverse authority when it complicates an otherwise persuasive argument.",
+              "answer": false,
+              "explanation_if_true": "Professional obligations and sound analysis require dealing candidly with applicable adverse law.",
+              "explanation_if_false": "Professional obligations and sound analysis require dealing candidly with applicable adverse law."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Doctrinal synthesis?",
+              "choices": [
+                "Tension that may disappear with accurate issue analysis",
+                "Source materially weakening a proposed legal position",
+                "Question not resolved clearly by controlling sources",
+                "Integration of several authorities into a justified rule"
+              ],
+              "answer_index": 3,
+              "explanation": "Doctrinal synthesis means integration of several authorities into a justified rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two cases seem opposed, but one concerns an interim order and one a final decision. What should be checked first?",
+              "choices": [
+                "Which side spent more on printing",
+                "Whether both reports have footnotes",
+                "Whether the different procedural posture explains the result",
+                "Which author wrote longer paragraphs"
+              ],
+              "answer_index": 2,
+              "explanation": "A supposed conflict may rest on different legal questions and standards."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means source materially weakening a proposed legal position?",
+              "choices": [
+                "Unsettled law",
+                "Apparent conflict",
+                "Adverse authority",
+                "Doctrinal synthesis"
+              ],
+              "answer_index": 2,
+              "explanation": "Adverse authority means source materially weakening a proposed legal position."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Doctrinal synthesis",
+                  "Integration of several authorities into a justified rule"
+                ],
+                [
+                  "Apparent conflict",
+                  "Tension that may disappear with accurate issue analysis"
+                ],
+                [
+                  "Adverse authority",
+                  "Source materially weakening a proposed legal position"
+                ],
+                [
+                  "Unsettled law",
+                  "Question not resolved clearly by controlling sources"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "Integration of several authorities into a justified rule is called ___.",
+              "answer": "Doctrinal synthesis",
+              "accept": [
+                "Doctrinal synthesis"
+              ],
+              "explanation": "The term is Doctrinal synthesis."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Question not resolved clearly by controlling sources is called ___.",
+              "answer": "Unsettled law",
+              "accept": [
+                "Unsettled law"
+              ],
+              "explanation": "The term is Unsettled law."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend principled legal argument under institutional uncertainty",
+          "summary": "At doctoral depth, evaluate how authority should be interpreted when sources are fragmented, norms collide and institutions disagree. Develop an intellectually honest position that is both legally grounded and open to criticism.",
+          "checklist": [
+            "I can distinguish descriptive source ranking from normative justification",
+            "I can propose a transparent method for contested precedent",
+            "I can evaluate legitimacy costs of aggressive doctrinal innovation"
+          ],
+          "sections": [
+            {
+              "title": "A Source Rule Is Itself a Choice",
+              "body_md": "Legal hierarchies often claim clarity: higher courts bind lower courts, statutes prevail over inconsistent regulations, and so on. Yet deciding a case may still require determining what a prior holding means or whether a constitutional principle controls. Such interpretation involves methodological choices and institutional consequences. A doctoral analysis must say which steps positive law dictates and which steps reflect judgment about coherence, fairness, or deference. Hiding that distinction behind a long citation list is not rigor.",
+              "example": null,
+              "audio_script": "Legal hierarchies often claim clarity: higher courts bind lower courts, statutes prevail over inconsistent regulations, and so on. Yet deciding a case may still require determining what a prior holding means or whether a constitutional principle controls. Such interpretation involves methodological choices and institutional consequences. A doctoral analysis must say which steps positive law dictates and which steps reflect judgment about coherence, fairness, or deference. Hiding that distinction behind a long citation list is not rigor.",
+              "video": null
+            },
+            {
+              "title": "Continuity Versus Correction",
+              "body_md": "Strict adherence to precedent protects predictability, equality of treatment, and trust in courts. Overruling a demonstrably defective rule may protect persons harmed by its persistence. A principled approach asks how reliance interests, legal error, changed circumstances and institutional competence bear on the decision. The outcome should not depend on the advocate's preferred policy alone. Explain when the decision maker has legal power to revise precedent and what limits on that revision preserve the rule of law.",
+              "example": null,
+              "audio_script": "Strict adherence to precedent protects predictability, equality of treatment, and trust in courts. Overruling a demonstrably defective rule may protect persons harmed by its persistence. A principled approach asks how reliance interests, legal error, changed circumstances and institutional competence bear on the decision. The outcome should not depend on the advocate's preferred policy alone. Explain when the decision maker has legal power to revise precedent and what limits on that revision preserve the rule of law.",
+              "video": null
+            },
+            {
+              "title": "The Client Must Not Bear Our Vanity",
+              "body_md": "A lawyer may be tempted to offer an elegant but novel theory when a narrower established claim would better protect a client's home or liberty. Advanced reasoning weighs the possible benefit of doctrinal change against litigation risk, cost, and the person's preferences. A genuine legal professional discloses those options in accessible language. Research is not a performance for other lawyers; it is a responsibility to use reason and authority carefully for human beings who may bear the consequences.",
+              "example": null,
+              "audio_script": "A lawyer may be tempted to offer an elegant but novel theory when a narrower established claim would better protect a client's home or liberty. Advanced reasoning weighs the possible benefit of doctrinal change against litigation risk, cost, and the person's preferences. A genuine legal professional discloses those options in accessible language. Research is not a performance for other lawyers; it is a responsibility to use reason and authority carefully for human beings who may bear the consequences.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Reliance interest means expectations formed around existing law.",
+              "answer": true,
+              "explanation_if_true": "Reliance interest means expectations formed around existing law.",
+              "explanation_if_false": "Reliance interest means expectations formed around existing law."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "An appealing policy outcome alone authorizes any court to disregard binding sources.",
+              "answer": false,
+              "explanation_if_true": "Institutional competence and source hierarchy limit judicial authority even in difficult cases.",
+              "explanation_if_false": "Institutional competence and source hierarchy limit judicial authority even in difficult cases."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Institutional competence?",
+              "choices": [
+                "Reasoned development beyond settled legal positions",
+                "Transparent disclosure of interpretive choices",
+                "Capacity and legal authority to decide or change rules",
+                "Expectations formed around existing law"
+              ],
+              "answer_index": 2,
+              "explanation": "Institutional competence means capacity and legal authority to decide or change rules."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A lawyer could test a novel theory but the client urgently needs a reliable remedy. What belongs in advice?",
+              "choices": [
+                "Silence about unfavorable cases",
+                "Clear discussion of risks, alternatives and client goals",
+                "Only the novel theory's elegance",
+                "A guarantee that reform will occur"
+              ],
+              "answer_index": 1,
+              "explanation": "Client-centered reasoning balances doctrinal ambition with the person's real stakes."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reasoned development beyond settled legal positions?",
+              "choices": [
+                "Reliance interest",
+                "Doctrinal innovation",
+                "Institutional competence",
+                "Methodological candor"
+              ],
+              "answer_index": 1,
+              "explanation": "Doctrinal innovation means reasoned development beyond settled legal positions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Institutional competence",
+                  "Capacity and legal authority to decide or change rules"
+                ],
+                [
+                  "Reliance interest",
+                  "Expectations formed around existing law"
+                ],
+                [
+                  "Doctrinal innovation",
+                  "Reasoned development beyond settled legal positions"
+                ],
+                [
+                  "Methodological candor",
+                  "Transparent disclosure of interpretive choices"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Capacity and legal authority to decide or change rules is called ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            },
+            {
+              "id": "PSU-1.4.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Transparent disclosure of interpretive choices is called ___.",
+              "answer": "Methodological candor",
+              "accept": [
+                "Methodological candor"
+              ],
+              "explanation": "The term is Methodological candor."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
