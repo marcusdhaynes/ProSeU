@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Recognize costs borne by people outside a transaction",
+          "summary": "An activity can benefit the buyer and seller while hurting someone else. Learn the idea of an external cost and why legal rules may need to address it.",
+          "checklist": [
+            "I can identify a negative externality",
+            "I can distinguish private cost from social cost",
+            "I can name an authorized method for reducing harm"
+          ],
+          "sections": [
+            {
+              "title": "The Price Can Miss the Harm",
+              "body_md": "A factory sells inexpensive products but releases smoke that damages nearby homes. The sale price reflects some costs of production, yet neighbors bear losses outside the transaction. Economists call such a loss a negative externality. The harm is real even though no invoice is sent to the factory. Legal systems may respond through liability, permits, emission standards or other mechanisms. The law determines the applicable duty, while economic analysis helps reveal costs the private bargain ignores.",
+              "example": null,
+              "audio_script": "A factory sells inexpensive products but releases smoke that damages nearby homes. The sale price reflects some costs of production, yet neighbors bear losses outside the transaction. Economists call such a loss a negative externality. The harm is real even though no invoice is sent to the factory. Legal systems may respond through liability, permits, emission standards or other mechanisms. The law determines the applicable duty, while economic analysis helps reveal costs the private bargain ignores.",
+              "video": null
+            },
+            {
+              "title": "Private Cost and Social Cost",
+              "body_md": "A company may spend ten dollars producing an item but cause additional harm to a nearby river. Its private calculation differs from the cost to society. Social cost includes both direct production costs and relevant costs borne by others. Measuring the external damage may be difficult, but ignoring it does not make it disappear. A good analysis identifies who benefits, who bears the harm and what evidence might reasonably estimate its magnitude. Not every cost can or should be reduced to a simple market price.",
+              "example": null,
+              "audio_script": "A company may spend ten dollars producing an item but cause additional harm to a nearby river. Its private calculation differs from the cost to society. Social cost includes both direct production costs and relevant costs borne by others. Measuring the external damage may be difficult, but ignoring it does not make it disappear. A good analysis identifies who benefits, who bears the harm and what evidence might reasonably estimate its magnitude. Not every cost can or should be reduced to a simple market price.",
+              "video": null
+            },
+            {
+              "title": "The Law Chooses a Response",
+              "body_md": "A regulator might require pollution controls before harm occurs, or courts might award compensation for legally proven injury. Some systems use charges intended to make an actor account for the external cost. Each response needs a legal basis and practical enforcement. The economic concept does not itself establish liability or the amount owed to a claimant. It helps decision makers ask whether private incentives reflect the full consequences of the activity.",
+              "example": null,
+              "audio_script": "A regulator might require pollution controls before harm occurs, or courts might award compensation for legally proven injury. Some systems use charges intended to make an actor account for the external cost. Each response needs a legal basis and practical enforcement. The economic concept does not itself establish liability or the amount owed to a claimant. It helps decision makers ask whether private incentives reflect the full consequences of the activity.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Private cost means cost faced by the actor undertaking an activity.",
+              "answer": true,
+              "explanation_if_true": "Private cost means cost faced by the actor undertaking an activity.",
+              "explanation_if_false": "Private cost means cost faced by the actor undertaking an activity."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "A product's market price necessarily includes all harms borne by unrelated neighbors.",
+              "answer": false,
+              "explanation_if_true": "External costs may fall outside the buyer-seller transaction.",
+              "explanation_if_false": "External costs may fall outside the buyer-seller transaction."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Negative externality?",
+              "choices": [
+                "Public rules directing or limiting conduct",
+                "Cost borne by persons outside an activity's bargain",
+                "Cost faced by the actor undertaking an activity",
+                "Total relevant burden including external effects"
+              ],
+              "answer_index": 1,
+              "explanation": "Negative externality means cost borne by persons outside an activity's bargain."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A factory earns profits while neighbors suffer uncompensated smoke damage. What concept best fits?",
+              "choices": [
+                "Negative externality",
+                "Perfectly internalized cost",
+                "Voluntary gift to neighbors",
+                "A neutral bookkeeping entry"
+              ],
+              "answer_index": 0,
+              "explanation": "The harm is borne by people outside the transaction."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means total relevant burden including external effects?",
+              "choices": [
+                "Social cost",
+                "Negative externality",
+                "Regulation",
+                "Private cost"
+              ],
+              "answer_index": 0,
+              "explanation": "Social cost means total relevant burden including external effects."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Negative externality",
+                  "Cost borne by persons outside an activity's bargain"
+                ],
+                [
+                  "Private cost",
+                  "Cost faced by the actor undertaking an activity"
+                ],
+                [
+                  "Social cost",
+                  "Total relevant burden including external effects"
+                ],
+                [
+                  "Regulation",
+                  "Public rules directing or limiting conduct"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "Cost borne by persons outside an activity's bargain is called ___.",
+              "answer": "Negative externality",
+              "accept": [
+                "Negative externality"
+              ],
+              "explanation": "The term is Negative externality."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "Public rules directing or limiting conduct is called ___.",
+              "answer": "Regulation",
+              "accept": [
+                "Regulation"
+              ],
+              "explanation": "The term is Regulation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare economic measures of harm with legal damages",
+          "summary": "Measuring an injury involves evidence about losses, counterfactuals and the purpose of a remedy. Learn why the amount of economic harm is not always the amount recoverable under law.",
+          "checklist": [
+            "I can identify actual loss and counterfactual baseline",
+            "I can distinguish compensable harm from broader social cost",
+            "I can explain why nonmarket harms challenge valuation"
+          ],
+          "sections": [
+            {
+              "title": "Loss Requires a Baseline",
+              "body_md": "A shop loses customers after construction blocks its entrance. To estimate the loss, an analyst needs a reasonable view of what sales would have been without the obstruction. Last year's sales may help but could be affected by seasonality or market trends. A damages model should explain its assumptions and data. The legal system also defines what kinds of loss are recoverable, so an economic estimate is not automatically the award a court may grant.",
+              "example": null,
+              "audio_script": "A shop loses customers after construction blocks its entrance. To estimate the loss, an analyst needs a reasonable view of what sales would have been without the obstruction. Last year's sales may help but could be affected by seasonality or market trends. A damages model should explain its assumptions and data. The legal system also defines what kinds of loss are recoverable, so an economic estimate is not automatically the award a court may grant.",
+              "video": null
+            },
+            {
+              "title": "Compensation Is a Legal Decision",
+              "body_md": "A medical injury can involve treatment costs, lost earnings and suffering. Economic evidence may estimate the first two more easily than the third. Applicable law determines whether and how nonpecuniary harm is compensated, alongside proof and causation requirements. A lawyer should not treat human pain as worthless because it resists precise pricing. Nor should a model's output be accepted without examining its inputs. The aim is transparent support for a lawful remedy.",
+              "example": null,
+              "audio_script": "A medical injury can involve treatment costs, lost earnings and suffering. Economic evidence may estimate the first two more easily than the third. Applicable law determines whether and how nonpecuniary harm is compensated, alongside proof and causation requirements. A lawyer should not treat human pain as worthless because it resists precise pricing. Nor should a model's output be accepted without examining its inputs. The aim is transparent support for a lawful remedy.",
+              "video": null
+            },
+            {
+              "title": "Opportunity Costs Can Matter",
+              "body_md": "If a business owner spends weeks repairing damage instead of working, the lost opportunity may be economically relevant. Opportunity cost is the value of the best alternative use of resources. It should not be double counted with other losses, and the legal claim may recognize only some categories. A careful estimate identifies each loss, supporting evidence and potential overlap. Clear calculation can protect both the claimant against undercompensation and the defendant against unsupported exaggeration.",
+              "example": null,
+              "audio_script": "If a business owner spends weeks repairing damage instead of working, the lost opportunity may be economically relevant. Opportunity cost is the value of the best alternative use of resources. It should not be double counted with other losses, and the legal claim may recognize only some categories. A careful estimate identifies each loss, supporting evidence and potential overlap. Clear calculation can protect both the claimant against undercompensation and the defendant against unsupported exaggeration.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Compensable loss means harm recognized for legal monetary relief.",
+              "answer": true,
+              "explanation_if_true": "Compensable loss means harm recognized for legal monetary relief.",
+              "explanation_if_false": "Compensable loss means harm recognized for legal monetary relief."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "A damages expert's economic estimate is automatically the legally recoverable award.",
+              "answer": false,
+              "explanation_if_true": "Recoverability depends on governing law, proof and available remedies.",
+              "explanation_if_false": "Recoverability depends on governing law, proof and available remedies."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Counterfactual baseline?",
+              "choices": [
+                "Estimate of what would happen without the harmful event",
+                "Harm recognized for legal monetary relief",
+                "Injury difficult to price through transactions",
+                "Value of a foregone best alternative"
+              ],
+              "answer_index": 0,
+              "explanation": "Counterfactual baseline means estimate of what would happen without the harmful event."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A store estimates lost sales after roadworks using only one unusually successful month. What is the main concern?",
+              "choices": [
+                "There cannot be lost sales",
+                "All damages are criminal penalties",
+                "The store's signage",
+                "An unreliable counterfactual baseline"
+              ],
+              "answer_index": 3,
+              "explanation": "Loss estimates require a defensible comparison with what would otherwise occur."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means injury difficult to price through transactions?",
+              "choices": [
+                "Counterfactual baseline",
+                "Opportunity cost",
+                "Compensable loss",
+                "Nonmarket harm"
+              ],
+              "answer_index": 3,
+              "explanation": "Nonmarket harm means injury difficult to price through transactions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Counterfactual baseline",
+                  "Estimate of what would happen without the harmful event"
+                ],
+                [
+                  "Compensable loss",
+                  "Harm recognized for legal monetary relief"
+                ],
+                [
+                  "Nonmarket harm",
+                  "Injury difficult to price through transactions"
+                ],
+                [
+                  "Opportunity cost",
+                  "Value of a foregone best alternative"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Estimate of what would happen without the harmful event is called ___.",
+              "answer": "Counterfactual baseline",
+              "accept": [
+                "Counterfactual baseline"
+              ],
+              "explanation": "The term is Counterfactual baseline."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Value of a foregone best alternative is called ___.",
+              "answer": "Opportunity cost",
+              "accept": [
+                "Opportunity cost"
+              ],
+              "explanation": "The term is Opportunity cost."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate information problems in mass and environmental harm",
+          "summary": "Harm can be dispersed across time, people and ecosystems. Analyze why private bargaining and litigation may fail when victims cannot identify actors or obtain relevant evidence.",
+          "checklist": [
+            "I can identify collective-action obstacles",
+            "I can explain diffuse harm and information asymmetry",
+            "I can compare liability and public prevention as tools"
+          ],
+          "sections": [
+            {
+              "title": "Diffuse Harm Is Hard to Bargain Over",
+              "body_md": "Thousands of residents may face small individual losses from traffic pollution. Organizing each person to negotiate with every emitter can cost more than the individual claim is worth. High transaction costs and free-rider problems can prevent collective action. Legal systems may respond with public standards, collective litigation or administrative mechanisms. None is automatically effective. A careful analysis examines the number of parties, available evidence, incentives and institutions before choosing the remedy.",
+              "example": null,
+              "audio_script": "Thousands of residents may face small individual losses from traffic pollution. Organizing each person to negotiate with every emitter can cost more than the individual claim is worth. High transaction costs and free-rider problems can prevent collective action. Legal systems may respond with public standards, collective litigation or administrative mechanisms. None is automatically effective. A careful analysis examines the number of parties, available evidence, incentives and institutions before choosing the remedy.",
+              "video": null
+            },
+            {
+              "title": "The Evidence Can Be Hidden",
+              "body_md": "A company may possess emissions measurements that residents cannot independently obtain. Information asymmetry makes it harder to prove harm and negotiate compensation. Disclosure requirements or public monitoring can help where legally authorized, but they also have costs and privacy or commercial concerns. An economist studies how information affects bargaining; a lawyer identifies lawful duties to produce it. Both disciplines are needed to design an effective, accountable response.",
+              "example": null,
+              "audio_script": "A company may possess emissions measurements that residents cannot independently obtain. Information asymmetry makes it harder to prove harm and negotiate compensation. Disclosure requirements or public monitoring can help where legally authorized, but they also have costs and privacy or commercial concerns. An economist studies how information affects bargaining; a lawyer identifies lawful duties to produce it. Both disciplines are needed to design an effective, accountable response.",
+              "video": null
+            },
+            {
+              "title": "Preventive and Compensatory Goals Differ",
+              "body_md": "An environmental fine might encourage cleaner conduct without compensating a particular injured family. A damages award may redress past injury but arrive too late to prevent future pollution. Regulation, liability, monitoring and community participation can complement one another. The advanced question is which mechanism addresses the actual market or institutional failure and whether it can be enforced at reasonable cost. Rights and human dignity remain independent constraints on what trade-offs are lawful.",
+              "example": null,
+              "audio_script": "An environmental fine might encourage cleaner conduct without compensating a particular injured family. A damages award may redress past injury but arrive too late to prevent future pollution. Regulation, liability, monitoring and community participation can complement one another. The advanced question is which mechanism addresses the actual market or institutional failure and whether it can be enforced at reasonable cost. Rights and human dignity remain independent constraints on what trade-offs are lawful.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Free-rider problem means incentive to benefit without contributing to collective effort.",
+              "answer": true,
+              "explanation_if_true": "Free-rider problem means incentive to benefit without contributing to collective effort.",
+              "explanation_if_false": "Free-rider problem means incentive to benefit without contributing to collective effort."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "Small individual injuries always make private negotiation cheap when thousands of victims are involved.",
+              "answer": false,
+              "explanation_if_true": "Coordination and free-rider problems can make collective bargaining costly.",
+              "explanation_if_false": "Coordination and free-rider problems can make collective bargaining costly."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Diffuse harm?",
+              "choices": [
+                "Incentive to benefit without contributing to collective effort",
+                "Cost of coordinating or enforcing an exchange",
+                "Unequal access to relevant information",
+                "Injury dispersed across multiple persons or times"
+              ],
+              "answer_index": 3,
+              "explanation": "Diffuse harm means injury dispersed across multiple persons or times."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Ten thousand residents suffer small pollution losses and cannot coordinate claims. What obstacle is central?",
+              "choices": [
+                "Lack of any measurable health harm",
+                "A court's dress code",
+                "Collective-action and transaction costs",
+                "Perfect individual bargaining"
+              ],
+              "answer_index": 2,
+              "explanation": "The number of affected persons can make private coordination impractical."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means cost of coordinating or enforcing an exchange?",
+              "choices": [
+                "Information asymmetry",
+                "Free-rider problem",
+                "Transaction cost",
+                "Diffuse harm"
+              ],
+              "answer_index": 2,
+              "explanation": "Transaction cost means cost of coordinating or enforcing an exchange."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Diffuse harm",
+                  "Injury dispersed across multiple persons or times"
+                ],
+                [
+                  "Free-rider problem",
+                  "Incentive to benefit without contributing to collective effort"
+                ],
+                [
+                  "Transaction cost",
+                  "Cost of coordinating or enforcing an exchange"
+                ],
+                [
+                  "Information asymmetry",
+                  "Unequal access to relevant information"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "Injury dispersed across multiple persons or times is called ___.",
+              "answer": "Diffuse harm",
+              "accept": [
+                "Diffuse harm"
+              ],
+              "explanation": "The term is Diffuse harm."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "Unequal access to relevant information is called ___.",
+              "answer": "Information asymmetry",
+              "accept": [
+                "Information asymmetry"
+              ],
+              "explanation": "The term is Information asymmetry."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate damage valuation under deep uncertainty and inequality",
+          "summary": "At doctoral depth, critique the economic methods used to put values on life, health, ecological damage and collective losses. Design transparent methods that respect legal rights and the limits of monetization.",
+          "checklist": [
+            "I can evaluate distributional biases in damage estimates",
+            "I can identify uncertainty in nonmarket valuation",
+            "I can defend complementary nonmonetary remedies"
+          ],
+          "sections": [
+            {
+              "title": "Whose Willingness to Pay?",
+              "body_md": "An economic valuation may ask what individuals would pay to avoid a pollution risk. People with low incomes may report lower amounts despite facing equal or greater danger. If policy treats such answers as a complete measure of welfare, it can reproduce inequality. A doctoral analysis should explain the role of income, framing, information and ethical constraints in valuation. Monetary estimates may inform resource allocation but cannot alone decide whether it is lawful to expose people to harm.",
+              "example": null,
+              "audio_script": "An economic valuation may ask what individuals would pay to avoid a pollution risk. People with low incomes may report lower amounts despite facing equal or greater danger. If policy treats such answers as a complete measure of welfare, it can reproduce inequality. A doctoral analysis should explain the role of income, framing, information and ethical constraints in valuation. Monetary estimates may inform resource allocation but cannot alone decide whether it is lawful to expose people to harm.",
+              "video": null
+            },
+            {
+              "title": "Some Losses Resist Replacement",
+              "body_md": "Destroying a sacred site or displacing a community can cause harms not adequately captured by market prices. Law may recognize cultural, environmental or collective interests through distinct procedures, remedies or protections. The analyst must examine those actual sources rather than invent a universal right to money. A policy framework should record qualitative evidence alongside quantitative estimates and explain how each is weighted. Transparency matters because seemingly technical choices can determine whose injuries count.",
+              "example": null,
+              "audio_script": "Destroying a sacred site or displacing a community can cause harms not adequately captured by market prices. Law may recognize cultural, environmental or collective interests through distinct procedures, remedies or protections. The analyst must examine those actual sources rather than invent a universal right to money. A policy framework should record qualitative evidence alongside quantitative estimates and explain how each is weighted. Transparency matters because seemingly technical choices can determine whose injuries count.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty Should Be Governed",
+              "body_md": "A catastrophic risk may have a low estimated probability and large consequences. Choosing whether to regulate cannot be reduced to a single expected monetary figure when evidence is deeply uncertain and rights are at stake. A defensible design might use precautionary standards, periodic review, independent monitoring and transparent thresholds under lawful authority. It must also acknowledge costs and possible unintended effects. The best analysis protects people without pretending that science or money has removed difficult moral judgments.",
+              "example": null,
+              "audio_script": "A catastrophic risk may have a low estimated probability and large consequences. Choosing whether to regulate cannot be reduced to a single expected monetary figure when evidence is deeply uncertain and rights are at stake. A defensible design might use precautionary standards, periodic review, independent monitoring and transparent thresholds under lawful authority. It must also acknowledge costs and possible unintended effects. The best analysis protects people without pretending that science or money has removed difficult moral judgments.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Distributional bias means distortion arising from unequal resources or burdens.",
+              "answer": true,
+              "explanation_if_true": "Distributional bias means distortion arising from unequal resources or burdens.",
+              "explanation_if_false": "Distributional bias means distortion arising from unequal resources or burdens."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "The lower income of an affected group proves that its health and cultural interests deserve less legal protection.",
+              "answer": false,
+              "explanation_if_true": "Willingness to pay is influenced by resources and cannot determine legal dignity or rights.",
+              "explanation_if_false": "Willingness to pay is influenced by resources and cannot determine legal dignity or rights."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Nonmarket valuation?",
+              "choices": [
+                "Limited knowledge about probabilities or possible outcomes",
+                "Protective action under specified uncertainty and risk",
+                "Estimating worth outside ordinary transactions",
+                "Distortion arising from unequal resources or burdens"
+              ],
+              "answer_index": 2,
+              "explanation": "Nonmarket valuation means estimating worth outside ordinary transactions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A policy values harm only by affected residents' ability to pay for avoidance. What risk follows?",
+              "choices": [
+                "Automatic compliance with every right",
+                "Distributional bias against poorer residents",
+                "More reliable causation by definition",
+                "Guaranteed equal treatment"
+              ],
+              "answer_index": 1,
+              "explanation": "Income affects monetary willingness to pay without settling moral or legal value."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means limited knowledge about probabilities or possible outcomes?",
+              "choices": [
+                "Distributional bias",
+                "Deep uncertainty",
+                "Nonmarket valuation",
+                "Precautionary approach"
+              ],
+              "answer_index": 1,
+              "explanation": "Deep uncertainty means limited knowledge about probabilities or possible outcomes."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Nonmarket valuation",
+                  "Estimating worth outside ordinary transactions"
+                ],
+                [
+                  "Distributional bias",
+                  "Distortion arising from unequal resources or burdens"
+                ],
+                [
+                  "Deep uncertainty",
+                  "Limited knowledge about probabilities or possible outcomes"
+                ],
+                [
+                  "Precautionary approach",
+                  "Protective action under specified uncertainty and risk"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "Estimating worth outside ordinary transactions is called ___.",
+              "answer": "Nonmarket valuation",
+              "accept": [
+                "Nonmarket valuation"
+              ],
+              "explanation": "The term is Nonmarket valuation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "Protective action under specified uncertainty and risk is called ___.",
+              "answer": "Precautionary approach",
+              "accept": [
+                "Precautionary approach"
+              ],
+              "explanation": "The term is Precautionary approach."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
