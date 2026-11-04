@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Recognize different sources of legal authority",
+          "summary": "Different legal systems may identify binding law through statutes, court decisions, custom, religious texts, or constitutions. Learn to ask who recognizes a source and which institution can apply it.",
+          "checklist": [
+            "I can identify a legal source without assuming it is universal",
+            "I can separate written law from the institutions applying it",
+            "I can compare precedent and legislation without stereotyping jurisdictions"
+          ],
+          "sections": [
+            {
+              "title": "A Rule Needs a Source",
+              "body_md": "Imagine a person asking whether a landlord can raise the rent. In one jurisdiction, legislation may state the main limits; in another, courts' interpretations of lease and property law may be crucial. A legal source is the recognized basis for a rule, such as a statute, judicial decision, constitution, or custom. The first task is not to memorize the names of legal families. It is to locate the jurisdiction and determine which institutions actually recognize and enforce the relevant sources.",
+              "example": null,
+              "audio_script": "Imagine a person asking whether a landlord can raise the rent. In one jurisdiction, legislation may state the main limits; in another, courts' interpretations of lease and property law may be crucial. A legal source is the recognized basis for a rule, such as a statute, judicial decision, constitution, or custom. The first task is not to memorize the names of legal families. It is to locate the jurisdiction and determine which institutions actually recognize and enforce the relevant sources.",
+              "video": null
+            },
+            {
+              "title": "Common and Civil Law",
+              "body_md": "In common-law systems, judicial precedents can provide binding rules within a court hierarchy. Civil-law systems commonly give enacted codes a central organizing role, but courts still interpret law and their decisions can be influential. Neither label describes every rule in every country. England has extensive legislation, while civil-law jurisdictions develop bodies of case law. The useful distinction is how legal sources are identified, ranked, and reasoned from in a particular legal order.",
+              "example": null,
+              "audio_script": "In common-law systems, judicial precedents can provide binding rules within a court hierarchy. Civil-law systems commonly give enacted codes a central organizing role, but courts still interpret law and their decisions can be influential. Neither label describes every rule in every country. England has extensive legislation, while civil-law jurisdictions develop bodies of case law. The useful distinction is how legal sources are identified, ranked, and reasoned from in a particular legal order.",
+              "video": null
+            },
+            {
+              "title": "Custom and Religious Authority",
+              "body_md": "Some systems recognize customary practices or religiously grounded norms alongside state legislation. Their legal effect can depend on constitutions, statutes, personal-law arrangements, community institutions, or local recognition. A custom accepted within a community is not automatically enforceable in every national court; religious interpretation is also institutionally diverse. A careful lawyer avoids treating any entire religion or society as a single unchanging legal code. Ask who applies the rule, to whom, and by what recognized authority.",
+              "example": null,
+              "audio_script": "Some systems recognize customary practices or religiously grounded norms alongside state legislation. Their legal effect can depend on constitutions, statutes, personal-law arrangements, community institutions, or local recognition. A custom accepted within a community is not automatically enforceable in every national court; religious interpretation is also institutionally diverse. A careful lawyer avoids treating any entire religion or society as a single unchanging legal code. Ask who applies the rule, to whom, and by what recognized authority.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Precedent means judicial decision used as authority in later cases.",
+              "answer": true,
+              "explanation_if_true": "Precedent means judicial decision used as authority in later cases.",
+              "explanation_if_false": "Precedent means judicial decision used as authority in later cases."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "Civil-law courts never interpret statutes or influence later decisions.",
+              "answer": false,
+              "explanation_if_true": "Courts in civil-law jurisdictions interpret enacted law and their reasoning can influence subsequent decisions.",
+              "explanation_if_false": "Courts in civil-law jurisdictions interpret enacted law and their reasoning can influence subsequent decisions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Legal source?",
+              "choices": [
+                "Norms recognized as law through established practice",
+                "Recognized basis for a legal rule",
+                "Judicial decision used as authority in later cases",
+                "Systematic collection of enacted legal rules"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal source means recognized basis for a legal rule."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A researcher assumes a court judgment binds every court worldwide. What should be checked?",
+              "choices": [
+                "The relevant hierarchy and jurisdiction",
+                "Only the judgment's length",
+                "Whether the court has a website",
+                "The number of lawyers in the courtroom"
+              ],
+              "answer_index": 0,
+              "explanation": "The binding effect of a decision depends on legal-source rules in the relevant system."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to systematic collection of enacted legal rules?",
+              "choices": [
+                "Code",
+                "Legal source",
+                "Customary law",
+                "Precedent"
+              ],
+              "answer_index": 0,
+              "explanation": "Code means systematic collection of enacted legal rules."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Legal source",
+                  "Recognized basis for a legal rule"
+                ],
+                [
+                  "Precedent",
+                  "Judicial decision used as authority in later cases"
+                ],
+                [
+                  "Code",
+                  "Systematic collection of enacted legal rules"
+                ],
+                [
+                  "Customary law",
+                  "Norms recognized as law through established practice"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Recognized basis for a legal rule is called ___.",
+              "answer": "Legal source",
+              "accept": [
+                "Legal source"
+              ],
+              "explanation": "The term is Legal source."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Norms recognized as law through established practice is called ___.",
+              "answer": "Customary law",
+              "accept": [
+                "Customary law"
+              ],
+              "explanation": "The term is Customary law."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze hierarchies of authority in comparative systems",
+          "summary": "Move beyond labels and map which sources prevail when they conflict. Learn why constitutional supremacy, legislative authority, and precedent operate differently across legal systems.",
+          "checklist": [
+            "I can rank competing sources within a specified jurisdiction",
+            "I can distinguish binding from persuasive decisions",
+            "I can recognize the institutional role of judicial review"
+          ],
+          "sections": [
+            {
+              "title": "Hierarchy Before Interpretation",
+              "body_md": "Suppose a regulation conflicts with a statute that authorizes it. A lawyer must first determine whether the regulation is valid under the higher rule. Other conflicts may involve constitutional provisions, treaties, or binding precedents. Source hierarchy supplies the order of legal authority, though that order differs by country. It is not enough to quote the most detailed rule: the rule must be issued by an institution empowered to make it and must survive applicable limits.",
+              "example": null,
+              "audio_script": "Suppose a regulation conflicts with a statute that authorizes it. A lawyer must first determine whether the regulation is valid under the higher rule. Other conflicts may involve constitutional provisions, treaties, or binding precedents. Source hierarchy supplies the order of legal authority, though that order differs by country. It is not enough to quote the most detailed rule: the rule must be issued by an institution empowered to make it and must survive applicable limits.",
+              "video": null
+            },
+            {
+              "title": "Precedent Is Not Uniform",
+              "body_md": "A decision from a higher court may bind lower courts on a legal proposition essential to its result. The weight of precedent depends on jurisdiction, court structure, publication and the issue decided. Courts can distinguish different facts, and some may overrule earlier decisions under stated conditions. Civil-law jurisdictions also use prior decisions, often through a different institutional logic. The sophisticated question is what legal effect the specific decision has, not whether it comes from a so-called precedent country.",
+              "example": null,
+              "audio_script": "A decision from a higher court may bind lower courts on a legal proposition essential to its result. The weight of precedent depends on jurisdiction, court structure, publication and the issue decided. Courts can distinguish different facts, and some may overrule earlier decisions under stated conditions. Civil-law jurisdictions also use prior decisions, often through a different institutional logic. The sophisticated question is what legal effect the specific decision has, not whether it comes from a so-called precedent country.",
+              "video": null
+            },
+            {
+              "title": "Constitutions, Legislatures and Courts",
+              "body_md": "Where a constitution prevails over ordinary legislation, courts or other institutions may review whether a statute respects it. Other constitutional arrangements emphasize legislative sovereignty or varied forms of constitutional dialogue. A treaty may have direct effect in one legal order and require implementing legislation in another. When studying a new country, write a source map: constitution, legislation, delegated rules, decisions, recognized customs, and the institutions capable of resolving conflicts.",
+              "example": null,
+              "audio_script": "Where a constitution prevails over ordinary legislation, courts or other institutions may review whether a statute respects it. Other constitutional arrangements emphasize legislative sovereignty or varied forms of constitutional dialogue. A treaty may have direct effect in one legal order and require implementing legislation in another. When studying a new country, write a source map: constitution, legislation, delegated rules, decisions, recognized customs, and the institutions capable of resolving conflicts.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Binding authority means source a decision maker must follow under applicable law.",
+              "answer": true,
+              "explanation_if_true": "Binding authority means source a decision maker must follow under applicable law.",
+              "explanation_if_false": "Binding authority means source a decision maker must follow under applicable law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every treaty automatically overrides every national constitution in all countries.",
+              "answer": false,
+              "explanation_if_true": "A treaty's domestic status depends on the particular constitutional and legal system.",
+              "explanation_if_false": "A treaty's domestic status depends on the particular constitutional and legal system."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Source hierarchy?",
+              "choices": [
+                "Order of authority among recognized legal sources",
+                "Source a decision maker must follow under applicable law",
+                "Source that can influence reasoning without binding",
+                "Review of official action against higher legal standards"
+              ],
+              "answer_index": 0,
+              "explanation": "Source hierarchy means order of authority among recognized legal sources."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A lower court encounters an applicable higher-court rule it dislikes. Which question comes first?",
+              "choices": [
+                "Whether the judge prefers another outcome",
+                "Whether a textbook agrees",
+                "Which advocate speaks louder",
+                "Whether the rule is binding and distinguishable"
+              ],
+              "answer_index": 3,
+              "explanation": "Institutional authority must be established before arguing for a different interpretation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to source that can influence reasoning without binding?",
+              "choices": [
+                "Source hierarchy",
+                "Judicial review",
+                "Binding authority",
+                "Persuasive authority"
+              ],
+              "answer_index": 3,
+              "explanation": "Persuasive authority means source that can influence reasoning without binding."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Source hierarchy",
+                  "Order of authority among recognized legal sources"
+                ],
+                [
+                  "Binding authority",
+                  "Source a decision maker must follow under applicable law"
+                ],
+                [
+                  "Persuasive authority",
+                  "Source that can influence reasoning without binding"
+                ],
+                [
+                  "Judicial review",
+                  "Review of official action against higher legal standards"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Order of authority among recognized legal sources is called ___.",
+              "answer": "Source hierarchy",
+              "accept": [
+                "Source hierarchy"
+              ],
+              "explanation": "The term is Source hierarchy."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Review of official action against higher legal standards is called ___.",
+              "answer": "Judicial review",
+              "accept": [
+                "Judicial review"
+              ],
+              "explanation": "The term is Judicial review."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare overlapping state and nonstate legal orders",
+          "summary": "Analyze the authority of customary, Indigenous, religious and international norms within plural systems. Distinguish legitimacy claimed by a community from recognition by a state tribunal.",
+          "checklist": [
+            "I can explain recognition of nonstate norms without equating all traditions",
+            "I can analyze conflicts between state and community legal institutions",
+            "I can identify treaty incorporation and direct-effect questions"
+          ],
+          "sections": [
+            {
+              "title": "Plurality Is an Institutional Fact",
+              "body_md": "A land dispute may involve a national statute, Indigenous governance, and customary understandings of stewardship. Each source can carry meaning for the people concerned, but its effect in a state court depends on domestic constitutional or legislative arrangements and applicable agreements. Calling the situation pluralism does not solve which rule prevails. The lawyer must trace each authority claim, identify the recognized forum, and acknowledge where formal state law fails to capture the community's legal relationships.",
+              "example": null,
+              "audio_script": "A land dispute may involve a national statute, Indigenous governance, and customary understandings of stewardship. Each source can carry meaning for the people concerned, but its effect in a state court depends on domestic constitutional or legislative arrangements and applicable agreements. Calling the situation pluralism does not solve which rule prevails. The lawyer must trace each authority claim, identify the recognized forum, and acknowledge where formal state law fails to capture the community's legal relationships.",
+              "video": null
+            },
+            {
+              "title": "International Law Enters Differently",
+              "body_md": "Two countries may ratify the same treaty but give it different domestic effects. In some systems a treaty provision can be directly invoked if legal conditions are met; in others legislation is required before domestic courts enforce it. Treaty interpretation also involves international rules that cannot be reduced to national precedent doctrine. Comparative analysis therefore separates the state's external obligation from the domestic procedural route available to an individual. Confusing the two can promise clients a remedy their courts cannot provide.",
+              "example": null,
+              "audio_script": "Two countries may ratify the same treaty but give it different domestic effects. In some systems a treaty provision can be directly invoked if legal conditions are met; in others legislation is required before domestic courts enforce it. Treaty interpretation also involves international rules that cannot be reduced to national precedent doctrine. Comparative analysis therefore separates the state's external obligation from the domestic procedural route available to an individual. Confusing the two can promise clients a remedy their courts cannot provide.",
+              "video": null
+            },
+            {
+              "title": "Recognition Can Both Protect and Limit",
+              "body_md": "State recognition of customary law may preserve community authority, yet it can also freeze a living tradition into a narrow official definition. Religious or personal-law rules may similarly be applied through institutions with different procedures and accountability. An advanced lawyer asks who has standing to speak for the tradition, whether affected members can challenge interpretations, and how constitutional rights interact. Legal pluralism is not simply tolerance of difference; it is the design of fair relationships among institutions.",
+              "example": null,
+              "audio_script": "State recognition of customary law may preserve community authority, yet it can also freeze a living tradition into a narrow official definition. Religious or personal-law rules may similarly be applied through institutions with different procedures and accountability. An advanced lawyer asks who has standing to speak for the tradition, whether affected members can challenge interpretations, and how constitutional rights interact. Legal pluralism is not simply tolerance of difference; it is the design of fair relationships among institutions.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Treaty incorporation means process giving an international commitment domestic effect.",
+              "answer": true,
+              "explanation_if_true": "Treaty incorporation means process giving an international commitment domestic effect.",
+              "explanation_if_false": "Treaty incorporation means process giving an international commitment domestic effect."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "A treaty's international validity necessarily makes each article directly enforceable by private persons in every domestic court.",
+              "answer": false,
+              "explanation_if_true": "Domestic effect requires analysis under the relevant constitutional and statutory arrangements.",
+              "explanation_if_false": "Domestic effect requires analysis under the relevant constitutional and statutory arrangements."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Legal pluralism?",
+              "choices": [
+                "Process giving an international commitment domestic effect",
+                "Capacity to invoke a norm in domestic proceedings",
+                "Acknowledgment of another source's legal authority",
+                "Coexistence of distinct recognized legal orders"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal pluralism means coexistence of distinct recognized legal orders."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An Indigenous land norm is important locally but contested in a national tribunal. What is the necessary legal inquiry?",
+              "choices": [
+                "Whether the tribe uses Latin",
+                "Which map has the brightest colors",
+                "How the national order recognizes and interacts with that norm",
+                "Whether custom has always been written"
+              ],
+              "answer_index": 2,
+              "explanation": "The legal interaction depends on jurisdiction-specific rules of recognition and competing authority."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to capacity to invoke a norm in domestic proceedings?",
+              "choices": [
+                "Recognition",
+                "Treaty incorporation",
+                "Direct effect",
+                "Legal pluralism"
+              ],
+              "answer_index": 2,
+              "explanation": "Direct effect means capacity to invoke a norm in domestic proceedings."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Legal pluralism",
+                  "Coexistence of distinct recognized legal orders"
+                ],
+                [
+                  "Treaty incorporation",
+                  "Process giving an international commitment domestic effect"
+                ],
+                [
+                  "Direct effect",
+                  "Capacity to invoke a norm in domestic proceedings"
+                ],
+                [
+                  "Recognition",
+                  "Acknowledgment of another source's legal authority"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "Coexistence of distinct recognized legal orders is called ___.",
+              "answer": "Legal pluralism",
+              "accept": [
+                "Legal pluralism"
+              ],
+              "explanation": "The term is Legal pluralism."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Acknowledgment of another source's legal authority is called ___.",
+              "answer": "Recognition",
+              "accept": [
+                "Recognition"
+              ],
+              "explanation": "The term is Recognition."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique authority through pluralism and postcolonial legitimacy",
+          "summary": "At doctoral depth, treat the identity of law's authoritative voice as a contested institutional and moral problem. Design comparative inquiry that respects legal difference without romanticizing any institution.",
+          "checklist": [
+            "I can separate formal recognition from justified authority",
+            "I can evaluate state monopoly claims against Indigenous self-government",
+            "I can defend cross-system conflict rules with reasons and accountability"
+          ],
+          "sections": [
+            {
+              "title": "Who Gets to Define Law?",
+              "body_md": "A national constitution may identify state institutions as the sole sources of enforceable law, while an Indigenous community understands its obligations through older legal practices. The positivist question asks what the state recognizes; the moral and comparative question asks whether exclusive state recognition is justified. Historical conquest can make that distinction especially important. A doctoral analysis must not simply treat state power as proof of legitimacy, nor imagine every community rule is beyond critique. Authority requires transparent justification to those governed.",
+              "example": null,
+              "audio_script": "A national constitution may identify state institutions as the sole sources of enforceable law, while an Indigenous community understands its obligations through older legal practices. The positivist question asks what the state recognizes; the moral and comparative question asks whether exclusive state recognition is justified. Historical conquest can make that distinction especially important. A doctoral analysis must not simply treat state power as proof of legitimacy, nor imagine every community rule is beyond critique. Authority requires transparent justification to those governed.",
+              "video": null
+            },
+            {
+              "title": "Comparison Is Not Ranking",
+              "body_md": "Legal-family labels can quietly place one tradition at the center and describe others only by how they differ. A better method compares problems, sources, institutions, access, remedies, and internal disagreement. The analyst should identify whose perspectives are missing from reported judgments and legal scholarship. For example, how a community resolves a family dispute cannot be understood solely from a national appellate judgment that later reviewed it. Comparative rigor requires multiple kinds of evidence and humility about translation.",
+              "example": null,
+              "audio_script": "Legal-family labels can quietly place one tradition at the center and describe others only by how they differ. A better method compares problems, sources, institutions, access, remedies, and internal disagreement. The analyst should identify whose perspectives are missing from reported judgments and legal scholarship. For example, how a community resolves a family dispute cannot be understood solely from a national appellate judgment that later reviewed it. Comparative rigor requires multiple kinds of evidence and humility about translation.",
+              "video": null
+            },
+            {
+              "title": "Designing a Fair Conflict Rule",
+              "body_md": "Imagine two legitimate institutions issuing incompatible decisions over the same ancestral land. An adequate framework must identify jurisdictional claims, participation of affected people, governing rights, and a lawful method of coordinating remedies. Centralized supremacy can create predictability but silence local authority; unchecked fragmentation may leave vulnerable people without reliable redress. A defensible proposal specifies why one forum decides, when consultation or consent is required, and who may review the outcome. Comparative law becomes worthwhile when it protects lives rather than merely cataloging differences.",
+              "example": null,
+              "audio_script": "Imagine two legitimate institutions issuing incompatible decisions over the same ancestral land. An adequate framework must identify jurisdictional claims, participation of affected people, governing rights, and a lawful method of coordinating remedies. Centralized supremacy can create predictability but silence local authority; unchecked fragmentation may leave vulnerable people without reliable redress. A defensible proposal specifies why one forum decides, when consultation or consent is required, and who may review the outcome. Comparative law becomes worthwhile when it protects lives rather than merely cataloging differences.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Legal translation means interpretation of legal ideas across distinct traditions.",
+              "answer": true,
+              "explanation_if_true": "Legal translation means interpretation of legal ideas across distinct traditions.",
+              "explanation_if_false": "Legal translation means interpretation of legal ideas across distinct traditions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "A legal tradition is automatically morally legitimate merely because a state recognizes it.",
+              "answer": false,
+              "explanation_if_true": "Formal recognition and justified authority are separate questions requiring evaluation.",
+              "explanation_if_false": "Formal recognition and justified authority are separate questions requiring evaluation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Authority pluralism?",
+              "choices": [
+                "Claim of exclusive governmental control over recognized law",
+                "Mechanisms for questioning a decision maker's authority",
+                "Competing justified claims to legal rule-making",
+                "Interpretation of legal ideas across distinct traditions"
+              ],
+              "answer_index": 2,
+              "explanation": "Authority pluralism means competing justified claims to legal rule-making."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An official classification treats a living Indigenous legal order as an obsolete custom. What methodological risk is greatest?",
+              "choices": [
+                "Too many statute books",
+                "Erasing the community's contemporary legal agency",
+                "Insufficient citations to Roman law",
+                "A lack of uniform court gowns"
+              ],
+              "answer_index": 1,
+              "explanation": "A sound comparison examines the tradition through its participants, institutions, and living practices."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to claim of exclusive governmental control over recognized law?",
+              "choices": [
+                "Legal translation",
+                "State monopoly",
+                "Authority pluralism",
+                "Institutional accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "State monopoly means claim of exclusive governmental control over recognized law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Authority pluralism",
+                  "Competing justified claims to legal rule-making"
+                ],
+                [
+                  "Legal translation",
+                  "Interpretation of legal ideas across distinct traditions"
+                ],
+                [
+                  "State monopoly",
+                  "Claim of exclusive governmental control over recognized law"
+                ],
+                [
+                  "Institutional accountability",
+                  "Mechanisms for questioning a decision maker's authority"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Competing justified claims to legal rule-making is called ___.",
+              "answer": "Authority pluralism",
+              "accept": [
+                "Authority pluralism"
+              ],
+              "explanation": "The term is Authority pluralism."
+            },
+            {
+              "id": "PSU-1.3.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Mechanisms for questioning a decision maker's authority is called ___.",
+              "answer": "Institutional accountability",
+              "accept": [
+                "Institutional accountability"
+              ],
+              "explanation": "The term is Institutional accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
