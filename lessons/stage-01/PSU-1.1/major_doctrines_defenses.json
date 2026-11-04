@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "defense-doctrines",
+      "name": "Defense Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Recognize defenses as part of legal responsibility.",
+          "summary": "Learn why establishing the apparent elements of a claim does not always settle liability. Distinguish a defense that denies an element from one that accepts the act but supplies a legal answer.",
+          "checklist": [
+            "I can recognize an element denial and an affirmative defense",
+            "I can separate justification from excuse",
+            "I can ask which law controls a proposed defense"
+          ],
+          "sections": [
+            {
+              "title": "A Claim Can Meet Resistance",
+              "body_md": "A neighbor admits entering another person's land but says the owner granted permission. An apparent wrong may therefore disappear when all relevant facts are known. A defense is a legally recognized reason why a claim or accusation should fail, be reduced, or produce a different consequence. Some responses simply deny an element the claimant must prove. Others introduce an additional reason, such as consent or necessity, that changes the legal conclusion even when the initial account of the act is true.",
+              "example": null,
+              "audio_script": "A neighbor admits entering another person's land but says the owner granted permission. An apparent wrong may therefore disappear when all relevant facts are known. A defense is a legally recognized reason why a claim or accusation should fail, be reduced, or produce a different consequence. Some responses simply deny an element the claimant must prove. Others introduce an additional reason, such as consent or necessity, that changes the legal conclusion even when the initial account of the act is true.",
+              "video": null
+            },
+            {
+              "title": "Justification and Excuse",
+              "body_md": "A justification says that conduct was permissible or warranted in the circumstances, such as some lawful uses of force to avert danger. An excuse accepts that conduct was wrongful in a sense but denies or reduces blame because of the actor's condition or situation. The distinction matters when evaluating responsibility to other participants, even though actual legal categories vary. A sympathetic explanation is not automatically a legal excuse, and a personal belief that conduct was necessary is not by itself a legal justification.",
+              "example": null,
+              "audio_script": "A justification says that conduct was permissible or warranted in the circumstances, such as some lawful uses of force to avert danger. An excuse accepts that conduct was wrongful in a sense but denies or reduces blame because of the actor's condition or situation. The distinction matters when evaluating responsibility to other participants, even though actual legal categories vary. A sympathetic explanation is not automatically a legal excuse, and a personal belief that conduct was necessary is not by itself a legal justification.",
+              "video": null
+            },
+            {
+              "title": "Find the Rule, Then the Facts",
+              "body_md": "To assess a claimed defense, name its source, elements, limits, and who must prove what. A defense available to one cause of action may not apply to another. Consent to treatment, for example, is different from consent to the unauthorized taking of property. Requirements such as necessity, reasonableness, immediacy, and proportionality cannot be assumed universal. The lawyer's first job is to identify the governing jurisdiction and claim, then test every requirement against the evidence instead of relying on a label.",
+              "example": null,
+              "audio_script": "To assess a claimed defense, name its source, elements, limits, and who must prove what. A defense available to one cause of action may not apply to another. Consent to treatment, for example, is different from consent to the unauthorized taking of property. Requirements such as necessity, reasonableness, immediacy, and proportionality cannot be assumed universal. The lawyer's first job is to identify the governing jurisdiction and claim, then test every requirement against the evidence instead of relying on a label.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Element denial means a response contesting part of the opposing claim.",
+              "answer": true,
+              "explanation_if_true": "Element denial concerns a response contesting part of the opposing claim.",
+              "explanation_if_false": "Element denial concerns a response contesting part of the opposing claim."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "A sincere belief that an act is justified always establishes a legal defense.",
+              "answer": false,
+              "explanation_if_true": "Good faith alone may not satisfy the governing justification's elements.",
+              "explanation_if_false": "Good faith alone may not satisfy the governing justification's elements."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Defense?",
+              "choices": [
+                "A reason wrongful conduct is less blameworthy",
+                "A legally recognized response limiting or defeating liability",
+                "A response contesting part of the opposing claim",
+                "A reason conduct is legally permissible"
+              ],
+              "answer_index": 1,
+              "explanation": "Defense means a legally recognized response limiting or defeating liability."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Someone admits acting but claims necessity made the action legally permissible. Which concept is being asserted?",
+              "choices": [
+                "Justification",
+                "Venue",
+                "Strict liability",
+                "Choice of law"
+              ],
+              "answer_index": 0,
+              "explanation": "A justification argues that conduct was warranted, not merely that the actor deserves sympathy."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: A reason conduct is legally permissible?",
+              "choices": [
+                "Justification",
+                "Defense",
+                "Excuse",
+                "Element denial"
+              ],
+              "answer_index": 0,
+              "explanation": "Justification means a reason conduct is legally permissible."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the terms to their meanings.",
+              "pairs": [
+                [
+                  "Defense",
+                  "A legally recognized response limiting or defeating liability"
+                ],
+                [
+                  "Element denial",
+                  "A response contesting part of the opposing claim"
+                ],
+                [
+                  "Justification",
+                  "A reason conduct is legally permissible"
+                ],
+                [
+                  "Excuse",
+                  "A reason wrongful conduct is less blameworthy"
+                ]
+              ],
+              "explanation": "These distinctions are needed for a sound defensive analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "A legally recognized response limiting or defeating liability is called ___.",
+              "answer": "Defense",
+              "accept": [
+                "Defense"
+              ],
+              "explanation": "The term is Defense."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "A reason wrongful conduct is less blameworthy is called ___.",
+              "answer": "Excuse",
+              "accept": [
+                "Excuse"
+              ],
+              "explanation": "The term is Excuse."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Test defenses through burdens, limits and distinctions.",
+          "summary": "Build from the defense categories to the specific tests that courts and legal systems use. Distinguish who must raise an issue, who must prove it, and when a response is barred.",
+          "checklist": [
+            "I can differentiate a pleading burden from a proof burden",
+            "I can analyze necessity, proportionality and consent cautiously",
+            "I can distinguish limitations periods from merits defenses"
+          ],
+          "sections": [
+            {
+              "title": "Who Must Raise and Prove It?",
+              "body_md": "A defendant may have to plead certain defenses before they can be considered. A legal system may then place either a production burden or a persuasion burden on one party. These are different: producing enough evidence to raise an issue is not necessarily proving it to the required standard. In criminal proceedings, constitutional protections may constrain how far any burden may shift. In civil matters, special statutory rules may apply. A lawyer should never state simply that the defendant must prove every defense.",
+              "example": null,
+              "audio_script": "A defendant may have to plead certain defenses before they can be considered. A legal system may then place either a production burden or a persuasion burden on one party. These are different: producing enough evidence to raise an issue is not necessarily proving it to the required standard. In criminal proceedings, constitutional protections may constrain how far any burden may shift. In civil matters, special statutory rules may apply. A lawyer should never state simply that the defendant must prove every defense.",
+              "video": null
+            },
+            {
+              "title": "Consent, Necessity and Proportion",
+              "body_md": "Consent can affect whether conduct violates a legally protected interest, but its scope and validity matter. Permission to perform one medical procedure is not necessarily permission to perform another. Necessity may protect conduct taken to avert a serious threat, but legal tests often examine alternatives and comparative harm. Self-defense commonly involves necessity and proportionality, though exact standards vary. These doctrines require context, not slogans. A carefully ordered set of factual questions exposes whether a response is plausible.",
+              "example": null,
+              "audio_script": "Consent can affect whether conduct violates a legally protected interest, but its scope and validity matter. Permission to perform one medical procedure is not necessarily permission to perform another. Necessity may protect conduct taken to avert a serious threat, but legal tests often examine alternatives and comparative harm. Self-defense commonly involves necessity and proportionality, though exact standards vary. These doctrines require context, not slogans. A carefully ordered set of factual questions exposes whether a response is plausible.",
+              "video": null
+            },
+            {
+              "title": "Timing and the Kind of Response",
+              "body_md": "A limitations defense may bar a stale claim even if the underlying account is true. Some jurisdictions treat such rules as procedural, others more substantively; particular claims may be subject to special time rules. Immunity, jurisdictional objections, waiver, and estoppel can also alter whether a case proceeds, yet they are not interchangeable. The sensible sequence is to identify the claim, then separate defenses to its merits from defenses based on forum, time, or legal capacity.",
+              "example": null,
+              "audio_script": "A limitations defense may bar a stale claim even if the underlying account is true. Some jurisdictions treat such rules as procedural, others more substantively; particular claims may be subject to special time rules. Immunity, jurisdictional objections, waiver, and estoppel can also alter whether a case proceeds, yet they are not interchangeable. The sensible sequence is to identify the claim, then separate defenses to its merits from defenses based on forum, time, or legal capacity.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Persuasion burden means duty to convince the fact finder under a standard.",
+              "answer": true,
+              "explanation_if_true": "Persuasion burden concerns duty to convince the fact finder under a standard.",
+              "explanation_if_false": "Persuasion burden concerns duty to convince the fact finder under a standard."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "The party who raises a defense necessarily bears every burden of persuasion concerning it.",
+              "answer": false,
+              "explanation_if_true": "Allocation of burdens depends on the legal system, claim and particular defense.",
+              "explanation_if_false": "Allocation of burdens depends on the legal system, claim and particular defense."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Production burden?",
+              "choices": [
+                "Duty to present sufficient evidence to raise an issue",
+                "Duty to convince the fact finder under a standard",
+                "Relationship between defensive means and threatened harm",
+                "Legally prescribed time for bringing a claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Production burden means duty to present sufficient evidence to raise an issue."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A party offers enough evidence to put self-defense in issue, but who must finally prove the issue is disputed. Which distinction matters?",
+              "choices": [
+                "Venue versus jurisdiction only",
+                "Contract versus property",
+                "Sentence versus remedy",
+                "Production versus persuasion burden"
+              ],
+              "answer_index": 3,
+              "explanation": "Raising a defense and persuading the fact finder can involve different burdens."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Relationship between defensive means and threatened harm?",
+              "choices": [
+                "Production burden",
+                "Limitation period",
+                "Persuasion burden",
+                "Proportionality"
+              ],
+              "answer_index": 3,
+              "explanation": "Proportionality means relationship between defensive means and threatened harm."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the terms to their meanings.",
+              "pairs": [
+                [
+                  "Production burden",
+                  "Duty to present sufficient evidence to raise an issue"
+                ],
+                [
+                  "Persuasion burden",
+                  "Duty to convince the fact finder under a standard"
+                ],
+                [
+                  "Proportionality",
+                  "Relationship between defensive means and threatened harm"
+                ],
+                [
+                  "Limitation period",
+                  "Legally prescribed time for bringing a claim"
+                ]
+              ],
+              "explanation": "These distinctions are needed for a sound defensive analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Duty to present sufficient evidence to raise an issue is called ___.",
+              "answer": "Production burden",
+              "accept": [
+                "Production burden"
+              ],
+              "explanation": "The term is Production burden."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legally prescribed time for bringing a claim is called ___.",
+              "answer": "Limitation period",
+              "accept": [
+                "Limitation period"
+              ],
+              "explanation": "The term is Limitation period."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare excuses and justifications across legal traditions.",
+          "summary": "Evaluate defenses as expressions of choice, blame and institutional fairness. Test situations where necessity, duress, mistake and consent lead to different outcomes across legal systems.",
+          "checklist": [
+            "I can explain why justification and excuse can affect third parties differently",
+            "I can compare duress, mistake and necessity without treating them as interchangeable",
+            "I can analyze defensive conduct under uncertainty"
+          ],
+          "sections": [
+            {
+              "title": "Why the Classification Matters",
+              "body_md": "If an act is justified, another person may have no right to resist it in some legal settings; an excused act may remain wrongful even when the actor is not punished. This is a conceptual contrast, not a universal rule for all defenses. Criminal codes and common-law doctrines may use different categories. An analysis should specify whose interests the law recognizes, whether the relevant conduct is deemed permissible, and what consequences follow for accomplices and victims. Labels without consequences explain very little.",
+              "example": null,
+              "audio_script": "If an act is justified, another person may have no right to resist it in some legal settings; an excused act may remain wrongful even when the actor is not punished. This is a conceptual contrast, not a universal rule for all defenses. Criminal codes and common-law doctrines may use different categories. An analysis should specify whose interests the law recognizes, whether the relevant conduct is deemed permissible, and what consequences follow for accomplices and victims. Labels without consequences explain very little.",
+              "video": null
+            },
+            {
+              "title": "Duress, Mistake and Necessity",
+              "body_md": "Duress concerns pressure from another's threat; necessity often concerns choosing a lesser harm in an emergency; mistake concerns an actor's false understanding of facts or law. Their availability depends on the offense, timing, type of mistake, available alternatives, and sometimes the accused's role in creating the danger. A system may reject duress for specified grave offenses or apply special rules to mistakes of law. These variations reflect judgments about autonomy and the limits of blaming someone under constraint.",
+              "example": null,
+              "audio_script": "Duress concerns pressure from another's threat; necessity often concerns choosing a lesser harm in an emergency; mistake concerns an actor's false understanding of facts or law. Their availability depends on the offense, timing, type of mistake, available alternatives, and sometimes the accused's role in creating the danger. A system may reject duress for specified grave offenses or apply special rules to mistakes of law. These variations reflect judgments about autonomy and the limits of blaming someone under constraint.",
+              "video": null
+            },
+            {
+              "title": "Defenses Under Imperfect Information",
+              "body_md": "Suppose an emergency worker acts on strong but incomplete evidence of danger. The ex post fact that danger did not materialize does not always answer whether the response was reasonable at the time. Conversely, fear does not authorize unlimited force. Jurisdictions differ on subjective belief, objective reasonableness, and proportionality. The careful lawyer reconstructs what was knowable when the choice was made, identifies the legally relevant perspective, and resists converting hindsight into a substitute for the governing test.",
+              "example": null,
+              "audio_script": "Suppose an emergency worker acts on strong but incomplete evidence of danger. The ex post fact that danger did not materialize does not always answer whether the response was reasonable at the time. Conversely, fear does not authorize unlimited force. Jurisdictions differ on subjective belief, objective reasonableness, and proportionality. The careful lawyer reconstructs what was knowable when the choice was made, identifies the legally relevant perspective, and resists converting hindsight into a substitute for the governing test.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Necessity means conduct justified or excused by competing imminent harms.",
+              "answer": true,
+              "explanation_if_true": "Necessity concerns conduct justified or excused by competing imminent harms.",
+              "explanation_if_false": "Necessity concerns conduct justified or excused by competing imminent harms."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Duress, necessity and mistake always involve the same legal elements.",
+              "answer": false,
+              "explanation_if_true": "These doctrines address different forms of constraint or error and vary by jurisdiction.",
+              "explanation_if_false": "These doctrines address different forms of constraint or error and vary by jurisdiction."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Duress?",
+              "choices": [
+                "Conduct justified or excused by competing imminent harms",
+                "A false belief relevant to a legal element or defense",
+                "Treating later knowledge as if it existed at the time",
+                "Conduct influenced by an unlawful threat"
+              ],
+              "answer_index": 3,
+              "explanation": "Duress means conduct influenced by an unlawful threat."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A worker chooses a risky response based on facts available during an emergency. What analytical error should be avoided?",
+              "choices": [
+                "Forum non conveniens",
+                "Res judicata",
+                "Hindsight bias",
+                "Subject-matter jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "Evaluate the legally relevant knowledge at the time instead of substituting what became known later."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: A false belief relevant to a legal element or defense?",
+              "choices": [
+                "Hindsight bias",
+                "Necessity",
+                "Mistake",
+                "Duress"
+              ],
+              "answer_index": 2,
+              "explanation": "Mistake means a false belief relevant to a legal element or defense."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the terms to their meanings.",
+              "pairs": [
+                [
+                  "Duress",
+                  "Conduct influenced by an unlawful threat"
+                ],
+                [
+                  "Necessity",
+                  "Conduct justified or excused by competing imminent harms"
+                ],
+                [
+                  "Mistake",
+                  "A false belief relevant to a legal element or defense"
+                ],
+                [
+                  "Hindsight bias",
+                  "Treating later knowledge as if it existed at the time"
+                ]
+              ],
+              "explanation": "These distinctions are needed for a sound defensive analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Conduct influenced by an unlawful threat is called ___.",
+              "answer": "Duress",
+              "accept": [
+                "Duress"
+              ],
+              "explanation": "The term is Duress."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Treating later knowledge as if it existed at the time is called ___.",
+              "answer": "Hindsight bias",
+              "accept": [
+                "Hindsight bias"
+              ],
+              "explanation": "The term is Hindsight bias."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique defenses as a theory of agency and the limits of law.",
+          "summary": "At doctoral depth, use defensive doctrines to test whether law respects constrained human choice while remaining fair to those harmed. Defend the allocation of evidentiary risk as well as the substantive rule.",
+          "checklist": [
+            "I can evaluate excuse and justification through agency and vulnerability",
+            "I can question whether ostensibly neutral defenses distribute protection fairly",
+            "I can propose a defensible burden allocation for contested emergencies"
+          ],
+          "sections": [
+            {
+              "title": "Responsibility Presupposes Choice",
+              "body_md": "Punishment commonly conveys blame, yet human choice is conditioned by threats, disability, power, social position, and incomplete information. Excuse doctrine asks when those conditions undermine culpability; justification asks when an apparently harmful choice is warranted. Neither inquiry should erase the victim. A complete normative theory must distinguish what an actor could reasonably do, the interests endangered, and what society can fairly demand. It should also address hard cases where the law must choose a rule before the facts are fully knowable.",
+              "example": null,
+              "audio_script": "Punishment commonly conveys blame, yet human choice is conditioned by threats, disability, power, social position, and incomplete information. Excuse doctrine asks when those conditions undermine culpability; justification asks when an apparently harmful choice is warranted. Neither inquiry should erase the victim. A complete normative theory must distinguish what an actor could reasonably do, the interests endangered, and what society can fairly demand. It should also address hard cases where the law must choose a rule before the facts are fully knowable.",
+              "video": null
+            },
+            {
+              "title": "Neutral Words, Unequal Effects",
+              "body_md": "A defense requiring immediate danger may fit one kind of assault but poorly describe prolonged coercive control. A requirement to retreat may burden some people more severely than others, depending on disability, safety and location. Such observations do not themselves establish what any jurisdiction's law is. They invite empirical and normative examination: what harms is the defense designed to prevent, who can realistically meet the test, and what error follows from relaxing it? A principled reform cannot be designed from a single sympathetic anecdote.",
+              "example": null,
+              "audio_script": "A defense requiring immediate danger may fit one kind of assault but poorly describe prolonged coercive control. A requirement to retreat may burden some people more severely than others, depending on disability, safety and location. Such observations do not themselves establish what any jurisdiction's law is. They invite empirical and normative examination: what harms is the defense designed to prevent, who can realistically meet the test, and what error follows from relaxing it? A principled reform cannot be designed from a single sympathetic anecdote.",
+              "video": null
+            },
+            {
+              "title": "Proof and Error as Moral Choices",
+              "body_md": "Imagine a contested self-defense claim with no independent witness. Requiring the accused to prove justification risks punishing an innocent person; requiring the state to disprove it risks acquitting a guilty person. Constitutions and statutes may dictate the allocation, and those rules must be applied. At the policy level, the allocation expresses how the legal order values liberty, victim protection, and institutional error. A doctoral proposal should state the error it prioritizes, the evidence available, and why its proposed threshold is proportionate.",
+              "example": null,
+              "audio_script": "Imagine a contested self-defense claim with no independent witness. Requiring the accused to prove justification risks punishing an innocent person; requiring the state to disprove it risks acquitting a guilty person. Constitutions and statutes may dictate the allocation, and those rules must be applied. At the policy level, the allocation expresses how the legal order values liberty, victim protection, and institutional error. A doctoral proposal should state the error it prioritizes, the evidence available, and why its proposed threshold is proportionate.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Culpability means degree of responsibility deserving blame.",
+              "answer": true,
+              "explanation_if_true": "Culpability concerns degree of responsibility deserving blame.",
+              "explanation_if_false": "Culpability concerns degree of responsibility deserving blame."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A formally identical defense rule must affect all vulnerable groups equally.",
+              "answer": false,
+              "explanation_if_true": "Rules written neutrally may have unequal effects because circumstances and access to evidence differ.",
+              "explanation_if_false": "Rules written neutrally may have unequal effects because circumstances and access to evidence differ."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Agency?",
+              "choices": [
+                "Pattern of pressure restricting another's choices",
+                "Risk of an adverse outcome from uncertain proof",
+                "Capacity to choose and act for reasons",
+                "Degree of responsibility deserving blame"
+              ],
+              "answer_index": 2,
+              "explanation": "Agency means capacity to choose and act for reasons."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A proposed rule lowers a proof threshold to protect defendants but may increase wrongful acquittals. What must a justification address?",
+              "choices": [
+                "Aesthetic preference",
+                "Competing error costs",
+                "Only the wording of its title",
+                "Which court has larger rooms"
+              ],
+              "answer_index": 1,
+              "explanation": "The proposal should explain which mistakes it tolerates and why the trade-off is acceptable."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Pattern of pressure restricting another's choices?",
+              "choices": [
+                "Culpability",
+                "Coercive control",
+                "Agency",
+                "Evidentiary risk"
+              ],
+              "answer_index": 1,
+              "explanation": "Coercive control means pattern of pressure restricting another's choices."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the terms to their meanings.",
+              "pairs": [
+                [
+                  "Agency",
+                  "Capacity to choose and act for reasons"
+                ],
+                [
+                  "Culpability",
+                  "Degree of responsibility deserving blame"
+                ],
+                [
+                  "Coercive control",
+                  "Pattern of pressure restricting another's choices"
+                ],
+                [
+                  "Evidentiary risk",
+                  "Risk of an adverse outcome from uncertain proof"
+                ]
+              ],
+              "explanation": "These distinctions are needed for a sound defensive analysis."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Capacity to choose and act for reasons is called ___.",
+              "answer": "Agency",
+              "accept": [
+                "Agency"
+              ],
+              "explanation": "The term is Agency."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.defense-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Risk of an adverse outcome from uncertain proof is called ___.",
+              "answer": "Evidentiary risk",
+              "accept": [
+                "Evidentiary risk"
+              ],
+              "explanation": "The term is Evidentiary risk."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
