@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Recognize injury as a legal and historical category",
+          "summary": "Explore how an early legal text described injury through bodily damage, property and social status. Learn why harm mattered to the law even when people disagreed about a fair response.",
+          "checklist": [
+            "I can distinguish injury from a prescribed penalty",
+            "I can recognize status differences in ancient remedies",
+            "I can analyze what a judgment reveals and conceals"
+          ],
+          "sections": [
+            {
+              "title": "One Injury, Several Legal Responses",
+              "body_md": "The Babylonian collection associated with Hammurabi includes judgments about bodily injury and property loss. The prescribed response could depend on who injured whom and the social standing of the people involved. This teaches two things at once: the legal order took some injuries seriously, and it did not treat all injured persons as equivalent. Do not assume that an ancient reference to bodily retaliation states a complete general theory of criminal punishment. Read the condition, social category and prescribed consequence together.",
+              "example": null,
+              "audio_script": "The Babylonian collection associated with Hammurabi includes judgments about bodily injury and property loss. The prescribed response could depend on who injured whom and the social standing of the people involved. This teaches two things at once: the legal order took some injuries seriously, and it did not treat all injured persons as equivalent. Do not assume that an ancient reference to bodily retaliation states a complete general theory of criminal punishment. Read the condition, social category and prescribed consequence together.",
+              "video": null
+            },
+            {
+              "title": "The Harm Is Not the Sentence",
+              "body_md": "If a person's eye is injured, the bodily harm is a factual event. Whether the response is payment, retaliation or another consequence is a separate legal choice. Ancient judgments sometimes connected particular injuries with fixed consequences to represent proportionality or social order. The modern reader may criticize those measures, but must first understand their historical function. A historian therefore separates the injury suffered, the legal interest recognized, the party entitled to complain, and the institution empowered to respond.",
+              "example": null,
+              "audio_script": "If a person's eye is injured, the bodily harm is a factual event. Whether the response is payment, retaliation or another consequence is a separate legal choice. Ancient judgments sometimes connected particular injuries with fixed consequences to represent proportionality or social order. The modern reader may criticize those measures, but must first understand their historical function. A historian therefore separates the injury suffered, the legal interest recognized, the party entitled to complain, and the institution empowered to respond.",
+              "video": null
+            },
+            {
+              "title": "Reading Evidence Responsibly",
+              "body_md": "A royal collection of judgments is powerful evidence for official views of harm. It does not tell us how every dispute ended or whether the prescriptions were uniformly enforced. We also know less about people whose experiences were not recorded in surviving texts. Responsible legal history resists claiming too much. When comparing an ancient provision with today's law, use the source to identify the legal category and consequence, then look for additional evidence of procedure and lived experience.",
+              "example": null,
+              "audio_script": "A royal collection of judgments is powerful evidence for official views of harm. It does not tell us how every dispute ended or whether the prescriptions were uniformly enforced. We also know less about people whose experiences were not recorded in surviving texts. Responsible legal history resists claiming too much. When comparing an ancient provision with today's law, use the source to identify the legal category and consequence, then look for additional evidence of procedure and lived experience.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Status-based penalty describes sanction adjusted by a person's recognized legal rank.",
+              "answer": true,
+              "explanation_if_true": "Status-based penalty refers to sanction adjusted by a person's recognized legal rank.",
+              "explanation_if_false": "Status-based penalty refers to sanction adjusted by a person's recognized legal rank."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "A royal inscription proves how every actual injury case was decided.",
+              "answer": false,
+              "explanation_if_true": "Prescriptive texts cannot alone establish the full pattern of historical enforcement.",
+              "explanation_if_false": "Prescriptive texts cannot alone establish the full pattern of historical enforcement."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Bodily injury?",
+              "choices": [
+                "Surviving evidence used to reconstruct earlier law",
+                "Physical harm to a person's body",
+                "Sanction adjusted by a person's recognized legal rank",
+                "Relationship between wrongdoing and prescribed response"
+              ],
+              "answer_index": 1,
+              "explanation": "Bodily injury means physical harm to a person's body."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A provision prescribes different consequences for identical injuries depending on status. What should the researcher conclude?",
+              "choices": [
+                "The legal response was differentiated by status",
+                "The underlying injuries were physically different",
+                "The society recognized no injury rules",
+                "All judgments were automatically enforced"
+              ],
+              "answer_index": 0,
+              "explanation": "The text identifies a status-sensitive norm, not the outcome of every case."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means relationship between wrongdoing and prescribed response?",
+              "choices": [
+                "Proportionality",
+                "Bodily injury",
+                "Legal history source",
+                "Status-based penalty"
+              ],
+              "answer_index": 0,
+              "explanation": "Proportionality means relationship between wrongdoing and prescribed response."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Bodily injury",
+                  "Physical harm to a person's body"
+                ],
+                [
+                  "Status-based penalty",
+                  "Sanction adjusted by a person's recognized legal rank"
+                ],
+                [
+                  "Proportionality",
+                  "Relationship between wrongdoing and prescribed response"
+                ],
+                [
+                  "Legal history source",
+                  "Surviving evidence used to reconstruct earlier law"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for physical harm to a person's body is ___.",
+              "answer": "Bodily injury",
+              "accept": [
+                "Bodily injury"
+              ],
+              "explanation": "The term is Bodily injury."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for surviving evidence used to reconstruct earlier law is ___.",
+              "answer": "Legal history source",
+              "accept": [
+                "Legal history source"
+              ],
+              "explanation": "The term is Legal history source."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Understand Roman injury concepts and private redress",
+          "summary": "Move from fixed ancient judgments to Roman categories of personal and property wrongs. Study why naming an injury in law depended on the available action and the protected interest.",
+          "checklist": [
+            "I can explain what a delictual wrong means historically",
+            "I can distinguish private injury claims from public penalties",
+            "I can recognize the importance of a procedural action"
+          ],
+          "sections": [
+            {
+              "title": "From Harm to an Action",
+              "body_md": "Roman legal thought developed distinct actions for wrongs involving personal injury, property and other recognized interests. The word delict refers to a category of private-law wrongs, though its content changed across periods. A person might suffer a factual loss yet lack the action needed to obtain a remedy. The legal historian must not assume that every serious moral injury appeared as a general claim. What mattered was the protected interest, available procedural form and legal status of the parties.",
+              "example": null,
+              "audio_script": "Roman legal thought developed distinct actions for wrongs involving personal injury, property and other recognized interests. The word delict refers to a category of private-law wrongs, though its content changed across periods. A person might suffer a factual loss yet lack the action needed to obtain a remedy. The legal historian must not assume that every serious moral injury appeared as a general claim. What mattered was the protected interest, available procedural form and legal status of the parties.",
+              "video": null
+            },
+            {
+              "title": "Damnum and the Protected Interest",
+              "body_md": "Roman discussion of damage to property, including rules associated with the Lex Aquilia, influenced later legal reasoning about wrongful loss. Yet a modern negligence claim cannot simply be read back into a Roman statute. Jurists debated the kinds of conduct and injury the rules encompassed, while procedures and remedies evolved. The historically accurate question is not whether Rome invented every modern tort, but how specific legal actions helped refine ideas of damage, responsibility and compensation.",
+              "example": null,
+              "audio_script": "Roman discussion of damage to property, including rules associated with the Lex Aquilia, influenced later legal reasoning about wrongful loss. Yet a modern negligence claim cannot simply be read back into a Roman statute. Jurists debated the kinds of conduct and injury the rules encompassed, while procedures and remedies evolved. The historically accurate question is not whether Rome invented every modern tort, but how specific legal actions helped refine ideas of damage, responsibility and compensation.",
+              "video": null
+            },
+            {
+              "title": "Public and Private Responses",
+              "body_md": "A public offense may threaten the political order; a private wrong may create a claim between identified persons. Roman arrangements did not always match today's civil-criminal boundary. The same conduct could implicate more than one interest, and remedies could have penal features even when pursued privately. Students must therefore identify the legal forum and type of action before translating a Roman term into modern language. Historical precision prevents a familiar label from concealing a different institutional design.",
+              "example": null,
+              "audio_script": "A public offense may threaten the political order; a private wrong may create a claim between identified persons. Roman arrangements did not always match today's civil-criminal boundary. The same conduct could implicate more than one interest, and remedies could have penal features even when pursued privately. Students must therefore identify the legal forum and type of action before translating a Roman term into modern language. Historical precision prevents a familiar label from concealing a different institutional design.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Lex Aquilia describes roman statute influential in rules about property damage.",
+              "answer": true,
+              "explanation_if_true": "Lex Aquilia refers to roman statute influential in rules about property damage.",
+              "explanation_if_false": "Lex Aquilia refers to roman statute influential in rules about property damage."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Lex Aquilia was identical to every modern tort statute.",
+              "answer": false,
+              "explanation_if_true": "Its language, context and subsequent interpretation differed from modern causes of action.",
+              "explanation_if_false": "Its language, context and subsequent interpretation differed from modern causes of action."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Delict?",
+              "choices": [
+                "Historical category of certain private-law wrongs",
+                "Roman statute influential in rules about property damage",
+                "Recognized procedural means of pursuing a claim",
+                "Interest the law recognizes as worthy of protection"
+              ],
+              "answer_index": 0,
+              "explanation": "Delict means historical category of certain private-law wrongs."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A Roman claimant suffered loss but had no applicable legal action. What distinction matters?",
+              "choices": [
+                "Roman roads versus modern bridges",
+                "The king versus a parliament",
+                "Civil codes versus legal dictionaries",
+                "Factual harm versus an actionable legal wrong"
+              ],
+              "answer_index": 3,
+              "explanation": "Harm alone is not necessarily a recognized cause of action."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means recognized procedural means of pursuing a claim?",
+              "choices": [
+                "Delict",
+                "Protected interest",
+                "Lex Aquilia",
+                "Legal action"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal action means recognized procedural means of pursuing a claim."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Delict",
+                  "Historical category of certain private-law wrongs"
+                ],
+                [
+                  "Lex Aquilia",
+                  "Roman statute influential in rules about property damage"
+                ],
+                [
+                  "Legal action",
+                  "Recognized procedural means of pursuing a claim"
+                ],
+                [
+                  "Protected interest",
+                  "Interest the law recognizes as worthy of protection"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for historical category of certain private-law wrongs is ___.",
+              "answer": "Delict",
+              "accept": [
+                "Delict"
+              ],
+              "explanation": "The term is Delict."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for interest the law recognizes as worthy of protection is ___.",
+              "answer": "Protected interest",
+              "accept": [
+                "Protected interest"
+              ],
+              "explanation": "The term is Protected interest."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain how common-law forms shaped recognized harms",
+          "summary": "Trace how forms of action and evolving common-law pleading affected what counted as a legal wrong. See why procedure could determine the practical meaning of harm long before broad modern doctrines emerged.",
+          "checklist": [
+            "I can distinguish trespass from action on the case historically",
+            "I can recognize how forms of action influenced substance",
+            "I can explain why legal categories changed as institutions changed"
+          ],
+          "sections": [
+            {
+              "title": "A Writ Could Define the Path",
+              "body_md": "In medieval and early modern English common law, litigants often had to bring claims within recognized writs and forms of action. Trespass developed around certain direct interferences; action on the case gradually supplied routes for other fact patterns. Their historical boundaries shifted and cannot be reduced to one timeless formula. A wrong without an available procedural path might be difficult to remedy. That is why legal historians examine court procedure when asking what injuries a legal order truly protected.",
+              "example": null,
+              "audio_script": "In medieval and early modern English common law, litigants often had to bring claims within recognized writs and forms of action. Trespass developed around certain direct interferences; action on the case gradually supplied routes for other fact patterns. Their historical boundaries shifted and cannot be reduced to one timeless formula. A wrong without an available procedural path might be difficult to remedy. That is why legal historians examine court procedure when asking what injuries a legal order truly protected.",
+              "video": null
+            },
+            {
+              "title": "From Forms to General Principles",
+              "body_md": "Over centuries, common-law pleading and judicial reasoning increasingly reorganized questions of injury, duty and causation. Reforms later reduced the formal dominance of older writ categories, but traces remain in substantive doctrines. The change did not happen overnight and should not be described as a simple replacement of primitive law with modern fairness. Each procedural innovation could expand some claims and exclude others. The analytical lesson is that a legal system's definition of harm develops alongside its mechanisms for hearing people.",
+              "example": null,
+              "audio_script": "Over centuries, common-law pleading and judicial reasoning increasingly reorganized questions of injury, duty and causation. Reforms later reduced the formal dominance of older writ categories, but traces remain in substantive doctrines. The change did not happen overnight and should not be described as a simple replacement of primitive law with modern fairness. Each procedural innovation could expand some claims and exclude others. The analytical lesson is that a legal system's definition of harm develops alongside its mechanisms for hearing people.",
+              "video": null
+            },
+            {
+              "title": "The Missing Claimant",
+              "body_md": "Legal records frequently preserve the disputes that reached institutions able to write and retain documents. Poorer people, women and marginalized groups may be underrepresented in surviving reports for many reasons. A history of reported actions is therefore not necessarily a complete history of harm. When evaluating how protective a system was, ask who could afford proceedings, whose testimony was heard and whether the recognized interests fit people's lived injuries. Institutional access belongs within the history of substantive law.",
+              "example": null,
+              "audio_script": "Legal records frequently preserve the disputes that reached institutions able to write and retain documents. Poorer people, women and marginalized groups may be underrepresented in surviving reports for many reasons. A history of reported actions is therefore not necessarily a complete history of harm. When evaluating how protective a system was, ask who could afford proceedings, whose testimony was heard and whether the recognized interests fit people's lived injuries. Institutional access belongs within the history of substantive law.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Trespass describes historical common-law action involving specified interferences.",
+              "answer": true,
+              "explanation_if_true": "Trespass refers to historical common-law action involving specified interferences.",
+              "explanation_if_false": "Trespass refers to historical common-law action involving specified interferences."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "Common-law forms of action never affected which kinds of harm received legal remedies.",
+              "answer": false,
+              "explanation_if_true": "Historically the available writ and pleading form could strongly shape actionable claims.",
+              "explanation_if_false": "Historically the available writ and pleading form could strongly shape actionable claims."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Writ?",
+              "choices": [
+                "Historical common-law action involving specified interferences",
+                "Historical flexible form for certain injuries",
+                "Recognized procedural category shaping a claim",
+                "Formal instrument initiating particular judicial process"
+              ],
+              "answer_index": 3,
+              "explanation": "Writ means formal instrument initiating particular judicial process."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A historical injury fell outside a recognized writ, although the person suffered loss. What shaped the outcome?",
+              "choices": [
+                "The later internet economy",
+                "An unrelated continental treaty",
+                "The available form of action",
+                "The 1948 declaration"
+              ],
+              "answer_index": 2,
+              "explanation": "Common-law procedure often determined the viable route to redress."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means historical flexible form for certain injuries?",
+              "choices": [
+                "Form of action",
+                "Trespass",
+                "Action on the case",
+                "Writ"
+              ],
+              "answer_index": 2,
+              "explanation": "Action on the case means historical flexible form for certain injuries."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Writ",
+                  "Formal instrument initiating particular judicial process"
+                ],
+                [
+                  "Trespass",
+                  "Historical common-law action involving specified interferences"
+                ],
+                [
+                  "Action on the case",
+                  "Historical flexible form for certain injuries"
+                ],
+                [
+                  "Form of action",
+                  "Recognized procedural category shaping a claim"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for formal instrument initiating particular judicial process is ___.",
+              "answer": "Writ",
+              "accept": [
+                "Writ"
+              ],
+              "explanation": "The term is Writ."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for recognized procedural category shaping a claim is ___.",
+              "answer": "Form of action",
+              "accept": [
+                "Form of action"
+              ],
+              "explanation": "The term is Form of action."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Analyze systemic injury beyond the individual lawsuit",
+          "summary": "Examine how industrial, environmental and digital harms challenge legal categories built for distinct people and isolated events. Evaluate whether a system that recognizes only individualized injuries can respond adequately to collective risks.",
+          "checklist": [
+            "I can differentiate individual and systemic injuries",
+            "I can analyze evidentiary gaps in diffuse harms",
+            "I can defend reforms without treating causation as optional"
+          ],
+          "sections": [
+            {
+              "title": "Harm Changes With Social Organization",
+              "body_md": "Industrial pollution, unsafe workplaces and mass-market products exposed injuries involving many people, long time periods and uncertain sources. Modern environmental risks and large data systems create similar structural problems. Traditional bilateral litigation can still be valuable, but its proof and remedy requirements may not fit every collective injury. Historical analysis should track how institutions adapted through regulation, insurance, group litigation and public enforcement in different jurisdictions. Change in the pattern of harm can require change in legal response.",
+              "example": null,
+              "audio_script": "Industrial pollution, unsafe workplaces and mass-market products exposed injuries involving many people, long time periods and uncertain sources. Modern environmental risks and large data systems create similar structural problems. Traditional bilateral litigation can still be valuable, but its proof and remedy requirements may not fit every collective injury. Historical analysis should track how institutions adapted through regulation, insurance, group litigation and public enforcement in different jurisdictions. Change in the pattern of harm can require change in legal response.",
+              "video": null
+            },
+            {
+              "title": "The Invisible Victim",
+              "body_md": "Some harms are difficult to see in a single case: cumulative exposure, discriminatory patterns or information asymmetry may emerge only through broader evidence. Statistical associations can identify problems but do not automatically prove a defendant's liability to a particular claimant. A doctoral student must distinguish the existence of a population-level risk, the harm to an identified person and the legal rule assigning responsibility. Those distinctions protect both victims seeking meaningful relief and defendants against unsupported attribution.",
+              "example": null,
+              "audio_script": "Some harms are difficult to see in a single case: cumulative exposure, discriminatory patterns or information asymmetry may emerge only through broader evidence. Statistical associations can identify problems but do not automatically prove a defendant's liability to a particular claimant. A doctoral student must distinguish the existence of a population-level risk, the harm to an identified person and the legal rule assigning responsibility. Those distinctions protect both victims seeking meaningful relief and defendants against unsupported attribution.",
+              "video": null
+            },
+            {
+              "title": "A Historic Test of Justice",
+              "body_md": "Ask whether a legal system measures injury only by losses it already knows how to remedy. If so, important harms may become invisible because the doctrine was designed for another age. A reform proposal should identify the social interest, establish reliable proof, address the risk of false attribution and choose an institution capable of effective enforcement. The aim is not unlimited liability. It is an honest legal vocabulary that can recognize new harms while preserving fair limits on coercive power.",
+              "example": null,
+              "audio_script": "Ask whether a legal system measures injury only by losses it already knows how to remedy. If so, important harms may become invisible because the doctrine was designed for another age. A reform proposal should identify the social interest, establish reliable proof, address the risk of false attribution and choose an institution capable of effective enforcement. The aim is not unlimited liability. It is an honest legal vocabulary that can recognize new harms while preserving fair limits on coercive power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Diffuse injury describes harm dispersed across persons or time.",
+              "answer": true,
+              "explanation_if_true": "Diffuse injury refers to harm dispersed across persons or time.",
+              "explanation_if_false": "Diffuse injury refers to harm dispersed across persons or time."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "Showing a population-level risk automatically proves each particular defendant caused an individual's injury.",
+              "answer": false,
+              "explanation_if_true": "General risk evidence and individual legal causation answer different questions.",
+              "explanation_if_false": "General risk evidence and individual legal causation answer different questions."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Systemic harm?",
+              "choices": [
+                "Pattern of possible harm measured across a group",
+                "Assignment of responsibility under a governing rule",
+                "Injury arising from an institutional pattern",
+                "Harm dispersed across persons or time"
+              ],
+              "answer_index": 2,
+              "explanation": "Systemic harm means injury arising from an institutional pattern."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A study finds higher illness rates near several plants but cannot assign individual exposure. What requires careful analysis?",
+              "choices": [
+                "The naming of a medieval writ",
+                "Causal attribution and proof",
+                "Only the age of the building",
+                "Whether a contract was written in Latin"
+              ],
+              "answer_index": 1,
+              "explanation": "Collective evidence may reveal risk without resolving every individual responsibility question."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means pattern of possible harm measured across a group?",
+              "choices": [
+                "Diffuse injury",
+                "Population risk",
+                "Systemic harm",
+                "Attribution"
+              ],
+              "answer_index": 1,
+              "explanation": "Population risk means pattern of possible harm measured across a group."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Systemic harm",
+                  "Injury arising from an institutional pattern"
+                ],
+                [
+                  "Diffuse injury",
+                  "Harm dispersed across persons or time"
+                ],
+                [
+                  "Population risk",
+                  "Pattern of possible harm measured across a group"
+                ],
+                [
+                  "Attribution",
+                  "Assignment of responsibility under a governing rule"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for injury arising from an institutional pattern is ___.",
+              "answer": "Systemic harm",
+              "accept": [
+                "Systemic harm"
+              ],
+              "explanation": "The term is Systemic harm."
+            },
+            {
+              "id": "PSU-1.2.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for assignment of responsibility under a governing rule is ___.",
+              "answer": "Attribution",
+              "accept": [
+                "Attribution"
+              ],
+              "explanation": "The term is Attribution."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
