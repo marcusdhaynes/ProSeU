@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "Research legal rights without making promises",
+          "summary": "A client may describe a serious injustice, but research must identify the governing protection and its limits. Learn to connect a personal story with the right legal source.",
+          "checklist": [
+            "I can find a source protecting an asserted interest",
+            "I can record the claimant and alleged duty holder",
+            "I can identify the basic remedy and forum"
+          ],
+          "sections": [
+            {
+              "title": "Translate Concern Into a Search Question",
+              "body_md": "A client says an employer shared a medical record without permission. The first research question is not whether all privacy invasions are illegal. Identify the country, employer type, information shared, recipient and date. Then find any relevant data-protection, confidentiality, employment or constitutional rules. A right is useful only when its source, scope and conditions are known. A disciplined search avoids giving emotionally reassuring but legally unsupported advice.",
+              "example": null,
+              "audio_script": "A client says an employer shared a medical record without permission. The first research question is not whether all privacy invasions are illegal. Identify the country, employer type, information shared, recipient and date. Then find any relevant data-protection, confidentiality, employment or constitutional rules. A right is useful only when its source, scope and conditions are known. A disciplined search avoids giving emotionally reassuring but legally unsupported advice.",
+              "video": null
+            },
+            {
+              "title": "Check the Defendant and Protected Person",
+              "body_md": "A rule may protect patients against health providers, public employees against agencies, or consumers against particular companies. Its definition of protected person and regulated actor can determine the entire case. Before quoting a broad statement of rights, read those definitions. The same incident may engage several sources with different conditions. A beginner's source note should identify the rights holder, duty holder, triggering conduct and legally available response.",
+              "example": null,
+              "audio_script": "A rule may protect patients against health providers, public employees against agencies, or consumers against particular companies. Its definition of protected person and regulated actor can determine the entire case. Before quoting a broad statement of rights, read those definitions. The same incident may engage several sources with different conditions. A beginner's source note should identify the rights holder, duty holder, triggering conduct and legally available response.",
+              "video": null
+            },
+            {
+              "title": "Rights Need an Accessible Route",
+              "body_md": "A right can be enforced through an agency complaint, civil claim, employment tribunal or constitutional procedure depending on the jurisdiction. Some routes require exhaustion, notice or deadlines. The client should know what practical step is available and when action must be taken. Research that stops at an elegant declaration can fail the person seeking help. Good advice connects the legal protection with the institution able to provide meaningful relief.",
+              "example": null,
+              "audio_script": "A right can be enforced through an agency complaint, civil claim, employment tribunal or constitutional procedure depending on the jurisdiction. Some routes require exhaustion, notice or deadlines. The client should know what practical step is available and when action must be taken. Research that stops at an elegant declaration can fail the person seeking help. Good advice connects the legal protection with the institution able to provide meaningful relief.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Duty holder means person or institution bound by the protection.",
+              "answer": true,
+              "explanation_if_true": "Duty holder means person or institution bound by the protection.",
+              "explanation_if_false": "Duty holder means person or institution bound by the protection."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "Any mention of privacy in a legal text proves a private damages action exists for every disclosure.",
+              "answer": false,
+              "explanation_if_true": "Rights have defined holders, actors, conditions and remedies.",
+              "explanation_if_false": "Rights have defined holders, actors, conditions and remedies."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Rights holder?",
+              "choices": [
+                "Lawful procedure for asserting a right",
+                "Person protected by a specified legal rule",
+                "Person or institution bound by the protection",
+                "Information safeguarded by an applicable rule"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights holder means person protected by a specified legal rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An employee's health record was disclosed. What should a researcher identify before advising?",
+              "choices": [
+                "Applicable protection, regulated actor and remedy",
+                "Only whether the employer apologizes",
+                "The employee's favorite website",
+                "Whether all privacy laws are identical"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal research must connect the incident to a particular rule and forum."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means information safeguarded by an applicable rule?",
+              "choices": [
+                "Protected data",
+                "Rights holder",
+                "Enforcement route",
+                "Duty holder"
+              ],
+              "answer_index": 0,
+              "explanation": "Protected data means information safeguarded by an applicable rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Rights holder",
+                  "Person protected by a specified legal rule"
+                ],
+                [
+                  "Duty holder",
+                  "Person or institution bound by the protection"
+                ],
+                [
+                  "Protected data",
+                  "Information safeguarded by an applicable rule"
+                ],
+                [
+                  "Enforcement route",
+                  "Lawful procedure for asserting a right"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "Person protected by a specified legal rule is called ___.",
+              "answer": "Rights holder",
+              "accept": [
+                "Rights holder"
+              ],
+              "explanation": "The term is Rights holder."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "Lawful procedure for asserting a right is called ___.",
+              "answer": "Enforcement route",
+              "accept": [
+                "Enforcement route"
+              ],
+              "explanation": "The term is Enforcement route."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Trace exceptions and statutory definitions in rights research",
+          "summary": "Develop research methods that test the entire right, not just its opening language. Learn to find regulatory guidance and exceptions without mistaking them for higher authority.",
+          "checklist": [
+            "I can find legislative definitions and exceptions",
+            "I can check authoritative guidance against binding text",
+            "I can explain when consent or public interest matters"
+          ],
+          "sections": [
+            {
+              "title": "A Protection Often Has Conditions",
+              "body_md": "A data-protection rule may permit disclosure under a defined legal obligation or medical emergency while prohibiting unrelated sharing. To research the claim, follow the statutory provision to its definitions, exceptions and enforcement sections. An introductory summary may omit critical qualifications. Read cross-references and any implementing regulations. The question becomes whether this particular disclosure met the legal conditions, not whether medical data deserves protection in the abstract.",
+              "example": null,
+              "audio_script": "A data-protection rule may permit disclosure under a defined legal obligation or medical emergency while prohibiting unrelated sharing. To research the claim, follow the statutory provision to its definitions, exceptions and enforcement sections. An introductory summary may omit critical qualifications. Read cross-references and any implementing regulations. The question becomes whether this particular disclosure met the legal conditions, not whether medical data deserves protection in the abstract.",
+              "video": null
+            },
+            {
+              "title": "Guidance Is Not Always Law",
+              "body_md": "An agency may publish useful guidance explaining its interpretation of a statute. Such material may be important, but its legal status differs by jurisdiction and context. A lawyer should separate binding regulations, official interpretive statements and general educational advice. Where guidance appears inconsistent with statutory text or precedent, identify which source has legal priority. This approach helps students use practical research tools without substituting convenient summaries for governing authority.",
+              "example": null,
+              "audio_script": "An agency may publish useful guidance explaining its interpretation of a statute. Such material may be important, but its legal status differs by jurisdiction and context. A lawyer should separate binding regulations, official interpretive statements and general educational advice. Where guidance appears inconsistent with statutory text or precedent, identify which source has legal priority. This approach helps students use practical research tools without substituting convenient summaries for governing authority.",
+              "video": null
+            },
+            {
+              "title": "Negative and Positive Evidence",
+              "body_md": "A client's account may support an unauthorized disclosure, while a signed consent form or statutory duty could matter to exceptions. A balanced search identifies evidence for both sides. Do not assume that a document labeled consent necessarily meets the legal test; scope, timing and capacity may be relevant. The research product should state which facts determine whether the exception applies and what additional evidence is needed. This makes the final advice both concise and reliable.",
+              "example": null,
+              "audio_script": "A client's account may support an unauthorized disclosure, while a signed consent form or statutory duty could matter to exceptions. A balanced search identifies evidence for both sides. Do not assume that a document labeled consent necessarily meets the legal test; scope, timing and capacity may be relevant. The research product should state which facts determine whether the exception applies and what additional evidence is needed. This makes the final advice both concise and reliable.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Legal exception means defined condition limiting a rule's application.",
+              "answer": true,
+              "explanation_if_true": "Legal exception means defined condition limiting a rule's application.",
+              "explanation_if_false": "Legal exception means defined condition limiting a rule's application."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "An agency's educational webpage always has the same legal force as the statute it describes.",
+              "answer": false,
+              "explanation_if_true": "Guidance and binding legal text may carry different authority.",
+              "explanation_if_false": "Guidance and binding legal text may carry different authority."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Statutory definition?",
+              "choices": [
+                "Meaning assigned by legislation to a term",
+                "Defined condition limiting a rule's application",
+                "Official explanation of how an institution understands law",
+                "Particular conduct authorized by an agreement"
+              ],
+              "answer_index": 0,
+              "explanation": "Statutory definition means meaning assigned by legislation to a term."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A privacy rule has an emergency exception. What is the decisive research move?",
+              "choices": [
+                "Assume every emergency claim is valid",
+                "Ignore statutory definitions",
+                "Treat all guidance as higher than law",
+                "Read the exception's elements and test the facts"
+              ],
+              "answer_index": 3,
+              "explanation": "The exception applies only within its legally defined scope."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means official explanation of how an institution understands law?",
+              "choices": [
+                "Statutory definition",
+                "Consent scope",
+                "Legal exception",
+                "Interpretive guidance"
+              ],
+              "answer_index": 3,
+              "explanation": "Interpretive guidance means official explanation of how an institution understands law."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Statutory definition",
+                  "Meaning assigned by legislation to a term"
+                ],
+                [
+                  "Legal exception",
+                  "Defined condition limiting a rule's application"
+                ],
+                [
+                  "Interpretive guidance",
+                  "Official explanation of how an institution understands law"
+                ],
+                [
+                  "Consent scope",
+                  "Particular conduct authorized by an agreement"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Meaning assigned by legislation to a term is called ___.",
+              "answer": "Statutory definition",
+              "accept": [
+                "Statutory definition"
+              ],
+              "explanation": "The term is Statutory definition."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Particular conduct authorized by an agreement is called ___.",
+              "answer": "Consent scope",
+              "accept": [
+                "Consent scope"
+              ],
+              "explanation": "The term is Consent scope."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Research overlapping constitutional and statutory rights",
+          "summary": "Handle disputes in which several legal frameworks protect related interests. Distinguish which source controls which defendant, what remedy follows and what must be proved.",
+          "checklist": [
+            "I can map overlapping legal protections without double counting",
+            "I can identify vertical and horizontal application",
+            "I can compare procedural routes and exhaustion requirements"
+          ],
+          "sections": [
+            {
+              "title": "One Event, Several Bodies of Law",
+              "body_md": "A public university records a student's private communications and shares them with a contractor. Constitutional principles, administrative law, privacy legislation and contract terms may each bear on the event. A sophisticated researcher does not assume they create identical claims. Make a table: source, actor bound, protected interest, conditions, exceptions and remedy. Then test whether the university's status or the contractor's role changes the available route. The map makes overlapping protection intelligible.",
+              "example": null,
+              "audio_script": "A public university records a student's private communications and shares them with a contractor. Constitutional principles, administrative law, privacy legislation and contract terms may each bear on the event. A sophisticated researcher does not assume they create identical claims. Make a table: source, actor bound, protected interest, conditions, exceptions and remedy. Then test whether the university's status or the contractor's role changes the available route. The map makes overlapping protection intelligible.",
+              "video": null
+            },
+            {
+              "title": "Rights Against Public and Private Actors",
+              "body_md": "Constitutional restrictions often operate differently against the state than against private persons, though legal systems vary. Privacy legislation may reach organizations that constitutional rights do not directly govern. A researcher must determine the defendant's legal status and the jurisdiction's approach to horizontal effect. A decision from another country can illustrate a method but is not automatically controlling. Avoid imposing one system's classification on another's constitutional structure.",
+              "example": null,
+              "audio_script": "Constitutional restrictions often operate differently against the state than against private persons, though legal systems vary. Privacy legislation may reach organizations that constitutional rights do not directly govern. A researcher must determine the defendant's legal status and the jurisdiction's approach to horizontal effect. A decision from another country can illustrate a method but is not automatically controlling. Avoid imposing one system's classification on another's constitutional structure.",
+              "video": null
+            },
+            {
+              "title": "Procedure Is Part of the Protection",
+              "body_md": "A person may need to complain to a regulator, satisfy an exhaustion rule, or seek urgent interim relief before a full claim. Those conditions can determine whether a seemingly strong right produces a timely remedy. The research memo should identify deadlines, available review, and enforcement powers. Technical accuracy and humane advice meet here: a student who finds the right but misses the remedy pathway may leave the client unprotected despite excellent theoretical knowledge.",
+              "example": null,
+              "audio_script": "A person may need to complain to a regulator, satisfy an exhaustion rule, or seek urgent interim relief before a full claim. Those conditions can determine whether a seemingly strong right produces a timely remedy. The research memo should identify deadlines, available review, and enforcement powers. Technical accuracy and humane advice meet here: a student who finds the right but misses the remedy pathway may leave the client unprotected despite excellent theoretical knowledge.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Horizontal effect means rights influencing private relationships.",
+              "answer": true,
+              "explanation_if_true": "Horizontal effect means rights influencing private relationships.",
+              "explanation_if_false": "Horizontal effect means rights influencing private relationships."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "A constitutional right and an ordinary statute always provide identical relief against every possible respondent.",
+              "answer": false,
+              "explanation_if_true": "Their sources, beneficiaries and enforcement requirements can differ.",
+              "explanation_if_false": "Their sources, beneficiaries and enforcement requirements can differ."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Vertical effect?",
+              "choices": [
+                "Rights influencing private relationships",
+                "Obligation to use specified procedures before another remedy",
+                "Multiple norms protecting aspects of the same incident",
+                "Rights applied against public authorities"
+              ],
+              "answer_index": 3,
+              "explanation": "Vertical effect means rights applied against public authorities."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A private contractor receives information from a public university. What should a rights map distinguish?",
+              "choices": [
+                "Whether the contractor has a new office",
+                "Which source has a longer title",
+                "Public and private actors under each applicable source",
+                "Only the student's nationality"
+              ],
+              "answer_index": 2,
+              "explanation": "Distinct actors may be regulated differently under overlapping rights regimes."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means obligation to use specified procedures before another remedy?",
+              "choices": [
+                "Rights overlap",
+                "Horizontal effect",
+                "Exhaustion requirement",
+                "Vertical effect"
+              ],
+              "answer_index": 2,
+              "explanation": "Exhaustion requirement means obligation to use specified procedures before another remedy."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Vertical effect",
+                  "Rights applied against public authorities"
+                ],
+                [
+                  "Horizontal effect",
+                  "Rights influencing private relationships"
+                ],
+                [
+                  "Exhaustion requirement",
+                  "Obligation to use specified procedures before another remedy"
+                ],
+                [
+                  "Rights overlap",
+                  "Multiple norms protecting aspects of the same incident"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "Rights applied against public authorities is called ___.",
+              "answer": "Vertical effect",
+              "accept": [
+                "Vertical effect"
+              ],
+              "explanation": "The term is Vertical effect."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "Multiple norms protecting aspects of the same incident is called ___.",
+              "answer": "Rights overlap",
+              "accept": [
+                "Rights overlap"
+              ],
+              "explanation": "The term is Rights overlap."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Audit human-rights claims for legal force and practical protection",
+          "summary": "At doctoral depth, research rights that cross constitutional, regional and international legal systems. Develop evidence-sensitive advice without confusing influential declarations with directly enforceable obligations.",
+          "checklist": [
+            "I can distinguish treaty obligations from domestic remedies",
+            "I can audit binding force and reservations",
+            "I can analyze whose access to rights enforcement is missing"
+          ],
+          "sections": [
+            {
+              "title": "The International Source Problem",
+              "body_md": "A human-rights declaration can express a powerful universal standard while not itself creating a domestic cause of action everywhere. Treaties may bind ratifying states, but domestic enforcement can depend on incorporation, jurisdiction, reservations and available remedies. A legal researcher must identify each instrument's status, the relevant state's commitments, and the institution able to hear a claim. Conflating moral authority with a specific court's legal power can mislead those facing serious threats to liberty or safety.",
+              "example": null,
+              "audio_script": "A human-rights declaration can express a powerful universal standard while not itself creating a domestic cause of action everywhere. Treaties may bind ratifying states, but domestic enforcement can depend on incorporation, jurisdiction, reservations and available remedies. A legal researcher must identify each instrument's status, the relevant state's commitments, and the institution able to hear a claim. Conflating moral authority with a specific court's legal power can mislead those facing serious threats to liberty or safety.",
+              "video": null
+            },
+            {
+              "title": "Investigate Institutional Obstacles",
+              "body_md": "A person may formally hold a right but lack legal aid, translation, safe access to proceedings or a realistic route to enforce a judgment. Research should include procedure and institutions alongside substantive norms. Reports by rights bodies can supply context or evidence, but their legal effect varies. The advanced lawyer distinguishes an adjudicative finding, authoritative interpretation, scholarly opinion and advocacy report. That classification protects both the claimant and the integrity of the legal argument.",
+              "example": null,
+              "audio_script": "A person may formally hold a right but lack legal aid, translation, safe access to proceedings or a realistic route to enforce a judgment. Research should include procedure and institutions alongside substantive norms. Reports by rights bodies can supply context or evidence, but their legal effect varies. The advanced lawyer distinguishes an adjudicative finding, authoritative interpretation, scholarly opinion and advocacy report. That classification protects both the claimant and the integrity of the legal argument.",
+              "video": null
+            },
+            {
+              "title": "Write Rights Advice With Precision",
+              "body_md": "A doctoral memorandum should state exactly which legal instruments apply, why, and what remains disputed. It should record primary sources in authoritative languages, the status of any domestic implementing law, and available review or urgent protections. Where the law fails vulnerable people, identify reform arguments separately from existing remedies. The final measure of research quality is whether it helps a person make an informed choice about protecting their dignity and freedom, not how many instruments the bibliography contains.",
+              "example": null,
+              "audio_script": "A doctoral memorandum should state exactly which legal instruments apply, why, and what remains disputed. It should record primary sources in authoritative languages, the status of any domestic implementing law, and available review or urgent protections. Where the law fails vulnerable people, identify reform arguments separately from existing remedies. The final measure of research quality is whether it helps a person make an informed choice about protecting their dignity and freedom, not how many instruments the bibliography contains.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Domestic incorporation means legal process giving treaty commitments internal effect.",
+              "answer": true,
+              "explanation_if_true": "Domestic incorporation means legal process giving treaty commitments internal effect.",
+              "explanation_if_false": "Domestic incorporation means legal process giving treaty commitments internal effect."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "Every human-rights declaration automatically provides an identical domestic damages action worldwide.",
+              "answer": false,
+              "explanation_if_true": "Domestic enforceability depends on particular laws, commitments, and institutions.",
+              "explanation_if_false": "Domestic enforceability depends on particular laws, commitments, and institutions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Treaty reservation?",
+              "choices": [
+                "Practical legal response that vindicates a right",
+                "Binding status of a norm in a given legal order",
+                "Qualified acceptance of a treaty obligation where permitted",
+                "Legal process giving treaty commitments internal effect"
+              ],
+              "answer_index": 2,
+              "explanation": "Treaty reservation means qualified acceptance of a treaty obligation where permitted."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A client cites an international declaration against a public agency. What is the first legal-force check?",
+              "choices": [
+                "The age of the client alone",
+                "Binding instruments, domestic incorporation and review route",
+                "The declaration's print size",
+                "Whether it is quoted in a speech"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights research must identify an enforceable legal basis and accessible forum."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means practical legal response that vindicates a right?",
+              "choices": [
+                "Domestic incorporation",
+                "Effective remedy",
+                "Treaty reservation",
+                "Legal force"
+              ],
+              "answer_index": 1,
+              "explanation": "Effective remedy means practical legal response that vindicates a right."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Treaty reservation",
+                  "Qualified acceptance of a treaty obligation where permitted"
+                ],
+                [
+                  "Domestic incorporation",
+                  "Legal process giving treaty commitments internal effect"
+                ],
+                [
+                  "Effective remedy",
+                  "Practical legal response that vindicates a right"
+                ],
+                [
+                  "Legal force",
+                  "Binding status of a norm in a given legal order"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "Qualified acceptance of a treaty obligation where permitted is called ___.",
+              "answer": "Treaty reservation",
+              "accept": [
+                "Treaty reservation"
+              ],
+              "explanation": "The term is Treaty reservation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "Binding status of a norm in a given legal order is called ___.",
+              "answer": "Legal force",
+              "accept": [
+                "Legal force"
+              ],
+              "explanation": "The term is Legal force."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Distinguish a legal source from a sound argument",
+          "summary": "An argument can be logically well formed but based on a false premise, and a true premise can be used badly. Learn to ask whether reasoning follows and whether its sources are actually authoritative.",
+          "checklist": [
+            "I can identify premise and conclusion",
+            "I can recognize when a conclusion follows from stated assumptions",
+            "I can check whether a legal premise is supported by a source"
+          ],
+          "sections": [
+            {
+              "title": "An Argument Has Parts",
+              "body_md": "A lawyer says: 'Every validly licensed driver may use this road. Ada has a valid license. Therefore Ada may use this road.' The first two sentences are premises; the last is the conclusion. If the premises are true and no exception applies, the reasoning has a clear structure. Legal analysis begins by identifying those parts rather than being impressed by confidence or eloquence. A clear argument makes it possible to test where a conclusion might fail.",
+              "example": null,
+              "audio_script": "A lawyer says: 'Every validly licensed driver may use this road. Ada has a valid license. Therefore Ada may use this road.' The first two sentences are premises; the last is the conclusion. If the premises are true and no exception applies, the reasoning has a clear structure. Legal analysis begins by identifying those parts rather than being impressed by confidence or eloquence. A clear argument makes it possible to test where a conclusion might fail.",
+              "video": null
+            },
+            {
+              "title": "Valid Reasoning and True Premises",
+              "body_md": "A deductive argument is valid when its conclusion must be true if the premises are true. An argument is sound when it is valid and its premises are actually true. A fabricated statute can supply the premise of a perfectly valid argument without making the legal advice correct. Lawyers must therefore check logic and authority separately. This distinction prevents a polished chain of reasoning from disguising an unsupported legal claim.",
+              "example": null,
+              "audio_script": "A deductive argument is valid when its conclusion must be true if the premises are true. An argument is sound when it is valid and its premises are actually true. A fabricated statute can supply the premise of a perfectly valid argument without making the legal advice correct. Lawyers must therefore check logic and authority separately. This distinction prevents a polished chain of reasoning from disguising an unsupported legal claim.",
+              "video": null
+            },
+            {
+              "title": "The Law Supplies Conditions",
+              "body_md": "Real legal rules often contain definitions, exceptions and limits that simplified syllogisms omit. The premise 'every licensed driver may use this road' might be false during an emergency closure. Before applying logic, locate the actual rule and relevant facts. Then reconstruct the argument with its qualifications. Legal reasoning is not simply formal mathematics; it uses accurate sources and facts to decide which premises deserve acceptance. A good lawyer never lets an elegant form replace a necessary source check.",
+              "example": null,
+              "audio_script": "Real legal rules often contain definitions, exceptions and limits that simplified syllogisms omit. The premise 'every licensed driver may use this road' might be false during an emergency closure. Before applying logic, locate the actual rule and relevant facts. Then reconstruct the argument with its qualifications. Legal reasoning is not simply formal mathematics; it uses accurate sources and facts to decide which premises deserve acceptance. A good lawyer never lets an elegant form replace a necessary source check.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Conclusion means claim inferred from given premises.",
+              "answer": true,
+              "explanation_if_true": "Conclusion means claim inferred from given premises.",
+              "explanation_if_false": "Conclusion means claim inferred from given premises."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "An argument is sound whenever it has a persuasive conclusion, even with false premises.",
+              "answer": false,
+              "explanation_if_true": "Soundness requires valid reasoning and true premises.",
+              "explanation_if_false": "Soundness requires valid reasoning and true premises."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Premise?",
+              "choices": [
+                "Validity together with true premises",
+                "Proposition used to support a conclusion",
+                "Claim inferred from given premises",
+                "Property whereby true premises require a true conclusion"
+              ],
+              "answer_index": 1,
+              "explanation": "Premise means proposition used to support a conclusion."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An argument follows validly from a statute quotation, but the statute does not exist. What is missing?",
+              "choices": [
+                "A true authoritative premise",
+                "A clearer conclusion",
+                "A longer syllogism",
+                "A more confident speaker"
+              ],
+              "answer_index": 0,
+              "explanation": "Valid structure cannot rescue a false or fabricated source."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means property whereby true premises require a true conclusion?",
+              "choices": [
+                "Deductive validity",
+                "Premise",
+                "Soundness",
+                "Conclusion"
+              ],
+              "answer_index": 0,
+              "explanation": "Deductive validity means property whereby true premises require a true conclusion."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Premise",
+                  "Proposition used to support a conclusion"
+                ],
+                [
+                  "Conclusion",
+                  "Claim inferred from given premises"
+                ],
+                [
+                  "Deductive validity",
+                  "Property whereby true premises require a true conclusion"
+                ],
+                [
+                  "Soundness",
+                  "Validity together with true premises"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Proposition used to support a conclusion is called ___.",
+              "answer": "Premise",
+              "accept": [
+                "Premise"
+              ],
+              "explanation": "The term is Premise."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Validity together with true premises is called ___.",
+              "answer": "Soundness",
+              "accept": [
+                "Soundness"
+              ],
+              "explanation": "The term is Soundness."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze legal syllogisms and conditional reasoning",
+          "summary": "Learn how to express a rule as conditions and apply it accurately. Distinguish affirming a consequence from proving the condition that produced it.",
+          "checklist": [
+            "I can construct a simple legal syllogism",
+            "I can recognize affirming the consequent",
+            "I can identify a missing statutory condition"
+          ],
+          "sections": [
+            {
+              "title": "The Legal Syllogism",
+              "body_md": "Suppose an ordinance states that anyone operating a business in a specified zone must obtain a permit. A person operates a business in that zone. It follows that the ordinance requires a permit, assuming the rule is in force and no exception applies. This is a legal syllogism: a general rule, a factual premise and a conclusion. Its quality depends on accurately stating both premises and respecting qualifications. The logic helps organize the law, not discover the law's content.",
+              "example": null,
+              "audio_script": "Suppose an ordinance states that anyone operating a business in a specified zone must obtain a permit. A person operates a business in that zone. It follows that the ordinance requires a permit, assuming the rule is in force and no exception applies. This is a legal syllogism: a general rule, a factual premise and a conclusion. Its quality depends on accurately stating both premises and respecting qualifications. The logic helps organize the law, not discover the law's content.",
+              "video": null
+            },
+            {
+              "title": "The Fallacy of Affirming the Consequent",
+              "body_md": "If an unlicensed shop violates a permit rule, that does not mean every shop accused of violating the rule is unlicensed. The form 'If P, then Q; Q; therefore P' is invalid. Q could arise for other reasons. Legal arguments sometimes commit this error when they infer wrongdoing solely from a bad outcome. A patient may suffer injury after treatment without proving malpractice. The existence of a consequence does not establish the particular conduct alleged to have caused it.",
+              "example": null,
+              "audio_script": "If an unlicensed shop violates a permit rule, that does not mean every shop accused of violating the rule is unlicensed. The form 'If P, then Q; Q; therefore P' is invalid. Q could arise for other reasons. Legal arguments sometimes commit this error when they infer wrongdoing solely from a bad outcome. A patient may suffer injury after treatment without proving malpractice. The existence of a consequence does not establish the particular conduct alleged to have caused it.",
+              "video": null
+            },
+            {
+              "title": "Find the Conditions Not Mentioned",
+              "body_md": "A statute may require a permit only for businesses operating more than a specified number of days or may exempt certain activities. A simplified syllogism that omits these conditions may reach the wrong result. Before reasoning, make an element chart and mark exceptions. Then ask which facts satisfy each condition. A valid inference with an incomplete legal premise can still be unsound. Precise argument requires fidelity to the actual rule's structure.",
+              "example": null,
+              "audio_script": "A statute may require a permit only for businesses operating more than a specified number of days or may exempt certain activities. A simplified syllogism that omits these conditions may reach the wrong result. Before reasoning, make an element chart and mark exceptions. Then ask which facts satisfy each condition. A valid inference with an incomplete legal premise can still be unsound. Precise argument requires fidelity to the actual rule's structure.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Affirming the consequent means invalid inference from a consequence to one possible cause.",
+              "answer": true,
+              "explanation_if_true": "Affirming the consequent means invalid inference from a consequence to one possible cause.",
+              "explanation_if_false": "Affirming the consequent means invalid inference from a consequence to one possible cause."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "From 'if a permit is missing, the shop violates the rule' and 'the shop violates the rule,' it follows that no permit exists.",
+              "answer": false,
+              "explanation_if_true": "That affirms the consequent and ignores other possible reasons for violation.",
+              "explanation_if_false": "That affirms the consequent and ignores other possible reasons for violation."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Legal syllogism?",
+              "choices": [
+                "Application of a general legal rule to relevant facts",
+                "Invalid inference from a consequence to one possible cause",
+                "Statement connecting a specified condition with a consequence",
+                "Requirement without which a result cannot follow under a rule"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal syllogism means application of a general legal rule to relevant facts."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute says a fine applies if a vehicle exceeds the speed limit. A fine was issued. What cannot be inferred solely from that fact?",
+              "choices": [
+                "That a fine was issued",
+                "That there is an enforcement process",
+                "That a statute exists",
+                "That speeding necessarily occurred"
+              ],
+              "answer_index": 3,
+              "explanation": "The fine might concern another offense or an erroneous decision."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means statement connecting a specified condition with a consequence?",
+              "choices": [
+                "Legal syllogism",
+                "Necessary condition",
+                "Affirming the consequent",
+                "Conditional rule"
+              ],
+              "answer_index": 3,
+              "explanation": "Conditional rule means statement connecting a specified condition with a consequence."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Legal syllogism",
+                  "Application of a general legal rule to relevant facts"
+                ],
+                [
+                  "Affirming the consequent",
+                  "Invalid inference from a consequence to one possible cause"
+                ],
+                [
+                  "Conditional rule",
+                  "Statement connecting a specified condition with a consequence"
+                ],
+                [
+                  "Necessary condition",
+                  "Requirement without which a result cannot follow under a rule"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Application of a general legal rule to relevant facts is called ___.",
+              "answer": "Legal syllogism",
+              "accept": [
+                "Legal syllogism"
+              ],
+              "explanation": "The term is Legal syllogism."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Requirement without which a result cannot follow under a rule is called ___.",
+              "answer": "Necessary condition",
+              "accept": [
+                "Necessary condition"
+              ],
+              "explanation": "The term is Necessary condition."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Distinguish deductive, inductive and abductive legal reasoning",
+          "summary": "Legal work often draws conclusions from incomplete evidence rather than strict deduction. Learn how inductive generalization and inference to the best explanation differ from a logically necessary conclusion.",
+          "checklist": [
+            "I can compare deduction, induction and abduction",
+            "I can evaluate evidence strength without exaggeration",
+            "I can identify plausible rival explanations"
+          ],
+          "sections": [
+            {
+              "title": "Deduction Gives Conditional Necessity",
+              "body_md": "A properly formed deduction tells us that if the premises are true, the conclusion cannot be false. But most disputed legal facts are not established that way. A witness may support an event without proving it with logical certainty. A criminal standard such as beyond reasonable doubt is a legal standard of proof, not a formal theorem that removes all conceivable uncertainty. A lawyer should identify when logic provides necessity and when evidence supports a degree of confidence.",
+              "example": null,
+              "audio_script": "A properly formed deduction tells us that if the premises are true, the conclusion cannot be false. But most disputed legal facts are not established that way. A witness may support an event without proving it with logical certainty. A criminal standard such as beyond reasonable doubt is a legal standard of proof, not a formal theorem that removes all conceivable uncertainty. A lawyer should identify when logic provides necessity and when evidence supports a degree of confidence.",
+              "video": null
+            },
+            {
+              "title": "Induction Learns From Observations",
+              "body_md": "An analyst reviews many comparable cases and notices that courts usually treat a particular factor as significant. This may inform prediction but does not establish a binding universal rule. The sample may exclude unpublished decisions or differ from the client's jurisdiction. Inductive reasoning generalizes from observed instances; it is sensitive to representativeness and counterexamples. A reliable argument reports how cases were selected and distinguishes legal authority from empirical prediction.",
+              "example": null,
+              "audio_script": "An analyst reviews many comparable cases and notices that courts usually treat a particular factor as significant. This may inform prediction but does not establish a binding universal rule. The sample may exclude unpublished decisions or differ from the client's jurisdiction. Inductive reasoning generalizes from observed instances; it is sensitive to representativeness and counterexamples. A reliable argument reports how cases were selected and distinguishes legal authority from empirical prediction.",
+              "video": null
+            },
+            {
+              "title": "Abduction Seeks the Best Explanation",
+              "body_md": "A window is broken, security footage shows a person nearby, and glass fragments are found on their clothing. The investigator may infer that this person broke the window, but other explanations are possible. Abduction chooses a proposed explanation that best fits the evidence. Legal reasoning must test alternatives, credibility and the required standard of proof. Presenting an abductive inference as a deductive certainty hides the uncertainty that fair adjudication must assess.",
+              "example": null,
+              "audio_script": "A window is broken, security footage shows a person nearby, and glass fragments are found on their clothing. The investigator may infer that this person broke the window, but other explanations are possible. Abduction chooses a proposed explanation that best fits the evidence. Legal reasoning must test alternatives, credibility and the required standard of proof. Presenting an abductive inference as a deductive certainty hides the uncertainty that fair adjudication must assess.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Induction means generalization from observed cases.",
+              "answer": true,
+              "explanation_if_true": "Induction means generalization from observed cases.",
+              "explanation_if_false": "Induction means generalization from observed cases."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "A pattern observed in twenty cases necessarily binds every court in every later case.",
+              "answer": false,
+              "explanation_if_true": "Induction describes a pattern but does not automatically create binding legal authority.",
+              "explanation_if_false": "Induction describes a pattern but does not automatically create binding legal authority."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Deduction?",
+              "choices": [
+                "Generalization from observed cases",
+                "Inference to a best-supported explanation",
+                "Case showing a broad generalization is not always true",
+                "Inference whose valid conclusion follows necessarily from premises"
+              ],
+              "answer_index": 3,
+              "explanation": "Deduction means inference whose valid conclusion follows necessarily from premises."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Several clues suggest one suspect but other explanations remain plausible. Which form of reasoning is involved?",
+              "choices": [
+                "A statutory amendment",
+                "A judicial writ",
+                "Abduction",
+                "A mathematically necessary deduction"
+              ],
+              "answer_index": 2,
+              "explanation": "Inference to the best explanation weighs competing accounts rather than proving necessity."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means inference to a best-supported explanation?",
+              "choices": [
+                "Counterexample",
+                "Induction",
+                "Abduction",
+                "Deduction"
+              ],
+              "answer_index": 2,
+              "explanation": "Abduction means inference to a best-supported explanation."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Deduction",
+                  "Inference whose valid conclusion follows necessarily from premises"
+                ],
+                [
+                  "Induction",
+                  "Generalization from observed cases"
+                ],
+                [
+                  "Abduction",
+                  "Inference to a best-supported explanation"
+                ],
+                [
+                  "Counterexample",
+                  "Case showing a broad generalization is not always true"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "Inference whose valid conclusion follows necessarily from premises is called ___.",
+              "answer": "Deduction",
+              "accept": [
+                "Deduction"
+              ],
+              "explanation": "The term is Deduction."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Case showing a broad generalization is not always true is called ___.",
+              "answer": "Counterexample",
+              "accept": [
+                "Counterexample"
+              ],
+              "explanation": "The term is Counterexample."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique formalization and defeasible legal reasoning",
+          "summary": "At doctoral depth, explain why legal rules often operate with exceptions and priorities that pure deductive logic does not capture. Defend rigor without concealing contested premises or institutional choice.",
+          "checklist": [
+            "I can explain defeasible inference in law",
+            "I can evaluate rule conflicts and priority structures",
+            "I can distinguish formal validity from warranted legal conclusion"
+          ],
+          "sections": [
+            {
+              "title": "Legal Rules Are Often Defeasible",
+              "body_md": "A general legal rule may state that an act is prohibited, yet another rule creates a justified exception. The ordinary conclusion can be defeated by new information about necessity, consent or an authorized exemption. Defeasible reasoning models conclusions that hold unless specified countervailing facts appear. It differs from an inconsistency in the actual law. A rigorous theory should identify the rule, exception and legal priority rather than simply treating every qualification as a reason logic is useless.",
+              "example": null,
+              "audio_script": "A general legal rule may state that an act is prohibited, yet another rule creates a justified exception. The ordinary conclusion can be defeated by new information about necessity, consent or an authorized exemption. Defeasible reasoning models conclusions that hold unless specified countervailing facts appear. It differs from an inconsistency in the actual law. A rigorous theory should identify the rule, exception and legal priority rather than simply treating every qualification as a reason logic is useless.",
+              "video": null
+            },
+            {
+              "title": "Formal Systems Have Inputs",
+              "body_md": "Automated rule engines can encode statutory conditions and produce consistent results when their inputs and rules are accurate. Yet a model may misclassify a person, omit a valid exception or use outdated law. Logical correctness inside a formal system does not establish the legitimacy of the encoded legal premises. A doctoral critique examines rule provenance, interpretive uncertainty, procedural challenge and methods for correcting errors. A perfectly executed bad rule can still cause serious injustice.",
+              "example": null,
+              "audio_script": "Automated rule engines can encode statutory conditions and produce consistent results when their inputs and rules are accurate. Yet a model may misclassify a person, omit a valid exception or use outdated law. Logical correctness inside a formal system does not establish the legitimacy of the encoded legal premises. A doctoral critique examines rule provenance, interpretive uncertainty, procedural challenge and methods for correcting errors. A perfectly executed bad rule can still cause serious injustice.",
+              "video": null
+            },
+            {
+              "title": "The Normative Choice Remains Visible",
+              "body_md": "When two legal principles conflict, courts may need a recognized priority rule, balancing method or interpretive judgment. Formal logic can clarify the structure but cannot supply every moral or institutional premise. A strong legal argument states which conclusions follow from accepted rules and which depend on contested interpretation. This transparency respects both intellectual rigor and the rule of law. It also protects clients from false certainty generated by sophisticated notation.",
+              "example": null,
+              "audio_script": "When two legal principles conflict, courts may need a recognized priority rule, balancing method or interpretive judgment. Formal logic can clarify the structure but cannot supply every moral or institutional premise. A strong legal argument states which conclusions follow from accepted rules and which depend on contested interpretation. This transparency respects both intellectual rigor and the rule of law. It also protects clients from false certainty generated by sophisticated notation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Rule priority means legal order among potentially conflicting rules.",
+              "answer": true,
+              "explanation_if_true": "Rule priority means legal order among potentially conflicting rules.",
+              "explanation_if_false": "Rule priority means legal order among potentially conflicting rules."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "A logically valid rule engine necessarily produces legally correct outcomes even if its statutes are outdated.",
+              "answer": false,
+              "explanation_if_true": "Validity of inference cannot compensate for erroneous or incomplete premises.",
+              "explanation_if_false": "Validity of inference cannot compensate for erroneous or incomplete premises."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Defeasible reasoning?",
+              "choices": [
+                "Encoding propositions in an explicit logical system",
+                "Assumption about the legal meaning of a source",
+                "Inference open to defeat by specified exceptions",
+                "Legal order among potentially conflicting rules"
+              ],
+              "answer_index": 2,
+              "explanation": "Defeasible reasoning means inference open to defeat by specified exceptions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An automated system applies a general rule but ignores a lawful exception. What failed?",
+              "choices": [
+                "The number of database fields",
+                "The completeness and priority of its legal premises",
+                "The speed of deduction",
+                "The use of symbols"
+              ],
+              "answer_index": 1,
+              "explanation": "Formal logic needs accurate rules and exceptions to support legal results."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means encoding propositions in an explicit logical system?",
+              "choices": [
+                "Rule priority",
+                "Formalization",
+                "Defeasible reasoning",
+                "Interpretive premise"
+              ],
+              "answer_index": 1,
+              "explanation": "Formalization means encoding propositions in an explicit logical system."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Defeasible reasoning",
+                  "Inference open to defeat by specified exceptions"
+                ],
+                [
+                  "Rule priority",
+                  "Legal order among potentially conflicting rules"
+                ],
+                [
+                  "Formalization",
+                  "Encoding propositions in an explicit logical system"
+                ],
+                [
+                  "Interpretive premise",
+                  "Assumption about the legal meaning of a source"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Inference open to defeat by specified exceptions is called ___.",
+              "answer": "Defeasible reasoning",
+              "accept": [
+                "Defeasible reasoning"
+              ],
+              "explanation": "The term is Defeasible reasoning."
+            },
+            {
+              "id": "PSU-1.8.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Assumption about the legal meaning of a source is called ___.",
+              "answer": "Interpretive premise",
+              "accept": [
+                "Interpretive premise"
+              ],
+              "explanation": "The term is Interpretive premise."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

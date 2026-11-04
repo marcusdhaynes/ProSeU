@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Recognize how systems define a legally protected harm",
+          "summary": "A loss can be real without giving the same legal claim in every jurisdiction. Learn to identify the protected interest, rule, and claimant before comparing responses to harm.",
+          "checklist": [
+            "I can separate factual loss from actionable injury",
+            "I can identify tort, delict and public-law routes at a high level",
+            "I can avoid assuming common categories have identical legal elements"
+          ],
+          "sections": [
+            {
+              "title": "Harm and Legal Recognition",
+              "body_md": "A passerby falls on unsafe stairs. The pain and medical costs are factual losses, but legal liability requires a rule protecting an interest and connecting someone's conduct to the injury. Common-law systems often analyze such claims as torts, while civil-law jurisdictions commonly use extra-contractual responsibility or delict. Their tests and procedures differ. The name of the claim is less important than identifying the applicable duty, breach or other basis of liability, causation, possible defenses, and the remedy available.",
+              "example": null,
+              "audio_script": "A passerby falls on unsafe stairs. The pain and medical costs are factual losses, but legal liability requires a rule protecting an interest and connecting someone's conduct to the injury. Common-law systems often analyze such claims as torts, while civil-law jurisdictions commonly use extra-contractual responsibility or delict. Their tests and procedures differ. The name of the claim is less important than identifying the applicable duty, breach or other basis of liability, causation, possible defenses, and the remedy available.",
+              "video": null
+            },
+            {
+              "title": "Different Interests, Different Routes",
+              "body_md": "A factory's pollution can raise private-law questions about compensation, public-law questions about regulatory compliance, and constitutional questions about protected interests. The routes may overlap without being identical. The fact that an environmental authority may impose a fine does not prove each neighbor has a personal damages claim. A comparative lawyer first lists the interests harmed, identifies persons entitled to complain, and then determines which forum and source regulate the conduct.",
+              "example": null,
+              "audio_script": "A factory's pollution can raise private-law questions about compensation, public-law questions about regulatory compliance, and constitutional questions about protected interests. The routes may overlap without being identical. The fact that an environmental authority may impose a fine does not prove each neighbor has a personal damages claim. A comparative lawyer first lists the interests harmed, identifies persons entitled to complain, and then determines which forum and source regulate the conduct.",
+              "video": null
+            },
+            {
+              "title": "Avoid a False Universal Definition",
+              "body_md": "Legal systems may classify emotional distress, economic loss, reputational injury, and collective harm differently. Even a term such as negligence can conceal varying conditions for responsibility. A thoughtful student asks whose harm the source recognizes and what evidence is needed to make it actionable. This avoids two failures: promising a remedy where no legal cause exists, and assuming a serious wrong is unprotected simply because one's own legal vocabulary lacks the exact category.",
+              "example": null,
+              "audio_script": "Legal systems may classify emotional distress, economic loss, reputational injury, and collective harm differently. Even a term such as negligence can conceal varying conditions for responsibility. A thoughtful student asks whose harm the source recognizes and what evidence is needed to make it actionable. This avoids two failures: promising a remedy where no legal cause exists, and assuming a serious wrong is unprotected simply because one's own legal vocabulary lacks the exact category.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Actionable wrong means conduct meeting an applicable legal cause of action.",
+              "answer": true,
+              "explanation_if_true": "Actionable wrong means conduct meeting an applicable legal cause of action.",
+              "explanation_if_false": "Actionable wrong means conduct meeting an applicable legal cause of action."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "Every factual loss creates the same civil damages action in every country.",
+              "answer": false,
+              "explanation_if_true": "The legal recognition of harm and applicable causes of action differ across systems.",
+              "explanation_if_false": "The legal recognition of harm and applicable causes of action differ across systems."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Factual harm?",
+              "choices": [
+                "Interest a rule identifies as legally worthy of protection",
+                "Loss or injury that occurs in reality",
+                "Conduct meeting an applicable legal cause of action",
+                "Recognized category of non-contractual wrong in some systems"
+              ],
+              "answer_index": 1,
+              "explanation": "Factual harm means loss or injury that occurs in reality."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency fines a polluter, but a neighbor asks for compensation. What must still be established?",
+              "choices": [
+                "A private legal basis for redress",
+                "That every fine belongs to the neighbor",
+                "That harm is impossible",
+                "That the factory signed an unrelated contract"
+              ],
+              "answer_index": 0,
+              "explanation": "Regulatory enforcement does not automatically create an individual's damages claim."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means recognized category of non-contractual wrong in some systems?",
+              "choices": [
+                "Delict",
+                "Factual harm",
+                "Protected interest",
+                "Actionable wrong"
+              ],
+              "answer_index": 0,
+              "explanation": "Delict means recognized category of non-contractual wrong in some systems."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Factual harm",
+                  "Loss or injury that occurs in reality"
+                ],
+                [
+                  "Actionable wrong",
+                  "Conduct meeting an applicable legal cause of action"
+                ],
+                [
+                  "Delict",
+                  "Recognized category of non-contractual wrong in some systems"
+                ],
+                [
+                  "Protected interest",
+                  "Interest a rule identifies as legally worthy of protection"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "Loss or injury that occurs in reality is called ___.",
+              "answer": "Factual harm",
+              "accept": [
+                "Factual harm"
+              ],
+              "explanation": "The term is Factual harm."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "Interest a rule identifies as legally worthy of protection is called ___.",
+              "answer": "Protected interest",
+              "accept": [
+                "Protected interest"
+              ],
+              "explanation": "The term is Protected interest."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare tort and delict structures without forcing equivalence",
+          "summary": "Build from the idea of actionable harm to comparative liability requirements. Learn to examine protected interests, fault, causation, and defenses in the governing legal order.",
+          "checklist": [
+            "I can distinguish fault requirements from strict rules",
+            "I can compare rule structure rather than legal-family labels",
+            "I can explain why pure economic loss can be treated differently"
+          ],
+          "sections": [
+            {
+              "title": "A Similar Story, Different Elements",
+              "body_md": "A careless accountant prepares a report that an investor relies on, causing financial loss. Some legal systems permit recovery only if special duty or relational requirements are met; others frame the question through broad code provisions and judicial limits. A comparison must locate the claimant, defendant, representation, reliance, and type of loss. It cannot assume that a broad damages clause makes every financial disappointment compensable or that a restrictive common-law rule is universal.",
+              "example": null,
+              "audio_script": "A careless accountant prepares a report that an investor relies on, causing financial loss. Some legal systems permit recovery only if special duty or relational requirements are met; others frame the question through broad code provisions and judicial limits. A comparison must locate the claimant, defendant, representation, reliance, and type of loss. It cannot assume that a broad damages clause makes every financial disappointment compensable or that a restrictive common-law rule is universal.",
+              "video": null
+            },
+            {
+              "title": "Fault and Risk Are Separate Choices",
+              "body_md": "A legal system may ordinarily require a fault element for harm caused by a person's conduct, yet impose stricter responsibility for specified dangerous activities or defective products. Other elements still matter, including causal connection, recognized damage, and defenses. The comparative learner should not call one country fault based and another strict without checking the particular cause of action. More accurate questions ask which risks the relevant rule allocates, to whom, and why.",
+              "example": null,
+              "audio_script": "A legal system may ordinarily require a fault element for harm caused by a person's conduct, yet impose stricter responsibility for specified dangerous activities or defective products. Other elements still matter, including causal connection, recognized damage, and defenses. The comparative learner should not call one country fault based and another strict without checking the particular cause of action. More accurate questions ask which risks the relevant rule allocates, to whom, and why.",
+              "video": null
+            },
+            {
+              "title": "Public Regulation and Civil Redress",
+              "body_md": "Regulation may prevent harm through permits, inspections and penalties, while private law offers different remedies to injured persons. Some systems let a statutory breach inform or establish parts of a civil claim; others demand a separate source. The distinction matters for advice to a family whose health has been damaged. Identifying a public violation can be important evidence, but the client must still know what legal route exists to obtain compensation, protection, or review.",
+              "example": null,
+              "audio_script": "Regulation may prevent harm through permits, inspections and penalties, while private law offers different remedies to injured persons. Some systems let a statutory breach inform or establish parts of a civil claim; others demand a separate source. The distinction matters for advice to a family whose health has been damaged. Identifying a public violation can be important evidence, but the client must still know what legal route exists to obtain compensation, protection, or review.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Strict liability means responsibility without proving a fault element where a rule permits.",
+              "answer": true,
+              "explanation_if_true": "Strict liability means responsibility without proving a fault element where a rule permits.",
+              "explanation_if_false": "Strict liability means responsibility without proving a fault element where a rule permits."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "Strict liability means the claimant never has to prove any damage or causal connection.",
+              "answer": false,
+              "explanation_if_true": "It generally removes a fault element while leaving other requirements under the relevant rule.",
+              "explanation_if_false": "It generally removes a fault element while leaving other requirements under the relevant rule."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Fault liability?",
+              "choices": [
+                "Responsibility requiring an applicable fault condition",
+                "Responsibility without proving a fault element where a rule permits",
+                "Financial injury without associated physical or property damage",
+                "Noncompliance with a public rule"
+              ],
+              "answer_index": 0,
+              "explanation": "Fault liability means responsibility requiring an applicable fault condition."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An investor loses money after trusting an inaccurate report. What classification matters particularly?",
+              "choices": [
+                "Territorial boundaries only",
+                "A criminal conviction first",
+                "Property damage to the office",
+                "Pure economic loss and the applicable duty"
+              ],
+              "answer_index": 3,
+              "explanation": "Recovery for financial loss without physical injury has system-specific conditions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means financial injury without associated physical or property damage?",
+              "choices": [
+                "Fault liability",
+                "Regulatory breach",
+                "Strict liability",
+                "Pure economic loss"
+              ],
+              "answer_index": 3,
+              "explanation": "Pure economic loss means financial injury without associated physical or property damage."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Fault liability",
+                  "Responsibility requiring an applicable fault condition"
+                ],
+                [
+                  "Strict liability",
+                  "Responsibility without proving a fault element where a rule permits"
+                ],
+                [
+                  "Pure economic loss",
+                  "Financial injury without associated physical or property damage"
+                ],
+                [
+                  "Regulatory breach",
+                  "Noncompliance with a public rule"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Responsibility requiring an applicable fault condition is called ___.",
+              "answer": "Fault liability",
+              "accept": [
+                "Fault liability"
+              ],
+              "explanation": "The term is Fault liability."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Noncompliance with a public rule is called ___.",
+              "answer": "Regulatory breach",
+              "accept": [
+                "Regulatory breach"
+              ],
+              "explanation": "The term is Regulatory breach."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze collective and transboundary harm",
+          "summary": "Compare legal responses to injuries spread across borders, populations, or generations. Separate identifying serious harm from selecting a forum and assigning individual responsibility.",
+          "checklist": [
+            "I can distinguish aggregate risk from a private claim",
+            "I can identify barriers to cross-border redress",
+            "I can compare collective and individual remedial mechanisms"
+          ],
+          "sections": [
+            {
+              "title": "A River Crosses the Border",
+              "body_md": "Pollution released upstream can injure downstream farms in another country. Public international obligations, national environmental statutes, private claims and administrative remedies may all be relevant, but none is automatic. Jurisdiction, applicable law, evidence and enforcement form separate questions. A lawyer may be able to establish harmful activity yet struggle to obtain an enforceable judgment against a foreign actor. Comparative legal analysis must keep these questions distinct and explain each institution's role.",
+              "example": null,
+              "audio_script": "Pollution released upstream can injure downstream farms in another country. Public international obligations, national environmental statutes, private claims and administrative remedies may all be relevant, but none is automatic. Jurisdiction, applicable law, evidence and enforcement form separate questions. A lawyer may be able to establish harmful activity yet struggle to obtain an enforceable judgment against a foreign actor. Comparative legal analysis must keep these questions distinct and explain each institution's role.",
+              "video": null
+            },
+            {
+              "title": "Many Victims, Unequal Evidence",
+              "body_md": "An industrial exposure may increase illness rates across a population while leaving the cause of a particular person's disease uncertain. Aggregate evidence may support regulation or an epidemiological finding without deciding every individual's damages claim. Jurisdictions may use collective litigation, evidentiary presumptions, public compensation, or specialized tribunals. Each method allocates uncertainty and cost differently. A rigorous comparison asks how the system protects victims without imposing responsibility on defendants beyond the evidentiary and substantive rules that apply.",
+              "example": null,
+              "audio_script": "An industrial exposure may increase illness rates across a population while leaving the cause of a particular person's disease uncertain. Aggregate evidence may support regulation or an epidemiological finding without deciding every individual's damages claim. Jurisdictions may use collective litigation, evidentiary presumptions, public compensation, or specialized tribunals. Each method allocates uncertainty and cost differently. A rigorous comparison asks how the system protects victims without imposing responsibility on defendants beyond the evidentiary and substantive rules that apply.",
+              "video": null
+            },
+            {
+              "title": "Legal Tools Follow Their Purpose",
+              "body_md": "An injunction can prevent future emissions, a damages award may repair proven injury, and a public fine may deter regulatory breaches. These remedies are not interchangeable merely because they concern the same harmful activity. A state may also negotiate or litigate across borders under public international law. An advanced lawyer should choose the tool according to the injured interest, the institution's jurisdiction, and the practical ability to enforce the result. That method prevents a compelling moral narrative from replacing a usable legal strategy.",
+              "example": null,
+              "audio_script": "An injunction can prevent future emissions, a damages award may repair proven injury, and a public fine may deter regulatory breaches. These remedies are not interchangeable merely because they concern the same harmful activity. A state may also negotiate or litigate across borders under public international law. An advanced lawyer should choose the tool according to the injured interest, the institution's jurisdiction, and the practical ability to enforce the result. That method prevents a compelling moral narrative from replacing a usable legal strategy.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Collective redress means procedure addressing claims shared by multiple persons.",
+              "answer": true,
+              "explanation_if_true": "Collective redress means procedure addressing claims shared by multiple persons.",
+              "explanation_if_false": "Collective redress means procedure addressing claims shared by multiple persons."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "Proof of population-level risk automatically resolves every individual's private damages claim.",
+              "answer": false,
+              "explanation_if_true": "Collective risk and individual actionable causation are distinct inquiries.",
+              "explanation_if_false": "Collective risk and individual actionable causation are distinct inquiries."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Transboundary harm?",
+              "choices": [
+                "Procedure addressing claims shared by multiple persons",
+                "Study of patterns of disease or risk among populations",
+                "Authority to compel compliance through coercive measures",
+                "Injury or risk crossing legal borders"
+              ],
+              "answer_index": 3,
+              "explanation": "Transboundary harm means injury or risk crossing legal borders."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A chemical release injures residents on both sides of a border. Which issues must be separated?",
+              "choices": [
+                "Whether all residents have identical citizenship",
+                "Whether both countries use the same language",
+                "Forum, applicable law, proof and enforcement",
+                "Only the number of rivers"
+              ],
+              "answer_index": 2,
+              "explanation": "Cross-border harm requires multiple linked but distinct legal inquiries."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means study of patterns of disease or risk among populations?",
+              "choices": [
+                "Enforcement jurisdiction",
+                "Collective redress",
+                "Epidemiological evidence",
+                "Transboundary harm"
+              ],
+              "answer_index": 2,
+              "explanation": "Epidemiological evidence means study of patterns of disease or risk among populations."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Transboundary harm",
+                  "Injury or risk crossing legal borders"
+                ],
+                [
+                  "Collective redress",
+                  "Procedure addressing claims shared by multiple persons"
+                ],
+                [
+                  "Epidemiological evidence",
+                  "Study of patterns of disease or risk among populations"
+                ],
+                [
+                  "Enforcement jurisdiction",
+                  "Authority to compel compliance through coercive measures"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "Injury or risk crossing legal borders is called ___.",
+              "answer": "Transboundary harm",
+              "accept": [
+                "Transboundary harm"
+              ],
+              "explanation": "The term is Transboundary harm."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "Authority to compel compliance through coercive measures is called ___.",
+              "answer": "Enforcement jurisdiction",
+              "accept": [
+                "Enforcement jurisdiction"
+              ],
+              "explanation": "The term is Enforcement jurisdiction."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique who counts as a victim of systemic harm",
+          "summary": "At doctoral depth, examine whether legal doctrines designed around an individual lawsuit adequately recognize structural injuries. Develop reforms that remain evidence-sensitive and respectful of affected communities.",
+          "checklist": [
+            "I can evaluate harms that escape conventional litigation categories",
+            "I can compare prevention and after-the-fact compensation",
+            "I can defend community participation in defining injury"
+          ],
+          "sections": [
+            {
+              "title": "Visibility Depends on the Legal Frame",
+              "body_md": "A community may experience cumulative pollution, economic displacement and disruption of cultural practices. A private-law rule focusing only on documented individual medical bills can overlook parts of that experience. Yet expanding the definition of harm raises hard questions about proof, boundaries and competing rights. Comparative scholarship should describe the actual injury, examine what each legal system recognizes, and identify which proposed additions require reform rather than reinterpretation of existing law.",
+              "example": null,
+              "audio_script": "A community may experience cumulative pollution, economic displacement and disruption of cultural practices. A private-law rule focusing only on documented individual medical bills can overlook parts of that experience. Yet expanding the definition of harm raises hard questions about proof, boundaries and competing rights. Comparative scholarship should describe the actual injury, examine what each legal system recognizes, and identify which proposed additions require reform rather than reinterpretation of existing law.",
+              "video": null
+            },
+            {
+              "title": "Prevention and Repair Diverge",
+              "body_md": "No amount of money can always restore an ecosystem or a community's lost way of life. Preventive environmental regulation, injunctions, compensation funds and restorative processes serve different aims. Each comes with institutional limits and distributive consequences. A jurisdiction with strong statutory environmental protections may still struggle with enforcement; one with effective community forums may lack coercive powers. A defensible legal design measures actual impact rather than the elegance of its procedural label.",
+              "example": null,
+              "audio_script": "No amount of money can always restore an ecosystem or a community's lost way of life. Preventive environmental regulation, injunctions, compensation funds and restorative processes serve different aims. Each comes with institutional limits and distributive consequences. A jurisdiction with strong statutory environmental protections may still struggle with enforcement; one with effective community forums may lack coercive powers. A defensible legal design measures actual impact rather than the elegance of its procedural label.",
+              "video": null
+            },
+            {
+              "title": "A Just Theory of Affected Persons",
+              "body_md": "The question 'who was harmed?' should not be answered exclusively by those holding legal power. Affected people may identify losses that technical experts or judges overlook. Participation must nevertheless be structured to avoid capture by vocal elites and to protect individuals who disagree with community representatives. A doctoral proposal should distinguish empirical harm, normative recognition, legal standing and chosen remedy. The point is to widen understanding without weakening the rule of law or making liability arbitrary.",
+              "example": null,
+              "audio_script": "The question 'who was harmed?' should not be answered exclusively by those holding legal power. Affected people may identify losses that technical experts or judges overlook. Participation must nevertheless be structured to avoid capture by vocal elites and to protect individuals who disagree with community representatives. A doctoral proposal should distinguish empirical harm, normative recognition, legal standing and chosen remedy. The point is to widen understanding without weakening the rule of law or making liability arbitrary.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Cumulative exposure means harm or risk arising from repeated contributing events.",
+              "answer": true,
+              "explanation_if_true": "Cumulative exposure means harm or risk arising from repeated contributing events.",
+              "explanation_if_false": "Cumulative exposure means harm or risk arising from repeated contributing events."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "A legally recognized individual damages claim is the only meaningful way a society can address collective harm.",
+              "answer": false,
+              "explanation_if_true": "Public prevention, collective procedures and other lawful mechanisms may address harms that individual awards miss.",
+              "explanation_if_false": "Public prevention, collective procedures and other lawful mechanisms may address harms that individual awards miss."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Structural injury?",
+              "choices": [
+                "Legal intervention aimed at avoiding future injury",
+                "Meaningful input by people affected by legal decisions",
+                "Harm arising from institutional patterns",
+                "Harm or risk arising from repeated contributing events"
+              ],
+              "answer_index": 2,
+              "explanation": "Structural injury means harm arising from institutional patterns."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A remediation plan ignores displacement and cultural loss despite strong medical data. What concern arises?",
+              "choices": [
+                "That all individual damage claims are automatically invalid",
+                "An incomplete account of affected interests",
+                "A need for more Latin words",
+                "Lack of territorial maps"
+              ],
+              "answer_index": 1,
+              "explanation": "A just design should identify and evaluate the full range of legally and socially relevant losses."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal intervention aimed at avoiding future injury?",
+              "choices": [
+                "Cumulative exposure",
+                "Preventive remedy",
+                "Structural injury",
+                "Community participation"
+              ],
+              "answer_index": 1,
+              "explanation": "Preventive remedy means legal intervention aimed at avoiding future injury."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Structural injury",
+                  "Harm arising from institutional patterns"
+                ],
+                [
+                  "Cumulative exposure",
+                  "Harm or risk arising from repeated contributing events"
+                ],
+                [
+                  "Preventive remedy",
+                  "Legal intervention aimed at avoiding future injury"
+                ],
+                [
+                  "Community participation",
+                  "Meaningful input by people affected by legal decisions"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "Harm arising from institutional patterns is called ___.",
+              "answer": "Structural injury",
+              "accept": [
+                "Structural injury"
+              ],
+              "explanation": "The term is Structural injury."
+            },
+            {
+              "id": "PSU-1.3.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "Meaningful input by people affected by legal decisions is called ___.",
+              "answer": "Community participation",
+              "accept": [
+                "Community participation"
+              ],
+              "explanation": "The term is Community participation."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

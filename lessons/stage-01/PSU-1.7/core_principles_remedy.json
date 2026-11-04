@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Connect legal remedies to the problem they should solve",
+          "summary": "A remedy may repay a loss, stop harmful conduct, or change future incentives. Learn to identify which outcome the client needs rather than assuming the largest payment is best.",
+          "checklist": [
+            "I can identify compensatory and preventive goals",
+            "I can distinguish a remedy from a public fine",
+            "I can ask whether relief can be enforced"
+          ],
+          "sections": [
+            {
+              "title": "Repair and Prevention Are Different",
+              "body_md": "A worker injured by an unsafe machine may need compensation for medical costs and action to prevent another injury. A damages award and a safety order can address those needs differently. A public fine may deter misconduct but not automatically pay the injured person. The legal system determines which remedies are available and to whom. Economic analysis helps ask whether the remedy changes incentives, while the lawyer must still identify the governing authority, conditions and procedural route.",
+              "example": null,
+              "audio_script": "A worker injured by an unsafe machine may need compensation for medical costs and action to prevent another injury. A damages award and a safety order can address those needs differently. A public fine may deter misconduct but not automatically pay the injured person. The legal system determines which remedies are available and to whom. Economic analysis helps ask whether the remedy changes incentives, while the lawyer must still identify the governing authority, conditions and procedural route.",
+              "video": null
+            },
+            {
+              "title": "Incentives Shape Future Conduct",
+              "body_md": "If the expected cost of an unsafe practice is low because detection is rare, a business may underinvest in prevention. Enforcement, inspections and liability can alter that calculation. But the point is not to assume everyone acts only for money; professional values, reputation and concern for others matter. A sound policy analysis examines real behavior as well as the formal penalty. Legal remedies should protect people effectively, not merely look severe in a statute book.",
+              "example": null,
+              "audio_script": "If the expected cost of an unsafe practice is low because detection is rare, a business may underinvest in prevention. Enforcement, inspections and liability can alter that calculation. But the point is not to assume everyone acts only for money; professional values, reputation and concern for others matter. A sound policy analysis examines real behavior as well as the formal penalty. Legal remedies should protect people effectively, not merely look severe in a statute book.",
+              "video": null
+            },
+            {
+              "title": "Choose Relief the Institution Can Give",
+              "body_md": "A tribunal may grant money but lack the power to supervise a factory's future operations. Another agency may impose preventive standards but not resolve a private claim. A legal adviser should match the client's objective to authorized remedies and the institution capable of enforcing them. The strongest theoretical result is useless if it cannot be obtained or implemented. The learner's habit is to ask what the law permits and whether the resulting order will change the real problem.",
+              "example": null,
+              "audio_script": "A tribunal may grant money but lack the power to supervise a factory's future operations. Another agency may impose preventive standards but not resolve a private claim. A legal adviser should match the client's objective to authorized remedies and the institution capable of enforcing them. The strongest theoretical result is useless if it cannot be obtained or implemented. The learner's habit is to ask what the law permits and whether the resulting order will change the real problem.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Deterrence means discouragement of future violations.",
+              "answer": true,
+              "explanation_if_true": "Deterrence means discouragement of future violations.",
+              "explanation_if_false": "Deterrence means discouragement of future violations."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "Every public regulatory fine is automatically paid to the injured individual as compensation.",
+              "answer": false,
+              "explanation_if_true": "Public penalties and private remedies have distinct legal purposes and destinations.",
+              "explanation_if_false": "Public penalties and private remedies have distinct legal purposes and destinations."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Compensation?",
+              "choices": [
+                "Institutional action securing compliance",
+                "Monetary redress for recognized loss",
+                "Discouragement of future violations",
+                "Order directing or restraining conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Compensation means monetary redress for recognized loss."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Unsafe equipment causes repeated injuries. What two goals might a remedy system pursue?",
+              "choices": [
+                "Repair past harm and prevent future injury",
+                "Only the largest fine",
+                "Publicity alone",
+                "Avoiding all inspections"
+              ],
+              "answer_index": 0,
+              "explanation": "Compensation and prevention address different consequences."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means order directing or restraining conduct?",
+              "choices": [
+                "Injunction",
+                "Compensation",
+                "Enforcement",
+                "Deterrence"
+              ],
+              "answer_index": 0,
+              "explanation": "Injunction means order directing or restraining conduct."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Compensation",
+                  "Monetary redress for recognized loss"
+                ],
+                [
+                  "Deterrence",
+                  "Discouragement of future violations"
+                ],
+                [
+                  "Injunction",
+                  "Order directing or restraining conduct"
+                ],
+                [
+                  "Enforcement",
+                  "Institutional action securing compliance"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Monetary redress for recognized loss is called ___.",
+              "answer": "Compensation",
+              "accept": [
+                "Compensation"
+              ],
+              "explanation": "The term is Compensation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Institutional action securing compliance is called ___.",
+              "answer": "Enforcement",
+              "accept": [
+                "Enforcement"
+              ],
+              "explanation": "The term is Enforcement."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare liability, regulation and risk-based charges",
+          "summary": "Legal systems can reduce harmful externalities through several institutions. Learn why a payment mechanism and a safety standard may work differently and cannot be evaluated by price alone.",
+          "checklist": [
+            "I can identify a tax or charge designed to reflect external cost",
+            "I can distinguish ex ante regulation from ex post liability",
+            "I can compare monitoring and information costs"
+          ],
+          "sections": [
+            {
+              "title": "A Price on External Harm",
+              "body_md": "A government might charge for pollution to encourage firms to reduce emissions when doing so costs less than the charge. Economists often call a corrective charge Pigouvian when it aims to reflect marginal external harm. Setting the right amount requires evidence about damage and behavior. A tax or fee does not itself prove every private injury is compensable, and its legality depends on public authority. The mechanism is one policy option, not a universal solution to every kind of harm.",
+              "example": null,
+              "audio_script": "A government might charge for pollution to encourage firms to reduce emissions when doing so costs less than the charge. Economists often call a corrective charge Pigouvian when it aims to reflect marginal external harm. Setting the right amount requires evidence about damage and behavior. A tax or fee does not itself prove every private injury is compensable, and its legality depends on public authority. The mechanism is one policy option, not a universal solution to every kind of harm.",
+              "video": null
+            },
+            {
+              "title": "Standards and Liability Differ in Time",
+              "body_md": "A safety regulation can require precautions before an accident occurs. A liability rule may assign costs after a legally recognized wrong. Ex ante prevention can be important where injury is irreversible; ex post compensation can support individualized redress but may be slow or hard to collect. A thoughtful comparison considers who holds relevant information, how easily conduct can be monitored, and whether victims can bring claims. The legal order may use both mechanisms together.",
+              "example": null,
+              "audio_script": "A safety regulation can require precautions before an accident occurs. A liability rule may assign costs after a legally recognized wrong. Ex ante prevention can be important where injury is irreversible; ex post compensation can support individualized redress but may be slow or hard to collect. A thoughtful comparison considers who holds relevant information, how easily conduct can be monitored, and whether victims can bring claims. The legal order may use both mechanisms together.",
+              "video": null
+            },
+            {
+              "title": "No Tool Is Costless",
+              "body_md": "Inspectors require resources, firms may resist reporting, and litigation can consume time and money. A highly detailed permit system can create administrative burdens; a pure damages system may fail when victims cannot prove causation. The right policy depends on the actual risk and institutional capacity. Economic efficiency can inform the choice but cannot supersede binding rights or distribute risk unfairly simply because it is cheaper to do so.",
+              "example": null,
+              "audio_script": "Inspectors require resources, firms may resist reporting, and litigation can consume time and money. A highly detailed permit system can create administrative burdens; a pure damages system may fail when victims cannot prove causation. The right policy depends on the actual risk and institutional capacity. Economic efficiency can inform the choice but cannot supersede binding rights or distribute risk unfairly simply because it is cheaper to do so.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Ex ante regulation means control of conduct before harm occurs.",
+              "answer": true,
+              "explanation_if_true": "Ex ante regulation means control of conduct before harm occurs.",
+              "explanation_if_false": "Ex ante regulation means control of conduct before harm occurs."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "A pollution charge automatically guarantees that environmental damage is fully repaired.",
+              "answer": false,
+              "explanation_if_true": "Pricing can alter incentives without restoring losses or ensuring lawful compensation.",
+              "explanation_if_false": "Pricing can alter incentives without restoring losses or ensuring lawful compensation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Pigouvian charge?",
+              "choices": [
+                "Payment aimed at reflecting external social cost",
+                "Control of conduct before harm occurs",
+                "Responsibility imposed after a wrongful event",
+                "Expense of detecting and verifying compliance"
+              ],
+              "answer_index": 0,
+              "explanation": "Pigouvian charge means payment aimed at reflecting external social cost."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A rare chemical leak would cause irreversible injury. Which policy consideration favors prevention?",
+              "choices": [
+                "The convenience of delayed lawsuits",
+                "That every harm can be priced exactly",
+                "The number of factories",
+                "The difficulty of repairing harm after it occurs"
+              ],
+              "answer_index": 3,
+              "explanation": "When relief after injury is inadequate, ex ante controls may be valuable."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means responsibility imposed after a wrongful event?",
+              "choices": [
+                "Pigouvian charge",
+                "Monitoring cost",
+                "Ex ante regulation",
+                "Ex post liability"
+              ],
+              "answer_index": 3,
+              "explanation": "Ex post liability means responsibility imposed after a wrongful event."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Pigouvian charge",
+                  "Payment aimed at reflecting external social cost"
+                ],
+                [
+                  "Ex ante regulation",
+                  "Control of conduct before harm occurs"
+                ],
+                [
+                  "Ex post liability",
+                  "Responsibility imposed after a wrongful event"
+                ],
+                [
+                  "Monitoring cost",
+                  "Expense of detecting and verifying compliance"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Payment aimed at reflecting external social cost is called ___.",
+              "answer": "Pigouvian charge",
+              "accept": [
+                "Pigouvian charge"
+              ],
+              "explanation": "The term is Pigouvian charge."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Expense of detecting and verifying compliance is called ___.",
+              "answer": "Monitoring cost",
+              "accept": [
+                "Monitoring cost"
+              ],
+              "explanation": "The term is Monitoring cost."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate remedy design under uncertainty and imperfect enforcement",
+          "summary": "Advanced economic analysis compares the likelihood of detection, cost of compliance and distribution of losses. Understand why theoretical optimal penalties may fail when institutions and actors are not ideal.",
+          "checklist": [
+            "I can explain how detection probabilities affect incentives",
+            "I can recognize judgment-proof defendants",
+            "I can analyze distributional effects of remedial policy"
+          ],
+          "sections": [
+            {
+              "title": "Detection Probability Changes Behavior",
+              "body_md": "A penalty of one hundred dollars may have little effect if violations are almost never detected. A policy model can consider expected sanction as probability of detection multiplied by sanction magnitude, while real behavior depends on reputation, norms and risk perception too. Raising penalties without improving detection may be ineffective or disproportionate. The legal analyst must examine statutory limits, safeguards against error and whom enforcement practices target, not merely the model's arithmetic.",
+              "example": null,
+              "audio_script": "A penalty of one hundred dollars may have little effect if violations are almost never detected. A policy model can consider expected sanction as probability of detection multiplied by sanction magnitude, while real behavior depends on reputation, norms and risk perception too. Raising penalties without improving detection may be ineffective or disproportionate. The legal analyst must examine statutory limits, safeguards against error and whom enforcement practices target, not merely the model's arithmetic.",
+              "video": null
+            },
+            {
+              "title": "Some Defendants Cannot Pay",
+              "body_md": "A company may cause large injury but hold few collectible assets or enter insolvency. Economists call this a judgment-proof problem: anticipated liability may exceed the actor's available resources. Victims can then remain uncompensated and prevention incentives may weaken. Law may respond through insurance requirements, capital rules or other mechanisms where authorized. Each shifts costs and can affect market entry. A good analysis considers whether the proposed protection is workable rather than assuming every judgment will be satisfied.",
+              "example": null,
+              "audio_script": "A company may cause large injury but hold few collectible assets or enter insolvency. Economists call this a judgment-proof problem: anticipated liability may exceed the actor's available resources. Victims can then remain uncompensated and prevention incentives may weaken. Law may respond through insurance requirements, capital rules or other mechanisms where authorized. Each shifts costs and can affect market entry. A good analysis considers whether the proposed protection is workable rather than assuming every judgment will be satisfied.",
+              "video": null
+            },
+            {
+              "title": "Who Bears the Remedy's Burden?",
+              "body_md": "A flat fine may be trivial for a large corporation but severe for a poor individual. A policy can reduce average harm while concentrating enforcement on marginalized communities. Evaluate payment size, ability to comply, available defenses and procedural safeguards. The aim is not to abandon enforcement but to ensure its burden and benefits are justified. Economic evidence is useful when it reveals who really pays and whether the rule protects those most exposed.",
+              "example": null,
+              "audio_script": "A flat fine may be trivial for a large corporation but severe for a poor individual. A policy can reduce average harm while concentrating enforcement on marginalized communities. Evaluate payment size, ability to comply, available defenses and procedural safeguards. The aim is not to abandon enforcement but to ensure its burden and benefits are justified. Economic evidence is useful when it reveals who really pays and whether the rule protects those most exposed.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Judgment-proof problem means liability exceeding available collectible assets.",
+              "answer": true,
+              "explanation_if_true": "Judgment-proof problem means liability exceeding available collectible assets.",
+              "explanation_if_false": "Judgment-proof problem means liability exceeding available collectible assets."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "A large legal penalty always deters wrongdoing even when detection is nearly impossible.",
+              "answer": false,
+              "explanation_if_true": "Detection probability and practical behavior affect deterrence.",
+              "explanation_if_false": "Detection probability and practical behavior affect deterrence."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Expected sanction?",
+              "choices": [
+                "Liability exceeding available collectible assets",
+                "Expense of satisfying legal requirements",
+                "Pattern of gains and burdens across groups",
+                "Probability-weighted consequence of noncompliance"
+              ],
+              "answer_index": 3,
+              "explanation": "Expected sanction means probability-weighted consequence of noncompliance."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A firm faces huge damages but has no collectible assets. What issue should policymakers consider?",
+              "choices": [
+                "The color of the balance sheet",
+                "Whether the firm has a catchy name",
+                "The judgment-proof problem",
+                "Whether the judgment uses long words"
+              ],
+              "answer_index": 2,
+              "explanation": "Uncollectible liability may fail both compensation and prevention."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means expense of satisfying legal requirements?",
+              "choices": [
+                "Distributional effect",
+                "Judgment-proof problem",
+                "Compliance cost",
+                "Expected sanction"
+              ],
+              "answer_index": 2,
+              "explanation": "Compliance cost means expense of satisfying legal requirements."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Expected sanction",
+                  "Probability-weighted consequence of noncompliance"
+                ],
+                [
+                  "Judgment-proof problem",
+                  "Liability exceeding available collectible assets"
+                ],
+                [
+                  "Compliance cost",
+                  "Expense of satisfying legal requirements"
+                ],
+                [
+                  "Distributional effect",
+                  "Pattern of gains and burdens across groups"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Probability-weighted consequence of noncompliance is called ___.",
+              "answer": "Expected sanction",
+              "accept": [
+                "Expected sanction"
+              ],
+              "explanation": "The term is Expected sanction."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Pattern of gains and burdens across groups is called ___.",
+              "answer": "Distributional effect",
+              "accept": [
+                "Distributional effect"
+              ],
+              "explanation": "The term is Distributional effect."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend humane and efficient institutions of legal redress",
+          "summary": "At doctoral depth, combine the economics of incentives with corrective justice, dignity and public accountability. Develop remedial systems that protect rights without assuming all values are convertible into money.",
+          "checklist": [
+            "I can critique optimal-penalty models under unequal enforcement",
+            "I can combine prevention, compensation and procedural fairness",
+            "I can propose reviewable remedies for systemic harms"
+          ],
+          "sections": [
+            {
+              "title": "The Most Efficient Fine May Be Unjust",
+              "body_md": "A theoretical model might raise penalties sharply when the chance of detection is low. Yet very high sanctions can create devastating errors, incentives for corruption or disproportionate burdens on vulnerable groups. A legal system must consider due process, proportionality, equality and institutional competence. The doctoral question is not only how to change average behavior, but whether the mechanism is lawfully and morally justified for the people it subjects to coercion.",
+              "example": null,
+              "audio_script": "A theoretical model might raise penalties sharply when the chance of detection is low. Yet very high sanctions can create devastating errors, incentives for corruption or disproportionate burdens on vulnerable groups. A legal system must consider due process, proportionality, equality and institutional competence. The doctoral question is not only how to change average behavior, but whether the mechanism is lawfully and morally justified for the people it subjects to coercion.",
+              "video": null
+            },
+            {
+              "title": "Damage Cannot Always Be Undone",
+              "body_md": "An unlawful removal of a child, loss of liberty or destruction of an irreplaceable ecosystem cannot be fully repaired through a money judgment. Prevention, restoration, acknowledgment and institutional reform can have value alongside compensation. Their availability and powers depend on the governing law. A rigorous reform proposal identifies which losses monetary models omit and which institutions can provide meaningful relief without exceeding legitimate authority.",
+              "example": null,
+              "audio_script": "An unlawful removal of a child, loss of liberty or destruction of an irreplaceable ecosystem cannot be fully repaired through a money judgment. Prevention, restoration, acknowledgment and institutional reform can have value alongside compensation. Their availability and powers depend on the governing law. A rigorous reform proposal identifies which losses monetary models omit and which institutions can provide meaningful relief without exceeding legitimate authority.",
+              "video": null
+            },
+            {
+              "title": "Design Accountability Into the Remedy",
+              "body_md": "Consider a recurring failure to deliver legally required public services. A response might combine individual remedies, transparent performance standards, review rights and independent monitoring. Each component should have a lawful source, a realistic cost and a defined route for correction. Economic evaluation can test whether outcomes improve; legal principles protect those who are burdened. The purpose of remedial design is not simply to optimize a number but to make justice effective in the lives of actual people.",
+              "example": null,
+              "audio_script": "Consider a recurring failure to deliver legally required public services. A response might combine individual remedies, transparent performance standards, review rights and independent monitoring. Each component should have a lawful source, a realistic cost and a defined route for correction. Economic evaluation can test whether outcomes improve; legal principles protect those who are burdened. The purpose of remedial design is not simply to optimize a number but to make justice effective in the lives of actual people.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Proportionality means fit between coercive measure and lawful objective.",
+              "answer": true,
+              "explanation_if_true": "Proportionality means fit between coercive measure and lawful objective.",
+              "explanation_if_false": "Proportionality means fit between coercive measure and lawful objective."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "The economically cheapest remedy is necessarily the most just or legally permitted one.",
+              "answer": false,
+              "explanation_if_true": "Rights, fairness, effectiveness and institutional limits may constrain cost minimization.",
+              "explanation_if_false": "Rights, fairness, effectiveness and institutional limits may constrain cost minimization."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Corrective justice?",
+              "choices": [
+                "Response seeking to repair relationships or conditions",
+                "Reviewable responsibility for delivering legal protection",
+                "Repair of a wrong between affected parties",
+                "Fit between coercive measure and lawful objective"
+              ],
+              "answer_index": 2,
+              "explanation": "Corrective justice means repair of a wrong between affected parties."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A penalty formula saves money but disproportionately punishes low-income people for minor violations. What must be reviewed?",
+              "choices": [
+                "Whether the law has a long title",
+                "Proportionality, distribution and procedural safeguards",
+                "Only the average revenue",
+                "The number of footnotes"
+              ],
+              "answer_index": 1,
+              "explanation": "Effective enforcement must remain fair and lawfully justified."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means response seeking to repair relationships or conditions?",
+              "choices": [
+                "Proportionality",
+                "Restorative relief",
+                "Corrective justice",
+                "Remedial accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "Restorative relief means response seeking to repair relationships or conditions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Corrective justice",
+                  "Repair of a wrong between affected parties"
+                ],
+                [
+                  "Proportionality",
+                  "Fit between coercive measure and lawful objective"
+                ],
+                [
+                  "Restorative relief",
+                  "Response seeking to repair relationships or conditions"
+                ],
+                [
+                  "Remedial accountability",
+                  "Reviewable responsibility for delivering legal protection"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Repair of a wrong between affected parties is called ___.",
+              "answer": "Corrective justice",
+              "accept": [
+                "Corrective justice"
+              ],
+              "explanation": "The term is Corrective justice."
+            },
+            {
+              "id": "PSU-1.7.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Reviewable responsibility for delivering legal protection is called ___.",
+              "answer": "Remedial accountability",
+              "accept": [
+                "Remedial accountability"
+              ],
+              "explanation": "The term is Remedial accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "See how economic conditions affect legal rights in practice",
+          "summary": "A right can exist on paper while being costly or difficult to exercise. Learn the difference between formal protection and the real choices available to the person holding it.",
+          "checklist": [
+            "I can identify transaction costs of enforcing a right",
+            "I can explain why access affects practical protection",
+            "I can distinguish wealth from entitlement"
+          ],
+          "sections": [
+            {
+              "title": "Rights Have Practical Costs",
+              "body_md": "A person may have a legally valid claim for a small unpaid wage but lack money for a lawyer or time to attend court. Filing fees, travel and delay can make the right difficult to enforce. Economists call some of these transaction costs: resources spent making an exchange or enforcing an arrangement. The legal right remains real, but the person's practical access is weaker. Studying those costs helps design procedures that protect people who cannot afford lengthy litigation.",
+              "example": null,
+              "audio_script": "A person may have a legally valid claim for a small unpaid wage but lack money for a lawyer or time to attend court. Filing fees, travel and delay can make the right difficult to enforce. Economists call some of these transaction costs: resources spent making an exchange or enforcing an arrangement. The legal right remains real, but the person's practical access is weaker. Studying those costs helps design procedures that protect people who cannot afford lengthy litigation.",
+              "video": null
+            },
+            {
+              "title": "Price Is Not Justice",
+              "body_md": "Suppose a wealthy business can pay a modest regulatory fine without changing its behavior. The fine may be legally valid yet fail to prevent harm. Conversely, the same amount could be devastating to a low-income individual. An economic analysis can examine incentives and distribution, but it cannot decide fairness by income alone. Legal rights and proportionality constraints must still be identified. The purpose is to understand how people actually respond to rules and how those responses affect protection.",
+              "example": null,
+              "audio_script": "Suppose a wealthy business can pay a modest regulatory fine without changing its behavior. The fine may be legally valid yet fail to prevent harm. Conversely, the same amount could be devastating to a low-income individual. An economic analysis can examine incentives and distribution, but it cannot decide fairness by income alone. Legal rights and proportionality constraints must still be identified. The purpose is to understand how people actually respond to rules and how those responses affect protection.",
+              "video": null
+            },
+            {
+              "title": "Who Can Use the System?",
+              "body_md": "Two people may hold the same formal tenancy right but have very different access to records, representation or transportation. An outcome analysis should ask what prevents people from invoking the protection. Some solutions are procedural, such as clearer notices or low-cost dispute resolution; others involve legal aid or administrative enforcement. Economic insight matters when it exposes obstacles to effective freedom. Law serves people, not merely the appearance of equal treatment on paper.",
+              "example": null,
+              "audio_script": "Two people may hold the same formal tenancy right but have very different access to records, representation or transportation. An outcome analysis should ask what prevents people from invoking the protection. Some solutions are procedural, such as clearer notices or low-cost dispute resolution; others involve legal aid or administrative enforcement. Economic insight matters when it exposes obstacles to effective freedom. Law serves people, not merely the appearance of equal treatment on paper.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Formal entitlement means right recognized by applicable law.",
+              "answer": true,
+              "explanation_if_true": "Formal entitlement means right recognized by applicable law.",
+              "explanation_if_false": "Formal entitlement means right recognized by applicable law."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "A legally recognized right must be equally affordable for every person to enforce.",
+              "answer": false,
+              "explanation_if_true": "Costs, information and resources can create large differences in actual access.",
+              "explanation_if_false": "Costs, information and resources can create large differences in actual access."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Transaction cost?",
+              "choices": [
+                "Factor affecting a person's choices",
+                "Resource cost of arranging or enforcing an exchange",
+                "Right recognized by applicable law",
+                "Real ability to invoke a legal protection"
+              ],
+              "answer_index": 1,
+              "explanation": "Transaction cost means resource cost of arranging or enforcing an exchange."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A worker has a clear small wage claim but court costs exceed the unpaid amount. What is the central obstacle?",
+              "choices": [
+                "Transaction costs of enforcement",
+                "Absence of any legal right",
+                "A lack of contract language",
+                "A constitutional amendment"
+              ],
+              "answer_index": 0,
+              "explanation": "Practical costs can prevent use of a formal entitlement."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means real ability to invoke a legal protection?",
+              "choices": [
+                "Practical access",
+                "Transaction cost",
+                "Incentive",
+                "Formal entitlement"
+              ],
+              "answer_index": 0,
+              "explanation": "Practical access means real ability to invoke a legal protection."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Transaction cost",
+                  "Resource cost of arranging or enforcing an exchange"
+                ],
+                [
+                  "Formal entitlement",
+                  "Right recognized by applicable law"
+                ],
+                [
+                  "Practical access",
+                  "Real ability to invoke a legal protection"
+                ],
+                [
+                  "Incentive",
+                  "Factor affecting a person's choices"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "Resource cost of arranging or enforcing an exchange is called ___.",
+              "answer": "Transaction cost",
+              "accept": [
+                "Transaction cost"
+              ],
+              "explanation": "The term is Transaction cost."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "Factor affecting a person's choices is called ___.",
+              "answer": "Incentive",
+              "accept": [
+                "Incentive"
+              ],
+              "explanation": "The term is Incentive."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare efficiency and distribution when rights are allocated",
+          "summary": "Legal rules assign benefits, burdens and bargaining power. Learn why an arrangement that maximizes total measured wealth may still leave some persons unjustly disadvantaged.",
+          "checklist": [
+            "I can distinguish efficiency from distribution",
+            "I can identify parties bearing external costs",
+            "I can consider whether voluntary bargaining is realistic"
+          ],
+          "sections": [
+            {
+              "title": "Total Gain Is Not the Whole Story",
+              "body_md": "A new zoning rule increases citywide property values but displaces a small low-income neighborhood. An aggregate calculation may show net monetary gains while ignoring who benefits and who bears the loss. Efficiency asks how resources are used; distribution asks how benefits and burdens are shared. Legal systems may protect rights that cannot simply be traded for greater total wealth. An honest economic analysis presents both dimensions rather than hiding one inside the other.",
+              "example": null,
+              "audio_script": "A new zoning rule increases citywide property values but displaces a small low-income neighborhood. An aggregate calculation may show net monetary gains while ignoring who benefits and who bears the loss. Efficiency asks how resources are used; distribution asks how benefits and burdens are shared. Legal systems may protect rights that cannot simply be traded for greater total wealth. An honest economic analysis presents both dimensions rather than hiding one inside the other.",
+              "video": null
+            },
+            {
+              "title": "Bargaining Is Not Costless",
+              "body_md": "Imagine two neighbors disagree about factory noise. If rights are clear and negotiation is easy, they may find a mutually acceptable arrangement. But large numbers of affected residents, incomplete information and unequal power can prevent agreement. Transaction costs matter. The Coasean insight about bargaining under idealized conditions is useful precisely because actual legal systems rarely satisfy every assumption. The law must choose rules with attention to real institutions and rights.",
+              "example": null,
+              "audio_script": "Imagine two neighbors disagree about factory noise. If rights are clear and negotiation is easy, they may find a mutually acceptable arrangement. But large numbers of affected residents, incomplete information and unequal power can prevent agreement. Transaction costs matter. The Coasean insight about bargaining under idealized conditions is useful precisely because actual legal systems rarely satisfy every assumption. The law must choose rules with attention to real institutions and rights.",
+              "video": null
+            },
+            {
+              "title": "External Costs Matter",
+              "body_md": "A firm producing a valuable product may impose air pollution on people who did not agree to accept it. Economists call that an externality: a cost or benefit borne by others outside the relevant transaction. Legal tools such as liability rules, regulation or taxes can address some external effects. Their justification depends on evidence and applicable legal authority. The fact that a business is profitable does not establish that all relevant costs have been considered.",
+              "example": null,
+              "audio_script": "A firm producing a valuable product may impose air pollution on people who did not agree to accept it. Economists call that an externality: a cost or benefit borne by others outside the relevant transaction. Legal tools such as liability rules, regulation or taxes can address some external effects. Their justification depends on evidence and applicable legal authority. The fact that a business is profitable does not establish that all relevant costs have been considered.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Distribution means allocation of benefits and burdens among people.",
+              "answer": true,
+              "explanation_if_true": "Distribution means allocation of benefits and burdens among people.",
+              "explanation_if_false": "Distribution means allocation of benefits and burdens among people."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "A policy is necessarily just whenever its total monetary benefits exceed total monetary costs.",
+              "answer": false,
+              "explanation_if_true": "Distribution, rights and nonmonetary harms can remain morally and legally important.",
+              "explanation_if_false": "Distribution, rights and nonmonetary harms can remain morally and legally important."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Efficiency?",
+              "choices": [
+                "Use of resources relative to defined outcomes",
+                "Allocation of benefits and burdens among people",
+                "Cost or benefit affecting nonparties to a transaction",
+                "Analysis of bargaining under defined rights and transaction-cost assumptions"
+              ],
+              "answer_index": 0,
+              "explanation": "Efficiency means use of resources relative to defined outcomes."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A profitable factory imposes pollution on neighbors who receive no benefit. What economic issue is central?",
+              "choices": [
+                "A voluntary gift",
+                "A perfect bargain with zero costs",
+                "A rule of evidence",
+                "An externality"
+              ],
+              "answer_index": 3,
+              "explanation": "The firm's market price may omit harm borne by others."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means cost or benefit affecting nonparties to a transaction?",
+              "choices": [
+                "Efficiency",
+                "Coasean bargaining",
+                "Distribution",
+                "Externality"
+              ],
+              "answer_index": 3,
+              "explanation": "Externality means cost or benefit affecting nonparties to a transaction."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Efficiency",
+                  "Use of resources relative to defined outcomes"
+                ],
+                [
+                  "Distribution",
+                  "Allocation of benefits and burdens among people"
+                ],
+                [
+                  "Externality",
+                  "Cost or benefit affecting nonparties to a transaction"
+                ],
+                [
+                  "Coasean bargaining",
+                  "Analysis of bargaining under defined rights and transaction-cost assumptions"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Use of resources relative to defined outcomes is called ___.",
+              "answer": "Efficiency",
+              "accept": [
+                "Efficiency"
+              ],
+              "explanation": "The term is Efficiency."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Analysis of bargaining under defined rights and transaction-cost assumptions is called ___.",
+              "answer": "Coasean bargaining",
+              "accept": [
+                "Coasean bargaining"
+              ],
+              "explanation": "The term is Coasean bargaining."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze unequal bargaining and behavioral constraints on rights",
+          "summary": "Advanced economic analysis challenges the assumption that every agreement reflects informed, unconstrained choice. Examine information asymmetry, market power and behavioral framing.",
+          "checklist": [
+            "I can identify unequal information in rights-related decisions",
+            "I can explain how default rules influence choice",
+            "I can distinguish behavioral description from legal justification"
+          ],
+          "sections": [
+            {
+              "title": "Agreement Can Hide Information Gaps",
+              "body_md": "A consumer clicks acceptance of complex software terms without knowing how their data will be used. The company understands the technology and risks better than the consumer. Information asymmetry may weaken the assumption that the transaction reflects equally informed choice. Law can respond through disclosure, default protections or mandatory limits where authorized. An analyst should consider how well disclosure actually works instead of treating the mere presence of text as proof of understanding.",
+              "example": null,
+              "audio_script": "A consumer clicks acceptance of complex software terms without knowing how their data will be used. The company understands the technology and risks better than the consumer. Information asymmetry may weaken the assumption that the transaction reflects equally informed choice. Law can respond through disclosure, default protections or mandatory limits where authorized. An analyst should consider how well disclosure actually works instead of treating the mere presence of text as proof of understanding.",
+              "video": null
+            },
+            {
+              "title": "Defaults Change Decisions",
+              "body_md": "People often remain with a preselected option because changing it requires attention or effort. A pension program's default enrollment or a data-sharing opt-out can therefore influence behavior without an explicit prohibition. Behavioral economics studies such patterns, but descriptive findings do not alone justify manipulating people's choices. Legal evaluation must ask whether the design respects autonomy, notice, equality and applicable consent requirements. A helpful default can also be used coercively if exit is obscure.",
+              "example": null,
+              "audio_script": "People often remain with a preselected option because changing it requires attention or effort. A pension program's default enrollment or a data-sharing opt-out can therefore influence behavior without an explicit prohibition. Behavioral economics studies such patterns, but descriptive findings do not alone justify manipulating people's choices. Legal evaluation must ask whether the design respects autonomy, notice, equality and applicable consent requirements. A helpful default can also be used coercively if exit is obscure.",
+              "video": null
+            },
+            {
+              "title": "Power Changes the Bargain",
+              "body_md": "A worker dependent on one employer or a renter in a scarce market may have limited ability to refuse unfavorable terms. A formal signature does not demonstrate equal bargaining power. Legal protections can respond through minimum standards, anti-discrimination rules, or collective processes, depending on the jurisdiction. The economic task is to identify actual alternatives, information and costs. The legal task is to determine what duties the system imposes and what remedies people can obtain.",
+              "example": null,
+              "audio_script": "A worker dependent on one employer or a renter in a scarce market may have limited ability to refuse unfavorable terms. A formal signature does not demonstrate equal bargaining power. Legal protections can respond through minimum standards, anti-discrimination rules, or collective processes, depending on the jurisdiction. The economic task is to identify actual alternatives, information and costs. The legal task is to determine what duties the system imposes and what remedies people can obtain.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Default effect means influence of a preselected option on choices.",
+              "answer": true,
+              "explanation_if_true": "Default effect means influence of a preselected option on choices.",
+              "explanation_if_false": "Default effect means influence of a preselected option on choices."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "A checkbox proves a person fully understood every risk in an agreement.",
+              "answer": false,
+              "explanation_if_true": "Formal acceptance can coexist with information imbalance and opaque terms.",
+              "explanation_if_false": "Formal acceptance can coexist with information imbalance and opaque terms."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Information asymmetry?",
+              "choices": [
+                "Influence of a preselected option on choices",
+                "Capacity to influence terms due to limited competition",
+                "Study of systematic patterns in decision behavior",
+                "Unequal access to decision-relevant information"
+              ],
+              "answer_index": 3,
+              "explanation": "Information asymmetry means unequal access to decision-relevant information."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A service makes data sharing the default and hides the opt-out. What should be evaluated?",
+              "choices": [
+                "The company's revenue target",
+                "The font color alone",
+                "Whether the design respects informed choice and applicable consent rules",
+                "Only the click-through rate"
+              ],
+              "answer_index": 2,
+              "explanation": "Defaults can change choices without proving genuine understanding."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means capacity to influence terms due to limited competition?",
+              "choices": [
+                "Behavioral economics",
+                "Default effect",
+                "Market power",
+                "Information asymmetry"
+              ],
+              "answer_index": 2,
+              "explanation": "Market power means capacity to influence terms due to limited competition."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Information asymmetry",
+                  "Unequal access to decision-relevant information"
+                ],
+                [
+                  "Default effect",
+                  "Influence of a preselected option on choices"
+                ],
+                [
+                  "Market power",
+                  "Capacity to influence terms due to limited competition"
+                ],
+                [
+                  "Behavioral economics",
+                  "Study of systematic patterns in decision behavior"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "Unequal access to decision-relevant information is called ___.",
+              "answer": "Information asymmetry",
+              "accept": [
+                "Information asymmetry"
+              ],
+              "explanation": "The term is Information asymmetry."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "Study of systematic patterns in decision behavior is called ___.",
+              "answer": "Behavioral economics",
+              "accept": [
+                "Behavioral economics"
+              ],
+              "explanation": "The term is Behavioral economics."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend rights-sensitive economic analysis under inequality",
+          "summary": "At doctoral depth, evaluate welfare economics and its limitations in a legal order committed to dignity and justice. Explain why willingness to pay is an imperfect measure of rights and human needs.",
+          "checklist": [
+            "I can critique monetization of nonmarket interests",
+            "I can compare efficiency and egalitarian perspectives",
+            "I can design evidence-based rights protections with accountability"
+          ],
+          "sections": [
+            {
+              "title": "Money Is an Unequal Measure",
+              "body_md": "Willingness to pay can reflect income as much as the importance of a benefit. A rich person's preference may appear more valuable in a market calculation than a poor person's essential housing or safety. Cost-benefit analysis may assist policy, but its outputs must be read alongside distribution, legal rights and the limits of monetary valuation. A doctoral scholar should identify what the model omits, whose preferences are counted and what normative judgment is being made.",
+              "example": null,
+              "audio_script": "Willingness to pay can reflect income as much as the importance of a benefit. A rich person's preference may appear more valuable in a market calculation than a poor person's essential housing or safety. Cost-benefit analysis may assist policy, but its outputs must be read alongside distribution, legal rights and the limits of monetary valuation. A doctoral scholar should identify what the model omits, whose preferences are counted and what normative judgment is being made.",
+              "video": null
+            },
+            {
+              "title": "Kaldor-Hicks Is Not Consent",
+              "body_md": "A policy can be described as potentially improving welfare if winners could compensate losers and still retain a gain. That does not mean losers were actually compensated or agreed. A doctoral analysis distinguishes potential compensation from Pareto improvement, in which no one is made worse off under the specified evaluation. It also confronts the difficulty of measuring nonmarket dignity, environmental loss and coercion. Economic criteria are tools for reasoning, not substitutes for legitimate authority.",
+              "example": null,
+              "audio_script": "A policy can be described as potentially improving welfare if winners could compensate losers and still retain a gain. That does not mean losers were actually compensated or agreed. A doctoral analysis distinguishes potential compensation from Pareto improvement, in which no one is made worse off under the specified evaluation. It also confronts the difficulty of measuring nonmarket dignity, environmental loss and coercion. Economic criteria are tools for reasoning, not substitutes for legitimate authority.",
+              "video": null
+            },
+            {
+              "title": "Design Justice-Conscious Evaluation",
+              "body_md": "A public legal policy should specify measurable benefits and costs, identify vulnerable groups, account for uncertainty and show how legal constraints shape permissible choices. Distributional weights or alternative evaluation methods can make assumptions explicit but cannot eliminate ethical disagreement. A defensible framework invites review, includes affected-person voices and measures actual outcomes after implementation. The goal is to use evidence to strengthen protection of lives and freedoms, not to reduce those values to one financial total.",
+              "example": null,
+              "audio_script": "A public legal policy should specify measurable benefits and costs, identify vulnerable groups, account for uncertainty and show how legal constraints shape permissible choices. Distributional weights or alternative evaluation methods can make assumptions explicit but cannot eliminate ethical disagreement. A defensible framework invites review, includes affected-person voices and measures actual outcomes after implementation. The goal is to use evidence to strengthen protection of lives and freedoms, not to reduce those values to one financial total.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Kaldor-Hicks criterion means potential compensation test for aggregate gain.",
+              "answer": true,
+              "explanation_if_true": "Kaldor-Hicks criterion means potential compensation test for aggregate gain.",
+              "explanation_if_false": "Kaldor-Hicks criterion means potential compensation test for aggregate gain."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "Potential compensation under a welfare test means all disadvantaged people actually received compensation.",
+              "answer": false,
+              "explanation_if_true": "Kaldor-Hicks potential compensation need not involve real payment or consent.",
+              "explanation_if_false": "Kaldor-Hicks potential compensation need not involve real payment or consent."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Willingness to pay?",
+              "choices": [
+                "Change benefiting someone without worsening anyone",
+                "Adjustment reflecting who receives gains or losses",
+                "Amount a person would sacrifice for a benefit",
+                "Potential compensation test for aggregate gain"
+              ],
+              "answer_index": 2,
+              "explanation": "Willingness to pay means amount a person would sacrifice for a benefit."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A proposal shows aggregate monetary gain while leaving low-income households worse off. What concern remains?",
+              "choices": [
+                "The number of economists consulted",
+                "Distribution and actual protection of affected rights",
+                "Only the ratio of charts to text",
+                "Whether the report uses enough decimals"
+              ],
+              "answer_index": 1,
+              "explanation": "Total gains do not establish fair outcomes or actual compensation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means change benefiting someone without worsening anyone?",
+              "choices": [
+                "Kaldor-Hicks criterion",
+                "Pareto improvement",
+                "Willingness to pay",
+                "Distributional weight"
+              ],
+              "answer_index": 1,
+              "explanation": "Pareto improvement means change benefiting someone without worsening anyone."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Willingness to pay",
+                  "Amount a person would sacrifice for a benefit"
+                ],
+                [
+                  "Kaldor-Hicks criterion",
+                  "Potential compensation test for aggregate gain"
+                ],
+                [
+                  "Pareto improvement",
+                  "Change benefiting someone without worsening anyone"
+                ],
+                [
+                  "Distributional weight",
+                  "Adjustment reflecting who receives gains or losses"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "Amount a person would sacrifice for a benefit is called ___.",
+              "answer": "Willingness to pay",
+              "accept": [
+                "Willingness to pay"
+              ],
+              "explanation": "The term is Willingness to pay."
+            },
+            {
+              "id": "PSU-1.7.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "Adjustment reflecting who receives gains or losses is called ___.",
+              "answer": "Distributional weight",
+              "accept": [
+                "Distributional weight"
+              ],
+              "explanation": "The term is Distributional weight."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Find law before relying on it",
+          "summary": "Legal research is the process of finding the rules and decisions that actually govern a problem. Learn to distinguish primary legal authorities from explanations and commentary.",
+          "checklist": [
+            "I can identify primary and secondary legal sources",
+            "I can locate a governing statute or decision",
+            "I can check source jurisdiction and date"
+          ],
+          "sections": [
+            {
+              "title": "Start With a Precise Question",
+              "body_md": "A client asks whether a landlord may keep a security deposit. First identify the place, type of tenancy, relevant dates, and what the deposit covered. Those details determine which law might govern. Then search statutes, regulations and relevant decisions rather than beginning with a general website about rental disputes. Legal research begins by turning a human question into identifiable legal issues. That approach saves time and avoids gathering dozens of unrelated documents that cannot answer the client.",
+              "example": null,
+              "audio_script": "A client asks whether a landlord may keep a security deposit. First identify the place, type of tenancy, relevant dates, and what the deposit covered. Those details determine which law might govern. Then search statutes, regulations and relevant decisions rather than beginning with a general website about rental disputes. Legal research begins by turning a human question into identifiable legal issues. That approach saves time and avoids gathering dozens of unrelated documents that cannot answer the client.",
+              "video": null
+            },
+            {
+              "title": "Primary Law and Helpful Explanations",
+              "body_md": "A statute, regulation, constitutional provision or court judgment can be a primary legal source. A textbook, practice guide or article may explain those authorities and help find them, but it is generally a secondary source. A good researcher uses secondary material to understand the field, then verifies the rule in relevant primary law. Copying a textbook sentence without checking whether the statute has changed can leave the client with outdated advice.",
+              "example": null,
+              "audio_script": "A statute, regulation, constitutional provision or court judgment can be a primary legal source. A textbook, practice guide or article may explain those authorities and help find them, but it is generally a secondary source. A good researcher uses secondary material to understand the field, then verifies the rule in relevant primary law. Copying a textbook sentence without checking whether the statute has changed can leave the client with outdated advice.",
+              "video": null
+            },
+            {
+              "title": "Jurisdiction and Date Matter",
+              "body_md": "A case from another country may be insightful but not binding. A statute may have been amended since the event at issue. A court judgment may have been reversed. For every source record its jurisdiction, authority, effective date, citation and current status. These small habits make later writing easier because the evidence supporting the rule is visible. The researcher should never promise that a rule applies until the source has been checked against the client's location and timeline.",
+              "example": null,
+              "audio_script": "A case from another country may be insightful but not binding. A statute may have been amended since the event at issue. A court judgment may have been reversed. For every source record its jurisdiction, authority, effective date, citation and current status. These small habits make later writing easier because the evidence supporting the rule is visible. The researcher should never promise that a rule applies until the source has been checked against the client's location and timeline.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Secondary source means material explaining or analyzing law.",
+              "answer": true,
+              "explanation_if_true": "Secondary source means material explaining or analyzing law.",
+              "explanation_if_false": "Secondary source means material explaining or analyzing law."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "A popular legal blog automatically counts as primary binding law.",
+              "answer": false,
+              "explanation_if_true": "Commentary may assist research but ordinarily is not itself an authoritative legal enactment or judgment.",
+              "explanation_if_false": "Commentary may assist research but ordinarily is not itself an authoritative legal enactment or judgment."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Primary source?",
+              "choices": [
+                "Reference identifying a legal source",
+                "Legally authoritative enactment or decision",
+                "Material explaining or analyzing law",
+                "Legal authority tied to a court or territory"
+              ],
+              "answer_index": 1,
+              "explanation": "Primary source means legally authoritative enactment or decision."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client asks about a deposit in a specific city. What should the researcher seek first?",
+              "choices": [
+                "Applicable local legislation and controlling decisions",
+                "An unrelated country's blog post",
+                "The most recent social-media comment",
+                "A generic article with no date"
+              ],
+              "answer_index": 0,
+              "explanation": "The governing legal rule depends on the client's jurisdiction and relevant facts."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal authority tied to a court or territory?",
+              "choices": [
+                "Jurisdiction",
+                "Primary source",
+                "Citation",
+                "Secondary source"
+              ],
+              "answer_index": 0,
+              "explanation": "Jurisdiction means legal authority tied to a court or territory."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Primary source",
+                  "Legally authoritative enactment or decision"
+                ],
+                [
+                  "Secondary source",
+                  "Material explaining or analyzing law"
+                ],
+                [
+                  "Jurisdiction",
+                  "Legal authority tied to a court or territory"
+                ],
+                [
+                  "Citation",
+                  "Reference identifying a legal source"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Legally authoritative enactment or decision is called ___.",
+              "answer": "Primary source",
+              "accept": [
+                "Primary source"
+              ],
+              "explanation": "The term is Primary source."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Reference identifying a legal source is called ___.",
+              "answer": "Citation",
+              "accept": [
+                "Citation"
+              ],
+              "explanation": "The term is Citation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Verify that a legal source remains controlling",
+          "summary": "Learn how to follow a rule from an initial search to its current authoritative form. Distinguish an amendment, repeal, overruling, and a later decision that merely distinguishes the source.",
+          "checklist": [
+            "I can check subsequent judicial treatment",
+            "I can verify statutory versions at relevant dates",
+            "I can trace a proposition to authoritative text"
+          ],
+          "sections": [
+            {
+              "title": "A Search Result Is Only the Beginning",
+              "body_md": "Suppose a case appears to support a tenant's right to a refund. Before citing it, confirm that the decision comes from a court with the relevant authority, that its holding actually addresses the issue, and that later cases have not limited it. Citation services may flag negative treatment, but a flag does not explain what changed. Read the later decision and determine whether it overruled, distinguished or simply criticized the earlier reasoning.",
+              "example": null,
+              "audio_script": "Suppose a case appears to support a tenant's right to a refund. Before citing it, confirm that the decision comes from a court with the relevant authority, that its holding actually addresses the issue, and that later cases have not limited it. Citation services may flag negative treatment, but a flag does not explain what changed. Read the later decision and determine whether it overruled, distinguished or simply criticized the earlier reasoning.",
+              "video": null
+            },
+            {
+              "title": "Statutes Have Histories",
+              "body_md": "A provision found in today's code may not have been in force when the client's events occurred. Amendments can change definitions, exceptions or remedies, and transitional provisions may determine which version applies. A careful researcher records the enactment, amendment history, commencement dates and any relevant saving clause. When the client is accused of conduct from several years ago, using only the present text can produce a serious legal error. The time dimension is as important as geography.",
+              "example": null,
+              "audio_script": "A provision found in today's code may not have been in force when the client's events occurred. Amendments can change definitions, exceptions or remedies, and transitional provisions may determine which version applies. A careful researcher records the enactment, amendment history, commencement dates and any relevant saving clause. When the client is accused of conduct from several years ago, using only the present text can produce a serious legal error. The time dimension is as important as geography.",
+              "video": null
+            },
+            {
+              "title": "Build a Verifiable Source Trail",
+              "body_md": "A sound memorandum allows another lawyer to reconstruct its central legal proposition. Record the precise statutory section or passage in the judgment, the court, date and reason for relevance. Link the secondary explanation to the primary source it describes. Avoid treating an AI-generated citation or unattributed quotation as real until independently verified. Good legal writing does not simply look well sourced; it makes the source trail inspectable by people whose decisions depend on it.",
+              "example": null,
+              "audio_script": "A sound memorandum allows another lawyer to reconstruct its central legal proposition. Record the precise statutory section or passage in the judgment, the court, date and reason for relevance. Link the secondary explanation to the primary source it describes. Avoid treating an AI-generated citation or unattributed quotation as real until independently verified. Good legal writing does not simply look well sourced; it makes the source trail inspectable by people whose decisions depend on it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Statutory amendment means legislative change to an enacted rule.",
+              "answer": true,
+              "explanation_if_true": "Statutory amendment means legislative change to an enacted rule.",
+              "explanation_if_false": "Statutory amendment means legislative change to an enacted rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "A search database's negative-treatment flag automatically means a case has been wholly overruled.",
+              "answer": false,
+              "explanation_if_true": "Subsequent treatment must be read; flags can indicate criticism, limitation or distinguishing.",
+              "explanation_if_false": "Subsequent treatment must be read; flags can indicate criticism, limitation or distinguishing."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Shepardizing?",
+              "choices": [
+                "Checking subsequent treatment of legal authority",
+                "Legislative change to an enacted rule",
+                "Replacement of an earlier holding by authorized court",
+                "Recorded path from a proposition to verified authority"
+              ],
+              "answer_index": 0,
+              "explanation": "Shepardizing means checking subsequent treatment of legal authority."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A tenancy incident occurred before a statutory amendment. What should be examined?",
+              "choices": [
+                "Only the newest website headline",
+                "Whether the tenant uses the internet",
+                "How many search results appear",
+                "The version in force and transitional provisions"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal advice about past events depends on the applicable historical law."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means replacement of an earlier holding by authorized court?",
+              "choices": [
+                "Shepardizing",
+                "Source trail",
+                "Statutory amendment",
+                "Overruling"
+              ],
+              "answer_index": 3,
+              "explanation": "Overruling means replacement of an earlier holding by authorized court."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Shepardizing",
+                  "Checking subsequent treatment of legal authority"
+                ],
+                [
+                  "Statutory amendment",
+                  "Legislative change to an enacted rule"
+                ],
+                [
+                  "Overruling",
+                  "Replacement of an earlier holding by authorized court"
+                ],
+                [
+                  "Source trail",
+                  "Recorded path from a proposition to verified authority"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Checking subsequent treatment of legal authority is called ___.",
+              "answer": "Shepardizing",
+              "accept": [
+                "Shepardizing"
+              ],
+              "explanation": "The term is Shepardizing."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Recorded path from a proposition to verified authority is called ___.",
+              "answer": "Source trail",
+              "accept": [
+                "Source trail"
+              ],
+              "explanation": "The term is Source trail."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Synthesize complex authorities efficiently",
+          "summary": "Develop a research strategy for issues with overlapping statutes, multiple courts and uncertain doctrine. Evaluate adverse sources and avoid turning the longest research result into the apparent rule.",
+          "checklist": [
+            "I can build a hierarchy-aware research plan",
+            "I can synthesize holdings with clear factual limits",
+            "I can record unresolved conflicts and legal risk"
+          ],
+          "sections": [
+            {
+              "title": "Plan the Research Before Opening Tabs",
+              "body_md": "For a cross-border commercial dispute, list jurisdiction, forum, governing-law clauses, issues and likely primary sources. Separate controlling materials from persuasive comparisons. Begin with the most authoritative source that might resolve each question, then follow cited statutes, cases and regulations to their current versions. An organized plan prevents endless browsing and helps explain why the researcher stopped. It also makes the research reproducible when another lawyer reviews or updates the work.",
+              "example": null,
+              "audio_script": "For a cross-border commercial dispute, list jurisdiction, forum, governing-law clauses, issues and likely primary sources. Separate controlling materials from persuasive comparisons. Begin with the most authoritative source that might resolve each question, then follow cited statutes, cases and regulations to their current versions. An organized plan prevents endless browsing and helps explain why the researcher stopped. It also makes the research reproducible when another lawyer reviews or updates the work.",
+              "video": null
+            },
+            {
+              "title": "Synthesis Needs a Narrow Rule",
+              "body_md": "Several decisions may address similar claims with different facts and procedural postures. Summarizing each separately is not enough. Identify the common legal principle, the distinction each court treated as important, and the unanswered question. Do not stitch quotations together to manufacture a test no court actually adopted. An accurate synthesis shows both the best-supported proposition and the boundaries of its authority. The reader should be able to trace each step without guessing.",
+              "example": null,
+              "audio_script": "Several decisions may address similar claims with different facts and procedural postures. Summarizing each separately is not enough. Identify the common legal principle, the distinction each court treated as important, and the unanswered question. Do not stitch quotations together to manufacture a test no court actually adopted. An accurate synthesis shows both the best-supported proposition and the boundaries of its authority. The reader should be able to trace each step without guessing.",
+              "video": null
+            },
+            {
+              "title": "Record the Negative Case",
+              "body_md": "A lawyer who finds three favorable decisions but omits one controlling adverse decision has produced unreliable research. Adverse authority may be distinguishable, limited or overridden, but it must be examined. State its strongest effect on the proposed conclusion and explain the response supported by law. Where the issue is genuinely unsettled, distinguish possible outcomes and identify what factual or legal development could change the advice. Research excellence is measured by reliable understanding, not citation volume.",
+              "example": null,
+              "audio_script": "A lawyer who finds three favorable decisions but omits one controlling adverse decision has produced unreliable research. Adverse authority may be distinguishable, limited or overridden, but it must be examined. State its strongest effect on the proposed conclusion and explain the response supported by law. Where the issue is genuinely unsettled, distinguish possible outcomes and identify what factual or legal development could change the advice. Research excellence is measured by reliable understanding, not citation volume.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Authority synthesis means integrated rule supported by multiple decisions.",
+              "answer": true,
+              "explanation_if_true": "Authority synthesis means integrated rule supported by multiple decisions.",
+              "explanation_if_false": "Authority synthesis means integrated rule supported by multiple decisions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "Combining favorable sentences from separate cases necessarily produces a binding legal rule.",
+              "answer": false,
+              "explanation_if_true": "A legal synthesis must respect actual holdings and their factual and institutional limits.",
+              "explanation_if_false": "A legal synthesis must respect actual holdings and their factual and institutional limits."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Research protocol?",
+              "choices": [
+                "Integrated rule supported by multiple decisions",
+                "Source materially weakening a proposed position",
+                "Defensible point at which source inquiry is sufficiently complete",
+                "Planned process for locating and validating sources"
+              ],
+              "answer_index": 3,
+              "explanation": "Research protocol means planned process for locating and validating sources."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two relevant appellate decisions conflict, but one addresses interim relief and the other final judgment. What research step matters?",
+              "choices": [
+                "Ignore both cases",
+                "Choose the one with better prose",
+                "Check whether procedural posture explains the apparent conflict",
+                "Assume the shorter decision controls"
+              ],
+              "answer_index": 2,
+              "explanation": "Different legal questions may explain apparently inconsistent holdings."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means source materially weakening a proposed position?",
+              "choices": [
+                "Research cutoff",
+                "Authority synthesis",
+                "Adverse authority",
+                "Research protocol"
+              ],
+              "answer_index": 2,
+              "explanation": "Adverse authority means source materially weakening a proposed position."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Research protocol",
+                  "Planned process for locating and validating sources"
+                ],
+                [
+                  "Authority synthesis",
+                  "Integrated rule supported by multiple decisions"
+                ],
+                [
+                  "Adverse authority",
+                  "Source materially weakening a proposed position"
+                ],
+                [
+                  "Research cutoff",
+                  "Defensible point at which source inquiry is sufficiently complete"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "Planned process for locating and validating sources is called ___.",
+              "answer": "Research protocol",
+              "accept": [
+                "Research protocol"
+              ],
+              "explanation": "The term is Research protocol."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Defensible point at which source inquiry is sufficiently complete is called ___.",
+              "answer": "Research cutoff",
+              "accept": [
+                "Research cutoff"
+              ],
+              "explanation": "The term is Research cutoff."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design research methods for contested and transnational sources",
+          "summary": "At doctoral depth, treat legal research as an epistemic discipline shaped by institutional power, language and access. Develop an audit trail that supports both academic critique and practical responsibility.",
+          "checklist": [
+            "I can critique systematic omissions from legal databases",
+            "I can develop a reproducible transnational source protocol",
+            "I can distinguish authentic sources from misleading or fabricated citations"
+          ],
+          "sections": [
+            {
+              "title": "The Database Is Not the Whole Law",
+              "body_md": "Digitized opinions can privilege higher courts, dominant languages and recent published disputes. Legal practices of communities without extensive formal reporting may be underrepresented. A doctoral legal researcher must identify these selection effects before making general claims about a jurisdiction. Supplement reported cases with statutes, official gazettes, institutional records, scholarship and, when justified, properly conducted empirical inquiry. Absence from a searchable database is not proof that a legal practice does not exist.",
+              "example": null,
+              "audio_script": "Digitized opinions can privilege higher courts, dominant languages and recent published disputes. Legal practices of communities without extensive formal reporting may be underrepresented. A doctoral legal researcher must identify these selection effects before making general claims about a jurisdiction. Supplement reported cases with statutes, official gazettes, institutional records, scholarship and, when justified, properly conducted empirical inquiry. Absence from a searchable database is not proof that a legal practice does not exist.",
+              "video": null
+            },
+            {
+              "title": "Translation Can Change the Rule",
+              "body_md": "A transnational study may compare terms such as good faith, equity, public order or customary law. Their linguistic similarities may conceal different legal tests and histories. A defensible method records the source language, translator, official status and context. It distinguishes an authoritative translation from an explanatory paraphrase, especially when liability depends on a technical term. Intellectual honesty requires admitting when linguistic uncertainty prevents a reliable conclusion and seeking qualified assistance rather than presenting a convenient English rendering as exact.",
+              "example": null,
+              "audio_script": "A transnational study may compare terms such as good faith, equity, public order or customary law. Their linguistic similarities may conceal different legal tests and histories. A defensible method records the source language, translator, official status and context. It distinguishes an authoritative translation from an explanatory paraphrase, especially when liability depends on a technical term. Intellectual honesty requires admitting when linguistic uncertainty prevents a reliable conclusion and seeking qualified assistance rather than presenting a convenient English rendering as exact.",
+              "video": null
+            },
+            {
+              "title": "An Audit-Ready Research Record",
+              "body_md": "A rigorous research report should document the question, search strategy, sources consulted, exclusions, subsequent-treatment checks, date of review and remaining uncertainty. It should distinguish verified quotations from interpretive summaries and disclose the use and verification of automated tools. This is not bureaucratic decoration. It protects clients and scholarly readers from hidden mistakes, fabricated authority and selective evidence. A great lawyer makes conclusions independently examinable because coercive legal decisions deserve more than confidence.",
+              "example": null,
+              "audio_script": "A rigorous research report should document the question, search strategy, sources consulted, exclusions, subsequent-treatment checks, date of review and remaining uncertainty. It should distinguish verified quotations from interpretive summaries and disclose the use and verification of automated tools. This is not bureaucratic decoration. It protects clients and scholarly readers from hidden mistakes, fabricated authority and selective evidence. A great lawyer makes conclusions independently examinable because coercive legal decisions deserve more than confidence.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Authoritative translation means translation legally recognized for a particular purpose.",
+              "answer": true,
+              "explanation_if_true": "Authoritative translation means translation legally recognized for a particular purpose.",
+              "explanation_if_false": "Authoritative translation means translation legally recognized for a particular purpose."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "A source not found in an English-language database cannot be legally important.",
+              "answer": false,
+              "explanation_if_true": "Access and publication biases can exclude relevant laws, practices and decisions.",
+              "explanation_if_false": "Access and publication biases can exclude relevant laws, practices and decisions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Selection bias?",
+              "choices": [
+                "Ability of another researcher to repeat a source search",
+                "Verification of a source's identity and asserted proposition",
+                "Systematic omission or overrepresentation in available sources",
+                "Translation legally recognized for a particular purpose"
+              ],
+              "answer_index": 2,
+              "explanation": "Selection bias means systematic omission or overrepresentation in available sources."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A foreign-law argument depends on one disputed translated term. What should the researcher do?",
+              "choices": [
+                "Treat a machine translation as binding",
+                "Verify authoritative language and translation context",
+                "Choose the shorter English phrase",
+                "Ignore the source language"
+              ],
+              "answer_index": 1,
+              "explanation": "Comparative legal accuracy depends on source authority and faithful meaning."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means ability of another researcher to repeat a source search?",
+              "choices": [
+                "Authoritative translation",
+                "Reproducibility",
+                "Selection bias",
+                "Citation audit"
+              ],
+              "answer_index": 1,
+              "explanation": "Reproducibility means ability of another researcher to repeat a source search."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Selection bias",
+                  "Systematic omission or overrepresentation in available sources"
+                ],
+                [
+                  "Authoritative translation",
+                  "Translation legally recognized for a particular purpose"
+                ],
+                [
+                  "Reproducibility",
+                  "Ability of another researcher to repeat a source search"
+                ],
+                [
+                  "Citation audit",
+                  "Verification of a source's identity and asserted proposition"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Systematic omission or overrepresentation in available sources is called ___.",
+              "answer": "Selection bias",
+              "accept": [
+                "Selection bias"
+              ],
+              "explanation": "The term is Selection bias."
+            },
+            {
+              "id": "PSU-1.5.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Verification of a source's identity and asserted proposition is called ___.",
+              "answer": "Citation audit",
+              "accept": [
+                "Citation audit"
+              ],
+              "explanation": "The term is Citation audit."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

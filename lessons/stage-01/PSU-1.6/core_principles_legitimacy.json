@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Explain legal meaning with reasons people can inspect",
+          "summary": "Interpretation should not mean choosing whatever an official prefers. Learn to connect exact words, context and an applicable source to a conclusion.",
+          "checklist": [
+            "I can state which words require interpretation",
+            "I can show relevant definitions and context",
+            "I can explain the result without relying on personal authority"
+          ],
+          "sections": [
+            {
+              "title": "A Judge Must Give a Reason",
+              "body_md": "A resident asks whether a park rule permits bicycles. A judge's personal dislike of bicycles is not a legal explanation. The judge should identify the rule, definition and relevant context, then explain how those sources apply. The process does not guarantee everyone will agree, but it allows the conclusion to be inspected. This is a basic feature of law as reasoned governance rather than unaccountable personal power.",
+              "example": null,
+              "audio_script": "A resident asks whether a park rule permits bicycles. A judge's personal dislike of bicycles is not a legal explanation. The judge should identify the rule, definition and relevant context, then explain how those sources apply. The process does not guarantee everyone will agree, but it allows the conclusion to be inspected. This is a basic feature of law as reasoned governance rather than unaccountable personal power.",
+              "video": null
+            },
+            {
+              "title": "Fair Notice Matters",
+              "body_md": "People organize their lives around legal language. If a rule is so obscure that ordinary affected persons cannot know what conduct is prohibited, serious fairness questions may arise under the governing legal order. Interpretation can sometimes clarify the text, but it cannot always cure a defect in how the rule was made or communicated. A legal adviser must distinguish the actual interpretive method from a policy argument that the rule should be rewritten.",
+              "example": null,
+              "audio_script": "People organize their lives around legal language. If a rule is so obscure that ordinary affected persons cannot know what conduct is prohibited, serious fairness questions may arise under the governing legal order. Interpretation can sometimes clarify the text, but it cannot always cure a defect in how the rule was made or communicated. A legal adviser must distinguish the actual interpretive method from a policy argument that the rule should be rewritten.",
+              "video": null
+            },
+            {
+              "title": "Speak So the Client Understands",
+              "body_md": "After interpreting a provision, explain what it means for the person's actual choices. Use necessary legal terms but define them in clear language. If more than one plausible reading exists, state the uncertainty and what might resolve it. A great lawyer does not use technical ambiguity to make a frightened client dependent on expertise. The purpose of legal interpretation is to make lawful obligations and protections understandable enough to guide responsible action.",
+              "example": null,
+              "audio_script": "After interpreting a provision, explain what it means for the person's actual choices. Use necessary legal terms but define them in clear language. If more than one plausible reading exists, state the uncertainty and what might resolve it. A great lawyer does not use technical ambiguity to make a frightened client dependent on expertise. The purpose of legal interpretation is to make lawful obligations and protections understandable enough to guide responsible action.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Fair notice means adequate opportunity to understand legal requirements.",
+              "answer": true,
+              "explanation_if_true": "Fair notice means adequate opportunity to understand legal requirements.",
+              "explanation_if_false": "Fair notice means adequate opportunity to understand legal requirements."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "An official may interpret a rule solely according to personal preference without providing legal reasons.",
+              "answer": false,
+              "explanation_if_true": "Interpretation must be grounded in relevant authority and governing methods.",
+              "explanation_if_false": "Interpretation must be grounded in relevant authority and governing methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Reasoned interpretation?",
+              "choices": [
+                "Accurate communication without needless complexity",
+                "Meaning supported by text, context and lawful method",
+                "Adequate opportunity to understand legal requirements",
+                "Decision lacking sufficient lawful justification"
+              ],
+              "answer_index": 1,
+              "explanation": "Reasoned interpretation means meaning supported by text, context and lawful method."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A park officer says a rule means whatever they personally decide each day. What is missing?",
+              "choices": [
+                "Stable lawful reasoning and fair notice",
+                "An additional park sign's color",
+                "A philosophical quotation",
+                "An unrelated treaty"
+              ],
+              "answer_index": 0,
+              "explanation": "Rules governing coercive conduct need reasons people can examine."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means decision lacking sufficient lawful justification?",
+              "choices": [
+                "Arbitrariness",
+                "Reasoned interpretation",
+                "Plain-language explanation",
+                "Fair notice"
+              ],
+              "answer_index": 0,
+              "explanation": "Arbitrariness means decision lacking sufficient lawful justification."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Reasoned interpretation",
+                  "Meaning supported by text, context and lawful method"
+                ],
+                [
+                  "Fair notice",
+                  "Adequate opportunity to understand legal requirements"
+                ],
+                [
+                  "Arbitrariness",
+                  "Decision lacking sufficient lawful justification"
+                ],
+                [
+                  "Plain-language explanation",
+                  "Accurate communication without needless complexity"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Meaning supported by text, context and lawful method is called ___.",
+              "answer": "Reasoned interpretation",
+              "accept": [
+                "Reasoned interpretation"
+              ],
+              "explanation": "The term is Reasoned interpretation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Accurate communication without needless complexity is called ___.",
+              "answer": "Plain-language explanation",
+              "accept": [
+                "Plain-language explanation"
+              ],
+              "explanation": "The term is Plain-language explanation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Recognize interpretation as an exercise of public power",
+          "summary": "Judges, administrators and private arbiters interpret texts within different mandates. Learn why their source of authority matters for the legitimacy of a contested reading.",
+          "checklist": [
+            "I can identify who is authorized to interpret a text",
+            "I can distinguish administrative guidance from a binding judgment",
+            "I can explain why consistency and reasons constrain discretion"
+          ],
+          "sections": [
+            {
+              "title": "Not Every Interpreter Has the Same Role",
+              "body_md": "A regulator publishes guidance about a statute, while a court resolves a dispute over the statute's meaning. The guidance may be useful, but its binding effect depends on the legal system. A private adviser may offer a persuasive explanation without any authority to compel compliance. The reader must ask whose interpretation is controlling and why. This helps prevent public officials, advocates and courts from borrowing each other's authority simply because they use the same legal vocabulary.",
+              "example": null,
+              "audio_script": "A regulator publishes guidance about a statute, while a court resolves a dispute over the statute's meaning. The guidance may be useful, but its binding effect depends on the legal system. A private adviser may offer a persuasive explanation without any authority to compel compliance. The reader must ask whose interpretation is controlling and why. This helps prevent public officials, advocates and courts from borrowing each other's authority simply because they use the same legal vocabulary.",
+              "video": null
+            },
+            {
+              "title": "Consistency Protects Equality",
+              "body_md": "If identical legal language is interpreted differently for similarly situated people without a relevant reason, trust in the legal order can weaken. Precedent, published guidance, review and written reasons can constrain arbitrariness. The details differ by jurisdiction and institution. A sound interpretation should acknowledge earlier authoritative readings and explain justified distinctions or lawful change. Legal consistency does not require ignoring genuine differences in fact or amended law.",
+              "example": null,
+              "audio_script": "If identical legal language is interpreted differently for similarly situated people without a relevant reason, trust in the legal order can weaken. Precedent, published guidance, review and written reasons can constrain arbitrariness. The details differ by jurisdiction and institution. A sound interpretation should acknowledge earlier authoritative readings and explain justified distinctions or lawful change. Legal consistency does not require ignoring genuine differences in fact or amended law.",
+              "video": null
+            },
+            {
+              "title": "Discretion Needs a Boundary",
+              "body_md": "An agency may have discretion to choose among lawful policies, but interpreting a statutory power is not the same as having unrestricted policy freedom. The governing text, procedural conditions and review standards define its mandate. A lawyer should identify where interpretation ends and discretionary decision-making begins. That boundary helps protect individuals from officials who claim the wording authorizes action the law never granted.",
+              "example": null,
+              "audio_script": "An agency may have discretion to choose among lawful policies, but interpreting a statutory power is not the same as having unrestricted policy freedom. The governing text, procedural conditions and review standards define its mandate. A lawyer should identify where interpretation ends and discretionary decision-making begins. That boundary helps protect individuals from officials who claim the wording authorizes action the law never granted.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Administrative guidance means institutional explanation of law's application.",
+              "answer": true,
+              "explanation_if_true": "Administrative guidance means institutional explanation of law's application.",
+              "explanation_if_false": "Administrative guidance means institutional explanation of law's application."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Any administrative leaflet can automatically overrule a binding court interpretation.",
+              "answer": false,
+              "explanation_if_true": "Source hierarchy and institutional authority determine legal effect.",
+              "explanation_if_false": "Source hierarchy and institutional authority determine legal effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Interpretive mandate?",
+              "choices": [
+                "Assigned authority to determine legal meaning",
+                "Institutional explanation of law's application",
+                "Comparable treatment of legally similar cases",
+                "Authorized choice within legal limits"
+              ],
+              "answer_index": 0,
+              "explanation": "Interpretive mandate means assigned authority to determine legal meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency's guidance conflicts with a higher court's binding reading. What must counsel examine?",
+              "choices": [
+                "Only which document is newer",
+                "The agency's logo",
+                "The length of the leaflet",
+                "The authority hierarchy and the guidance's legal status"
+              ],
+              "answer_index": 3,
+              "explanation": "Different interpreters do not possess interchangeable legal power."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means comparable treatment of legally similar cases?",
+              "choices": [
+                "Interpretive mandate",
+                "Discretionary power",
+                "Administrative guidance",
+                "Consistency"
+              ],
+              "answer_index": 3,
+              "explanation": "Consistency means comparable treatment of legally similar cases."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Interpretive mandate",
+                  "Assigned authority to determine legal meaning"
+                ],
+                [
+                  "Administrative guidance",
+                  "Institutional explanation of law's application"
+                ],
+                [
+                  "Consistency",
+                  "Comparable treatment of legally similar cases"
+                ],
+                [
+                  "Discretionary power",
+                  "Authorized choice within legal limits"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Assigned authority to determine legal meaning is called ___.",
+              "answer": "Interpretive mandate",
+              "accept": [
+                "Interpretive mandate"
+              ],
+              "explanation": "The term is Interpretive mandate."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Authorized choice within legal limits is called ___.",
+              "answer": "Discretionary power",
+              "accept": [
+                "Discretionary power"
+              ],
+              "explanation": "The term is Discretionary power."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare interpretation, participation and minority protection",
+          "summary": "Different legal systems allocate interpretive power among courts, legislatures, administrators and communities. Examine when legal meaning can be contested by those whose lives it governs.",
+          "checklist": [
+            "I can compare modes of constitutional and customary interpretation",
+            "I can identify procedural rights of affected persons",
+            "I can analyze the status of nonstate interpretive traditions"
+          ],
+          "sections": [
+            {
+              "title": "Whose Interpretation Counts?",
+              "body_md": "A constitutional court, elected legislature and local customary institution may each articulate a rule affecting family or property relationships. Their legal force is not equal or automatic. A lawyer must identify the recognized sources and any rules governing conflict between them. At the same time, a comparative scholar should investigate how people within each community participate in interpretation. An account that records only the national court may miss the living legal practice it sought to govern.",
+              "example": null,
+              "audio_script": "A constitutional court, elected legislature and local customary institution may each articulate a rule affecting family or property relationships. Their legal force is not equal or automatic. A lawyer must identify the recognized sources and any rules governing conflict between them. At the same time, a comparative scholar should investigate how people within each community participate in interpretation. An account that records only the national court may miss the living legal practice it sought to govern.",
+              "video": null
+            },
+            {
+              "title": "Affected Persons Need a Voice",
+              "body_md": "A rule on public benefits may be interpreted by officials without consulting recipients who understand its effects. Lawful notice, reasons, administrative review and participation can help expose mistaken assumptions. Such safeguards depend on the legal system; they should not be invented where absent. The ethical question nevertheless remains: what institutional arrangements allow affected people to contest the meaning imposed upon them? Interpretation has human consequences because it allocates rights and duties.",
+              "example": null,
+              "audio_script": "A rule on public benefits may be interpreted by officials without consulting recipients who understand its effects. Lawful notice, reasons, administrative review and participation can help expose mistaken assumptions. Such safeguards depend on the legal system; they should not be invented where absent. The ethical question nevertheless remains: what institutional arrangements allow affected people to contest the meaning imposed upon them? Interpretation has human consequences because it allocates rights and duties.",
+              "video": null
+            },
+            {
+              "title": "Sacred Texts Require Respectful Specificity",
+              "body_md": "Religious legal traditions may draw on sacred writings, commentaries, juristic methods and communities of interpretation. Their status within state law varies, as do internal disagreements about meaning. A comparative lawyer should not assume a sacred passage functions like a statute in every jurisdiction or that one commentator speaks for all followers. Accurate analysis distinguishes theological authority, institutional recognition and enforceable positive law, while protecting the rights of persons affected by official interpretations.",
+              "example": null,
+              "audio_script": "Religious legal traditions may draw on sacred writings, commentaries, juristic methods and communities of interpretation. Their status within state law varies, as do internal disagreements about meaning. A comparative lawyer should not assume a sacred passage functions like a statute in every jurisdiction or that one commentator speaks for all followers. Accurate analysis distinguishes theological authority, institutional recognition and enforceable positive law, while protecting the rights of persons affected by official interpretations.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Community authority means rule-making or interpretive power recognized within a group.",
+              "answer": true,
+              "explanation_if_true": "Community authority means rule-making or interpretive power recognized within a group.",
+              "explanation_if_false": "Community authority means rule-making or interpretive power recognized within a group."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "A national court's description exhausts all possible internal interpretations within every living religious or customary tradition.",
+              "answer": false,
+              "explanation_if_true": "Legal communities can contain diverse sources and interpretive practices.",
+              "explanation_if_false": "Legal communities can contain diverse sources and interpretive practices."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Participatory interpretation?",
+              "choices": [
+                "Rule-making or interpretive power recognized within a group",
+                "Determination of meaning under fundamental state law",
+                "Coexistence of distinct legal authorities",
+                "Meaning-making with input from affected persons"
+              ],
+              "answer_index": 3,
+              "explanation": "Participatory interpretation means meaning-making with input from affected persons."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Officials adopt one reading of a customary norm without hearing the community affected. What methodological concern is central?",
+              "choices": [
+                "Too few pages in the judgment",
+                "The date of the courthouse",
+                "Exclusion of relevant interpretive voices",
+                "Not enough Latin"
+              ],
+              "answer_index": 2,
+              "explanation": "Meaning and legitimacy require careful attention to institutions and affected persons."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means determination of meaning under fundamental state law?",
+              "choices": [
+                "Legal pluralism",
+                "Community authority",
+                "Constitutional interpretation",
+                "Participatory interpretation"
+              ],
+              "answer_index": 2,
+              "explanation": "Constitutional interpretation means determination of meaning under fundamental state law."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Participatory interpretation",
+                  "Meaning-making with input from affected persons"
+                ],
+                [
+                  "Community authority",
+                  "Rule-making or interpretive power recognized within a group"
+                ],
+                [
+                  "Constitutional interpretation",
+                  "Determination of meaning under fundamental state law"
+                ],
+                [
+                  "Legal pluralism",
+                  "Coexistence of distinct legal authorities"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Meaning-making with input from affected persons is called ___.",
+              "answer": "Participatory interpretation",
+              "accept": [
+                "Participatory interpretation"
+              ],
+              "explanation": "The term is Participatory interpretation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Coexistence of distinct legal authorities is called ___.",
+              "answer": "Legal pluralism",
+              "accept": [
+                "Legal pluralism"
+              ],
+              "explanation": "The term is Legal pluralism."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend interpretation as legitimate coercive reasoning",
+          "summary": "At doctoral depth, evaluate how legal meaning can be developed without disguising political preferences as textual certainty. Create safeguards against arbitrary interpretation and systematic exclusion.",
+          "checklist": [
+            "I can distinguish lawful development from unauthorized rewriting",
+            "I can evaluate review and participation in interpretive institutions",
+            "I can defend transparent reason-giving under moral disagreement"
+          ],
+          "sections": [
+            {
+              "title": "Meaning Can Be Contested Without Being Fiction",
+              "body_md": "A broadly worded legal guarantee may support more than one plausible application in a new technological setting. A responsible interpreter should identify the semantic possibilities, legal purpose, precedent and institutional mandate. Neither claiming mechanical certainty nor declaring unlimited judicial freedom is satisfactory. A doctoral theory must explain which considerations deserve weight and how a reviewing institution could detect error. Reasoned disagreement is compatible with law when its methods are public and constrained.",
+              "example": null,
+              "audio_script": "A broadly worded legal guarantee may support more than one plausible application in a new technological setting. A responsible interpreter should identify the semantic possibilities, legal purpose, precedent and institutional mandate. Neither claiming mechanical certainty nor declaring unlimited judicial freedom is satisfactory. A doctoral theory must explain which considerations deserve weight and how a reviewing institution could detect error. Reasoned disagreement is compatible with law when its methods are public and constrained.",
+              "video": null
+            },
+            {
+              "title": "Power Can Hide Behind Method",
+              "body_md": "An official may invoke 'original meaning' or 'purpose' to conceal a preferred political outcome while ignoring inconvenient evidence. Any interpretive method can be abused when its assumptions and sources are opaque. Transparent argument should state which texts, contexts and historical materials are accepted, why competing sources are rejected, and what institutional constraints apply. This openness is especially necessary where interpretation affects minority rights, liberty or legal status.",
+              "example": null,
+              "audio_script": "An official may invoke 'original meaning' or 'purpose' to conceal a preferred political outcome while ignoring inconvenient evidence. Any interpretive method can be abused when its assumptions and sources are opaque. Transparent argument should state which texts, contexts and historical materials are accepted, why competing sources are rejected, and what institutional constraints apply. This openness is especially necessary where interpretation affects minority rights, liberty or legal status.",
+              "video": null
+            },
+            {
+              "title": "Make Interpretation Accountable to People",
+              "body_md": "A legal system can protect legitimacy through accessible texts, published reasons, fair hearings, correction procedures and representative participation where appropriate. These safeguards cannot guarantee ideal outcomes, but they help prevent arbitrary exercises of authority. A doctoral scholar should evaluate the trade-off between consistency and needed legal development and specify mechanisms for review. The value of interpretation is measured ultimately by whether law offers intelligible, fair protection to people subject to its power.",
+              "example": null,
+              "audio_script": "A legal system can protect legitimacy through accessible texts, published reasons, fair hearings, correction procedures and representative participation where appropriate. These safeguards cannot guarantee ideal outcomes, but they help prevent arbitrary exercises of authority. A doctoral scholar should evaluate the trade-off between consistency and needed legal development and specify mechanisms for review. The value of interpretation is measured ultimately by whether law offers intelligible, fair protection to people subject to its power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Methodological transparency means disclosure of sources and reasoning rules.",
+              "answer": true,
+              "explanation_if_true": "Methodological transparency means disclosure of sources and reasoning rules.",
+              "explanation_if_false": "Methodological transparency means disclosure of sources and reasoning rules."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "An interpretive method guarantees legitimacy regardless of whether its sources are manipulated.",
+              "answer": false,
+              "explanation_if_true": "Methods require accurate application and public reasons subject to criticism.",
+              "explanation_if_false": "Methods require accurate application and public reasons subject to criticism."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Interpretive legitimacy?",
+              "choices": [
+                "Authorized adaptation of law to new circumstances",
+                "Institutions' duty to explain and answer for decisions",
+                "Justification for assigning enforceable legal meaning",
+                "Disclosure of sources and reasoning rules"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretive legitimacy means justification for assigning enforceable legal meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A judgment invokes purpose but hides competing evidence and the text's limits. What is missing?",
+              "choices": [
+                "A Latin title",
+                "Methodological transparency and reasoned justification",
+                "A longer abstract",
+                "The judge's preferred tradition"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal interpretation earns legitimacy through accountable, inspectable reasons."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means authorized adaptation of law to new circumstances?",
+              "choices": [
+                "Methodological transparency",
+                "Legal development",
+                "Interpretive legitimacy",
+                "Public accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal development means authorized adaptation of law to new circumstances."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Interpretive legitimacy",
+                  "Justification for assigning enforceable legal meaning"
+                ],
+                [
+                  "Methodological transparency",
+                  "Disclosure of sources and reasoning rules"
+                ],
+                [
+                  "Legal development",
+                  "Authorized adaptation of law to new circumstances"
+                ],
+                [
+                  "Public accountability",
+                  "Institutions' duty to explain and answer for decisions"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Justification for assigning enforceable legal meaning is called ___.",
+              "answer": "Interpretive legitimacy",
+              "accept": [
+                "Interpretive legitimacy"
+              ],
+              "explanation": "The term is Interpretive legitimacy."
+            },
+            {
+              "id": "PSU-1.6.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Institutions' duty to explain and answer for decisions is called ___.",
+              "answer": "Public accountability",
+              "accept": [
+                "Public accountability"
+              ],
+              "explanation": "The term is Public accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Translate conditional rules into clear reasoning",
+          "summary": "Many duties operate only when specified facts exist. Learn the logical difference between a necessary condition and a sufficient condition in legal language.",
+          "checklist": [
+            "I can identify an if-then rule",
+            "I can distinguish necessary and sufficient conditions",
+            "I can avoid reversing a conditional statement"
+          ],
+          "sections": [
+            {
+              "title": "Read the Direction of a Rule",
+              "body_md": "A law says, 'If a company stores personal data, it must follow specified security rules.' That tells us a condition triggering duties for covered companies. It does not tell us that only those companies have any security duties under all laws. The implication has a direction: when the condition is satisfied, a specified result follows under the law. A beginner should write both parts explicitly and avoid inventing the reverse proposition.",
+              "example": null,
+              "audio_script": "A law says, 'If a company stores personal data, it must follow specified security rules.' That tells us a condition triggering duties for covered companies. It does not tell us that only those companies have any security duties under all laws. The implication has a direction: when the condition is satisfied, a specified result follows under the law. A beginner should write both parts explicitly and avoid inventing the reverse proposition.",
+              "video": null
+            },
+            {
+              "title": "Necessary and Sufficient",
+              "body_md": "A sufficient condition is enough to trigger a consequence under a given rule; a necessary condition must be present for that consequence to follow under the stated framework. A valid permit may be necessary to operate a regulated service, but having a permit may not be sufficient if other duties remain. The difference can decide whether a legal argument is valid. A careful lawyer asks whether the proposed fact is required, enough by itself, or merely relevant.",
+              "example": null,
+              "audio_script": "A sufficient condition is enough to trigger a consequence under a given rule; a necessary condition must be present for that consequence to follow under the stated framework. A valid permit may be necessary to operate a regulated service, but having a permit may not be sufficient if other duties remain. The difference can decide whether a legal argument is valid. A careful lawyer asks whether the proposed fact is required, enough by itself, or merely relevant.",
+              "video": null
+            },
+            {
+              "title": "Exceptions Need Their Own Place",
+              "body_md": "An ordinance may state a general duty and then exempt emergency services. If the exception applies, the conclusion changes. The reasoning is not inconsistent; the premise was incomplete without the exemption. A legal analyst should list the duty's trigger, required behavior, exclusions and consequences. This structure makes complex provisions understandable without sacrificing accuracy. It also prevents an advocate from imposing a duty on someone the rule explicitly excludes.",
+              "example": null,
+              "audio_script": "An ordinance may state a general duty and then exempt emergency services. If the exception applies, the conclusion changes. The reasoning is not inconsistent; the premise was incomplete without the exemption. A legal analyst should list the duty's trigger, required behavior, exclusions and consequences. This structure makes complex provisions understandable without sacrificing accuracy. It also prevents an advocate from imposing a duty on someone the rule explicitly excludes.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Necessary condition means requirement without which a result cannot hold.",
+              "answer": true,
+              "explanation_if_true": "Necessary condition means requirement without which a result cannot hold.",
+              "explanation_if_false": "Necessary condition means requirement without which a result cannot hold."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "If a fact is sufficient for liability, it must also be necessary in every possible case.",
+              "answer": false,
+              "explanation_if_true": "Sufficient and necessary conditions are distinct logical relations.",
+              "explanation_if_false": "Sufficient and necessary conditions are distinct logical relations."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Conditional rule?",
+              "choices": [
+                "Defined circumstance preventing a general rule's application",
+                "Statement linking a trigger to a legal consequence",
+                "Requirement without which a result cannot hold",
+                "Condition enough to bring about a specified result"
+              ],
+              "answer_index": 1,
+              "explanation": "Conditional rule means statement linking a trigger to a legal consequence."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A permit is required to operate, but other safety rules also apply. What is true?",
+              "choices": [
+                "The permit is necessary but may not be sufficient",
+                "The permit eliminates every duty",
+                "Safety rules cannot apply",
+                "Every permit automatically expires"
+              ],
+              "answer_index": 0,
+              "explanation": "Meeting one necessary requirement need not satisfy all others."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means condition enough to bring about a specified result?",
+              "choices": [
+                "Sufficient condition",
+                "Conditional rule",
+                "Exception",
+                "Necessary condition"
+              ],
+              "answer_index": 0,
+              "explanation": "Sufficient condition means condition enough to bring about a specified result."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Conditional rule",
+                  "Statement linking a trigger to a legal consequence"
+                ],
+                [
+                  "Necessary condition",
+                  "Requirement without which a result cannot hold"
+                ],
+                [
+                  "Sufficient condition",
+                  "Condition enough to bring about a specified result"
+                ],
+                [
+                  "Exception",
+                  "Defined circumstance preventing a general rule's application"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Statement linking a trigger to a legal consequence is called ___.",
+              "answer": "Conditional rule",
+              "accept": [
+                "Conditional rule"
+              ],
+              "explanation": "The term is Conditional rule."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Defined circumstance preventing a general rule's application is called ___.",
+              "answer": "Exception",
+              "accept": [
+                "Exception"
+              ],
+              "explanation": "The term is Exception."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Recognize quantifier errors in legal rules",
+          "summary": "Words such as all, some, only and unless can determine whether a conclusion follows. Learn how broad generalizations fail when a legal condition has been overlooked.",
+          "checklist": [
+            "I can distinguish universal from existential claims",
+            "I can recognize overgeneralization",
+            "I can translate an only-if clause correctly"
+          ],
+          "sections": [
+            {
+              "title": "All and Some Are Not Interchangeable",
+              "body_md": "A rule might protect all qualifying consumers who purchased defective products. It does not follow that every person who bought any product qualifies. The quantifier all applies within the defined class, not to the entire population. A legal analysis should identify the relevant set, its defining conditions and any exclusions. A tiny shift from 'all eligible applicants' to 'all applicants' can turn a true statute summary into false advice.",
+              "example": null,
+              "audio_script": "A rule might protect all qualifying consumers who purchased defective products. It does not follow that every person who bought any product qualifies. The quantifier all applies within the defined class, not to the entire population. A legal analysis should identify the relevant set, its defining conditions and any exclusions. A tiny shift from 'all eligible applicants' to 'all applicants' can turn a true statute summary into false advice.",
+              "video": null
+            },
+            {
+              "title": "Only If Points to Necessity",
+              "body_md": "If a statute says a benefit is available only if the applicant is resident, residency is a necessary condition. It does not by itself prove that every resident receives the benefit; further conditions may apply. This is a common logical mistake in arguments about eligibility and entitlement. Rewrite the sentence explicitly before applying it. Careful attention to only if and if reduces avoidable errors in rules involving multiple requirements.",
+              "example": null,
+              "audio_script": "If a statute says a benefit is available only if the applicant is resident, residency is a necessary condition. It does not by itself prove that every resident receives the benefit; further conditions may apply. This is a common logical mistake in arguments about eligibility and entitlement. Rewrite the sentence explicitly before applying it. Careful attention to only if and if reduces avoidable errors in rules involving multiple requirements.",
+              "video": null
+            },
+            {
+              "title": "One Counterexample Matters",
+              "body_md": "A claim that 'courts always award damages after any breach' can be defeated by a valid example where a remedy is legally unavailable. Some arguments need only one counterexample to refute an overly broad universal statement. Other claims concern probabilities and require a different kind of evidence. The lawyer should identify the logical form before searching for proof. This avoids treating a single anecdote as conclusive about a statistical trend or ignoring a genuine exception to a universal rule.",
+              "example": null,
+              "audio_script": "A claim that 'courts always award damages after any breach' can be defeated by a valid example where a remedy is legally unavailable. Some arguments need only one counterexample to refute an overly broad universal statement. Other claims concern probabilities and require a different kind of evidence. The lawyer should identify the logical form before searching for proof. This avoids treating a single anecdote as conclusive about a statistical trend or ignoring a genuine exception to a universal rule.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Existential quantifier means claim that at least one qualifying instance exists.",
+              "answer": true,
+              "explanation_if_true": "Existential quantifier means claim that at least one qualifying instance exists.",
+              "explanation_if_false": "Existential quantifier means claim that at least one qualifying instance exists."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "A statute saying 'only residents qualify' proves all residents qualify.",
+              "answer": false,
+              "explanation_if_true": "Residency is necessary but may not be sufficient.",
+              "explanation_if_false": "Residency is necessary but may not be sufficient."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Universal quantifier?",
+              "choices": [
+                "Claim applying to every member of a defined set",
+                "Claim that at least one qualifying instance exists",
+                "Statement identifying a necessary requirement",
+                "Instance refuting an overbroad universal claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Universal quantifier means claim applying to every member of a defined set."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Eligibility requires residency and a qualifying income. A person proves only residency. What is missing?",
+              "choices": [
+                "Any logical need for evidence",
+                "A universal entitlement",
+                "A legal definition of person",
+                "The additional income condition"
+              ],
+              "answer_index": 3,
+              "explanation": "One necessary condition alone does not establish the entire entitlement."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means statement identifying a necessary requirement?",
+              "choices": [
+                "Universal quantifier",
+                "Counterexample",
+                "Existential quantifier",
+                "Only-if condition"
+              ],
+              "answer_index": 3,
+              "explanation": "Only-if condition means statement identifying a necessary requirement."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Universal quantifier",
+                  "Claim applying to every member of a defined set"
+                ],
+                [
+                  "Existential quantifier",
+                  "Claim that at least one qualifying instance exists"
+                ],
+                [
+                  "Only-if condition",
+                  "Statement identifying a necessary requirement"
+                ],
+                [
+                  "Counterexample",
+                  "Instance refuting an overbroad universal claim"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Claim applying to every member of a defined set is called ___.",
+              "answer": "Universal quantifier",
+              "accept": [
+                "Universal quantifier"
+              ],
+              "explanation": "The term is Universal quantifier."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Instance refuting an overbroad universal claim is called ___.",
+              "answer": "Counterexample",
+              "accept": [
+                "Counterexample"
+              ],
+              "explanation": "The term is Counterexample."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Model complex duties with exceptions and rule conflicts",
+          "summary": "Advanced legal arguments often involve rules that apply generally but yield to narrower provisions. Analyze defeasible conditions and priority without treating legal interpretation as an automatic calculation.",
+          "checklist": [
+            "I can identify general rule and specific exception",
+            "I can recognize apparent conflicts between duties",
+            "I can explain where the legal system supplies priority rules"
+          ],
+          "sections": [
+            {
+              "title": "A General Duty May Be Defeated",
+              "body_md": "A professional must ordinarily preserve client confidentiality, but applicable law may authorize or require disclosure in specifically defined circumstances. The initial duty remains meaningful while its application changes when the exception's elements are proved. Defeasible reasoning makes this explicit: a conclusion holds unless a legally recognized defeater applies. A lawyer must identify the actual source and scope of any exception rather than infer one from moral intuition.",
+              "example": null,
+              "audio_script": "A professional must ordinarily preserve client confidentiality, but applicable law may authorize or require disclosure in specifically defined circumstances. The initial duty remains meaningful while its application changes when the exception's elements are proved. Defeasible reasoning makes this explicit: a conclusion holds unless a legally recognized defeater applies. A lawyer must identify the actual source and scope of any exception rather than infer one from moral intuition.",
+              "video": null
+            },
+            {
+              "title": "Rules Can Appear to Conflict",
+              "body_md": "A public body may face a general disclosure duty alongside a specific statute protecting certain records. Depending on the jurisdiction, a valid rule may give the specific protection priority, or other conflict rules may apply. The argument must identify hierarchy, timing, specificity and any controlling precedent. These are legal source questions, not merely mathematical contradictions. The best analysis demonstrates why the legal order selects one duty or reconciles them.",
+              "example": null,
+              "audio_script": "A public body may face a general disclosure duty alongside a specific statute protecting certain records. Depending on the jurisdiction, a valid rule may give the specific protection priority, or other conflict rules may apply. The argument must identify hierarchy, timing, specificity and any controlling precedent. These are legal source questions, not merely mathematical contradictions. The best analysis demonstrates why the legal order selects one duty or reconciles them.",
+              "video": null
+            },
+            {
+              "title": "Burden of Proof Is Part of the Structure",
+              "body_md": "Some exceptions must be raised by a respondent; others form part of what a claimant must establish. Those procedural allocations vary. A formal logical model can show how an exception changes the conclusion but cannot decide who bears the burden without legal authority. An advanced lawyer maps the duty's conditions, the exception's elements, the evidence and the procedural rule. This yields a more accurate prediction than either a rigid slogan or an unstructured plea for fairness.",
+              "example": null,
+              "audio_script": "Some exceptions must be raised by a respondent; others form part of what a claimant must establish. Those procedural allocations vary. A formal logical model can show how an exception changes the conclusion but cannot decide who bears the burden without legal authority. An advanced lawyer maps the duty's conditions, the exception's elements, the evidence and the procedural rule. This yields a more accurate prediction than either a rigid slogan or an unstructured plea for fairness.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Specific exception means narrow rule limiting a general obligation.",
+              "answer": true,
+              "explanation_if_true": "Specific exception means narrow rule limiting a general obligation.",
+              "explanation_if_false": "Specific exception means narrow rule limiting a general obligation."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "A logically convenient exception may be invented whenever the general duty seems burdensome.",
+              "answer": false,
+              "explanation_if_true": "Exceptions and rule priorities require recognized legal sources.",
+              "explanation_if_false": "Exceptions and rule priorities require recognized legal sources."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Defeater?",
+              "choices": [
+                "Narrow rule limiting a general obligation",
+                "Legal rule resolving competing norms",
+                "Assignment of responsibility for establishing facts",
+                "Legally relevant fact preventing an ordinary inference"
+              ],
+              "answer_index": 3,
+              "explanation": "Defeater means legally relevant fact preventing an ordinary inference."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A general records-disclosure rule conflicts with a specific privacy statute. What must counsel identify?",
+              "choices": [
+                "Only the records' page count",
+                "A desire to disclose quickly",
+                "The governing hierarchy and exception rules",
+                "The judge's favorite philosophy"
+              ],
+              "answer_index": 2,
+              "explanation": "Legal priority cannot be resolved solely by preference."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal rule resolving competing norms?",
+              "choices": [
+                "Proof allocation",
+                "Specific exception",
+                "Priority rule",
+                "Defeater"
+              ],
+              "answer_index": 2,
+              "explanation": "Priority rule means legal rule resolving competing norms."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Defeater",
+                  "Legally relevant fact preventing an ordinary inference"
+                ],
+                [
+                  "Specific exception",
+                  "Narrow rule limiting a general obligation"
+                ],
+                [
+                  "Priority rule",
+                  "Legal rule resolving competing norms"
+                ],
+                [
+                  "Proof allocation",
+                  "Assignment of responsibility for establishing facts"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Legally relevant fact preventing an ordinary inference is called ___.",
+              "answer": "Defeater",
+              "accept": [
+                "Defeater"
+              ],
+              "explanation": "The term is Defeater."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Assignment of responsibility for establishing facts is called ___.",
+              "answer": "Proof allocation",
+              "accept": [
+                "Proof allocation"
+              ],
+              "explanation": "The term is Proof allocation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique automation of duty reasoning under contested premises",
+          "summary": "At doctoral depth, examine the promise and risk of formal rule engines for complex legal duties. Design systems that distinguish certain rules, contested interpretations and human decisions.",
+          "checklist": [
+            "I can model defeasible rules without false certainty",
+            "I can evaluate hidden assumptions in automated compliance",
+            "I can propose accountable human review of conflicts"
+          ],
+          "sections": [
+            {
+              "title": "Code Can Follow a Bad Rule Perfectly",
+              "body_md": "An automated benefits system may deny an application because it treats one supporting document as mandatory when the statute permits alternatives. The software's internal logic might be flawless, but its legal premise is wrong. A doctoral analyst must distinguish computational correctness from correct interpretation and authority. Every rule should be traceable to an authentic source and version, with exceptions represented explicitly. People affected need a meaningful route to challenge both data and legal meaning.",
+              "example": null,
+              "audio_script": "An automated benefits system may deny an application because it treats one supporting document as mandatory when the statute permits alternatives. The software's internal logic might be flawless, but its legal premise is wrong. A doctoral analyst must distinguish computational correctness from correct interpretation and authority. Every rule should be traceable to an authentic source and version, with exceptions represented explicitly. People affected need a meaningful route to challenge both data and legal meaning.",
+              "video": null
+            },
+            {
+              "title": "Conflict Resolution Needs Legitimacy",
+              "body_md": "Two obligations may genuinely compete: confidentiality and disclosure, security and expression, administrative efficiency and individualized hearing. A programmed priority cannot simply be the designer's moral preference. The legal system may provide hierarchy, proportionality, explicit exceptions or discretionary judgment. A well-designed rule engine should flag unresolved conflicts for qualified review rather than silently select one. This reduces the risk that an opaque tool assumes powers no institution lawfully granted it.",
+              "example": null,
+              "audio_script": "Two obligations may genuinely compete: confidentiality and disclosure, security and expression, administrative efficiency and individualized hearing. A programmed priority cannot simply be the designer's moral preference. The legal system may provide hierarchy, proportionality, explicit exceptions or discretionary judgment. A well-designed rule engine should flag unresolved conflicts for qualified review rather than silently select one. This reduces the risk that an opaque tool assumes powers no institution lawfully granted it.",
+              "video": null
+            },
+            {
+              "title": "Human Review Must Be Real",
+              "body_md": "A nominal appeals button does little if reviewers cannot see the rule, evidence or machine reasoning that produced a decision. A robust design needs versioned legal sources, transparent reasons, review procedures and correction of recurring errors. It must protect personal data and avoid making vulnerable users prove that an inaccessible algorithm is wrong. The goal is not to reject automation but to place it within accountable legal institutions that respect dignity, accuracy and the right to be heard.",
+              "example": null,
+              "audio_script": "A nominal appeals button does little if reviewers cannot see the rule, evidence or machine reasoning that produced a decision. A robust design needs versioned legal sources, transparent reasons, review procedures and correction of recurring errors. It must protect personal data and avoid making vulnerable users prove that an inaccessible algorithm is wrong. The goal is not to reject automation but to place it within accountable legal institutions that respect dignity, accuracy and the right to be heard.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Legal provenance means traceability of a rule to its authentic source.",
+              "answer": true,
+              "explanation_if_true": "Legal provenance means traceability of a rule to its authentic source.",
+              "explanation_if_false": "Legal provenance means traceability of a rule to its authentic source."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "A technically correct computer output necessarily reflects a lawful interpretation of every underlying statute.",
+              "answer": false,
+              "explanation_if_true": "The encoded rule may be incomplete, outdated or legally mistaken.",
+              "explanation_if_false": "The encoded rule may be incomplete, outdated or legally mistaken."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Rule engine?",
+              "choices": [
+                "Referral of unresolved rule tensions for review",
+                "Ability to challenge evidence, reasons or outcome",
+                "System applying encoded conditions to facts",
+                "Traceability of a rule to its authentic source"
+              ],
+              "answer_index": 2,
+              "explanation": "Rule engine means system applying encoded conditions to facts."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A benefits tool ignores a statutory alternative to a required document. What should an audit target?",
+              "choices": [
+                "How long the code file is",
+                "The legal premise and omitted exception",
+                "Only processing speed",
+                "The user's browser theme"
+              ],
+              "answer_index": 1,
+              "explanation": "Algorithmic precision cannot compensate for an incorrect rule."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means referral of unresolved rule tensions for review?",
+              "choices": [
+                "Legal provenance",
+                "Conflict escalation",
+                "Rule engine",
+                "Contestability"
+              ],
+              "answer_index": 1,
+              "explanation": "Conflict escalation means referral of unresolved rule tensions for review."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match each logical or legal concept.",
+              "pairs": [
+                [
+                  "Rule engine",
+                  "System applying encoded conditions to facts"
+                ],
+                [
+                  "Legal provenance",
+                  "Traceability of a rule to its authentic source"
+                ],
+                [
+                  "Conflict escalation",
+                  "Referral of unresolved rule tensions for review"
+                ],
+                [
+                  "Contestability",
+                  "Ability to challenge evidence, reasons or outcome"
+                ]
+              ],
+              "explanation": "A persuasive argument must also be valid and evidence-based."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "System applying encoded conditions to facts is called ___.",
+              "answer": "Rule engine",
+              "accept": [
+                "Rule engine"
+              ],
+              "explanation": "The term is Rule engine."
+            },
+            {
+              "id": "PSU-1.8.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Ability to challenge evidence, reasons or outcome is called ___.",
+              "answer": "Contestability",
+              "accept": [
+                "Contestability"
+              ],
+              "explanation": "The term is Contestability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Reason from events to consequences without assuming cause",
+          "summary": "Lawyers must distinguish an event happening before another from an event producing it. Learn a simple counterfactual question while recognizing its limits.",
+          "checklist": [
+            "I can explain why sequence does not prove cause",
+            "I can ask what would happen without the alleged act",
+            "I can identify alternative causes worth investigating"
+          ],
+          "sections": [
+            {
+              "title": "Before Is Not Because",
+              "body_md": "A patient takes a medicine and develops a rash the next day. The timing may raise a question, but does not establish cause. Other medicines, illness, allergies, or unrelated events could contribute. Legal reasoning begins by identifying the alleged causal link and asking what evidence supports it. A timeline is useful, but it is not a conclusion. This is why a lawyer should carefully distinguish a suspicious sequence from the factual connection a legal claim requires.",
+              "example": null,
+              "audio_script": "A patient takes a medicine and develops a rash the next day. The timing may raise a question, but does not establish cause. Other medicines, illness, allergies, or unrelated events could contribute. Legal reasoning begins by identifying the alleged causal link and asking what evidence supports it. A timeline is useful, but it is not a conclusion. This is why a lawyer should carefully distinguish a suspicious sequence from the factual connection a legal claim requires.",
+              "video": null
+            },
+            {
+              "title": "The Counterfactual Question",
+              "body_md": "Imagine a driver runs a red light and collides with another car. Ask whether the crash would likely have happened without the violation. This is a simple counterfactual: compare the actual world with a carefully defined alternative. The question can clarify ordinary causation, but the result depends on reliable evidence about movement, timing, and other drivers. The legal system may also ask whether the kind of injury falls within the scope of the rule.",
+              "example": null,
+              "audio_script": "Imagine a driver runs a red light and collides with another car. Ask whether the crash would likely have happened without the violation. This is a simple counterfactual: compare the actual world with a carefully defined alternative. The question can clarify ordinary causation, but the result depends on reliable evidence about movement, timing, and other drivers. The legal system may also ask whether the kind of injury falls within the scope of the rule.",
+              "video": null
+            },
+            {
+              "title": "Investigate Other Causes",
+              "body_md": "A building collapse may involve weak construction, an earthquake and poor maintenance. A useful analysis identifies each candidate cause instead of choosing the most dramatic. Evidence can include engineering reports, inspection records and witness accounts. Different legal tests may handle multiple contributors in different ways. The first skill is humility: say which link is established, which remains only plausible, and which fact would help distinguish the alternatives.",
+              "example": null,
+              "audio_script": "A building collapse may involve weak construction, an earthquake and poor maintenance. A useful analysis identifies each candidate cause instead of choosing the most dramatic. Evidence can include engineering reports, inspection records and witness accounts. Different legal tests may handle multiple contributors in different ways. The first skill is humility: say which link is established, which remains only plausible, and which fact would help distinguish the alternatives.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Counterfactual means comparison with what would happen without an event.",
+              "answer": true,
+              "explanation_if_true": "Counterfactual means comparison with what would happen without an event.",
+              "explanation_if_false": "Counterfactual means comparison with what would happen without an event."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "If two events occur close together, the first necessarily caused the second.",
+              "answer": false,
+              "explanation_if_true": "Temporal proximity alone does not establish causation.",
+              "explanation_if_false": "Temporal proximity alone does not establish causation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Causal inference?",
+              "choices": [
+                "Ordered sequence of events",
+                "Reasoned conclusion that one event produced another",
+                "Comparison with what would happen without an event",
+                "Another candidate explanation for a result"
+              ],
+              "answer_index": 1,
+              "explanation": "Causal inference means reasoned conclusion that one event produced another."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A rash develops after a new medicine while a second medication also changed. What is the sound first step?",
+              "choices": [
+                "Investigate alternative causal explanations",
+                "Assume the new medicine is solely responsible",
+                "Ignore the timing",
+                "Conclude no cause exists"
+              ],
+              "answer_index": 0,
+              "explanation": "A causal account must consider evidence supporting and challenging the proposed link."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means another candidate explanation for a result?",
+              "choices": [
+                "Alternative cause",
+                "Causal inference",
+                "Chronology",
+                "Counterfactual"
+              ],
+              "answer_index": 0,
+              "explanation": "Alternative cause means another candidate explanation for a result."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Causal inference",
+                  "Reasoned conclusion that one event produced another"
+                ],
+                [
+                  "Counterfactual",
+                  "Comparison with what would happen without an event"
+                ],
+                [
+                  "Alternative cause",
+                  "Another candidate explanation for a result"
+                ],
+                [
+                  "Chronology",
+                  "Ordered sequence of events"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Reasoned conclusion that one event produced another is called ___.",
+              "answer": "Causal inference",
+              "accept": [
+                "Causal inference"
+              ],
+              "explanation": "The term is Causal inference."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Ordered sequence of events is called ___.",
+              "answer": "Chronology",
+              "accept": [
+                "Chronology"
+              ],
+              "explanation": "The term is Chronology."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Separate factual causation from scope of legal responsibility",
+          "summary": "Use counterfactual reasoning carefully while identifying the distinct legal limits on attributing consequences. Learn why proving a physical chain does not automatically establish liability.",
+          "checklist": [
+            "I can analyze a simple but-for inquiry",
+            "I can recognize multiple-cause difficulties",
+            "I can distinguish causation from remoteness or scope"
+          ],
+          "sections": [
+            {
+              "title": "What Would Have Happened Otherwise?",
+              "body_md": "A contractor fails to secure scaffolding, and it falls during ordinary winds. The factual question is whether the injury would have occurred without that failure. Evidence about wind speed, securing methods and the structure matters. A but-for question is useful here, but not sufficient for every kind of case. If several independent negligent actions were each sufficient, a simplistic counterfactual test might yield a misleading answer. Courts and legislation may provide special approaches.",
+              "example": null,
+              "audio_script": "A contractor fails to secure scaffolding, and it falls during ordinary winds. The factual question is whether the injury would have occurred without that failure. Evidence about wind speed, securing methods and the structure matters. A but-for question is useful here, but not sufficient for every kind of case. If several independent negligent actions were each sufficient, a simplistic counterfactual test might yield a misleading answer. Courts and legislation may provide special approaches.",
+              "video": null
+            },
+            {
+              "title": "Causation and Scope Are Separate",
+              "body_md": "Even a proven physical connection may not lead to liability for every later consequence. A legal rule can limit responsibility to particular kinds of harm, protected interests or foreseeable consequences. Different jurisdictions describe this through remoteness, proximate cause, scope of duty, or other standards. A careful lawyer applies the relevant legal doctrine rather than treating factual science as a complete answer to legal responsibility. The point is to avoid hiding normative judgments inside the word cause.",
+              "example": null,
+              "audio_script": "Even a proven physical connection may not lead to liability for every later consequence. A legal rule can limit responsibility to particular kinds of harm, protected interests or foreseeable consequences. Different jurisdictions describe this through remoteness, proximate cause, scope of duty, or other standards. A careful lawyer applies the relevant legal doctrine rather than treating factual science as a complete answer to legal responsibility. The point is to avoid hiding normative judgments inside the word cause.",
+              "video": null
+            },
+            {
+              "title": "Show Each Link in the Argument",
+              "body_md": "An effective causation paragraph states the alleged conduct, outcome, evidence connecting them, and the most plausible alternative explanation. It then applies any distinct legal-scope requirement. If a step is uncertain, say so and identify the evidence required. This structure makes the logic inspectable by the client and court. A confident conclusion without its causal links may sound persuasive but gives the reader no reason to trust it.",
+              "example": null,
+              "audio_script": "An effective causation paragraph states the alleged conduct, outcome, evidence connecting them, and the most plausible alternative explanation. It then applies any distinct legal-scope requirement. If a step is uncertain, say so and identify the evidence required. This structure makes the logic inspectable by the client and court. A confident conclusion without its causal links may sound persuasive but gives the reader no reason to trust it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Multiple sufficient causes means independent contributions each capable of producing an outcome.",
+              "answer": true,
+              "explanation_if_true": "Multiple sufficient causes means independent contributions each capable of producing an outcome.",
+              "explanation_if_false": "Multiple sufficient causes means independent contributions each capable of producing an outcome."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "Proving factual cause always establishes liability for every later loss.",
+              "answer": false,
+              "explanation_if_true": "Legal scope and remoteness requirements can limit which losses are attributable.",
+              "explanation_if_false": "Legal scope and remoteness requirements can limit which losses are attributable."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes But-for test?",
+              "choices": [
+                "Whether an outcome would happen absent a particular event",
+                "Independent contributions each capable of producing an outcome",
+                "Legal limit on attributable consequences",
+                "Sequence of connected events leading to a result"
+              ],
+              "answer_index": 0,
+              "explanation": "But-for test means whether an outcome would happen absent a particular event."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Two independent fires would each have destroyed a building. What complicates ordinary but-for reasoning?",
+              "choices": [
+                "Only the cost of paint",
+                "The owner has one building",
+                "The fires were recorded",
+                "Multiple sufficient causes"
+              ],
+              "answer_index": 3,
+              "explanation": "Each fire may not be individually necessary even though each was sufficient."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal limit on attributable consequences?",
+              "choices": [
+                "But-for test",
+                "Causal chain",
+                "Multiple sufficient causes",
+                "Remoteness"
+              ],
+              "answer_index": 3,
+              "explanation": "Remoteness means legal limit on attributable consequences."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "But-for test",
+                  "Whether an outcome would happen absent a particular event"
+                ],
+                [
+                  "Multiple sufficient causes",
+                  "Independent contributions each capable of producing an outcome"
+                ],
+                [
+                  "Remoteness",
+                  "Legal limit on attributable consequences"
+                ],
+                [
+                  "Causal chain",
+                  "Sequence of connected events leading to a result"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Whether an outcome would happen absent a particular event is called ___.",
+              "answer": "But-for test",
+              "accept": [
+                "But-for test"
+              ],
+              "explanation": "The term is But-for test."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Sequence of connected events leading to a result is called ___.",
+              "answer": "Causal chain",
+              "accept": [
+                "Causal chain"
+              ],
+              "explanation": "The term is Causal chain."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare competing causal explanations under uncertainty",
+          "summary": "Analyze statistical and testimonial proof without confusing association with individual causation. Use probability responsibly within the tribunal's evidentiary standard.",
+          "checklist": [
+            "I can distinguish association from causation",
+            "I can analyze bias and confounding in causal evidence",
+            "I can explain the legal role of expert testimony"
+          ],
+          "sections": [
+            {
+              "title": "Association Is a Starting Point",
+              "body_md": "A study finds that workers at a plant have higher rates of a disease. That association may suggest exposure matters, but other variables such as age, smoking, work history, and measurement quality could explain part of the pattern. Causal research tests whether the relationship persists under suitable controls. A legal analyst should ask what exposure was measured, how outcomes were defined, and whether the study supports general or individual causation. Statistics do not relieve counsel of those questions.",
+              "example": null,
+              "audio_script": "A study finds that workers at a plant have higher rates of a disease. That association may suggest exposure matters, but other variables such as age, smoking, work history, and measurement quality could explain part of the pattern. Causal research tests whether the relationship persists under suitable controls. A legal analyst should ask what exposure was measured, how outcomes were defined, and whether the study supports general or individual causation. Statistics do not relieve counsel of those questions.",
+              "video": null
+            },
+            {
+              "title": "Experts Do Not Decide the Law",
+              "body_md": "An expert can explain scientific methods and likely causal mechanisms, while the legal decision maker applies the evidentiary burden and substantive rules. The court may test expert reliability, qualifications and relevance under jurisdiction-specific standards. A lawyer who quotes an expert's probability without explaining what it measures can mislead the reader. The careful approach separates the expert's inference, its uncertainty, the facts particular to the claimant, and the legal conclusion drawn from all admissible evidence.",
+              "example": null,
+              "audio_script": "An expert can explain scientific methods and likely causal mechanisms, while the legal decision maker applies the evidentiary burden and substantive rules. The court may test expert reliability, qualifications and relevance under jurisdiction-specific standards. A lawyer who quotes an expert's probability without explaining what it measures can mislead the reader. The careful approach separates the expert's inference, its uncertainty, the facts particular to the claimant, and the legal conclusion drawn from all admissible evidence.",
+              "video": null
+            },
+            {
+              "title": "Reason Through Alternatives",
+              "body_md": "Suppose multiple possible exposures might explain an injury. List them, identify what each predicts, and ask which records could distinguish them. A strong argument does not need to pretend alternative causes are impossible. It shows why the total evidence satisfies or fails to satisfy the applicable standard despite those alternatives. Where proof remains incomplete, report the uncertainty in ordinary language. Such candor is especially important when a client's health or livelihood depends on the conclusion.",
+              "example": null,
+              "audio_script": "Suppose multiple possible exposures might explain an injury. List them, identify what each predicts, and ask which records could distinguish them. A strong argument does not need to pretend alternative causes are impossible. It shows why the total evidence satisfies or fails to satisfy the applicable standard despite those alternatives. Where proof remains incomplete, report the uncertainty in ordinary language. Such candor is especially important when a client's health or livelihood depends on the conclusion.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Association means statistical relationship not necessarily causal.",
+              "answer": true,
+              "explanation_if_true": "Association means statistical relationship not necessarily causal.",
+              "explanation_if_false": "Association means statistical relationship not necessarily causal."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "A statistically significant association necessarily proves the cause of every individual's illness.",
+              "answer": false,
+              "explanation_if_true": "Association does not by itself establish a causal mechanism or specific causation.",
+              "explanation_if_false": "Association does not by itself establish a causal mechanism or specific causation."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Confounder?",
+              "choices": [
+                "Statistical relationship not necessarily causal",
+                "Specialized opinion used under procedural rules",
+                "Whether an exposure can produce a type of injury",
+                "Variable affecting an apparent causal association"
+              ],
+              "answer_index": 3,
+              "explanation": "Confounder means variable affecting an apparent causal association."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Illness rates correlate with a plant exposure, but smoking rates also differ. What should be investigated?",
+              "choices": [
+                "Whether the plant has a logo",
+                "The age of the courthouse",
+                "Possible confounding",
+                "Only the report's font"
+              ],
+              "answer_index": 2,
+              "explanation": "A confounding variable can distort the apparent causal relationship."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means specialized opinion used under procedural rules?",
+              "choices": [
+                "General causation",
+                "Association",
+                "Expert evidence",
+                "Confounder"
+              ],
+              "answer_index": 2,
+              "explanation": "Expert evidence means specialized opinion used under procedural rules."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Confounder",
+                  "Variable affecting an apparent causal association"
+                ],
+                [
+                  "Association",
+                  "Statistical relationship not necessarily causal"
+                ],
+                [
+                  "Expert evidence",
+                  "Specialized opinion used under procedural rules"
+                ],
+                [
+                  "General causation",
+                  "Whether an exposure can produce a type of injury"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Variable affecting an apparent causal association is called ___.",
+              "answer": "Confounder",
+              "accept": [
+                "Confounder"
+              ],
+              "explanation": "The term is Confounder."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Whether an exposure can produce a type of injury is called ___.",
+              "answer": "General causation",
+              "accept": [
+                "General causation"
+              ],
+              "explanation": "The term is General causation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend legal causal reasoning under multiple uncertainties",
+          "summary": "At doctoral depth, address causal overdetermination, complex systems, and the costs of evidentiary error. Build an argument that distinguishes scientific uncertainty from the policy choice of allocating risk.",
+          "checklist": [
+            "I can critique overly simple counterfactual tests",
+            "I can identify the trade-off in evidence standards",
+            "I can propose a principled approach to diffuse causation"
+          ],
+          "sections": [
+            {
+              "title": "No Single Test Solves Every Case",
+              "body_md": "Multiple sufficient causes, cumulative exposure and feedback-driven systems can break the intuition that each event must be necessary for an outcome. Legal doctrines sometimes adapt causation through special tests, presumptions or statutory allocation rules. A doctoral lawyer must identify precisely where a traditional test fails before proposing another. The choice changes who bears responsibility and who receives relief, so it requires both analytic discipline and legitimate institutional authority.",
+              "example": null,
+              "audio_script": "Multiple sufficient causes, cumulative exposure and feedback-driven systems can break the intuition that each event must be necessary for an outcome. Legal doctrines sometimes adapt causation through special tests, presumptions or statutory allocation rules. A doctoral lawyer must identify precisely where a traditional test fails before proposing another. The choice changes who bears responsibility and who receives relief, so it requires both analytic discipline and legitimate institutional authority.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty Has Unequal Consequences",
+              "body_md": "A demanding causal threshold may deny redress to victims of diffuse industrial harm. A very permissive rule may assign liability to actors who did not cause the particular injury. These errors have moral, economic and institutional costs. A scholarly analysis should model available evidence, explain the false-positive and false-negative risks, and identify who can best produce missing information. The resulting rule cannot be justified by a single sympathetic example; it must be defensible across a class of cases.",
+              "example": null,
+              "audio_script": "A demanding causal threshold may deny redress to victims of diffuse industrial harm. A very permissive rule may assign liability to actors who did not cause the particular injury. These errors have moral, economic and institutional costs. A scholarly analysis should model available evidence, explain the false-positive and false-negative risks, and identify who can best produce missing information. The resulting rule cannot be justified by a single sympathetic example; it must be defensible across a class of cases.",
+              "video": null
+            },
+            {
+              "title": "A Responsible Reform Argument",
+              "body_md": "Consider pollution from many facilities along a river. One proposal might rely on individual proof for damages while requiring preventive monitoring or risk reduction under a separate regulatory standard. Another might create a carefully bounded compensation fund. Each needs a legal source, transparent eligibility, appeals and finance. A good doctoral argument distinguishes the factual science from a chosen policy response and explains why the response protects affected people without making blame arbitrary.",
+              "example": null,
+              "audio_script": "Consider pollution from many facilities along a river. One proposal might rely on individual proof for damages while requiring preventive monitoring or risk reduction under a separate regulatory standard. Another might create a carefully bounded compensation fund. Each needs a legal source, transparent eligibility, appeals and finance. A good doctoral argument distinguishes the factual science from a chosen policy response and explains why the response protects affected people without making blame arbitrary.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "False positive means mistaken finding that a claim is established.",
+              "answer": true,
+              "explanation_if_true": "False positive means mistaken finding that a claim is established.",
+              "explanation_if_false": "False positive means mistaken finding that a claim is established."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "Any causal uncertainty permits unlimited legal responsibility for all potential contributors.",
+              "answer": false,
+              "explanation_if_true": "Fair rules require identifiable thresholds, authority and protection against mistaken attribution.",
+              "explanation_if_false": "Fair rules require identifiable thresholds, authority and protection against mistaken attribution."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Causal overdetermination?",
+              "choices": [
+                "Mistaken rejection of an established claim",
+                "Distribution of proof responsibilities and error risks",
+                "Outcome with multiple sufficient causal contributors",
+                "Mistaken finding that a claim is established"
+              ],
+              "answer_index": 2,
+              "explanation": "Causal overdetermination means outcome with multiple sufficient causal contributors."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Diffuse pollution causes proven population harm but individual contribution is uncertain. What argument is strongest?",
+              "choices": [
+                "Rely only on the loudest advocate",
+                "Separate preventive standards from contested individual damages proof",
+                "Declare all factories automatically guilty",
+                "Ignore scientific data entirely"
+              ],
+              "answer_index": 1,
+              "explanation": "Different legal mechanisms can address risk and injury under appropriately distinct standards."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means mistaken rejection of an established claim?",
+              "choices": [
+                "False positive",
+                "False negative",
+                "Causal overdetermination",
+                "Evidentiary allocation"
+              ],
+              "answer_index": 1,
+              "explanation": "False negative means mistaken rejection of an established claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Causal overdetermination",
+                  "Outcome with multiple sufficient causal contributors"
+                ],
+                [
+                  "False positive",
+                  "Mistaken finding that a claim is established"
+                ],
+                [
+                  "False negative",
+                  "Mistaken rejection of an established claim"
+                ],
+                [
+                  "Evidentiary allocation",
+                  "Distribution of proof responsibilities and error risks"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Outcome with multiple sufficient causal contributors is called ___.",
+              "answer": "Causal overdetermination",
+              "accept": [
+                "Causal overdetermination"
+              ],
+              "explanation": "The term is Causal overdetermination."
+            },
+            {
+              "id": "PSU-1.4.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Distribution of proof responsibilities and error risks is called ___.",
+              "answer": "Evidentiary allocation",
+              "accept": [
+                "Evidentiary allocation"
+              ],
+              "explanation": "The term is Evidentiary allocation."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

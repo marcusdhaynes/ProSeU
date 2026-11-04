@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Explain why economic success is not the whole purpose of law",
+          "summary": "Laws can influence prosperity and cooperation, but they also protect rights and dignity. Learn why a profitable outcome is not automatically a just outcome.",
+          "checklist": [
+            "I can distinguish wealth from legal legitimacy",
+            "I can identify people helped and harmed by a rule",
+            "I can explain why rights can limit efficient choices"
+          ],
+          "sections": [
+            {
+              "title": "Useful Rules Can Still Be Unfair",
+              "body_md": "A city could save money by denying every application for emergency shelter without review. Its budget might improve, but the measure could violate legal duties and place vulnerable people in danger. Economic cost is important, yet it does not alone establish what officials may lawfully do. A student should separate financial effects from rights, procedures and obligations. The purpose of law includes protecting people against wrongful exercises of power, not merely producing high aggregate savings.",
+              "example": null,
+              "audio_script": "A city could save money by denying every application for emergency shelter without review. Its budget might improve, but the measure could violate legal duties and place vulnerable people in danger. Economic cost is important, yet it does not alone establish what officials may lawfully do. A student should separate financial effects from rights, procedures and obligations. The purpose of law includes protecting people against wrongful exercises of power, not merely producing high aggregate savings.",
+              "video": null
+            },
+            {
+              "title": "People Are Not Abstract Units",
+              "body_md": "A policy may improve average income while leaving a minority exposed to greater injury. Averages describe groups but can hide unequal burdens. Good evaluation identifies whose lives change, what alternatives exist and whether protected rights are respected. Economic analysis becomes more valuable when it makes these differences visible rather than declaring that the majority's gain settles every issue. Justice requires reasons for how burdens are allocated.",
+              "example": null,
+              "audio_script": "A policy may improve average income while leaving a minority exposed to greater injury. Averages describe groups but can hide unequal burdens. Good evaluation identifies whose lives change, what alternatives exist and whether protected rights are respected. Economic analysis becomes more valuable when it makes these differences visible rather than declaring that the majority's gain settles every issue. Justice requires reasons for how burdens are allocated.",
+              "video": null
+            },
+            {
+              "title": "Why Study Economics at All?",
+              "body_md": "Because lawyers must understand how people and institutions respond to rules. A sanction that is never enforced may not prevent harm, while a confusing procedure may keep eligible people from receiving benefits. Economics supplies tools for examining incentives, costs and outcomes. Legal legitimacy supplies another question: is the chosen action authorized, fair and accountable? Masterful legal education uses both rather than replacing one with the other.",
+              "example": null,
+              "audio_script": "Because lawyers must understand how people and institutions respond to rules. A sanction that is never enforced may not prevent harm, while a confusing procedure may keep eligible people from receiving benefits. Economics supplies tools for examining incentives, costs and outcomes. Legal legitimacy supplies another question: is the chosen action authorized, fair and accountable? Masterful legal education uses both rather than replacing one with the other.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Legal legitimacy means justification of a rule's authority.",
+              "answer": true,
+              "explanation_if_true": "Legal legitimacy means justification of a rule's authority.",
+              "explanation_if_false": "Legal legitimacy means justification of a rule's authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "An outcome increasing total income necessarily complies with every legal right.",
+              "answer": false,
+              "explanation_if_true": "Economic gains cannot by themselves establish legality or dignity.",
+              "explanation_if_false": "Economic gains cannot by themselves establish legality or dignity."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Economic efficiency?",
+              "choices": [
+                "Protected interest limiting certain governmental or private action",
+                "Achievement of outcomes with relative resource use",
+                "Justification of a rule's authority",
+                "Allocation of burdens and benefits"
+              ],
+              "answer_index": 1,
+              "explanation": "Economic efficiency means achievement of outcomes with relative resource use."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A cost-saving policy denies benefit appeals to vulnerable applicants. What must be examined besides savings?",
+              "choices": [
+                "Rights, fairness and access to review",
+                "Only the total budget reduction",
+                "The agency's logo",
+                "The number of administrators"
+              ],
+              "answer_index": 0,
+              "explanation": "A legal policy needs lawful and ethical justification beyond financial performance."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means allocation of burdens and benefits?",
+              "choices": [
+                "Distribution",
+                "Economic efficiency",
+                "Fundamental right",
+                "Legal legitimacy"
+              ],
+              "answer_index": 0,
+              "explanation": "Distribution means allocation of burdens and benefits."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Economic efficiency",
+                  "Achievement of outcomes with relative resource use"
+                ],
+                [
+                  "Legal legitimacy",
+                  "Justification of a rule's authority"
+                ],
+                [
+                  "Distribution",
+                  "Allocation of burdens and benefits"
+                ],
+                [
+                  "Fundamental right",
+                  "Protected interest limiting certain governmental or private action"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Achievement of outcomes with relative resource use is called ___.",
+              "answer": "Economic efficiency",
+              "accept": [
+                "Economic efficiency"
+              ],
+              "explanation": "The term is Economic efficiency."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Protected interest limiting certain governmental or private action is called ___.",
+              "answer": "Fundamental right",
+              "accept": [
+                "Fundamental right"
+              ],
+              "explanation": "The term is Fundamental right."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish Pareto and Kaldor-Hicks claims from legal justice",
+          "summary": "Learn the basic welfare concepts used to evaluate policy and their limitations. Recognize why an economic improvement does not necessarily provide consent, compensation or equal protection.",
+          "checklist": [
+            "I can explain a Pareto improvement",
+            "I can identify potential-compensation reasoning",
+            "I can distinguish welfare criteria from binding legal standards"
+          ],
+          "sections": [
+            {
+              "title": "A Pareto Improvement Has a Narrow Definition",
+              "body_md": "A change is Pareto-improving when at least one person benefits and no one is made worse off under the chosen evaluation. Such changes are attractive but often hard to find in contested public policy. A new rail link may benefit many commuters while imposing noise on some homes. Calling it Pareto-improving without considering those harms would be inaccurate. The concept is useful because it forces analysts to identify winners, losers and assumptions.",
+              "example": null,
+              "audio_script": "A change is Pareto-improving when at least one person benefits and no one is made worse off under the chosen evaluation. Such changes are attractive but often hard to find in contested public policy. A new rail link may benefit many commuters while imposing noise on some homes. Calling it Pareto-improving without considering those harms would be inaccurate. The concept is useful because it forces analysts to identify winners, losers and assumptions.",
+              "video": null
+            },
+            {
+              "title": "Potential Compensation Is Not Payment",
+              "body_md": "Kaldor-Hicks reasoning asks whether winners could hypothetically compensate losers and still retain a net gain. It does not mean that they actually do so. The criterion can inform cost-benefit analysis but leaves distribution unresolved. A lawyer should identify whether actual compensation, consent or rights protection is legally required under the policy. Substituting a potential-payment test for enforceable protection can be especially unfair to people with little political power.",
+              "example": null,
+              "audio_script": "Kaldor-Hicks reasoning asks whether winners could hypothetically compensate losers and still retain a net gain. It does not mean that they actually do so. The criterion can inform cost-benefit analysis but leaves distribution unresolved. A lawyer should identify whether actual compensation, consent or rights protection is legally required under the policy. Substituting a potential-payment test for enforceable protection can be especially unfair to people with little political power.",
+              "video": null
+            },
+            {
+              "title": "Values Remain Contestable",
+              "body_md": "An economic assessment depends on which outcomes are measured and how they are valued. Court access, privacy, dignity and freedom may not fit neatly into a monetary total. A legally legitimate decision must apply the governing rights, powers and procedures even when an economic model favors another result. The useful skill is to state the model's conclusion and its limits in the same paragraph. That keeps evidence in service of law rather than above it.",
+              "example": null,
+              "audio_script": "An economic assessment depends on which outcomes are measured and how they are valued. Court access, privacy, dignity and freedom may not fit neatly into a monetary total. A legally legitimate decision must apply the governing rights, powers and procedures even when an economic model favors another result. The useful skill is to state the model's conclusion and its limits in the same paragraph. That keeps evidence in service of law rather than above it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Kaldor-Hicks criterion means change with potential net gain after hypothetical compensation.",
+              "answer": true,
+              "explanation_if_true": "Kaldor-Hicks criterion means change with potential net gain after hypothetical compensation.",
+              "explanation_if_false": "Kaldor-Hicks criterion means change with potential net gain after hypothetical compensation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "A Kaldor-Hicks improvement guarantees every person harmed has been compensated.",
+              "answer": false,
+              "explanation_if_true": "The concept concerns potential compensation, not necessarily actual payment.",
+              "explanation_if_false": "The concept concerns potential compensation, not necessarily actual payment."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Pareto improvement?",
+              "choices": [
+                "Change benefiting someone without worsening anyone",
+                "Change with potential net gain after hypothetical compensation",
+                "Actual relief for recognized loss",
+                "Standard used to compare outcomes"
+              ],
+              "answer_index": 0,
+              "explanation": "Pareto improvement means change benefiting someone without worsening anyone."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A policy generates gains larger than losses, but no losers receive anything. What economic label may fit?",
+              "choices": [
+                "Pareto improvement by definition",
+                "Perfect equal compensation",
+                "Legal validity automatically",
+                "Kaldor-Hicks, not necessarily Pareto improvement"
+              ],
+              "answer_index": 3,
+              "explanation": "Potential gain does not imply no one was made worse off."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means actual relief for recognized loss?",
+              "choices": [
+                "Pareto improvement",
+                "Welfare criterion",
+                "Kaldor-Hicks criterion",
+                "Compensation"
+              ],
+              "answer_index": 3,
+              "explanation": "Compensation means actual relief for recognized loss."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Pareto improvement",
+                  "Change benefiting someone without worsening anyone"
+                ],
+                [
+                  "Kaldor-Hicks criterion",
+                  "Change with potential net gain after hypothetical compensation"
+                ],
+                [
+                  "Compensation",
+                  "Actual relief for recognized loss"
+                ],
+                [
+                  "Welfare criterion",
+                  "Standard used to compare outcomes"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Change benefiting someone without worsening anyone is called ___.",
+              "answer": "Pareto improvement",
+              "accept": [
+                "Pareto improvement"
+              ],
+              "explanation": "The term is Pareto improvement."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Standard used to compare outcomes is called ___.",
+              "answer": "Welfare criterion",
+              "accept": [
+                "Welfare criterion"
+              ],
+              "explanation": "The term is Welfare criterion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate regulatory capture and unequal influence",
+          "summary": "Advanced policy analysis examines whether institutions charged with protecting the public come to serve the industries they oversee. Identify evidence and incentives without treating every regulatory disagreement as corruption.",
+          "checklist": [
+            "I can define regulatory capture carefully",
+            "I can recognize information and revolving-door concerns",
+            "I can propose safeguards consistent with due process"
+          ],
+          "sections": [
+            {
+              "title": "Regulators Need Information",
+              "body_md": "A financial regulator may depend on industry expertise to understand complex products. That information can improve rules, but it also creates the risk that regulated parties shape decisions in their own interests. Regulatory capture describes institutional alignment with private interests contrary to the regulator's public mandate. It is not established merely because an agency meets industry representatives. A careful analyst looks for evidence about decisions, incentives, transparency and effects on protected persons.",
+              "example": null,
+              "audio_script": "A financial regulator may depend on industry expertise to understand complex products. That information can improve rules, but it also creates the risk that regulated parties shape decisions in their own interests. Regulatory capture describes institutional alignment with private interests contrary to the regulator's public mandate. It is not established merely because an agency meets industry representatives. A careful analyst looks for evidence about decisions, incentives, transparency and effects on protected persons.",
+              "video": null
+            },
+            {
+              "title": "Concentration Changes Influence",
+              "body_md": "A few firms with substantial resources may be able to monitor consultations, fund research and lobby officials more effectively than dispersed consumers. This can distort whose evidence enters the rulemaking process. Public notice, conflict disclosure, balanced consultation and independent analysis can reduce some risks, but each has implementation costs. The legal framework determines which procedures are required. An advanced argument separates demonstrable unfair process from speculation about officials' motives.",
+              "example": null,
+              "audio_script": "A few firms with substantial resources may be able to monitor consultations, fund research and lobby officials more effectively than dispersed consumers. This can distort whose evidence enters the rulemaking process. Public notice, conflict disclosure, balanced consultation and independent analysis can reduce some risks, but each has implementation costs. The legal framework determines which procedures are required. An advanced argument separates demonstrable unfair process from speculation about officials' motives.",
+              "video": null
+            },
+            {
+              "title": "Design for Reviewable Expertise",
+              "body_md": "A regulator can publish supporting evidence, explain its assumptions, manage conflicts of interest and allow affected persons to contest material findings. Such measures may protect legitimacy without requiring officials to reject useful technical knowledge simply because industry supplied it. The evaluation should ask whether the resulting rules serve the statutory mandate, respect rights and reduce actual harm. The goal is a knowledgeable and accountable institution, not an institution insulated from all contact with the people it regulates.",
+              "example": null,
+              "audio_script": "A regulator can publish supporting evidence, explain its assumptions, manage conflicts of interest and allow affected persons to contest material findings. Such measures may protect legitimacy without requiring officials to reject useful technical knowledge simply because industry supplied it. The evaluation should ask whether the resulting rules serve the statutory mandate, respect rights and reduce actual harm. The goal is a knowledgeable and accountable institution, not an institution insulated from all contact with the people it regulates.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Revolving door means movement of personnel between regulator and regulated entities.",
+              "answer": true,
+              "explanation_if_true": "Revolving door means movement of personnel between regulator and regulated entities.",
+              "explanation_if_false": "Revolving door means movement of personnel between regulator and regulated entities."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "Every meeting between an agency and an industry representative proves unlawful regulatory capture.",
+              "answer": false,
+              "explanation_if_true": "Capture requires evidence of institutional distortion; consultation can be legitimate.",
+              "explanation_if_false": "Capture requires evidence of institutional distortion; consultation can be legitimate."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Regulatory capture?",
+              "choices": [
+                "Movement of personnel between regulator and regulated entities",
+                "Process for receiving affected-person views",
+                "Competing incentive threatening impartial judgment",
+                "Institutional bias toward regulated interests over public mandate"
+              ],
+              "answer_index": 3,
+              "explanation": "Regulatory capture means institutional bias toward regulated interests over public mandate."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A regulatory process hears only large firms and excludes affected consumers. What concern is raised?",
+              "choices": [
+                "A need for longer statutes",
+                "A lack of foreign judges",
+                "Unequal participation and potential capture",
+                "That all technical evidence is invalid"
+              ],
+              "answer_index": 2,
+              "explanation": "Disproportionate influence can weaken accountable public decision making."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means process for receiving affected-person views?",
+              "choices": [
+                "Conflict of interest",
+                "Revolving door",
+                "Public consultation",
+                "Regulatory capture"
+              ],
+              "answer_index": 2,
+              "explanation": "Public consultation means process for receiving affected-person views."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Regulatory capture",
+                  "Institutional bias toward regulated interests over public mandate"
+                ],
+                [
+                  "Revolving door",
+                  "Movement of personnel between regulator and regulated entities"
+                ],
+                [
+                  "Public consultation",
+                  "Process for receiving affected-person views"
+                ],
+                [
+                  "Conflict of interest",
+                  "Competing incentive threatening impartial judgment"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Institutional bias toward regulated interests over public mandate is called ___.",
+              "answer": "Regulatory capture",
+              "accept": [
+                "Regulatory capture"
+              ],
+              "explanation": "The term is Regulatory capture."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Competing incentive threatening impartial judgment is called ___.",
+              "answer": "Conflict of interest",
+              "accept": [
+                "Conflict of interest"
+              ],
+              "explanation": "The term is Conflict of interest."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend a law-and-economics theory that serves justice",
+          "summary": "At doctoral depth, integrate empirical insight, distributive justice, public law and professional ethics. Develop policy frameworks that measure effects while protecting nonnegotiable rights and client autonomy.",
+          "checklist": [
+            "I can critique efficiency as a sole objective",
+            "I can evaluate inequality in willingness-to-pay measures",
+            "I can design accountable empirical review of legal policy"
+          ],
+          "sections": [
+            {
+              "title": "Efficiency Is a Tool, Not a Sovereign",
+              "body_md": "A legal system can use economic analysis to understand incentives and reduce avoidable harm without treating aggregate wealth as its ultimate value. Fundamental rights, fair procedure and democratic authority may constrain otherwise efficient choices. A doctoral theory should specify which objectives are economic, which are legal and which require moral judgment. Hiding those distinctions behind mathematical notation reduces rather than improves rigor.",
+              "example": null,
+              "audio_script": "A legal system can use economic analysis to understand incentives and reduce avoidable harm without treating aggregate wealth as its ultimate value. Fundamental rights, fair procedure and democratic authority may constrain otherwise efficient choices. A doctoral theory should specify which objectives are economic, which are legal and which require moral judgment. Hiding those distinctions behind mathematical notation reduces rather than improves rigor.",
+              "video": null
+            },
+            {
+              "title": "Who Is Missing From the Model?",
+              "body_md": "People with little income may appear to value safety less in willingness-to-pay data even when they face the greatest danger. Some harms, including family separation, cultural loss or freedom from coercion, resist reliable market valuation. A serious analyst examines distribution, access and measurement assumptions and may use multiple decision criteria. It should neither discard quantitative evidence nor allow it to decide rights issues that the law entrusts to another process.",
+              "example": null,
+              "audio_script": "People with little income may appear to value safety less in willingness-to-pay data even when they face the greatest danger. Some harms, including family separation, cultural loss or freedom from coercion, resist reliable market valuation. A serious analyst examines distribution, access and measurement assumptions and may use multiple decision criteria. It should neither discard quantitative evidence nor allow it to decide rights issues that the law entrusts to another process.",
+              "video": null
+            },
+            {
+              "title": "A Humane Policy Evaluation",
+              "body_md": "Imagine assessing a reform to legal aid. Measure case outcomes, time, costs and error, but also whether people understood their choices and whether vulnerable groups could obtain meaningful representation. Use a credible counterfactual, independent review and disclosure of limitations. Proposed changes must respect professional duties and lawful authority. The aim is not to maximize a dashboard score. It is to use sound evidence to help legal institutions protect lives, dignity and freedom more effectively.",
+              "example": null,
+              "audio_script": "Imagine assessing a reform to legal aid. Measure case outcomes, time, costs and error, but also whether people understood their choices and whether vulnerable groups could obtain meaningful representation. Use a credible counterfactual, independent review and disclosure of limitations. Proposed changes must respect professional duties and lawful authority. The aim is not to maximize a dashboard score. It is to use sound evidence to help legal institutions protect lives, dignity and freedom more effectively.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Cost-benefit analysis means comparison of measured consequences of a policy.",
+              "answer": true,
+              "explanation_if_true": "Cost-benefit analysis means comparison of measured consequences of a policy.",
+              "explanation_if_false": "Cost-benefit analysis means comparison of measured consequences of a policy."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "The highest economic return automatically establishes the ethically correct legal policy.",
+              "answer": false,
+              "explanation_if_true": "Legal rights, fairness and human dignity impose independent considerations.",
+              "explanation_if_false": "Legal rights, fairness and human dignity impose independent considerations."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Distributive justice?",
+              "choices": [
+                "Legal protection limiting otherwise attractive choices",
+                "Transparent testing of effects subject to review",
+                "Fair allocation of benefits and burdens",
+                "Comparison of measured consequences of a policy"
+              ],
+              "answer_index": 2,
+              "explanation": "Distributive justice means fair allocation of benefits and burdens."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An efficient legal-aid system improves total case throughput but excludes non-English speakers. What must evaluation address?",
+              "choices": [
+                "The size of offices",
+                "Access and distribution alongside throughput",
+                "Only total cases closed",
+                "Whether the software is modern"
+              ],
+              "answer_index": 1,
+              "explanation": "Performance is not legitimate if important groups are effectively left without rights protection."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal protection limiting otherwise attractive choices?",
+              "choices": [
+                "Cost-benefit analysis",
+                "Rights constraint",
+                "Distributive justice",
+                "Accountable evaluation"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights constraint means legal protection limiting otherwise attractive choices."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Distributive justice",
+                  "Fair allocation of benefits and burdens"
+                ],
+                [
+                  "Cost-benefit analysis",
+                  "Comparison of measured consequences of a policy"
+                ],
+                [
+                  "Rights constraint",
+                  "Legal protection limiting otherwise attractive choices"
+                ],
+                [
+                  "Accountable evaluation",
+                  "Transparent testing of effects subject to review"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Fair allocation of benefits and burdens is called ___.",
+              "answer": "Distributive justice",
+              "accept": [
+                "Distributive justice"
+              ],
+              "explanation": "The term is Distributive justice."
+            },
+            {
+              "id": "PSU-1.7.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Transparent testing of effects subject to review is called ___.",
+              "answer": "Accountable evaluation",
+              "accept": [
+                "Accountable evaluation"
+              ],
+              "explanation": "The term is Accountable evaluation."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
