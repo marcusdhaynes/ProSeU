@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "authority-defining-cases",
+      "name": "Authority-Defining Cases",
+      "levels": {
+        "red": {
+          "focus": "Explain why Marbury v. Madison defines judicial authority.",
+          "summary": "A court may recognize a right without having power to give the requested remedy. Learn how the 1803 Marbury decision connected judicial review with a written constitution.",
+          "checklist": [
+            "I can identify what Marbury requested",
+            "I can distinguish right, remedy, and jurisdiction",
+            "I can explain the meaning of judicial review"
+          ],
+          "sections": [
+            {
+              "title": "The undelivered commission",
+              "body_md": "William Marbury received a federal appointment near the end of President John Adams's administration, but his commission was not delivered before Thomas Jefferson took office. Marbury asked the Supreme Court to order Secretary of State James Madison to deliver it. His request presented a dispute about more than an official document. The Court also had to determine whether it possessed the lawful power to issue that particular order in the original proceeding.",
+              "example": null,
+              "audio_script": "William Marbury received a federal appointment near the end of President John Adams's administration, but his commission was not delivered before Thomas Jefferson took office. Marbury asked the Supreme Court to order Secretary of State James Madison to deliver it. His request presented a dispute about more than an official document. The Court also had to determine whether it possessed the lawful power to issue that particular order in the original proceeding.",
+              "video": null
+            },
+            {
+              "title": "A right is not every remedy",
+              "body_md": "Chief Justice Marshall concluded that Marbury had a legal entitlement and that remedies could exist for its violation. The opinion nevertheless held that the Court could not grant the requested mandamus in its original jurisdiction. The Court treated the pertinent expansion of original jurisdiction under the Judiciary Act as inconsistent with Article III. These separate steps matter: possessing a right does not make every forum competent to enforce it in every form.",
+              "example": null,
+              "audio_script": "Chief Justice Marshall concluded that Marbury had a legal entitlement and that remedies could exist for its violation. The opinion nevertheless held that the Court could not grant the requested mandamus in its original jurisdiction. The Court treated the pertinent expansion of original jurisdiction under the Judiciary Act as inconsistent with Article III. These separate steps matter: possessing a right does not make every forum competent to enforce it in every form.",
+              "video": null
+            },
+            {
+              "title": "The Constitution controls in a conflict",
+              "body_md": "Marbury became a foundational American articulation of judicial review: a court applying a written constitution treats it as superior to inconsistent ordinary legislation. It does not authorize judges everywhere to replace laws with personal opinions. The argument concerns legal hierarchy and the judiciary's responsibility in a concrete case. The student's task is to identify the actual legal sources, the jurisdictional question, and the narrow reason the Court could not issue the order Marbury sought.",
+              "example": null,
+              "audio_script": "Marbury became a foundational American articulation of judicial review: a court applying a written constitution treats it as superior to inconsistent ordinary legislation. It does not authorize judges everywhere to replace laws with personal opinions. The argument concerns legal hierarchy and the judiciary's responsibility in a concrete case. The student's task is to identify the actual legal sources, the jurisdictional question, and the narrow reason the Court could not issue the order Marbury sought.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Mandamus means judicial order requiring performance of a legal duty.",
+              "answer": true,
+              "explanation_if_true": "Mandamus means judicial order requiring performance of a legal duty.",
+              "explanation_if_false": "Mandamus means judicial order requiring performance of a legal duty."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q2",
+              "type": "true_false",
+              "prompt": "The Supreme Court ordered Secretary Madison to deliver the commission in Marbury.",
+              "answer": false,
+              "explanation_if_true": "The Court concluded it lacked original jurisdiction to issue the requested mandamus.",
+              "explanation_if_false": "The Court concluded it lacked original jurisdiction to issue the requested mandamus."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Marbury decision?",
+              "choices": [
+                "Court examination of governmental lawfulness",
+                "1803 Supreme Court case establishing a major judicial review principle",
+                "Judicial order requiring performance of a legal duty",
+                "Power to hear a case at first instance"
+              ],
+              "answer_index": 1,
+              "explanation": "Marbury decision means 1803 supreme court case establishing a major judicial review principle."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Marbury held a legal entitlement but could not obtain his requested writ from the Supreme Court. Why?",
+              "choices": [
+                "The Court lacked original jurisdiction for that order",
+                "The commission was an imaginary object",
+                "The Constitution had already been repealed",
+                "All court orders were forbidden"
+              ],
+              "answer_index": 0,
+              "explanation": "Marbury separates legal entitlement from judicial authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means power to hear a case at first instance?",
+              "choices": [
+                "Mandamus",
+                "Original jurisdiction",
+                "Judicial review",
+                "Marbury decision"
+              ],
+              "answer_index": 1,
+              "explanation": "Original jurisdiction means power to hear a case at first instance."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional case concepts.",
+              "pairs": [
+                [
+                  "Marbury decision",
+                  "1803 Supreme Court case establishing a major judicial review principle"
+                ],
+                [
+                  "Mandamus",
+                  "Judicial order requiring performance of a legal duty"
+                ],
+                [
+                  "Original jurisdiction",
+                  "Power to hear a case at first instance"
+                ],
+                [
+                  "Judicial review",
+                  "Court examination of governmental lawfulness"
+                ]
+              ],
+              "explanation": "The source and holding determine what a case establishes."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1803 supreme court case establishing a major judicial review principle is ___.",
+              "answer": "Marbury decision",
+              "accept": [
+                "Marbury decision"
+              ],
+              "explanation": "The term is Marbury decision."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for court examination of governmental lawfulness is ___.",
+              "answer": "Judicial review",
+              "accept": [
+                "Judicial review"
+              ],
+              "explanation": "The term is Judicial review."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze the precise reasoning and contested steps in Marbury.",
+          "summary": "The opinion asks whether Marbury held a right, whether the law supplied a remedy, and whether the Court had jurisdiction. Examine why constitutional supremacy became central to the third answer.",
+          "checklist": [
+            "I can reconstruct the opinion's three-question structure",
+            "I can state the Article III conflict",
+            "I can recognize contested interpretations of section 13"
+          ],
+          "sections": [
+            {
+              "title": "Three questions, not one slogan",
+              "body_md": "Marshall examined whether the appointment was complete, whether violating the entitlement could have a remedy, and whether mandamus from the Supreme Court was legally available. The first two inquiries favored Marbury in the opinion, but the final jurisdictional question defeated his request. A legal analysis that jumps from the existence of a wrong directly to a desired judicial remedy ignores the independent problem of institutional competence.",
+              "example": null,
+              "audio_script": "Marshall examined whether the appointment was complete, whether violating the entitlement could have a remedy, and whether mandamus from the Supreme Court was legally available. The first two inquiries favored Marbury in the opinion, but the final jurisdictional question defeated his request. A legal analysis that jumps from the existence of a wrong directly to a desired judicial remedy ignores the independent problem of institutional competence.",
+              "video": null
+            },
+            {
+              "title": "Reading the Judiciary Act",
+              "body_md": "The Court interpreted section 13 of the Judiciary Act of 1789 as conferring original mandamus power beyond what Article III permitted. Because the Constitution controlled, the inconsistent statutory grant could not authorize the writ. Scholars debate whether that interpretation of the statute was compelled, making close reading essential. The student's answer should distinguish the Court's authoritative holding from historical and interpretive criticisms of its path to that result.",
+              "example": null,
+              "audio_script": "The Court interpreted section 13 of the Judiciary Act of 1789 as conferring original mandamus power beyond what Article III permitted. Because the Constitution controlled, the inconsistent statutory grant could not authorize the writ. Scholars debate whether that interpretation of the statute was compelled, making close reading essential. The student's answer should distinguish the Court's authoritative holding from historical and interpretive criticisms of its path to that result.",
+              "video": null
+            },
+            {
+              "title": "The scope is not universal",
+              "body_md": "The U.S. system's model of constitutional review is influential but not the only model. Some countries use specialized constitutional courts or legislative responses, and constitutional hierarchy can operate differently. A lawyer must identify the judicial institution, binding sources, and available remedy in the relevant legal order. Marbury teaches an enduring question—who may declare the controlling legal norm—but its jurisdictional holding cannot simply be copied into every other constitution.",
+              "example": null,
+              "audio_script": "The U.S. system's model of constitutional review is influential but not the only model. Some countries use specialized constitutional courts or legislative responses, and constitutional hierarchy can operate differently. A lawyer must identify the judicial institution, binding sources, and available remedy in the relevant legal order. Marbury teaches an enduring question—who may declare the controlling legal norm—but its jurisdictional holding cannot simply be copied into every other constitution.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Constitutional supremacy means priority of constitutional law over inconsistent ordinary law.",
+              "answer": true,
+              "explanation_if_true": "Constitutional supremacy means priority of constitutional law over inconsistent ordinary law.",
+              "explanation_if_false": "Constitutional supremacy means priority of constitutional law over inconsistent ordinary law."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "Marbury held that any individual judge can ignore any statute that seems politically undesirable.",
+              "answer": false,
+              "explanation_if_true": "The case involved a specific conflict between a jurisdictional statute and the Constitution.",
+              "explanation_if_false": "The case involved a specific conflict between a jurisdictional statute and the Constitution."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Article III?",
+              "choices": [
+                "Constitutional provision defining U.S. federal judicial authority",
+                "Priority of constitutional law over inconsistent ordinary law",
+                "Federal statute organizing parts of the judicial system",
+                "Dispute about the extent of a court's legal power"
+              ],
+              "answer_index": 0,
+              "explanation": "Article III means constitutional provision defining u.s. federal judicial authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute purports to enlarge the Supreme Court's original jurisdiction beyond Article III. What issue arises?",
+              "choices": [
+                "Only the judge's political preferences",
+                "The number of officers in the cabinet",
+                "The language of a private lease",
+                "Conflict between statute and constitutional authority"
+              ],
+              "answer_index": 3,
+              "explanation": "The Court treated the Constitution as governing the extent of judicial power."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means federal statute organizing parts of the judicial system?",
+              "choices": [
+                "Judiciary Act",
+                "Jurisdictional conflict",
+                "Article III",
+                "Constitutional supremacy"
+              ],
+              "answer_index": 0,
+              "explanation": "Judiciary Act means federal statute organizing parts of the judicial system."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional case concepts.",
+              "pairs": [
+                [
+                  "Article III",
+                  "Constitutional provision defining U.S. federal judicial authority"
+                ],
+                [
+                  "Constitutional supremacy",
+                  "Priority of constitutional law over inconsistent ordinary law"
+                ],
+                [
+                  "Judiciary Act",
+                  "Federal statute organizing parts of the judicial system"
+                ],
+                [
+                  "Jurisdictional conflict",
+                  "Dispute about the extent of a court's legal power"
+                ]
+              ],
+              "explanation": "The source and holding determine what a case establishes."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for constitutional provision defining u.s. federal judicial authority is ___.",
+              "answer": "Article III",
+              "accept": [
+                "Article III"
+              ],
+              "explanation": "The term is Article III."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for dispute about the extent of a court's legal power is ___.",
+              "answer": "Jurisdictional conflict",
+              "accept": [
+                "Jurisdictional conflict"
+              ],
+              "explanation": "The term is Jurisdictional conflict."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare American constitutional review with Miller in Britain.",
+          "summary": "Judicial enforcement of institutional boundaries does not require identical constitutions. Compare Marbury with the British Supreme Court's 2017 ruling about parliamentary authorization for European Union withdrawal.",
+          "checklist": [
+            "I can state the legal issue in the first Miller decision",
+            "I can distinguish parliamentary sovereignty from American constitutional supremacy",
+            "I can identify the role of institutional restraint"
+          ],
+          "sections": [
+            {
+              "title": "The executive could not decide alone",
+              "body_md": "In R (Miller) v Secretary of State for Exiting the European Union (2017), the British Supreme Court considered whether ministers could initiate Article 50 withdrawal using prerogative power without parliamentary authorization. European Union rights had domestic legal effect through Parliament's legislation. The majority held that ministers could not use prerogative powers to change domestic law in that way without Parliament. The case did not decide whether leaving the Union was good policy; it decided who had legal authority.",
+              "example": null,
+              "audio_script": "In R (Miller) v Secretary of State for Exiting the European Union (2017), the British Supreme Court considered whether ministers could initiate Article 50 withdrawal using prerogative power without parliamentary authorization. European Union rights had domestic legal effect through Parliament's legislation. The majority held that ministers could not use prerogative powers to change domestic law in that way without Parliament. The case did not decide whether leaving the Union was good policy; it decided who had legal authority.",
+              "video": null
+            },
+            {
+              "title": "Same question, different architecture",
+              "body_md": "Marbury concerned a written federal constitution restricting a court's original jurisdiction and articulated constitutional supremacy. Miller concerned limits on executive prerogative and Parliament's authority over domestic legal change. Their doctrinal mechanisms differ, but both demand that public actors remain within the powers law grants them. It would be a mistake to say that Miller simply imported the American doctrine or that Marbury established British parliamentary sovereignty. Comparison must preserve the actual source of authority in each system.",
+              "example": null,
+              "audio_script": "Marbury concerned a written federal constitution restricting a court's original jurisdiction and articulated constitutional supremacy. Miller concerned limits on executive prerogative and Parliament's authority over domestic legal change. Their doctrinal mechanisms differ, but both demand that public actors remain within the powers law grants them. It would be a mistake to say that Miller simply imported the American doctrine or that Marbury established British parliamentary sovereignty. Comparison must preserve the actual source of authority in each system.",
+              "video": null
+            },
+            {
+              "title": "Judges may restrain without governing",
+              "body_md": "The British court required a legal authorization process but did not order Parliament to adopt any particular Brexit policy. The distinction illustrates how judicial intervention can protect the legislature's role rather than replace it. A mature analysis asks whether the court's reasoning identifies a legal boundary and whether its remedy stays within that boundary. Political consequences alone do not make a judgment unlawful; neither do political stakes expand a court's power.",
+              "example": null,
+              "audio_script": "The British court required a legal authorization process but did not order Parliament to adopt any particular Brexit policy. The distinction illustrates how judicial intervention can protect the legislature's role rather than replace it. A mature analysis asks whether the court's reasoning identifies a legal boundary and whether its remedy stays within that boundary. Political consequences alone do not make a judgment unlawful; neither do political stakes expand a court's power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Prerogative power means executive power recognized under british constitutional law.",
+              "answer": true,
+              "explanation_if_true": "Prerogative power means executive power recognized under british constitutional law.",
+              "explanation_if_false": "Prerogative power means executive power recognized under british constitutional law."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Miller ordered the British government to abandon withdrawal from the European Union.",
+              "answer": false,
+              "explanation_if_true": "The judgment required parliamentary authorization for the legal process, not a particular political outcome.",
+              "explanation_if_false": "The judgment required parliamentary authorization for the legal process, not a particular political outcome."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Miller 2017?",
+              "choices": [
+                "Executive power recognized under British constitutional law",
+                "Principle of parliamentary legislative authority",
+                "Distribution of legal functions among public bodies",
+                "British ruling requiring parliamentary authorization for Article 50"
+              ],
+              "answer_index": 3,
+              "explanation": "Miller 2017 means british ruling requiring parliamentary authorization for article 50."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Ministers seek to alter domestic rights without legislative authorization. What issue was decisive in Miller?",
+              "choices": [
+                "The Supreme Court's own political preferences",
+                "Whether judges could negotiate treaties",
+                "Which institution law authorized to act",
+                "Whether all referendums are invalid"
+              ],
+              "answer_index": 2,
+              "explanation": "The decision identified Parliament's role in legal authorization."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means principle of parliamentary legislative authority?",
+              "choices": [
+                "Institutional allocation",
+                "Miller 2017",
+                "Prerogative power",
+                "Parliamentary sovereignty"
+              ],
+              "answer_index": 3,
+              "explanation": "Parliamentary sovereignty means principle of parliamentary legislative authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional case concepts.",
+              "pairs": [
+                [
+                  "Miller 2017",
+                  "British ruling requiring parliamentary authorization for Article 50"
+                ],
+                [
+                  "Prerogative power",
+                  "Executive power recognized under British constitutional law"
+                ],
+                [
+                  "Parliamentary sovereignty",
+                  "Principle of parliamentary legislative authority"
+                ],
+                [
+                  "Institutional allocation",
+                  "Distribution of legal functions among public bodies"
+                ]
+              ],
+              "explanation": "The source and holding determine what a case establishes."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for british ruling requiring parliamentary authorization for article 50 is ___.",
+              "answer": "Miller 2017",
+              "accept": [
+                "Miller 2017"
+              ],
+              "explanation": "The term is Miller 2017."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for distribution of legal functions among public bodies is ___.",
+              "answer": "Institutional allocation",
+              "accept": [
+                "Institutional allocation"
+              ],
+              "explanation": "The term is Institutional allocation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Justify judicial review in a democratic legal order.",
+          "summary": "A court can defend constitutional boundaries while still raising questions about democratic legitimacy. Compare interpretive authority, institutional accountability, and the limits of judicial intervention.",
+          "checklist": [
+            "I can evaluate democratic objections to judicial review",
+            "I can defend legally bounded institutional intervention",
+            "I can propose criteria for legitimate constitutional adjudication"
+          ],
+          "sections": [
+            {
+              "title": "Who may settle a constitutional conflict?",
+              "body_md": "Marbury presents judicial review as part of deciding a case under superior constitutional law. Critics question whether unelected judges should control contested public policy; defenders argue that constitutional commitments protect people against ordinary political overreach. A doctoral account should distinguish interpretation of legal boundaries from selection of preferred policy. It must also consider how other institutions and the public can challenge serious judicial mistakes without making foundational limits meaningless.",
+              "example": null,
+              "audio_script": "Marbury presents judicial review as part of deciding a case under superior constitutional law. Critics question whether unelected judges should control contested public policy; defenders argue that constitutional commitments protect people against ordinary political overreach. A doctoral account should distinguish interpretation of legal boundaries from selection of preferred policy. It must also consider how other institutions and the public can challenge serious judicial mistakes without making foundational limits meaningless.",
+              "video": null
+            },
+            {
+              "title": "Politics cannot be the entire test",
+              "body_md": "Miller had major political consequences but concerned a legal constraint on ministerial authority. Courts sometimes cannot avoid politically charged disputes without abandoning their assigned constitutional function. Yet a court's public importance does not justify extending its power beyond lawful questions. The relevant distinctions concern authoritative sources, scope of review, reasons given, and remedies. Institutional restraint means exercising required legal judgment without claiming unlimited authority over collective political choices.",
+              "example": null,
+              "audio_script": "Miller had major political consequences but concerned a legal constraint on ministerial authority. Courts sometimes cannot avoid politically charged disputes without abandoning their assigned constitutional function. Yet a court's public importance does not justify extending its power beyond lawful questions. The relevant distinctions concern authoritative sources, scope of review, reasons given, and remedies. Institutional restraint means exercising required legal judgment without claiming unlimited authority over collective political choices.",
+              "video": null
+            },
+            {
+              "title": "Judicial legitimacy requires reasons",
+              "body_md": "Design a framework demanding an identifiable legal controversy, careful examination of binding sources, candid treatment of disagreement, and remedies within judicial competence. Include practical access for people whose rights are affected and appropriate mechanisms for correcting mistakes. A system that automatically trusts every minister risks arbitrary executive action; a system that trusts every judge risks another concentration of power. Legitimate review demands public reasons answerable to law and to the people living under it.",
+              "example": null,
+              "audio_script": "Design a framework demanding an identifiable legal controversy, careful examination of binding sources, candid treatment of disagreement, and remedies within judicial competence. Include practical access for people whose rights are affected and appropriate mechanisms for correcting mistakes. A system that automatically trusts every minister risks arbitrary executive action; a system that trusts every judge risks another concentration of power. Legitimate review demands public reasons answerable to law and to the people living under it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q1",
+              "type": "true_false",
+              "prompt": "Legal hierarchy means relative authority of recognized legal norms.",
+              "answer": true,
+              "explanation_if_true": "Legal hierarchy means relative authority of recognized legal norms.",
+              "explanation_if_false": "Legal hierarchy means relative authority of recognized legal norms."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q2",
+              "type": "true_false",
+              "prompt": "A constitutional ruling is necessarily unlawful whenever it has political consequences.",
+              "answer": false,
+              "explanation_if_true": "Legal disputes may have political stakes while remaining within judicial competence.",
+              "explanation_if_false": "Legal disputes may have political stakes while remaining within judicial competence."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Judicial supremacy?",
+              "choices": [
+                "Institutional answerability to the governed",
+                "Justification for fundamental public legal authority",
+                "Claim of final judicial constitutional interpretive power",
+                "Relative authority of recognized legal norms"
+              ],
+              "answer_index": 2,
+              "explanation": "Judicial supremacy means claim of final judicial constitutional interpretive power."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court requires a legislature to authorize a policy change but refuses to choose that policy. What principle is illustrated?",
+              "choices": [
+                "A finding of every factual allegation",
+                "Institutional restraint under law",
+                "Unlimited judicial government",
+                "A court replacing every election"
+              ],
+              "answer_index": 1,
+              "explanation": "Judicial review can enforce legal boundaries while leaving policy choices to competent institutions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means institutional answerability to the governed?",
+              "choices": [
+                "Judicial supremacy",
+                "Legal hierarchy",
+                "Democratic accountability",
+                "Constitutional legitimacy"
+              ],
+              "answer_index": 2,
+              "explanation": "Democratic accountability means institutional answerability to the governed."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match the constitutional case concepts.",
+              "pairs": [
+                [
+                  "Judicial supremacy",
+                  "Claim of final judicial constitutional interpretive power"
+                ],
+                [
+                  "Legal hierarchy",
+                  "Relative authority of recognized legal norms"
+                ],
+                [
+                  "Democratic accountability",
+                  "Institutional answerability to the governed"
+                ],
+                [
+                  "Constitutional legitimacy",
+                  "Justification for fundamental public legal authority"
+                ]
+              ],
+              "explanation": "The source and holding determine what a case establishes."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for claim of final judicial constitutional interpretive power is ___.",
+              "answer": "Judicial supremacy",
+              "accept": [
+                "Judicial supremacy"
+              ],
+              "explanation": "The term is Judicial supremacy."
+            },
+            {
+              "id": "PSU-1.1.major_cases.authority-defining-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for justification for fundamental public legal authority is ___.",
+              "answer": "Constitutional legitimacy",
+              "accept": [
+                "Constitutional legitimacy"
+              ],
+              "explanation": "The term is Constitutional legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
