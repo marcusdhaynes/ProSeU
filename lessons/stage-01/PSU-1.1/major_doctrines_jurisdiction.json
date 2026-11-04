@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "jurisdiction-doctrines",
+      "name": "Jurisdiction Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Identify lawful decision-making authority.",
+          "summary": "Learn why a legal decision maker needs jurisdiction, not merely influence. Separate the kinds of power needed to hear a dispute from the merits of the dispute itself.",
+          "checklist": [
+            "I can identify subject-matter, personal and territorial jurisdiction",
+            "I can explain why a correct decision can still be unauthorized",
+            "I can ask which institution may decide a given dispute"
+          ],
+          "sections": [
+            {
+              "title": "Power Before Judgment",
+              "body_md": "Imagine two neighbors disagree about a boundary. A court may hear their arguments only if law gives it authority over that kind of dispute and the people involved. That power is jurisdiction. It is distinct from the merits: whether either neighbor is right. A judge who knows the correct answer but lacks jurisdiction generally cannot issue a binding judgment. Begin any legal problem by identifying the decision maker, the legal source of its power, and any geographic or subject limits.",
+              "example": null,
+              "audio_script": "Imagine two neighbors disagree about a boundary. A court may hear their arguments only if law gives it authority over that kind of dispute and the people involved. That power is jurisdiction. It is distinct from the merits: whether either neighbor is right. A judge who knows the correct answer but lacks jurisdiction generally cannot issue a binding judgment. Begin any legal problem by identifying the decision maker, the legal source of its power, and any geographic or subject limits.",
+              "video": null
+            },
+            {
+              "title": "Different Questions About Authority",
+              "body_md": "Subject-matter jurisdiction asks whether an institution may hear this category of case. Personal jurisdiction concerns authority over a particular person. Territorial jurisdiction concerns the place or connection within which authority may be exercised. These categories interact but are not interchangeable. A family court might have power over divorce matters yet lack power to settle a patent dispute. A court authorized to hear contract claims may still lack authority over a distant defendant. Always keep the three questions separate.",
+              "example": null,
+              "audio_script": "Subject-matter jurisdiction asks whether an institution may hear this category of case. Personal jurisdiction concerns authority over a particular person. Territorial jurisdiction concerns the place or connection within which authority may be exercised. These categories interact but are not interchangeable. A family court might have power over divorce matters yet lack power to settle a patent dispute. A court authorized to hear contract claims may still lack authority over a distant defendant. Always keep the three questions separate.",
+              "video": null
+            },
+            {
+              "title": "A Practical Jurisdiction Check",
+              "body_md": "Start with the institution's constituting law: a constitution, statute, treaty, or recognized procedural rule. Then identify the type of claim, the relevant parties, and the geographic connection. Finally ask whether another institution has exclusive authority or whether several forums are permitted. This order prevents an argument about who deserves to win from obscuring who may decide. Jurisdiction is a threshold question, not a guarantee of fairness or of a favorable result. A lawful forum can reach a mistaken conclusion.",
+              "example": null,
+              "audio_script": "Start with the institution's constituting law: a constitution, statute, treaty, or recognized procedural rule. Then identify the type of claim, the relevant parties, and the geographic connection. Finally ask whether another institution has exclusive authority or whether several forums are permitted. This order prevents an argument about who deserves to win from obscuring who may decide. Jurisdiction is a threshold question, not a guarantee of fairness or of a favorable result. A lawful forum can reach a mistaken conclusion.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Subject-matter jurisdiction means authority over a category of cases.",
+              "answer": true,
+              "explanation_if_true": "Subject-matter jurisdiction concerns authority over a category of cases.",
+              "explanation_if_false": "Subject-matter jurisdiction concerns authority over a category of cases."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "A court that has subject-matter jurisdiction necessarily has personal jurisdiction over every possible defendant.",
+              "answer": false,
+              "explanation_if_true": "Authority over a kind of case does not automatically supply authority over every person.",
+              "explanation_if_false": "Authority over a kind of case does not automatically supply authority over every person."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Jurisdiction?",
+              "choices": [
+                "Legally conferred authority to decide or act",
+                "Authority over a category of cases",
+                "Authority over an identified party",
+                "Authority tied to a place or connection"
+              ],
+              "answer_index": 0,
+              "explanation": "Jurisdiction means legally conferred authority to decide or act."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A court can hear contract claims but has no lawful connection to the defendant. Which issue remains?",
+              "choices": [
+                "Personal jurisdiction",
+                "The ultimate merits",
+                "Whether consideration exists",
+                "Whether a remedy is equitable"
+              ],
+              "answer_index": 0,
+              "explanation": "The case category is within the court's power; its authority over this defendant still needs examination."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Authority over an identified party?",
+              "choices": [
+                "Subject-matter jurisdiction",
+                "Personal jurisdiction",
+                "Jurisdiction",
+                "Territorial jurisdiction"
+              ],
+              "answer_index": 1,
+              "explanation": "Personal jurisdiction is authority over an identified party."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Jurisdiction",
+                  "Legally conferred authority to decide or act"
+                ],
+                [
+                  "Subject-matter jurisdiction",
+                  "Authority over a category of cases"
+                ],
+                [
+                  "Personal jurisdiction",
+                  "Authority over an identified party"
+                ],
+                [
+                  "Territorial jurisdiction",
+                  "Authority tied to a place or connection"
+                ]
+              ],
+              "explanation": "These four distinctions govern the analysis in this lesson."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Complete the term: Legally conferred authority to decide or act is called ___.",
+              "answer": "Jurisdiction",
+              "accept": [
+                "Jurisdiction"
+              ],
+              "explanation": "Jurisdiction is the name for legally conferred authority to decide or act."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Complete the term: Authority tied to a place or connection is called ___.",
+              "answer": "Territorial jurisdiction",
+              "accept": [
+                "Territorial jurisdiction"
+              ],
+              "explanation": "Territorial jurisdiction names authority tied to a place or connection."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish sources and limits of adjudicative power.",
+          "summary": "Build from the three jurisdiction questions to the legal sources that answer them. Learn why consent, connection, and institutional hierarchy sometimes matter more than the label a claimant puts on a case.",
+          "checklist": [
+            "I can trace a jurisdictional claim to its source",
+            "I can distinguish jurisdiction from venue and choice of law",
+            "I can analyze consent and exclusive jurisdiction"
+          ],
+          "sections": [
+            {
+              "title": "Where Power Comes From",
+              "body_md": "A judge does not receive jurisdiction because a claim seems important. Jurisdiction must rest on an authorizing rule, and that rule may allocate disputes among courts, tribunals, agencies, and arbitrators. Constitutional structures may restrict what legislation can confer. Statutes may grant a court authority while withholding it from another. Consent may matter in some disputes, especially arbitration, but consent generally cannot create subject-matter jurisdiction where the legal system withholds it. A useful analysis names the source before stating the conclusion.",
+              "example": null,
+              "audio_script": "A judge does not receive jurisdiction because a claim seems important. Jurisdiction must rest on an authorizing rule, and that rule may allocate disputes among courts, tribunals, agencies, and arbitrators. Constitutional structures may restrict what legislation can confer. Statutes may grant a court authority while withholding it from another. Consent may matter in some disputes, especially arbitration, but consent generally cannot create subject-matter jurisdiction where the legal system withholds it. A useful analysis names the source before stating the conclusion.",
+              "video": null
+            },
+            {
+              "title": "Jurisdiction Is Not Venue",
+              "body_md": "Jurisdiction asks whether an institution may act; venue asks which place within an authorized system is appropriate. Choice of law asks which legal rules govern a dispute. These questions can produce different answers. An authorized court in one country may apply another country's contract law. An action may be filed in a court with subject-matter power but in an improper district. Moving the action to a proper venue does not necessarily cure a separate absence of jurisdiction over a person.",
+              "example": null,
+              "audio_script": "Jurisdiction asks whether an institution may act; venue asks which place within an authorized system is appropriate. Choice of law asks which legal rules govern a dispute. These questions can produce different answers. An authorized court in one country may apply another country's contract law. An action may be filed in a court with subject-matter power but in an improper district. Moving the action to a proper venue does not necessarily cure a separate absence of jurisdiction over a person.",
+              "video": null
+            },
+            {
+              "title": "Connection, Consent, and Exclusivity",
+              "body_md": "Jurisdictional tests often weigh a defendant's links with a forum, the location of events, or a valid agreement to arbitrate or litigate. They differ across legal systems. Some statutes reserve particular disputes to a specialized court; others allow concurrent forums. A lawyer therefore asks whether the court has power, whether it is the proper venue, whether another forum is exclusive, and whether any challenge can be waived. Never assume a waiver rule is universal: the legal system and type of jurisdiction determine the answer.",
+              "example": null,
+              "audio_script": "Jurisdictional tests often weigh a defendant's links with a forum, the location of events, or a valid agreement to arbitrate or litigate. They differ across legal systems. Some statutes reserve particular disputes to a specialized court; others allow concurrent forums. A lawyer therefore asks whether the court has power, whether it is the proper venue, whether another forum is exclusive, and whether any challenge can be waived. Never assume a waiver rule is universal: the legal system and type of jurisdiction determine the answer.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Choice of law means selection of rules governing the dispute.",
+              "answer": true,
+              "explanation_if_true": "Choice of law concerns selection of rules governing the dispute.",
+              "explanation_if_false": "Choice of law concerns selection of rules governing the dispute."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Venue and jurisdiction mean precisely the same thing.",
+              "answer": false,
+              "explanation_if_true": "Venue concerns appropriate place; jurisdiction concerns authority to decide.",
+              "explanation_if_false": "Venue concerns appropriate place; jurisdiction concerns authority to decide."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Venue?",
+              "choices": [
+                "The legally appropriate location for a case",
+                "Selection of rules governing the dispute",
+                "Authority reserved to a particular forum",
+                "Authority held by more than one forum"
+              ],
+              "answer_index": 0,
+              "explanation": "Venue means the legally appropriate location for a case."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A court has power to hear a case, but it was filed in the wrong district. What should be examined?",
+              "choices": [
+                "Venue",
+                "Choice of law only",
+                "The claimant's character",
+                "Criminal guilt"
+              ],
+              "answer_index": 0,
+              "explanation": "Venue can be wrong even though the court has legal authority over the dispute."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Authority reserved to a particular forum?",
+              "choices": [
+                "Choice of law",
+                "Exclusive jurisdiction",
+                "Venue",
+                "Concurrent jurisdiction"
+              ],
+              "answer_index": 1,
+              "explanation": "Exclusive jurisdiction is authority reserved to a particular forum."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Venue",
+                  "The legally appropriate location for a case"
+                ],
+                [
+                  "Choice of law",
+                  "Selection of rules governing the dispute"
+                ],
+                [
+                  "Exclusive jurisdiction",
+                  "Authority reserved to a particular forum"
+                ],
+                [
+                  "Concurrent jurisdiction",
+                  "Authority held by more than one forum"
+                ]
+              ],
+              "explanation": "These four distinctions govern the analysis in this lesson."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Complete the term: The legally appropriate location for a case is called ___.",
+              "answer": "Venue",
+              "accept": [
+                "Venue"
+              ],
+              "explanation": "Venue is the name for the legally appropriate location for a case."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Complete the term: Authority held by more than one forum is called ___.",
+              "answer": "Concurrent jurisdiction",
+              "accept": [
+                "Concurrent jurisdiction"
+              ],
+              "explanation": "Concurrent jurisdiction names authority held by more than one forum."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze cross-border and institutional conflicts.",
+          "summary": "Move from ordinary allocation of power to cases involving multiple legal orders. Learn how adjudicative, legislative and enforcement jurisdiction differ and why a state cannot always enforce abroad what it may prescribe at home.",
+          "checklist": [
+            "I can separate prescriptive, adjudicative, and enforcement jurisdiction",
+            "I can spot overlapping international claims of authority",
+            "I can distinguish recognition of judgment from its original validity"
+          ],
+          "sections": [
+            {
+              "title": "Three Powers Across Borders",
+              "body_md": "In a cross-border dispute, the word jurisdiction may describe three different powers. Prescriptive jurisdiction concerns which conduct a state may regulate. Adjudicative jurisdiction concerns which tribunal may determine rights. Enforcement jurisdiction concerns coercive acts such as seizure or arrest. A country may prescribe a rule affecting conduct abroad without having permission to send its police into another state. Territorial sovereignty places particularly strong limits on enforcement. Confusing these powers can make a plausible legal claim into an unlawful intervention.",
+              "example": null,
+              "audio_script": "In a cross-border dispute, the word jurisdiction may describe three different powers. Prescriptive jurisdiction concerns which conduct a state may regulate. Adjudicative jurisdiction concerns which tribunal may determine rights. Enforcement jurisdiction concerns coercive acts such as seizure or arrest. A country may prescribe a rule affecting conduct abroad without having permission to send its police into another state. Territorial sovereignty places particularly strong limits on enforcement. Confusing these powers can make a plausible legal claim into an unlawful intervention.",
+              "video": null
+            },
+            {
+              "title": "Parallel Claims to Decide",
+              "body_md": "A seller in one country and a buyer in another may each sue in a familiar court. Both courts might plausibly claim jurisdiction. A jurisdiction clause may settle some private disputes; a treaty may allocate others; domestic doctrines may permit a court to decline proceedings despite formal power. The order of analysis matters: identify each forum's claimed source of authority, possible exclusivity, relevant connections, and any rule restraining parallel litigation. Do not confuse practical inconvenience with a complete lack of legal power.",
+              "example": null,
+              "audio_script": "A seller in one country and a buyer in another may each sue in a familiar court. Both courts might plausibly claim jurisdiction. A jurisdiction clause may settle some private disputes; a treaty may allocate others; domestic doctrines may permit a court to decline proceedings despite formal power. The order of analysis matters: identify each forum's claimed source of authority, possible exclusivity, relevant connections, and any rule restraining parallel litigation. Do not confuse practical inconvenience with a complete lack of legal power.",
+              "video": null
+            },
+            {
+              "title": "Judgments Do Not Travel Automatically",
+              "body_md": "Winning abroad does not itself seize assets elsewhere. A second legal system may require recognition or enforcement of the judgment under a treaty or local law. It may ask whether the first court had adequate jurisdiction, whether the defendant received fair notice, and whether enforcement offends narrowly defined public-policy limits. Those conditions vary. This creates a practical distinction between a judgment's validity where issued and its legal effect where performance is sought. Good advice examines both before choosing a forum.",
+              "example": null,
+              "audio_script": "Winning abroad does not itself seize assets elsewhere. A second legal system may require recognition or enforcement of the judgment under a treaty or local law. It may ask whether the first court had adequate jurisdiction, whether the defendant received fair notice, and whether enforcement offends narrowly defined public-policy limits. Those conditions vary. This creates a practical distinction between a judgment's validity where issued and its legal effect where performance is sought. Good advice examines both before choosing a forum.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Adjudicative jurisdiction means power of a tribunal to decide.",
+              "answer": true,
+              "explanation_if_true": "Adjudicative jurisdiction concerns power of a tribunal to decide.",
+              "explanation_if_false": "Adjudicative jurisdiction concerns power of a tribunal to decide."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "A state may always seize assets abroad merely because its courts issued a valid judgment.",
+              "answer": false,
+              "explanation_if_true": "A valid domestic judgment does not automatically confer coercive power in another sovereign's territory.",
+              "explanation_if_false": "A valid domestic judgment does not automatically confer coercive power in another sovereign's territory."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Prescriptive jurisdiction?",
+              "choices": [
+                "Power to prescribe binding rules",
+                "Power of a tribunal to decide",
+                "Power to compel compliance physically",
+                "Acceptance of a foreign judgment's legal effect"
+              ],
+              "answer_index": 0,
+              "explanation": "Prescriptive jurisdiction means power to prescribe binding rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A state regulates foreign commerce but wants to send officers to seize goods abroad without consent. Which power poses the clearest problem?",
+              "choices": [
+                "Enforcement jurisdiction",
+                "Choice of law",
+                "Venue",
+                "Private arbitration"
+              ],
+              "answer_index": 0,
+              "explanation": "Coercive action on foreign territory invokes distinct sovereignty limits on enforcement."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Power to compel compliance physically?",
+              "choices": [
+                "Adjudicative jurisdiction",
+                "Enforcement jurisdiction",
+                "Prescriptive jurisdiction",
+                "Recognition"
+              ],
+              "answer_index": 1,
+              "explanation": "Enforcement jurisdiction is power to compel compliance physically."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Prescriptive jurisdiction",
+                  "Power to prescribe binding rules"
+                ],
+                [
+                  "Adjudicative jurisdiction",
+                  "Power of a tribunal to decide"
+                ],
+                [
+                  "Enforcement jurisdiction",
+                  "Power to compel compliance physically"
+                ],
+                [
+                  "Recognition",
+                  "Acceptance of a foreign judgment's legal effect"
+                ]
+              ],
+              "explanation": "These four distinctions govern the analysis in this lesson."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Complete the term: Power to prescribe binding rules is called ___.",
+              "answer": "Prescriptive jurisdiction",
+              "accept": [
+                "Prescriptive jurisdiction"
+              ],
+              "explanation": "Prescriptive jurisdiction is the name for power to prescribe binding rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Complete the term: Acceptance of a foreign judgment's legal effect is called ___.",
+              "answer": "Recognition",
+              "accept": [
+                "Recognition"
+              ],
+              "explanation": "Recognition names acceptance of a foreign judgment's legal effect."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate jurisdictional pluralism and legitimacy.",
+          "summary": "At doctoral depth, treat jurisdiction as a claim requiring normative justification, not only a checklist. Compare sovereignty, consent, territorial connection, and access to justice when legal orders overlap.",
+          "checklist": [
+            "I can critique a forum's claim to authority using competing theories",
+            "I can design a jurisdictional rule that balances predictability and fair access",
+            "I can identify procedural injustice produced by forum allocation"
+          ],
+          "sections": [
+            {
+              "title": "A Rule Can Be Valid Yet Misplaced",
+              "body_md": "Jurisdiction allocates power, but the allocation itself needs justification. Territorial sovereignty values mutual restraint; defendant-protective tests value fair warning; consent protects autonomy, though unequal bargaining weakens its moral force. A strict territorial rule may leave online injuries without an effective forum. An expansive effects rule may expose individuals to unpredictable courts. A doctoral analysis states the rule, the value it serves, whose interests it neglects, and the competing rule that could solve the neglect at a cost.",
+              "example": null,
+              "audio_script": "Jurisdiction allocates power, but the allocation itself needs justification. Territorial sovereignty values mutual restraint; defendant-protective tests value fair warning; consent protects autonomy, though unequal bargaining weakens its moral force. A strict territorial rule may leave online injuries without an effective forum. An expansive effects rule may expose individuals to unpredictable courts. A doctoral analysis states the rule, the value it serves, whose interests it neglects, and the competing rule that could solve the neglect at a cost.",
+              "video": null
+            },
+            {
+              "title": "Plural Legal Orders",
+              "body_md": "International tribunals, national courts, religious institutions, Indigenous legal orders, and private arbitration may make claims touching the same conduct. Their authority is not identical, and recognition may be contested. Legal pluralism asks how these orders coexist without assuming one system always exhausts what counts as law. The difficult question is often not which decision is easiest to enforce, but which persons should participate in determining the forum. A formally neutral allocation may systematically exclude poorer or displaced litigants.",
+              "example": null,
+              "audio_script": "International tribunals, national courts, religious institutions, Indigenous legal orders, and private arbitration may make claims touching the same conduct. Their authority is not identical, and recognition may be contested. Legal pluralism asks how these orders coexist without assuming one system always exhausts what counts as law. The difficult question is often not which decision is easiest to enforce, but which persons should participate in determining the forum. A formally neutral allocation may systematically exclude poorer or displaced litigants.",
+              "video": null
+            },
+            {
+              "title": "Designing a Defensible Forum Rule",
+              "body_md": "Imagine a platform injuring users in many countries. A plaintiff-centered rule improves access but multiplies defendant exposure; a defendant-centered rule improves predictability but can make redress impossible. A proportional design might require a meaningful connection, transparent notice, modest procedural costs, and protection against duplicative judgments. It must also respect binding constitutional and treaty limits. The task is to defend a workable compromise and say what evidence would show that it harms, rather than helps, those seeking justice.",
+              "example": null,
+              "audio_script": "Imagine a platform injuring users in many countries. A plaintiff-centered rule improves access but multiplies defendant exposure; a defendant-centered rule improves predictability but can make redress impossible. A proportional design might require a meaningful connection, transparent notice, modest procedural costs, and protection against duplicative judgments. It must also respect binding constitutional and treaty limits. The task is to defend a workable compromise and say what evidence would show that it harms, rather than helps, those seeking justice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Forum access means practical opportunity to obtain a hearing.",
+              "answer": true,
+              "explanation_if_true": "Forum access concerns practical opportunity to obtain a hearing.",
+              "explanation_if_false": "Forum access concerns practical opportunity to obtain a hearing."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A jurisdictional rule is necessarily just whenever it is formally valid.",
+              "answer": false,
+              "explanation_if_true": "Formal validity does not alone determine whether costs and access are distributed fairly.",
+              "explanation_if_false": "Formal validity does not alone determine whether costs and access are distributed fairly."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Jurisdictional pluralism?",
+              "choices": [
+                "Overlapping claims of authority by distinct legal orders",
+                "Practical opportunity to obtain a hearing",
+                "Ability to anticipate the forum governing conduct",
+                "Justification for an institution's claim to decide"
+              ],
+              "answer_index": 0,
+              "explanation": "Jurisdictional pluralism means overlapping claims of authority by distinct legal orders."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An online-harm rule allows victims to sue anywhere but makes exposure limitless. What is the central trade-off?",
+              "choices": [
+                "Access versus predictability",
+                "Venue versus evidence",
+                "Fact versus procedure",
+                "Statute versus custom"
+              ],
+              "answer_index": 0,
+              "explanation": "An accessible forum can become unpredictable for defendants; legitimacy requires confronting both interests."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means: Ability to anticipate the forum governing conduct?",
+              "choices": [
+                "Forum access",
+                "Predictability",
+                "Jurisdictional pluralism",
+                "Legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Predictability is ability to anticipate the forum governing conduct."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Jurisdictional pluralism",
+                  "Overlapping claims of authority by distinct legal orders"
+                ],
+                [
+                  "Forum access",
+                  "Practical opportunity to obtain a hearing"
+                ],
+                [
+                  "Predictability",
+                  "Ability to anticipate the forum governing conduct"
+                ],
+                [
+                  "Legitimacy",
+                  "Justification for an institution's claim to decide"
+                ]
+              ],
+              "explanation": "These four distinctions govern the analysis in this lesson."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Complete the term: Overlapping claims of authority by distinct legal orders is called ___.",
+              "answer": "Jurisdictional pluralism",
+              "accept": [
+                "Jurisdictional pluralism"
+              ],
+              "explanation": "Jurisdictional pluralism is the name for overlapping claims of authority by distinct legal orders."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.jurisdiction-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Complete the term: Justification for an institution's claim to decide is called ___.",
+              "answer": "Legitimacy",
+              "accept": [
+                "Legitimacy"
+              ],
+              "explanation": "Legitimacy names justification for an institution's claim to decide."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
