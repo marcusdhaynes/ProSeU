@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "remedy-doctrines",
+      "name": "Remedy Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Understand what law does after a wrong is established.",
+          "summary": "Learn why identifying a legal violation is not the end of a case. Distinguish orders that compensate, prevent, or formally recognize the legal position of a person.",
+          "checklist": [
+            "I can distinguish a legal right from the remedy for violating it",
+            "I can identify damages, injunctions and declarations",
+            "I can ask whether a proposed remedy fits the problem"
+          ],
+          "sections": [
+            {
+              "title": "A Right Needs an Answer",
+              "body_md": "Suppose a neighbor repeatedly blocks the only entrance to a home. Showing that the obstruction violates the owner's rights is only the first task. The law must also decide what, if anything, a court can order. A remedy is the legal response to a claim proved or otherwise established. It might require money, command conduct, or declare what the parties' rights are. Different causes of action and legal systems allow different remedies, so identifying a wrong does not prove entitlement to a preferred result.",
+              "example": null,
+              "audio_script": "Suppose a neighbor repeatedly blocks the only entrance to a home. Showing that the obstruction violates the owner's rights is only the first task. The law must also decide what, if anything, a court can order. A remedy is the legal response to a claim proved or otherwise established. It might require money, command conduct, or declare what the parties' rights are. Different causes of action and legal systems allow different remedies, so identifying a wrong does not prove entitlement to a preferred result.",
+              "video": null
+            },
+            {
+              "title": "Money, Conduct, and Legal Status",
+              "body_md": "Damages provide a monetary response to an actionable wrong, often measured by legally recognized loss. An injunction directs a person to do or stop doing something; violating it can have separate consequences. A declaration states the parties' legal position without necessarily awarding money or coercive performance. None is interchangeable. Money cannot always protect a unique interest; an injunction may be disproportionate for a minor loss. A careful lawyer begins with the client's actual need rather than with the remedy that sounds strongest.",
+              "example": null,
+              "audio_script": "Damages provide a monetary response to an actionable wrong, often measured by legally recognized loss. An injunction directs a person to do or stop doing something; violating it can have separate consequences. A declaration states the parties' legal position without necessarily awarding money or coercive performance. None is interchangeable. Money cannot always protect a unique interest; an injunction may be disproportionate for a minor loss. A careful lawyer begins with the client's actual need rather than with the remedy that sounds strongest.",
+              "video": null
+            },
+            {
+              "title": "Matching Relief to the Problem",
+              "body_md": "Ask what injury has occurred, whether harm continues, whether money could repair it, and what practical order a court could enforce. Also ask whether a statute limits available relief or requires particular steps. A person harmed by a one-time small overcharge might seek repayment, while a person threatened by repeated unlawful disclosure may need preventive relief. Remedies are part of the legal system's account of justice: a right matters in practice only if there is a meaningful way to invoke it.",
+              "example": null,
+              "audio_script": "Ask what injury has occurred, whether harm continues, whether money could repair it, and what practical order a court could enforce. Also ask whether a statute limits available relief or requires particular steps. A person harmed by a one-time small overcharge might seek repayment, while a person threatened by repeated unlawful disclosure may need preventive relief. Remedies are part of the legal system's account of justice: a right matters in practice only if there is a meaningful way to invoke it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Damages means money awarded as a legal response to harm.",
+              "answer": true,
+              "explanation_if_true": "Damages means money awarded as a legal response to harm.",
+              "explanation_if_false": "Damages means money awarded as a legal response to harm."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Every proven legal wrong requires a court to issue an injunction.",
+              "answer": false,
+              "explanation_if_true": "Available relief depends on the governing cause of action and remedial rules.",
+              "explanation_if_false": "Available relief depends on the governing cause of action and remedial rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Remedy?",
+              "choices": [
+                "A judicial statement of legal rights or status",
+                "A legal response to an established claim",
+                "Money awarded as a legal response to harm",
+                "An order directing or restraining conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Remedy means a legal response to an established claim."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A threatened disclosure would reveal private information repeatedly. Which relief most directly prevents future disclosure?",
+              "choices": [
+                "Injunction",
+                "Damages for past harm only",
+                "A retrospective declaration only",
+                "An appeal before any claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Preventive relief can address threatened recurring conduct when legal standards for an injunction are met."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means an order directing or restraining conduct?",
+              "choices": [
+                "Injunction",
+                "Remedy",
+                "Declaration",
+                "Damages"
+              ],
+              "answer_index": 0,
+              "explanation": "Injunction means an order directing or restraining conduct."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each remedy concept to its meaning.",
+              "pairs": [
+                [
+                  "Remedy",
+                  "A legal response to an established claim"
+                ],
+                [
+                  "Damages",
+                  "Money awarded as a legal response to harm"
+                ],
+                [
+                  "Injunction",
+                  "An order directing or restraining conduct"
+                ],
+                [
+                  "Declaration",
+                  "A judicial statement of legal rights or status"
+                ]
+              ],
+              "explanation": "The four concepts serve different functions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "A legal response to an established claim is called ___.",
+              "answer": "Remedy",
+              "accept": [
+                "Remedy"
+              ],
+              "explanation": "The term is Remedy."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "A judicial statement of legal rights or status is called ___.",
+              "answer": "Declaration",
+              "accept": [
+                "Declaration"
+              ],
+              "explanation": "The term is Declaration."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain compensation, restitution and equitable relief.",
+          "summary": "Build on the basic remedies by distinguishing different aims: repair a loss, strip an unjust gain, or require performance. Examine why courts sometimes deny a remedy even when the claimant has a valid right.",
+          "checklist": [
+            "I can distinguish compensatory damages and restitution",
+            "I can recognize specific performance and its limits",
+            "I can explain why some equitable relief is discretionary"
+          ],
+          "sections": [
+            {
+              "title": "Loss and Gain Ask Different Questions",
+              "body_md": "Compensatory damages generally look toward the claimant's legally recognized loss. Restitution often asks whether a defendant should surrender an unjust benefit or restore value received. The sums may differ. If someone wrongfully receives a payment but causes little consequential loss, repayment focuses on the gain. If a defective product injures a customer, compensation focuses on the injury. Causes of action, bars to recovery, and available defenses vary. A lawyer must not call every monetary order damages or assume a gain-based remedy requires proof of an identical loss.",
+              "example": null,
+              "audio_script": "Compensatory damages generally look toward the claimant's legally recognized loss. Restitution often asks whether a defendant should surrender an unjust benefit or restore value received. The sums may differ. If someone wrongfully receives a payment but causes little consequential loss, repayment focuses on the gain. If a defective product injures a customer, compensation focuses on the injury. Causes of action, bars to recovery, and available defenses vary. A lawyer must not call every monetary order damages or assume a gain-based remedy requires proof of an identical loss.",
+              "video": null
+            },
+            {
+              "title": "Why a Court Might Order Performance",
+              "body_md": "Specific performance directs a party to fulfill a contractual duty rather than pay damages. It may be useful when the promised thing is unique or a monetary substitute would not be adequate. Equitable relief is subject to applicable standards, defenses and judicial discretion. Courts may hesitate to supervise complex continuing performance or to require personal service. The remedy must be both legally available and practically workable. The plaintiff's sense that a promise should be kept is not itself the complete legal test.",
+              "example": null,
+              "audio_script": "Specific performance directs a party to fulfill a contractual duty rather than pay damages. It may be useful when the promised thing is unique or a monetary substitute would not be adequate. Equitable relief is subject to applicable standards, defenses and judicial discretion. Courts may hesitate to supervise complex continuing performance or to require personal service. The remedy must be both legally available and practically workable. The plaintiff's sense that a promise should be kept is not itself the complete legal test.",
+              "video": null
+            },
+            {
+              "title": "A Remedy May Have Conditions",
+              "body_md": "Remedial rules can consider delay, claimant misconduct, adequacy of damages, hardship to the defendant, and the public interest. Different jurisdictions give those factors different roles. An urgent application for an interim injunction may require a different showing than final relief after trial. The analysis should identify the cause of action, proposed remedy, conditions, and effects on third parties. This preserves a crucial distinction: winning on liability is not always the same as winning the particular order requested.",
+              "example": null,
+              "audio_script": "Remedial rules can consider delay, claimant misconduct, adequacy of damages, hardship to the defendant, and the public interest. Different jurisdictions give those factors different roles. An urgent application for an interim injunction may require a different showing than final relief after trial. The analysis should identify the cause of action, proposed remedy, conditions, and effects on third parties. This preserves a crucial distinction: winning on liability is not always the same as winning the particular order requested.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Restitution means recovery of a benefit improperly retained.",
+              "answer": true,
+              "explanation_if_true": "Restitution means recovery of a benefit improperly retained.",
+              "explanation_if_false": "Restitution means recovery of a benefit improperly retained."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Restitution and compensation always measure precisely the same amount.",
+              "answer": false,
+              "explanation_if_true": "One commonly focuses on gain and the other on legally recognized loss; the results may differ.",
+              "explanation_if_false": "One commonly focuses on gain and the other on legally recognized loss; the results may differ."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Compensation?",
+              "choices": [
+                "Monetary repair of legally recognized loss",
+                "Recovery of a benefit improperly retained",
+                "Order to fulfill a particular obligation",
+                "Judicial choice within standards governing equitable relief"
+              ],
+              "answer_index": 0,
+              "explanation": "Compensation means monetary repair of legally recognized loss."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A seller refuses to convey a unique parcel and money would not be adequate. Which remedy may be considered?",
+              "choices": [
+                "A criminal sentence",
+                "Habeas corpus",
+                "A jury instruction",
+                "Specific performance"
+              ],
+              "answer_index": 3,
+              "explanation": "When damages are inadequate, a court may consider ordering performance if its equitable requirements are satisfied."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means order to fulfill a particular obligation?",
+              "choices": [
+                "Compensation",
+                "Equitable discretion",
+                "Restitution",
+                "Specific performance"
+              ],
+              "answer_index": 3,
+              "explanation": "Specific performance means order to fulfill a particular obligation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each remedy concept to its meaning.",
+              "pairs": [
+                [
+                  "Compensation",
+                  "Monetary repair of legally recognized loss"
+                ],
+                [
+                  "Restitution",
+                  "Recovery of a benefit improperly retained"
+                ],
+                [
+                  "Specific performance",
+                  "Order to fulfill a particular obligation"
+                ],
+                [
+                  "Equitable discretion",
+                  "Judicial choice within standards governing equitable relief"
+                ]
+              ],
+              "explanation": "The four concepts serve different functions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Monetary repair of legally recognized loss is called ___.",
+              "answer": "Compensation",
+              "accept": [
+                "Compensation"
+              ],
+              "explanation": "The term is Compensation."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Judicial choice within standards governing equitable relief is called ___.",
+              "answer": "Equitable discretion",
+              "accept": [
+                "Equitable discretion"
+              ],
+              "explanation": "The term is Equitable discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare private, public and structural remedies.",
+          "summary": "Analyze remedies that affect multiple parties, institutions or continuing legal relationships. Learn how proportionality, supervision and third-party impact can determine whether effective relief is lawful.",
+          "checklist": [
+            "I can analyze proportionality and enforceability of remedial orders",
+            "I can distinguish individual relief from structural relief",
+            "I can consider the relationship between interim and final remedies"
+          ],
+          "sections": [
+            {
+              "title": "Relief Can Reshape an Institution",
+              "body_md": "A court ordering one employer to pay wages affects a relatively defined relationship. A court requiring a prison system to change its practices may affect budgets, staff, and people who were never parties. Structural remedies attempt to correct recurring institutional violations through ongoing orders. Their availability, scope, and judicial supervision differ greatly across legal orders. The difficulty is not simply identifying a wrong: it is designing relief that is effective, lawful, and sensitive to institutional roles.",
+              "example": null,
+              "audio_script": "A court ordering one employer to pay wages affects a relatively defined relationship. A court requiring a prison system to change its practices may affect budgets, staff, and people who were never parties. Structural remedies attempt to correct recurring institutional violations through ongoing orders. Their availability, scope, and judicial supervision differ greatly across legal orders. The difficulty is not simply identifying a wrong: it is designing relief that is effective, lawful, and sensitive to institutional roles.",
+              "video": null
+            },
+            {
+              "title": "Proportion and Implementation",
+              "body_md": "An overbroad order may prevent lawful conduct along with unlawful conduct. An order too narrow may leave the violation intact. Lawyers therefore consider fit: which action would repair or prevent the injury with acceptable effects on other persons? Requirements of causation, standing, proportionality, and institutional competence may constrain relief. The best theoretical order is useless if a court cannot monitor compliance or if enforcement would worsen the harm. Implementation belongs inside remedial reasoning, not after it.",
+              "example": null,
+              "audio_script": "An overbroad order may prevent lawful conduct along with unlawful conduct. An order too narrow may leave the violation intact. Lawyers therefore consider fit: which action would repair or prevent the injury with acceptable effects on other persons? Requirements of causation, standing, proportionality, and institutional competence may constrain relief. The best theoretical order is useless if a court cannot monitor compliance or if enforcement would worsen the harm. Implementation belongs inside remedial reasoning, not after it.",
+              "video": null
+            },
+            {
+              "title": "Interim and Final Relief",
+              "body_md": "Interim relief aims to preserve a situation before a full decision, often under urgent conditions and incomplete proof. Final relief follows the relevant adjudicative process. Courts may weigh the risk of irreparable harm, the merits, competing hardships, and public interests differently depending on jurisdiction and remedy. A lawyer must not treat a preliminary order as a final determination of liability. The method is to identify what must be protected now, what remains contested, and how to avoid prejudging the case.",
+              "example": null,
+              "audio_script": "Interim relief aims to preserve a situation before a full decision, often under urgent conditions and incomplete proof. Final relief follows the relevant adjudicative process. Courts may weigh the risk of irreparable harm, the merits, competing hardships, and public interests differently depending on jurisdiction and remedy. A lawyer must not treat a preliminary order as a final determination of liability. The method is to identify what must be protected now, what remains contested, and how to avoid prejudging the case.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Proportionality means fit between the remedy and the legal harm.",
+              "answer": true,
+              "explanation_if_true": "Proportionality means fit between the remedy and the legal harm.",
+              "explanation_if_false": "Proportionality means fit between the remedy and the legal harm."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "A temporary injunction necessarily decides who will win the final case.",
+              "answer": false,
+              "explanation_if_true": "Interim relief can preserve interests without determining final liability.",
+              "explanation_if_false": "Interim relief can preserve interests without determining final liability."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Structural remedy?",
+              "choices": [
+                "Fit between the remedy and the legal harm",
+                "Temporary protection before final resolution",
+                "An institution's ability and authority to administer relief",
+                "Relief intended to reform recurring institutional conduct"
+              ],
+              "answer_index": 3,
+              "explanation": "Structural remedy means relief intended to reform recurring institutional conduct."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A court orders an agency to redesign an entire system to end recurring violations. What category of relief is involved?",
+              "choices": [
+                "An ordinary venue transfer",
+                "A private arbitration clause",
+                "Structural remedy",
+                "Only a money judgment"
+              ],
+              "answer_index": 2,
+              "explanation": "Continuing institutional orders raise questions of scope, supervision and authority."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means temporary protection before final resolution?",
+              "choices": [
+                "Institutional competence",
+                "Proportionality",
+                "Interim relief",
+                "Structural remedy"
+              ],
+              "answer_index": 2,
+              "explanation": "Interim relief means temporary protection before final resolution."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each remedy concept to its meaning.",
+              "pairs": [
+                [
+                  "Structural remedy",
+                  "Relief intended to reform recurring institutional conduct"
+                ],
+                [
+                  "Proportionality",
+                  "Fit between the remedy and the legal harm"
+                ],
+                [
+                  "Interim relief",
+                  "Temporary protection before final resolution"
+                ],
+                [
+                  "Institutional competence",
+                  "An institution's ability and authority to administer relief"
+                ]
+              ],
+              "explanation": "The four concepts serve different functions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Relief intended to reform recurring institutional conduct is called ___.",
+              "answer": "Structural remedy",
+              "accept": [
+                "Structural remedy"
+              ],
+              "explanation": "The term is Structural remedy."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "An institution's ability and authority to administer relief is called ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate remedial justice and institutional accountability.",
+          "summary": "At doctoral depth, ask what a legal right means when remedies are unavailable, delayed, or inaccessible. Defend a remedial design that respects separation of powers while protecting the people law is meant to serve.",
+          "checklist": [
+            "I can critique rights with ineffective enforcement",
+            "I can compare individual vindication, deterrence and restorative repair",
+            "I can defend a remedy that can be implemented and reviewed"
+          ],
+          "sections": [
+            {
+              "title": "Rights Without Effective Relief",
+              "body_md": "A right may be formally declared yet practically inaccessible because of expense, delay, proof problems, immunity, or weak enforcement. This creates a gap between legal recognition and lived protection. It does not follow that every right must yield damages or an injunction in every case. Some remedial restrictions express competing constitutional or institutional values. The deeper question is whether the system offers a fair and meaningful route to vindication, particularly to people with little money or power.",
+              "example": null,
+              "audio_script": "A right may be formally declared yet practically inaccessible because of expense, delay, proof problems, immunity, or weak enforcement. This creates a gap between legal recognition and lived protection. It does not follow that every right must yield damages or an injunction in every case. Some remedial restrictions express competing constitutional or institutional values. The deeper question is whether the system offers a fair and meaningful route to vindication, particularly to people with little money or power.",
+              "video": null
+            },
+            {
+              "title": "What Should Repair Mean?",
+              "body_md": "Corrective remedies may seek to restore a person's position. Deterrent remedies try to prevent future wrongdoing. Restorative approaches may involve acknowledgment, participation and repair of relationships. These aims overlap but should not be collapsed. A monetary award may compensate without changing a dangerous practice; an injunction may stop a practice without recognizing those already harmed. A doctoral account explains which legal interests are protected and whether the remedy reflects the actual experiences of affected persons. It must also respect consent and dignity.",
+              "example": null,
+              "audio_script": "Corrective remedies may seek to restore a person's position. Deterrent remedies try to prevent future wrongdoing. Restorative approaches may involve acknowledgment, participation and repair of relationships. These aims overlap but should not be collapsed. A monetary award may compensate without changing a dangerous practice; an injunction may stop a practice without recognizing those already harmed. A doctoral account explains which legal interests are protected and whether the remedy reflects the actual experiences of affected persons. It must also respect consent and dignity.",
+              "video": null
+            },
+            {
+              "title": "The Court's Role Has Limits",
+              "body_md": "A court may identify a systemic wrong yet lack the information or authority to operate the institution it condemns. Legislatures and executives have duties of their own; affected communities may understand remedies that litigants overlook. A thoughtful proposal can combine declarations, staged compliance, measurable standards and independent monitoring where law allows. It should disclose costs, unintended consequences, and review mechanisms. The ethical aim is neither maximal judicial control nor symbolic victory, but relief that improves real lives while preserving lawful accountability.",
+              "example": null,
+              "audio_script": "A court may identify a systemic wrong yet lack the information or authority to operate the institution it condemns. Legislatures and executives have duties of their own; affected communities may understand remedies that litigants overlook. A thoughtful proposal can combine declarations, staged compliance, measurable standards and independent monitoring where law allows. It should disclose costs, unintended consequences, and review mechanisms. The ethical aim is neither maximal judicial control nor symbolic victory, but relief that improves real lives while preserving lawful accountability.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Deterrence means discouraging future violations through legal consequences.",
+              "answer": true,
+              "explanation_if_true": "Deterrence means discouraging future violations through legal consequences.",
+              "explanation_if_false": "Deterrence means discouraging future violations through legal consequences."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A declaration of rights is necessarily an effective remedy for every continuing violation.",
+              "answer": false,
+              "explanation_if_true": "A declaration may be meaningful but inadequate where continued harm demands enforceable action.",
+              "explanation_if_false": "A declaration may be meaningful but inadequate where continued harm demands enforceable action."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Effective remedy?",
+              "choices": [
+                "Repair emphasizing affected persons and relationships",
+                "Respect for legally defined limits on judicial power",
+                "Relief capable of meaningfully vindicating a right",
+                "Discouraging future violations through legal consequences"
+              ],
+              "answer_index": 2,
+              "explanation": "Effective remedy means relief capable of meaningfully vindicating a right."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Victims win a declaration but the unlawful practice continues unchanged. What failure needs examination?",
+              "choices": [
+                "Whether the suit had an elegant title",
+                "Practical effectiveness of relief",
+                "The spelling of pleadings",
+                "Only the amount of court fees"
+              ],
+              "answer_index": 1,
+              "explanation": "Formal recognition and effective protection can diverge; remedial design must confront the difference."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means repair emphasizing affected persons and relationships?",
+              "choices": [
+                "Deterrence",
+                "Restorative justice",
+                "Effective remedy",
+                "Judicial restraint"
+              ],
+              "answer_index": 1,
+              "explanation": "Restorative justice means repair emphasizing affected persons and relationships."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each remedy concept to its meaning.",
+              "pairs": [
+                [
+                  "Effective remedy",
+                  "Relief capable of meaningfully vindicating a right"
+                ],
+                [
+                  "Deterrence",
+                  "Discouraging future violations through legal consequences"
+                ],
+                [
+                  "Restorative justice",
+                  "Repair emphasizing affected persons and relationships"
+                ],
+                [
+                  "Judicial restraint",
+                  "Respect for legally defined limits on judicial power"
+                ]
+              ],
+              "explanation": "The four concepts serve different functions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Relief capable of meaningfully vindicating a right is called ___.",
+              "answer": "Effective remedy",
+              "accept": [
+                "Effective remedy"
+              ],
+              "explanation": "The term is Effective remedy."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.remedy-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Respect for legally defined limits on judicial power is called ___.",
+              "answer": "Judicial restraint",
+              "accept": [
+                "Judicial restraint"
+              ],
+              "explanation": "The term is Judicial restraint."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
