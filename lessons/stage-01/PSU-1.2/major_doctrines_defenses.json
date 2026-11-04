@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "defense-doctrines",
+      "name": "Defense Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Ancient defenses and the question of proof",
+          "summary": "Early legal systems had ways to contest accusations, but their standards were not modern due process. Learn to distinguish a claim of innocence from the evidence accepted by the historical tribunal.",
+          "checklist": [
+            "I can identify historical use of witnesses and oaths",
+            "I can explain why an ordeal is not a scientific finding",
+            "I can distinguish accusation from a legally established wrong"
+          ],
+          "sections": [
+            {
+              "title": "An Accusation Is Only a Beginning",
+              "body_md": "Surviving Babylonian records describe disputes in which parties produced witnesses, written documents and solemn oaths. A person facing a claim might deny it, challenge its proof or invoke a recognized procedure. The precise steps depended on the type of dispute and surviving evidence. Calling these methods 'defenses' is useful only if we remember the historical setting. The modern presumption of innocence and specific rules of evidence cannot be assumed to have operated in exactly the same form in the second millennium BCE.",
+              "audio_script": "Surviving Babylonian records describe disputes in which parties produced witnesses, written documents and solemn oaths. A person facing a claim might deny it, challenge its proof or invoke a recognized procedure. The precise steps depended on the type of dispute and surviving evidence. Calling these methods 'defenses' is useful only if we remember the historical setting. The modern presumption of innocence and specific rules of evidence cannot be assumed to have operated in exactly the same form in the second millennium BCE.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Oaths and Divine Judgment",
+              "body_md": "Some Mesopotamian legal contexts used an oath sworn before deities. An ordeal by river could be invoked in particular accusations, relying on religious judgment rather than a modern scientific test. Historians should describe these practices without endorsing their reliability or claiming they were used in every trial. An oath was a formal way to assert a claim under a recognized authority, but whether it established truth depended on that legal culture's norms. Never confuse an accepted historical proof mechanism with proof that the accused did the alleged act.",
+              "audio_script": "Some Mesopotamian legal contexts used an oath sworn before deities. An ordeal by river could be invoked in particular accusations, relying on religious judgment rather than a modern scientific test. Historians should describe these practices without endorsing their reliability or claiming they were used in every trial. An oath was a formal way to assert a claim under a recognized authority, but whether it established truth depended on that legal culture's norms. Never confuse an accepted historical proof mechanism with proof that the accused did the alleged act.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Burden on the Researcher",
+              "body_md": "A translated passage may say that an accuser must present witnesses or that an accused person may take an oath. Before explaining the consequence, identify the condition, people affected, forum and available evidence. Historical procedural accounts are incomplete, so uncertainty belongs in the answer. A lawyer's deeper lesson is humane: freedom and reputation can be destroyed by unsupported accusations. The development of defenses is also the history of the ways societies tried, successfully or not, to prevent false blame.",
+              "audio_script": "A translated passage may say that an accuser must present witnesses or that an accused person may take an oath. Before explaining the consequence, identify the condition, people affected, forum and available evidence. Historical procedural accounts are incomplete, so uncertainty belongs in the answer. A lawyer's deeper lesson is humane: freedom and reputation can be destroyed by unsupported accusations. The development of defenses is also the history of the ways societies tried, successfully or not, to prevent false blame.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Oath means solemn statement invoking a recognized sacred obligation.",
+              "answer": true,
+              "explanation_if_true": "Oath means solemn statement invoking a recognized sacred obligation.",
+              "explanation_if_false": "Oath means solemn statement invoking a recognized sacred obligation."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "An ancient river ordeal used an evidence method scientifically equivalent to a modern forensic test.",
+              "answer": false,
+              "explanation_if_true": "The ordeal rested on religious assumptions, not a scientifically reliable causal assessment.",
+              "explanation_if_false": "The ordeal rested on religious assumptions, not a scientifically reliable causal assessment."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which explanation fits Witness?",
+              "choices": [
+                "Claim that someone committed a legally relevant act",
+                "Person presenting relevant observed evidence",
+                "Solemn statement invoking a recognized sacred obligation",
+                "Historical test invoking supposed divine judgment"
+              ],
+              "answer_index": 1,
+              "explanation": "Witness denotes person presenting relevant observed evidence."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A Babylonian source describes a person invoking a solemn oath when facts are disputed. What does that show?",
+              "choices": [
+                "The oath was a recognized historical proof practice",
+                "The person's story was objectively correct",
+                "All modern courts require divine oaths",
+                "No written records were used"
+              ],
+              "answer_index": 0,
+              "explanation": "Recognition of a historical proof method does not establish its reliability."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to historical test invoking supposed divine judgment?",
+              "choices": [
+                "Accusation",
+                "River ordeal",
+                "Witness",
+                "Oath"
+              ],
+              "answer_index": 1,
+              "explanation": "River ordeal is historical test invoking supposed divine judgment."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the historical defense terms.",
+              "pairs": [
+                [
+                  "Witness",
+                  "Person presenting relevant observed evidence"
+                ],
+                [
+                  "Oath",
+                  "Solemn statement invoking a recognized sacred obligation"
+                ],
+                [
+                  "River ordeal",
+                  "Historical test invoking supposed divine judgment"
+                ],
+                [
+                  "Accusation",
+                  "Claim that someone committed a legally relevant act"
+                ]
+              ],
+              "explanation": "Each term answers a separate legal question."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Person presenting relevant observed evidence is called ___.",
+              "answer": "Witness",
+              "accept": [
+                "Witness"
+              ],
+              "explanation": "The term is Witness."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Claim that someone committed a legally relevant act is called ___.",
+              "answer": "Accusation",
+              "accept": [
+                "Accusation"
+              ],
+              "explanation": "The term is Accusation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Roman procedural exceptions and equitable defense",
+          "summary": "Roman litigants could resist claims through procedural devices such as an exceptio. Learn how a defense could stop a claim even when its formal legal wording appeared satisfied.",
+          "checklist": [
+            "I can explain the function of a Roman exceptio",
+            "I can distinguish formal entitlement from fraud-related objection",
+            "I can identify why procedural form mattered to a defense"
+          ],
+          "sections": [
+            {
+              "title": "The Exception in a Formula",
+              "body_md": "During important periods of Roman formulary procedure, an exceptio was a clause allowing a defendant to raise specified circumstances that could defeat an otherwise supportable claim. It did not function as a universal, modern affirmative-defense statute. The praetor and the structure of the formula mattered. A defendant might accept part of the claimant's account yet argue that the action should not succeed under an additional recognized condition. The historical interest lies in how procedure made room for legally significant fairness considerations.",
+              "audio_script": "During important periods of Roman formulary procedure, an exceptio was a clause allowing a defendant to raise specified circumstances that could defeat an otherwise supportable claim. It did not function as a universal, modern affirmative-defense statute. The praetor and the structure of the formula mattered. A defendant might accept part of the claimant's account yet argue that the action should not succeed under an additional recognized condition. The historical interest lies in how procedure made room for legally significant fairness considerations.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "An Answer to Fraud",
+              "body_md": "The exceptio doli is associated with objections involving fraud or bad faith. Its exact place in Roman law and later interpretation requires care; it was not a license to cancel every unfavorable bargain. A creditor might possess a formal claim, but the manner of asserting it could be challenged where the recognized requirements were met. This shows that historical defenses could limit strict assertions of right through a rule applied within the legal process. The inquiry remains doctrinal: which facts trigger which recognized exception?",
+              "audio_script": "The exceptio doli is associated with objections involving fraud or bad faith. Its exact place in Roman law and later interpretation requires care; it was not a license to cancel every unfavorable bargain. A creditor might possess a formal claim, but the manner of asserting it could be challenged where the recognized requirements were met. This shows that historical defenses could limit strict assertions of right through a rule applied within the legal process. The inquiry remains doctrinal: which facts trigger which recognized exception?",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Procedure Changes the Outcome",
+              "body_md": "An ancient defendant's success could depend on whether a particular exception was included in the permitted procedural formula. That makes the distinction between the underlying claim and the defendant's response especially important. The Roman pattern helped later legal thought examine fraud, consent and good faith, but reception changed the details. Comparing a Roman exceptio with a current defense requires separate study of the source, period, pleading method and result. A shared Latin word is not proof of identical doctrine.",
+              "audio_script": "An ancient defendant's success could depend on whether a particular exception was included in the permitted procedural formula. That makes the distinction between the underlying claim and the defendant's response especially important. The Roman pattern helped later legal thought examine fraud, consent and good faith, but reception changed the details. Comparing a Roman exceptio with a current defense requires separate study of the source, period, pleading method and result. A shared Latin word is not proof of identical doctrine.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Exceptio doli means roman exception associated with fraud or bad faith.",
+              "answer": true,
+              "explanation_if_true": "Exceptio doli means roman exception associated with fraud or bad faith.",
+              "explanation_if_false": "Exceptio doli means roman exception associated with fraud or bad faith."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "A Roman exceptio was identical to every modern defense in all legal systems.",
+              "answer": false,
+              "explanation_if_true": "Its availability depended on the historical procedural formula and relevant Roman legal rules.",
+              "explanation_if_false": "Its availability depended on the historical procedural formula and relevant Roman legal rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which explanation fits Exceptio?",
+              "choices": [
+                "Roman procedural clause raising a defense",
+                "Roman exception associated with fraud or bad faith",
+                "Roman adjudication using a structured formula",
+                "Good faith as understood within a specific legal context"
+              ],
+              "answer_index": 0,
+              "explanation": "Exceptio denotes roman procedural clause raising a defense."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A creditor has a formal claim but a debtor asserts a recognized objection to fraudulent enforcement. Which Roman device is relevant?",
+              "choices": [
+                "Constitutio Antoniniana",
+                "Lex talionis",
+                "A modern class-action certification",
+                "Exceptio doli"
+              ],
+              "answer_index": 3,
+              "explanation": "The exception could raise fraud-related reasons for defeating a formally asserted claim."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to roman adjudication using a structured formula?",
+              "choices": [
+                "Formulary procedure",
+                "Exceptio",
+                "Exceptio doli",
+                "Bona fides"
+              ],
+              "answer_index": 0,
+              "explanation": "Formulary procedure is roman adjudication using a structured formula."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the historical defense terms.",
+              "pairs": [
+                [
+                  "Exceptio",
+                  "Roman procedural clause raising a defense"
+                ],
+                [
+                  "Exceptio doli",
+                  "Roman exception associated with fraud or bad faith"
+                ],
+                [
+                  "Formulary procedure",
+                  "Roman adjudication using a structured formula"
+                ],
+                [
+                  "Bona fides",
+                  "Good faith as understood within a specific legal context"
+                ]
+              ],
+              "explanation": "Each term answers a separate legal question."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Roman procedural clause raising a defense is called ___.",
+              "answer": "Exceptio",
+              "accept": [
+                "Exceptio"
+              ],
+              "explanation": "The term is Exceptio."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Good faith as understood within a specific legal context is called ___.",
+              "answer": "Bona fides",
+              "accept": [
+                "Bona fides"
+              ],
+              "explanation": "The term is Bona fides."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Medieval privileges and the uneven reach of defense",
+          "summary": "Examine benefit of clergy and other jurisdictional privileges in medieval English law. Learn why a defense may change the forum rather than prove factual innocence.",
+          "checklist": [
+            "I can identify benefit of clergy as a historical jurisdictional privilege",
+            "I can distinguish forum immunity from acquittal",
+            "I can evaluate how social status altered access to protective procedures"
+          ],
+          "sections": [
+            {
+              "title": "A Different Court, Not a Different Fact",
+              "body_md": "Benefit of clergy was a historical privilege associated with certain clergy being answerable in ecclesiastical rather than secular criminal jurisdiction. It was debated sharply in medieval England, notably during conflict involving Henry II and Thomas Becket. Invoking the privilege did not necessarily establish that the accused was factually innocent. It raised a question about which institution could proceed. The actual practice changed with time, and medieval defendants might weigh the disadvantages of ecclesiastical custody against secular process.",
+              "audio_script": "Benefit of clergy was a historical privilege associated with certain clergy being answerable in ecclesiastical rather than secular criminal jurisdiction. It was debated sharply in medieval England, notably during conflict involving Henry II and Thomas Becket. Invoking the privilege did not necessarily establish that the accused was factually innocent. It raised a question about which institution could proceed. The actual practice changed with time, and medieval defendants might weigh the disadvantages of ecclesiastical custody against secular process.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Privileges Can Protect and Exclude",
+              "body_md": "A separate forum might safeguard an institution from royal interference, yet it could also create unequal treatment between clerical and lay defendants. The privilege's institutional rationale must be distinguished from its consequences for people harmed by alleged conduct. Do not describe 'benefit of clergy' as a universal procedural right or assume every cleric avoided all sanctions. A strong historical answer follows the claim through the forum change, applicable penalties and the practical options available to the accused.",
+              "audio_script": "A separate forum might safeguard an institution from royal interference, yet it could also create unequal treatment between clerical and lay defendants. The privilege's institutional rationale must be distinguished from its consequences for people harmed by alleged conduct. Do not describe 'benefit of clergy' as a universal procedural right or assume every cleric avoided all sanctions. A strong historical answer follows the claim through the forum change, applicable penalties and the practical options available to the accused.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Meaning of a Defense Evolves",
+              "body_md": "Early modern English law changed the reach of benefit of clergy and other protections through legislation and judicial practice. A word that once named ecclesiastical jurisdiction could later describe a different set of eligibility tests. Historic privileges demonstrate why a legal defense cannot be defined only by its moral appeal. Its effect may involve pleading, forum, punishment or status rather than the merits. A historian must specify the date and institution before explaining what a defendant could actually achieve.",
+              "audio_script": "Early modern English law changed the reach of benefit of clergy and other protections through legislation and judicial practice. A word that once named ecclesiastical jurisdiction could later describe a different set of eligibility tests. Historic privileges demonstrate why a legal defense cannot be defined only by its moral appeal. Its effect may involve pleading, forum, punishment or status rather than the merits. A historian must specify the date and institution before explaining what a defendant could actually achieve.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Ecclesiastical court means court exercising defined church-law authority.",
+              "answer": true,
+              "explanation_if_true": "Ecclesiastical court means court exercising defined church-law authority.",
+              "explanation_if_false": "Ecclesiastical court means court exercising defined church-law authority."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Invoking benefit of clergy necessarily proved an accused person's innocence.",
+              "answer": false,
+              "explanation_if_true": "The historical claim primarily concerned forum and legal privilege, not factual exoneration.",
+              "explanation_if_false": "The historical claim primarily concerned forum and legal privilege, not factual exoneration."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which explanation fits Benefit of clergy?",
+              "choices": [
+                "Court exercising defined church-law authority",
+                "Rule permitting or requiring a special deciding institution",
+                "Determination that an accused is not legally guilty",
+                "Historical privilege involving clerical jurisdiction"
+              ],
+              "answer_index": 3,
+              "explanation": "Benefit of clergy denotes historical privilege involving clerical jurisdiction."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A medieval defendant claims the charge should be heard in a church court. What sort of response is that?",
+              "choices": [
+                "Scientific proof of innocence",
+                "A restitution claim",
+                "A jurisdictional privilege",
+                "A confession to the alleged facts"
+              ],
+              "answer_index": 2,
+              "explanation": "The plea contests the competent forum, not necessarily the underlying act."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to rule permitting or requiring a special deciding institution?",
+              "choices": [
+                "Benefit of clergy",
+                "Ecclesiastical court",
+                "Acquittal",
+                "Forum privilege"
+              ],
+              "answer_index": 3,
+              "explanation": "Forum privilege is rule permitting or requiring a special deciding institution."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the historical defense terms.",
+              "pairs": [
+                [
+                  "Benefit of clergy",
+                  "Historical privilege involving clerical jurisdiction"
+                ],
+                [
+                  "Ecclesiastical court",
+                  "Court exercising defined church-law authority"
+                ],
+                [
+                  "Forum privilege",
+                  "Rule permitting or requiring a special deciding institution"
+                ],
+                [
+                  "Acquittal",
+                  "Determination that an accused is not legally guilty"
+                ]
+              ],
+              "explanation": "Each term answers a separate legal question."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Historical privilege involving clerical jurisdiction is called ___.",
+              "answer": "Benefit of clergy",
+              "accept": [
+                "Benefit of clergy"
+              ],
+              "explanation": "The term is Benefit of clergy."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Determination that an accused is not legally guilty is called ___.",
+              "answer": "Acquittal",
+              "accept": [
+                "Acquittal"
+              ],
+              "explanation": "The term is Acquittal."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Toward principled protections against state accusation",
+          "summary": "Compare the development of defenses as protections of agency, proof and legality. Analyze why an adequate system needs safeguards for vulnerable defendants while avoiding historical privileges that shield only the powerful.",
+          "checklist": [
+            "I can distinguish justification, excuse and procedural immunity",
+            "I can critique the uneven history of defensive rights",
+            "I can propose transparent proof safeguards with equal access"
+          ],
+          "sections": [
+            {
+              "title": "Not Every Defense Is the Same",
+              "body_md": "A justification may claim the act was permitted, an excuse may reduce blame, and a procedural immunity may restrict which authority can proceed. Historical legal systems combined or separated these responses in different ways. Medieval forum privileges illustrate that a defense could benefit particular social groups without addressing truth or moral responsibility. Modern legal analysis should begin by stating exactly which element or consequence a defense changes. Otherwise it may treat immunity as innocence or mistake as consent. These errors have serious consequences for victims and accused persons alike.",
+              "audio_script": "A justification may claim the act was permitted, an excuse may reduce blame, and a procedural immunity may restrict which authority can proceed. Historical legal systems combined or separated these responses in different ways. Medieval forum privileges illustrate that a defense could benefit particular social groups without addressing truth or moral responsibility. Modern legal analysis should begin by stating exactly which element or consequence a defense changes. Otherwise it may treat immunity as innocence or mistake as consent. These errors have serious consequences for victims and accused persons alike.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Proof Rules Are Moral Choices",
+              "body_md": "Allocating the burden of persuasion affects who suffers when evidence is uncertain. A system that assumes guilt too easily threatens freedom; one that bars every difficult accusation may leave serious wrongdoing unanswered. Historical use of oaths, ordeal, testimony and written records demonstrates that societies adopted competing answers to uncertainty. Today a doctoral defense of procedure should explain the accepted proof standard, how evidence can be tested, and how an accused person can access meaningful assistance. Historical pedigree alone is not a sufficient justification.",
+              "audio_script": "Allocating the burden of persuasion affects who suffers when evidence is uncertain. A system that assumes guilt too easily threatens freedom; one that bars every difficult accusation may leave serious wrongdoing unanswered. Historical use of oaths, ordeal, testimony and written records demonstrates that societies adopted competing answers to uncertainty. Today a doctoral defense of procedure should explain the accepted proof standard, how evidence can be tested, and how an accused person can access meaningful assistance. Historical pedigree alone is not a sufficient justification.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Equality Instead of Privilege",
+              "body_md": "Imagine two defendants facing the same allegation, but only the wealthier person can obtain documents, interpretation or counsel. A formally identical defense may have unequal practical value. Correcting the problem requires lawful measures responsive to resources and institutional limits, not merely sympathetic rhetoric. A doctoral proposal might examine disclosure duties, legal aid and review mechanisms while measuring their effect on wrongful conviction and delayed justice. The objective is an accountable system that protects the vulnerable without conferring secret immunity on the powerful.",
+              "audio_script": "Imagine two defendants facing the same allegation, but only the wealthier person can obtain documents, interpretation or counsel. A formally identical defense may have unequal practical value. Correcting the problem requires lawful measures responsive to resources and institutional limits, not merely sympathetic rhetoric. A doctoral proposal might examine disclosure duties, legal aid and review mechanisms while measuring their effect on wrongful conviction and delayed justice. The objective is an accountable system that protects the vulnerable without conferring secret immunity on the powerful.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Excuse means defense concerning reduced blame for wrongful conduct.",
+              "answer": true,
+              "explanation_if_true": "Excuse means defense concerning reduced blame for wrongful conduct.",
+              "explanation_if_false": "Excuse means defense concerning reduced blame for wrongful conduct."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "A defense that benefits a privileged group is necessarily a universal principle of fairness.",
+              "answer": false,
+              "explanation_if_true": "Historic privileges could create unequal protection without resolving guilt or accountability.",
+              "explanation_if_false": "Historic privileges could create unequal protection without resolving guilt or accountability."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which explanation fits Justification?",
+              "choices": [
+                "Protection limiting specified proceedings",
+                "Measure reducing risks of mistaken legal findings",
+                "Defense claiming conduct was legally permitted",
+                "Defense concerning reduced blame for wrongful conduct"
+              ],
+              "answer_index": 2,
+              "explanation": "Justification denotes defense claiming conduct was legally permitted."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Two accused people face the same rule, but one cannot afford access to evidence. What should a reform investigate?",
+              "choices": [
+                "Which written font was used",
+                "Effective equality of defensive participation",
+                "Only whether the court has a coat of arms",
+                "Whether a medieval king issued the first writ"
+              ],
+              "answer_index": 1,
+              "explanation": "The availability of defense must be examined in practice, not only in formal wording."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to protection limiting specified proceedings?",
+              "choices": [
+                "Excuse",
+                "Proof safeguard",
+                "Procedural immunity",
+                "Justification"
+              ],
+              "answer_index": 2,
+              "explanation": "Procedural immunity is protection limiting specified proceedings."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the historical defense terms.",
+              "pairs": [
+                [
+                  "Justification",
+                  "Defense claiming conduct was legally permitted"
+                ],
+                [
+                  "Excuse",
+                  "Defense concerning reduced blame for wrongful conduct"
+                ],
+                [
+                  "Procedural immunity",
+                  "Protection limiting specified proceedings"
+                ],
+                [
+                  "Proof safeguard",
+                  "Measure reducing risks of mistaken legal findings"
+                ]
+              ],
+              "explanation": "Each term answers a separate legal question."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Defense claiming conduct was legally permitted is called ___.",
+              "answer": "Justification",
+              "accept": [
+                "Justification"
+              ],
+              "explanation": "The term is Justification."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.defense-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Measure reducing risks of mistaken legal findings is called ___.",
+              "answer": "Proof safeguard",
+              "accept": [
+                "Proof safeguard"
+              ],
+              "explanation": "The term is Proof safeguard."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
