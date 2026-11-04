@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "jurisdiction-doctrines",
+      "name": "Jurisdiction Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Who could decide disputes in ancient Mesopotamia?",
+          "summary": "Start with the people and institutions who exercised legal power in ancient communities. Learn why a royal judgment does not mean the king personally heard every dispute.",
+          "checklist": [
+            "I can distinguish a ruler's public authority from everyday dispute resolution",
+            "I can identify what an ancient case collection proves",
+            "I can ask which forum could hear a particular kind of grievance"
+          ],
+          "sections": [
+            {
+              "title": "A King Is Not Every Court",
+              "body_md": "Hammurabi's monument presents the Babylonian king as a defender of justice. Its judgments describe commercial, family and property disputes, but an inscribed royal collection is not a transcript of each local hearing. People encountered authority through administrators, community institutions and those empowered to settle disputes. The historical question is who could decide which issue, not simply who possessed the highest title. Even where a ruler claimed ultimate authority, everyday enforcement depended on people and procedures closer to a disputed transaction.",
+              "example": null,
+              "audio_script": "Hammurabi's monument presents the Babylonian king as a defender of justice. Its judgments describe commercial, family and property disputes, but an inscribed royal collection is not a transcript of each local hearing. People encountered authority through administrators, community institutions and those empowered to settle disputes. The historical question is who could decide which issue, not simply who possessed the highest title. Even where a ruler claimed ultimate authority, everyday enforcement depended on people and procedures closer to a disputed transaction.",
+              "video": null
+            },
+            {
+              "title": "What the Stone Can Tell Us",
+              "body_md": "The Louvre describes Hammurabi's stele as a collection of legal judgments, not a complete modern code. Each conditional example presents a situation and a prescribed response. That reveals something about official categories of disputes and consequences, but it does not supply a comprehensive map of courts or prove uniform practice across Babylonian territory. A careful reader separates a written claim about authority from evidence of how litigants actually obtained a hearing. The distinction prevents a monument from becoming an invented courtroom record.",
+              "example": null,
+              "audio_script": "The Louvre describes Hammurabi's stele as a collection of legal judgments, not a complete modern code. Each conditional example presents a situation and a prescribed response. That reveals something about official categories of disputes and consequences, but it does not supply a comprehensive map of courts or prove uniform practice across Babylonian territory. A careful reader separates a written claim about authority from evidence of how litigants actually obtained a hearing. The distinction prevents a monument from becoming an invented courtroom record.",
+              "video": null
+            },
+            {
+              "title": "Put the Right Question First",
+              "body_md": "Imagine two traders disputing payment for a shipment. Before deciding who owes the money, ask where they lived, which recognized authority heard trade disputes and which procedure could produce an enforceable decision. Some answers may be uncertain because surviving evidence is incomplete. State that uncertainty rather than importing the jurisdictional rules of a modern state. The transferable insight is simple: a legal problem always has an institutional setting. Knowing a norm without knowing who can apply it is not yet enough.",
+              "example": null,
+              "audio_script": "Imagine two traders disputing payment for a shipment. Before deciding who owes the money, ask where they lived, which recognized authority heard trade disputes and which procedure could produce an enforceable decision. Some answers may be uncertain because surviving evidence is incomplete. State that uncertainty rather than importing the jurisdictional rules of a modern state. The transferable insight is simple: a legal problem always has an institutional setting. Knowing a norm without knowing who can apply it is not yet enough.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Local forum refers to institution operating near the affected community.",
+              "answer": true,
+              "explanation_if_true": "Local forum means institution operating near the affected community.",
+              "explanation_if_false": "Local forum means institution operating near the affected community."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Hammurabi's inscribed judgments prove he personally heard every Babylonian dispute.",
+              "answer": false,
+              "explanation_if_true": "The stele records normative examples and royal claims; it does not document every local hearing.",
+              "explanation_if_false": "The stele records normative examples and royal claims; it does not document every local hearing."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Royal jurisdiction?",
+              "choices": [
+                "Source showing how legal authority operated",
+                "Claimed decision-making authority of a ruler",
+                "Institution operating near the affected community",
+                "Compilation of normative judgments or rules"
+              ],
+              "answer_index": 1,
+              "explanation": "Royal jurisdiction means claimed decision-making authority of a ruler."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A student infers a complete court hierarchy from a single royal monument. What is the best response?",
+              "choices": [
+                "Seek institutional sources beyond the monument",
+                "Assume every city had the same court",
+                "Treat the king as the only judge",
+                "Ignore the monument entirely"
+              ],
+              "answer_index": 0,
+              "explanation": "The monument is valuable evidence but does not exhaust local judicial practice."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes compilation of normative judgments or rules?",
+              "choices": [
+                "Legal collection",
+                "Institutional evidence",
+                "Local forum",
+                "Royal jurisdiction"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal collection means compilation of normative judgments or rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-historical institutions to their functions.",
+              "pairs": [
+                [
+                  "Royal jurisdiction",
+                  "Claimed decision-making authority of a ruler"
+                ],
+                [
+                  "Local forum",
+                  "Institution operating near the affected community"
+                ],
+                [
+                  "Legal collection",
+                  "Compilation of normative judgments or rules"
+                ],
+                [
+                  "Institutional evidence",
+                  "Source showing how legal authority operated"
+                ]
+              ],
+              "explanation": "Each term identifies a different authority or method."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for claimed decision-making authority of a ruler is ___.",
+              "answer": "Royal jurisdiction",
+              "accept": [
+                "Royal jurisdiction"
+              ],
+              "explanation": "The answer is Royal jurisdiction."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for source showing how legal authority operated is ___.",
+              "answer": "Institutional evidence",
+              "accept": [
+                "Institutional evidence"
+              ],
+              "explanation": "The answer is Institutional evidence."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "How Roman institutions divided legal authority",
+          "summary": "Roman law depended on magistrates and procedures whose roles changed with time. Learn to distinguish authority to administer a case from authority to state the substantive rule.",
+          "checklist": [
+            "I can identify a praetor's role in civil justice",
+            "I can distinguish legal jurisdiction from the judgment on the merits",
+            "I can explain how imperial institutions changed allocation of authority"
+          ],
+          "sections": [
+            {
+              "title": "The Praetor and the Case",
+              "body_md": "In Republican Rome, praetors were magistrates central to the administration of civil justice. The praetor's edict could signal the remedies and procedural routes available, although the exact practice changed over time. A praetor's jurisdiction did not make every personal opinion a new statute. Legal reasoning depended on recognized sources and the procedural means of pursuing them. When reading a Roman dispute, identify the period, responsible magistrate and available action before assuming a modern judge decided all issues in one proceeding.",
+              "example": null,
+              "audio_script": "In Republican Rome, praetors were magistrates central to the administration of civil justice. The praetor's edict could signal the remedies and procedural routes available, although the exact practice changed over time. A praetor's jurisdiction did not make every personal opinion a new statute. Legal reasoning depended on recognized sources and the procedural means of pursuing them. When reading a Roman dispute, identify the period, responsible magistrate and available action before assuming a modern judge decided all issues in one proceeding.",
+              "video": null
+            },
+            {
+              "title": "Citizens, Foreigners and Forums",
+              "body_md": "The historical distinction between praetor urbanus and praetor peregrinus reflects Roman concern with different classes of dispute, including matters involving noncitizens. Their functions should not be flattened into modern personal jurisdiction doctrine. Citizenship, territory and the type of action influenced access to legal institutions. Roman law's institutional vocabulary makes clear that the right to litigate was not automatically universal. A historian must ask which parties were permitted to invoke a procedure and which official was authorized to handle it.",
+              "example": null,
+              "audio_script": "The historical distinction between praetor urbanus and praetor peregrinus reflects Roman concern with different classes of dispute, including matters involving noncitizens. Their functions should not be flattened into modern personal jurisdiction doctrine. Citizenship, territory and the type of action influenced access to legal institutions. Roman law's institutional vocabulary makes clear that the right to litigate was not automatically universal. A historian must ask which parties were permitted to invoke a procedure and which official was authorized to handle it.",
+              "video": null
+            },
+            {
+              "title": "From Republic to Empire",
+              "body_md": "As imperial power developed, jurisdictional arrangements and sources of review evolved. Governors exercised authority in provinces, and imperial institutions could reshape legal decision-making. There was no fixed Roman court diagram valid from the Twelve Tables to Justinian. In comparing periods, trace changes in office, geography and procedure, then explain what those changes meant for a person seeking justice. Institutional authority is historical: it changes through law, political structure and the reach of the state.",
+              "example": null,
+              "audio_script": "As imperial power developed, jurisdictional arrangements and sources of review evolved. Governors exercised authority in provinces, and imperial institutions could reshape legal decision-making. There was no fixed Roman court diagram valid from the Twelve Tables to Justinian. In comparing periods, trace changes in office, geography and procedure, then explain what those changes meant for a person seeking justice. Institutional authority is historical: it changes through law, political structure and the reach of the state.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Praetor urbanus refers to roman praetor traditionally associated with citizen litigation.",
+              "answer": true,
+              "explanation_if_true": "Praetor urbanus means roman praetor traditionally associated with citizen litigation.",
+              "explanation_if_false": "Praetor urbanus means roman praetor traditionally associated with citizen litigation."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Roman courts used an identical jurisdictional structure in the Republic and under Justinian.",
+              "answer": false,
+              "explanation_if_true": "Magistrates, provinces and imperial institutions developed over many centuries.",
+              "explanation_if_false": "Magistrates, provinces and imperial institutions developed over many centuries."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Praetor?",
+              "choices": [
+                "Roman magistrate involved in civil justice administration",
+                "Roman praetor traditionally associated with citizen litigation",
+                "Roman praetor associated with disputes involving noncitizens",
+                "Roman official exercising authority in a province"
+              ],
+              "answer_index": 0,
+              "explanation": "Praetor means roman magistrate involved in civil justice administration."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A text describes a praetor peregrinus handling a dispute involving noncitizens. What should be established next?",
+              "choices": [
+                "The modern European Court's rule",
+                "The parties' social media accounts",
+                "The contents of a twentieth-century treaty",
+                "The date and legal role of that magistracy"
+              ],
+              "answer_index": 3,
+              "explanation": "Historical jurisdiction requires institutional context and chronology."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes roman praetor associated with disputes involving noncitizens?",
+              "choices": [
+                "Provincial governor",
+                "Praetor urbanus",
+                "Praetor",
+                "Praetor peregrinus"
+              ],
+              "answer_index": 3,
+              "explanation": "Praetor peregrinus means roman praetor associated with disputes involving noncitizens."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-historical institutions to their functions.",
+              "pairs": [
+                [
+                  "Praetor",
+                  "Roman magistrate involved in civil justice administration"
+                ],
+                [
+                  "Praetor urbanus",
+                  "Roman praetor traditionally associated with citizen litigation"
+                ],
+                [
+                  "Praetor peregrinus",
+                  "Roman praetor associated with disputes involving noncitizens"
+                ],
+                [
+                  "Provincial governor",
+                  "Roman official exercising authority in a province"
+                ]
+              ],
+              "explanation": "Each term identifies a different authority or method."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for roman magistrate involved in civil justice administration is ___.",
+              "answer": "Praetor",
+              "accept": [
+                "Praetor"
+              ],
+              "explanation": "The answer is Praetor."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for roman official exercising authority in a province is ___.",
+              "answer": "Provincial governor",
+              "accept": [
+                "Provincial governor"
+              ],
+              "explanation": "The answer is Provincial governor."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Competing jurisdictions in medieval Europe",
+          "summary": "Medieval legal life involved royal courts, local authorities and ecclesiastical institutions. Analyze a dispute that could fall between these systems rather than treating jurisdiction as an exclusive national monopoly.",
+          "checklist": [
+            "I can identify examples of medieval legal pluralism",
+            "I can explain why marriage and land might use different forums",
+            "I can distinguish a forum's claim from unquestioned legitimacy"
+          ],
+          "sections": [
+            {
+              "title": "Several Doors to Law",
+              "body_md": "In parts of medieval Europe, litigants might encounter royal tribunals, manorial or town courts and ecclesiastical courts. Their responsibilities overlapped and changed by place and century. Marriage validity and some testamentary matters often fell within ecclesiastical competence, while land tenure could involve secular institutions. This was not a universal arrangement across every medieval society. The analytical method is to name the parties, issue, territory, period and relevant institutional claim before selecting a forum. Those facts can change the answer.",
+              "example": null,
+              "audio_script": "In parts of medieval Europe, litigants might encounter royal tribunals, manorial or town courts and ecclesiastical courts. Their responsibilities overlapped and changed by place and century. Marriage validity and some testamentary matters often fell within ecclesiastical competence, while land tenure could involve secular institutions. This was not a universal arrangement across every medieval society. The analytical method is to name the parties, issue, territory, period and relevant institutional claim before selecting a forum. Those facts can change the answer.",
+              "video": null
+            },
+            {
+              "title": "The Struggle Over Competence",
+              "body_md": "Overlapping authority sometimes produced conflicts between rulers and church institutions. A dispute about clergy or marriage might be understood as a spiritual matter by one institution and as a question of public order by another. Jurisdiction was therefore also a political debate over whose norms were legitimate. Neither a papal claim nor a royal decree proves how every local controversy was resolved. A historian should look for statutes, charters, litigation records and evidence of negotiated practice before presenting one institution's position as settled law.",
+              "example": null,
+              "audio_script": "Overlapping authority sometimes produced conflicts between rulers and church institutions. A dispute about clergy or marriage might be understood as a spiritual matter by one institution and as a question of public order by another. Jurisdiction was therefore also a political debate over whose norms were legitimate. Neither a papal claim nor a royal decree proves how every local controversy was resolved. A historian should look for statutes, charters, litigation records and evidence of negotiated practice before presenting one institution's position as settled law.",
+              "video": null
+            },
+            {
+              "title": "Forum Choice Changes Justice",
+              "body_md": "Two forums may apply different procedures, remedies or standards of proof. A claimant might prefer one while the other party challenges its authority. Forum choice can affect the substance of lived rights even when the underlying event remains unchanged. This historic lesson carries into modern transnational litigation: determining the proper forum is not simply paperwork. It helps decide who can speak, whose evidence counts and whether a remedy is reachable. A responsible comparison must also consider the people excluded from each forum.",
+              "example": null,
+              "audio_script": "Two forums may apply different procedures, remedies or standards of proof. A claimant might prefer one while the other party challenges its authority. Forum choice can affect the substance of lived rights even when the underlying event remains unchanged. This historic lesson carries into modern transnational litigation: determining the proper forum is not simply paperwork. It helps decide who can speak, whose evidence counts and whether a remedy is reachable. A responsible comparison must also consider the people excluded from each forum.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Manorial court refers to historical local court tied to a manor.",
+              "answer": true,
+              "explanation_if_true": "Manorial court means historical local court tied to a manor.",
+              "explanation_if_false": "Manorial court means historical local court tied to a manor."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "All marriage and land disputes in medieval Europe were settled by one uniform royal court.",
+              "answer": false,
+              "explanation_if_true": "Authority varied by time and place, with secular and ecclesiastical forums often handling different matters.",
+              "explanation_if_false": "Authority varied by time and place, with secular and ecclesiastical forums often handling different matters."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Ecclesiastical jurisdiction?",
+              "choices": [
+                "Historical local court tied to a manor",
+                "Competing claims to hear the same dispute",
+                "Coexistence of several recognized legal orders",
+                "Authority of church courts in defined matters"
+              ],
+              "answer_index": 3,
+              "explanation": "Ecclesiastical jurisdiction means authority of church courts in defined matters."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A medieval marriage dispute is claimed by a church court and challenged by a royal official. What is the legal issue?",
+              "choices": [
+                "An ordinary evidentiary objection only",
+                "A dispute over Roman citizenship alone",
+                "A conflict of institutional jurisdiction",
+                "A modern statute's retroactivity"
+              ],
+              "answer_index": 2,
+              "explanation": "The institutions are contesting which forum may decide the matter."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes competing claims to hear the same dispute?",
+              "choices": [
+                "Manorial court",
+                "Ecclesiastical jurisdiction",
+                "Forum conflict",
+                "Legal pluralism"
+              ],
+              "answer_index": 2,
+              "explanation": "Forum conflict means competing claims to hear the same dispute."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-historical institutions to their functions.",
+              "pairs": [
+                [
+                  "Ecclesiastical jurisdiction",
+                  "Authority of church courts in defined matters"
+                ],
+                [
+                  "Manorial court",
+                  "Historical local court tied to a manor"
+                ],
+                [
+                  "Forum conflict",
+                  "Competing claims to hear the same dispute"
+                ],
+                [
+                  "Legal pluralism",
+                  "Coexistence of several recognized legal orders"
+                ]
+              ],
+              "explanation": "Each term identifies a different authority or method."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for authority of church courts in defined matters is ___.",
+              "answer": "Ecclesiastical jurisdiction",
+              "accept": [
+                "Ecclesiastical jurisdiction"
+              ],
+              "explanation": "The answer is Ecclesiastical jurisdiction."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for coexistence of several recognized legal orders is ___.",
+              "answer": "Legal pluralism",
+              "accept": [
+                "Legal pluralism"
+              ],
+              "explanation": "The answer is Legal pluralism."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Jurisdiction after empire and across unequal legal orders",
+          "summary": "At doctoral depth, study jurisdiction as an instrument that can protect legal diversity or organize domination. Examine colonial legal pluralism and the modern claim that a state's law binds people without an equal voice in its making.",
+          "checklist": [
+            "I can distinguish colonial allocation of jurisdiction from neutral pluralism",
+            "I can critique exclusion created by jurisdictional boundaries",
+            "I can propose legitimate allocation of authority among competing legal orders"
+          ],
+          "sections": [
+            {
+              "title": "Pluralism Can Be Unequal",
+              "body_md": "Colonial administrations sometimes separated courts by territory, social category or subject while recognizing selected customary norms under official supervision. That division could preserve some local practices yet place ultimate authority in institutions answerable to the colonizer. Describing this as legal pluralism does not establish equality among the orders. To evaluate it, identify who defined the boundaries, whether litigants could challenge classification and which forum controlled interpretation. Jurisdiction is a distribution of political power as well as a technical rule.",
+              "example": null,
+              "audio_script": "Colonial administrations sometimes separated courts by territory, social category or subject while recognizing selected customary norms under official supervision. That division could preserve some local practices yet place ultimate authority in institutions answerable to the colonizer. Describing this as legal pluralism does not establish equality among the orders. To evaluate it, identify who defined the boundaries, whether litigants could challenge classification and which forum controlled interpretation. Jurisdiction is a distribution of political power as well as a technical rule.",
+              "video": null
+            },
+            {
+              "title": "Forum Rules Can Silence Claims",
+              "body_md": "A community may possess substantive protections but be unable to invoke them in the institution exercising decisive power. A distant court, a language requirement or nonrecognition of a local legal tradition can turn an apparent right into a practical impossibility. This is not proof that every local forum is necessarily fair. A rigorous account compares safeguards, participation, actual remedies and the risk of capture by each institution. Doctrinal clarity matters because sympathy alone cannot authorize an otherwise unlawful tribunal to act.",
+              "example": null,
+              "audio_script": "A community may possess substantive protections but be unable to invoke them in the institution exercising decisive power. A distant court, a language requirement or nonrecognition of a local legal tradition can turn an apparent right into a practical impossibility. This is not proof that every local forum is necessarily fair. A rigorous account compares safeguards, participation, actual remedies and the risk of capture by each institution. Doctrinal clarity matters because sympathy alone cannot authorize an otherwise unlawful tribunal to act.",
+              "video": null
+            },
+            {
+              "title": "Designing an Accountable Boundary",
+              "body_md": "Consider an Indigenous community and a national agency disputing management of a shared resource. A defensible jurisdictional structure must examine treaties, constitutions, applicable statutes and the community's recognized authority. It also must ask whether the affected persons can participate and whether decisions will be enforced. A doctoral proposal should make visible whose interests a proposed rule prioritizes, how conflicts are appealed and which evidence could show persistent exclusion. A just boundary protects legal order without pretending that power has disappeared.",
+              "example": null,
+              "audio_script": "Consider an Indigenous community and a national agency disputing management of a shared resource. A defensible jurisdictional structure must examine treaties, constitutions, applicable statutes and the community's recognized authority. It also must ask whether the affected persons can participate and whether decisions will be enforced. A doctoral proposal should make visible whose interests a proposed rule prioritizes, how conflicts are appealed and which evidence could show persistent exclusion. A just boundary protects legal order without pretending that power has disappeared.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Recognition of custom refers to state acknowledgment of a community's legal practice.",
+              "answer": true,
+              "explanation_if_true": "Recognition of custom means state acknowledgment of a community's legal practice.",
+              "explanation_if_false": "Recognition of custom means state acknowledgment of a community's legal practice."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "Every jurisdictional separation of customary and state law creates equal institutional power.",
+              "answer": false,
+              "explanation_if_true": "The authority to classify and supervise local law may remain concentrated in the dominant state.",
+              "explanation_if_false": "The authority to classify and supervise local law may remain concentrated in the dominant state."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Colonial jurisdiction?",
+              "choices": [
+                "Inability to access a forum because of authority rules",
+                "Justification based on meaningful affected-person participation",
+                "Authority allocated under colonial governance",
+                "State acknowledgment of a community's legal practice"
+              ],
+              "answer_index": 2,
+              "explanation": "Colonial jurisdiction means authority allocated under colonial governance."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency recognizes community custom but denies its court any power to review state decisions. What requires scrutiny?",
+              "choices": [
+                "Whether every resident prefers the same remedy",
+                "The unequal allocation of adjudicative authority",
+                "Only the spelling of the custom",
+                "The date of the case's filename"
+              ],
+              "answer_index": 1,
+              "explanation": "Recognition without institutional authority may leave the community's legal position subordinate."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes inability to access a forum because of authority rules?",
+              "choices": [
+                "Colonial jurisdiction",
+                "Jurisdictional exclusion",
+                "Participatory legitimacy",
+                "Recognition of custom"
+              ],
+              "answer_index": 1,
+              "explanation": "Jurisdictional exclusion means inability to access a forum because of authority rules."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-historical institutions to their functions.",
+              "pairs": [
+                [
+                  "Colonial jurisdiction",
+                  "Authority allocated under colonial governance"
+                ],
+                [
+                  "Recognition of custom",
+                  "State acknowledgment of a community's legal practice"
+                ],
+                [
+                  "Jurisdictional exclusion",
+                  "Inability to access a forum because of authority rules"
+                ],
+                [
+                  "Participatory legitimacy",
+                  "Justification based on meaningful affected-person participation"
+                ]
+              ],
+              "explanation": "Each term identifies a different authority or method."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for authority allocated under colonial governance is ___.",
+              "answer": "Colonial jurisdiction",
+              "accept": [
+                "Colonial jurisdiction"
+              ],
+              "explanation": "The answer is Colonial jurisdiction."
+            },
+            {
+              "id": "PSU-1.2.major_doctrines.jurisdiction-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for justification based on meaningful affected-person participation is ___.",
+              "answer": "Participatory legitimacy",
+              "accept": [
+                "Participatory legitimacy"
+              ],
+              "explanation": "The answer is Participatory legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
