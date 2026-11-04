@@ -1,8 +1,9 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
-const projectUrl = import.meta.env.VITE_SUPABASE_URL?.trim() || 'https://uylqbdjnonfcmlvxschj.supabase.co';
+const viteEnv = (import.meta as unknown as { env?: Record<string, string> }).env ?? {};
+const projectUrl = viteEnv.VITE_SUPABASE_URL?.trim() || 'https://uylqbdjnonfcmlvxschj.supabase.co';
 // Publishable keys are intended for public browser clients; access is enforced by RLS.
-const publishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY?.trim() || 'sb_publishable_URstM2fCYdO-rXIB_uKsSg_HwdcRQjr';
+const publishableKey = viteEnv.VITE_SUPABASE_PUBLISHABLE_KEY?.trim() || 'sb_publishable_URstM2fCYdO-rXIB_uKsSg_HwdcRQjr';
 
 export const supabaseConfigured =
   /^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/i.test(projectUrl) &&
@@ -12,7 +13,7 @@ export const supabaseConfigured =
 // Never use a service_role/secret key in the browser bundle.
 // Until an actual project is connected and approved for cutover, this is a
 // staged client. The existing Firebase-backed ProSeU app remains unchanged.
-export const supabase: SupabaseClient | null = supabaseConfigured
+export const supabase: SupabaseClient | null = supabaseConfigured && typeof window !== 'undefined'
   ? createClient(projectUrl.replace(/\/$/, ''), publishableKey, {
       auth: {
         flowType: 'pkce',
@@ -26,7 +27,7 @@ export const supabase: SupabaseClient | null = supabaseConfigured
 export const getSupabaseRedirectUrl = () => {
   // OAuth callback returns to the real GitHub Pages URL, not the HashRouter
   // fragment; the latter is never transmitted in an HTTP request.
-  const url = new URL(import.meta.env.BASE_URL || '/', window.location.origin);
+  const url = new URL(viteEnv.BASE_URL || '/', window.location.origin);
   url.searchParams.set('supabase_callback', '1');
   return url.toString();
 };
