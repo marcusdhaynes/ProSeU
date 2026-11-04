@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "adjudication",
+      "name": "Adjudication",
+      "levels": {
+        "red": {
+          "focus": "Understand how a court turns evidence and rules into a decision.",
+          "summary": "Adjudication requires more than a strong opinion. Learn the separate roles of finding facts, interpreting rules, applying law, and explaining a judgment.",
+          "checklist": [
+            "I can distinguish findings of fact from legal conclusions",
+            "I can describe a fair decision process",
+            "I can explain why reasons for a judgment matter"
+          ],
+          "sections": [
+            {
+              "title": "A decision needs a rule and facts",
+              "body_md": "Two neighbors disagree about a boundary. A tribunal must know the governing property rule and determine what the relevant survey and testimony prove. Adjudication is the lawful resolution of a dispute by an authorized decision maker. The court cannot simply choose the neighbor it likes. It must follow the relevant process, identify material facts, and connect its result to recognized legal sources. This connection allows people to understand why the law was applied to their lives.",
+              "audio_script": "Two neighbors disagree about a boundary. A tribunal must know the governing property rule and determine what the relevant survey and testimony prove. Adjudication is the lawful resolution of a dispute by an authorized decision maker. The court cannot simply choose the neighbor it likes. It must follow the relevant process, identify material facts, and connect its result to recognized legal sources. This connection allows people to understand why the law was applied to their lives.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A witness does not decide the law",
+              "body_md": "A witness may testify that a fence was moved. A document may record the parcel dimensions. Those are potential sources of fact; the law determines which boundary rule applies. Different systems allocate factual decisions to judges, juries, or mixed bodies, but the distinction between factual and legal questions remains useful. A court may accept one testimony and reject another, subject to evidence rules. A fair conclusion should not pretend that a disputed fact is certain without an adequate basis.",
+              "audio_script": "A witness may testify that a fence was moved. A document may record the parcel dimensions. Those are potential sources of fact; the law determines which boundary rule applies. Different systems allocate factual decisions to judges, juries, or mixed bodies, but the distinction between factual and legal questions remains useful. A court may accept one testimony and reject another, subject to evidence rules. A fair conclusion should not pretend that a disputed fact is certain without an adequate basis.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Reasons make power answerable",
+              "body_md": "When a tribunal explains the facts it accepts and the law it applies, the parties can identify errors and consider any lawful review. A losing person may still understand that the decision was not arbitrary. Requirements to give reasons vary among courts and legal systems, yet the broader principle matters: institutions exercising coercive power should be accountable for its use. A judgment is not legitimate merely because it announces a winner; it must rest on legally defensible reasons.",
+              "audio_script": "When a tribunal explains the facts it accepts and the law it applies, the parties can identify errors and consider any lawful review. A losing person may still understand that the decision was not arbitrary. Requirements to give reasons vary among courts and legal systems, yet the broader principle matters: institutions exercising coercive power should be accountable for its use. A judgment is not legitimate merely because it announces a winner; it must rest on legally defensible reasons.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q1",
+              "type": "true_false",
+              "prompt": "Fact finding means determination of relevant events.",
+              "answer": true,
+              "explanation_if_true": "Fact finding means determination of relevant events.",
+              "explanation_if_false": "Fact finding means determination of relevant events."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q2",
+              "type": "true_false",
+              "prompt": "An adjudicator may choose an outcome based solely on personal preference and still call it a legally reasoned decision.",
+              "answer": false,
+              "explanation_if_true": "Lawful judgment requires applying recognized authority to relevant facts and procedure.",
+              "explanation_if_false": "Lawful judgment requires applying recognized authority to relevant facts and procedure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Adjudication?",
+              "choices": [
+                "Decision explaining legal and factual grounds",
+                "Authorized resolution of a dispute",
+                "Determination of relevant events",
+                "Using governing law to assess facts"
+              ],
+              "answer_index": 1,
+              "explanation": "Adjudication means authorized resolution of a dispute."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A court finds the fence was moved and then applies the governing boundary rule. What process is shown?",
+              "choices": [
+                "Fact finding followed by rule application",
+                "Private mediation alone",
+                "A political election",
+                "An automatic criminal sentence"
+              ],
+              "answer_index": 0,
+              "explanation": "Adjudication connects evidence with legal rules."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes using governing law to assess facts?",
+              "choices": [
+                "Rule application",
+                "Adjudication",
+                "Reasoned judgment",
+                "Fact finding"
+              ],
+              "answer_index": 0,
+              "explanation": "Rule application is using governing law to assess facts."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q6",
+              "type": "matching",
+              "prompt": "Match each adjudication concept.",
+              "pairs": [
+                [
+                  "Adjudication",
+                  "Authorized resolution of a dispute"
+                ],
+                [
+                  "Fact finding",
+                  "Determination of relevant events"
+                ],
+                [
+                  "Rule application",
+                  "Using governing law to assess facts"
+                ],
+                [
+                  "Reasoned judgment",
+                  "Decision explaining legal and factual grounds"
+                ]
+              ],
+              "explanation": "Evidence, interpretation and institutional power answer distinct questions."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for authorized resolution of a dispute is ___.",
+              "answer": "Adjudication",
+              "accept": [
+                "Adjudication"
+              ],
+              "explanation": "The answer is Adjudication."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for decision explaining legal and factual grounds is ___.",
+              "answer": "Reasoned judgment",
+              "accept": [
+                "Reasoned judgment"
+              ],
+              "explanation": "The answer is Reasoned judgment."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish judicial roles and the authority of reasoning.",
+          "summary": "Judges, juries, expert witnesses, and precedent operate differently. Learn why a decision’s ratio may guide later courts without making every observation binding.",
+          "checklist": [
+            "I can distinguish a factfinder from a legal decision maker",
+            "I can identify the role of expert evidence",
+            "I can separate necessary reasoning from incidental observations"
+          ],
+          "sections": [
+            {
+              "title": "Who decides what?",
+              "body_md": "A jury may resolve specified factual questions while a judge determines relevant law; other legal systems rely on professional judges or mixed panels. A specialist witness may offer expertise on a technical matter but does not automatically determine the rule governing the dispute. Identify the forum’s allocation of roles before designing an argument. Factual credibility, legal interpretation, and ultimate remedy may be assigned to different decision makers. Confusing these functions can invalidate even well-researched advocacy.",
+              "audio_script": "A jury may resolve specified factual questions while a judge determines relevant law; other legal systems rely on professional judges or mixed panels. A specialist witness may offer expertise on a technical matter but does not automatically determine the rule governing the dispute. Identify the forum’s allocation of roles before designing an argument. Factual credibility, legal interpretation, and ultimate remedy may be assigned to different decision makers. Confusing these functions can invalidate even well-researched advocacy.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Precedent has a structure",
+              "body_md": "A court may decide that a public agency needed statutory authorization for a particular act. The reasoning necessary to that decision may guide later courts, subject to the hierarchy and rules of precedent. Other remarks may be persuasive but not essential to the result. The distinctions often labeled ratio decidendi and obiter dictum are important in common-law systems; their use is not identical worldwide. Read the facts, issues, and result before declaring an isolated sentence binding.",
+              "audio_script": "A court may decide that a public agency needed statutory authorization for a particular act. The reasoning necessary to that decision may guide later courts, subject to the hierarchy and rules of precedent. Other remarks may be persuasive but not essential to the result. The distinctions often labeled ratio decidendi and obiter dictum are important in common-law systems; their use is not identical worldwide. Read the facts, issues, and result before declaring an isolated sentence binding.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "An opinion is not every source",
+              "body_md": "Statutes, constitutions, regulations, and precedents may interact. An appellate opinion interpreting a statute is not a free-standing command unconnected to the enacted text or later amendments. A lawyer should check whether the decision remains controlling and how the governing legal system ranks sources. Academic commentary may help explain the argument without necessarily becoming binding. This source discipline matters because a client’s liberty or property may turn on a narrow legal distinction that a popular summary overlooks.",
+              "audio_script": "Statutes, constitutions, regulations, and precedents may interact. An appellate opinion interpreting a statute is not a free-standing command unconnected to the enacted text or later amendments. A lawyer should check whether the decision remains controlling and how the governing legal system ranks sources. Academic commentary may help explain the argument without necessarily becoming binding. This source discipline matters because a client’s liberty or property may turn on a narrow legal distinction that a popular summary overlooks.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q1",
+              "type": "true_false",
+              "prompt": "Expert witness means person providing specialized evidence.",
+              "answer": true,
+              "explanation_if_true": "Expert witness means person providing specialized evidence.",
+              "explanation_if_false": "Expert witness means person providing specialized evidence."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every remark in a judicial opinion is universally binding in all later disputes.",
+              "answer": false,
+              "explanation_if_true": "Authority depends on the court, jurisdiction, and whether reasoning was necessary to the result.",
+              "explanation_if_false": "Authority depends on the court, jurisdiction, and whether reasoning was necessary to the result."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Factfinder?",
+              "choices": [
+                "Body responsible for resolving factual disputes",
+                "Person providing specialized evidence",
+                "Reasoning necessary to a decision in relevant systems",
+                "Judicial observation unnecessary to the outcome"
+              ],
+              "answer_index": 0,
+              "explanation": "Factfinder means body responsible for resolving factual disputes."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A judge discusses a hypothetical issue unrelated to the ruling. How may that statement be classified?",
+              "choices": [
+                "A required factual finding",
+                "A binding constitutional amendment",
+                "An enacted statute",
+                "Obiter dictum"
+              ],
+              "answer_index": 3,
+              "explanation": "Incidental observations differ from necessary grounds of decision."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes reasoning necessary to a decision in relevant systems?",
+              "choices": [
+                "Factfinder",
+                "Obiter dictum",
+                "Expert witness",
+                "Ratio decidendi"
+              ],
+              "answer_index": 3,
+              "explanation": "Ratio decidendi is reasoning necessary to a decision in relevant systems."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each adjudication concept.",
+              "pairs": [
+                [
+                  "Factfinder",
+                  "Body responsible for resolving factual disputes"
+                ],
+                [
+                  "Expert witness",
+                  "Person providing specialized evidence"
+                ],
+                [
+                  "Ratio decidendi",
+                  "Reasoning necessary to a decision in relevant systems"
+                ],
+                [
+                  "Obiter dictum",
+                  "Judicial observation unnecessary to the outcome"
+                ]
+              ],
+              "explanation": "Evidence, interpretation and institutional power answer distinct questions."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for body responsible for resolving factual disputes is ___.",
+              "answer": "Factfinder",
+              "accept": [
+                "Factfinder"
+              ],
+              "explanation": "The answer is Factfinder."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for judicial observation unnecessary to the outcome is ___.",
+              "answer": "Obiter dictum",
+              "accept": [
+                "Obiter dictum"
+              ],
+              "explanation": "The answer is Obiter dictum."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Resolve hard cases through disciplined interpretation.",
+          "summary": "Legal texts may support competing readings in difficult cases. Develop an argument that acknowledges uncertainty, confronts the strongest alternative, and stays within the institution’s authority.",
+          "checklist": [
+            "I can identify competing plausible readings of a legal source",
+            "I can separate binding rule from policy preference",
+            "I can explain the institutional effects of a decision"
+          ],
+          "sections": [
+            {
+              "title": "Hard cases are not invitations to guess",
+              "body_md": "A statute requires an official to give 'reasonable notice' without specifying every possible circumstance. A court may consider text, statutory purpose, related rules, and authoritative precedent under the governing interpretive method. Two plausible readings can produce different outcomes. A strong judgment explains why one is legally preferable rather than pretending the disputed word has no ambiguity. Moral and policy considerations may be relevant where the system permits them, but they cannot replace an otherwise controlling legal source.",
+              "audio_script": "A statute requires an official to give 'reasonable notice' without specifying every possible circumstance. A court may consider text, statutory purpose, related rules, and authoritative precedent under the governing interpretive method. Two plausible readings can produce different outcomes. A strong judgment explains why one is legally preferable rather than pretending the disputed word has no ambiguity. Moral and policy considerations may be relevant where the system permits them, but they cannot replace an otherwise controlling legal source.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Answer the strongest objection",
+              "body_md": "Suppose one interpretation protects administrative efficiency and another better protects the affected person’s hearing rights. The judge should identify the rights, institutional powers, and legal consequences of each interpretation. Simply announcing that efficiency or fairness is important does not settle the conflict. An advanced argument states the rule, the interpretive method, the rival construction, and why the accepted legal criteria favor one result. It should disclose uncertainty where the law genuinely leaves room for disagreement.",
+              "audio_script": "Suppose one interpretation protects administrative efficiency and another better protects the affected person’s hearing rights. The judge should identify the rights, institutional powers, and legal consequences of each interpretation. Simply announcing that efficiency or fairness is important does not settle the conflict. An advanced argument states the rule, the interpretive method, the rival construction, and why the accepted legal criteria favor one result. It should disclose uncertainty where the law genuinely leaves room for disagreement.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Limit the decision to its role",
+              "body_md": "A court deciding one license dispute may not possess authority to redesign an entire regulatory program. Broad judicial statements can create precedent or confusion, while an excessively narrow ruling may fail to give meaningful relief. Explain what the court must decide and what belongs to another institution. Judicial restraint is not a synonym for indifference to injustice; it is a method of honoring lawful power while protecting the client through remedies the institution can actually grant.",
+              "audio_script": "A court deciding one license dispute may not possess authority to redesign an entire regulatory program. Broad judicial statements can create precedent or confusion, while an excessively narrow ruling may fail to give meaningful relief. Explain what the court must decide and what belongs to another institution. Judicial restraint is not a synonym for indifference to injustice; it is a method of honoring lawful power while protecting the client through remedies the institution can actually grant.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q1",
+              "type": "true_false",
+              "prompt": "Interpretive method means accepted approach to determining legal meaning.",
+              "answer": true,
+              "explanation_if_true": "Interpretive method means accepted approach to determining legal meaning.",
+              "explanation_if_false": "Interpretive method means accepted approach to determining legal meaning."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q2",
+              "type": "true_false",
+              "prompt": "A hard case permits a judge to ignore controlling law whenever a different result seems preferable.",
+              "answer": false,
+              "explanation_if_true": "Discretion and interpretation remain constrained by recognized legal sources and institutional authority.",
+              "explanation_if_false": "Discretion and interpretation remain constrained by recognized legal sources and institutional authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Hard case?",
+              "choices": [
+                "Accepted approach to determining legal meaning",
+                "Legal and practical capacity to decide",
+                "Respect for limits on adjudicative power",
+                "Dispute with competing plausible legal outcomes"
+              ],
+              "answer_index": 3,
+              "explanation": "Hard case means dispute with competing plausible legal outcomes."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A judge prefers a policy but a binding statute clearly governs. What is required?",
+              "choices": [
+                "Invent new evidence",
+                "Treat policy commentary as constitutional text",
+                "Apply the statute unless lawful grounds displace it",
+                "Replace it with personal preference"
+              ],
+              "answer_index": 2,
+              "explanation": "Institutional authority constrains judicial choice."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes legal and practical capacity to decide?",
+              "choices": [
+                "Judicial restraint",
+                "Interpretive method",
+                "Institutional competence",
+                "Hard case"
+              ],
+              "answer_index": 2,
+              "explanation": "Institutional competence is legal and practical capacity to decide."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q6",
+              "type": "matching",
+              "prompt": "Match each adjudication concept.",
+              "pairs": [
+                [
+                  "Hard case",
+                  "Dispute with competing plausible legal outcomes"
+                ],
+                [
+                  "Interpretive method",
+                  "Accepted approach to determining legal meaning"
+                ],
+                [
+                  "Institutional competence",
+                  "Legal and practical capacity to decide"
+                ],
+                [
+                  "Judicial restraint",
+                  "Respect for limits on adjudicative power"
+                ]
+              ],
+              "explanation": "Evidence, interpretation and institutional power answer distinct questions."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for dispute with competing plausible legal outcomes is ___.",
+              "answer": "Hard case",
+              "accept": [
+                "Hard case"
+              ],
+              "explanation": "The answer is Hard case."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for respect for limits on adjudicative power is ___.",
+              "answer": "Judicial restraint",
+              "accept": [
+                "Judicial restraint"
+              ],
+              "explanation": "The answer is Judicial restraint."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate competing philosophical theories of judging.",
+          "summary": "Legal positivism, interpretivism, and legal realism offer different accounts of hard cases. Critique each without collapsing legal validity, interpretive judgment, and moral legitimacy into one question.",
+          "checklist": [
+            "I can distinguish Hart’s open texture from unrestricted discretion",
+            "I can explain Dworkin’s interpretive challenge to rule-only accounts",
+            "I can evaluate realist insights without denying legal constraints"
+          ],
+          "sections": [
+            {
+              "title": "Hart and the open texture of rules",
+              "body_md": "H. L. A. Hart argued that general legal language can leave marginal cases uncertain, even when central applications are clear. The existence of hard cases does not imply that all law is indeterminate. Positivist accounts emphasize social sources of validity while recognizing questions about interpretation and obligations. A doctoral analysis should distinguish the rule’s source, its meaning in a borderline case, and whether following it is morally justified. Those inquiries can relate without becoming identical.",
+              "audio_script": "H. L. A. Hart argued that general legal language can leave marginal cases uncertain, even when central applications are clear. The existence of hard cases does not imply that all law is indeterminate. Positivist accounts emphasize social sources of validity while recognizing questions about interpretation and obligations. A doctoral analysis should distinguish the rule’s source, its meaning in a borderline case, and whether following it is morally justified. Those inquiries can relate without becoming identical.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Dworkin and justificatory principle",
+              "body_md": "Ronald Dworkin argued that legal reasoning may require principles that best justify an institutional legal practice, not only rules identified by a simple pedigree test. His interpretivism seeks a reading that fits and morally justifies the practice. That is not a license to ignore case law or to substitute a judge’s private taste for public reason. A fair critique asks how much agreement the theory can explain and how it handles deep disagreement about political morality.",
+              "audio_script": "Ronald Dworkin argued that legal reasoning may require principles that best justify an institutional legal practice, not only rules identified by a simple pedigree test. His interpretivism seeks a reading that fits and morally justifies the practice. That is not a license to ignore case law or to substitute a judge’s private taste for public reason. A fair critique asks how much agreement the theory can explain and how it handles deep disagreement about political morality.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Realism and institutional responsibility",
+              "body_md": "Legal realist approaches examine how judges, institutions, evidentiary practices, and social conditions affect actual decisions. These insights can correct an overly mechanical picture of law, yet they need not imply that legal argument has no constraining force. A doctoral position should assess which theory best explains routine cases, hard cases, and the public duty to give reasons. The ethical stakes are substantial: people subject to judgments deserve explanation, not simply a prediction of what a particular judge might prefer.",
+              "audio_script": "Legal realist approaches examine how judges, institutions, evidentiary practices, and social conditions affect actual decisions. These insights can correct an overly mechanical picture of law, yet they need not imply that legal argument has no constraining force. A doctoral position should assess which theory best explains routine cases, hard cases, and the public duty to give reasons. The ethical stakes are substantial: people subject to judgments deserve explanation, not simply a prediction of what a particular judge might prefer.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q1",
+              "type": "true_false",
+              "prompt": "Interpretivism means theory explaining law through justifying principles.",
+              "answer": true,
+              "explanation_if_true": "Interpretivism means theory explaining law through justifying principles.",
+              "explanation_if_false": "Interpretivism means theory explaining law through justifying principles."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q2",
+              "type": "true_false",
+              "prompt": "Every jurisprudential theory agrees that a judge's personal preference is the sole basis of law.",
+              "answer": false,
+              "explanation_if_true": "Leading theories disagree about legal sources, principles, and the limits on judicial choice.",
+              "explanation_if_false": "Leading theories disagree about legal sources, principles, and the limits on judicial choice."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Open texture?",
+              "choices": [
+                "Approach studying actual legal decision behavior",
+                "Authorized choice where rules leave room",
+                "Uncertainty at the margins of legal language",
+                "Theory explaining law through justifying principles"
+              ],
+              "answer_index": 2,
+              "explanation": "Open texture means uncertainty at the margins of legal language."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An argument asks whether legal principles beyond explicit rules shape a hard case. Which debate is central?",
+              "choices": [
+                "Only court architecture",
+                "Positivism versus interpretivism",
+                "Only ordinary bookkeeping",
+                "Only the physics of evidence"
+              ],
+              "answer_index": 1,
+              "explanation": "Theories differ over the grounds and interpretation of legal rights."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes approach studying actual legal decision behavior?",
+              "choices": [
+                "Interpretivism",
+                "Legal realism",
+                "Open texture",
+                "Judicial discretion"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal realism is approach studying actual legal decision behavior."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q6",
+              "type": "matching",
+              "prompt": "Match each adjudication concept.",
+              "pairs": [
+                [
+                  "Open texture",
+                  "Uncertainty at the margins of legal language"
+                ],
+                [
+                  "Interpretivism",
+                  "Theory explaining law through justifying principles"
+                ],
+                [
+                  "Legal realism",
+                  "Approach studying actual legal decision behavior"
+                ],
+                [
+                  "Judicial discretion",
+                  "Authorized choice where rules leave room"
+                ]
+              ],
+              "explanation": "Evidence, interpretation and institutional power answer distinct questions."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for uncertainty at the margins of legal language is ___.",
+              "answer": "Open texture",
+              "accept": [
+                "Open texture"
+              ],
+              "explanation": "The answer is Open texture."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.adjudication.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for authorized choice where rules leave room is ___.",
+              "answer": "Judicial discretion",
+              "accept": [
+                "Judicial discretion"
+              ],
+              "explanation": "The answer is Judicial discretion."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
