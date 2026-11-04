@@ -10,7 +10,7 @@
  */
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { basename, join, resolve } from 'node:path';
-import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import { coverageImportRows, lessonImportRows } from '../src/learning/plan';
 import { coverageSummary, crossCheckCoverage, isCourseTopics, isEntryMap, validateCourseTopics, validateEntryMap, type CoverageValidation } from '../src/learning/coverage';
 import { lessonCounts, validateLessonDocument, type StyleMode } from '../src/learning/lessons';
@@ -111,6 +111,7 @@ async function main() {
   const url = process.env.SUPABASE_URL?.trim();
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
   if (!url || !key) throw new Error('Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY, or pass --dry-run.');
+  const { createClient } = await import('@supabase/supabase-js');
   const client = createClient(url, key, { auth: { persistSession: false } });
   const courseIds = await loadCourseIds(client);
   for (let i = 0; i < lessonPlans.length; i++) {
