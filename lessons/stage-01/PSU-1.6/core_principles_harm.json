@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "harm",
+      "name": "Harm",
+      "levels": {
+        "red": {
+          "focus": "Notice how unclear wording can cause real injury",
+          "summary": "Ambiguous legal language can leave people unsure of their obligations or protections. Learn to identify the exact words that create a dispute and the people affected by their interpretation.",
+          "checklist": [
+            "I can identify a disputed phrase in its full sentence",
+            "I can distinguish ambiguity from simple unfamiliarity",
+            "I can state how competing readings affect a person"
+          ],
+          "sections": [
+            {
+              "title": "One Phrase, Different Consequences",
+              "body_md": "A lease promises repairs within a 'reasonable time.' One tenant reads this as several days; a landlord believes several weeks may be acceptable. Neither interpretation is decided by the word alone. The governing law, nature of the defect, surrounding agreement and facts may clarify it. A good interpreter identifies what each party means and why the difference matters. If the defect exposes a family to unsafe conditions, the dispute is practical and urgent, not merely a linguistic exercise.",
+              "example": null,
+              "audio_script": "A lease promises repairs within a 'reasonable time.' One tenant reads this as several days; a landlord believes several weeks may be acceptable. Neither interpretation is decided by the word alone. The governing law, nature of the defect, surrounding agreement and facts may clarify it. A good interpreter identifies what each party means and why the difference matters. If the defect exposes a family to unsafe conditions, the dispute is practical and urgent, not merely a linguistic exercise.",
+              "video": null
+            },
+            {
+              "title": "Unclear Does Not Mean Meaningless",
+              "body_md": "Some words are deliberately open-ended because lawmakers or parties cannot list every future situation. 'Reasonable care' invites a context-sensitive judgment, while an unfamiliar technical term may be precisely defined elsewhere. The reader must distinguish genuine ambiguity from lack of knowledge about the instrument. A careful first pass checks definitions, neighboring clauses and the purpose of the provision. This often resolves a question before elaborate debate begins.",
+              "example": null,
+              "audio_script": "Some words are deliberately open-ended because lawmakers or parties cannot list every future situation. 'Reasonable care' invites a context-sensitive judgment, while an unfamiliar technical term may be precisely defined elsewhere. The reader must distinguish genuine ambiguity from lack of knowledge about the instrument. A careful first pass checks definitions, neighboring clauses and the purpose of the provision. This often resolves a question before elaborate debate begins.",
+              "video": null
+            },
+            {
+              "title": "Identify the Harmful Choice",
+              "body_md": "A regulatory form may allow different readings of a filing deadline. If the agency applies the narrower reading without notice, a person may lose access to an appeal. The interpreter should identify the exact operative language, time calculation, published guidance and available review. It is important not to promise a result solely because one reading seems kinder. The legal issue is what the governing interpretive method allows and how the choice affects rights and obligations.",
+              "example": null,
+              "audio_script": "A regulatory form may allow different readings of a filing deadline. If the agency applies the narrower reading without notice, a person may lose access to an appeal. The interpreter should identify the exact operative language, time calculation, published guidance and available review. It is important not to promise a result solely because one reading seems kinder. The legal issue is what the governing interpretive method allows and how the choice affects rights and obligations.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q1",
+              "type": "true_false",
+              "prompt": "Vagueness means language with unclear boundaries of application.",
+              "answer": true,
+              "explanation_if_true": "Vagueness means language with unclear boundaries of application.",
+              "explanation_if_false": "Vagueness means language with unclear boundaries of application."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q2",
+              "type": "true_false",
+              "prompt": "Every word that a reader finds unfamiliar is legally ambiguous.",
+              "answer": false,
+              "explanation_if_true": "A defined technical term may be clear after its governing context is examined.",
+              "explanation_if_false": "A defined technical term may be clear after its governing context is examined."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Ambiguity?",
+              "choices": [
+                "Understanding text through related language and circumstances",
+                "Language reasonably admitting competing meanings",
+                "Language with unclear boundaries of application",
+                "Wording whose legal meaning affects an outcome"
+              ],
+              "answer_index": 1,
+              "explanation": "Ambiguity means language reasonably admitting competing meanings."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A lease says repairs must occur in a reasonable time. What is the first analytical move?",
+              "choices": [
+                "Examine the clause, contract context and relevant facts",
+                "Choose an arbitrary number of days",
+                "Ignore the repair's urgency",
+                "Treat the phrase as void automatically"
+              ],
+              "answer_index": 0,
+              "explanation": "Reasonableness depends on legally relevant context rather than personal preference alone."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means wording whose legal meaning affects an outcome?",
+              "choices": [
+                "Operative phrase",
+                "Ambiguity",
+                "Contextual reading",
+                "Vagueness"
+              ],
+              "answer_index": 0,
+              "explanation": "Operative phrase means wording whose legal meaning affects an outcome."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Ambiguity",
+                  "Language reasonably admitting competing meanings"
+                ],
+                [
+                  "Vagueness",
+                  "Language with unclear boundaries of application"
+                ],
+                [
+                  "Operative phrase",
+                  "Wording whose legal meaning affects an outcome"
+                ],
+                [
+                  "Contextual reading",
+                  "Understanding text through related language and circumstances"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q7",
+              "type": "fill_in",
+              "prompt": "Language reasonably admitting competing meanings is called ___.",
+              "answer": "Ambiguity",
+              "accept": [
+                "Ambiguity"
+              ],
+              "explanation": "The term is Ambiguity."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.red.q8",
+              "type": "fill_in",
+              "prompt": "Understanding text through related language and circumstances is called ___.",
+              "answer": "Contextual reading",
+              "accept": [
+                "Contextual reading"
+              ],
+              "explanation": "The term is Contextual reading."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Interpret exclusions and exceptions affecting liability",
+          "summary": "Learn how a few words can limit compensation or liability under a contract or statute. Distinguish construing the clause from deciding whether law permits it to operate.",
+          "checklist": [
+            "I can read an exclusion with its trigger and scope",
+            "I can distinguish interpretation from enforceability",
+            "I can recognize legally protected interests that may limit exclusion"
+          ],
+          "sections": [
+            {
+              "title": "What Exactly Is Excluded?",
+              "body_md": "A service contract says the company is not liable for 'indirect loss.' The question is what the phrase means under the governing law and the transaction's context. Some losses may fall inside or outside the term depending on legal interpretation and factual causation. An interpreter should not simply equate indirect with every financial consequence or assume the clause covers all wrongdoing. First state the type of harm and the precise language the parties used.",
+              "example": null,
+              "audio_script": "A service contract says the company is not liable for 'indirect loss.' The question is what the phrase means under the governing law and the transaction's context. Some losses may fall inside or outside the term depending on legal interpretation and factual causation. An interpreter should not simply equate indirect with every financial consequence or assume the clause covers all wrongdoing. First state the type of harm and the precise language the parties used.",
+              "video": null
+            },
+            {
+              "title": "Meaning and Validity Are Different",
+              "body_md": "A clause can be unambiguous yet unenforceable because mandatory consumer, employment or other protections limit exclusion of liability. Conversely, a court may construe an ambiguous clause narrowly under applicable interpretive rules. These are different analyses. The first asks what the term purports to do; the second asks whether law gives it effect. A careful lawyer examines both before telling a client the company has no responsibility.",
+              "example": null,
+              "audio_script": "A clause can be unambiguous yet unenforceable because mandatory consumer, employment or other protections limit exclusion of liability. Conversely, a court may construe an ambiguous clause narrowly under applicable interpretive rules. These are different analyses. The first asks what the term purports to do; the second asks whether law gives it effect. A careful lawyer examines both before telling a client the company has no responsibility.",
+              "video": null
+            },
+            {
+              "title": "Exceptions Must Be Fully Read",
+              "body_md": "A statute protecting injured consumers may include exclusions or procedural requirements. Quoting only the broad protection can create unrealistic expectations; quoting only an exclusion may erase lawful claims. Read the full scheme, including definitions, remedies and any interpretive presumptions. The result must be tied to the client's actual loss and the rule's scope. Concise writing helps when it states exactly which language supports each conclusion without burying essential exceptions.",
+              "example": null,
+              "audio_script": "A statute protecting injured consumers may include exclusions or procedural requirements. Quoting only the broad protection can create unrealistic expectations; quoting only an exclusion may erase lawful claims. Read the full scheme, including definitions, remedies and any interpretive presumptions. The result must be tied to the client's actual loss and the rule's scope. Concise writing helps when it states exactly which language supports each conclusion without burying essential exceptions.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q1",
+              "type": "true_false",
+              "prompt": "Interpretation means determination of a text's legally relevant meaning.",
+              "answer": true,
+              "explanation_if_true": "Interpretation means determination of a text's legally relevant meaning.",
+              "explanation_if_false": "Interpretation means determination of a text's legally relevant meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q2",
+              "type": "true_false",
+              "prompt": "An unambiguous exclusion clause is necessarily enforceable regardless of governing mandatory law.",
+              "answer": false,
+              "explanation_if_true": "Clarity and validity are distinct; statutes or doctrine may prevent enforcement.",
+              "explanation_if_false": "Clarity and validity are distinct; statutes or doctrine may prevent enforcement."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Exclusion clause?",
+              "choices": [
+                "Term purporting to limit a party's liability",
+                "Determination of a text's legally relevant meaning",
+                "Whether a term has legal effect",
+                "Legal safeguard parties cannot simply contract away"
+              ],
+              "answer_index": 0,
+              "explanation": "Exclusion clause means term purporting to limit a party's liability."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A consumer contract clearly excludes liability that a statute forbids excluding. What is the issue?",
+              "choices": [
+                "Only the choice of font",
+                "Whether the consumer read the title",
+                "A treaty about unrelated trade",
+                "Legal enforceability, even if meaning is clear"
+              ],
+              "answer_index": 3,
+              "explanation": "A clear clause can still be invalid under mandatory protection."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means whether a term has legal effect?",
+              "choices": [
+                "Exclusion clause",
+                "Mandatory protection",
+                "Interpretation",
+                "Enforceability"
+              ],
+              "answer_index": 3,
+              "explanation": "Enforceability means whether a term has legal effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Exclusion clause",
+                  "Term purporting to limit a party's liability"
+                ],
+                [
+                  "Interpretation",
+                  "Determination of a text's legally relevant meaning"
+                ],
+                [
+                  "Enforceability",
+                  "Whether a term has legal effect"
+                ],
+                [
+                  "Mandatory protection",
+                  "Legal safeguard parties cannot simply contract away"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Term purporting to limit a party's liability is called ___.",
+              "answer": "Exclusion clause",
+              "accept": [
+                "Exclusion clause"
+              ],
+              "explanation": "The term is Exclusion clause."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legal safeguard parties cannot simply contract away is called ___.",
+              "answer": "Mandatory protection",
+              "accept": [
+                "Mandatory protection"
+              ],
+              "explanation": "The term is Mandatory protection."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze interpretive harm from drafting and translation",
+          "summary": "Advanced cases may turn on differences between translations, technical definitions and the language chosen by powerful institutions. Learn to distinguish genuinely authoritative versions from convenient paraphrases.",
+          "checklist": [
+            "I can identify a controlling text version",
+            "I can analyze ambiguity created by translation",
+            "I can evaluate fairness and legal effect without rewriting the source"
+          ],
+          "sections": [
+            {
+              "title": "One Word Across Languages",
+              "body_md": "A cross-border insurance policy exists in two languages, and a key exception is expressed differently in each. The contract may specify an authoritative version; otherwise its governing law may provide interpretive rules. The lawyer must compare the executed texts, translation context and relevant definitions before assuming one version controls. A machine translation can help identify a question but is not automatically legally authoritative. That caution is important when an inaccurate reading may deny compensation to someone facing serious loss.",
+              "example": null,
+              "audio_script": "A cross-border insurance policy exists in two languages, and a key exception is expressed differently in each. The contract may specify an authoritative version; otherwise its governing law may provide interpretive rules. The lawyer must compare the executed texts, translation context and relevant definitions before assuming one version controls. A machine translation can help identify a question but is not automatically legally authoritative. That caution is important when an inaccurate reading may deny compensation to someone facing serious loss.",
+              "video": null
+            },
+            {
+              "title": "Technical Usage Can Be Decisive",
+              "body_md": "A contract or regulation may use 'contamination' in a specific scientific sense. General dictionaries can obscure an industry definition or an express contractual meaning. Yet claims of specialized usage should be supported by the instrument, admissible evidence and applicable law, not merely an expert's preference. A careful interpreter identifies which technical meaning the governing legal framework recognizes. The goal is to make the loss and coverage question precise, not to hide it behind jargon.",
+              "example": null,
+              "audio_script": "A contract or regulation may use 'contamination' in a specific scientific sense. General dictionaries can obscure an industry definition or an express contractual meaning. Yet claims of specialized usage should be supported by the instrument, admissible evidence and applicable law, not merely an expert's preference. A careful interpreter identifies which technical meaning the governing legal framework recognizes. The goal is to make the loss and coverage question precise, not to hide it behind jargon.",
+              "video": null
+            },
+            {
+              "title": "Protect Without Inventing",
+              "body_md": "A narrow interpretation of a limitation may protect an injured person, but the decision maker's authority still matters. A court may use contra proferentem, consumer legislation or other doctrines in defined circumstances. It cannot simply replace every disputed clause with the result that seems kindest. Explain the actual interpretive rule, why its conditions are met and what remedy follows. This maintains predictability and protects vulnerable people through reasons they can contest.",
+              "example": null,
+              "audio_script": "A narrow interpretation of a limitation may protect an injured person, but the decision maker's authority still matters. A court may use contra proferentem, consumer legislation or other doctrines in defined circumstances. It cannot simply replace every disputed clause with the result that seems kindest. Explain the actual interpretive rule, why its conditions are met and what remedy follows. This maintains predictability and protects vulnerable people through reasons they can contest.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q1",
+              "type": "true_false",
+              "prompt": "Technical meaning means specialized sense of a term in a field.",
+              "answer": true,
+              "explanation_if_true": "Technical meaning means specialized sense of a term in a field.",
+              "explanation_if_false": "Technical meaning means specialized sense of a term in a field."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q2",
+              "type": "true_false",
+              "prompt": "A machine translation necessarily controls a contract's legal meaning regardless of signed language versions.",
+              "answer": false,
+              "explanation_if_true": "Authority depends on executed texts and governing interpretive rules.",
+              "explanation_if_false": "Authority depends on executed texts and governing interpretive rules."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Authentic version?",
+              "choices": [
+                "Specialized sense of a term in a field",
+                "Rule sometimes resolving ambiguity against a drafter",
+                "Meaning discrepancy among language versions",
+                "Text recognized as authoritative for interpretation"
+              ],
+              "answer_index": 3,
+              "explanation": "Authentic version means text recognized as authoritative for interpretation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two executed policy languages differ on an exclusion. What must counsel determine first?",
+              "choices": [
+                "Which translation is shorter",
+                "Which insurer uses English advertising",
+                "Which text versions are authoritative and which law governs",
+                "Which language is more familiar"
+              ],
+              "answer_index": 2,
+              "explanation": "Language status and applicable interpretation law determine the legal analysis."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means rule sometimes resolving ambiguity against a drafter?",
+              "choices": [
+                "Translation conflict",
+                "Technical meaning",
+                "Contra proferentem",
+                "Authentic version"
+              ],
+              "answer_index": 2,
+              "explanation": "Contra proferentem means rule sometimes resolving ambiguity against a drafter."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Authentic version",
+                  "Text recognized as authoritative for interpretation"
+                ],
+                [
+                  "Technical meaning",
+                  "Specialized sense of a term in a field"
+                ],
+                [
+                  "Contra proferentem",
+                  "Rule sometimes resolving ambiguity against a drafter"
+                ],
+                [
+                  "Translation conflict",
+                  "Meaning discrepancy among language versions"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q7",
+              "type": "fill_in",
+              "prompt": "Text recognized as authoritative for interpretation is called ___.",
+              "answer": "Authentic version",
+              "accept": [
+                "Authentic version"
+              ],
+              "explanation": "The term is Authentic version."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.orange.q8",
+              "type": "fill_in",
+              "prompt": "Meaning discrepancy among language versions is called ___.",
+              "answer": "Translation conflict",
+              "accept": [
+                "Translation conflict"
+              ],
+              "explanation": "The term is Translation conflict."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate interpretive injustice without abandoning textual discipline",
+          "summary": "At doctoral depth, examine when formal language conceals unequal power or practical exclusion. Develop interpretive and drafting reforms that respect lawful authority and a person's ability to understand obligations.",
+          "checklist": [
+            "I can critique obscure standard-form drafting",
+            "I can distinguish doctrinal interpretation from reform",
+            "I can design protections for affected persons who cannot negotiate text"
+          ],
+          "sections": [
+            {
+              "title": "Who Can Understand the Rule?",
+              "body_md": "An immigration notice may rely on dense cross-references and unexplained deadlines. Even technically accurate language can prevent a person from exercising an appeal right. A doctoral analyst should examine whether law imposes accessible-notice or fair-process requirements and whether the institution complied. It should also ask what policy reform could make rights more usable. The distinction between existing law and reform is essential; concern for affected people does not authorize fabrication of a remedy.",
+              "example": null,
+              "audio_script": "An immigration notice may rely on dense cross-references and unexplained deadlines. Even technically accurate language can prevent a person from exercising an appeal right. A doctoral analyst should examine whether law imposes accessible-notice or fair-process requirements and whether the institution complied. It should also ask what policy reform could make rights more usable. The distinction between existing law and reform is essential; concern for affected people does not authorize fabrication of a remedy.",
+              "video": null
+            },
+            {
+              "title": "Clarity Protects Both Parties",
+              "body_md": "A standard-form financial contract may hide major risks in definitions spread across many sections. A plain-language revision can reduce misunderstanding without eliminating technical precision. But a court's power to interpret or refuse an unfair term is governed by law, not merely readability. An intellectually sound approach analyzes meaning, validity, disclosure and actual bargaining power separately. This prevents a generalized fairness argument from obscuring the exact doctrinal mechanism available to the client.",
+              "example": null,
+              "audio_script": "A standard-form financial contract may hide major risks in definitions spread across many sections. A plain-language revision can reduce misunderstanding without eliminating technical precision. But a court's power to interpret or refuse an unfair term is governed by law, not merely readability. An intellectually sound approach analyzes meaning, validity, disclosure and actual bargaining power separately. This prevents a generalized fairness argument from obscuring the exact doctrinal mechanism available to the client.",
+              "video": null
+            },
+            {
+              "title": "Design Better Interpretation Institutions",
+              "body_md": "A reform could require concise notices, tested translations, public guidance, and accessible review of ambiguous rules. It must also protect reliable legal expectations: individuals and businesses need to know which words will be enforced. Evaluate the proposal against error, administrative cost, participation and unequal access. A justified interpretive system is not the one that always favors a claimant. It is one that gives everyone understandable rules, fair methods of contestation and lawful protection from arbitrary power.",
+              "example": null,
+              "audio_script": "A reform could require concise notices, tested translations, public guidance, and accessible review of ambiguous rules. It must also protect reliable legal expectations: individuals and businesses need to know which words will be enforced. Evaluate the proposal against error, administrative cost, participation and unequal access. A justified interpretive system is not the one that always favors a claimant. It is one that gives everyone understandable rules, fair methods of contestation and lawful protection from arbitrary power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q1",
+              "type": "true_false",
+              "prompt": "Accessible drafting means text people can comprehend and act upon.",
+              "answer": true,
+              "explanation_if_true": "Accessible drafting means text people can comprehend and act upon.",
+              "explanation_if_false": "Accessible drafting means text people can comprehend and act upon."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q2",
+              "type": "true_false",
+              "prompt": "A legally sophisticated document is just whenever it uses precise technical language.",
+              "answer": false,
+              "explanation_if_true": "Precision alone does not guarantee understanding, fair notice or enforceability.",
+              "explanation_if_false": "Precision alone does not guarantee understanding, fair notice or enforceability."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Interpretive injustice?",
+              "choices": [
+                "Unequal ability to influence the wording of a deal",
+                "Predictability of recognized rights and duties",
+                "Harm arising from unfair production or use of legal meaning",
+                "Text people can comprehend and act upon"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretive injustice means harm arising from unfair production or use of legal meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A benefits notice accurately cites law but conceals an appeal deadline behind confusing cross-references. What reform is most relevant?",
+              "choices": [
+                "Making the notice longer",
+                "Accessible notice and clear review instructions",
+                "Removing every statutory definition",
+                "Punishing readers who misunderstand"
+              ],
+              "answer_index": 1,
+              "explanation": "Fair access requires communication of legally decisive information."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means unequal ability to influence the wording of a deal?",
+              "choices": [
+                "Accessible drafting",
+                "Bargaining asymmetry",
+                "Interpretive injustice",
+                "Legal certainty"
+              ],
+              "answer_index": 1,
+              "explanation": "Bargaining asymmetry means unequal ability to influence the wording of a deal."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Interpretive injustice",
+                  "Harm arising from unfair production or use of legal meaning"
+                ],
+                [
+                  "Accessible drafting",
+                  "Text people can comprehend and act upon"
+                ],
+                [
+                  "Bargaining asymmetry",
+                  "Unequal ability to influence the wording of a deal"
+                ],
+                [
+                  "Legal certainty",
+                  "Predictability of recognized rights and duties"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q7",
+              "type": "fill_in",
+              "prompt": "Harm arising from unfair production or use of legal meaning is called ___.",
+              "answer": "Interpretive injustice",
+              "accept": [
+                "Interpretive injustice"
+              ],
+              "explanation": "The term is Interpretive injustice."
+            },
+            {
+              "id": "PSU-1.6.core_principles.harm.black.q8",
+              "type": "fill_in",
+              "prompt": "Predictability of recognized rights and duties is called ___.",
+              "answer": "Legal certainty",
+              "accept": [
+                "Legal certainty"
+              ],
+              "explanation": "The term is Legal certainty."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
