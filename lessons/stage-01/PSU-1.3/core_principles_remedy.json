@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Compare ways legal systems give practical relief",
+          "summary": "A legal victory matters only when the client can obtain meaningful relief. Learn the basic forms of damages, orders, declarations and administrative correction without assuming they exist identically everywhere.",
+          "checklist": [
+            "I can identify money, conduct and declaratory remedies",
+            "I can ask which court or agency can grant relief",
+            "I can distinguish the legal remedy from the client's practical objective"
+          ],
+          "sections": [
+            {
+              "title": "What Does the Client Need?",
+              "body_md": "A buyer whose goods never arrived might want a refund, delivery, or compensation for an additional loss. The applicable law and tribunal determine which remedy is available. Some legal systems emphasize code-based monetary rules; others provide a history of common-law and equitable remedies. Yet neither family can be reduced to one kind of relief. The first step is always to identify the legal interest and ask whether a court, agency or agreed dispute process can provide the outcome sought.",
+              "example": null,
+              "audio_script": "A buyer whose goods never arrived might want a refund, delivery, or compensation for an additional loss. The applicable law and tribunal determine which remedy is available. Some legal systems emphasize code-based monetary rules; others provide a history of common-law and equitable remedies. Yet neither family can be reduced to one kind of relief. The first step is always to identify the legal interest and ask whether a court, agency or agreed dispute process can provide the outcome sought.",
+              "video": null
+            },
+            {
+              "title": "Three Useful Categories",
+              "body_md": "Damages usually respond in money to a legally recognized loss. An injunction or similar order may require conduct to stop or begin. A declaration establishes the legal rights or status of parties without necessarily commanding performance. Exact terms and conditions vary across systems. A judgment granting a declaration may leave practical enforcement for later proceedings. Students should never confuse what a document says with what officials can make happen.",
+              "example": null,
+              "audio_script": "Damages usually respond in money to a legally recognized loss. An injunction or similar order may require conduct to stop or begin. A declaration establishes the legal rights or status of parties without necessarily commanding performance. Exact terms and conditions vary across systems. A judgment granting a declaration may leave practical enforcement for later proceedings. Students should never confuse what a document says with what officials can make happen.",
+              "video": null
+            },
+            {
+              "title": "The Forum Changes the Answer",
+              "body_md": "A regulator may impose a public penalty but lack power to award a private claimant all the damages they request. An arbitral tribunal may decide a contractual dispute within its jurisdiction, while court assistance may be necessary to enforce an award. A comparative lawyer identifies the remedy's source, the institution authorized to grant it, and the route to execution. A right without a usable forum may offer far less real protection than its language suggests.",
+              "example": null,
+              "audio_script": "A regulator may impose a public penalty but lack power to award a private claimant all the damages they request. An arbitral tribunal may decide a contractual dispute within its jurisdiction, while court assistance may be necessary to enforce an award. A comparative lawyer identifies the remedy's source, the institution authorized to grant it, and the route to execution. A right without a usable forum may offer far less real protection than its language suggests.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Injunction means order compelling or restraining conduct.",
+              "answer": true,
+              "explanation_if_true": "Injunction means order compelling or restraining conduct.",
+              "explanation_if_false": "Injunction means order compelling or restraining conduct."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "Every legal institution may award any remedy a claimant requests.",
+              "answer": false,
+              "explanation_if_true": "Jurisdiction and remedial authority limit what each institution can grant.",
+              "explanation_if_false": "Jurisdiction and remedial authority limit what each institution can grant."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Damages?",
+              "choices": [
+                "Process for enforcing a judgment or award",
+                "Monetary response to a legally recognized loss",
+                "Order compelling or restraining conduct",
+                "Statement by a tribunal of legal rights or status"
+              ],
+              "answer_index": 1,
+              "explanation": "Damages means monetary response to a legally recognized loss."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A tribunal declares a contract valid but cannot itself seize assets. Which separate step matters?",
+              "choices": [
+                "Enforcement or execution",
+                "Legal status of the tribunal's furniture",
+                "A new contract with the judge",
+                "Changing the case title"
+              ],
+              "answer_index": 0,
+              "explanation": "A declaratory decision and coercive enforcement serve different functions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means statement by a tribunal of legal rights or status?",
+              "choices": [
+                "Declaration",
+                "Damages",
+                "Execution",
+                "Injunction"
+              ],
+              "answer_index": 0,
+              "explanation": "Declaration means statement by a tribunal of legal rights or status."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Damages",
+                  "Monetary response to a legally recognized loss"
+                ],
+                [
+                  "Injunction",
+                  "Order compelling or restraining conduct"
+                ],
+                [
+                  "Declaration",
+                  "Statement by a tribunal of legal rights or status"
+                ],
+                [
+                  "Execution",
+                  "Process for enforcing a judgment or award"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Monetary response to a legally recognized loss is called ___.",
+              "answer": "Damages",
+              "accept": [
+                "Damages"
+              ],
+              "explanation": "The term is Damages."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Process for enforcing a judgment or award is called ___.",
+              "answer": "Execution",
+              "accept": [
+                "Execution"
+              ],
+              "explanation": "The term is Execution."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish compensation, restitution and equitable relief",
+          "summary": "Move beyond labels to remedy objectives: repair loss, return unjust gain, or prevent continuing wrongdoing. Compare when legal systems restrict specific performance or ongoing supervision.",
+          "checklist": [
+            "I can distinguish claimant loss from defendant gain",
+            "I can identify why monetary damages may be inadequate",
+            "I can explain the limits of specific performance"
+          ],
+          "sections": [
+            {
+              "title": "Loss and Gain Are Not Equal",
+              "body_md": "Suppose a trader wrongfully receives funds and keeps them. A restitutionary response may focus on returning an unjust benefit, while compensatory damages would examine a legally recognized loss. The measurements can differ. Legal systems classify unjust enrichment and restitution in different ways, and some remedies overlap. A comparative study names the claim, available defenses and governing measure rather than assuming every repayment or award is simply damages.",
+              "example": null,
+              "audio_script": "Suppose a trader wrongfully receives funds and keeps them. A restitutionary response may focus on returning an unjust benefit, while compensatory damages would examine a legally recognized loss. The measurements can differ. Legal systems classify unjust enrichment and restitution in different ways, and some remedies overlap. A comparative study names the claim, available defenses and governing measure rather than assuming every repayment or award is simply damages.",
+              "video": null
+            },
+            {
+              "title": "Orders Require Realistic Supervision",
+              "body_md": "A rare painting promised in a valid agreement may not be replaceable with money. Some legal systems permit specific performance or comparable orders under defined conditions. Others begin from different remedial assumptions. Courts may resist orders requiring complex personal cooperation or continuous supervision. A lawyer must understand not only whether a remedy is theoretically available but whether it can be precisely drafted and enforced without unjust harm.",
+              "example": null,
+              "audio_script": "A rare painting promised in a valid agreement may not be replaceable with money. Some legal systems permit specific performance or comparable orders under defined conditions. Others begin from different remedial assumptions. Courts may resist orders requiring complex personal cooperation or continuous supervision. A lawyer must understand not only whether a remedy is theoretically available but whether it can be precisely drafted and enforced without unjust harm.",
+              "video": null
+            },
+            {
+              "title": "Private and Public Interests",
+              "body_md": "An injunction stopping a factory's harmful discharge may protect a neighbor while affecting workers or wider services. The governing court may need to consider proportionality, hardship or public interest according to the legal system. Monetary relief may address past injury but leave future harm unprevented. A comparative approach keeps both aims visible. The best remedy is lawful, realistic, and appropriate to the injured interest, not merely the most severe instrument a litigant can name.",
+              "example": null,
+              "audio_script": "An injunction stopping a factory's harmful discharge may protect a neighbor while affecting workers or wider services. The governing court may need to consider proportionality, hardship or public interest according to the legal system. Monetary relief may address past injury but leave future harm unprevented. A comparative approach keeps both aims visible. The best remedy is lawful, realistic, and appropriate to the injured interest, not merely the most severe instrument a litigant can name.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Restitution means return of value retained without sufficient legal basis.",
+              "answer": true,
+              "explanation_if_true": "Restitution means return of value retained without sufficient legal basis.",
+              "explanation_if_false": "Restitution means return of value retained without sufficient legal basis."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Restitution always measures the claimant's loss and never a defendant's gain.",
+              "answer": false,
+              "explanation_if_true": "Restitution often concerns unjust gain or restoration of value, depending on the claim.",
+              "explanation_if_false": "Restitution often concerns unjust gain or restoration of value, depending on the claim."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Compensation?",
+              "choices": [
+                "Relief aimed at recognized claimant loss",
+                "Return of value retained without sufficient legal basis",
+                "Order requiring fulfillment of a qualifying obligation",
+                "Choice within legally defined equitable factors"
+              ],
+              "answer_index": 0,
+              "explanation": "Compensation means relief aimed at recognized claimant loss."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A unique artwork is wrongfully withheld and money is inadequate. What remedy might be considered?",
+              "choices": [
+                "Criminal detention automatically",
+                "A referendum",
+                "A change of court language",
+                "Specific performance"
+              ],
+              "answer_index": 3,
+              "explanation": "Some systems can order contractual performance where the governing requirements are met."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means order requiring fulfillment of a qualifying obligation?",
+              "choices": [
+                "Compensation",
+                "Equitable discretion",
+                "Restitution",
+                "Specific performance"
+              ],
+              "answer_index": 3,
+              "explanation": "Specific performance means order requiring fulfillment of a qualifying obligation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Compensation",
+                  "Relief aimed at recognized claimant loss"
+                ],
+                [
+                  "Restitution",
+                  "Return of value retained without sufficient legal basis"
+                ],
+                [
+                  "Specific performance",
+                  "Order requiring fulfillment of a qualifying obligation"
+                ],
+                [
+                  "Equitable discretion",
+                  "Choice within legally defined equitable factors"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Relief aimed at recognized claimant loss is called ___.",
+              "answer": "Compensation",
+              "accept": [
+                "Compensation"
+              ],
+              "explanation": "The term is Compensation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Choice within legally defined equitable factors is called ___.",
+              "answer": "Equitable discretion",
+              "accept": [
+                "Equitable discretion"
+              ],
+              "explanation": "The term is Equitable discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze enforcement of foreign judgments and awards",
+          "summary": "Learn how the legal force of a decision can weaken when the losing party's assets are abroad. Distinguish original adjudication, recognition and coercive enforcement.",
+          "checklist": [
+            "I can separate judgment validity from recognition abroad",
+            "I can identify questions of jurisdiction and fair notice",
+            "I can compare court judgments and arbitral awards at a high level"
+          ],
+          "sections": [
+            {
+              "title": "A Judgment Does Not Cross by Itself",
+              "body_md": "A claimant wins damages in Country A, but the defendant's assets are in Country B. Country B's courts may have to recognize or enforce the foreign judgment under treaties or domestic law. Conditions can include the originating court's jurisdiction, proper notice, finality and limited public-policy concerns. The exact requirements differ widely. A legally sound victory in one court therefore does not guarantee that the claimant can collect elsewhere. Advising on enforcement belongs at the start of litigation planning.",
+              "example": null,
+              "audio_script": "A claimant wins damages in Country A, but the defendant's assets are in Country B. Country B's courts may have to recognize or enforce the foreign judgment under treaties or domestic law. Conditions can include the originating court's jurisdiction, proper notice, finality and limited public-policy concerns. The exact requirements differ widely. A legally sound victory in one court therefore does not guarantee that the claimant can collect elsewhere. Advising on enforcement belongs at the start of litigation planning.",
+              "video": null
+            },
+            {
+              "title": "Awards and Recognition Systems",
+              "body_md": "International commercial arbitration offers another route: parties may choose arbitration, and the New York Convention provides a framework for recognition and enforcement of qualifying foreign arbitral awards among contracting states. It has defined grounds for refusal and does not make every award automatically enforceable. A comparative lawyer distinguishes the tribunal's authority under an arbitration agreement from state courts' role in recognizing the resulting award. The client's practical question remains where assets can be reached lawfully.",
+              "example": null,
+              "audio_script": "International commercial arbitration offers another route: parties may choose arbitration, and the New York Convention provides a framework for recognition and enforcement of qualifying foreign arbitral awards among contracting states. It has defined grounds for refusal and does not make every award automatically enforceable. A comparative lawyer distinguishes the tribunal's authority under an arbitration agreement from state courts' role in recognizing the resulting award. The client's practical question remains where assets can be reached lawfully.",
+              "video": null
+            },
+            {
+              "title": "Remedies Must Survive Conflict Rules",
+              "body_md": "Different jurisdictions may disagree about available damages, equitable orders or limitation periods. A forum's rules and its private international law can affect what relief is possible. A foreign order compelling personal conduct may face different execution obstacles from a simple money judgment. Lawyers should identify the governing merits law, the procedural forum, the recognition regime, and enforcement mechanisms before promising a cross-border remedy. Elegant legal reasoning fails the client if the order cannot be implemented.",
+              "example": null,
+              "audio_script": "Different jurisdictions may disagree about available damages, equitable orders or limitation periods. A forum's rules and its private international law can affect what relief is possible. A foreign order compelling personal conduct may face different execution obstacles from a simple money judgment. Lawyers should identify the governing merits law, the procedural forum, the recognition regime, and enforcement mechanisms before promising a cross-border remedy. Elegant legal reasoning fails the client if the order cannot be implemented.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Foreign judgment means decision rendered by a tribunal of another state.",
+              "answer": true,
+              "explanation_if_true": "Foreign judgment means decision rendered by a tribunal of another state.",
+              "explanation_if_false": "Foreign judgment means decision rendered by a tribunal of another state."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "Every foreign judgment and arbitral award is automatically enforceable worldwide.",
+              "answer": false,
+              "explanation_if_true": "Recognition depends on treaty or domestic rules and may be refused on specified grounds.",
+              "explanation_if_false": "Recognition depends on treaty or domestic rules and may be refused on specified grounds."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Recognition?",
+              "choices": [
+                "Decision rendered by a tribunal of another state",
+                "Decision of a qualifying arbitration tribunal",
+                "1958 treaty framework for foreign arbitration award recognition",
+                "Acceptance of a foreign decision's legal effect"
+              ],
+              "answer_index": 3,
+              "explanation": "Recognition means acceptance of a foreign decision's legal effect."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A seller wins an arbitral award but the debtor holds assets abroad. What practical issue follows?",
+              "choices": [
+                "Changing the arbitral panel's chairs",
+                "Renaming the seller",
+                "Recognition and enforcement in the asset jurisdiction",
+                "Obtaining a new certificate of citizenship"
+              ],
+              "answer_index": 2,
+              "explanation": "An award's practical value often depends on lawful execution where assets exist."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means decision of a qualifying arbitration tribunal?",
+              "choices": [
+                "New York Convention",
+                "Foreign judgment",
+                "Arbitral award",
+                "Recognition"
+              ],
+              "answer_index": 2,
+              "explanation": "Arbitral award means decision of a qualifying arbitration tribunal."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Recognition",
+                  "Acceptance of a foreign decision's legal effect"
+                ],
+                [
+                  "Foreign judgment",
+                  "Decision rendered by a tribunal of another state"
+                ],
+                [
+                  "Arbitral award",
+                  "Decision of a qualifying arbitration tribunal"
+                ],
+                [
+                  "New York Convention",
+                  "1958 treaty framework for foreign arbitration award recognition"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Acceptance of a foreign decision's legal effect is called ___.",
+              "answer": "Recognition",
+              "accept": [
+                "Recognition"
+              ],
+              "explanation": "The term is Recognition."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "1958 treaty framework for foreign arbitration award recognition is called ___.",
+              "answer": "New York Convention",
+              "accept": [
+                "New York Convention"
+              ],
+              "explanation": "The term is New York Convention."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate access to justice through the lens of enforceable relief",
+          "summary": "At doctoral depth, study why effective remedies can fail despite accurate legal judgments. Design fair systems that minimize delay, expense and inequality in enforcing rights.",
+          "checklist": [
+            "I can distinguish formal remedies from real access",
+            "I can compare collective and individual redress",
+            "I can propose remedies respecting institutional limits and dignity"
+          ],
+          "sections": [
+            {
+              "title": "The Paper Victory Problem",
+              "body_md": "A poor family may win a damages order against a company that refuses to pay or shelters assets. The legal system has recognized the harm, yet the family receives little protection. Costs, enforcement delays and procedural complexity can systematically weaken remedies. A doctoral analysis measures access from the claimant's perspective: what relief is authorized, how long it takes, what it costs, and whether public institutions can make the outcome real. Legal justice cannot be judged solely by published judgments.",
+              "example": null,
+              "audio_script": "A poor family may win a damages order against a company that refuses to pay or shelters assets. The legal system has recognized the harm, yet the family receives little protection. Costs, enforcement delays and procedural complexity can systematically weaken remedies. A doctoral analysis measures access from the claimant's perspective: what relief is authorized, how long it takes, what it costs, and whether public institutions can make the outcome real. Legal justice cannot be judged solely by published judgments.",
+              "video": null
+            },
+            {
+              "title": "Systemic Injury Needs Multiple Tools",
+              "body_md": "A discriminatory policy may require individual compensation, a declaration clarifying the law, and institutional reform preventing recurrence. Each tool addresses a distinct aspect of harm. A court's ability to impose structural relief varies across constitutional and administrative systems, and broad orders may create legitimacy or supervision problems. A defensible design combines lawful powers, affected-person participation, realistic compliance measures, and independent review. Reforms that look impressive but are impossible to implement can deepen cynicism and mistrust.",
+              "example": null,
+              "audio_script": "A discriminatory policy may require individual compensation, a declaration clarifying the law, and institutional reform preventing recurrence. Each tool addresses a distinct aspect of harm. A court's ability to impose structural relief varies across constitutional and administrative systems, and broad orders may create legitimacy or supervision problems. A defensible design combines lawful powers, affected-person participation, realistic compliance measures, and independent review. Reforms that look impressive but are impossible to implement can deepen cynicism and mistrust.",
+              "video": null
+            },
+            {
+              "title": "Relief as Human Responsibility",
+              "body_md": "Imagine advising someone facing unlawful eviction tomorrow. A beautiful memorandum may be academically correct yet useless if no timely emergency remedy is pursued. The ethical lesson of comparative remedies is to connect knowledge with the person's life, shelter and agency. A scholarly proposal can strengthen legal aid, simplify enforcement and improve emergency protection, but must distinguish aspirational design from currently available procedures. Mastery means being able to explain both the law and a practical route to effective help.",
+              "example": null,
+              "audio_script": "Imagine advising someone facing unlawful eviction tomorrow. A beautiful memorandum may be academically correct yet useless if no timely emergency remedy is pursued. The ethical lesson of comparative remedies is to connect knowledge with the person's life, shelter and agency. A scholarly proposal can strengthen legal aid, simplify enforcement and improve emergency protection, but must distinguish aspirational design from currently available procedures. Mastery means being able to explain both the law and a practical route to effective help.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Execution gap means difference between a judgment and its practical enforcement.",
+              "answer": true,
+              "explanation_if_true": "Execution gap means difference between a judgment and its practical enforcement.",
+              "explanation_if_false": "Execution gap means difference between a judgment and its practical enforcement."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "A legally correct court judgment necessarily provides timely practical relief.",
+              "answer": false,
+              "explanation_if_true": "Enforcement failures, delay, cost and limited institutional powers can defeat practical protection.",
+              "explanation_if_false": "Enforcement failures, delay, cost and limited institutional powers can defeat practical protection."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Effective remedy?",
+              "choices": [
+                "Procedure addressing multiple related claims",
+                "Ability and authority of a body to deliver a remedy",
+                "Relief capable of meaningfully protecting a right",
+                "Difference between a judgment and its practical enforcement"
+              ],
+              "answer_index": 2,
+              "explanation": "Effective remedy means relief capable of meaningfully protecting a right."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A tenant faces immediate eviction despite a strong eventual damages claim. What should counsel prioritize investigating?",
+              "choices": [
+                "A court in an unrelated country",
+                "Availability of timely lawful preventive relief",
+                "Only the long-term damages estimate",
+                "The elegance of the final brief"
+              ],
+              "answer_index": 1,
+              "explanation": "Client-centered strategy must account for urgent harm and accessible remedies."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means procedure addressing multiple related claims?",
+              "choices": [
+                "Execution gap",
+                "Collective redress",
+                "Effective remedy",
+                "Institutional competence"
+              ],
+              "answer_index": 1,
+              "explanation": "Collective redress means procedure addressing multiple related claims."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Effective remedy",
+                  "Relief capable of meaningfully protecting a right"
+                ],
+                [
+                  "Execution gap",
+                  "Difference between a judgment and its practical enforcement"
+                ],
+                [
+                  "Collective redress",
+                  "Procedure addressing multiple related claims"
+                ],
+                [
+                  "Institutional competence",
+                  "Ability and authority of a body to deliver a remedy"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Relief capable of meaningfully protecting a right is called ___.",
+              "answer": "Effective remedy",
+              "accept": [
+                "Effective remedy"
+              ],
+              "explanation": "The term is Effective remedy."
+            },
+            {
+              "id": "PSU-1.3.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Ability and authority of a body to deliver a remedy is called ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
