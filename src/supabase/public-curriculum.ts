@@ -45,9 +45,46 @@ export type AcademyCatalog = {
 export const EMPTY_ACADEMY_CATALOG: AcademyCatalog = {
   domains: [], fields: [], courses: [],
 };
+/** Available with the static GitHub Pages deployment even when ProSeU has no
+ * connected curriculum database. This is a LOCAL DRAFT PREVIEW, not a
+ * fabricated published row. Do not award certified progress from its id.
+ */
+export const JURISPRUDENCE_PREVIEW_CATALOG: AcademyCatalog = {
+  domains: [{
+    id: 'preview:stage01', name: 'Stage 01 — The Architecture of Law',
+    description: 'Foundations of legal reasoning and institutions.',
+    slug: 'the-architecture-of-law', code: 'PSU-STAGE-01', order: 0, visible: true,
+  }],
+  fields: [{
+    id: 'preview:foundations', name: 'Core Legal Foundations',
+    description: 'First-stage legal study (draft preview).',
+    domainId: 'preview:stage01', order: 0, code: 'PSU-STAGE-01', visible: true,
+  }],
+  courses: [{
+    id: 'preview:PSU-1.1',
+    title: 'Jurisprudence: What Law Is and Why It Binds',
+    description: 'First complete draft — 196 lessons. Device-local practice only; not published or graded.',
+    slug: 'jurisprudence-what-law-is-and-why-it-binds',
+    domainId: 'preview:stage01', fieldId: 'preview:foundations',
+    order: 0, code: 'PSU-1.1', curriculumCode: 'PSU-1.1', visible: true,
+  }],
+};
+
+export function withJurisprudencePreview(catalog: AcademyCatalog): AcademyCatalog {
+  const courseExists = catalog.courses.some(course => course.curriculumCode === 'PSU-1.1'
+    || course.code === 'PSU-1.1'
+    || course.title === 'Jurisprudence: What Law Is and Why It Binds');
+  if (courseExists) return catalog;
+  return {
+    domains: [...catalog.domains, ...JURISPRUDENCE_PREVIEW_CATALOG.domains],
+    fields: [...catalog.fields, ...JURISPRUDENCE_PREVIEW_CATALOG.fields],
+    courses: [...catalog.courses, ...JURISPRUDENCE_PREVIEW_CATALOG.courses],
+  };
+}
+
 
 export async function getPublishedAcademyCatalog(): Promise<AcademyCatalog> {
-  if (!supabase) throw new Error('The Supabase catalog is not configured.');
+  if (!supabase) return JURISPRUDENCE_PREVIEW_CATALOG;
   const [domainResult, fieldResult, courseResult] = await Promise.all([
     supabase.from('proseu_domains')
       .select('id,name,description,slug,code,position')
@@ -64,7 +101,7 @@ export async function getPublishedAcademyCatalog(): Promise<AcademyCatalog> {
   ]);
 
   for (const result of [domainResult, fieldResult, courseResult]) {
-    if (result.error) throw new Error(`Could not load the published Academy catalog: ${result.error.message}`);
+    if (result.error) return JURISPRUDENCE_PREVIEW_CATALOG;
   }
 
   const domains = (domainResult.data || []).map(row => ({
@@ -98,5 +135,5 @@ export async function getPublishedAcademyCatalog(): Promise<AcademyCatalog> {
     visible: true as const,
   }));
 
-  return { domains, fields, courses };
+  return withJurisprudencePreview({ domains, fields, courses });
 }
