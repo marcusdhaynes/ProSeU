@@ -95,6 +95,14 @@ const TIER_STYLES: Record<TierType, TierStyle> = {
 
 const TIER_ORDER: TierType[] = ['basic', 'electrum', 'orichalcum', 'adamantine'];
 
+function isJurisprudenceCourse(course: { curriculumCode?: string | null; code?: string | null; title?: string } | null): boolean {
+  if (!course) return false;
+  return course.curriculumCode === 'PSU-1.1' ||
+    course.code === 'PSU-1.1' ||
+    course.title === 'Jurisprudence: What Law Is and Why It Binds';
+}
+
+
 const CAREER_PATHS = [
   { title: "[Career Potential Path 1]", market: "--", salary: "---,---" },
   { title: "[Career Potential Path 2]", market: "--", salary: "---,---" },
@@ -301,7 +309,7 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, 
         </div>
       </header>
 
-      {(course.curriculumCode || course.code) === 'PSU-1.1' && (
+      {isJurisprudenceCourse(course) && (
         <div className="flex flex-wrap items-center gap-3">
           <Button type="button" onClick={() => onNodeClick(0, 0)} className="rounded-full gap-2 font-black uppercase tracking-widest">
             <Play className="h-4 w-4 fill-current" /> Begin Course
@@ -539,7 +547,7 @@ export default function LearnPage() {
     const params = new URLSearchParams(searchParams.toString());
     params.set('dom', activeDomain.slug);
     params.set('course', course.slug);
-    if ((course.curriculumCode || course.code) === 'PSU-1.1') {
+    if (isJurisprudenceCourse(course)) {
       const section = MASTERY_SECTIONS[0];
       params.set('node', subsectionId(section.slug, section.principles[0].slug));
     } else {
@@ -860,7 +868,7 @@ export default function LearnPage() {
                 {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
                   <LessonScreen
                     courseId={activeCourse.id}
-                    curriculumCode={activeCourse.curriculumCode || (activeCourse.code === 'PSU-1.1' ? activeCourse.code : null)}
+                    curriculumCode={activeCourse.curriculumCode || (isJurisprudenceCourse(activeCourse) ? 'PSU-1.1' : null)}
                     subsectionId={nodeParam}
                     subsectionName={findSubsection(nodeParam)!.principle.name}
                     competencyName={findSubsection(nodeParam)!.section.displayName}
