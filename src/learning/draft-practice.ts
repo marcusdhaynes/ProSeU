@@ -14,6 +14,7 @@ import { gradeLessonAnswer } from '@/lib/lesson-grade';
 import { levelFillRatio, nodeMasteryPercent, nodeProgressFromLevels } from './fill';
 import { validateLessonDocument, type NormalizedCourseFile, type NormalizedLesson } from './lessons';
 import { LEVELS, resolveSubsectionName } from './taxonomy';
+import { completedParts, ringProgress, resetRecordFromPart, MASTERY_ORDER, type PartRecord } from './part-progress';
 
 type LazyModule = () => Promise<{ default: unknown }>;
 const rawModules: Record<string, LazyModule> =
@@ -73,13 +74,7 @@ const levelIds: LevelId[] = ['paralegal', 'bachelor', 'masters', 'doctorate'];
 function storageKey(unitId: string): string {
   return `proseu:psu-1.1:draft-preview:v1:${unitId}`;
 }
-type PracticeRecord = {
-  acknowledged: string[];
-  outcomes: Record<string, boolean>;
-  sectionCount: number;
-  questionCount: number;
-  updatedAt: string | null;
-};
+type PracticeRecord = PartRecord;
 
 function readRecord(unitId: string): PracticeRecord {
   const empty: PracticeRecord = {
@@ -100,6 +95,11 @@ function readRecord(unitId: string): PracticeRecord {
     return empty;
   }
 }
+function removeRecord(unitId: string): void {
+  if (typeof localStorage === 'undefined') return;
+  try { localStorage.removeItem(storageKey(unitId)); } catch { /* storage may be disabled */ }
+}
+
 function writeRecord(unitId: string, value: PracticeRecord): void {
   if (typeof localStorage === 'undefined') return;
   try {
@@ -147,8 +147,11 @@ async function findDraft(subsectionId: string, levelId: LevelId): Promise<Normal
 function previewSnapshot(courseId: string, subsectionId: string): ProgressSnapshot {
   const canonical = asId(subsectionId) ?? subsectionId;
   let updatedAt: string | null = null;
+  const partsByLevel: Partial<Record<LevelId, boolean[]>> = {};
   const levels = levelIds.map(levelId => {
-    const record = readRecord(unitId(canonical, levelId));
+    const id = unitId(canonical, levelId);
+    const record = readRecord(id);
+    partsByLevel[levelId] = completedParts(record, id);
     const questionsAnswered = Object.keys(record.outcomes).length;
     const questionsCorrect = Object.values(record.outcomes).filter(Boolean).length;
     if (record.updatedAt && (!updatedAt || record.updatedAt > updatedAt)) updatedAt = record.updatedAt;
@@ -162,11 +165,11 @@ function previewSnapshot(courseId: string, subsectionId: string): ProgressSnapsh
     };
     return { ...data, fillRatio: levelFillRatio(data) };
   });
-  const progress = nodeProgressFromLevels(levels);
+  const progress = ringProgress(partsByLevel);
   return {
     courseId, subsectionId: canonical, levels, progress,
     masteryPercent: nodeMasteryPercent(progress), updatedAt,
-    preview: true,
+    partsByLevel, preview: true,
   };
 }
 function publicQuestion(row: NormalizedLesson['questions'][number]) {
@@ -191,6 +194,7 @@ function previewLesson(input: { courseId: string; curriculumCode: string | null;
     subsectionId: row.subsectionId,
     levelId: row.levelId,
     summary: row.summary,
+    correctQuestionIds: Object.entries(stored.outcomes).filter(([, correct]) => correct).map(([id]) => id),
     checklist: row.checklist.map((body, i) => ({ id: `${row.id}/c${i + 1}`, position: i + 1, body })),
     sections: row.sections.map(section => ({
       id: `${row.id}/s${section.position}`,
@@ -285,6 +289,31 @@ export function createDraftPracticeAdapter(
       record.updatedAt = new Date().toISOString();
       writeRecord(row.id, record);
       return { ...graded, progress: previewSnapshot(input.courseId, canonical) };
+    },
+    async resetProgress(input) {
+      if (input.curriculumCode !== 'PSU-1.1') throw new Error('Only the Jurisprudence preview can be reset.');
+      const canonical = asId(input.subsectionId);
+      if (!canonical) throw new Error('Unknown Jurisprudence subsection.');
+      if (input.fromPart != null && (!Number.isInteger(input.fromPart) || input.fromPart < 0 || input.fromPart > 6)) {
+        throw new Error('Choose a ring segment from 1 through 7.');
+      }
+      const currentIndex = input.levelId == null ? 0 : MASTERY_ORDER.indexOf(input.levelId);
+      if (currentIndex < 0) throw new Error('Unknown mastery level.');
+      // Never issue an unprotected delete for a published, server-graded lesson.
+      for (const levelId of MASTERY_ORDER.slice(currentIndex)) {
+        const published = await live.getLesson({ ...input, subsectionId: canonical, levelId });
+        if (published) throw new Error('Published progress needs a secure, server-authorized reset.');
+      }
+      for (let index = currentIndex; index < MASTERY_ORDER.length; index++) {
+        const levelId = MASTERY_ORDER[index];
+        const id = unitId(canonical, levelId);
+        if (index === currentIndex && input.fromPart != null) {
+          writeRecord(id, resetRecordFromPart(readRecord(id), input.fromPart));
+        } else {
+          removeRecord(id);
+        }
+      }
+      return previewSnapshot(input.courseId, canonical);
     },
   };
 }
