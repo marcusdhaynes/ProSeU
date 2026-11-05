@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "liberty-vs-security",
+      "name": "Liberty vs Security",
+      "levels": {
+        "red": {
+          "focus": "Explain why safety measures must respect individual freedom and lawful limits.",
+          "summary": "Governments have duties to protect people from serious threats, and those same institutions can harm people through unchecked restrictions. Learn to ask what danger is addressed, what freedom is limited, and why the chosen response is permitted.",
+          "checklist": [
+            "I can name a genuine security interest and an affected liberty",
+            "I can identify the legal source for a restriction",
+            "I can recognize the need for proportional safeguards and review"
+          ],
+          "sections": [
+            {
+              "title": "Protecting people can require action",
+              "body_md": "A credible threat closes a public square for an evening. The closure may help prevent injury, but it also prevents a peaceful gathering. Treating safety as unimportant would neglect people at risk; treating freedom as irrelevant would ignore those whose lives are shaped by state orders. Identify the threatened harm, the right affected, and the legal power to act. The seriousness of an official's concern is evidence to evaluate, not an automatic permission to restrict any activity without limit.",
+              "example": null,
+              "audio_script": "A credible threat closes a public square for an evening. The closure may help prevent injury, but it also prevents a peaceful gathering. Treating safety as unimportant would neglect people at risk; treating freedom as irrelevant would ignore those whose lives are shaped by state orders. Identify the threatened harm, the right affected, and the legal power to act. The seriousness of an official's concern is evidence to evaluate, not an automatic permission to restrict any activity without limit.",
+              "video": null
+            },
+            {
+              "title": "A temporary limit is still a legal decision",
+              "body_md": "A security measure may be justified for a short and specific emergency while becoming excessive if maintained after the danger has passed. Laws in different jurisdictions may require evidence, notice, a fixed duration, and opportunities for judicial review. Officials must not infer that an open-ended ban is necessarily lawful because an initial closure was reasonable. A lawyer should ask whether the continuing facts support the continuing restriction and whether a narrower measure could protect people adequately within the governing framework.",
+              "example": null,
+              "audio_script": "A security measure may be justified for a short and specific emergency while becoming excessive if maintained after the danger has passed. Laws in different jurisdictions may require evidence, notice, a fixed duration, and opportunities for judicial review. Officials must not infer that an open-ended ban is necessarily lawful because an initial closure was reasonable. A lawyer should ask whether the continuing facts support the continuing restriction and whether a narrower measure could protect people adequately within the governing framework.",
+              "video": null
+            },
+            {
+              "title": "The weakest person still has rights",
+              "body_md": "An unpopular protester may be the first person excluded from a security zone. A lawful rule must be applied according to governing rights and equality constraints, not simply according to political approval. An affected person needs understandable reasons and an authorized challenge. The court's duty is to test power lawfully rather than assume that every police decision is wrong or that every suspect is guilty. Security and liberty are public responsibilities owed to people who may disagree with the government.",
+              "example": null,
+              "audio_script": "An unpopular protester may be the first person excluded from a security zone. A lawful rule must be applied according to governing rights and equality constraints, not simply according to political approval. An affected person needs understandable reasons and an authorized challenge. The court's duty is to test power lawfully rather than assume that every police decision is wrong or that every suspect is guilty. Security and liberty are public responsibilities owed to people who may disagree with the government.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q1",
+              "type": "true_false",
+              "prompt": "A security restriction may need reconsideration when its factual justification changes.",
+              "answer": true,
+              "explanation_if_true": "The lawful duration and scope of a measure can depend on continuing necessity.",
+              "explanation_if_false": "The lawful duration and scope of a measure can depend on continuing necessity."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q2",
+              "type": "true_false",
+              "prompt": "Whenever a government names a security risk, it may restrict any person's rights indefinitely without legal authority.",
+              "answer": false,
+              "explanation_if_true": "Security measures remain subject to applicable legal boundaries and safeguards.",
+              "explanation_if_false": "Security measures remain subject to applicable legal boundaries and safeguards."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A square stays closed for months after officials confirm the threat has ended. What question arises?",
+              "choices": [
+                "Whether the square is popular",
+                "Whether continued restriction is lawful and justified",
+                "Whether every security plan is always criminal",
+                "Whether protest rights erase all safety concerns"
+              ],
+              "answer_index": 1,
+              "explanation": "The duration of a measure must be defended under governing law."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which response most respects both safety and liberty?",
+              "choices": [
+                "Targeted restrictions with evidence, limits, and review",
+                "An unlimited order based only on rumor",
+                "Complete refusal to investigate threats",
+                "Punishment for any criticism of official policy"
+              ],
+              "answer_index": 0,
+              "explanation": "Security action is strongest when it is lawful and properly bounded."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Public safety?",
+              "choices": [
+                "Protection of people from threats of harm",
+                "Special measure justified under applicable urgent powers",
+                "Court examination of official legality",
+                "Protected individual freedom against unjustified interference"
+              ],
+              "answer_index": 0,
+              "explanation": "Public safety means protection of people from threats of harm."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q6",
+              "type": "matching",
+              "prompt": "Match the security and rights concepts.",
+              "pairs": [
+                [
+                  "Civil liberty",
+                  "Protected individual freedom against unjustified interference"
+                ],
+                [
+                  "Public safety",
+                  "Protection of people from threats of harm"
+                ],
+                [
+                  "Emergency restriction",
+                  "Special measure justified under applicable urgent powers"
+                ],
+                [
+                  "Judicial review",
+                  "Court examination of official legality"
+                ]
+              ],
+              "explanation": "Risk management and lawful coercion are separate legal questions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q7",
+              "type": "fill_in",
+              "prompt": "The concept for protected individual freedom against unjustified interference is ___.",
+              "answer": "Civil liberty",
+              "accept": [
+                "Civil liberty"
+              ],
+              "explanation": "The term is Civil liberty."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.red.q8",
+              "type": "fill_in",
+              "prompt": "The concept for court examination of official legality is ___.",
+              "answer": "Judicial review",
+              "accept": [
+                "Judicial review"
+              ],
+              "explanation": "The term is Judicial review."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply necessity and proportionality to security-related rights restrictions.",
+          "summary": "Some legal systems permit restrictions on qualified rights only when the legal source, legitimate aim, and required necessity tests are satisfied. Learn how a broad surveillance measure may fail even when its purpose is important.",
+          "checklist": [
+            "I can distinguish a legitimate security objective from lawful means",
+            "I can apply suitability, necessity, and rights safeguards",
+            "I can recognize the role of independent authorization and challenge"
+          ],
+          "sections": [
+            {
+              "title": "A serious aim is only the start",
+              "body_md": "Suppose a city installs cameras to investigate repeated attacks near a transit station. Preventing violence can be a legitimate public aim, but that fact alone does not determine whether recording every resident everywhere is lawful. Identify the specific protected interests, such as privacy and expression, and the applicable source of governmental authority. Rights-restriction tests differ among constitutions and treaties. The analysis should ask what evidence supports the measure and which safeguards the relevant law demands.",
+              "example": null,
+              "audio_script": "Suppose a city installs cameras to investigate repeated attacks near a transit station. Preventing violence can be a legitimate public aim, but that fact alone does not determine whether recording every resident everywhere is lawful. Identify the specific protected interests, such as privacy and expression, and the applicable source of governmental authority. Rights-restriction tests differ among constitutions and treaties. The analysis should ask what evidence supports the measure and which safeguards the relevant law demands.",
+              "video": null
+            },
+            {
+              "title": "Necessity asks about effective alternatives",
+              "body_md": "A targeted camera near a documented risk location may address the problem with less intrusion than indefinite recording of every private conversation. Under appropriate proportionality frameworks, decision makers examine whether less restrictive measures can sufficiently achieve the public objective. Do not confuse this with an abstract preference for the weakest imaginable security policy. A genuine alternative must be capable of addressing the specified danger. The final balance may also examine the severity, duration, and distribution of the interference.",
+              "example": null,
+              "audio_script": "A targeted camera near a documented risk location may address the problem with less intrusion than indefinite recording of every private conversation. Under appropriate proportionality frameworks, decision makers examine whether less restrictive measures can sufficiently achieve the public objective. Do not confuse this with an abstract preference for the weakest imaginable security policy. A genuine alternative must be capable of addressing the specified danger. The final balance may also examine the severity, duration, and distribution of the interference.",
+              "video": null
+            },
+            {
+              "title": "Independent control prevents mission creep",
+              "body_md": "A database created for serious crime investigations might later be used for unrelated political monitoring. That possibility makes purpose limitation, retention rules, access logs, oversight, and challenge procedures relevant. A legal analysis must state which controls the applicable law requires; it cannot invent universal technical obligations. The policy lesson is that lasting freedom often depends on institutions able to question officials after a threat has been declared. A well-justified safety system should be explainable without exposing every operational detail.",
+              "example": null,
+              "audio_script": "A database created for serious crime investigations might later be used for unrelated political monitoring. That possibility makes purpose limitation, retention rules, access logs, oversight, and challenge procedures relevant. A legal analysis must state which controls the applicable law requires; it cannot invent universal technical obligations. The policy lesson is that lasting freedom often depends on institutions able to question officials after a threat has been declared. A well-justified safety system should be explainable without exposing every operational detail.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q1",
+              "type": "true_false",
+              "prompt": "A legitimate public-safety purpose does not by itself establish that every surveillance method is lawful.",
+              "answer": true,
+              "explanation_if_true": "Applicable rules may independently limit scope, necessity, and use of information.",
+              "explanation_if_false": "Applicable rules may independently limit scope, necessity, and use of information."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q2",
+              "type": "true_false",
+              "prompt": "A security database may be repurposed without any legal inquiry because it was originally created for crime prevention.",
+              "answer": false,
+              "explanation_if_true": "Purpose limitations and other rights safeguards can restrict later uses.",
+              "explanation_if_false": "Purpose limitations and other rights safeguards can restrict later uses."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A narrowly targeted measure would address a known threat as well as blanket recording of private conversations. Which issue is central?",
+              "choices": [
+                "Necessity and a less intrusive alternative",
+                "The size of the official's office",
+                "A rule that cameras are always forbidden",
+                "Whether any risk exists in other cities"
+              ],
+              "answer_index": 0,
+              "explanation": "A measure can pursue a legitimate objective while remaining unnecessarily broad."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What is the central benefit of independent security oversight?",
+              "choices": [
+                "Permanent secrecy from all courts",
+                "Unlimited new powers without legislation",
+                "A presumption that mistakes are impossible",
+                "A lawful mechanism to examine misuse and changing conditions"
+              ],
+              "answer_index": 3,
+              "explanation": "Review helps prevent unchecked expansion of coercive powers."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Proportionality?",
+              "choices": [
+                "Restriction of collected information to authorized uses",
+                "Review by a body not controlled by the decision maker",
+                "Assessment whether a restriction is needed for a lawful aim",
+                "Evaluation of scope and rights impact against purpose"
+              ],
+              "answer_index": 3,
+              "explanation": "Proportionality means evaluation of scope and rights impact against purpose."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the security and rights concepts.",
+              "pairs": [
+                [
+                  "Necessity",
+                  "Assessment whether a restriction is needed for a lawful aim"
+                ],
+                [
+                  "Proportionality",
+                  "Evaluation of scope and rights impact against purpose"
+                ],
+                [
+                  "Purpose limitation",
+                  "Restriction of collected information to authorized uses"
+                ],
+                [
+                  "Independent oversight",
+                  "Review by a body not controlled by the decision maker"
+                ]
+              ],
+              "explanation": "Risk management and lawful coercion are separate legal questions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The concept for assessment whether a restriction is needed for a lawful aim is ___.",
+              "answer": "Necessity",
+              "accept": [
+                "Necessity"
+              ],
+              "explanation": "The term is Necessity."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The concept for review by a body not controlled by the decision maker is ___.",
+              "answer": "Independent oversight",
+              "accept": [
+                "Independent oversight"
+              ],
+              "explanation": "The term is Independent oversight."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate emergency powers under legality, temporariness, and evidence.",
+          "summary": "Emergencies can require rapid action but also provide an opportunity for institutions to evade ordinary safeguards. Distinguish derogation regimes, ordinary rights limitations, and judicially reviewable powers without assuming a universal emergency constitution.",
+          "checklist": [
+            "I can distinguish emergency declaration from a power's legal source",
+            "I can identify review, necessity, and time-limit safeguards",
+            "I can evaluate the rights of persons falsely classified as dangerous"
+          ],
+          "sections": [
+            {
+              "title": "Declaring danger does not create every power",
+              "body_md": "A government may face a genuine security threat but lack authority for a particular detention or search. It must locate its powers in the constitution, legislation, and any applicable treaty framework. Some human-rights systems permit defined derogations during qualifying public emergencies, subject to strict conditions and notification, while other rights and obligations may not be derogable. The same legal system may also permit ordinary restrictions without derogation under a separate test. An advanced answer identifies the exact route, not a vague doctrine that rights vanish in crises.",
+              "example": null,
+              "audio_script": "A government may face a genuine security threat but lack authority for a particular detention or search. It must locate its powers in the constitution, legislation, and any applicable treaty framework. Some human-rights systems permit defined derogations during qualifying public emergencies, subject to strict conditions and notification, while other rights and obligations may not be derogable. The same legal system may also permit ordinary restrictions without derogation under a separate test. An advanced answer identifies the exact route, not a vague doctrine that rights vanish in crises.",
+              "video": null
+            },
+            {
+              "title": "Time and evidence matter",
+              "body_md": "An emergency detention initially based on credible information may become unjustifiable if no lawful review examines changing evidence. Independent courts or other permitted bodies may be required to test the grounds, scope, and duration. The goal of prompt decision-making is not to make oversight impossible. Review can protect mistaken suspects and strengthen public trust by requiring officials to demonstrate the authority and facts on which coercion depends. The rights of innocent people cannot be dismissed merely because a threat is serious.",
+              "example": null,
+              "audio_script": "An emergency detention initially based on credible information may become unjustifiable if no lawful review examines changing evidence. Independent courts or other permitted bodies may be required to test the grounds, scope, and duration. The goal of prompt decision-making is not to make oversight impossible. Review can protect mistaken suspects and strengthen public trust by requiring officials to demonstrate the authority and facts on which coercion depends. The rights of innocent people cannot be dismissed merely because a threat is serious.",
+              "video": null
+            },
+            {
+              "title": "Exceptional powers can become ordinary",
+              "body_md": "A temporary monitoring system may be politically attractive long after an emergency ends, especially if institutions grow dependent on its data. Sunset clauses, reporting duties, judicial remedies, and legislative renewal procedures can make permanence a new public decision instead of an accidental default. Whether such safeguards are required depends on governing law. A mature policy proposal evaluates both the harm that repeal might cause and the risks of continuing unnecessary surveillance. It seeks accountable security rather than automatic expansion or automatic paralysis.",
+              "example": null,
+              "audio_script": "A temporary monitoring system may be politically attractive long after an emergency ends, especially if institutions grow dependent on its data. Sunset clauses, reporting duties, judicial remedies, and legislative renewal procedures can make permanence a new public decision instead of an accidental default. Whether such safeguards are required depends on governing law. A mature policy proposal evaluates both the harm that repeal might cause and the risks of continuing unnecessary surveillance. It seeks accountable security rather than automatic expansion or automatic paralysis.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q1",
+              "type": "true_false",
+              "prompt": "Some human-rights frameworks permit narrowly conditioned emergency derogations while protecting certain non-derogable rights.",
+              "answer": true,
+              "explanation_if_true": "Emergency provisions distinguish eligible restrictions from protections that cannot be suspended through derogation.",
+              "explanation_if_false": "Emergency provisions distinguish eligible restrictions from protections that cannot be suspended through derogation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q2",
+              "type": "true_false",
+              "prompt": "Any emergency declaration permanently removes the obligation to give legal reasons for coercive detention.",
+              "answer": false,
+              "explanation_if_true": "Emergency law can impose conditions, safeguards, and avenues for independent scrutiny.",
+              "explanation_if_false": "Emergency law can impose conditions, safeguards, and avenues for independent scrutiny."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Officials seek to continue emergency detention after the alleged threat changes. What should the legal assessment include?",
+              "choices": [
+                "Only the original press conference",
+                "The detention center's size",
+                "A presumption that review is always impossible",
+                "Current evidence, lawful authority and access to review"
+              ],
+              "answer_index": 3,
+              "explanation": "Continued detention must satisfy the applicable legal requirements."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A monitoring power is scheduled to expire unless lawmakers authorize renewal. What device is being used?",
+              "choices": [
+                "A common-law property easement",
+                "Judicial supremacy over all legislation",
+                "A sunset clause",
+                "An automatic permanent warrant"
+              ],
+              "answer_index": 2,
+              "explanation": "Sunset rules force a new decision about continuing extraordinary authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Sunset clause?",
+              "choices": [
+                "Protection not subject to suspension through a specified derogation regime",
+                "Defined departure from certain treaty obligations during qualifying emergencies",
+                "Provision ending an exceptional power without renewal",
+                "Authorized scrutiny of the basis for custody"
+              ],
+              "answer_index": 2,
+              "explanation": "Sunset clause means provision ending an exceptional power without renewal."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q6",
+              "type": "matching",
+              "prompt": "Match the security and rights concepts.",
+              "pairs": [
+                [
+                  "Derogation",
+                  "Defined departure from certain treaty obligations during qualifying emergencies"
+                ],
+                [
+                  "Sunset clause",
+                  "Provision ending an exceptional power without renewal"
+                ],
+                [
+                  "Detention review",
+                  "Authorized scrutiny of the basis for custody"
+                ],
+                [
+                  "Non-derogable right",
+                  "Protection not subject to suspension through a specified derogation regime"
+                ]
+              ],
+              "explanation": "Risk management and lawful coercion are separate legal questions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q7",
+              "type": "fill_in",
+              "prompt": "The concept for defined departure from certain treaty obligations during qualifying emergencies is ___.",
+              "answer": "Derogation",
+              "accept": [
+                "Derogation"
+              ],
+              "explanation": "The term is Derogation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.orange.q8",
+              "type": "fill_in",
+              "prompt": "The concept for protection not subject to suspension through a specified derogation regime is ___.",
+              "answer": "Non-derogable right",
+              "accept": [
+                "Non-derogable right"
+              ],
+              "explanation": "The term is Non-derogable right."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend security governance against arbitrary domination and predictive injustice.",
+          "summary": "Risk-based surveillance can prevent real harm while exposing communities to selective suspicion and unreviewable algorithms. Construct a theory of security that preserves evidence-based action, equal dignity, and constraints on state power.",
+          "checklist": [
+            "I can evaluate the moral cost of false security classifications",
+            "I can examine surveillance as a potential source of chilling effects and domination",
+            "I can propose legal accountability for automated and human coercion"
+          ],
+          "sections": [
+            {
+              "title": "False positives have unequal human costs",
+              "body_md": "A prediction system may label someone dangerous without adequate explanation, prompting intrusive questioning or denial of travel. The model's aggregate accuracy does not tell the court whether its evidence is reliable for this person or whether officials have legal power to impose the consequence. False negatives can also expose the public to genuine harm. A doctoral account should specify both risks, their distribution across communities, and the rights constraints on how a probability may be used. Predictive confidence is not equivalent to a judicial finding.",
+              "example": null,
+              "audio_script": "A prediction system may label someone dangerous without adequate explanation, prompting intrusive questioning or denial of travel. The model's aggregate accuracy does not tell the court whether its evidence is reliable for this person or whether officials have legal power to impose the consequence. False negatives can also expose the public to genuine harm. A doctoral account should specify both risks, their distribution across communities, and the rights constraints on how a probability may be used. Predictive confidence is not equivalent to a judicial finding.",
+              "video": null
+            },
+            {
+              "title": "Watching can change how people live",
+              "body_md": "If residents believe lawful political meetings are continuously monitored, they may stop attending even without a formal ban. Such chilling effects can burden expression and association while leaving few visible arrests to count. Surveillance can also deter serious harm, so a responsible analysis considers evidence of benefit rather than declaring all monitoring illegitimate. The relevant legal rights and doctrines vary across systems. A theory of nondomination asks whether people remain free from uncontrolled, unchallengeable power over their ordinary lives.",
+              "example": null,
+              "audio_script": "If residents believe lawful political meetings are continuously monitored, they may stop attending even without a formal ban. Such chilling effects can burden expression and association while leaving few visible arrests to count. Surveillance can also deter serious harm, so a responsible analysis considers evidence of benefit rather than declaring all monitoring illegitimate. The relevant legal rights and doctrines vary across systems. A theory of nondomination asks whether people remain free from uncontrolled, unchallengeable power over their ordinary lives.",
+              "video": null
+            },
+            {
+              "title": "Build accountable, limited security institutions",
+              "body_md": "Propose statutory authorization, clearly stated purposes, reliability testing, restrictions on data use, independent audit, reasoned adverse decisions, and accessible remedies within the governing legal order. For emergencies, add defensible durations and genuine renewal scrutiny. Measure actual safety outcomes and discriminatory effects rather than volume of collected data. Distinguish public policy recommendations from existing binding requirements. Legitimate security should protect the person threatened by violence and the person wrongly suspected, because both are owed freedom from arbitrary coercion and a credible route to justice.",
+              "example": null,
+              "audio_script": "Propose statutory authorization, clearly stated purposes, reliability testing, restrictions on data use, independent audit, reasoned adverse decisions, and accessible remedies within the governing legal order. For emergencies, add defensible durations and genuine renewal scrutiny. Measure actual safety outcomes and discriminatory effects rather than volume of collected data. Distinguish public policy recommendations from existing binding requirements. Legitimate security should protect the person threatened by violence and the person wrongly suspected, because both are owed freedom from arbitrary coercion and a credible route to justice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q1",
+              "type": "true_false",
+              "prompt": "A security system can have impressive aggregate predictive accuracy while wrongly burdening particular individuals.",
+              "answer": true,
+              "explanation_if_true": "Average model performance does not establish the truth or lawfulness of each adverse classification.",
+              "explanation_if_false": "Average model performance does not establish the truth or lawfulness of each adverse classification."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q2",
+              "type": "true_false",
+              "prompt": "Surveillance has no effect on freedom unless the state has formally arrested or prosecuted someone.",
+              "answer": false,
+              "explanation_if_true": "Awareness of monitoring can deter otherwise lawful speech, association, and personal conduct.",
+              "explanation_if_false": "Awareness of monitoring can deter otherwise lawful speech, association, and personal conduct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A lawful protest group stops meeting after discovering unreviewable political monitoring. What effect should legal theory consider?",
+              "choices": [
+                "A presumption that privacy is irrelevant",
+                "Automatic proof of imminent violence",
+                "A chilling effect on expression and association",
+                "Only the number of prosecutions filed"
+              ],
+              "answer_index": 2,
+              "explanation": "Coercive power can restrict freedom through deterrence, not only punishment."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which safeguard best addresses automated false suspicion?",
+              "choices": [
+                "Use every available data source indefinitely",
+                "Transparent criteria, independent testing, meaningful challenge and lawful limits",
+                "Treat the model's output as a conviction",
+                "Hide every criterion and prohibit appeal"
+              ],
+              "answer_index": 1,
+              "explanation": "Prediction must not displace legal standards or individual remedies."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Chilling effect?",
+              "choices": [
+                "Incorrect classification of a person as presenting a threat",
+                "Deterrence of lawful activity through fear of surveillance or sanction",
+                "Estimate of possible future harm based on selected information",
+                "Freedom from unchecked arbitrary interference"
+              ],
+              "answer_index": 1,
+              "explanation": "Chilling effect means deterrence of lawful activity through fear of surveillance or sanction."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q6",
+              "type": "matching",
+              "prompt": "Match the security and rights concepts.",
+              "pairs": [
+                [
+                  "False positive",
+                  "Incorrect classification of a person as presenting a threat"
+                ],
+                [
+                  "Chilling effect",
+                  "Deterrence of lawful activity through fear of surveillance or sanction"
+                ],
+                [
+                  "Risk assessment",
+                  "Estimate of possible future harm based on selected information"
+                ],
+                [
+                  "Nondomination",
+                  "Freedom from unchecked arbitrary interference"
+                ]
+              ],
+              "explanation": "Risk management and lawful coercion are separate legal questions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q7",
+              "type": "fill_in",
+              "prompt": "The concept for incorrect classification of a person as presenting a threat is ___.",
+              "answer": "False positive",
+              "accept": [
+                "False positive"
+              ],
+              "explanation": "The term is False positive."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.liberty-vs-security.black.q8",
+              "type": "fill_in",
+              "prompt": "The concept for freedom from unchecked arbitrary interference is ___.",
+              "answer": "Nondomination",
+              "accept": [
+                "Nondomination"
+              ],
+              "explanation": "The term is Nondomination."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
