@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "liability-restriction-cases",
+      "name": "Liability-Restriction Cases",
+      "levels": {
+        "red": {
+          "focus": "Learn why Palsgraf limited the duty of care despite a chain of injury.",
+          "summary": "Railroad employees helped a passenger board a train, a concealed package fell, and an explosion injured a person some distance away. The New York Court of Appeals asked whether she was within the foreseeable zone of risk.",
+          "checklist": [
+            "I can describe the accident and Palsgraf's position",
+            "I can explain Cardozo's duty reasoning",
+            "I can distinguish physical causation from legally recognized liability"
+          ],
+          "sections": [
+            {
+              "title": "A surprising chain of events",
+              "body_md": "In Palsgraf v Long Island Railroad Co. (1928), railway employees assisted a man boarding a moving train. His package fell; it contained fireworks and exploded. The shock brought down weighing scales some distance away, injuring Helen Palsgraf. She had not been carrying the package and its dangerous contents were not apparent. The case shows why proving that events happened in a connected sequence does not settle whether the defendant owed this claimant a legal duty of care.",
+              "example": null,
+              "audio_script": "In Palsgraf v Long Island Railroad Co. (1928), railway employees assisted a man boarding a moving train. His package fell; it contained fireworks and exploded. The shock brought down weighing scales some distance away, injuring Helen Palsgraf. She had not been carrying the package and its dangerous contents were not apparent. The case shows why proving that events happened in a connected sequence does not settle whether the defendant owed this claimant a legal duty of care.",
+              "video": null
+            },
+            {
+              "title": "The majority focused on foreseeable danger",
+              "body_md": "Chief Judge Benjamin Cardozo, writing for the majority of the New York Court of Appeals, concluded that the guards' conduct did not create a reasonably foreseeable risk of injury to Palsgraf in the relevant circumstances. Without a duty owed to her in relation to that risk, negligence liability could not be established by tracing the physical chain backward. The judgment was not a claim that her injuries were imaginary. It identified a limit on which consequences the defendant could legally be held responsible for.",
+              "example": null,
+              "audio_script": "Chief Judge Benjamin Cardozo, writing for the majority of the New York Court of Appeals, concluded that the guards' conduct did not create a reasonably foreseeable risk of injury to Palsgraf in the relevant circumstances. Without a duty owed to her in relation to that risk, negligence liability could not be established by tracing the physical chain backward. The judgment was not a claim that her injuries were imaginary. It identified a limit on which consequences the defendant could legally be held responsible for.",
+              "video": null
+            },
+            {
+              "title": "Separate injury, cause, and duty",
+              "body_md": "An injured person deserves attention, but a civil court must also apply the boundaries of legal responsibility. Write the events in order, then separately ask whether the defendant's conduct created a foreseeable risk to this person. That test came from this court and period; it is not an identical rule governing all countries. The beginner's essential lesson is that a harmful consequence and a defendant's involvement are necessary subjects of inquiry, not automatically a complete negligence claim.",
+              "example": null,
+              "audio_script": "An injured person deserves attention, but a civil court must also apply the boundaries of legal responsibility. Write the events in order, then separately ask whether the defendant's conduct created a foreseeable risk to this person. That test came from this court and period; it is not an identical rule governing all countries. The beginner's essential lesson is that a harmful consequence and a defendant's involvement are necessary subjects of inquiry, not automatically a complete negligence claim.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Palsgraf was injured when scales fell following an explosion caused by a dropped package.",
+              "answer": true,
+              "explanation_if_true": "The unusual chain of events raised whether her injury was within foreseeable risk.",
+              "explanation_if_false": "The unusual chain of events raised whether her injury was within foreseeable risk."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q2",
+              "type": "true_false",
+              "prompt": "Cardozo's Palsgraf majority held that every person injured in any causal sequence must recover damages.",
+              "answer": false,
+              "explanation_if_true": "The majority required a duty owed to the claimant based on a relevant foreseeable risk.",
+              "explanation_if_false": "The majority required a duty owed to the claimant based on a relevant foreseeable risk."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A railroad employee acts near a parcel whose concealed fireworks injure a distant person unexpectedly. Which case addresses foreseeability of duty?",
+              "choices": [
+                "Salduz v Turkey",
+                "Palsgraf v Long Island Railroad",
+                "Gideon v Wainwright",
+                "Marbury v Madison"
+              ],
+              "answer_index": 1,
+              "explanation": "Palsgraf examined whether the injured claimant fell within the foreseeable risk."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Why does a physical sequence alone not settle negligence?",
+              "choices": [
+                "The law also limits duty and responsibility",
+                "Causation never matters",
+                "All injury claims are contractual",
+                "Only the weather can create legal harm"
+              ],
+              "answer_index": 0,
+              "explanation": "Duty and scope are distinct from a story of what happened."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Foreseeability?",
+              "choices": [
+                "Reasonable anticipation of a relevant kind of harm",
+                "Legal obligation concerning a protected person's safety",
+                "Sequence linking events and claimed effects",
+                "1928 New York negligence decision limiting duty by foreseeable risk"
+              ],
+              "answer_index": 0,
+              "explanation": "Foreseeability means reasonable anticipation of a relevant kind of harm."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match the liability-restriction cases and concepts.",
+              "pairs": [
+                [
+                  "Palsgraf",
+                  "1928 New York negligence decision limiting duty by foreseeable risk"
+                ],
+                [
+                  "Foreseeability",
+                  "Reasonable anticipation of a relevant kind of harm"
+                ],
+                [
+                  "Duty of care",
+                  "Legal obligation concerning a protected person's safety"
+                ],
+                [
+                  "Causal chain",
+                  "Sequence linking events and claimed effects"
+                ]
+              ],
+              "explanation": "Each doctrinal limit serves a different legal function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1928 new york negligence decision limiting duty by foreseeable risk is ___.",
+              "answer": "Palsgraf",
+              "accept": [
+                "Palsgraf"
+              ],
+              "explanation": "The term is Palsgraf."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for sequence linking events and claimed effects is ___.",
+              "answer": "Causal chain",
+              "accept": [
+                "Causal chain"
+              ],
+              "explanation": "The term is Causal chain."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze the split between Cardozo and Andrews in Palsgraf.",
+          "summary": "The Palsgraf majority and dissent disagreed on where negligence law should limit responsibility. Compare plaintiff-relative duty with broader duty and proximate-cause reasoning.",
+          "checklist": [
+            "I can explain Cardozo's plaintiff-relative duty approach",
+            "I can summarize Andrews's dissent fairly",
+            "I can identify the legal function of proximate cause"
+          ],
+          "sections": [
+            {
+              "title": "Cardozo begins with the claimant",
+              "body_md": "For the majority, the negligent character of an act is relational: the defendant must have exposed a person in the relevant position to a foreseeable risk. Since the guards' conduct presented no apparent threat to Palsgraf from the concealed package, the court found no relevant duty owed to her. The majority placed the limit early in the negligence analysis. A claimant's real injury and the guards' participation were not enough to establish legal responsibility.",
+              "example": null,
+              "audio_script": "For the majority, the negligent character of an act is relational: the defendant must have exposed a person in the relevant position to a foreseeable risk. Since the guards' conduct presented no apparent threat to Palsgraf from the concealed package, the court found no relevant duty owed to her. The majority placed the limit early in the negligence analysis. A claimant's real injury and the guards' participation were not enough to establish legal responsibility.",
+              "video": null
+            },
+            {
+              "title": "Andrews locates the limit differently",
+              "body_md": "Judge William Andrews dissented. His approach treated the duty to exercise due care more broadly and placed greater emphasis on whether the injury was proximately connected to the negligent conduct. He saw the causation issue as a matter of practical judgment about the consequences sufficiently related to an act. The dissent did not insist on liability for every remote event. The disagreement was about the doctrinal location and formulation of limits, not whether any limit should exist.",
+              "example": null,
+              "audio_script": "Judge William Andrews dissented. His approach treated the duty to exercise due care more broadly and placed greater emphasis on whether the injury was proximately connected to the negligent conduct. He saw the causation issue as a matter of practical judgment about the consequences sufficiently related to an act. The dissent did not insist on liability for every remote event. The disagreement was about the doctrinal location and formulation of limits, not whether any limit should exist.",
+              "video": null
+            },
+            {
+              "title": "Two theories, one problem",
+              "body_md": "Imagine a careless act creating risk to a nearby passenger, followed by an unexpected chain injuring someone farther away. Cardozo's approach first considers whether the particular claimant fell within the range of foreseeable risk. Andrews's reasoning would examine the broader duty and then the appropriate limit on causal responsibility. Neither method replaces the need for reliable evidence or for a governing legal rule. Explain which theory applies in the jurisdiction rather than blending the two into a vague idea of fairness.",
+              "example": null,
+              "audio_script": "Imagine a careless act creating risk to a nearby passenger, followed by an unexpected chain injuring someone farther away. Cardozo's approach first considers whether the particular claimant fell within the range of foreseeable risk. Andrews's reasoning would examine the broader duty and then the appropriate limit on causal responsibility. Neither method replaces the need for reliable evidence or for a governing legal rule. Explain which theory applies in the jurisdiction rather than blending the two into a vague idea of fairness.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Cardozo and Andrews differed about how negligence law should limit liability to the injured claimant.",
+              "answer": true,
+              "explanation_if_true": "The majority focused on duty while the dissent emphasized proximate causation.",
+              "explanation_if_false": "The majority focused on duty while the dissent emphasized proximate causation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "Andrews argued that any event physically connected to conduct must create unlimited liability.",
+              "answer": false,
+              "explanation_if_true": "His dissent also accepted practical limits on the scope of responsibility.",
+              "explanation_if_false": "His dissent also accepted practical limits on the scope of responsibility."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A court asks whether the defendant owed a duty to this particular person given the risk created. Which analysis is closest?",
+              "choices": [
+                "Cardozo's Palsgraf majority",
+                "Andrews's formulation of unlimited automatic liability",
+                "The Miranda custodial warning rule",
+                "Marbury's mandamus jurisdiction"
+              ],
+              "answer_index": 0,
+              "explanation": "Cardozo treated duty as related to the foreseeable risk to the plaintiff."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A jurist starts with broad duty but limits remote consequences through proximate cause. Which Palsgraf opinion is more closely aligned?",
+              "choices": [
+                "Cardozo's majority as identical to Andrews",
+                "The unanimous Court in Gideon",
+                "The majority in Youngstown",
+                "Andrews's dissent"
+              ],
+              "answer_index": 3,
+              "explanation": "Andrews and Cardozo put different analytical weight on the duty and cause inquiries."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Andrews dissent?",
+              "choices": [
+                "Legal limit on consequences attributable to conduct",
+                "Duty evaluated in relation to the particular claimant",
+                "Plaintiff-relative duty analysis in Palsgraf",
+                "Broader duty and proximate-cause approach"
+              ],
+              "answer_index": 3,
+              "explanation": "Andrews dissent means broader duty and proximate-cause approach."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the liability-restriction cases and concepts.",
+              "pairs": [
+                [
+                  "Cardozo majority",
+                  "Plaintiff-relative duty analysis in Palsgraf"
+                ],
+                [
+                  "Andrews dissent",
+                  "Broader duty and proximate-cause approach"
+                ],
+                [
+                  "Proximate cause",
+                  "Legal limit on consequences attributable to conduct"
+                ],
+                [
+                  "Relational duty",
+                  "Duty evaluated in relation to the particular claimant"
+                ]
+              ],
+              "explanation": "Each doctrinal limit serves a different legal function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for plaintiff-relative duty analysis in palsgraf is ___.",
+              "answer": "Cardozo majority",
+              "accept": [
+                "Cardozo majority"
+              ],
+              "explanation": "The term is Cardozo majority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for duty evaluated in relation to the particular claimant is ___.",
+              "answer": "Relational duty",
+              "accept": [
+                "Relational duty"
+              ],
+              "explanation": "The term is Relational duty."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Use Caparo and Robinson to understand modern limits on English duty of care.",
+          "summary": "Caparo rejected a broad auditor duty to a share purchaser who relied on published accounts. Robinson later cautioned against treating Caparo's three considerations as a universal test that replaces established negligence duties.",
+          "checklist": [
+            "I can state why the claimed auditor duty failed in Caparo",
+            "I can describe the role and limits of Caparo considerations",
+            "I can apply Robinson's ordinary-negligence analysis to positive police acts"
+          ],
+          "sections": [
+            {
+              "title": "Financial reliance does not always create a duty",
+              "body_md": "In Caparo Industries plc v Dickman (1990), Caparo alleged that it relied on inaccurate audited accounts when acquiring shares in a company. The House of Lords did not recognize the asserted duty of care owed by the auditors to Caparo for that investment purpose. The context and purpose of preparing statutory accounts mattered. The judgment reflected concern with proximity and whether imposing such responsibility was fair, just, and reasonable, not a declaration that accountants could never owe anyone a duty.",
+              "example": null,
+              "audio_script": "In Caparo Industries plc v Dickman (1990), Caparo alleged that it relied on inaccurate audited accounts when acquiring shares in a company. The House of Lords did not recognize the asserted duty of care owed by the auditors to Caparo for that investment purpose. The context and purpose of preparing statutory accounts mattered. The judgment reflected concern with proximity and whether imposing such responsibility was fair, just, and reasonable, not a declaration that accountants could never owe anyone a duty.",
+              "video": null
+            },
+            {
+              "title": "A framework can become oversimplified",
+              "body_md": "Caparo became associated with foreseeability, proximity, and whether imposing a duty would be fair, just, and reasonable. Courts should not treat those words as a complete algorithm for every negligence dispute. Existing categories and incremental development are important. In Robinson v Chief Constable of West Yorkshire Police (2018), the U.K. Supreme Court stressed that Caparo was not a universal three-stage test to be applied mechanically whenever duty arises. The correct starting point often is established law concerning the particular relationship and conduct.",
+              "example": null,
+              "audio_script": "Caparo became associated with foreseeability, proximity, and whether imposing a duty would be fair, just, and reasonable. Courts should not treat those words as a complete algorithm for every negligence dispute. Existing categories and incremental development are important. In Robinson v Chief Constable of West Yorkshire Police (2018), the U.K. Supreme Court stressed that Caparo was not a universal three-stage test to be applied mechanically whenever duty arises. The correct starting point often is established law concerning the particular relationship and conduct.",
+              "video": null
+            },
+            {
+              "title": "Police are not generally immune from negligent acts",
+              "body_md": "Robinson involved an older pedestrian injured when police officers physically struggled with a suspect during an arrest. The Supreme Court rejected an assumed blanket immunity and analyzed whether ordinary negligence principles applied to the officers' positive conduct. This does not create unlimited police liability for failing to prevent all crime. It distinguishes harm allegedly caused by officials' own acts from attempts to make them answer for every danger created by others. A master's analysis must name that distinction and test the facts, not rely on a slogan.",
+              "example": null,
+              "audio_script": "Robinson involved an older pedestrian injured when police officers physically struggled with a suspect during an arrest. The Supreme Court rejected an assumed blanket immunity and analyzed whether ordinary negligence principles applied to the officers' positive conduct. This does not create unlimited police liability for failing to prevent all crime. It distinguishes harm allegedly caused by officials' own acts from attempts to make them answer for every danger created by others. A master's analysis must name that distinction and test the facts, not rely on a slogan.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Robinson rejected the claim that Caparo supplies an automatic universal test for every negligence duty.",
+              "answer": true,
+              "explanation_if_true": "The Supreme Court emphasized established categories and ordinary principles.",
+              "explanation_if_false": "The Supreme Court emphasized established categories and ordinary principles."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Caparo held that financial auditors owe all investors an unrestricted negligence duty for every use of published accounts.",
+              "answer": false,
+              "explanation_if_true": "The case rejected the claimed duty for the investment purpose asserted on those facts.",
+              "explanation_if_false": "The case rejected the claimed duty for the investment purpose asserted on those facts."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An investor relies on statutory audit reports to buy shares and sues the auditor. Which case is most relevant?",
+              "choices": [
+                "Salduz v Turkey",
+                "Gideon v Wainwright",
+                "Entick v Carrington",
+                "Caparo v Dickman"
+              ],
+              "answer_index": 3,
+              "explanation": "Caparo's holding concerned the claimed duty in reliance on audited accounts."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An arresting officer directly knocks down a pedestrian through alleged carelessness. Which case cautions against police immunity?",
+              "choices": [
+                "Brown as a universal tort rule",
+                "Mabo as a police-negligence code",
+                "Robinson v Chief Constable",
+                "Youngstown as a police-duty case"
+              ],
+              "answer_index": 2,
+              "explanation": "Robinson applied ordinary negligence principles to alleged harm caused by positive police conduct."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Proximity?",
+              "choices": [
+                "Development of duties from established categories and analogies",
+                "1990 House of Lords decision limiting auditor duty in investment reliance",
+                "Legally relevant closeness of a relationship or risk",
+                "2018 U.K. decision applying ordinary duty principles to positive police acts"
+              ],
+              "answer_index": 2,
+              "explanation": "Proximity means legally relevant closeness of a relationship or risk."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match the liability-restriction cases and concepts.",
+              "pairs": [
+                [
+                  "Caparo",
+                  "1990 House of Lords decision limiting auditor duty in investment reliance"
+                ],
+                [
+                  "Proximity",
+                  "Legally relevant closeness of a relationship or risk"
+                ],
+                [
+                  "Robinson",
+                  "2018 U.K. decision applying ordinary duty principles to positive police acts"
+                ],
+                [
+                  "Incremental reasoning",
+                  "Development of duties from established categories and analogies"
+                ]
+              ],
+              "explanation": "Each doctrinal limit serves a different legal function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1990 house of lords decision limiting auditor duty in investment reliance is ___.",
+              "answer": "Caparo",
+              "accept": [
+                "Caparo"
+              ],
+              "explanation": "The term is Caparo."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for development of duties from established categories and analogies is ___.",
+              "answer": "Incremental reasoning",
+              "accept": [
+                "Incremental reasoning"
+              ],
+              "explanation": "The term is Incremental reasoning."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend duty limits that do not erase meaningful protection against harm.",
+          "summary": "Palsgraf, Caparo, and Robinson reveal that limits on liability can be principled or arbitrarily exclusionary. Critique how courts draw boundaries around foreseeable risk, economic dependence, and the acts of public officials.",
+          "checklist": [
+            "I can compare relational and institutional theories of duty",
+            "I can identify policy risks in unlimited and overrestricted liability",
+            "I can propose evidence-sensitive boundaries for modern hazards"
+          ],
+          "sections": [
+            {
+              "title": "Liability is not identical to sympathy",
+              "body_md": "A person can suffer devastating injury without having a legally actionable negligence claim against every actor connected to the event. Palsgraf limits duty by a foreseeable relationship to risk. Caparo concerns the scope and purpose of an auditor's obligations in a financial context. Robinson shows that caution about imposing novel duties does not justify a sweeping exemption for officials who negligently injure someone by their own actions. These cases ask different questions; a doctoral account must not turn them into one generalized anti-claimant rule.",
+              "example": null,
+              "audio_script": "A person can suffer devastating injury without having a legally actionable negligence claim against every actor connected to the event. Palsgraf limits duty by a foreseeable relationship to risk. Caparo concerns the scope and purpose of an auditor's obligations in a financial context. Robinson shows that caution about imposing novel duties does not justify a sweeping exemption for officials who negligently injure someone by their own actions. These cases ask different questions; a doctoral account must not turn them into one generalized anti-claimant rule.",
+              "video": null
+            },
+            {
+              "title": "Rules can encourage safety or prevent redress",
+              "body_md": "Overly broad liability may expose professionals to indeterminate claims and distort activities benefiting others. Overly narrow duty rules can leave injured persons without remedy even when preventable harm occurred. Analyze who could foresee and control the risk, who relied on whom, which safeguards existed, and whether the legal system offers another effective remedy. Reject both the claim that any severe injury demands damages and the view that institutional status should provide immunity from ordinary care standards.",
+              "example": null,
+              "audio_script": "Overly broad liability may expose professionals to indeterminate claims and distort activities benefiting others. Overly narrow duty rules can leave injured persons without remedy even when preventable harm occurred. Analyze who could foresee and control the risk, who relied on whom, which safeguards existed, and whether the legal system offers another effective remedy. Reject both the claim that any severe injury demands damages and the view that institutional status should provide immunity from ordinary care standards.",
+              "video": null
+            },
+            {
+              "title": "Design boundaries for connected technology",
+              "body_md": "Imagine a software auditor publishes a security assessment relied on by unknown downstream users, while a public agency deploys the product and causes direct harm. A precise theory would separate professional assumption of responsibility, foreseeable class of claimants, economic versus physical loss, and the agency's positive conduct. Determine the applicable jurisdiction and established duty categories before proposing reform. Legitimate limits should make responsibility predictable and fair while preserving meaningful protection for those whose lives are affected.",
+              "example": null,
+              "audio_script": "Imagine a software auditor publishes a security assessment relied on by unknown downstream users, while a public agency deploys the product and causes direct harm. A precise theory would separate professional assumption of responsibility, foreseeable class of claimants, economic versus physical loss, and the agency's positive conduct. Determine the applicable jurisdiction and established duty categories before proposing reform. Legitimate limits should make responsibility predictable and fair while preserving meaningful protection for those whose lives are affected.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q1",
+              "type": "true_false",
+              "prompt": "Palsgraf, Caparo, and Robinson each address limits on duty through different facts and doctrinal settings.",
+              "answer": true,
+              "explanation_if_true": "Risk, professional reliance, and police positive conduct are distinct legal problems.",
+              "explanation_if_false": "Risk, professional reliance, and police positive conduct are distinct legal problems."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q2",
+              "type": "true_false",
+              "prompt": "Because policy can justify limits on duty, no official or professional can ever owe negligence duties.",
+              "answer": false,
+              "explanation_if_true": "Legal categories and circumstances may create ordinary duties despite institutional status.",
+              "explanation_if_false": "Legal categories and circumstances may create ordinary duties despite institutional status."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A new technology produces both physical injuries and remote financial losses. What should a court analyze first?",
+              "choices": [
+                "Whether every supplier is wealthy",
+                "A universal three-word test without precedents",
+                "The relationship, protected interest, and established duty categories",
+                "The number of angry social-media posts"
+              ],
+              "answer_index": 2,
+              "explanation": "Duty analysis must attend to who is protected against which kind of harm."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which explanation best respects Robinson's caution about Caparo?",
+              "choices": [
+                "Deny that any public body can be sued",
+                "Apply established negligence principles before treating a policy test as universal",
+                "Replace all tort law with strict immunity",
+                "Assume every accident imposes compensation"
+              ],
+              "answer_index": 1,
+              "explanation": "Incremental legal development needs attention to existing authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Indeterminate liability?",
+              "choices": [
+                "Class of persons and interests protected by an obligation",
+                "Unbounded exposure to claims of uncertain reach",
+                "Conduct that directly creates a risk rather than a mere failure to prevent one",
+                "Defensible limit on legal responsibility"
+              ],
+              "answer_index": 1,
+              "explanation": "Indeterminate liability means unbounded exposure to claims of uncertain reach."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match the liability-restriction cases and concepts.",
+              "pairs": [
+                [
+                  "Scope of duty",
+                  "Class of persons and interests protected by an obligation"
+                ],
+                [
+                  "Indeterminate liability",
+                  "Unbounded exposure to claims of uncertain reach"
+                ],
+                [
+                  "Positive act",
+                  "Conduct that directly creates a risk rather than a mere failure to prevent one"
+                ],
+                [
+                  "Principled boundary",
+                  "Defensible limit on legal responsibility"
+                ]
+              ],
+              "explanation": "Each doctrinal limit serves a different legal function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for class of persons and interests protected by an obligation is ___.",
+              "answer": "Scope of duty",
+              "accept": [
+                "Scope of duty"
+              ],
+              "explanation": "The term is Scope of duty."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-restriction-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for defensible limit on legal responsibility is ___.",
+              "answer": "Principled boundary",
+              "accept": [
+                "Principled boundary"
+              ],
+              "explanation": "The term is Principled boundary."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
