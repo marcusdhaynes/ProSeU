@@ -17,10 +17,16 @@ import { LEVELS, resolveSubsectionName } from './taxonomy';
 import { completedParts, ringProgress, resetRecordFromPart, MASTERY_ORDER, type PartRecord } from './part-progress';
 
 type LazyModule = () => Promise<{ default: unknown }>;
-const rawModules: Record<string, LazyModule> =
-  typeof import.meta.glob === 'function'
-    ? import.meta.glob<{ default: unknown }>('/lessons/stage-01/PSU-1.1/*.json')
-    : {};
+// Vite replaces the import.meta.glob CALL at build time with a lazy importer
+// map. It does NOT replace the value of import.meta.glob itself, so checking
+// "typeof import.meta.glob === 'function'" at runtime always yields false in
+// deployed browsers. That accidentally disabled every authored lesson.
+//
+// Use a browser check (not a glob-function check) to retain Node test support
+// while allowing the build-time glob to resolve all real lesson JSON modules.
+const rawModules: Record<string, LazyModule> = typeof window === 'undefined'
+  ? {}
+  : import.meta.glob<{ default: unknown }>('/lessons/stage-01/PSU-1.1/*.json');
 
 const SOURCE_FILES: Record<string, string> = {
   'core-principles': 'core_principles.json',
