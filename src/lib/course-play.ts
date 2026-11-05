@@ -26,5 +26,7 @@ export function coursePlayUrl(current: URLSearchParams, domainSlug: string, cour
   if (isJurisprudenceCourse(course)) params.set('node', JURISPRUDENCE_START_NODE);
   else params.delete('node');
   params.delete('view');
+  params.delete('part');
+  params.delete('level');
   return `/learn?${params.toString()}`;
 }
