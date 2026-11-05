@@ -161,3 +161,47 @@ test('all 28 Practical Application draft lessons load and all four exercise type
     }
   }
 });
+
+test('admin draft reset from segment 3 clears 3–7 and all higher levels, then center resumes at 3', async () => {
+  const original = Object.getOwnPropertyDescriptor(globalThis, 'localStorage');
+  Object.defineProperty(globalThis, 'localStorage', { configurable: true, value: fakeStorage() });
+  try {
+    const file = parsed.file!;
+    const rows = new Map(file.lessons.filter(row => row.subsectionId === 'core-principles.authority')
+      .map(row => [row.levelId, row]));
+    const adapter = createDraftPracticeAdapter(liveStub(), async (subsection, level) =>
+      subsection === 'core-principles.authority' ? rows.get(level) ?? null : null);
+    const base = { courseId: 'test-course', curriculumCode: 'PSU-1.1', subsectionId: 'core-principles.authority' };
+    for (const levelId of ['paralegal', 'bachelor'] as const) {
+      const lesson = await adapter.getLesson({ ...base, levelId });
+      assert.ok(lesson);
+      for (const section of lesson.sections) {
+        await adapter.markSectionUnderstood({ ...base, levelId, sectionId: section.id });
+      }
+      for (const question of rows.get(levelId)!.questions) {
+        let response: Record<string, unknown>;
+        if (question.questionType === 'true_false') response = { answer: question.answer };
+        else if (question.questionType === 'multiple_choice') response = { choiceIndex: question.correctIndex };
+        else if (question.questionType === 'matching') response = { pairs: question.pairs };
+        else response = { blanks: question.blanks?.map(blank => blank.answer) };
+        const graded = await adapter.submitAnswer({ ...base, levelId, questionId: question.stableKey, response });
+        assert.equal(graded.correct, true);
+      }
+    }
+    const fully = await adapter.getProgress({ courseId: base.courseId, subsectionId: base.subsectionId });
+    assert.equal(fully.progress, 16, 'two complete mastery levels contribute exactly 16');
+    const reset = await adapter.resetProgress!({ ...base, levelId: 'paralegal', fromPart: 2 });
+    assert.equal(reset.progress, 2, 'only completed reading parts 1 and 2 remain');
+    assert.deepEqual(reset.partsByLevel?.paralegal, [true, true, false, false, false, false, false]);
+    assert.deepEqual(reset.partsByLevel?.bachelor, Array(7).fill(false));
+    const resumed = await adapter.getLesson({ ...base, levelId: 'paralegal' });
+    assert.ok(resumed);
+    assert.equal(resumed.sections[2].understood, false);
+    const cleared = await adapter.resetProgress!({ ...base });
+    assert.equal(cleared.progress, 0, 'holding center clears all seven parts in all levels');
+    assert.equal(cleared.partsByLevel?.paralegal?.some(Boolean), false);
+  } finally {
+    if (original) Object.defineProperty(globalThis, 'localStorage', original);
+    else Reflect.deleteProperty(globalThis, 'localStorage');
+  }
+});
