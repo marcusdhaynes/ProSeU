@@ -373,7 +373,12 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, onPartC
 
       {isJurisprudenceCourse(course) && (
         <div className="flex flex-wrap items-center gap-3">
-          <Button type="button" onClick={() => onNodeClick(0, 0)} className="rounded-full gap-2 font-black uppercase tracking-widest">
+          <Button type="button" onClick={() => {
+            const choices = MASTERY_SECTIONS.flatMap((section, sIdx) =>
+              section.principles.map((_, bIdx) => ({ sIdx, bIdx, value: nodeProgress[`${sIdx}-${bIdx}`] || 0 })));
+            const next = choices.find(choice => choice.value < 32) || choices[0];
+            onNodeClick(next.sIdx, next.bIdx);
+          }} className="rounded-full gap-2 font-black uppercase tracking-widest">
             <Play className="h-4 w-4 fill-current" /> Begin Course
           </Button>
           <span className="text-xs text-muted-foreground">Opens the first lesson. Use Track or ICM to select other lessons.</span>
@@ -394,12 +399,18 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, onPartC
       {isICM ? (
         <Accordion type="multiple" className="space-y-3">
           {MASTERY_SECTIONS.map((section, sIdx) => (
-            <AccordionItem key={sIdx} value={`mastery-${sIdx}`} className="bg-muted/10 border-2 border-muted rounded-2xl overflow-hidden shadow-sm border-b-2 group/mastery">
+            <AccordionItem key={sIdx} value={`mastery-${sIdx}`} className="relative bg-muted/10 border-2 border-muted rounded-2xl overflow-hidden shadow-sm border-b-2 group/mastery">
+              <button type="button" aria-label={`Begin or resume ${section.name}`}
+                onClick={() => {
+                  const next = section.principles.findIndex((_, bIdx) => (nodeProgress[`${sIdx}-${bIdx}`] || 0) < 32);
+                  onNodeClick(sIdx, next >= 0 ? next : 0);
+                }}
+                className="absolute left-4 top-3 z-20 bg-primary/10 p-2.5 rounded-lg text-primary hover:bg-accent hover:text-white focus-visible:outline focus-visible:outline-accent">
+                <Play className="h-4 w-4 fill-current" />
+              </button>
               <AccordionTrigger className="px-6 py-3 hover:no-underline hover:bg-muted/5 transition-all text-foreground">
                 <div className="flex items-center gap-3 text-left w-full">
-                  <div className="bg-primary/10 p-2.5 rounded-lg text-primary flex items-center justify-center shadow-sm">
-                    <Play className="h-4 w-4 fill-primary" />
-                  </div>
+                  <div className="w-9 h-9 shrink-0" aria-hidden="true" />
                   <div className="flex-1">
                     <h3 className="font-black text-foreground text-base uppercase tracking-tight">{section.name}</h3>
                     <p className="text-[9px] text-muted-foreground font-bold uppercase tracking-widest opacity-60">{section.desc}</p>
@@ -418,9 +429,11 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, onPartC
                    <div key={pIdx} className="flex items-start justify-between p-2.5 pr-6 bg-card rounded-xl border border-dashed border-border group/p hover:bg-accent/5 transition-all">
                       <div className="flex flex-col gap-2 flex-1">
                         <div className="flex items-start gap-3">
-                          <div className="bg-primary/10 p-2 rounded-lg text-primary flex items-center justify-center shadow-sm group-hover/p:bg-accent group-hover/p:text-white transition-colors shrink-0">
+                          <button type="button" aria-label={`Begin ${p.name}`}
+                            onClick={() => onNodeClick(sIdx, pIdx)}
+                            className="bg-primary/10 p-2 rounded-lg text-primary flex items-center justify-center shadow-sm group-hover/p:bg-accent group-hover/p:text-white transition-colors shrink-0">
                             <Play className="h-3.5 w-3.5 fill-current" />
-                          </div>
+                          </button>
                           <div className="flex flex-col pt-0.5 items-start">
                             <span className="font-black text-foreground text-xs uppercase tracking-tight">{p.name}</span>
                             <span className="text-[8px] text-muted-foreground font-bold uppercase tracking-widest opacity-60">{p.snippet}</span>
