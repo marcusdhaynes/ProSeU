@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "fairness-vs-efficiency",
+      "name": "Fairness vs Efficiency",
+      "levels": {
+        "red": {
+          "focus": "Distinguish a fast legal decision from a fair legal decision.",
+          "summary": "Efficiency concerns how resources and time are used; fairness concerns how people are treated and which burdens they carry. Learn why the two can support each other yet sometimes point in different directions.",
+          "checklist": [
+            "I can identify a procedural shortcut and its benefits",
+            "I can recognize who may bear the costs of speed",
+            "I can explain why an opportunity to be heard matters"
+          ],
+          "sections": [
+            {
+              "title": "Speed can help a person in need",
+              "body_md": "A family waiting for a housing decision may suffer if a case takes years. A simpler form and an earlier hearing can help them obtain relief before an eviction becomes irreversible. Efficient procedure can therefore promote justice. But a rule that decides every application in one minute without hearing relevant evidence might make the system fast at the price of accuracy. The proper question is which resources are saved and whose rights or interests are affected by the shortcut.",
+              "example": null,
+              "audio_script": "A family waiting for a housing decision may suffer if a case takes years. A simpler form and an earlier hearing can help them obtain relief before an eviction becomes irreversible. Efficient procedure can therefore promote justice. But a rule that decides every application in one minute without hearing relevant evidence might make the system fast at the price of accuracy. The proper question is which resources are saved and whose rights or interests are affected by the shortcut.",
+              "video": null
+            },
+            {
+              "title": "An equal rule can have unequal effects",
+              "body_md": "A filing fee of one hundred dollars looks identical for every person, but it may exclude a worker who lacks money while being trivial for a large business. Formal sameness does not establish equal practical access. A court may lawfully charge fees, but policymakers should examine waiver rules, legal assistance, and alternative procedures where authorized. The fairness question concerns who can use the system and whether decisions reflect the merits rather than unequal resources. Cost must be counted for the parties as well as the public.",
+              "example": null,
+              "audio_script": "A filing fee of one hundred dollars looks identical for every person, but it may exclude a worker who lacks money while being trivial for a large business. Formal sameness does not establish equal practical access. A court may lawfully charge fees, but policymakers should examine waiver rules, legal assistance, and alternative procedures where authorized. The fairness question concerns who can use the system and whether decisions reflect the merits rather than unequal resources. Cost must be counted for the parties as well as the public.",
+              "video": null
+            },
+            {
+              "title": "Find improvements that serve both values",
+              "body_md": "An online notice system could reduce administrative expense and reach many litigants quickly. It could also exclude people without reliable devices or accessible language support. A responsible design would preserve alternative notice methods and provide a way to correct missed communications. Efficiency is not simply the opposite of fairness; thoughtful administration can reduce unnecessary delay while protecting participation. Before praising a proposal, ask how it affects the poor, the unrepresented, and people facing urgent legal consequences.",
+              "example": null,
+              "audio_script": "An online notice system could reduce administrative expense and reach many litigants quickly. It could also exclude people without reliable devices or accessible language support. A responsible design would preserve alternative notice methods and provide a way to correct missed communications. Efficiency is not simply the opposite of fairness; thoughtful administration can reduce unnecessary delay while protecting participation. Before praising a proposal, ask how it affects the poor, the unrepresented, and people facing urgent legal consequences.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q1",
+              "type": "true_false",
+              "prompt": "Reducing needless delay can promote fairness for people who need a timely remedy.",
+              "answer": true,
+              "explanation_if_true": "Delay itself can impose serious costs and prevent effective relief.",
+              "explanation_if_false": "Delay itself can impose serious costs and prevent effective relief."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q2",
+              "type": "true_false",
+              "prompt": "A legal procedure is necessarily fair whenever it reaches decisions quickly and cheaply.",
+              "answer": false,
+              "explanation_if_true": "Speed can produce exclusion, missing evidence, or avoidable error.",
+              "explanation_if_false": "Speed can produce exclusion, missing evidence, or avoidable error."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A court adopts an online-only filing system that excludes people without internet access. What concern arises?",
+              "choices": [
+                "Procedural fairness never concerns technology",
+                "Efficiency gains may undermine equal access",
+                "Every online filing is unlawful in all countries",
+                "No one benefits from faster processing"
+              ],
+              "answer_index": 1,
+              "explanation": "An efficiency reform must account for those unable to use its chosen channel."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which proposal could improve both efficiency and fairness?",
+              "choices": [
+                "Clear forms plus accessible help and a right to correct errors",
+                "Unreasoned automatic rejection of every incomplete filing",
+                "No limit on expensive repetitive motions",
+                "A filing fee imposed regardless of ability to pay"
+              ],
+              "answer_index": 0,
+              "explanation": "Well-designed processes can reduce waste without defeating meaningful participation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Procedural fairness?",
+              "choices": [
+                "Fair opportunities and treatment within a legal process",
+                "Practical ability to seek and enforce legal protection",
+                "Choice involving competing benefits or costs",
+                "Use of resources to achieve outcomes with less waste"
+              ],
+              "answer_index": 0,
+              "explanation": "Procedural fairness means fair opportunities and treatment within a legal process."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q6",
+              "type": "matching",
+              "prompt": "Match each fairness and efficiency concept.",
+              "pairs": [
+                [
+                  "Efficiency",
+                  "Use of resources to achieve outcomes with less waste"
+                ],
+                [
+                  "Procedural fairness",
+                  "Fair opportunities and treatment within a legal process"
+                ],
+                [
+                  "Access to justice",
+                  "Practical ability to seek and enforce legal protection"
+                ],
+                [
+                  "Trade-off",
+                  "Choice involving competing benefits or costs"
+                ]
+              ],
+              "explanation": "Economic improvement and fair distribution are analytically distinct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q7",
+              "type": "fill_in",
+              "prompt": "The concept for use of resources to achieve outcomes with less waste is ___.",
+              "answer": "Efficiency",
+              "accept": [
+                "Efficiency"
+              ],
+              "explanation": "The term is Efficiency."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.red.q8",
+              "type": "fill_in",
+              "prompt": "The concept for choice involving competing benefits or costs is ___.",
+              "answer": "Trade-off",
+              "accept": [
+                "Trade-off"
+              ],
+              "explanation": "The term is Trade-off."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply cost-benefit reasoning without mistaking gains for justice.",
+          "summary": "Cost-benefit analysis compares consequences, but it cannot decide whose interests should count or how benefits are distributed. Distinguish Pareto improvements from changes that help some while harming others.",
+          "checklist": [
+            "I can explain why efficiency metrics need a specified objective",
+            "I can distinguish Pareto improvement from redistribution",
+            "I can evaluate the distributional impact of legal reforms"
+          ],
+          "sections": [
+            {
+              "title": "Decide which costs are counted",
+              "body_md": "A rule limiting discovery may reduce legal fees and court time but also prevent claimants from obtaining records controlled by defendants. Measuring only court budgets would miss those private costs and the value of accurate decisions. A rigorous analysis identifies direct expenses, delay, expected error, enforcement costs, and harm to vulnerable persons. It should avoid counting time saved as a benefit without asking whether the time was previously used to protect a right. The baseline and affected population matter.",
+              "example": null,
+              "audio_script": "A rule limiting discovery may reduce legal fees and court time but also prevent claimants from obtaining records controlled by defendants. Measuring only court budgets would miss those private costs and the value of accurate decisions. A rigorous analysis identifies direct expenses, delay, expected error, enforcement costs, and harm to vulnerable persons. It should avoid counting time saved as a benefit without asking whether the time was previously used to protect a right. The baseline and affected population matter.",
+              "video": null
+            },
+            {
+              "title": "Pareto improvement is a narrow idea",
+              "body_md": "A Pareto improvement makes at least one person better off without leaving anyone worse off, under the specified assessment. Many real legal reforms cannot meet that standard because litigation, taxation, and regulation redistribute burdens. A change may increase total welfare while harming a smaller group. It is a mistake to call any net benefit a Pareto improvement. Legal analysis must identify the losers and consider whether their rights, compensation, and opportunity to challenge the change receive proper regard.",
+              "example": null,
+              "audio_script": "A Pareto improvement makes at least one person better off without leaving anyone worse off, under the specified assessment. Many real legal reforms cannot meet that standard because litigation, taxation, and regulation redistribute burdens. A change may increase total welfare while harming a smaller group. It is a mistake to call any net benefit a Pareto improvement. Legal analysis must identify the losers and consider whether their rights, compensation, and opportunity to challenge the change receive proper regard.",
+              "video": null
+            },
+            {
+              "title": "Respect procedures as well as outcomes",
+              "body_md": "A regulator may find that a policy saves more money than it costs, but its governing statute could require consultation, individual notice, or specific rights protections. Economic usefulness does not replace those conditions. A good proposal explains both how the policy works and why the responsible institution may lawfully implement it. The lawyer should separate the empirical prediction of net gains from normative judgments about acceptable sacrifice and the legally binding constraints on official action.",
+              "example": null,
+              "audio_script": "A regulator may find that a policy saves more money than it costs, but its governing statute could require consultation, individual notice, or specific rights protections. Economic usefulness does not replace those conditions. A good proposal explains both how the policy works and why the responsible institution may lawfully implement it. The lawyer should separate the empirical prediction of net gains from normative judgments about acceptable sacrifice and the legally binding constraints on official action.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q1",
+              "type": "true_false",
+              "prompt": "A reform can increase total economic benefit while harming some of the people affected.",
+              "answer": true,
+              "explanation_if_true": "Aggregate gains do not guarantee that every person is better off.",
+              "explanation_if_false": "Aggregate gains do not guarantee that every person is better off."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q2",
+              "type": "true_false",
+              "prompt": "Any measure producing positive net economic benefits is automatically a Pareto improvement.",
+              "answer": false,
+              "explanation_if_true": "A Pareto improvement requires that no one be worse off under the assessment.",
+              "explanation_if_false": "A Pareto improvement requires that no one be worse off under the assessment."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A new procedure saves millions but denies a small group access to necessary evidence. What must be assessed?",
+              "choices": [
+                "Who bears the error and access costs",
+                "Only the savings reported in the budget",
+                "Whether the court's logo is modern",
+                "How many judges like the reform"
+              ],
+              "answer_index": 0,
+              "explanation": "Cost-benefit estimates must consider effects on those who lose important opportunities."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What distinguishes a Pareto improvement from a merely positive net-benefit change?",
+              "choices": [
+                "It always involves monetary payment",
+                "It must be enacted by a court",
+                "It can ignore the identity of those harmed",
+                "No affected person is made worse off"
+              ],
+              "answer_index": 3,
+              "explanation": "The Pareto criterion is stronger than an aggregate improvement test."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Pareto improvement?",
+              "choices": [
+                "Pattern of benefits and burdens across groups",
+                "Binding rule limiting a policy choice",
+                "Comparison of anticipated gains and losses",
+                "Change benefiting someone without worsening anyone else"
+              ],
+              "answer_index": 3,
+              "explanation": "Pareto improvement means change benefiting someone without worsening anyone else."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each fairness and efficiency concept.",
+              "pairs": [
+                [
+                  "Cost-benefit analysis",
+                  "Comparison of anticipated gains and losses"
+                ],
+                [
+                  "Pareto improvement",
+                  "Change benefiting someone without worsening anyone else"
+                ],
+                [
+                  "Distributional impact",
+                  "Pattern of benefits and burdens across groups"
+                ],
+                [
+                  "Legal constraint",
+                  "Binding rule limiting a policy choice"
+                ]
+              ],
+              "explanation": "Economic improvement and fair distribution are analytically distinct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The concept for comparison of anticipated gains and losses is ___.",
+              "answer": "Cost-benefit analysis",
+              "accept": [
+                "Cost-benefit analysis"
+              ],
+              "explanation": "The term is Cost-benefit analysis."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The concept for binding rule limiting a policy choice is ___.",
+              "answer": "Legal constraint",
+              "accept": [
+                "Legal constraint"
+              ],
+              "explanation": "The term is Legal constraint."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Contrast Rawlsian justice with economic efficiency and Coasian bargaining.",
+          "summary": "John Rawls emphasizes equal basic liberties, fair opportunity, and benefit to the least advantaged; economic analysis examines incentives and resource use. Test when bargaining and compensation can achieve good outcomes and when unequal power defeats them.",
+          "checklist": [
+            "I can state the function of Rawls's difference principle accurately",
+            "I can identify assumptions behind Coasian bargaining",
+            "I can evaluate efficiency claims under unequal rights and bargaining power"
+          ],
+          "sections": [
+            {
+              "title": "A just distribution is not simply a large total",
+              "body_md": "In A Theory of Justice, Rawls argued that principles chosen under fair conditions would secure equal basic liberties and fair equality of opportunity, with social and economic inequalities arranged to benefit the least advantaged. His difference principle is not the claim that every inequality is unjust. It supplies a distinct standard from maximizing total income. A legal reform that enriches most people while worsening the situation of those at the bottom requires scrutiny from a Rawlsian perspective even if its aggregate economic gains are high.",
+              "example": null,
+              "audio_script": "In A Theory of Justice, Rawls argued that principles chosen under fair conditions would secure equal basic liberties and fair equality of opportunity, with social and economic inequalities arranged to benefit the least advantaged. His difference principle is not the claim that every inequality is unjust. It supplies a distinct standard from maximizing total income. A legal reform that enriches most people while worsening the situation of those at the bottom requires scrutiny from a Rawlsian perspective even if its aggregate economic gains are high.",
+              "video": null
+            },
+            {
+              "title": "Coase isolates the friction of bargaining",
+              "body_md": "Ronald Coase showed why transaction costs and the initial allocation of legal entitlements matter in conflicts involving external harms. Under restrictive idealized assumptions, including costless bargaining, parties might negotiate efficient allocations despite different initial rights. Real parties face information gaps, strategic behavior, unequal resources, and collective-action problems. The proposition does not say that legal rights are irrelevant or that bargaining always works. It highlights the need to examine the institutions and costs surrounding supposedly private deals.",
+              "example": null,
+              "audio_script": "Ronald Coase showed why transaction costs and the initial allocation of legal entitlements matter in conflicts involving external harms. Under restrictive idealized assumptions, including costless bargaining, parties might negotiate efficient allocations despite different initial rights. Real parties face information gaps, strategic behavior, unequal resources, and collective-action problems. The proposition does not say that legal rights are irrelevant or that bargaining always works. It highlights the need to examine the institutions and costs surrounding supposedly private deals.",
+              "video": null
+            },
+            {
+              "title": "Justice and incentives can be combined carefully",
+              "body_md": "Imagine a factory emits smoke that harms nearby residents. A regulator may compare prevention costs, the value of production, and health effects, while law may protect residents from particular hazards regardless of a calculated net benefit. Compensation could help but may not restore lost health or equal bargaining power. An advanced lawyer identifies lawful entitlements, relevant incentives, who can negotiate, and what relief is enforceable. Good reasoning acknowledges efficiency without allowing the welfare of the most vulnerable to disappear into totals.",
+              "example": null,
+              "audio_script": "Imagine a factory emits smoke that harms nearby residents. A regulator may compare prevention costs, the value of production, and health effects, while law may protect residents from particular hazards regardless of a calculated net benefit. Compensation could help but may not restore lost health or equal bargaining power. An advanced lawyer identifies lawful entitlements, relevant incentives, who can negotiate, and what relief is enforceable. Good reasoning acknowledges efficiency without allowing the welfare of the most vulnerable to disappear into totals.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q1",
+              "type": "true_false",
+              "prompt": "Under Rawls's difference principle, an inequality may be justified when it benefits the least advantaged under the wider theory.",
+              "answer": true,
+              "explanation_if_true": "Rawls does not require identical material outcomes; he requires demanding conditions on inequalities.",
+              "explanation_if_false": "Rawls does not require identical material outcomes; he requires demanding conditions on inequalities."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q2",
+              "type": "true_false",
+              "prompt": "Coase proved that real-world bargaining always reaches an efficient result regardless of bargaining costs.",
+              "answer": false,
+              "explanation_if_true": "His analysis highlights precisely why transaction costs and institutions matter.",
+              "explanation_if_false": "His analysis highlights precisely why transaction costs and institutions matter."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A factory and residents could theoretically bargain, but identifying all affected families is prohibitively costly. Which consideration challenges easy negotiation?",
+              "choices": [
+                "A universal absence of external harm",
+                "A rule that all contracts are void",
+                "The abolition of legal entitlements",
+                "High transaction costs"
+              ],
+              "answer_index": 3,
+              "explanation": "Costless bargaining assumptions do not describe every real dispute."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A reform increases average wealth but worsens life for the least advantaged. What distinct test questions its justice?",
+              "choices": [
+                "A mandatory rule of criminal conviction",
+                "The existence of any negotiated contract",
+                "Rawls's difference principle",
+                "A claim that Pareto rules have no limits"
+              ],
+              "answer_index": 2,
+              "explanation": "Distributional justice asks who gains and whose opportunities deteriorate."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Transaction costs?",
+              "choices": [
+                "Fairness in the allocation of social benefits and burdens",
+                "Rawlsian requirement that inequalities benefit the least advantaged",
+                "Costs of bargaining, information, and enforcement",
+                "Effect of an activity on persons outside the transaction"
+              ],
+              "answer_index": 2,
+              "explanation": "Transaction costs means costs of bargaining, information, and enforcement."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q6",
+              "type": "matching",
+              "prompt": "Match each fairness and efficiency concept.",
+              "pairs": [
+                [
+                  "Difference principle",
+                  "Rawlsian requirement that inequalities benefit the least advantaged"
+                ],
+                [
+                  "Transaction costs",
+                  "Costs of bargaining, information, and enforcement"
+                ],
+                [
+                  "Externality",
+                  "Effect of an activity on persons outside the transaction"
+                ],
+                [
+                  "Distributive justice",
+                  "Fairness in the allocation of social benefits and burdens"
+                ]
+              ],
+              "explanation": "Economic improvement and fair distribution are analytically distinct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q7",
+              "type": "fill_in",
+              "prompt": "The concept for rawlsian requirement that inequalities benefit the least advantaged is ___.",
+              "answer": "Difference principle",
+              "accept": [
+                "Difference principle"
+              ],
+              "explanation": "The term is Difference principle."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.orange.q8",
+              "type": "fill_in",
+              "prompt": "The concept for fairness in the allocation of social benefits and burdens is ___.",
+              "answer": "Distributive justice",
+              "accept": [
+                "Distributive justice"
+              ],
+              "explanation": "The term is Distributive justice."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend efficient institutions without sacrificing procedural equality or basic rights.",
+          "summary": "Economic efficiency can improve legal capacity, but welfare metrics may value powerful preferences more heavily than vulnerable persons' needs. Build a theory of legal design that makes accuracy, rights, distribution, and public trust explicit.",
+          "checklist": [
+            "I can critique willingness-to-pay as a measure of human benefit",
+            "I can compare consequentialist and rights-based institutional criteria",
+            "I can construct a measurable yet rights-respecting reform"
+          ],
+          "sections": [
+            {
+              "title": "The welfare metric embodies assumptions",
+              "body_md": "Economic analysis sometimes evaluates policies by aggregate willingness to pay. Because the wealthy can pay more, this measure may reflect purchasing power as well as actual need. It can be useful for some resource decisions without settling whether a person's liberty or basic dignity may be sacrificed for benefits to others. A doctoral analysis distinguishes empirical estimates from the moral principle authorizing trade-offs. Rights can act as constraints rather than commodities traded against every possible increase in output.",
+              "example": null,
+              "audio_script": "Economic analysis sometimes evaluates policies by aggregate willingness to pay. Because the wealthy can pay more, this measure may reflect purchasing power as well as actual need. It can be useful for some resource decisions without settling whether a person's liberty or basic dignity may be sacrificed for benefits to others. A doctoral analysis distinguishes empirical estimates from the moral principle authorizing trade-offs. Rights can act as constraints rather than commodities traded against every possible increase in output.",
+              "video": null
+            },
+            {
+              "title": "Fair process can create efficiency over time",
+              "body_md": "A person excluded from court may lose trust, ignore obligations, or face repeated harm that later requires costly intervention. An impartial hearing can identify errors early and improve public confidence, while uncontrolled procedural complexity can trap everyone in delay. Compare false dismissal and baseless litigation, short-term expense and long-term effects, and the distribution of each burden. A fair design need not demand maximal process in every case; it demands process proportionate to the consequences and legal rights involved.",
+              "example": null,
+              "audio_script": "A person excluded from court may lose trust, ignore obligations, or face repeated harm that later requires costly intervention. An impartial hearing can identify errors early and improve public confidence, while uncontrolled procedural complexity can trap everyone in delay. Compare false dismissal and baseless litigation, short-term expense and long-term effects, and the distribution of each burden. A fair design need not demand maximal process in every case; it demands process proportionate to the consequences and legal rights involved.",
+              "video": null
+            },
+            {
+              "title": "Propose and test a constrained reform",
+              "body_md": "Design a small-claims procedure with plain-language forms, accessible assistance, staged evidence exchange, prompt decisions, reasons for rejection, and a lawful correction route. Measure total cost, processing time, factual accuracy, and outcomes across income groups. Require the reform to satisfy constitutional and statutory rights rather than claiming favorable statistics authorize any shortcut. If evidence reveals that a faster method denies remedies disproportionately to unrepresented people, revise it. Legitimate efficiency is accountable improvement, not the concealment of whose rights were traded away.",
+              "example": null,
+              "audio_script": "Design a small-claims procedure with plain-language forms, accessible assistance, staged evidence exchange, prompt decisions, reasons for rejection, and a lawful correction route. Measure total cost, processing time, factual accuracy, and outcomes across income groups. Require the reform to satisfy constitutional and statutory rights rather than claiming favorable statistics authorize any shortcut. If evidence reveals that a faster method denies remedies disproportionately to unrepresented people, revise it. Legitimate efficiency is accountable improvement, not the concealment of whose rights were traded away.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q1",
+              "type": "true_false",
+              "prompt": "A willingness-to-pay metric can partly reflect differences in wealth rather than only differences in need.",
+              "answer": true,
+              "explanation_if_true": "The resources available to people affect how much they can offer to pay.",
+              "explanation_if_false": "The resources available to people affect how much they can offer to pay."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q2",
+              "type": "true_false",
+              "prompt": "Maximizing calculated total welfare always permits violating basic legal rights without justification.",
+              "answer": false,
+              "explanation_if_true": "A legal system may impose binding rights constraints that aggregate gains cannot override.",
+              "explanation_if_false": "A legal system may impose binding rights constraints that aggregate gains cannot override."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A model ranks claimants' losses by what they would pay for relief, disadvantaging poor applicants. Which flaw deserves scrutiny?",
+              "choices": [
+                "All applicants have identical resources",
+                "Justice can only be measured by filing fees",
+                "Confounding purchasing power with the moral importance of need",
+                "Any use of quantitative data is forbidden"
+              ],
+              "answer_index": 2,
+              "explanation": "A resource metric may reproduce rather than correct inequality."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which evaluation best tests a faster small-claims reform?",
+              "choices": [
+                "A presumption that all rejected claims are false",
+                "Cost, accuracy, rights compliance, and outcomes for different groups",
+                "Only the annual administrative budget",
+                "Only the preferences of the largest litigants"
+              ],
+              "answer_index": 1,
+              "explanation": "Legitimate efficiency must be measured with fairness and error in view."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Rights constraint?",
+              "choices": [
+                "Economic measure reflecting how much someone would spend for an outcome",
+                "Legal or moral limit on trading interests for benefits",
+                "Fair opportunity to use decision procedures",
+                "Justification for an institution's exercise of power"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights constraint means legal or moral limit on trading interests for benefits."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q6",
+              "type": "matching",
+              "prompt": "Match each fairness and efficiency concept.",
+              "pairs": [
+                [
+                  "Willingness to pay",
+                  "Economic measure reflecting how much someone would spend for an outcome"
+                ],
+                [
+                  "Rights constraint",
+                  "Legal or moral limit on trading interests for benefits"
+                ],
+                [
+                  "Procedural equality",
+                  "Fair opportunity to use decision procedures"
+                ],
+                [
+                  "Institutional legitimacy",
+                  "Justification for an institution's exercise of power"
+                ]
+              ],
+              "explanation": "Economic improvement and fair distribution are analytically distinct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q7",
+              "type": "fill_in",
+              "prompt": "The concept for economic measure reflecting how much someone would spend for an outcome is ___.",
+              "answer": "Willingness to pay",
+              "accept": [
+                "Willingness to pay"
+              ],
+              "explanation": "The term is Willingness to pay."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.fairness-vs-efficiency.black.q8",
+              "type": "fill_in",
+              "prompt": "The concept for justification for an institution's exercise of power is ___.",
+              "answer": "Institutional legitimacy",
+              "accept": [
+                "Institutional legitimacy"
+              ],
+              "explanation": "The term is Institutional legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
