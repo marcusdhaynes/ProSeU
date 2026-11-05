@@ -30,6 +30,6 @@ jobs:
       - name: Install dependencies despite inherited lockfile mismatch
         run: npm install --no-save --no-package-lock --no-audit --no-fund
       - name: Check dedicated mastery and lesson tests
-        run: node --import tsx --test src/learning/learning.test.ts src/learning/draft-practice.test.ts src/lib/lesson-adapter.test.ts src/lib/lesson-progress.test.ts src/lib/course-play.test.ts
+        run: node --import tsx --test src/learning/learning.test.ts src/learning/part-progress.test.ts src/learning/draft-practice.test.ts src/lib/lesson-adapter.test.ts src/lib/lesson-progress.test.ts src/lib/course-play.test.ts
       - name: Build app including Learn page and lesson player
         run: npm run build:web
