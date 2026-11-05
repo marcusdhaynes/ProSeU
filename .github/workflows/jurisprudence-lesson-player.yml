@@ -11,6 +11,7 @@ on:
       - 'src/lib/lesson-*'
       - 'src/lib/course-play*'
       - 'src/learning/**'
+      - 'scripts/verify-jurisprudence-bundle.mjs'
       - 'lessons/stage-01/PSU-1.1/**'
       - '.github/workflows/jurisprudence-lesson-player.yml'
   workflow_dispatch:
@@ -33,3 +34,5 @@ jobs:
         run: node --import tsx --test src/learning/learning.test.ts src/learning/part-progress.test.ts src/learning/draft-practice.test.ts src/lib/lesson-adapter.test.ts src/lib/lesson-progress.test.ts src/lib/course-play.test.ts
       - name: Build app including Learn page and lesson player
         run: npm run build:web
+      - name: Verify real lessons are bundled and will be available in deployed browser
+        run: node scripts/verify-jurisprudence-bundle.mjs
