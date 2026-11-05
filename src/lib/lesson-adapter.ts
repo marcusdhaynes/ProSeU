@@ -27,6 +27,7 @@
  */
 
 import { lessonAdapter as liveSupabaseLessonAdapter } from '@/learning/client';
+import { createDraftPracticeAdapter } from '@/learning/draft-practice';
 import { gradeLessonAnswer } from './lesson-grade';
 import { levelFillRatio, nodeMasteryPercent, nodeProgressFromLevels, type LevelActivity } from './lesson-progress';
 import { LEVELS_IN_ORDER, MASTERY_LEVELS, MASTERY_SECTIONS, subsectionId, type LevelId } from './mastery-catalog';
@@ -85,6 +86,8 @@ export interface LessonQuestionView {
 }
 
 export interface LessonView {
+  /** Draft preview is noncertified, device-local practice; not a Supabase grade. */
+  preview?: boolean;
   id: string;
   courseId: string;
   curriculumCode: string;
@@ -107,6 +110,8 @@ export interface LevelProgress {
 }
 
 export interface ProgressSnapshot {
+  /** Locally calculated practice only; never a certified server-side mastery record. */
+  preview?: boolean;
   courseId: string;
   subsectionId: string;
   levels: LevelProgress[];
@@ -296,6 +301,6 @@ export function createMockLessonAdapter(options?: { persist?: boolean; storage?:
 }
 
 // Authenticated, server-graded, RLS-protected mastery data. Keep the mock factory for tests only.
-export const lessonAdapter: LessonAdapter = liveSupabaseLessonAdapter;
+export const lessonAdapter: LessonAdapter = createDraftPracticeAdapter(liveSupabaseLessonAdapter);
 
 export const MASTERY_LEVEL_IDS = MASTERY_LEVELS.map(level => level.id);
