@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "liability-expansion-cases",
+      "name": "Liability-Expansion Cases",
+      "levels": {
+        "red": {
+          "focus": "Understand why Donoghue v Stevenson recognized a duty beyond a direct contract.",
+          "summary": "A consumer alleged illness after drinking ginger beer containing a decomposed snail, even though a friend had purchased it. The House of Lords considered whether the manufacturer could owe the consumer a duty of care.",
+          "checklist": [
+            "I can identify the consumer and manufacturer in the alleged facts",
+            "I can explain why the lack of a contract mattered",
+            "I can distinguish the duty issue from proof of liability"
+          ],
+          "sections": [
+            {
+              "title": "A consumer was not the buyer",
+              "body_md": "May Donoghue alleged that she became ill after drinking ginger beer from an opaque bottle that her friend had bought. The bottle allegedly contained a decomposed snail. She had no contract with the manufacturer, David Stevenson, so a simple claim founded on a sale between them was unavailable. The legal question was whether a manufacturer might nonetheless owe reasonable care to the person likely to consume its product. The House of Lords considered that issue assuming her allegations for the purpose of deciding whether her claim could proceed.",
+              "example": null,
+              "audio_script": "May Donoghue alleged that she became ill after drinking ginger beer from an opaque bottle that her friend had bought. The bottle allegedly contained a decomposed snail. She had no contract with the manufacturer, David Stevenson, so a simple claim founded on a sale between them was unavailable. The legal question was whether a manufacturer might nonetheless owe reasonable care to the person likely to consume its product. The House of Lords considered that issue assuming her allegations for the purpose of deciding whether her claim could proceed.",
+              "video": null
+            },
+            {
+              "title": "A duty can protect foreseeable consumers",
+              "body_md": "In Donoghue v Stevenson (1932), the House of Lords recognized that a manufacturer might owe a duty of care to an ultimate consumer where the relevant product reached that person without reasonable opportunity for intermediate examination. Lord Atkin's neighbor principle helped explain duties toward people closely and directly affected by conduct. The judgment did not finally prove that the bottle contained a snail or that Stevenson had been negligent. It established an important possibility of legal duty beyond a direct purchase contract.",
+              "example": null,
+              "audio_script": "In Donoghue v Stevenson (1932), the House of Lords recognized that a manufacturer might owe a duty of care to an ultimate consumer where the relevant product reached that person without reasonable opportunity for intermediate examination. Lord Atkin's neighbor principle helped explain duties toward people closely and directly affected by conduct. The judgment did not finally prove that the bottle contained a snail or that Stevenson had been negligent. It established an important possibility of legal duty beyond a direct purchase contract.",
+              "video": null
+            },
+            {
+              "title": "A duty is not automatic compensation",
+              "body_md": "A later negligence analysis still asks whether a recognized duty existed, whether the defendant breached it, whether breach caused the alleged harm, and whether actionable loss followed. A famous case cannot substitute for those elements. Its importance is that serious harm could be legally considered even without a direct contract between consumer and manufacturer. This illustrates the social purpose of evolving private law: a person's bodily safety need not always depend on who handed money to a shopkeeper.",
+              "example": null,
+              "audio_script": "A later negligence analysis still asks whether a recognized duty existed, whether the defendant breached it, whether breach caused the alleged harm, and whether actionable loss followed. A famous case cannot substitute for those elements. Its importance is that serious harm could be legally considered even without a direct contract between consumer and manufacturer. This illustrates the social purpose of evolving private law: a person's bodily safety need not always depend on who handed money to a shopkeeper.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Donoghue's friend, rather than Donoghue herself, purchased the ginger beer.",
+              "answer": true,
+              "explanation_if_true": "The lack of direct contractual purchase made the independent duty question important.",
+              "explanation_if_false": "The lack of direct contractual purchase made the independent duty question important."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q2",
+              "type": "true_false",
+              "prompt": "The House of Lords finally found the snail was in the bottle and conclusively awarded damages for negligence.",
+              "answer": false,
+              "explanation_if_true": "The decision addressed whether the alleged facts could support a legal duty and action, not final proof of every allegation.",
+              "explanation_if_false": "The decision addressed whether the alleged facts could support a legal duty and action, not final proof of every allegation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A consumer is injured by a negligently made sealed drink but did not purchase it personally. Which case helps explain a possible duty?",
+              "choices": [
+                "Entick v Carrington",
+                "Donoghue v Stevenson",
+                "Gideon v Wainwright",
+                "Youngstown"
+              ],
+              "answer_index": 1,
+              "explanation": "A manufacturer may owe an end consumer a duty without direct contractual privity."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "What is the most accurate account of Donoghue's procedural significance?",
+              "choices": [
+                "It recognized a possible duty assuming allegations, leaving other elements to proof",
+                "It established strict liability for every accident",
+                "It made all consumer statements conclusive",
+                "It ruled no manufacturer could owe nonbuyers a duty"
+              ],
+              "answer_index": 0,
+              "explanation": "The duty issue can be resolved without proving the complete negligence claim."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description best fits Duty of care?",
+              "choices": [
+                "Legal obligation to take appropriate care against relevant harm",
+                "Direct contractual relationship between specified parties",
+                "Atkin's account of duties toward closely affected persons",
+                "1932 House of Lords ruling about manufacturer duty to consumers"
+              ],
+              "answer_index": 0,
+              "explanation": "Duty of care refers to legal obligation to take appropriate care against relevant harm."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match liability cases and concepts to their meaning.",
+              "pairs": [
+                [
+                  "Donoghue v Stevenson",
+                  "1932 House of Lords ruling about manufacturer duty to consumers"
+                ],
+                [
+                  "Duty of care",
+                  "Legal obligation to take appropriate care against relevant harm"
+                ],
+                [
+                  "Privity",
+                  "Direct contractual relationship between specified parties"
+                ],
+                [
+                  "Neighbor principle",
+                  "Atkin's account of duties toward closely affected persons"
+                ]
+              ],
+              "explanation": "Duty and causal proof remain separate questions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for 1932 house of lords ruling about manufacturer duty to consumers is ___.",
+              "answer": "Donoghue v Stevenson",
+              "accept": [
+                "Donoghue v Stevenson"
+              ],
+              "explanation": "The answer is Donoghue v Stevenson."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for atkin's account of duties toward closely affected persons is ___.",
+              "answer": "Neighbor principle",
+              "accept": [
+                "Neighbor principle"
+              ],
+              "explanation": "The answer is Neighbor principle."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain how MacPherson v Buick reduced privity barriers in product negligence.",
+          "summary": "A defective automobile wheel injured a purchaser who bought through a dealer rather than directly from the manufacturer. The 1916 New York decision extended negligence duty beyond an immediate contractual purchaser.",
+          "checklist": [
+            "I can describe the defective-wheel claim",
+            "I can state Cardozo's foreseeability-based duty reasoning",
+            "I can compare the timing and role of MacPherson and Donoghue"
+          ],
+          "sections": [
+            {
+              "title": "A wheel failed after resale",
+              "body_md": "Donald MacPherson bought a Buick from a dealer; the car had been assembled by Buick using a wheel bought from another supplier. The wheel collapsed and caused injury. The alleged negligence included failure to inspect for a defect that a reasonable inspection could reveal. Buick argued that it owed no duty to the injured consumer because the purchaser's contract was with the dealer. The legal question concerned duty in negligence, not breach of a direct promise to the final driver.",
+              "example": null,
+              "audio_script": "Donald MacPherson bought a Buick from a dealer; the car had been assembled by Buick using a wheel bought from another supplier. The wheel collapsed and caused injury. The alleged negligence included failure to inspect for a defect that a reasonable inspection could reveal. Buick argued that it owed no duty to the injured consumer because the purchaser's contract was with the dealer. The legal question concerned duty in negligence, not breach of a direct promise to the final driver.",
+              "video": null
+            },
+            {
+              "title": "Cardozo reasoned beyond privity",
+              "body_md": "In MacPherson v Buick Motor Co. (1916), the New York Court of Appeals held that a manufacturer could owe care to foreseeable users when negligent construction of the product made danger to life and limb reasonably probable, even without contractual privity. The reasoning moved beyond narrower categories often associated with intrinsically dangerous articles. It still required a legally relevant defect, foreseeable danger, and negligent conduct. The holding was not that every manufacturer guarantees absolute safety under negligence law.",
+              "example": null,
+              "audio_script": "In MacPherson v Buick Motor Co. (1916), the New York Court of Appeals held that a manufacturer could owe care to foreseeable users when negligent construction of the product made danger to life and limb reasonably probable, even without contractual privity. The reasoning moved beyond narrower categories often associated with intrinsically dangerous articles. It still required a legally relevant defect, foreseeable danger, and negligent conduct. The holding was not that every manufacturer guarantees absolute safety under negligence law.",
+              "video": null
+            },
+            {
+              "title": "Compare two paths to protection",
+              "body_md": "MacPherson preceded Donoghue by sixteen years. The cases emerged in different jurisdictions but each helped weaken the notion that only the person who directly bought a product could obtain relief for negligent manufacture. Compare the car's defective wheel with the alleged contaminated drink: in both, a third party carried the product from manufacturer to user. A careful comparison should also identify the distinct reasoning and procedural posture. Neither decision abolishes the need to prove causation or other negligence elements.",
+              "example": null,
+              "audio_script": "MacPherson preceded Donoghue by sixteen years. The cases emerged in different jurisdictions but each helped weaken the notion that only the person who directly bought a product could obtain relief for negligent manufacture. Compare the car's defective wheel with the alleged contaminated drink: in both, a third party carried the product from manufacturer to user. A careful comparison should also identify the distinct reasoning and procedural posture. Neither decision abolishes the need to prove causation or other negligence elements.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "MacPherson bought the car through a retailer rather than directly from Buick.",
+              "answer": true,
+              "explanation_if_true": "The lack of contractual privity was central to Buick's defense against the duty claim.",
+              "explanation_if_false": "The lack of contractual privity was central to Buick's defense against the duty claim."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "MacPherson held that any product defect automatically makes the manufacturer liable regardless of negligence or harm.",
+              "answer": false,
+              "explanation_if_true": "It addressed a negligence duty toward foreseeable users where careless production could endanger life or limb.",
+              "explanation_if_false": "It addressed a negligence duty toward foreseeable users where careless production could endanger life or limb."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A maker sells a dangerous, defectively built device through a retailer; a foreseeable user is injured. What precedent is closely relevant?",
+              "choices": [
+                "MacPherson v Buick",
+                "Marbury",
+                "Brown v Board",
+                "Miller 2017"
+              ],
+              "answer_index": 0,
+              "explanation": "MacPherson allowed a negligence duty beyond direct contractual privity."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Which chronology is correct?",
+              "choices": [
+                "Donoghue preceded MacPherson by a century",
+                "Both were decided in 1963",
+                "MacPherson overruled a British House of Lords decision",
+                "MacPherson in 1916 preceded Donoghue in 1932"
+              ],
+              "answer_index": 3,
+              "explanation": "The cases arose at different times and within distinct common-law jurisdictions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description best fits Foreseeable user?",
+              "choices": [
+                "Restriction tied to absence of direct contract",
+                "Careful examination appropriate to detecting a defect",
+                "1916 New York decision addressing manufacturer liability to product users",
+                "Person reasonably anticipated to use an article"
+              ],
+              "answer_index": 3,
+              "explanation": "Foreseeable user refers to person reasonably anticipated to use an article."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match liability cases and concepts to their meaning.",
+              "pairs": [
+                [
+                  "MacPherson v Buick",
+                  "1916 New York decision addressing manufacturer liability to product users"
+                ],
+                [
+                  "Foreseeable user",
+                  "Person reasonably anticipated to use an article"
+                ],
+                [
+                  "Privity barrier",
+                  "Restriction tied to absence of direct contract"
+                ],
+                [
+                  "Reasonable inspection",
+                  "Careful examination appropriate to detecting a defect"
+                ]
+              ],
+              "explanation": "Duty and causal proof remain separate questions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for 1916 new york decision addressing manufacturer liability to product users is ___.",
+              "answer": "MacPherson v Buick",
+              "accept": [
+                "MacPherson v Buick"
+              ],
+              "explanation": "The answer is MacPherson v Buick."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for careful examination appropriate to detecting a defect is ___.",
+              "answer": "Reasonable inspection",
+              "accept": [
+                "Reasonable inspection"
+              ],
+              "explanation": "The answer is Reasonable inspection."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze Fairchild v Glenhaven's limited expansion of causal responsibility.",
+          "summary": "A person may develop mesothelioma after asbestos exposures from multiple negligent employers, with science unable to identify which exposure caused it. Fairchild created a carefully confined approach to the causation problem.",
+          "checklist": [
+            "I can explain the ordinary proof difficulty in the asbestos cases",
+            "I can identify the material-increase-in-risk approach",
+            "I can distinguish a narrow exception from universal probabilistic liability"
+          ],
+          "sections": [
+            {
+              "title": "Several employers, one disease",
+              "body_md": "The workers in Fairchild v Glenhaven Funeral Services Ltd (2002) developed mesothelioma after occupational exposure to asbestos dust through different employers. Medical knowledge could not identify which particular exposure had triggered the fatal illness. Under a straightforward individual but-for test, a claimant might fail despite proof that each employer had negligently exposed the worker to the very risk of the disease. The House of Lords faced an acute conflict between ordinary causation proof and the practical impossibility of identifying the responsible fiber.",
+              "example": null,
+              "audio_script": "The workers in Fairchild v Glenhaven Funeral Services Ltd (2002) developed mesothelioma after occupational exposure to asbestos dust through different employers. Medical knowledge could not identify which particular exposure had triggered the fatal illness. Under a straightforward individual but-for test, a claimant might fail despite proof that each employer had negligently exposed the worker to the very risk of the disease. The House of Lords faced an acute conflict between ordinary causation proof and the practical impossibility of identifying the responsible fiber.",
+              "video": null
+            },
+            {
+              "title": "The House permitted a narrow route",
+              "body_md": "The House of Lords allowed the claims to proceed through an approach focusing on whether an employer's breach materially increased the risk of mesothelioma in the circumstances considered. That was a significant development from ordinary causal proof. It was not a rule that any statistical correlation automatically proves every defendant caused any type of injury. The narrow factual setting and the duty intended to guard against this disease were central to the reasoning. Later legislation and cases further shaped liability and apportionment.",
+              "example": null,
+              "audio_script": "The House of Lords allowed the claims to proceed through an approach focusing on whether an employer's breach materially increased the risk of mesothelioma in the circumstances considered. That was a significant development from ordinary causal proof. It was not a rule that any statistical correlation automatically proves every defendant caused any type of injury. The narrow factual setting and the duty intended to guard against this disease were central to the reasoning. Later legislation and cases further shaped liability and apportionment.",
+              "video": null
+            },
+            {
+              "title": "Risk evidence has precise boundaries",
+              "body_md": "A lawyer should identify the wrongful exposure, the type of illness, scientific uncertainty, and the legal test under which increased risk is relevant. Group statistics may inform the analysis without conclusively identifying which defendant's exposure caused one person's injury. Fairchild responded to a particular evidentiary dilemma; extending it to every industrial or environmental claim would erase its limits. A strong master's-level answer defends the precise doctrinal exception rather than using fairness as a substitute for the governing rule.",
+              "example": null,
+              "audio_script": "A lawyer should identify the wrongful exposure, the type of illness, scientific uncertainty, and the legal test under which increased risk is relevant. Group statistics may inform the analysis without conclusively identifying which defendant's exposure caused one person's injury. Fairchild responded to a particular evidentiary dilemma; extending it to every industrial or environmental claim would erase its limits. A strong master's-level answer defends the precise doctrinal exception rather than using fairness as a substitute for the governing rule.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "In Fairchild, science could not identify which negligent asbestos exposure caused a worker's mesothelioma.",
+              "answer": true,
+              "explanation_if_true": "That difficulty made conventional individual causation proof especially problematic.",
+              "explanation_if_false": "That difficulty made conventional individual causation proof especially problematic."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Fairchild held that any defendant increasing any risk is automatically liable for every injury that later occurs.",
+              "answer": false,
+              "explanation_if_true": "Its exceptional causal reasoning arose in a carefully limited mesothelioma setting.",
+              "explanation_if_false": "Its exceptional causal reasoning arose in a carefully limited mesothelioma setting."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A worker suffers mesothelioma after separate negligent exposures, and no responsible exposure can be isolated. Which case is most relevant?",
+              "choices": [
+                "Gideon",
+                "Entick",
+                "Van Gend en Loos",
+                "Fairchild v Glenhaven"
+              ],
+              "answer_index": 3,
+              "explanation": "Fairchild addressed the specific problem of multiple culpable asbestos exposures and scientific uncertainty."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which statement most faithfully describes Fairchild's method?",
+              "choices": [
+                "A requirement for a direct sales contract",
+                "A universal absolute-liability rule for industry",
+                "A confined material-risk approach to an exceptional causation problem",
+                "The abolition of all causation elements"
+              ],
+              "answer_index": 2,
+              "explanation": "The decision did not replace every ordinary causation test."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description best fits Mesothelioma?",
+              "choices": [
+                "Inquiry whether harm would occur absent an alleged act",
+                "2002 House of Lords mesothelioma causation decision",
+                "Serious cancer associated with asbestos exposure",
+                "Legally relevant increase in risk under a confined causal approach"
+              ],
+              "answer_index": 2,
+              "explanation": "Mesothelioma refers to serious cancer associated with asbestos exposure."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match liability cases and concepts to their meaning.",
+              "pairs": [
+                [
+                  "Fairchild",
+                  "2002 House of Lords mesothelioma causation decision"
+                ],
+                [
+                  "Mesothelioma",
+                  "Serious cancer associated with asbestos exposure"
+                ],
+                [
+                  "Material increase in risk",
+                  "Legally relevant increase in risk under a confined causal approach"
+                ],
+                [
+                  "But-for causation",
+                  "Inquiry whether harm would occur absent an alleged act"
+                ]
+              ],
+              "explanation": "Duty and causal proof remain separate questions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for 2002 house of lords mesothelioma causation decision is ___.",
+              "answer": "Fairchild",
+              "accept": [
+                "Fairchild"
+              ],
+              "explanation": "The answer is Fairchild."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for inquiry whether harm would occur absent an alleged act is ___.",
+              "answer": "But-for causation",
+              "accept": [
+                "But-for causation"
+              ],
+              "explanation": "The answer is But-for causation."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique expansion of tort duties and causal responsibility under industrial uncertainty.",
+          "summary": "MacPherson and Donoghue expanded protection against negligent manufacture; Fairchild addressed a different barrier involving proof of causation. Evaluate when legal adaptation protects victims without imposing arbitrary liability.",
+          "checklist": [
+            "I can distinguish enlarging duty from modifying causation",
+            "I can evaluate fairness to injured persons and defendants",
+            "I can defend principled boundaries for new technological risks"
+          ],
+          "sections": [
+            {
+              "title": "Different legal barriers require different reforms",
+              "body_md": "MacPherson and Donoghue addressed the existence of duty where an injured person lacked a direct contract with a manufacturer. Fairchild addressed causation where wrongful exposures were established but the causal exposure could not be identified. Treating these as interchangeable 'pro-claimant' cases loses their doctrinal structure. In each, expanding recovery depended on specific policy and legal arguments within the jurisdiction. A doctoral lawyer should distinguish duty, breach, causation, loss, and remedy before debating whether an expansion was justified.",
+              "example": null,
+              "audio_script": "MacPherson and Donoghue addressed the existence of duty where an injured person lacked a direct contract with a manufacturer. Fairchild addressed causation where wrongful exposures were established but the causal exposure could not be identified. Treating these as interchangeable 'pro-claimant' cases loses their doctrinal structure. In each, expanding recovery depended on specific policy and legal arguments within the jurisdiction. A doctoral lawyer should distinguish duty, breach, causation, loss, and remedy before debating whether an expansion was justified.",
+              "video": null
+            },
+            {
+              "title": "Every expansion has distributional consequences",
+              "body_md": "Broad duties can motivate safer product design and compensate victims, yet unlimited liability may discourage beneficial activity or unfairly burden actors who did not cause the injury. Narrow causal exceptions can address proof impossibility but may also impose liability in a particular case on someone whose conduct did not in fact trigger the illness. A defensible theory identifies which error it tolerates and why the protected activity creates a duty. It should seek evidence about deterrence, insurance, proof costs, and the experiences of people injured.",
+              "example": null,
+              "audio_script": "Broad duties can motivate safer product design and compensate victims, yet unlimited liability may discourage beneficial activity or unfairly burden actors who did not cause the injury. Narrow causal exceptions can address proof impossibility but may also impose liability in a particular case on someone whose conduct did not in fact trigger the illness. A defensible theory identifies which error it tolerates and why the protected activity creates a duty. It should seek evidence about deterrence, insurance, proof costs, and the experiences of people injured.",
+              "video": null
+            },
+            {
+              "title": "Apply the method to an unfamiliar technology",
+              "body_md": "Imagine a connected medical device sold through retailers and serviced by several contractors. A patient is harmed, but the origin of the failure remains unclear. Analyze separate questions: who owed care to the end user; what duties were breached; what evidence connects breach to injury; and whether a legally recognized exceptional rule applies. Do not announce a Fairchild-style exception because causation is inconvenient. A humane doctrine protects patients while giving each accused actor a fair opportunity to dispute responsibility.",
+              "example": null,
+              "audio_script": "Imagine a connected medical device sold through retailers and serviced by several contractors. A patient is harmed, but the origin of the failure remains unclear. Analyze separate questions: who owed care to the end user; what duties were breached; what evidence connects breach to injury; and whether a legally recognized exceptional rule applies. Do not announce a Fairchild-style exception because causation is inconvenient. A humane doctrine protects patients while giving each accused actor a fair opportunity to dispute responsibility.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q1",
+              "type": "true_false",
+              "prompt": "MacPherson, Donoghue, and Fairchild addressed distinct doctrinal obstacles to recovering for injury.",
+              "answer": true,
+              "explanation_if_true": "The first two concerned manufacturer duty; Fairchild concerned causation in a specified disease context.",
+              "explanation_if_false": "The first two concerned manufacturer duty; Fairchild concerned causation in a specified disease context."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q2",
+              "type": "true_false",
+              "prompt": "A negligence claim necessarily succeeds when it cites an influential duty case, even if injury and causation remain unproved.",
+              "answer": false,
+              "explanation_if_true": "A recognized duty does not eliminate the remaining elements of the cause of action.",
+              "explanation_if_false": "A recognized duty does not eliminate the remaining elements of the cause of action."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A patient suffers harm from a device; a maker owed care but the source of failure is unknown. What analysis is best?",
+              "choices": [
+                "Rely only on the product's popularity",
+                "Skip evidence because the harm is serious",
+                "Separate duty, breach, causation, and applicable exceptions",
+                "Assume every actor is automatically liable"
+              ],
+              "answer_index": 2,
+              "explanation": "Expansion should respect the distinct elements and legitimate limits of liability."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which is the strongest reason not to apply Fairchild automatically to every case?",
+              "choices": [
+                "No other tort system recognizes evidence",
+                "Its exceptional causation rule was shaped by a specific medical and factual problem",
+                "All cases after 2002 are identical",
+                "Duty and causation mean the same thing"
+              ],
+              "answer_index": 1,
+              "explanation": "The scope of an exception must be justified by its governing legal conditions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description best fits Causal exception?",
+              "choices": [
+                "Recognition of responsibilities beyond an earlier protected class",
+                "Defined departure from ordinary causation proof",
+                "Assignment of uncertainty and loss between persons",
+                "Justified boundary on legal responsibility"
+              ],
+              "answer_index": 1,
+              "explanation": "Causal exception refers to defined departure from ordinary causation proof."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match liability cases and concepts to their meaning.",
+              "pairs": [
+                [
+                  "Duty expansion",
+                  "Recognition of responsibilities beyond an earlier protected class"
+                ],
+                [
+                  "Causal exception",
+                  "Defined departure from ordinary causation proof"
+                ],
+                [
+                  "Risk allocation",
+                  "Assignment of uncertainty and loss between persons"
+                ],
+                [
+                  "Principled limit",
+                  "Justified boundary on legal responsibility"
+                ]
+              ],
+              "explanation": "Duty and causal proof remain separate questions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for recognition of responsibilities beyond an earlier protected class is ___.",
+              "answer": "Duty expansion",
+              "accept": [
+                "Duty expansion"
+              ],
+              "explanation": "The answer is Duty expansion."
+            },
+            {
+              "id": "PSU-1.1.major_cases.liability-expansion-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for justified boundary on legal responsibility is ___.",
+              "answer": "Principled limit",
+              "accept": [
+                "Principled limit"
+              ],
+              "explanation": "The answer is Principled limit."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
