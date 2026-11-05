@@ -299,6 +299,10 @@ export function createDraftPracticeAdapter(
       }
       const currentIndex = input.levelId == null ? 0 : MASTERY_ORDER.indexOf(input.levelId);
       if (currentIndex < 0) throw new Error('Unknown mastery level.');
+      const serverSnapshot = await live.getProgress({ courseId: input.courseId, subsectionId: canonical });
+      if (serverSnapshot.progress > 0) {
+        throw new Error('Server-persisted progress cannot be reset by this device-only preview control.');
+      }
       // Never issue an unprotected delete for a published, server-graded lesson.
       for (const levelId of MASTERY_ORDER.slice(currentIndex)) {
         const published = await live.getLesson({ ...input, subsectionId: canonical, levelId });
