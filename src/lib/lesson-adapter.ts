@@ -88,6 +88,8 @@ export interface LessonQuestionView {
 export interface LessonView {
   /** Draft preview is noncertified, device-local practice; not a Supabase grade. */
   preview?: boolean;
+  /** Correctly completed questions in the current learner's draft practice record. */
+  correctQuestionIds?: string[];
   id: string;
   courseId: string;
   curriculumCode: string;
@@ -119,6 +121,8 @@ export interface ProgressSnapshot {
   progress: number;
   masteryPercent: number;
   updatedAt: string | null;
+  /** True only for completed reading or two-question parts, across all four tiers. */
+  partsByLevel?: Partial<Record<LevelId, boolean[]>>;
 }
 
 export interface LessonAdapter {
@@ -127,6 +131,8 @@ export interface LessonAdapter {
   markSectionUnderstood(input: CourseRef & { subsectionId: string; levelId: LevelId; sectionId: string }): Promise<ProgressSnapshot>;
   submitAnswer(input: CourseRef & { subsectionId: string; levelId: LevelId; questionId: string; response: unknown }): Promise<{ correct: boolean; explanation: string; progress: ProgressSnapshot }>;
   getProgress(input: { courseId: string; subsectionId: string }): Promise<ProgressSnapshot>;
+  /** Draft-only reset; production resets require a separate server-authorized endpoint. */
+  resetProgress?(input: CourseRef & { subsectionId: string; levelId?: LevelId; fromPart?: number }): Promise<ProgressSnapshot>;
 }
 
 interface Cell {
