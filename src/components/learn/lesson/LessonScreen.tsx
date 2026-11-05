@@ -51,6 +51,7 @@ export function LessonScreen({
     setError(null);
     setQuestionIndex(0);
     setQuestionAnswered(false);
+    setChecked({});
     adapter.getLesson({ courseId, curriculumCode, subsectionId, levelId })
       .then(next => {
         if (cancelled) return;
@@ -110,10 +111,16 @@ export function LessonScreen({
       </header>
 
       {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
+      {lesson?.preview && (
+        <div role="note" data-testid="draft-practice-banner" className="rounded-2xl border border-amber-500/60 bg-amber-500/10 px-4 py-3 text-sm text-foreground">
+          <p className="font-black">Draft practice preview</p>
+          <p className="mt-1">You can read, listen, and practice questions now. Progress is saved only on this device, is not a verified grade, and does not sync to Supabase. Academic review and publication are pending.</p>
+        </div>
+      )}
       {missing && !error && (
         <div className="rounded-[2rem] border-2 border-dashed border-border bg-muted/30 px-6 py-10 text-center">
           <p className="text-sm font-bold text-foreground">This {level.name} lesson has not been written yet.</p>
-          <p className="mt-2 text-xs text-muted-foreground">The Paralegal lesson for Authority in PSU-1.1 is the sample.</p>
+          <p className="mt-2 text-xs text-muted-foreground">This lesson is not available in the course yet. Other authored draft lessons can be tried in preview mode.</p>
         </div>
       )}
 
@@ -208,6 +215,9 @@ export function LessonScreen({
                 >
                   Next question
                 </Button>
+                {questionAnswered && questionIndex === lesson.questions.length - 1 && (
+                  <span role="status" className="text-sm font-bold text-accent">Practice complete for this mastery level. You can select another level above or return to the course.</span>
+                )}
               </div>
             </section>
           )}
