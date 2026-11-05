@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "procedural-leverage",
+      "name": "Procedural Leverage",
+      "levels": {
+        "red": {
+          "focus": "Use lawful procedural choices to protect a client's real opportunity for relief.",
+          "summary": "Deadlines, forum rules, evidence requests, and settlement opportunities affect a case before any final judgment. Learn to use these rules for meaningful advocacy rather than harassment, concealment, or needless delay.",
+          "checklist": [
+            "I can identify an urgent date or required procedural step",
+            "I can explain a lawful early-resolution option",
+            "I can distinguish legitimate strategy from obstruction"
+          ],
+          "sections": [
+            {
+              "title": "A strong claim can fail if time runs out",
+              "body_md": "A worker receives written notice that a benefit appeal must be filed within a specified period. The client may have persuasive evidence, but a missed deadline can close the available route. Check the actual rule, how time is calculated, where and how filing occurs, and whether any extension or different remedy exists. Do not invent a universal number of days. Tell the client what documents and decisions need to be preserved and the consequences of inaction. Procedure protects a person's chance to be heard only when someone notices its requirements in time.",
+              "example": null,
+              "audio_script": "A worker receives written notice that a benefit appeal must be filed within a specified period. The client may have persuasive evidence, but a missed deadline can close the available route. Check the actual rule, how time is calculated, where and how filing occurs, and whether any extension or different remedy exists. Do not invent a universal number of days. Tell the client what documents and decisions need to be preserved and the consequences of inaction. Procedure protects a person's chance to be heard only when someone notices its requirements in time.",
+              "video": null
+            },
+            {
+              "title": "Choose a path that serves the client",
+              "body_md": "A small unpaid invoice might be resolved through a direct, documented request, negotiation, mediation, or lawful court process, depending on the agreement and available remedies. Filing the most expensive lawsuit may not be the wisest strategy. Compare cost, delay, privacy, enforceability, and the other party's ability to respond. A proposed settlement must be communicated accurately, not with fabricated legal threats. The lawyer should explain the options and respect the client's role in setting objectives and deciding whether to settle under applicable professional rules.",
+              "example": null,
+              "audio_script": "A small unpaid invoice might be resolved through a direct, documented request, negotiation, mediation, or lawful court process, depending on the agreement and available remedies. Filing the most expensive lawsuit may not be the wisest strategy. Compare cost, delay, privacy, enforceability, and the other party's ability to respond. A proposed settlement must be communicated accurately, not with fabricated legal threats. The lawyer should explain the options and respect the client's role in setting objectives and deciding whether to settle under applicable professional rules.",
+              "video": null
+            },
+            {
+              "title": "Fair process is not a weapon against the weak",
+              "body_md": "A powerful organization can impose costs on an unrepresented claimant by multiplying needless filings. A deadline or discovery request may serve a real purpose, but delay sought solely to exhaust an opponent can violate governing procedure and professional duties. Ask what lawful interest a step advances, whether it is proportionate, and how it affects the person's access to justice. A good beginner sees that strategic effectiveness means obtaining justified relief with care and diligence, not winning by making the legal process unbearable.",
+              "example": null,
+              "audio_script": "A powerful organization can impose costs on an unrepresented claimant by multiplying needless filings. A deadline or discovery request may serve a real purpose, but delay sought solely to exhaust an opponent can violate governing procedure and professional duties. Ask what lawful interest a step advances, whether it is proportionate, and how it affects the person's access to justice. A good beginner sees that strategic effectiveness means obtaining justified relief with care and diligence, not winning by making the legal process unbearable.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q1",
+              "type": "true_false",
+              "prompt": "A procedurally valid claim may still fail when its required filing deadline is missed.",
+              "answer": true,
+              "explanation_if_true": "Timeliness can determine whether a tribunal reaches the merits.",
+              "explanation_if_false": "Timeliness can determine whether a tribunal reaches the merits."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q2",
+              "type": "true_false",
+              "prompt": "An attorney should file knowingly groundless motions merely to increase the opponent's legal expenses.",
+              "answer": false,
+              "explanation_if_true": "Frivolous proceedings and improper delay can breach procedural and professional obligations.",
+              "explanation_if_false": "Frivolous proceedings and improper delay can breach procedural and professional obligations."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A client brings an appeal notice close to its deadline. What should counsel verify first?",
+              "choices": [
+                "Whether the client wants a dramatic opening speech",
+                "The actual filing rule, date, forum and available options",
+                "The opposing lawyer's reputation",
+                "A universal deadline copied from another country"
+              ],
+              "answer_index": 1,
+              "explanation": "Timeliness and jurisdiction are practical prerequisites for relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q4",
+              "type": "multiple_choice",
+              "prompt": "When is negotiation a useful procedural option?",
+              "choices": [
+                "When a lawful, informed agreement could meet the client's objectives",
+                "Only when a court has already imposed sanctions",
+                "Whenever an opponent can be misled",
+                "Only if no legal rights exist"
+              ],
+              "answer_index": 0,
+              "explanation": "An informed settlement can preserve resources without surrendering agency."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Forum?",
+              "choices": [
+                "Tribunal or process with authority over a dispute",
+                "Agreed resolution of a conflict",
+                "Misuse of legal process for improper purposes",
+                "Last date for a required procedural action"
+              ],
+              "answer_index": 0,
+              "explanation": "Forum means tribunal or process with authority over a dispute."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q6",
+              "type": "matching",
+              "prompt": "Match the procedural strategy concepts.",
+              "pairs": [
+                [
+                  "Filing deadline",
+                  "Last date for a required procedural action"
+                ],
+                [
+                  "Forum",
+                  "Tribunal or process with authority over a dispute"
+                ],
+                [
+                  "Settlement",
+                  "Agreed resolution of a conflict"
+                ],
+                [
+                  "Procedural abuse",
+                  "Misuse of legal process for improper purposes"
+                ]
+              ],
+              "explanation": "Procedure should promote the client's lawful goals without obstructing justice."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for last date for a required procedural action is ___.",
+              "answer": "Filing deadline",
+              "accept": [
+                "Filing deadline"
+              ],
+              "explanation": "The answer is Filing deadline."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for misuse of legal process for improper purposes is ___.",
+              "answer": "Procedural abuse",
+              "accept": [
+                "Procedural abuse"
+              ],
+              "explanation": "The answer is Procedural abuse."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply pleading, discovery and case management tools within ethical boundaries.",
+          "summary": "Procedural rules can narrow a dispute and secure necessary evidence, but they impose duties of good faith. Learn the distinct functions of motions, proportionate discovery, and protected settlement communications.",
+          "checklist": [
+            "I can distinguish pleading sufficiency from proof at trial",
+            "I can identify a legitimate, proportionate discovery request",
+            "I can explain why sanctions and delay are not automatic strategic tools"
+          ],
+          "sections": [
+            {
+              "title": "Pleadings identify claims and legal sufficiency",
+              "body_md": "A complaint must satisfy the governing court's pleading requirements. A defendant may challenge a claim that fails those requirements without disputing every alleged fact. A pleading-stage motion is not necessarily a trial on whether a witness is credible. In U.S. federal practice, Rule 11 requires a reasonable basis for legal and factual contentions and provides possible sanctions after specified safeguards. Other systems use different pleading and costs rules. A sound motion identifies the exact defect and available remedy rather than making broad accusations that the plaintiff is dishonest.",
+              "example": null,
+              "audio_script": "A complaint must satisfy the governing court's pleading requirements. A defendant may challenge a claim that fails those requirements without disputing every alleged fact. A pleading-stage motion is not necessarily a trial on whether a witness is credible. In U.S. federal practice, Rule 11 requires a reasonable basis for legal and factual contentions and provides possible sanctions after specified safeguards. Other systems use different pleading and costs rules. A sound motion identifies the exact defect and available remedy rather than making broad accusations that the plaintiff is dishonest.",
+              "video": null
+            },
+            {
+              "title": "Discovery is directed at issues, not intimidation",
+              "body_md": "A plaintiff alleging unsafe machinery may seek inspection records and communications concerning the identified defect. Under U.S. Federal Rule of Civil Procedure 26(b)(1), discovery generally concerns nonprivileged relevant information proportional to the needs of the case. A demand for every employee's private messages for ten years is unlikely to be justified by the mere seriousness of a narrow technical dispute. The lawyer should connect each requested category to material issues and consider privilege, burden, confidentiality, and appropriate limitations. A meaningful request seeks proof; it should not impose punishment before a judgment.",
+              "example": null,
+              "audio_script": "A plaintiff alleging unsafe machinery may seek inspection records and communications concerning the identified defect. Under U.S. Federal Rule of Civil Procedure 26(b)(1), discovery generally concerns nonprivileged relevant information proportional to the needs of the case. A demand for every employee's private messages for ten years is unlikely to be justified by the mere seriousness of a narrow technical dispute. The lawyer should connect each requested category to material issues and consider privilege, burden, confidentiality, and appropriate limitations. A meaningful request seeks proof; it should not impose punishment before a judgment.",
+              "video": null
+            },
+            {
+              "title": "Use conferences and settlement thoughtfully",
+              "body_md": "Early case management can define contested issues, preserve relevant records, and explore whether negotiation could address the client's actual needs. A motion for sanctions requires a proper legal basis and procedural steps; it is not a routine threat to obtain concessions. Where professional rules resemble the ABA Model Rule on expediting litigation, counsel should not prolong proceedings solely for expense or frustration. A bachelor-level strategy explains the purpose, cost, and anticipated consequence of each proposed step to the client before acting.",
+              "example": null,
+              "audio_script": "Early case management can define contested issues, preserve relevant records, and explore whether negotiation could address the client's actual needs. A motion for sanctions requires a proper legal basis and procedural steps; it is not a routine threat to obtain concessions. Where professional rules resemble the ABA Model Rule on expediting litigation, counsel should not prolong proceedings solely for expense or frustration. A bachelor-level strategy explains the purpose, cost, and anticipated consequence of each proposed step to the client before acting.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q1",
+              "type": "true_false",
+              "prompt": "A targeted request for inspection records tied to an alleged machinery defect can serve legitimate discovery purposes.",
+              "answer": true,
+              "explanation_if_true": "Relevant, proportionate material can help test a contested element.",
+              "explanation_if_false": "Relevant, proportionate material can help test a contested element."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q2",
+              "type": "true_false",
+              "prompt": "Federal Rule of Civil Procedure 11 authorizes a lawyer to use unsupported sanctions threats against every opponent as a bargaining tactic.",
+              "answer": false,
+              "explanation_if_true": "Rule 11 requires an appropriate basis and prescribed procedures.",
+              "explanation_if_false": "Rule 11 requires an appropriate basis and prescribed procedures."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A narrow equipment dispute prompts a demand for every employee's private messages for a decade. Which principle needs attention?",
+              "choices": [
+                "Relevance, proportionality and confidentiality",
+                "Automatic entitlement to all private data",
+                "A rule that discovery cannot occur",
+                "The seniority of opposing counsel"
+              ],
+              "answer_index": 0,
+              "explanation": "Proper discovery is tied to legitimate needs rather than punishment."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A pleading is legally insufficient on its alleged facts. What may be appropriate?",
+              "choices": [
+                "Inventing evidence of dishonesty",
+                "Threatening witnesses",
+                "Refusing all court orders",
+                "A supported motion challenging legal sufficiency under governing rules"
+              ],
+              "answer_index": 3,
+              "explanation": "Procedure can narrow claims lawfully without misrepresenting the record."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Discovery?",
+              "choices": [
+                "Fit between procedural burden and legitimate case needs",
+                "Judicial or agreed organization of litigation steps",
+                "Whether stated allegations meet applicable procedural requirements",
+                "Lawful process for obtaining information relevant to a dispute"
+              ],
+              "answer_index": 3,
+              "explanation": "Discovery means lawful process for obtaining information relevant to a dispute."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the procedural strategy concepts.",
+              "pairs": [
+                [
+                  "Pleading sufficiency",
+                  "Whether stated allegations meet applicable procedural requirements"
+                ],
+                [
+                  "Discovery",
+                  "Lawful process for obtaining information relevant to a dispute"
+                ],
+                [
+                  "Proportionality",
+                  "Fit between procedural burden and legitimate case needs"
+                ],
+                [
+                  "Case management",
+                  "Judicial or agreed organization of litigation steps"
+                ]
+              ],
+              "explanation": "Procedure should promote the client's lawful goals without obstructing justice."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for whether stated allegations meet applicable procedural requirements is ___.",
+              "answer": "Pleading sufficiency",
+              "accept": [
+                "Pleading sufficiency"
+              ],
+              "explanation": "The answer is Pleading sufficiency."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for judicial or agreed organization of litigation steps is ___.",
+              "answer": "Case management",
+              "accept": [
+                "Case management"
+              ],
+              "explanation": "The answer is Case management."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Plan proportionate procedural strategy across interim relief, costs, and alternative forums.",
+          "summary": "Procedural choices affect timing, information, and bargaining power, but their legitimacy depends on substantive entitlements and professional constraints. Compare routes without assuming that litigation tactics are interchangeable across jurisdictions.",
+          "checklist": [
+            "I can distinguish interim relief from final adjudication",
+            "I can evaluate enforceability, cost and urgency across forums",
+            "I can design a procedure plan justified to the client and tribunal"
+          ],
+          "sections": [
+            {
+              "title": "Urgency can change the procedural priority",
+              "body_md": "A community organization fears imminent demolition of a historically significant building before a disputed permit can be reviewed. A final damages action months later may not protect the interest at stake. Interim relief may be available under governing law if specified factors are shown, such as urgency, arguable merits, balance of harms, or other jurisdiction-specific conditions. Do not assume every court uses the same injunction test. A lawyer needs affidavits, reliable records, notice rules, and a remedy the tribunal has power to grant. The procedural tool follows from the real risk, not the desire to dramatize the case.",
+              "example": null,
+              "audio_script": "A community organization fears imminent demolition of a historically significant building before a disputed permit can be reviewed. A final damages action months later may not protect the interest at stake. Interim relief may be available under governing law if specified factors are shown, such as urgency, arguable merits, balance of harms, or other jurisdiction-specific conditions. Do not assume every court uses the same injunction test. A lawyer needs affidavits, reliable records, notice rules, and a remedy the tribunal has power to grant. The procedural tool follows from the real risk, not the desire to dramatize the case.",
+              "video": null
+            },
+            {
+              "title": "Forum and enforcement can dominate the decision",
+              "body_md": "A cross-border services contract may include arbitration language and a governing-law clause. Even a successful judgment may require recognition and enforcement in the place where assets exist. Compare lawful court jurisdiction, mediation, arbitration, confidentiality, interim relief, costs, and review routes. A forum clause may be unenforceable or restricted in consumer and employment contexts. The lawyer must confirm the agreement, the applicable instruments, and available procedural remedies rather than treating arbitration as automatically quicker or fairer. The client's objectives, bargaining power and ability to pay for the process matter.",
+              "example": null,
+              "audio_script": "A cross-border services contract may include arbitration language and a governing-law clause. Even a successful judgment may require recognition and enforcement in the place where assets exist. Compare lawful court jurisdiction, mediation, arbitration, confidentiality, interim relief, costs, and review routes. A forum clause may be unenforceable or restricted in consumer and employment contexts. The lawyer must confirm the agreement, the applicable instruments, and available procedural remedies rather than treating arbitration as automatically quicker or fairer. The client's objectives, bargaining power and ability to pay for the process matter.",
+              "video": null
+            },
+            {
+              "title": "Each step should have a defensible purpose",
+              "body_md": "Create a decision tree with deadline, threshold motion, evidence preservation, proportionate discovery, possible settlement, interim protection, and judgment enforcement. At each node record the legal source, expected benefit, likely cost, and risk of adverse outcome. Distinguish a tactical choice permitted by rules from one prohibited as harassment or frivolous litigation. The court's obligation to manage process and the advocate's duty to the client are compatible when requests are accurate and necessary. A master's plan avoids procedural escalation that produces fees but no improvement in the client's position.",
+              "example": null,
+              "audio_script": "Create a decision tree with deadline, threshold motion, evidence preservation, proportionate discovery, possible settlement, interim protection, and judgment enforcement. At each node record the legal source, expected benefit, likely cost, and risk of adverse outcome. Distinguish a tactical choice permitted by rules from one prohibited as harassment or frivolous litigation. The court's obligation to manage process and the advocate's duty to the client are compatible when requests are accurate and necessary. A master's plan avoids procedural escalation that produces fees but no improvement in the client's position.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q1",
+              "type": "true_false",
+              "prompt": "When irreversible harm is imminent, authorized interim relief may matter more than waiting for a final damages award.",
+              "answer": true,
+              "explanation_if_true": "Timing can determine whether legal protection is practically effective.",
+              "explanation_if_false": "Timing can determine whether legal protection is practically effective."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q2",
+              "type": "true_false",
+              "prompt": "An arbitration clause automatically makes every dispute arbitrable and guarantees faster resolution.",
+              "answer": false,
+              "explanation_if_true": "Validity, scope, enforceability and practical costs depend on applicable law and context.",
+              "explanation_if_false": "Validity, scope, enforceability and practical costs depend on applicable law and context."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A building faces demolition tomorrow and a permit challenge remains unresolved. What procedural option should be examined urgently?",
+              "choices": [
+                "A routine final appeal filed years later",
+                "An unsupported demand for punitive damages",
+                "A decision to ignore notice obligations",
+                "Available interim protection and its legal requirements"
+              ],
+              "answer_index": 3,
+              "explanation": "Temporary relief can protect a contested interest pending legal review."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which factor is essential when choosing a cross-border forum?",
+              "choices": [
+                "Which party travels most often",
+                "A presumption that arbitration has no costs",
+                "Enforceability of the eventual decision and lawful jurisdiction",
+                "Only the court building's appearance"
+              ],
+              "answer_index": 2,
+              "explanation": "A decision has limited value if the chosen forum cannot provide effective relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Enforcement?",
+              "choices": [
+                "Lawful sequencing of steps toward the client's objective",
+                "Temporary judicial protection before a final decision",
+                "Use of legal mechanisms to give effect to a ruling",
+                "Contractual provision directing covered disputes to arbitration"
+              ],
+              "answer_index": 2,
+              "explanation": "Enforcement means use of legal mechanisms to give effect to a ruling."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q6",
+              "type": "matching",
+              "prompt": "Match the procedural strategy concepts.",
+              "pairs": [
+                [
+                  "Interim relief",
+                  "Temporary judicial protection before a final decision"
+                ],
+                [
+                  "Enforcement",
+                  "Use of legal mechanisms to give effect to a ruling"
+                ],
+                [
+                  "Arbitration agreement",
+                  "Contractual provision directing covered disputes to arbitration"
+                ],
+                [
+                  "Procedural strategy",
+                  "Lawful sequencing of steps toward the client's objective"
+                ]
+              ],
+              "explanation": "Procedure should promote the client's lawful goals without obstructing justice."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for temporary judicial protection before a final decision is ___.",
+              "answer": "Interim relief",
+              "accept": [
+                "Interim relief"
+              ],
+              "explanation": "The answer is Interim relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for lawful sequencing of steps toward the client's objective is ___.",
+              "answer": "Procedural strategy",
+              "accept": [
+                "Procedural strategy"
+              ],
+              "explanation": "The answer is Procedural strategy."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique procedural leverage as unequal bargaining power under the rule of law.",
+          "summary": "Procedure is not neutral when one litigant can afford delay and another needs immediate relief. Develop an ethically defensible strategy that limits abusive process while preserving robust advocacy, dispute resolution, and effective rights.",
+          "checklist": [
+            "I can evaluate resource asymmetry in procedural choices",
+            "I can distinguish meritorious strategic filings from abuse of process",
+            "I can design accessible safeguards for unrepresented and vulnerable litigants"
+          ],
+          "sections": [
+            {
+              "title": "A fair rule can become unfair through costs",
+              "body_md": "A large organization may comply formally with every filing requirement yet overwhelm an unrepresented claimant with expensive, marginally relevant disputes. Conversely, a genuinely complex case may require extensive disclosure and careful motions. A doctoral analysis should not assume that all hard-fought litigation is abuse. It should ask whether each step advances a substantial lawful purpose, whether burden is proportionate, and whether a less costly procedure would protect the same legitimate interests. Measure delay's impact on livelihood, housing, and health rather than only court calendars.",
+              "example": null,
+              "audio_script": "A large organization may comply formally with every filing requirement yet overwhelm an unrepresented claimant with expensive, marginally relevant disputes. Conversely, a genuinely complex case may require extensive disclosure and careful motions. A doctoral analysis should not assume that all hard-fought litigation is abuse. It should ask whether each step advances a substantial lawful purpose, whether burden is proportionate, and whether a less costly procedure would protect the same legitimate interests. Measure delay's impact on livelihood, housing, and health rather than only court calendars.",
+              "video": null
+            },
+            {
+              "title": "Advocacy has an institutional obligation",
+              "body_md": "The American Bar Association's Model Rules include duties concerning expediting litigation and fairness to opposing parties, while Rule 11 of the U.S. Federal Rules imposes particular pleading certifications. These rules apply in their own legal context and must not be announced as a global professional code. A lawyer can forcefully test an unsupported claim, seek appropriate disclosure, and insist on a lawful hearing without falsifying evidence or intentionally exhausting an opponent. Professional legitimacy is part of the justice system's capacity to resolve disputes, not an optional extra after maximizing settlement pressure.",
+              "example": null,
+              "audio_script": "The American Bar Association's Model Rules include duties concerning expediting litigation and fairness to opposing parties, while Rule 11 of the U.S. Federal Rules imposes particular pleading certifications. These rules apply in their own legal context and must not be announced as a global professional code. A lawyer can forcefully test an unsupported claim, seek appropriate disclosure, and insist on a lawful hearing without falsifying evidence or intentionally exhausting an opponent. Professional legitimacy is part of the justice system's capacity to resolve disputes, not an optional extra after maximizing settlement pressure.",
+              "video": null
+            },
+            {
+              "title": "Design procedures that protect both sides",
+              "body_md": "Consider simplified forms, proportional disclosure limits, structured case conferences, early access to urgent remedies, cost transparency, and reasoned judicial control over vexatious motions. Preserve access to robust defense and a meaningful appeal where law requires it. A proposed reform should measure whether it reduces errors and deters actual abuse without disproportionately burdening legitimate but difficult claims. Include the client's informed choices, not merely the lawyer's tactical preferences. Effective procedure should allow a person with modest resources to obtain an answer on the merits while making each party accountable for serious assertions.",
+              "example": null,
+              "audio_script": "Consider simplified forms, proportional disclosure limits, structured case conferences, early access to urgent remedies, cost transparency, and reasoned judicial control over vexatious motions. Preserve access to robust defense and a meaningful appeal where law requires it. A proposed reform should measure whether it reduces errors and deters actual abuse without disproportionately burdening legitimate but difficult claims. Include the client's informed choices, not merely the lawyer's tactical preferences. Effective procedure should allow a person with modest resources to obtain an answer on the merits while making each party accountable for serious assertions.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q1",
+              "type": "true_false",
+              "prompt": "The real burden of procedural delay may fall disproportionately on people who depend on prompt housing or income relief.",
+              "answer": true,
+              "explanation_if_true": "Costs of delay are not equal for litigants with different resources and needs.",
+              "explanation_if_false": "Costs of delay are not equal for litigants with different resources and needs."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q2",
+              "type": "true_false",
+              "prompt": "A lawyer can ethically file a knowingly baseless motion solely to increase an opponent's expenses if it benefits the client's bargaining position.",
+              "answer": false,
+              "explanation_if_true": "Improper delay and frivolous filings can violate legal and professional duties.",
+              "explanation_if_false": "Improper delay and frivolous filings can violate legal and professional duties."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A large defendant repeatedly seeks irrelevant extensions while a low-income claimant faces eviction. What should the court evaluate?",
+              "choices": [
+                "A rule that every extension is criminal",
+                "An automatic finding that all defense motions lack merit",
+                "Legal basis, genuine purpose, proportionality and real prejudice",
+                "Only the defendant's ability to pay"
+              ],
+              "answer_index": 2,
+              "explanation": "Fair process requires scrutiny of the purpose and effects of delay."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which procedural reform best balances fairness and legitimate defense?",
+              "choices": [
+                "Costly secret procedures without notice",
+                "Proportionate discovery, accessible hearings and reasoned review",
+                "A ban on all contested motions",
+                "Automatic judgment against large organizations"
+              ],
+              "answer_index": 1,
+              "explanation": "Meaningful justice requires room to contest claims and protection against oppressive process."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Resource asymmetry?",
+              "choices": [
+                "Improper use of legal procedure for a collateral purpose",
+                "Unequal ability to finance and sustain legal proceedings",
+                "Practical ability to invoke lawful protection and remedies",
+                "Control of process in relation to legitimate dispute needs"
+              ],
+              "answer_index": 1,
+              "explanation": "Resource asymmetry means unequal ability to finance and sustain legal proceedings."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q6",
+              "type": "matching",
+              "prompt": "Match the procedural strategy concepts.",
+              "pairs": [
+                [
+                  "Abuse of process",
+                  "Improper use of legal procedure for a collateral purpose"
+                ],
+                [
+                  "Resource asymmetry",
+                  "Unequal ability to finance and sustain legal proceedings"
+                ],
+                [
+                  "Access to justice",
+                  "Practical ability to invoke lawful protection and remedies"
+                ],
+                [
+                  "Proportional case management",
+                  "Control of process in relation to legitimate dispute needs"
+                ]
+              ],
+              "explanation": "Procedure should promote the client's lawful goals without obstructing justice."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for improper use of legal procedure for a collateral purpose is ___.",
+              "answer": "Abuse of process",
+              "accept": [
+                "Abuse of process"
+              ],
+              "explanation": "The answer is Abuse of process."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.procedural-leverage.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for control of process in relation to legitimate dispute needs is ___.",
+              "answer": "Proportional case management",
+              "accept": [
+                "Proportional case management"
+              ],
+              "explanation": "The answer is Proportional case management."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
