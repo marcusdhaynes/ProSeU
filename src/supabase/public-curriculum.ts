@@ -85,7 +85,9 @@ export function withJurisprudencePreview(catalog: AcademyCatalog): AcademyCatalo
 
 export async function getPublishedAcademyCatalog(): Promise<AcademyCatalog> {
   if (!supabase) return JURISPRUDENCE_PREVIEW_CATALOG;
-  const [domainResult, fieldResult, courseResult] = await Promise.all([
+  let domainResult: any, fieldResult: any, courseResult: any;
+  try {
+    [domainResult, fieldResult, courseResult] = await Promise.all([
     supabase.from('proseu_domains')
       .select('id,name,description,slug,code,position')
       .eq('status', 'published')
@@ -98,7 +100,11 @@ export async function getPublishedAcademyCatalog(): Promise<AcademyCatalog> {
       .select('id,domain_id,field_id,title,description,slug,code,position,content')
       .eq('status', 'published')
       .order('position', { ascending: true }).limit(1000),
-  ]);
+    ]);
+  } catch {
+    // Offline and unavailable catalogs must not prevent read-only draft study.
+    return JURISPRUDENCE_PREVIEW_CATALOG;
+  }
 
   for (const result of [domainResult, fieldResult, courseResult]) {
     if (result.error) return JURISPRUDENCE_PREVIEW_CATALOG;
