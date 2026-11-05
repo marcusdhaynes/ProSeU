@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "limits-of-power-cases",
+      "name": "Limits-of-Power Cases",
+      "levels": {
+        "red": {
+          "focus": "Learn why public officials need legal authority before searching someone's home.",
+          "summary": "In Entick v Carrington (1765), officials searched a writer's home and seized papers under a Secretary of State's warrant. Learn why an official command is not automatically lawful authority.",
+          "checklist": [
+            "I can identify the search and seizure at issue",
+            "I can explain why lawful authority matters",
+            "I can distinguish a government order from a legal justification"
+          ],
+          "sections": [
+            {
+              "title": "The officials entered a private home",
+              "body_md": "In 1762, officers entered John Entick's home, searched his private papers, and seized materials while investigating alleged seditious libel. They relied on a warrant issued by the Secretary of State. Entick brought an action for trespass, challenging the legal basis of what the officers had done. The issue was not whether the government strongly disapproved of his writing. It was whether the law authorized the particular intrusion and seizure. A state agent needs more than a powerful title to justify taking someone's property.",
+              "audio_script": "In 1762, officers entered John Entick's home, searched his private papers, and seized materials while investigating alleged seditious libel. They relied on a warrant issued by the Secretary of State. Entick brought an action for trespass, challenging the legal basis of what the officers had done. The issue was not whether the government strongly disapproved of his writing. It was whether the law authorized the particular intrusion and seizure. A state agent needs more than a powerful title to justify taking someone's property.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The source of power had to be shown",
+              "body_md": "In Entick v Carrington, decided in 1765, the court rejected the claimed authority for the search and seizure of private papers. The case became a major English example of the principle that officials cannot interfere with private rights merely because the executive wants information. The court's reasoning arose within the legal doctrines of its period; it should not be mistaken for a complete modern search-warrant code. Its enduring lesson is the importance of identifying a lawful source of coercive power.",
+              "audio_script": "In Entick v Carrington, decided in 1765, the court rejected the claimed authority for the search and seizure of private papers. The case became a major English example of the principle that officials cannot interfere with private rights merely because the executive wants information. The court's reasoning arose within the legal doctrines of its period; it should not be mistaken for a complete modern search-warrant code. Its enduring lesson is the importance of identifying a lawful source of coercive power.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Ask the question before agreeing with the goal",
+              "body_md": "Suppose officials believe a person possesses damaging political documents. Their suspicion might prompt an investigation, but it does not alone establish lawful power to enter a home or seize papers. The lawyer must identify the legal source, permitted scope, and required safeguards. Where authority is absent, a useful government goal cannot supply it by itself. This method protects citizens and officials alike: it makes state action reviewable against rules rather than against personal sympathies.",
+              "audio_script": "Suppose officials believe a person possesses damaging political documents. Their suspicion might prompt an investigation, but it does not alone establish lawful power to enter a home or seize papers. The lawyer must identify the legal source, permitted scope, and required safeguards. Where authority is absent, a useful government goal cannot supply it by itself. This method protects citizens and officials alike: it makes state action reviewable against rules rather than against personal sympathies.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Entick challenged a search of his home and private papers by government officers.",
+              "answer": true,
+              "explanation_if_true": "The officers acted under an executive warrant whose legal authority the court rejected.",
+              "explanation_if_false": "The officers acted under an executive warrant whose legal authority the court rejected."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q2",
+              "type": "true_false",
+              "prompt": "The Secretary of State's warrant automatically made the seizure of Entick's papers lawful.",
+              "answer": false,
+              "explanation_if_true": "The court required a valid legal basis and found the claimed authority insufficient.",
+              "explanation_if_false": "The court required a valid legal basis and found the claimed authority insufficient."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Officials seize a writer's private papers, citing only their superior's request. What must be examined first?",
+              "choices": [
+                "The official's rank alone",
+                "The lawful source of search-and-seizure power",
+                "How unpopular the writer is",
+                "Whether the papers are interesting"
+              ],
+              "answer_index": 1,
+              "explanation": "Public coercion needs legal authorization, not simply administrative approval."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "What did Entick primarily limit?",
+              "choices": [
+                "An executive claim to search and seize without lawful authority",
+                "All public discussion of politics",
+                "Every search ever authorized by law",
+                "Every private lawsuit against an official"
+              ],
+              "answer_index": 0,
+              "explanation": "The decision checked unauthorized interference, not every possible lawful investigation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which idea is best expressed by Trespass?",
+              "choices": [
+                "Unlawful interference with land or possession under governing law",
+                "Formal order issued through executive authority",
+                "Recognized legal basis for a public action",
+                "1765 English decision concerning an unauthorized search of private papers"
+              ],
+              "answer_index": 0,
+              "explanation": "Trespass refers to unlawful interference with land or possession under governing law."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match the cases and constitutional concepts.",
+              "pairs": [
+                [
+                  "Entick v Carrington",
+                  "1765 English decision concerning an unauthorized search of private papers"
+                ],
+                [
+                  "Trespass",
+                  "Unlawful interference with land or possession under governing law"
+                ],
+                [
+                  "Executive warrant",
+                  "Formal order issued through executive authority"
+                ],
+                [
+                  "Legal authorization",
+                  "Recognized legal basis for a public action"
+                ]
+              ],
+              "explanation": "Each concept has a distinct authority or function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1765 english decision concerning an unauthorized search of private papers is ___.",
+              "answer": "Entick v Carrington",
+              "accept": [
+                "Entick v Carrington"
+              ],
+              "explanation": "The answer is Entick v Carrington."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for recognized legal basis for a public action is ___.",
+              "answer": "Legal authorization",
+              "accept": [
+                "Legal authorization"
+              ],
+              "explanation": "The answer is Legal authorization."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain why Youngstown rejected President Truman's steel-mill seizure.",
+          "summary": "During the Korean War, President Truman ordered federal control of steel mills to avert a labor stoppage. The Supreme Court held that this seizure exceeded executive power without adequate constitutional or statutory authority.",
+          "checklist": [
+            "I can identify Truman's order and its claimed purpose",
+            "I can explain the separation-of-powers holding",
+            "I can distinguish emergency need from lawful authorization"
+          ],
+          "sections": [
+            {
+              "title": "A crisis created a claim of necessity",
+              "body_md": "In 1952, an anticipated steelworkers' strike threatened production during the Korean War. President Harry Truman ordered the Secretary of Commerce to take possession of most major steel mills and maintain their operation. The companies challenged the order. The administration stressed defense needs and the President's executive and commander-in-chief responsibilities. The legal question was narrower than whether steel was important. It was whether the Constitution or an Act of Congress authorized the President to seize these privately owned mills.",
+              "audio_script": "In 1952, an anticipated steelworkers' strike threatened production during the Korean War. President Harry Truman ordered the Secretary of Commerce to take possession of most major steel mills and maintain their operation. The companies challenged the order. The administration stressed defense needs and the President's executive and commander-in-chief responsibilities. The legal question was narrower than whether steel was important. It was whether the Constitution or an Act of Congress authorized the President to seize these privately owned mills.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The Court enforced a boundary",
+              "body_md": "In Youngstown Sheet & Tube Co. v Sawyer, the U.S. Supreme Court held that Truman lacked authority to seize the mills on the asserted grounds. Justice Black's majority opinion stressed that lawmaking power belongs to Congress and that commander-in-chief power did not authorize this domestic takeover. The ruling did not announce that presidents have no emergency powers at all. It rejected this particular exercise of power within the United States' constitutional distribution of authority.",
+              "audio_script": "In Youngstown Sheet & Tube Co. v Sawyer, the U.S. Supreme Court held that Truman lacked authority to seize the mills on the asserted grounds. Justice Black's majority opinion stressed that lawmaking power belongs to Congress and that commander-in-chief power did not authorize this domestic takeover. The ruling did not announce that presidents have no emergency powers at all. It rejected this particular exercise of power within the United States' constitutional distribution of authority.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Necessity and authority answer different questions",
+              "body_md": "A measure might address a genuine national problem yet be beyond the official's lawful power. That distinction prevents urgency from automatically becoming a source of legislation. A lawyer should ask what authority Congress granted, what the Constitution provides, and whether a remedy can restrain excess. Public concern can inform the political decision to seek new powers, but it cannot simply erase the judiciary's obligation to identify existing law. This is how separation of powers can protect people even under pressure.",
+              "audio_script": "A measure might address a genuine national problem yet be beyond the official's lawful power. That distinction prevents urgency from automatically becoming a source of legislation. A lawyer should ask what authority Congress granted, what the Constitution provides, and whether a remedy can restrain excess. Public concern can inform the political decision to seek new powers, but it cannot simply erase the judiciary's obligation to identify existing law. This is how separation of powers can protect people even under pressure.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Youngstown examined whether the president had authority to seize privately owned steel mills.",
+              "answer": true,
+              "explanation_if_true": "The majority rejected the asserted constitutional and statutory bases for the seizure.",
+              "explanation_if_false": "The majority rejected the asserted constitutional and statutory bases for the seizure."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "Youngstown held that any presidential action motivated by defense concerns is automatically constitutional.",
+              "answer": false,
+              "explanation_if_true": "Defense urgency does not itself establish a valid source for domestic seizure.",
+              "explanation_if_false": "Defense urgency does not itself establish a valid source for domestic seizure."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A president directs seizure of private factories without legislative authorization, citing urgency. Which question decides the constitutional issue?",
+              "choices": [
+                "Whether governing law grants seizure authority",
+                "Whether the factories are famous",
+                "Whether the president is popular",
+                "How long the order takes to type"
+              ],
+              "answer_index": 0,
+              "explanation": "The existence and scope of public power must be established before it is exercised."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What distinction does Youngstown illustrate?",
+              "choices": [
+                "Courts may freely legislate national industrial policy",
+                "Constitutional limits vanish during labor disputes",
+                "All government use of property is unconstitutional",
+                "A policy goal can be important even when the chosen means exceed lawful power"
+              ],
+              "answer_index": 3,
+              "explanation": "Necessity and authority must be assessed separately."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which idea is best expressed by Executive order?",
+              "choices": [
+                "Allocation of governmental functions among branches",
+                "Power provided by enacted legislation",
+                "1952 U.S. ruling invalidating Truman's seizure of steel mills",
+                "Directive issued by the president under claimed authority"
+              ],
+              "answer_index": 3,
+              "explanation": "Executive order refers to directive issued by the president under claimed authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the cases and constitutional concepts.",
+              "pairs": [
+                [
+                  "Youngstown",
+                  "1952 U.S. ruling invalidating Truman's seizure of steel mills"
+                ],
+                [
+                  "Executive order",
+                  "Directive issued by the president under claimed authority"
+                ],
+                [
+                  "Separation of powers",
+                  "Allocation of governmental functions among branches"
+                ],
+                [
+                  "Statutory authorization",
+                  "Power provided by enacted legislation"
+                ]
+              ],
+              "explanation": "Each concept has a distinct authority or function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1952 u.s. ruling invalidating truman's seizure of steel mills is ___.",
+              "answer": "Youngstown",
+              "accept": [
+                "Youngstown"
+              ],
+              "explanation": "The answer is Youngstown."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for power provided by enacted legislation is ___.",
+              "answer": "Statutory authorization",
+              "accept": [
+                "Statutory authorization"
+              ],
+              "explanation": "The answer is Statutory authorization."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Apply Justice Jackson's tripartite framework to executive power.",
+          "summary": "Justice Jackson's Youngstown concurrence organizes presidential action by its relationship to Congress. Learn why the degree of congressional authorization or opposition matters as much as executive purpose.",
+          "checklist": [
+            "I can identify Jackson's three executive-power categories",
+            "I can explain the legal significance of congressional opposition",
+            "I can compare Youngstown with Entick's demand for authority"
+          ],
+          "sections": [
+            {
+              "title": "Congress can support presidential action",
+              "body_md": "In his influential concurrence in Youngstown, Justice Robert Jackson described a first category where the president acts with express or implied congressional authorization. There, executive authority may be at its strongest because presidential and delegated legislative powers combine. The framework is not a separate statute and does not guarantee that every authorized act is constitutional. Its value is analytical: before judging the order, determine whether Congress enabled, remained silent about, or opposed the action.",
+              "audio_script": "In his influential concurrence in Youngstown, Justice Robert Jackson described a first category where the president acts with express or implied congressional authorization. There, executive authority may be at its strongest because presidential and delegated legislative powers combine. The framework is not a separate statute and does not guarantee that every authorized act is constitutional. Its value is analytical: before judging the order, determine whether Congress enabled, remained silent about, or opposed the action.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Silence and opposition are not the same",
+              "body_md": "Jackson's second category concerns a zone of uncertainty when Congress has neither granted nor denied authority. His third category addresses action incompatible with Congress's expressed or implied will, when presidential power is at its lowest. These categories require careful interpretation of actual statutes, legislative choices, and constitutional powers; silence cannot always be guessed from the absence of a quotation. The method discourages treating 'emergency' as a magic word and encourages attention to institutional relationships.",
+              "audio_script": "Jackson's second category concerns a zone of uncertainty when Congress has neither granted nor denied authority. His third category addresses action incompatible with Congress's expressed or implied will, when presidential power is at its lowest. These categories require careful interpretation of actual statutes, legislative choices, and constitutional powers; silence cannot always be guessed from the absence of a quotation. The method discourages treating 'emergency' as a magic word and encourages attention to institutional relationships.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Compare two legal traditions",
+              "body_md": "Entick demanded a lawful basis for executive intrusion into a person's home, while Youngstown examined the U.S. president's authority to take over private steel mills. They came from distinct constitutional systems and centuries. Yet both show that an executive's conviction of necessity does not end the legal inquiry. A sophisticated comparison identifies the precise acts, institutions, and legal sources. It does not assume every English rule maps directly onto an American constitutional category.",
+              "audio_script": "Entick demanded a lawful basis for executive intrusion into a person's home, while Youngstown examined the U.S. president's authority to take over private steel mills. They came from distinct constitutional systems and centuries. Yet both show that an executive's conviction of necessity does not end the legal inquiry. A sophisticated comparison identifies the precise acts, institutions, and legal sources. It does not assume every English rule maps directly onto an American constitutional category.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Jackson distinguished executive action supported by Congress from action opposed by Congress.",
+              "answer": true,
+              "explanation_if_true": "His concurrence gives those relationships different constitutional significance.",
+              "explanation_if_false": "His concurrence gives those relationships different constitutional significance."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Jackson's middle category means the president has unlimited power whenever Congress has not spoken.",
+              "answer": false,
+              "explanation_if_true": "Silence may create uncertainty, not boundless executive authority.",
+              "explanation_if_false": "Silence may create uncertainty, not boundless executive authority."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Congress expressly prohibits a seizure, but the president orders it anyway. Which Jackson category is most relevant?",
+              "choices": [
+                "The first category of maximum authority",
+                "A mandatory rule of judicial silence",
+                "A guarantee that all officials agree",
+                "The third category, the lowest ebb"
+              ],
+              "answer_index": 3,
+              "explanation": "Incompatibility with Congress places presidential power at its weakest under the framework."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Congress affirmatively empowers an emergency response within constitutional bounds. Which category is implicated?",
+              "choices": [
+                "A presumption of complete judicial immunity",
+                "An automatic violation of the Fourteenth Amendment",
+                "The first category of maximum authority",
+                "The third category of opposition"
+              ],
+              "answer_index": 2,
+              "explanation": "Express or implied legislative authorization strengthens the executive claim."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which idea is best expressed by Maximum authority?",
+              "choices": [
+                "Presidential power when action opposes congressional will",
+                "Tripartite analysis of presidential power in Youngstown",
+                "Executive action backed by congressional authorization",
+                "Uncertain allocation where Congress neither grants nor denies power"
+              ],
+              "answer_index": 2,
+              "explanation": "Maximum authority refers to executive action backed by congressional authorization."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match the cases and constitutional concepts.",
+              "pairs": [
+                [
+                  "Jackson framework",
+                  "Tripartite analysis of presidential power in Youngstown"
+                ],
+                [
+                  "Maximum authority",
+                  "Executive action backed by congressional authorization"
+                ],
+                [
+                  "Zone of twilight",
+                  "Uncertain allocation where Congress neither grants nor denies power"
+                ],
+                [
+                  "Lowest ebb",
+                  "Presidential power when action opposes congressional will"
+                ]
+              ],
+              "explanation": "Each concept has a distinct authority or function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for tripartite analysis of presidential power in youngstown is ___.",
+              "answer": "Jackson framework",
+              "accept": [
+                "Jackson framework"
+              ],
+              "explanation": "The answer is Jackson framework."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for presidential power when action opposes congressional will is ___.",
+              "answer": "Lowest ebb",
+              "accept": [
+                "Lowest ebb"
+              ],
+              "explanation": "The answer is Lowest ebb."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique emergency government as a test of constitutional legitimacy.",
+          "summary": "Entick and Youngstown ask whether state force remains accountable when officials invoke security. Defend an emergency-powers theory that permits lawful response without making necessity a substitute for authority.",
+          "checklist": [
+            "I can distinguish legal necessity from authorization",
+            "I can evaluate separation-of-powers checks during emergencies",
+            "I can design reviewable safeguards for executive coercion"
+          ],
+          "sections": [
+            {
+              "title": "An emergency intensifies the legal question",
+              "body_md": "A sudden crisis can make government speed essential, but urgency may also increase the risk of unchecked coercion. Entick concerned intrusion into private papers under asserted executive authority; Youngstown concerned seizure of industry in wartime conditions. Neither establishes that all emergency interventions are invalid. Together they force a constitutional theorist to specify where emergency power comes from and what an official must demonstrate before using it against a person's home, property, or livelihood.",
+              "audio_script": "A sudden crisis can make government speed essential, but urgency may also increase the risk of unchecked coercion. Entick concerned intrusion into private papers under asserted executive authority; Youngstown concerned seizure of industry in wartime conditions. Neither establishes that all emergency interventions are invalid. Together they force a constitutional theorist to specify where emergency power comes from and what an official must demonstrate before using it against a person's home, property, or livelihood.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Legal branches have complementary responsibilities",
+              "body_md": "Legislatures can authorize extraordinary measures and define safeguards; executives can respond within those authorizations; courts can review whether limits were respected. The details vary across constitutional systems. An overly rigid theory might prevent life-saving action where law actually permits it, while an unlimited necessity doctrine risks letting officials define their own powers. A doctoral analysis should compare error costs, access to immediate review, and the public's ability to know what authority has been claimed. Constitutional restraint is an accountability structure, not a refusal to govern.",
+              "audio_script": "Legislatures can authorize extraordinary measures and define safeguards; executives can respond within those authorizations; courts can review whether limits were respected. The details vary across constitutional systems. An overly rigid theory might prevent life-saving action where law actually permits it, while an unlimited necessity doctrine risks letting officials define their own powers. A doctoral analysis should compare error costs, access to immediate review, and the public's ability to know what authority has been claimed. Constitutional restraint is an accountability structure, not a refusal to govern.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design authority that can survive scrutiny",
+              "body_md": "Imagine an administration proposing temporary use of private infrastructure during a verified emergency. A legitimate framework would identify legislative or constitutional authorization, time limits, compensation where required, evidence supporting necessity, and independent review. Specify which measures existing law permits and which would require new enactment. Explain how officials could act quickly while remaining answerable for misuse. A theory of legal legitimacy should protect people from both governmental paralysis and arbitrary force; neither fear dissolves the duty to give reasons.",
+              "audio_script": "Imagine an administration proposing temporary use of private infrastructure during a verified emergency. A legitimate framework would identify legislative or constitutional authorization, time limits, compensation where required, evidence supporting necessity, and independent review. Specify which measures existing law permits and which would require new enactment. Explain how officials could act quickly while remaining answerable for misuse. A theory of legal legitimacy should protect people from both governmental paralysis and arbitrary force; neither fear dissolves the duty to give reasons.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q1",
+              "type": "true_false",
+              "prompt": "An emergency may create genuine public needs while leaving the legality of a particular executive act contested.",
+              "answer": true,
+              "explanation_if_true": "Practical necessity and legal authority are different propositions.",
+              "explanation_if_false": "Practical necessity and legal authority are different propositions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q2",
+              "type": "true_false",
+              "prompt": "The executive becomes the sole judge of its legal power whenever it declares an emergency.",
+              "answer": false,
+              "explanation_if_true": "Constitutional and statutory limits can remain reviewable even in crises.",
+              "explanation_if_false": "Constitutional and statutory limits can remain reviewable even in crises."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "An emergency order restricts property use but cites no source of legal power and has no review. What is the central defect?",
+              "choices": [
+                "A legislature's use of a statute",
+                "An excess of judicial remedies",
+                "Unaccountable coercion without demonstrated authorization",
+                "Too many public reasons"
+              ],
+              "answer_index": 2,
+              "explanation": "Emergency legitimacy requires lawful grounding and proportionate safeguards."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which proposal best reconciles swift response with the rule of law?",
+              "choices": [
+                "Automatic exemption from ordinary legal accountability",
+                "Time-limited, authorized action with access to review",
+                "Unlimited secret orders based solely on suspicion",
+                "A permanent ban on all government intervention"
+              ],
+              "answer_index": 1,
+              "explanation": "Justified authority can enable action while protecting people against abuse."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which idea is best expressed by Executive overreach?",
+              "choices": [
+                "Extraordinary authority exercised under legal constraints",
+                "Official action exceeding lawful competence",
+                "Power enabling one branch to restrain another",
+                "Power whose basis and use can be legally tested"
+              ],
+              "answer_index": 1,
+              "explanation": "Executive overreach refers to official action exceeding lawful competence."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match the cases and constitutional concepts.",
+              "pairs": [
+                [
+                  "Emergency power",
+                  "Extraordinary authority exercised under legal constraints"
+                ],
+                [
+                  "Executive overreach",
+                  "Official action exceeding lawful competence"
+                ],
+                [
+                  "Institutional check",
+                  "Power enabling one branch to restrain another"
+                ],
+                [
+                  "Reviewable authorization",
+                  "Power whose basis and use can be legally tested"
+                ]
+              ],
+              "explanation": "Each concept has a distinct authority or function."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for extraordinary authority exercised under legal constraints is ___.",
+              "answer": "Emergency power",
+              "accept": [
+                "Emergency power"
+              ],
+              "explanation": "The answer is Emergency power."
+            },
+            {
+              "id": "PSU-1.1.major_cases.limits-of-power-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for power whose basis and use can be legally tested is ___.",
+              "answer": "Reviewable authorization",
+              "accept": [
+                "Reviewable authorization"
+              ],
+              "explanation": "The answer is Reviewable authorization."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

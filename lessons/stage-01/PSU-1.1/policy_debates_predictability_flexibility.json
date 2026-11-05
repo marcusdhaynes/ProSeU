@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "predictability-vs-flexibility",
+      "name": "Predictability vs Flexibility",
+      "levels": {
+        "red": {
+          "focus": "Explain why people need stable legal rules and room for unusual cases.",
+          "summary": "A rule people can understand in advance lets them plan their lives. Yet a rigid rule can produce unfair results when circumstances differ from what lawmakers anticipated.",
+          "checklist": [
+            "I can identify a benefit of clear prior rules",
+            "I can recognize a hardship created by strict application",
+            "I can propose a lawful way to handle a genuine exception"
+          ],
+          "sections": [
+            {
+              "title": "Rules help people make plans",
+              "body_md": "A city announces that applications for a public benefit must be filed by the first day of each month. Families can plan around a public deadline, and officials can process claims consistently. If the date changes without notice, some applicants may lose assistance despite trying to comply. Predictability means that legal consequences are sufficiently knowable in advance. It helps people make contracts, organize care, and decide whether to challenge an official action without guessing what rule will apply tomorrow.",
+              "example": null,
+              "audio_script": "A city announces that applications for a public benefit must be filed by the first day of each month. Families can plan around a public deadline, and officials can process claims consistently. If the date changes without notice, some applicants may lose assistance despite trying to comply. Predictability means that legal consequences are sufficiently knowable in advance. It helps people make contracts, organize care, and decide whether to challenge an official action without guessing what rule will apply tomorrow.",
+              "video": null
+            },
+            {
+              "title": "One rule cannot anticipate everything",
+              "body_md": "A resident is hospitalized unexpectedly on the deadline day. A strict cutoff may serve efficiency, but applying it without any lawful exception could impose a grave hardship. Flexibility allows decision makers to respond to circumstances that ordinary rules cannot fully describe. It also creates risks: officials may favor friends or treat similar people differently. A fair system identifies when discretion is available, what evidence supports an exception, and why the outcome remains consistent with legal authority.",
+              "example": null,
+              "audio_script": "A resident is hospitalized unexpectedly on the deadline day. A strict cutoff may serve efficiency, but applying it without any lawful exception could impose a grave hardship. Flexibility allows decision makers to respond to circumstances that ordinary rules cannot fully describe. It also creates risks: officials may favor friends or treat similar people differently. A fair system identifies when discretion is available, what evidence supports an exception, and why the outcome remains consistent with legal authority.",
+              "video": null
+            },
+            {
+              "title": "Reasons connect consistency and care",
+              "body_md": "Suppose an agency permits late filing for documented hospitalization but not for simple forgetfulness under an authorized rule. It should explain both outcomes with the same criteria. This makes flexibility more predictable while preserving the reasons for the deadline. The law need not always yield to hardship, and officials cannot invent exceptions a binding statute forbids. A beginning lawyer should ask what the published rule says, what exceptions it authorizes, and what route exists to correct an unreasonable application.",
+              "example": null,
+              "audio_script": "Suppose an agency permits late filing for documented hospitalization but not for simple forgetfulness under an authorized rule. It should explain both outcomes with the same criteria. This makes flexibility more predictable while preserving the reasons for the deadline. The law need not always yield to hardship, and officials cannot invent exceptions a binding statute forbids. A beginning lawyer should ask what the published rule says, what exceptions it authorizes, and what route exists to correct an unreasonable application.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q1",
+              "type": "true_false",
+              "prompt": "Clear, public rules can help people organize their actions and anticipate official decisions.",
+              "answer": true,
+              "explanation_if_true": "Knowable rules support planning and reliable expectations.",
+              "explanation_if_false": "Knowable rules support planning and reliable expectations."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q2",
+              "type": "true_false",
+              "prompt": "A decision maker may disregard a mandatory statute whenever an unusual case seems sympathetic.",
+              "answer": false,
+              "explanation_if_true": "Legal flexibility must remain within the institution's actual authority.",
+              "explanation_if_false": "Legal flexibility must remain within the institution's actual authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A benefit applicant misses a filing deadline during emergency hospitalization. What should an official examine?",
+              "choices": [
+                "Whether every late filing must always be accepted",
+                "Whether law permits a documented exception or review",
+                "Whether the applicant is personally popular",
+                "Whether deadlines are inherently illegal"
+              ],
+              "answer_index": 1,
+              "explanation": "A fair exception depends on legal authorization and relevant evidence."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Why can too much ad hoc discretion be harmful?",
+              "choices": [
+                "People may face inconsistent and unpredictable treatment",
+                "It always makes rules clearer",
+                "It eliminates the possibility of favoritism",
+                "It proves every applicant has equal resources"
+              ],
+              "answer_index": 0,
+              "explanation": "Discretion needs intelligible constraints and reasons."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Flexibility mean?",
+              "choices": [
+                "Permitted adaptation to changing or unusual circumstances",
+                "Lawfully bounded choice by a decision maker",
+                "Sufficient stability and clarity of legal obligations",
+                "Ability to anticipate legal consequences"
+              ],
+              "answer_index": 0,
+              "explanation": "Flexibility means permitted adaptation to changing or unusual circumstances."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q6",
+              "type": "matching",
+              "prompt": "Match the rule-of-law and discretion concepts.",
+              "pairs": [
+                [
+                  "Predictability",
+                  "Ability to anticipate legal consequences"
+                ],
+                [
+                  "Flexibility",
+                  "Permitted adaptation to changing or unusual circumstances"
+                ],
+                [
+                  "Discretion",
+                  "Lawfully bounded choice by a decision maker"
+                ],
+                [
+                  "Legal certainty",
+                  "Sufficient stability and clarity of legal obligations"
+                ]
+              ],
+              "explanation": "Predictable rules and contextual standards serve different legal needs."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for ability to anticipate legal consequences is ___.",
+              "answer": "Predictability",
+              "accept": [
+                "Predictability"
+              ],
+              "explanation": "The term is Predictability."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for sufficient stability and clarity of legal obligations is ___.",
+              "answer": "Legal certainty",
+              "accept": [
+                "Legal certainty"
+              ],
+              "explanation": "The term is Legal certainty."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Use Fuller's rule-of-law requirements to assess predictable government.",
+          "summary": "Lon Fuller argued that law can guide conduct only if rules meet basic conditions such as publicity, clarity, prospectivity, and congruence between announcement and enforcement. Learn how these values interact with authorized discretion.",
+          "checklist": [
+            "I can explain several of Fuller's requirements accurately",
+            "I can identify why retroactive surprise undermines guidance",
+            "I can distinguish clear law from morally just law"
+          ],
+          "sections": [
+            {
+              "title": "Rules must be capable of guiding action",
+              "body_md": "In The Morality of Law, Fuller developed eight desiderata associated with governing through rules: generality, publicity, prospectivity, clarity, consistency, possibility of compliance, relative stability, and congruence between official action and announced law. These requirements concern the form and administration of legal ordering. A secret tax applied to last year's earnings without notice would raise serious predictability problems. The list does not claim that every clear law is substantively just; an oppressive rule could still be public and stable.",
+              "example": null,
+              "audio_script": "In The Morality of Law, Fuller developed eight desiderata associated with governing through rules: generality, publicity, prospectivity, clarity, consistency, possibility of compliance, relative stability, and congruence between official action and announced law. These requirements concern the form and administration of legal ordering. A secret tax applied to last year's earnings without notice would raise serious predictability problems. The list does not claim that every clear law is substantively just; an oppressive rule could still be public and stable.",
+              "video": null
+            },
+            {
+              "title": "Clarity and certainty have limits",
+              "body_md": "Terms such as 'reasonable care' cannot state a separate instruction for every road and weather condition. They grant decision makers room to assess facts while leaving a common standard in place. A rule may thus be intelligible without being mechanically precise. Lawyers should identify the legal factors that guide judgment and explain relevant past decisions. The problem arises when officials use vagueness as a license for unexplained choices, not whenever a statute contains a general word.",
+              "example": null,
+              "audio_script": "Terms such as 'reasonable care' cannot state a separate instruction for every road and weather condition. They grant decision makers room to assess facts while leaving a common standard in place. A rule may thus be intelligible without being mechanically precise. Lawyers should identify the legal factors that guide judgment and explain relevant past decisions. The problem arises when officials use vagueness as a license for unexplained choices, not whenever a statute contains a general word.",
+              "video": null
+            },
+            {
+              "title": "Retroactivity threatens reliance",
+              "body_md": "A business arranges lawful activity under an announced permit system. If officials later penalize it using a previously undisclosed rule, the firm could not reasonably adjust its behavior. Some jurisdictions lawfully permit certain retroactive measures under defined constitutional or statutory conditions, so a blanket claim that all retroactivity is forbidden would be incorrect. The jurisprudential concern remains that law should ordinarily enable people to know what is expected. Review and publication can temper the unfairness of surprise.",
+              "example": null,
+              "audio_script": "A business arranges lawful activity under an announced permit system. If officials later penalize it using a previously undisclosed rule, the firm could not reasonably adjust its behavior. Some jurisdictions lawfully permit certain retroactive measures under defined constitutional or statutory conditions, so a blanket claim that all retroactivity is forbidden would be incorrect. The jurisprudential concern remains that law should ordinarily enable people to know what is expected. Review and publication can temper the unfairness of surprise.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q1",
+              "type": "true_false",
+              "prompt": "Fuller's account treats congruence between official conduct and announced law as a rule-of-law value.",
+              "answer": true,
+              "explanation_if_true": "A declared rule cannot guide conduct if officials routinely enforce another one.",
+              "explanation_if_false": "A declared rule cannot guide conduct if officials routinely enforce another one."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q2",
+              "type": "true_false",
+              "prompt": "Fuller's eight desiderata prove that every clear, stable law is morally fair in its substance.",
+              "answer": false,
+              "explanation_if_true": "Formal virtues can aid legal guidance without guaranteeing justice of the underlying policy.",
+              "explanation_if_false": "Formal virtues can aid legal guidance without guaranteeing justice of the underlying policy."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "An agency publicly promises one permit rule but secretly applies a different one. Which Fuller principle is most directly threatened?",
+              "choices": [
+                "Congruence",
+                "The requirement that law be only criminal",
+                "A rule abolishing all discretion",
+                "The abolition of legislation"
+              ],
+              "answer_index": 0,
+              "explanation": "Official enforcement should align with the announced legal standard."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute applies a new penalty to an earlier completed act. What rule-of-law issue should be investigated?",
+              "choices": [
+                "Only whether an official used a computer",
+                "Whether every rule must be unwritten",
+                "A claim that legal certainty is irrelevant",
+                "Prospectivity and the legality of retroactive change"
+              ],
+              "answer_index": 3,
+              "explanation": "Retroactivity can upset settled expectations and may face legal limits."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Prospectivity mean?",
+              "choices": [
+                "Consistency of official action with declared rules",
+                "Application of a legal measure to earlier circumstances",
+                "Eight qualities associated with governing through rules",
+                "Announcing rules before their application to conduct"
+              ],
+              "answer_index": 3,
+              "explanation": "Prospectivity means announcing rules before their application to conduct."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the rule-of-law and discretion concepts.",
+              "pairs": [
+                [
+                  "Fuller's desiderata",
+                  "Eight qualities associated with governing through rules"
+                ],
+                [
+                  "Prospectivity",
+                  "Announcing rules before their application to conduct"
+                ],
+                [
+                  "Congruence",
+                  "Consistency of official action with declared rules"
+                ],
+                [
+                  "Retroactivity",
+                  "Application of a legal measure to earlier circumstances"
+                ]
+              ],
+              "explanation": "Predictable rules and contextual standards serve different legal needs."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for eight qualities associated with governing through rules is ___.",
+              "answer": "Fuller's desiderata",
+              "accept": [
+                "Fuller's desiderata"
+              ],
+              "explanation": "The term is Fuller's desiderata."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for application of a legal measure to earlier circumstances is ___.",
+              "answer": "Retroactivity",
+              "accept": [
+                "Retroactivity"
+              ],
+              "explanation": "The term is Retroactivity."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare Hart's open texture with equitable and rule-bound judgment.",
+          "summary": "General language creates borderline cases, but it does not mean judges decide without law. Examine whether a legal system should specify detailed rules, principles, presumptions, and standards to handle uncertainty.",
+          "checklist": [
+            "I can explain Hart's core and penumbra distinction",
+            "I can compare rule specificity with case-sensitive standards",
+            "I can propose guardrails for equitable discretion"
+          ],
+          "sections": [
+            {
+              "title": "The core of a rule may be clear",
+              "body_md": "H. L. A. Hart described how general legal language has familiar applications and uncertain cases at its margins. A rule prohibiting vehicles in a park clearly covers an ordinary car but may raise harder questions about an ambulance or mobility aid. The existence of a borderline case does not make every application uncertain. Hart's open texture explains why even thoughtful lawmakers cannot enumerate every future possibility. It is a claim about the limits of general language, not proof that judicial reasoning has no constraints.",
+              "example": null,
+              "audio_script": "H. L. A. Hart described how general legal language has familiar applications and uncertain cases at its margins. A rule prohibiting vehicles in a park clearly covers an ordinary car but may raise harder questions about an ambulance or mobility aid. The existence of a borderline case does not make every application uncertain. Hart's open texture explains why even thoughtful lawmakers cannot enumerate every future possibility. It is a claim about the limits of general language, not proof that judicial reasoning has no constraints.",
+              "video": null
+            },
+            {
+              "title": "Equity can respond to special situations",
+              "body_md": "Some legal systems authorize equitable remedies or other discretionary relief when rigid procedures would fail to protect a right. A court might tailor an injunction to avoid harming a person who was not responsible for the dispute. Yet equity is developed through principles, jurisdictional limits, and precedent rather than free-floating sympathy. An advanced lawyer states the governing doctrine before asking for tailored relief. Unbounded flexibility can make outcomes unpredictable and allow those with better representation to obtain exceptions others cannot reach.",
+              "example": null,
+              "audio_script": "Some legal systems authorize equitable remedies or other discretionary relief when rigid procedures would fail to protect a right. A court might tailor an injunction to avoid harming a person who was not responsible for the dispute. Yet equity is developed through principles, jurisdictional limits, and precedent rather than free-floating sympathy. An advanced lawyer states the governing doctrine before asking for tailored relief. Unbounded flexibility can make outcomes unpredictable and allow those with better representation to obtain exceptions others cannot reach.",
+              "video": null
+            },
+            {
+              "title": "Choose rules and standards deliberately",
+              "body_md": "A fixed age threshold is easy to administer but may treat people with different capacities alike. An individualized capacity test could respond better to circumstances but require expensive evidence and increase inconsistency. The designer should compare error, enforcement cost, transparency, and available review. A hybrid could use a clear default plus tightly defined exceptions. Good jurisprudence recognizes that precision and discretion are tools for different problems; neither is a universal guarantee of justice.",
+              "example": null,
+              "audio_script": "A fixed age threshold is easy to administer but may treat people with different capacities alike. An individualized capacity test could respond better to circumstances but require expensive evidence and increase inconsistency. The designer should compare error, enforcement cost, transparency, and available review. A hybrid could use a clear default plus tightly defined exceptions. Good jurisprudence recognizes that precision and discretion are tools for different problems; neither is a universal guarantee of justice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q1",
+              "type": "true_false",
+              "prompt": "Hart's open texture allows that a rule may have clear central cases and uncertain borderline ones.",
+              "answer": true,
+              "explanation_if_true": "General concepts are not equally indeterminate in all applications.",
+              "explanation_if_false": "General concepts are not equally indeterminate in all applications."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q2",
+              "type": "true_false",
+              "prompt": "Because a statute uses the word reasonable, every decision based on it is legally arbitrary.",
+              "answer": false,
+              "explanation_if_true": "Reasons, facts, and precedent can constrain context-sensitive legal standards.",
+              "explanation_if_false": "Reasons, facts, and precedent can constrain context-sensitive legal standards."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A park vehicle rule confronts a mobility aid not considered when drafted. What concept describes the interpretive problem?",
+              "choices": [
+                "A complete absence of legal sources",
+                "An automatic breach of contract",
+                "A rule that every ambiguity is a crime",
+                "Open texture"
+              ],
+              "answer_index": 3,
+              "explanation": "General language can leave unforeseen borderline applications unsettled."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which scheme often reconciles certainty and unusual needs?",
+              "choices": [
+                "An unexplained different rule every day",
+                "An irreversible automatic decision without review",
+                "A clear default with transparent, bounded exceptions",
+                "Secret exceptions for favored applicants"
+              ],
+              "answer_index": 2,
+              "explanation": "A defined exception preserves both guidance and responsiveness."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Legal standard mean?",
+              "choices": [
+                "Specified conditions providing predictable legal protection",
+                "Uncertainty at the margins of general legal language",
+                "Rule requiring context-sensitive judgment",
+                "Authorized remedy shaped by equitable principles"
+              ],
+              "answer_index": 2,
+              "explanation": "Legal standard means rule requiring context-sensitive judgment."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q6",
+              "type": "matching",
+              "prompt": "Match the rule-of-law and discretion concepts.",
+              "pairs": [
+                [
+                  "Open texture",
+                  "Uncertainty at the margins of general legal language"
+                ],
+                [
+                  "Legal standard",
+                  "Rule requiring context-sensitive judgment"
+                ],
+                [
+                  "Equitable relief",
+                  "Authorized remedy shaped by equitable principles"
+                ],
+                [
+                  "Safe harbor",
+                  "Specified conditions providing predictable legal protection"
+                ]
+              ],
+              "explanation": "Predictable rules and contextual standards serve different legal needs."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for uncertainty at the margins of general legal language is ___.",
+              "answer": "Open texture",
+              "accept": [
+                "Open texture"
+              ],
+              "explanation": "The term is Open texture."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for specified conditions providing predictable legal protection is ___.",
+              "answer": "Safe harbor",
+              "accept": [
+                "Safe harbor"
+              ],
+              "explanation": "The term is Safe harbor."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend rule-of-law certainty without legitimizing arbitrary uniformity.",
+          "summary": "Predictable legal form protects against domination, but stable rules can also entrench injustice. Evaluate Fuller, Hart, and interpretivist criticism while designing institutions that combine fair notice with justified change.",
+          "checklist": [
+            "I can evaluate formal legality separately from substantive justice",
+            "I can analyze when open-textured standards create or reduce domination",
+            "I can develop an accountable model of rules, exceptions, and revision"
+          ],
+          "sections": [
+            {
+              "title": "Formal virtues and moral justice can diverge",
+              "body_md": "A public, stable exclusionary law may be easy to follow while treating a minority unjustly. Fuller's conditions illuminate the inner requirements of rule-governed administration, while source-based positivism can acknowledge a law's validity without praising it. Dworkin's interpretivism directs attention to principles that justify the community's legal practice. These theories disagree about the nature of law but need not be caricatured. A doctoral argument should distinguish the legal identification of a rule, its capacity to guide conduct, and whether its substance is morally defensible.",
+              "example": null,
+              "audio_script": "A public, stable exclusionary law may be easy to follow while treating a minority unjustly. Fuller's conditions illuminate the inner requirements of rule-governed administration, while source-based positivism can acknowledge a law's validity without praising it. Dworkin's interpretivism directs attention to principles that justify the community's legal practice. These theories disagree about the nature of law but need not be caricatured. A doctoral argument should distinguish the legal identification of a rule, its capacity to guide conduct, and whether its substance is morally defensible.",
+              "video": null
+            },
+            {
+              "title": "Discretion can protect or dominate",
+              "body_md": "An emergency housing decision might require individualized judgment because needs cannot be reduced to a single formula. Yet unlimited discretion can subject applicants to officials' unexplained preferences. Republican accounts of nondomination expose the danger of dependence on uncontrolled choice. Rules alone may conceal equally severe domination if the rule's design excludes vulnerable people. Compare notice, reason-giving, substantive rights, consistency audits, and accessible appeal. Legitimacy requires examining both which choices the law permits and whose lives they affect.",
+              "example": null,
+              "audio_script": "An emergency housing decision might require individualized judgment because needs cannot be reduced to a single formula. Yet unlimited discretion can subject applicants to officials' unexplained preferences. Republican accounts of nondomination expose the danger of dependence on uncontrolled choice. Rules alone may conceal equally severe domination if the rule's design excludes vulnerable people. Compare notice, reason-giving, substantive rights, consistency audits, and accessible appeal. Legitimacy requires examining both which choices the law permits and whose lives they affect.",
+              "video": null
+            },
+            {
+              "title": "Make adaptation publicly accountable",
+              "body_md": "Propose published default rules, evidence-based exceptions with recorded reasons, periodic review of outcomes, and prospective reform when patterns reveal unfairness. For necessary retroactive corrections, require a clear lawful basis and proportionate protections for reliance. Explain whether the applicable legal order permits the proposed remedy. Test the system for unequal access to exceptions and for compliance costs that exclude disadvantaged persons. A justified balance does not maximize predictability at all costs; it makes departures from expectation intelligible, reviewable, and substantively defensible.",
+              "example": null,
+              "audio_script": "Propose published default rules, evidence-based exceptions with recorded reasons, periodic review of outcomes, and prospective reform when patterns reveal unfairness. For necessary retroactive corrections, require a clear lawful basis and proportionate protections for reliance. Explain whether the applicable legal order permits the proposed remedy. Test the system for unequal access to exceptions and for compliance costs that exclude disadvantaged persons. A justified balance does not maximize predictability at all costs; it makes departures from expectation intelligible, reviewable, and substantively defensible.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q1",
+              "type": "true_false",
+              "prompt": "A perfectly public and predictable rule can still be deeply unjust in what it commands.",
+              "answer": true,
+              "explanation_if_true": "Formal legal virtues and the fairness of the rule's substance are separate assessments.",
+              "explanation_if_false": "Formal legal virtues and the fairness of the rule's substance are separate assessments."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q2",
+              "type": "true_false",
+              "prompt": "Maximum official discretion necessarily produces the fairest result in every case.",
+              "answer": false,
+              "explanation_if_true": "Unexplained discretion can produce unequal treatment and arbitrary power.",
+              "explanation_if_false": "Unexplained discretion can produce unequal treatment and arbitrary power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q3",
+              "type": "multiple_choice",
+              "prompt": "An agency grants exceptions with no written criteria and only to influential applicants. What institutional flaw is central?",
+              "choices": [
+                "An overly stable basic law",
+                "Excessive protection of reliance",
+                "Arbitrary discretion and unequal access",
+                "Too much public notice"
+              ],
+              "answer_index": 2,
+              "explanation": "Justified flexibility needs transparent conditions, access, and review."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What best protects lawful reliance while permitting justified evolution?",
+              "choices": [
+                "Ignoring all claims arising under earlier rules",
+                "Prospective notice, defined exceptions, and accountable revisions",
+                "Daily secret changes",
+                "Unreviewable official whim"
+              ],
+              "answer_index": 1,
+              "explanation": "Citizens need both an understandable present rule and a principled route for change."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Substantive justice mean?",
+              "choices": [
+                "Qualities permitting law to guide conduct predictably",
+                "Moral fairness of a rule's actual content and effects",
+                "Freedom from uncontrolled arbitrary power",
+                "Value of plans made under existing legal expectations"
+              ],
+              "answer_index": 1,
+              "explanation": "Substantive justice means moral fairness of a rule's actual content and effects."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q6",
+              "type": "matching",
+              "prompt": "Match the rule-of-law and discretion concepts.",
+              "pairs": [
+                [
+                  "Formal legality",
+                  "Qualities permitting law to guide conduct predictably"
+                ],
+                [
+                  "Substantive justice",
+                  "Moral fairness of a rule's actual content and effects"
+                ],
+                [
+                  "Nondomination",
+                  "Freedom from uncontrolled arbitrary power"
+                ],
+                [
+                  "Reliance interest",
+                  "Value of plans made under existing legal expectations"
+                ]
+              ],
+              "explanation": "Predictable rules and contextual standards serve different legal needs."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for qualities permitting law to guide conduct predictably is ___.",
+              "answer": "Formal legality",
+              "accept": [
+                "Formal legality"
+              ],
+              "explanation": "The term is Formal legality."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.predictability-vs-flexibility.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for value of plans made under existing legal expectations is ___.",
+              "answer": "Reliance interest",
+              "accept": [
+                "Reliance interest"
+              ],
+              "explanation": "The term is Reliance interest."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

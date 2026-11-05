@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "deference-doctrines",
+      "name": "Deference Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Understand why courts sometimes respect other decision makers.",
+          "summary": "A reviewing court may give weight to an institution's factual knowledge or lawful discretion. Learn why deference is not unlimited obedience.",
+          "checklist": [
+            "I can define deference without confusing it with approval",
+            "I can identify the source of a decision maker's authority",
+            "I can explain why judicial review still matters"
+          ],
+          "sections": [
+            {
+              "title": "Several institutions have different jobs",
+              "body_md": "A public agency may understand technical pollution measurements better than a general court. A legislature may be authorized to choose among competing policies. A judge reviewing their action must identify what the law authorizes each institution to do. Deference means giving legally appropriate respect to an earlier decision or another body's judgment. It does not mean assuming that every agency action is correct or treating expertise as a source of unlimited legal power.",
+              "example": null,
+              "audio_script": "A public agency may understand technical pollution measurements better than a general court. A legislature may be authorized to choose among competing policies. A judge reviewing their action must identify what the law authorizes each institution to do. Deference means giving legally appropriate respect to an earlier decision or another body's judgment. It does not mean assuming that every agency action is correct or treating expertise as a source of unlimited legal power.",
+              "video": null
+            },
+            {
+              "title": "Expertise cannot create a statute",
+              "body_md": "If an agency has no legal authority to impose a particular fee, its technical competence does not supply the missing power. A reviewing court must distinguish an expert assessment of facts from interpretation of legal authority. Different legal systems allocate these questions differently. The first inquiry is always the governing law and what it assigns to the agency, legislature, and court. Deference belongs inside that structure rather than replacing it.",
+              "example": null,
+              "audio_script": "If an agency has no legal authority to impose a particular fee, its technical competence does not supply the missing power. A reviewing court must distinguish an expert assessment of facts from interpretation of legal authority. Different legal systems allocate these questions differently. The first inquiry is always the governing law and what it assigns to the agency, legislature, and court. Deference belongs inside that structure rather than replacing it.",
+              "video": null
+            },
+            {
+              "title": "Respect and correction can coexist",
+              "body_md": "Suppose a regulator selects one of several lawful safety methods after careful evidence review. A court may properly respect that choice under the governing standard while still requiring fair procedure and lawful reasons. If officials ignore required steps or exceed statutory authority, review may provide a remedy. A student should resist both extremes: courts need not second-guess every policy judgment, and public institutions need not be immune from legal accountability.",
+              "example": null,
+              "audio_script": "Suppose a regulator selects one of several lawful safety methods after careful evidence review. A court may properly respect that choice under the governing standard while still requiring fair procedure and lawful reasons. If officials ignore required steps or exceed statutory authority, review may provide a remedy. A student should resist both extremes: courts need not second-guess every policy judgment, and public institutions need not be immune from legal accountability.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Expertise means specialized knowledge relevant to a decision.",
+              "answer": true,
+              "explanation_if_true": "Expertise means specialized knowledge relevant to a decision.",
+              "explanation_if_false": "Expertise means specialized knowledge relevant to a decision."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "When an agency claims expertise, a court must accept every interpretation it offers.",
+              "answer": false,
+              "explanation_if_true": "Expertise operates within legal limits and the applicable review framework.",
+              "explanation_if_false": "Expertise operates within legal limits and the applicable review framework."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Deference?",
+              "choices": [
+                "Court examination of lawfulness under authorized standards",
+                "Legally appropriate respect for another institution's judgment",
+                "Specialized knowledge relevant to a decision",
+                "Grant of defined authority to another institution"
+              ],
+              "answer_index": 1,
+              "explanation": "Deference means legally appropriate respect for another institution's judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency knowledgeable about fisheries imposes a fee no statute authorizes. What must a court examine?",
+              "choices": [
+                "The legal source and limits of authority",
+                "Only whether the agency hired scientists",
+                "Whether the agency is popular",
+                "The color of the fee notice"
+              ],
+              "answer_index": 0,
+              "explanation": "Technical skill does not itself grant coercive legal power."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means grant of defined authority to another institution?",
+              "choices": [
+                "Expertise",
+                "Delegation",
+                "Deference",
+                "Judicial review"
+              ],
+              "answer_index": 1,
+              "explanation": "Delegation means grant of defined authority to another institution."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match the institutional authority concepts.",
+              "pairs": [
+                [
+                  "Deference",
+                  "Legally appropriate respect for another institution's judgment"
+                ],
+                [
+                  "Expertise",
+                  "Specialized knowledge relevant to a decision"
+                ],
+                [
+                  "Delegation",
+                  "Grant of defined authority to another institution"
+                ],
+                [
+                  "Judicial review",
+                  "Court examination of lawfulness under authorized standards"
+                ]
+              ],
+              "explanation": "Deference should not be confused with a grant of legal power."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for legally appropriate respect for another institution's judgment is ___.",
+              "answer": "Deference",
+              "accept": [
+                "Deference"
+              ],
+              "explanation": "The term is Deference."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for court examination of lawfulness under authorized standards is ___.",
+              "answer": "Judicial review",
+              "accept": [
+                "Judicial review"
+              ],
+              "explanation": "The term is Judicial review."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish review of law, fact, and discretion.",
+          "summary": "Courts can respect administrative expertise without surrendering the responsibility to interpret governing law. Learn why different forms of review deserve separate analysis.",
+          "checklist": [
+            "I can distinguish factual expertise from legal authority",
+            "I can identify lawful discretion",
+            "I can explain why a court may correct an unauthorized administrative act"
+          ],
+          "sections": [
+            {
+              "title": "Different decisions call for different judgments",
+              "body_md": "A licensing agency may make technical findings about a machine while also interpreting the statute that grants its power. The court should not treat those tasks as one. A review rule may permit deference to a supported factual conclusion or a choice among authorized options while requiring independent interpretation of an applicable legal rule. Identify the jurisdiction and statute before assuming the standard. The word deference alone cannot tell a lawyer how a particular dispute should be decided.",
+              "example": null,
+              "audio_script": "A licensing agency may make technical findings about a machine while also interpreting the statute that grants its power. The court should not treat those tasks as one. A review rule may permit deference to a supported factual conclusion or a choice among authorized options while requiring independent interpretation of an applicable legal rule. Identify the jurisdiction and statute before assuming the standard. The word deference alone cannot tell a lawyer how a particular dispute should be decided.",
+              "video": null
+            },
+            {
+              "title": "Discretion is bounded by reasons",
+              "body_md": "The legislature may permit an agency to select among several safety measures. It cannot necessarily act on irrelevant considerations or disregard procedural safeguards. Administrative discretion is lawful choice within delegated boundaries. A reviewing court may ask whether the agency stayed within those boundaries rather than substitute its own preferred policy. This distinction supports democratic administration and legal accountability at the same time. A lawyer must identify exactly where authority ends and any unlawful action begins.",
+              "example": null,
+              "audio_script": "The legislature may permit an agency to select among several safety measures. It cannot necessarily act on irrelevant considerations or disregard procedural safeguards. Administrative discretion is lawful choice within delegated boundaries. A reviewing court may ask whether the agency stayed within those boundaries rather than substitute its own preferred policy. This distinction supports democratic administration and legal accountability at the same time. A lawyer must identify exactly where authority ends and any unlawful action begins.",
+              "video": null
+            },
+            {
+              "title": "A court still needs the record",
+              "body_md": "A technically complicated decision can be supported by evidence or based on an unsupported assumption. Even a deferential court may need to examine reasons and the administrative record under governing law. That does not mean every review becomes a fresh evidentiary trial. It means that legal standards for factfinding and procedure remain applicable. A confident regulator's conclusion should not become unchallengeable merely because technical language makes it difficult for ordinary people to question.",
+              "example": null,
+              "audio_script": "A technically complicated decision can be supported by evidence or based on an unsupported assumption. Even a deferential court may need to examine reasons and the administrative record under governing law. That does not mean every review becomes a fresh evidentiary trial. It means that legal standards for factfinding and procedure remain applicable. A confident regulator's conclusion should not become unchallengeable merely because technical language makes it difficult for ordinary people to question.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Factual deference means review respecting specified fact findings.",
+              "answer": true,
+              "explanation_if_true": "Factual deference means review respecting specified fact findings.",
+              "explanation_if_false": "Factual deference means review respecting specified fact findings."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "A legally discretionary decision may be based on any irrelevant or forbidden consideration.",
+              "answer": false,
+              "explanation_if_true": "Discretion is subject to the conferring law and applicable procedural limits.",
+              "explanation_if_false": "Discretion is subject to the conferring law and applicable procedural limits."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Administrative discretion?",
+              "choices": [
+                "Choice within legally authorized limits",
+                "Review respecting specified fact findings",
+                "Determination of enacted law's meaning",
+                "Materials forming an agency decision's basis"
+              ],
+              "answer_index": 0,
+              "explanation": "Administrative discretion means choice within legally authorized limits."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency chooses a permitted technical method but ignores a mandatory hearing. What concern remains?",
+              "choices": [
+                "The method automatically becomes a crime",
+                "Every agency decision is void",
+                "The court must invent a new statute",
+                "Compliance with procedural law"
+              ],
+              "answer_index": 3,
+              "explanation": "Deference to expertise does not eliminate required procedure."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means determination of enacted law's meaning?",
+              "choices": [
+                "Statutory interpretation",
+                "Administrative discretion",
+                "Administrative record",
+                "Factual deference"
+              ],
+              "answer_index": 0,
+              "explanation": "Statutory interpretation means determination of enacted law's meaning."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the institutional authority concepts.",
+              "pairs": [
+                [
+                  "Administrative discretion",
+                  "Choice within legally authorized limits"
+                ],
+                [
+                  "Factual deference",
+                  "Review respecting specified fact findings"
+                ],
+                [
+                  "Statutory interpretation",
+                  "Determination of enacted law's meaning"
+                ],
+                [
+                  "Administrative record",
+                  "Materials forming an agency decision's basis"
+                ]
+              ],
+              "explanation": "Deference should not be confused with a grant of legal power."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for choice within legally authorized limits is ___.",
+              "answer": "Administrative discretion",
+              "accept": [
+                "Administrative discretion"
+              ],
+              "explanation": "The term is Administrative discretion."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for materials forming an agency decision's basis is ___.",
+              "answer": "Administrative record",
+              "accept": [
+                "Administrative record"
+              ],
+              "explanation": "The term is Administrative record."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain the U.S. doctrinal shift from Chevron to Loper Bright.",
+          "summary": "The Supreme Court overruled the Chevron framework in 2024. Analyze the distinction between agency expertise and judicial responsibility to interpret statutes.",
+          "checklist": [
+            "I can state Chevron's historical rule accurately",
+            "I can explain the central holding of Loper Bright",
+            "I can distinguish persuasive agency reasoning from binding deference"
+          ],
+          "sections": [
+            {
+              "title": "Chevron was a particular U.S. doctrine",
+              "body_md": "Under Chevron U.S.A. Inc. v. Natural Resources Defense Council (1984), federal courts sometimes deferred to a reasonable agency interpretation of an ambiguous statute the agency administered, after satisfying the doctrine's prerequisites. The framework concerned statutory interpretation, not a universal command to believe every agency fact or policy. Over time, conditions and exceptions complicated its application. A student must identify this historical doctrine precisely rather than misdescribe it as the rule of every modern administrative system.",
+              "example": null,
+              "audio_script": "Under Chevron U.S.A. Inc. v. Natural Resources Defense Council (1984), federal courts sometimes deferred to a reasonable agency interpretation of an ambiguous statute the agency administered, after satisfying the doctrine's prerequisites. The framework concerned statutory interpretation, not a universal command to believe every agency fact or policy. Over time, conditions and exceptions complicated its application. A student must identify this historical doctrine precisely rather than misdescribe it as the rule of every modern administrative system.",
+              "video": null
+            },
+            {
+              "title": "The Supreme Court changed the law",
+              "body_md": "In Loper Bright Enterprises v. Raimondo, decided June 28, 2024, the U.S. Supreme Court overruled Chevron. It held that the Administrative Procedure Act requires federal courts to exercise independent judgment on statutory meaning rather than defer simply because the text is ambiguous. Agency reasoning may still receive appropriate respect for its expertise and persuasiveness, and statutes may delegate discretionary authority to agencies. The decision did not state that all agency decisions are invalid or automatically reopen all earlier judgments.",
+              "example": null,
+              "audio_script": "In Loper Bright Enterprises v. Raimondo, decided June 28, 2024, the U.S. Supreme Court overruled Chevron. It held that the Administrative Procedure Act requires federal courts to exercise independent judgment on statutory meaning rather than defer simply because the text is ambiguous. Agency reasoning may still receive appropriate respect for its expertise and persuasiveness, and statutes may delegate discretionary authority to agencies. The decision did not state that all agency decisions are invalid or automatically reopen all earlier judgments.",
+              "video": null
+            },
+            {
+              "title": "Apply the current doctrine, not a familiar memory",
+              "body_md": "Suppose a federal agency reads a statute to authorize new fees. Counsel should examine the statute and any lawful delegation, use the governing interpretive method, and evaluate the agency's reasons as potentially persuasive. It would be misleading to argue that Chevron still requires automatic deference to the agency's permissible interpretation of any ambiguity. A comparative lawyer should also avoid exporting Loper Bright to other countries, whose administrative law may assign judicial and executive authority differently.",
+              "example": null,
+              "audio_script": "Suppose a federal agency reads a statute to authorize new fees. Counsel should examine the statute and any lawful delegation, use the governing interpretive method, and evaluate the agency's reasons as potentially persuasive. It would be misleading to argue that Chevron still requires automatic deference to the agency's permissible interpretation of any ambiguity. A comparative lawyer should also avoid exporting Loper Bright to other countries, whose administrative law may assign judicial and executive authority differently.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Loper Bright means 2024 u.s. decision overruling chevron.",
+              "answer": true,
+              "explanation_if_true": "Loper Bright means 2024 u.s. decision overruling chevron.",
+              "explanation_if_false": "Loper Bright means 2024 u.s. decision overruling chevron."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "After Loper Bright, Chevron still requires federal courts to accept any reasonable agency interpretation of ambiguity.",
+              "answer": false,
+              "explanation_if_true": "The Supreme Court overruled Chevron and required independent statutory interpretation under the APA.",
+              "explanation_if_false": "The Supreme Court overruled Chevron and required independent statutory interpretation under the APA."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Chevron deference?",
+              "choices": [
+                "2024 U.S. decision overruling Chevron",
+                "Court's own interpretation of governing law",
+                "Influence based on quality rather than binding command",
+                "Former U.S. framework for qualifying agency statutory interpretations"
+              ],
+              "answer_index": 3,
+              "explanation": "Chevron deference means former u.s. framework for qualifying agency statutory interpretations."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A federal court in 2026 reviews an agency's interpretation of an ambiguous statute. What principle generally applies?",
+              "choices": [
+                "Treat the agency as the legislature",
+                "Ignore every authorized delegation",
+                "Exercise independent judicial judgment under Loper Bright",
+                "Apply Chevron automatically"
+              ],
+              "answer_index": 2,
+              "explanation": "Loper Bright rejects deference solely because of statutory ambiguity."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means court's own interpretation of governing law?",
+              "choices": [
+                "Chevron deference",
+                "Persuasive weight",
+                "Loper Bright",
+                "Independent judgment"
+              ],
+              "answer_index": 3,
+              "explanation": "Independent judgment means court's own interpretation of governing law."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match the institutional authority concepts.",
+              "pairs": [
+                [
+                  "Chevron deference",
+                  "Former U.S. framework for qualifying agency statutory interpretations"
+                ],
+                [
+                  "Loper Bright",
+                  "2024 U.S. decision overruling Chevron"
+                ],
+                [
+                  "Independent judgment",
+                  "Court's own interpretation of governing law"
+                ],
+                [
+                  "Persuasive weight",
+                  "Influence based on quality rather than binding command"
+                ]
+              ],
+              "explanation": "Deference should not be confused with a grant of legal power."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for former u.s. framework for qualifying agency statutory interpretations is ___.",
+              "answer": "Chevron deference",
+              "accept": [
+                "Chevron deference"
+              ],
+              "explanation": "The term is Chevron deference."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for influence based on quality rather than binding command is ___.",
+              "answer": "Persuasive weight",
+              "accept": [
+                "Persuasive weight"
+              ],
+              "explanation": "The term is Persuasive weight."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique deference through democracy, expertise, and rule of law.",
+          "summary": "Administrative decisions combine specialized knowledge with public coercive power. Defend institutional arrangements that use expertise without transferring fundamental legal accountability to unreviewable officials.",
+          "checklist": [
+            "I can compare arguments for and against judicial deference",
+            "I can distinguish legislative delegation from interpretive abdication",
+            "I can design review preserving technical competence and individual rights"
+          ],
+          "sections": [
+            {
+              "title": "Who should interpret the boundaries of power?",
+              "body_md": "A legislature may authorize an expert agency to regulate complex risks, while courts possess a duty to interpret law and protect rights. Deference can respect legislative design and institutional expertise, but may permit an agency to enlarge its own authority through interpretation. Independent review can restrain self-expansion yet may substitute judicial judgment for specialized understanding. A doctoral account should specify which questions belong to whom and why, rather than declaring all agencies or all judges generally superior.",
+              "example": null,
+              "audio_script": "A legislature may authorize an expert agency to regulate complex risks, while courts possess a duty to interpret law and protect rights. Deference can respect legislative design and institutional expertise, but may permit an agency to enlarge its own authority through interpretation. Independent review can restrain self-expansion yet may substitute judicial judgment for specialized understanding. A doctoral account should specify which questions belong to whom and why, rather than declaring all agencies or all judges generally superior.",
+              "video": null
+            },
+            {
+              "title": "Empirical competence and legitimacy differ",
+              "body_md": "Expert predictions about disease or environmental harm may be highly relevant to policy, yet a data model cannot determine whether a statute grants a coercive power. Conversely, legal analysis may identify the grant but lack the evidence needed to choose among technical measures. A legitimate system distinguishes competence over empirical questions from authority over legal meaning. It requires intelligible agency reasons, adequate evidence and judicial scrutiny of legal limits, subject to the constitutional design of the jurisdiction.",
+              "example": null,
+              "audio_script": "Expert predictions about disease or environmental harm may be highly relevant to policy, yet a data model cannot determine whether a statute grants a coercive power. Conversely, legal analysis may identify the grant but lack the evidence needed to choose among technical measures. A legitimate system distinguishes competence over empirical questions from authority over legal meaning. It requires intelligible agency reasons, adequate evidence and judicial scrutiny of legal limits, subject to the constitutional design of the jurisdiction.",
+              "video": null
+            },
+            {
+              "title": "Design an accountable allocation",
+              "body_md": "Propose independent interpretation of legal authorization, respect for supported specialist factfinding, and proportionate review of discretion under the relevant legislation. Include procedural participation, publication of reasons and accessible challenges for people affected by regulation. Explain how the design responds to political capture and to the danger of courts overstepping their own competence. A doctoral defense should identify possible mistakes and the mechanisms for correcting them, because lawful administration exists to protect people rather than institutional prestige.",
+              "example": null,
+              "audio_script": "Propose independent interpretation of legal authorization, respect for supported specialist factfinding, and proportionate review of discretion under the relevant legislation. Include procedural participation, publication of reasons and accessible challenges for people affected by regulation. Explain how the design responds to political capture and to the danger of courts overstepping their own competence. A doctoral defense should identify possible mistakes and the mechanisms for correcting them, because lawful administration exists to protect people rather than institutional prestige.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Democratic delegation means authority conferred by representative legislation.",
+              "answer": true,
+              "explanation_if_true": "Democratic delegation means authority conferred by representative legislation.",
+              "explanation_if_false": "Democratic delegation means authority conferred by representative legislation."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "Every question handled by a specialist agency should be beyond judicial review.",
+              "answer": false,
+              "explanation_if_true": "Expertise does not erase constitutional and statutory limits or procedural rights.",
+              "explanation_if_false": "Expertise does not erase constitutional and statutory limits or procedural rights."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Institutional competence?",
+              "choices": [
+                "Influence distorting a regulator from its public purpose",
+                "Duty to justify determinations of legal meaning",
+                "Capacity to decide a specific kind of question",
+                "Authority conferred by representative legislation"
+              ],
+              "answer_index": 2,
+              "explanation": "Institutional competence means capacity to decide a specific kind of question."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An expert agency determines a risk accurately but claims powers outside its statute. What distinction matters?",
+              "choices": [
+                "A private choice of venue",
+                "Empirical expertise versus legal authorization",
+                "Only the number of agency employees",
+                "The agency's geographic distance"
+              ],
+              "answer_index": 1,
+              "explanation": "Accurate expertise does not itself authorize coercive action."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means influence distorting a regulator from its public purpose?",
+              "choices": [
+                "Interpretive accountability",
+                "Democratic delegation",
+                "Agency capture",
+                "Institutional competence"
+              ],
+              "answer_index": 2,
+              "explanation": "Agency capture means influence distorting a regulator from its public purpose."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match the institutional authority concepts.",
+              "pairs": [
+                [
+                  "Institutional competence",
+                  "Capacity to decide a specific kind of question"
+                ],
+                [
+                  "Democratic delegation",
+                  "Authority conferred by representative legislation"
+                ],
+                [
+                  "Agency capture",
+                  "Influence distorting a regulator from its public purpose"
+                ],
+                [
+                  "Interpretive accountability",
+                  "Duty to justify determinations of legal meaning"
+                ]
+              ],
+              "explanation": "Deference should not be confused with a grant of legal power."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for capacity to decide a specific kind of question is ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.deference-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for duty to justify determinations of legal meaning is ___.",
+              "answer": "Interpretive accountability",
+              "accept": [
+                "Interpretive accountability"
+              ],
+              "explanation": "The term is Interpretive accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

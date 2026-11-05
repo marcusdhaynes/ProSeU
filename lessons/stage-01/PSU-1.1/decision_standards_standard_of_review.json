@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "standard-of-review",
+      "name": "Standard of Review",
+      "levels": {
+        "red": {
+          "focus": "Explain why a reviewing court may not simply replace a trial court's judgment.",
+          "summary": "The standard of review describes how closely a decision is reconsidered. Learn why legal questions, factual findings, and discretionary decisions can be reviewed differently.",
+          "checklist": [
+            "I can identify a standard of review",
+            "I can distinguish an appeal from a new trial",
+            "I can explain the practical effect of deference"
+          ],
+          "sections": [
+            {
+              "title": "Two courts can have different jobs",
+              "body_md": "A trial court hears a witness; an appellate court later reads the transcript. The second court may not be legally permitted to replace a factual finding merely because it would have reached a different conclusion. A standard of review identifies the degree of reconsideration the reviewing institution may undertake. This is distinct from the standard of proof that governed the original decision. One concerns how facts were established; the other how the earlier decision may be challenged.",
+              "audio_script": "A trial court hears a witness; an appellate court later reads the transcript. The second court may not be legally permitted to replace a factual finding merely because it would have reached a different conclusion. A standard of review identifies the degree of reconsideration the reviewing institution may undertake. This is distinct from the standard of proof that governed the original decision. One concerns how facts were established; the other how the earlier decision may be challenged.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Reviewing law and fact",
+              "body_md": "An appeal may involve a dispute over what a statute means, what a witness said, or how a judge used discretion. Each can attract a different review standard under applicable law. A legal question may be assessed afresh in some systems, while certain fact findings receive deference. Do not assume all courts use identical terminology. Begin by identifying the type of alleged error, the reviewing body, and the rule defining its powers.",
+              "audio_script": "An appeal may involve a dispute over what a statute means, what a witness said, or how a judge used discretion. Each can attract a different review standard under applicable law. A legal question may be assessed afresh in some systems, while certain fact findings receive deference. Do not assume all courts use identical terminology. Begin by identifying the type of alleged error, the reviewing body, and the rule defining its powers.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A different preference is not necessarily an error",
+              "body_md": "A reviewing court may dislike a permitted sentencing or case-management decision without being authorized to replace it. Equally, deference does not excuse an error outside lawful discretion. The correct standard protects a division of institutional responsibilities. It provides a disciplined way to ask when an earlier decision should stand and when the law requires correction. A lawyer must explain the applicable test rather than merely request a more sympathetic judge.",
+              "audio_script": "A reviewing court may dislike a permitted sentencing or case-management decision without being authorized to replace it. Equally, deference does not excuse an error outside lawful discretion. The correct standard protects a division of institutional responsibilities. It provides a disciplined way to ask when an earlier decision should stand and when the law requires correction. A lawyer must explain the applicable test rather than merely request a more sympathetic judge.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q1",
+              "type": "true_false",
+              "prompt": "Deference refers to respect accorded to another decision maker's judgment.",
+              "answer": true,
+              "explanation_if_true": "Deference means respect accorded to another decision maker's judgment.",
+              "explanation_if_false": "Deference means respect accorded to another decision maker's judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q2",
+              "type": "true_false",
+              "prompt": "A reviewing court always decides every factual issue afresh without regard to trial proceedings.",
+              "answer": false,
+              "explanation_if_true": "Some factual findings receive deference under applicable review rules.",
+              "explanation_if_false": "Some factual findings receive deference under applicable review rules."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Standard of review?",
+              "choices": [
+                "Conclusion about what happened",
+                "Rule determining how a prior decision is reassessed",
+                "Respect accorded to another decision maker's judgment",
+                "Dispute about the content or interpretation of law"
+              ],
+              "answer_index": 1,
+              "explanation": "Standard of review is rule determining how a prior decision is reassessed."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A judge observed a witness, and the appeal court must respect certain fact findings. What principle is involved?",
+              "choices": [
+                "Deference",
+                "A new original lawsuit",
+                "Automatic strict liability",
+                "A constitutional amendment"
+              ],
+              "answer_index": 0,
+              "explanation": "Review standards allocate responsibility between levels of adjudication."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes dispute about the content or interpretation of law?",
+              "choices": [
+                "Legal question",
+                "Standard of review",
+                "Factual finding",
+                "Deference"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal question is dispute about the content or interpretation of law."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q6",
+              "type": "matching",
+              "prompt": "Match each review concept.",
+              "pairs": [
+                [
+                  "Standard of review",
+                  "Rule determining how a prior decision is reassessed"
+                ],
+                [
+                  "Deference",
+                  "Respect accorded to another decision maker's judgment"
+                ],
+                [
+                  "Legal question",
+                  "Dispute about the content or interpretation of law"
+                ],
+                [
+                  "Factual finding",
+                  "Conclusion about what happened"
+                ]
+              ],
+              "explanation": "Review standards allocate authority and error correction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for rule determining how a prior decision is reassessed is ___.",
+              "answer": "Standard of review",
+              "accept": [
+                "Standard of review"
+              ],
+              "explanation": "The term is Standard of review."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for conclusion about what happened is ___.",
+              "answer": "Factual finding",
+              "accept": [
+                "Factual finding"
+              ],
+              "explanation": "The term is Factual finding."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Differentiate de novo, clear-error, and abuse-of-discretion review.",
+          "summary": "Common-law appellate systems use distinct standards for legal interpretation, factfinding, and discretionary decisions. Learn to match the alleged mistake with the legally relevant standard.",
+          "checklist": [
+            "I can recognize common standards of review",
+            "I can explain why discretionary rulings may receive deference",
+            "I can distinguish these standards from the burden of proof"
+          ],
+          "sections": [
+            {
+              "title": "De novo means decide the question anew",
+              "body_md": "In a system applying de novo review to a legal question, the appellate court generally evaluates the legal issue without deference to the trial court's interpretation. That does not mean the court may invent new facts or disregard controlling law. It means the allocation of interpretive responsibility differs from review of some factual findings. Before requesting de novo review, verify that the jurisdiction and type of order actually authorize it.",
+              "audio_script": "In a system applying de novo review to a legal question, the appellate court generally evaluates the legal issue without deference to the trial court's interpretation. That does not mean the court may invent new facts or disregard controlling law. It means the allocation of interpretive responsibility differs from review of some factual findings. Before requesting de novo review, verify that the jurisdiction and type of order actually authorize it.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Clearly erroneous is a different inquiry",
+              "body_md": "Under a clear-error standard, certain trial findings may stand even where another interpretation of evidence is plausible. The reviewing body asks whether the governing threshold for error is met. The precise formulation and scope depend on the legal system. A litigant should identify the relevant factual finding and explain the record-based defect. It is not enough to repeat a preferred witness account. Institutional proximity to testimony is one reason for differentiated review.",
+              "audio_script": "Under a clear-error standard, certain trial findings may stand even where another interpretation of evidence is plausible. The reviewing body asks whether the governing threshold for error is met. The precise formulation and scope depend on the legal system. A litigant should identify the relevant factual finding and explain the record-based defect. It is not enough to repeat a preferred witness account. Institutional proximity to testimony is one reason for differentiated review.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Discretion is legally bounded",
+              "body_md": "An abuse-of-discretion standard can govern specified case-management or remedial choices. A judge may have several legally permissible options, but a ruling based on an incorrect legal principle or irrelevant consideration may exceed that range. This does not make all discretionary decisions immune from review. Write down the permitted options, the legal constraints, and what the judge actually did. The resulting analysis distinguishes lawful judgment from arbitrary power.",
+              "audio_script": "An abuse-of-discretion standard can govern specified case-management or remedial choices. A judge may have several legally permissible options, but a ruling based on an incorrect legal principle or irrelevant consideration may exceed that range. This does not make all discretionary decisions immune from review. Write down the permitted options, the legal constraints, and what the judge actually did. The resulting analysis distinguishes lawful judgment from arbitrary power.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q1",
+              "type": "true_false",
+              "prompt": "Clear error refers to standard applying deference to specified factual findings.",
+              "answer": true,
+              "explanation_if_true": "Clear error means standard applying deference to specified factual findings.",
+              "explanation_if_false": "Clear error means standard applying deference to specified factual findings."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q2",
+              "type": "true_false",
+              "prompt": "Abuse-of-discretion review means that a reviewing court can never correct a trial judge.",
+              "answer": false,
+              "explanation_if_true": "Discretion is bounded by law and may be abused.",
+              "explanation_if_false": "Discretion is bounded by law and may be abused."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What is De novo?",
+              "choices": [
+                "Review anew without relevant lower-court deference",
+                "Standard applying deference to specified factual findings",
+                "Review of decision within legally bounded choice",
+                "Timely objection permitting later review"
+              ],
+              "answer_index": 0,
+              "explanation": "De novo is review anew without relevant lower-court deference."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A trial judge chooses an option expressly forbidden by law while exercising discretion. What challenge fits?",
+              "choices": [
+                "An unavoidable ruling",
+                "Automatic immunity",
+                "A new statute created by the litigant",
+                "Abuse of discretion or legal error under the governing standard"
+              ],
+              "answer_index": 3,
+              "explanation": "Discretion is not permission to disregard legal constraints."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes review of decision within legally bounded choice?",
+              "choices": [
+                "De novo",
+                "Preservation",
+                "Clear error",
+                "Abuse of discretion"
+              ],
+              "answer_index": 3,
+              "explanation": "Abuse of discretion is review of decision within legally bounded choice."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each review concept.",
+              "pairs": [
+                [
+                  "De novo",
+                  "Review anew without relevant lower-court deference"
+                ],
+                [
+                  "Clear error",
+                  "Standard applying deference to specified factual findings"
+                ],
+                [
+                  "Abuse of discretion",
+                  "Review of decision within legally bounded choice"
+                ],
+                [
+                  "Preservation",
+                  "Timely objection permitting later review"
+                ]
+              ],
+              "explanation": "Review standards allocate authority and error correction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for review anew without relevant lower-court deference is ___.",
+              "answer": "De novo",
+              "accept": [
+                "De novo"
+              ],
+              "explanation": "The term is De novo."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for timely objection permitting later review is ___.",
+              "answer": "Preservation",
+              "accept": [
+                "Preservation"
+              ],
+              "explanation": "The term is Preservation."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze review standards through institutional competence.",
+          "summary": "Differentiated review reflects who can best evaluate evidence, interpret law, and manage proceedings. Evaluate whether those assumptions hold in a modern legal system.",
+          "checklist": [
+            "I can explain institutional reasons for differentiated review",
+            "I can identify circumstances undermining usual deference",
+            "I can connect review standards with error costs"
+          ],
+          "sections": [
+            {
+              "title": "A transcript is not the same as a hearing",
+              "body_md": "A trial judge may observe a witness's responses and the context of testimony. That can support deference to certain credibility findings. Yet impressions of demeanor can be unreliable and subject to bias; recorded evidence may sometimes permit equally strong review. The institutional argument for deference is therefore a hypothesis about competence, not an unquestionable truth. Advanced analysis asks which evidence was available to each decision maker and which error is being alleged.",
+              "audio_script": "A trial judge may observe a witness's responses and the context of testimony. That can support deference to certain credibility findings. Yet impressions of demeanor can be unreliable and subject to bias; recorded evidence may sometimes permit equally strong review. The institutional argument for deference is therefore a hypothesis about competence, not an unquestionable truth. Advanced analysis asks which evidence was available to each decision maker and which error is being alleged.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Uniform law needs appellate authority",
+              "body_md": "When similar legal questions receive inconsistent answers across trial courts, independent appellate interpretation can support predictability. De novo review of specified questions helps an appellate body articulate a rule for lower tribunals. But appellate institutions may be removed from practical administrative realities and factual context. A just review system must identify when uniformity, expertise, and local factfinding should carry weight. The same court may be better at one task and worse at another.",
+              "audio_script": "When similar legal questions receive inconsistent answers across trial courts, independent appellate interpretation can support predictability. De novo review of specified questions helps an appellate body articulate a rule for lower tribunals. But appellate institutions may be removed from practical administrative realities and factual context. A just review system must identify when uniformity, expertise, and local factfinding should carry weight. The same court may be better at one task and worse at another.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Error has a social distribution",
+              "body_md": "A very deferential standard may preserve efficient case management while leaving some erroneous decisions intact. A searching standard may correct more mistakes but encourage appeals and delay relief. Compare these effects across people with different resources and stakes. A lawyer should still apply binding rules as they exist. At a policy level, however, the justification for a standard depends on whether it distributes institutional errors in a defensible way.",
+              "audio_script": "A very deferential standard may preserve efficient case management while leaving some erroneous decisions intact. A searching standard may correct more mistakes but encourage appeals and delay relief. Compare these effects across people with different resources and stakes. A lawyer should still apply binding rules as they exist. At a policy level, however, the justification for a standard depends on whether it distributes institutional errors in a defensible way.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q1",
+              "type": "true_false",
+              "prompt": "Demeanor evidence refers to observations of a witness's behavior while testifying.",
+              "answer": true,
+              "explanation_if_true": "Demeanor evidence means observations of a witness's behavior while testifying.",
+              "explanation_if_false": "Demeanor evidence means observations of a witness's behavior while testifying."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q2",
+              "type": "true_false",
+              "prompt": "A trial judge's live observation of a witness makes factual error impossible.",
+              "answer": false,
+              "explanation_if_true": "Demeanor can be misread and deference is a legal allocation, not infallibility.",
+              "explanation_if_false": "Demeanor can be misread and deference is a legal allocation, not infallibility."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Institutional competence?",
+              "choices": [
+                "Observations of a witness's behavior while testifying",
+                "Consistent legal rules across similar cases",
+                "Harm caused by mistaken adjudication",
+                "Capacity of a body to decide a particular issue well"
+              ],
+              "answer_index": 3,
+              "explanation": "Institutional competence is capacity of a body to decide a particular issue well."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two trial courts disagree about a general legal rule, and appellate review seeks consistency. What value is central?",
+              "choices": [
+                "The cost of printing transcripts",
+                "A claim to private property",
+                "Uniformity",
+                "Only witness demeanor"
+              ],
+              "answer_index": 2,
+              "explanation": "Independent appellate interpretation can produce common guidance."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes consistent legal rules across similar cases?",
+              "choices": [
+                "Error cost",
+                "Demeanor evidence",
+                "Uniformity",
+                "Institutional competence"
+              ],
+              "answer_index": 2,
+              "explanation": "Uniformity is consistent legal rules across similar cases."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q6",
+              "type": "matching",
+              "prompt": "Match each review concept.",
+              "pairs": [
+                [
+                  "Institutional competence",
+                  "Capacity of a body to decide a particular issue well"
+                ],
+                [
+                  "Demeanor evidence",
+                  "Observations of a witness's behavior while testifying"
+                ],
+                [
+                  "Uniformity",
+                  "Consistent legal rules across similar cases"
+                ],
+                [
+                  "Error cost",
+                  "Harm caused by mistaken adjudication"
+                ]
+              ],
+              "explanation": "Review standards allocate authority and error correction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for capacity of a body to decide a particular issue well is ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for harm caused by mistaken adjudication is ___.",
+              "answer": "Error cost",
+              "accept": [
+                "Error cost"
+              ],
+              "explanation": "The term is Error cost."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Justify deference without abandoning accountability.",
+          "summary": "Review standards embed theories of expert authority, democratic legitimacy, and correction. Defend a principled allocation of decisions across institutions under uncertainty.",
+          "checklist": [
+            "I can critique competence-based rationales for deference",
+            "I can evaluate who bears the harms of erroneous review",
+            "I can propose transparent, reviewable standards"
+          ],
+          "sections": [
+            {
+              "title": "Expertise is not a blank check",
+              "body_md": "A specialized tribunal may understand technical facts better than a general appellate court. Yet expertise alone does not justify an unreviewable decision, particularly where rights or institutional bias are implicated. Identify what specific task demands expert judgment and whether alternative safeguards can improve accountability. Deference should be calibrated to a demonstrated institutional advantage, not granted merely because an official holds a title. The doctrinal issue remains what current law prescribes; the normative issue is what it should prescribe.",
+              "audio_script": "A specialized tribunal may understand technical facts better than a general appellate court. Yet expertise alone does not justify an unreviewable decision, particularly where rights or institutional bias are implicated. Identify what specific task demands expert judgment and whether alternative safeguards can improve accountability. Deference should be calibrated to a demonstrated institutional advantage, not granted merely because an official holds a title. The doctrinal issue remains what current law prescribes; the normative issue is what it should prescribe.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Review allocates democratic responsibility",
+              "body_md": "Legislatures may entrust administrative decisions to agencies while courts retain authority to interpret legal boundaries. Changing review intensity redistributes power among elected officials, experts, and judges. A doctoral analysis should examine how each institution can be challenged and whose interests it tends to overlook. Excessive judicial substitution can undermine lawful delegation; excessive deference can permit arbitrary public action. The answer requires a reasoned account of competence and legitimacy, not a slogan about the superiority of one branch.",
+              "audio_script": "Legislatures may entrust administrative decisions to agencies while courts retain authority to interpret legal boundaries. Changing review intensity redistributes power among elected officials, experts, and judges. A doctoral analysis should examine how each institution can be challenged and whose interests it tends to overlook. Excessive judicial substitution can undermine lawful delegation; excessive deference can permit arbitrary public action. The answer requires a reasoned account of competence and legitimacy, not a slogan about the superiority of one branch.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design a standard that can be defended",
+              "body_md": "A rule could provide independent review of statutory authority, restrained review of specialized factual judgments, and searching scrutiny where basic procedural rights were denied, subject to binding law. Justify each distinction and specify evidence of failure that would prompt reform. Measure accuracy, consistency, cost, and actual access to review. A legitimate system respects the work of earlier decision makers while keeping coercive public power answerable to reasons.",
+              "audio_script": "A rule could provide independent review of statutory authority, restrained review of specialized factual judgments, and searching scrutiny where basic procedural rights were denied, subject to binding law. Justify each distinction and specify evidence of failure that would prompt reform. Measure accuracy, consistency, cost, and actual access to review. A legitimate system respects the work of earlier decision makers while keeping coercive public power answerable to reasons.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q1",
+              "type": "true_false",
+              "prompt": "Accountability refers to institutional duty to explain and correct decisions.",
+              "answer": true,
+              "explanation_if_true": "Accountability means institutional duty to explain and correct decisions.",
+              "explanation_if_false": "Accountability means institutional duty to explain and correct decisions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q2",
+              "type": "true_false",
+              "prompt": "Any institution describing itself as expert should receive unlimited judicial deference.",
+              "answer": false,
+              "explanation_if_true": "Expertise is relevant but does not eliminate lawfulness, rights, or accountability.",
+              "explanation_if_false": "Expertise is relevant but does not eliminate lawfulness, rights, or accountability."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What is Expert deference?",
+              "choices": [
+                "Distribution of authority among decision makers",
+                "Degree of scrutiny applied by a reviewing body",
+                "Respect for judgments grounded in specialized competence",
+                "Institutional duty to explain and correct decisions"
+              ],
+              "answer_index": 2,
+              "explanation": "Expert deference is respect for judgments grounded in specialized competence."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An agency claims expertise but uses a power its statute does not confer. What must a reviewing court address?",
+              "choices": [
+                "Whether the officials were elected to the court",
+                "The legal boundary of institutional power",
+                "Only the agency's reputation",
+                "The length of its research reports"
+              ],
+              "answer_index": 1,
+              "explanation": "Expertise does not itself create lawful authority."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes distribution of authority among decision makers?",
+              "choices": [
+                "Accountability",
+                "Institutional allocation",
+                "Expert deference",
+                "Review intensity"
+              ],
+              "answer_index": 1,
+              "explanation": "Institutional allocation is distribution of authority among decision makers."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q6",
+              "type": "matching",
+              "prompt": "Match each review concept.",
+              "pairs": [
+                [
+                  "Expert deference",
+                  "Respect for judgments grounded in specialized competence"
+                ],
+                [
+                  "Accountability",
+                  "Institutional duty to explain and correct decisions"
+                ],
+                [
+                  "Institutional allocation",
+                  "Distribution of authority among decision makers"
+                ],
+                [
+                  "Review intensity",
+                  "Degree of scrutiny applied by a reviewing body"
+                ]
+              ],
+              "explanation": "Review standards allocate authority and error correction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for respect for judgments grounded in specialized competence is ___.",
+              "answer": "Expert deference",
+              "accept": [
+                "Expert deference"
+              ],
+              "explanation": "The term is Expert deference."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-review.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for degree of scrutiny applied by a reviewing body is ___.",
+              "answer": "Review intensity",
+              "accept": [
+                "Review intensity"
+              ],
+              "explanation": "The term is Review intensity."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

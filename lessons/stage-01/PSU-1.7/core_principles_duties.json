@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Understand incentives behind legal obligations",
+          "summary": "Duties can encourage safer behavior by making certain conduct required or prohibited. Learn to distinguish the legal rule from the economic reasons someone might obey it.",
+          "checklist": [
+            "I can identify an obligation and its enforcement consequence",
+            "I can explain a simple incentive",
+            "I can recognize nonfinancial motivations to comply"
+          ],
+          "sections": [
+            {
+              "title": "Rules Change Choices",
+              "body_md": "A building code requires working fire exits. An owner may comply because of inspection penalties, concern for occupants, reputation, or professional responsibility. Economics studies how incentives shape choices, while law determines whether the obligation exists. A legal analyst should not reduce every human motive to money. The key comparison is between what the rule requires and whether its enforcement and surrounding institutions make safe conduct more likely.",
+              "example": null,
+              "audio_script": "A building code requires working fire exits. An owner may comply because of inspection penalties, concern for occupants, reputation, or professional responsibility. Economics studies how incentives shape choices, while law determines whether the obligation exists. A legal analyst should not reduce every human motive to money. The key comparison is between what the rule requires and whether its enforcement and surrounding institutions make safe conduct more likely.",
+              "video": null
+            },
+            {
+              "title": "Prevention May Cost Less Than Repair",
+              "body_md": "A shop can spend money maintaining a stair rail or risk injuring customers and facing legal consequences. The owner should consider the probability and seriousness of harm alongside prevention costs, but the governing legal duty cannot always be determined by this calculation alone. Safety legislation or professional standards may impose mandatory requirements. Economic reasoning helps explain incentives; it does not authorize breaking a binding rule because noncompliance seems cheaper.",
+              "example": null,
+              "audio_script": "A shop can spend money maintaining a stair rail or risk injuring customers and facing legal consequences. The owner should consider the probability and seriousness of harm alongside prevention costs, but the governing legal duty cannot always be determined by this calculation alone. Safety legislation or professional standards may impose mandatory requirements. Economic reasoning helps explain incentives; it does not authorize breaking a binding rule because noncompliance seems cheaper.",
+              "video": null
+            },
+            {
+              "title": "Who Bears the Risk?",
+              "body_md": "If a company can pass all injury costs to customers or neighbors, its private decision may ignore wider harm. Rules assigning responsibility or requiring precautions can change that incentive. A good learner identifies whose conduct creates risk, who suffers if precautions fail, and which institution sets the standard. Law helps organize cooperation by protecting people who may never have entered a voluntary contract with the actor causing danger.",
+              "example": null,
+              "audio_script": "If a company can pass all injury costs to customers or neighbors, its private decision may ignore wider harm. Rules assigning responsibility or requiring precautions can change that incentive. A good learner identifies whose conduct creates risk, who suffers if precautions fail, and which institution sets the standard. Law helps organize cooperation by protecting people who may never have entered a voluntary contract with the actor causing danger.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Prevention cost means resource cost of reducing a risk.",
+              "answer": true,
+              "explanation_if_true": "Prevention cost means resource cost of reducing a risk.",
+              "explanation_if_false": "Prevention cost means resource cost of reducing a risk."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "A business may disregard a mandatory safety statute whenever paying penalties would be cheaper.",
+              "answer": false,
+              "explanation_if_true": "Economic incentives do not remove binding legal obligations.",
+              "explanation_if_false": "Economic incentives do not remove binding legal obligations."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Incentive?",
+              "choices": [
+                "Conduct required under applicable law",
+                "Factor affecting a decision maker's choice",
+                "Resource cost of reducing a risk",
+                "Probability-weighted consequence of a possible injury"
+              ],
+              "answer_index": 1,
+              "explanation": "Incentive means factor affecting a decision maker's choice."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A firm saves money by skipping inspections but imposes danger on customers. What should analysis separate?",
+              "choices": [
+                "Economic incentives from the existing legal duty",
+                "Only the firm's quarterly profit",
+                "Whether customers like the storefront",
+                "The price of office supplies"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal requirements remain operative independently of a private cost calculation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means probability-weighted consequence of a possible injury?",
+              "choices": [
+                "Expected harm",
+                "Incentive",
+                "Legal obligation",
+                "Prevention cost"
+              ],
+              "answer_index": 0,
+              "explanation": "Expected harm means probability-weighted consequence of a possible injury."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Incentive",
+                  "Factor affecting a decision maker's choice"
+                ],
+                [
+                  "Prevention cost",
+                  "Resource cost of reducing a risk"
+                ],
+                [
+                  "Expected harm",
+                  "Probability-weighted consequence of a possible injury"
+                ],
+                [
+                  "Legal obligation",
+                  "Conduct required under applicable law"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Factor affecting a decision maker's choice is called ___.",
+              "answer": "Incentive",
+              "accept": [
+                "Incentive"
+              ],
+              "explanation": "The term is Incentive."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Conduct required under applicable law is called ___.",
+              "answer": "Legal obligation",
+              "accept": [
+                "Legal obligation"
+              ],
+              "explanation": "The term is Legal obligation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze negligence incentives and the cost of accidents",
+          "summary": "Learn a simple expected-harm framework for understanding precautions. Distinguish efficient risk reduction from the legal standard of care imposed by a particular jurisdiction.",
+          "checklist": [
+            "I can calculate a simple probability-weighted harm conceptually",
+            "I can identify when precaution changes expected loss",
+            "I can distinguish economic model from governing negligence law"
+          ],
+          "sections": [
+            {
+              "title": "Probability and Severity Both Matter",
+              "body_md": "A poorly secured ladder has a low chance of falling on any one day, but a severe injury could result. Expected harm combines probability and the magnitude of loss. A reasonable preventive measure might reduce either. The economic question is whether the expected reduction justifies the cost, while the legal question asks whether the governing duty of care requires that measure. These questions may be related but are not always identical. Law can also protect interests that cannot be fully priced.",
+              "example": null,
+              "audio_script": "A poorly secured ladder has a low chance of falling on any one day, but a severe injury could result. Expected harm combines probability and the magnitude of loss. A reasonable preventive measure might reduce either. The economic question is whether the expected reduction justifies the cost, while the legal question asks whether the governing duty of care requires that measure. These questions may be related but are not always identical. Law can also protect interests that cannot be fully priced.",
+              "video": null
+            },
+            {
+              "title": "The Cost of Care Has Limits",
+              "body_md": "The Hand formula, associated with a US negligence decision, compares the burden of precaution with the probability and gravity of loss in a particular doctrinal setting. It is not a universal negligence test used in every country or claim. The formula can make trade-offs clearer, but real cases involve uncertainty about estimates and nonmonetary interests. The lawyer should use it as an analytical aid when applicable law permits, not as a substitute for statutory or judicial standards.",
+              "example": null,
+              "audio_script": "The Hand formula, associated with a US negligence decision, compares the burden of precaution with the probability and gravity of loss in a particular doctrinal setting. It is not a universal negligence test used in every country or claim. The formula can make trade-offs clearer, but real cases involve uncertainty about estimates and nonmonetary interests. The lawyer should use it as an analytical aid when applicable law permits, not as a substitute for statutory or judicial standards.",
+              "video": null
+            },
+            {
+              "title": "Rules May Affect Both Sides",
+              "body_md": "Liability rules can influence how firms prevent accidents and how potential victims take precautions. Comparative fault rules, insurance and information can change those incentives, though their effects depend on actual human behavior and legal design. A simplified economic model should state its assumptions before predicting outcomes. It should also avoid blaming victims merely because they could have taken a costly precaution. Responsibility remains a question of law, evidence and justice.",
+              "example": null,
+              "audio_script": "Liability rules can influence how firms prevent accidents and how potential victims take precautions. Comparative fault rules, insurance and information can change those incentives, though their effects depend on actual human behavior and legal design. A simplified economic model should state its assumptions before predicting outcomes. It should also avoid blaming victims merely because they could have taken a costly precaution. Responsibility remains a question of law, evidence and justice.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Precaution means action intended to reduce risk.",
+              "answer": true,
+              "explanation_if_true": "Precaution means action intended to reduce risk.",
+              "explanation_if_false": "Precaution means action intended to reduce risk."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Hand formula is a universally binding negligence statute in every legal system.",
+              "answer": false,
+              "explanation_if_true": "It is a doctrinal analytical formulation in particular US contexts, not a worldwide rule.",
+              "explanation_if_false": "It is a doctrinal analytical formulation in particular US contexts, not a worldwide rule."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Expected loss?",
+              "choices": [
+                "Probability multiplied by harm magnitude",
+                "Action intended to reduce risk",
+                "US analytical comparison of prevention burden and expected loss",
+                "Rule allocating liability partly by a claimant's conduct"
+              ],
+              "answer_index": 0,
+              "explanation": "Expected loss means probability multiplied by harm magnitude."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "An inspection costs little but prevents a high-probability severe injury. What does the expected-loss model suggest?",
+              "choices": [
+                "Risk is irrelevant",
+                "Every legal system must use the same formula",
+                "The business has no obligation",
+                "The precaution may be economically justified"
+              ],
+              "answer_index": 3,
+              "explanation": "Low prevention cost relative to avoided expected loss can support precaution."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means us analytical comparison of prevention burden and expected loss?",
+              "choices": [
+                "Expected loss",
+                "Comparative fault",
+                "Precaution",
+                "Hand formula"
+              ],
+              "answer_index": 3,
+              "explanation": "Hand formula means us analytical comparison of prevention burden and expected loss."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Expected loss",
+                  "Probability multiplied by harm magnitude"
+                ],
+                [
+                  "Precaution",
+                  "Action intended to reduce risk"
+                ],
+                [
+                  "Hand formula",
+                  "US analytical comparison of prevention burden and expected loss"
+                ],
+                [
+                  "Comparative fault",
+                  "Rule allocating liability partly by a claimant's conduct"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Probability multiplied by harm magnitude is called ___.",
+              "answer": "Expected loss",
+              "accept": [
+                "Expected loss"
+              ],
+              "explanation": "The term is Expected loss."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Rule allocating liability partly by a claimant's conduct is called ___.",
+              "answer": "Comparative fault",
+              "accept": [
+                "Comparative fault"
+              ],
+              "explanation": "The term is Comparative fault."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Examine externalities, principal-agent problems and regulatory compliance",
+          "summary": "Complex institutions can have incentives that diverge from the interests of clients, workers or the public. Analyze how legal duties and monitoring address such problems under real-world constraints.",
+          "checklist": [
+            "I can identify principal-agent misalignment",
+            "I can explain moral hazard in regulated activities",
+            "I can compare liability and regulatory mechanisms"
+          ],
+          "sections": [
+            {
+              "title": "The Agent May Not Share the Principal's Goals",
+              "body_md": "A manager is rewarded for rapid production while owners value long-term safety and customers need reliable products. This is a principal-agent problem: an agent's incentives can diverge from those of the person or institution for whom they act. Contracts, oversight, liability and professional duties may reduce the gap, but none is perfect. A legal analyst must identify the actual duties and authority of each person rather than assuming every organizational mistake is one individual's moral failure.",
+              "example": null,
+              "audio_script": "A manager is rewarded for rapid production while owners value long-term safety and customers need reliable products. This is a principal-agent problem: an agent's incentives can diverge from those of the person or institution for whom they act. Contracts, oversight, liability and professional duties may reduce the gap, but none is perfect. A legal analyst must identify the actual duties and authority of each person rather than assuming every organizational mistake is one individual's moral failure.",
+              "video": null
+            },
+            {
+              "title": "Insurance Can Change Behavior",
+              "body_md": "If an actor expects an insurer or public fund to bear most accident costs, the actor's incentive to take care might weaken. Economists call this potential moral hazard. Insurance arrangements can also support necessary risk-taking and protect victims, so the concept is not an argument against insurance itself. Legal duties, deductibles, monitoring and regulatory standards may affect behavior. The correct analysis examines actual incentives and empirical effects, not a simplistic assumption that insured people act recklessly.",
+              "example": null,
+              "audio_script": "If an actor expects an insurer or public fund to bear most accident costs, the actor's incentive to take care might weaken. Economists call this potential moral hazard. Insurance arrangements can also support necessary risk-taking and protect victims, so the concept is not an argument against insurance itself. Legal duties, deductibles, monitoring and regulatory standards may affect behavior. The correct analysis examines actual incentives and empirical effects, not a simplistic assumption that insured people act recklessly.",
+              "video": null
+            },
+            {
+              "title": "Regulation and Liability Serve Different Roles",
+              "body_md": "A regulator can set preventive standards before harm occurs, while private liability may compensate or deter after a legally recognized injury. Each method has costs: monitoring may be difficult, and litigation can be expensive or uncertain. Hybrid approaches may work better. An advanced analysis considers who possesses information, who can act promptly, who is vulnerable and which institution has lawful authority. The best legal design addresses risk without placing an impossible burden on affected individuals.",
+              "example": null,
+              "audio_script": "A regulator can set preventive standards before harm occurs, while private liability may compensate or deter after a legally recognized injury. Each method has costs: monitoring may be difficult, and litigation can be expensive or uncertain. Hybrid approaches may work better. An advanced analysis considers who possesses information, who can act promptly, who is vulnerable and which institution has lawful authority. The best legal design addresses risk without placing an impossible burden on affected individuals.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Moral hazard means riskier behavior when consequences are shifted elsewhere.",
+              "answer": true,
+              "explanation_if_true": "Moral hazard means riskier behavior when consequences are shifted elsewhere.",
+              "explanation_if_false": "Moral hazard means riskier behavior when consequences are shifted elsewhere."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "Insurance always makes insured people irresponsible, so every insured activity should be prohibited.",
+              "answer": false,
+              "explanation_if_true": "Moral hazard is a possible incentive effect, not a universal description or complete policy conclusion.",
+              "explanation_if_false": "Moral hazard is a possible incentive effect, not a universal description or complete policy conclusion."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Principal-agent problem?",
+              "choices": [
+                "Riskier behavior when consequences are shifted elsewhere",
+                "Adherence to applicable public requirements",
+                "Resource burden of observing and verifying conduct",
+                "Conflict of interests between a decision maker and represented party"
+              ],
+              "answer_index": 3,
+              "explanation": "Principal-agent problem means conflict of interests between a decision maker and represented party."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A manager's bonus depends only on output, not safety. What economic concern appears?",
+              "choices": [
+                "A legal right of first refusal",
+                "A court's jurisdiction",
+                "Principal-agent incentive misalignment",
+                "Perfect information"
+              ],
+              "answer_index": 2,
+              "explanation": "Reward design may misalign the agent's choices with broader institutional and public interests."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means adherence to applicable public requirements?",
+              "choices": [
+                "Monitoring cost",
+                "Moral hazard",
+                "Regulatory compliance",
+                "Principal-agent problem"
+              ],
+              "answer_index": 2,
+              "explanation": "Regulatory compliance means adherence to applicable public requirements."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Principal-agent problem",
+                  "Conflict of interests between a decision maker and represented party"
+                ],
+                [
+                  "Moral hazard",
+                  "Riskier behavior when consequences are shifted elsewhere"
+                ],
+                [
+                  "Regulatory compliance",
+                  "Adherence to applicable public requirements"
+                ],
+                [
+                  "Monitoring cost",
+                  "Resource burden of observing and verifying conduct"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Conflict of interests between a decision maker and represented party is called ___.",
+              "answer": "Principal-agent problem",
+              "accept": [
+                "Principal-agent problem"
+              ],
+              "explanation": "The term is Principal-agent problem."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Resource burden of observing and verifying conduct is called ___.",
+              "answer": "Monitoring cost",
+              "accept": [
+                "Monitoring cost"
+              ],
+              "explanation": "The term is Monitoring cost."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design duty rules that internalize risk without sacrificing fairness",
+          "summary": "At doctoral depth, evaluate whether economic incentives can improve safety while preserving nonnegotiable rights and proportional responsibility. Defend an institutionally realistic mix of rules.",
+          "checklist": [
+            "I can critique purely monetary approaches to duties",
+            "I can design proportionate preventive and remedial incentives",
+            "I can evaluate distribution and accountability of institutional risk"
+          ],
+          "sections": [
+            {
+              "title": "Not Every Harm Has a Market Price",
+              "body_md": "A firm might calculate that paying compensation is cheaper than preventing a certain class of injury. The calculation can help identify incentives, but law may impose nonwaivable duties because lives and dignity cannot be treated as ordinary inventory. A doctoral analysis distinguishes efficiency as a descriptive or policy criterion from the institution's legal authority to enforce safety standards. It must ask who bears the risk, who can prevent it, and whether monetary damages adequately protect affected persons.",
+              "example": null,
+              "audio_script": "A firm might calculate that paying compensation is cheaper than preventing a certain class of injury. The calculation can help identify incentives, but law may impose nonwaivable duties because lives and dignity cannot be treated as ordinary inventory. A doctoral analysis distinguishes efficiency as a descriptive or policy criterion from the institution's legal authority to enforce safety standards. It must ask who bears the risk, who can prevent it, and whether monetary damages adequately protect affected persons.",
+              "video": null
+            },
+            {
+              "title": "Optimal Incentives Depend on Information",
+              "body_md": "A regulator may lack detailed information about every workplace hazard, while firms may have incentives to conceal unsafe practices. Private litigation can uncover some evidence but may miss diffuse harms. An effective scheme could combine mandatory reporting, targeted inspection, proportionate penalties and private remedies where legally appropriate. Each component creates administrative and distributive costs. A doctoral design states assumptions about detection probability, compliance behavior and vulnerability instead of claiming that one perfect penalty solves everything.",
+              "example": null,
+              "audio_script": "A regulator may lack detailed information about every workplace hazard, while firms may have incentives to conceal unsafe practices. Private litigation can uncover some evidence but may miss diffuse harms. An effective scheme could combine mandatory reporting, targeted inspection, proportionate penalties and private remedies where legally appropriate. Each component creates administrative and distributive costs. A doctoral design states assumptions about detection probability, compliance behavior and vulnerability instead of claiming that one perfect penalty solves everything.",
+              "video": null
+            },
+            {
+              "title": "Safety and Justice Are Joint Objectives",
+              "body_md": "A policy that reduces average accident costs could still concentrate danger in low-income neighborhoods or among precarious workers. Evaluation should consider those distributions and protected rights. An institutionally legitimate system needs clear duties, reliable enforcement, opportunities to challenge mistakes and accessible compensation for proven wrongs. Economic analysis is most useful when it makes hidden risks visible while refusing to treat people as expendable variables in an aggregate calculation.",
+              "example": null,
+              "audio_script": "A policy that reduces average accident costs could still concentrate danger in low-income neighborhoods or among precarious workers. Evaluation should consider those distributions and protected rights. An institutionally legitimate system needs clear duties, reliable enforcement, opportunities to challenge mistakes and accessible compensation for proven wrongs. Economic analysis is most useful when it makes hidden risks visible while refusing to treat people as expendable variables in an aggregate calculation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Nonwaivable duty means obligation protected against private exclusion.",
+              "answer": true,
+              "explanation_if_true": "Nonwaivable duty means obligation protected against private exclusion.",
+              "explanation_if_false": "Nonwaivable duty means obligation protected against private exclusion."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "A policy minimizing total monetary expense necessarily protects every person's fundamental rights.",
+              "answer": false,
+              "explanation_if_true": "Distribution, dignity and legal constraints can be neglected by aggregate cost minimization.",
+              "explanation_if_false": "Distribution, dignity and legal constraints can be neglected by aggregate cost minimization."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Internalization?",
+              "choices": [
+                "Chance noncompliance will be identified",
+                "Structure of rules and bodies governing behavior",
+                "Making an actor bear costs their activity imposes",
+                "Obligation protected against private exclusion"
+              ],
+              "answer_index": 2,
+              "explanation": "Internalization means making an actor bear costs their activity imposes."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A firm can cheaply shift safety risks onto vulnerable workers. What legal-economic response deserves study?",
+              "choices": [
+                "Treating injuries as irrelevant",
+                "Duties and enforcement that align risk control with responsibility",
+                "Accepting the cheapest result automatically",
+                "Ignoring worker exposure"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal design should consider control over risks and protection of people who bear them."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means chance noncompliance will be identified?",
+              "choices": [
+                "Nonwaivable duty",
+                "Detection probability",
+                "Internalization",
+                "Institutional design"
+              ],
+              "answer_index": 1,
+              "explanation": "Detection probability means chance noncompliance will be identified."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Internalization",
+                  "Making an actor bear costs their activity imposes"
+                ],
+                [
+                  "Nonwaivable duty",
+                  "Obligation protected against private exclusion"
+                ],
+                [
+                  "Detection probability",
+                  "Chance noncompliance will be identified"
+                ],
+                [
+                  "Institutional design",
+                  "Structure of rules and bodies governing behavior"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "Making an actor bear costs their activity imposes is called ___.",
+              "answer": "Internalization",
+              "accept": [
+                "Internalization"
+              ],
+              "explanation": "The term is Internalization."
+            },
+            {
+              "id": "PSU-1.7.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Structure of rules and bodies governing behavior is called ___.",
+              "answer": "Institutional design",
+              "accept": [
+                "Institutional design"
+              ],
+              "explanation": "The term is Institutional design."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

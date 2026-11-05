@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "standard-of-proof",
+      "name": "Standard of Proof",
+      "levels": {
+        "red": {
+          "focus": "Understand how much evidence the law requires.",
+          "summary": "Who must prove a fact and how convincingly it must be proved are different questions. Learn why civil and criminal proceedings may set different thresholds.",
+          "checklist": [
+            "I can explain what a standard of proof does",
+            "I can recognize common civil and criminal thresholds",
+            "I can distinguish a failed allegation from a proven opposite"
+          ],
+          "sections": [
+            {
+              "title": "A claim needs more than assertion",
+              "body_md": "Two witnesses disagree about an event. A court cannot resolve the conflict merely by counting how strongly they speak. A standard of proof tells the decision maker how persuasive the evidence must be before a proposition is legally established. In many civil systems a balance-of-probabilities test asks whether the proposition is more likely than not. Criminal conviction in many systems requires proof beyond reasonable doubt. Always identify the applicable jurisdiction and claim before selecting a test.",
+              "example": null,
+              "audio_script": "Two witnesses disagree about an event. A court cannot resolve the conflict merely by counting how strongly they speak. A standard of proof tells the decision maker how persuasive the evidence must be before a proposition is legally established. In many civil systems a balance-of-probabilities test asks whether the proposition is more likely than not. Criminal conviction in many systems requires proof beyond reasonable doubt. Always identify the applicable jurisdiction and claim before selecting a test.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty has consequences",
+              "body_md": "Suppose a claimant sues over damaged property but cannot establish who caused it. Failing to satisfy the legal proof threshold ordinarily means failing on that issue when the claimant bears the burden. It does not prove that the other person was incapable of causing the damage. An acquittal similarly may mean that criminal guilt was not sufficiently proved. Legal conclusions reflect specified standards under uncertainty, not scientific guarantees about every event in the past.",
+              "example": null,
+              "audio_script": "Suppose a claimant sues over damaged property but cannot establish who caused it. Failing to satisfy the legal proof threshold ordinarily means failing on that issue when the claimant bears the burden. It does not prove that the other person was incapable of causing the damage. An acquittal similarly may mean that criminal guilt was not sufficiently proved. Legal conclusions reflect specified standards under uncertainty, not scientific guarantees about every event in the past.",
+              "video": null
+            },
+            {
+              "title": "Thresholds protect human interests",
+              "body_md": "A criminal sentence can deprive a person of liberty and public standing, so a demanding threshold protects against wrongful conviction. Civil remedies can involve different consequences and often apply different standards. This does not mean civil decisions are unimportant or that higher standards automatically yield correct outcomes. Evidence must still be relevant and reliable. The ethical task is to explain why the law permits a consequence at its specified degree of assurance.",
+              "example": null,
+              "audio_script": "A criminal sentence can deprive a person of liberty and public standing, so a demanding threshold protects against wrongful conviction. Civil remedies can involve different consequences and often apply different standards. This does not mean civil decisions are unimportant or that higher standards automatically yield correct outcomes. Evidence must still be relevant and reliable. The ethical task is to explain why the law permits a consequence at its specified degree of assurance.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q1",
+              "type": "true_false",
+              "prompt": "Balance of probabilities means civil threshold often described as more likely than not.",
+              "answer": true,
+              "explanation_if_true": "Balance of probabilities means civil threshold often described as more likely than not.",
+              "explanation_if_false": "Balance of probabilities means civil threshold often described as more likely than not."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q2",
+              "type": "true_false",
+              "prompt": "The standard of proof tells us only which party must present evidence.",
+              "answer": false,
+              "explanation_if_true": "Who must prove and how convincingly the issue must be proved are separate questions.",
+              "explanation_if_false": "Who must prove and how convincingly the issue must be proved are separate questions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Standard of proof?",
+              "choices": [
+                "Assignment of responsibility to establish an issue",
+                "Required degree of persuasion",
+                "Civil threshold often described as more likely than not",
+                "Legally significant uncertainty preventing criminal conviction"
+              ],
+              "answer_index": 1,
+              "explanation": "Standard of proof means required degree of persuasion."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A civil court finds that an event is more likely than not under the governing test. Which threshold is met?",
+              "choices": [
+                "Balance of probabilities",
+                "Beyond every imaginable doubt",
+                "Scientific certainty",
+                "Automatic criminal conviction"
+              ],
+              "answer_index": 0,
+              "explanation": "The applicable civil threshold may require a greater likelihood than its alternative."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes legally significant uncertainty preventing criminal conviction?",
+              "choices": [
+                "Reasonable doubt",
+                "Balance of probabilities",
+                "Burden of proof",
+                "Standard of proof"
+              ],
+              "answer_index": 0,
+              "explanation": "Reasonable doubt means legally significant uncertainty preventing criminal conviction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q6",
+              "type": "matching",
+              "prompt": "Match the standards to their meanings.",
+              "pairs": [
+                [
+                  "Standard of proof",
+                  "Required degree of persuasion"
+                ],
+                [
+                  "Balance of probabilities",
+                  "Civil threshold often described as more likely than not"
+                ],
+                [
+                  "Reasonable doubt",
+                  "Legally significant uncertainty preventing criminal conviction"
+                ],
+                [
+                  "Burden of proof",
+                  "Assignment of responsibility to establish an issue"
+                ]
+              ],
+              "explanation": "Different burdens and standards answer different legal questions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q7",
+              "type": "fill_in",
+              "prompt": "Required degree of persuasion is called ___.",
+              "answer": "Standard of proof",
+              "accept": [
+                "Standard of proof"
+              ],
+              "explanation": "The term is Standard of proof."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.red.q8",
+              "type": "fill_in",
+              "prompt": "Assignment of responsibility to establish an issue is called ___.",
+              "answer": "Burden of proof",
+              "accept": [
+                "Burden of proof"
+              ],
+              "explanation": "The term is Burden of proof."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare legally defined proof thresholds.",
+          "summary": "Some legal systems distinguish preponderance, clear-and-convincing evidence, and proof beyond reasonable doubt. Apply each only when the governing law actually authorizes it.",
+          "checklist": [
+            "I can distinguish familiar proof standards",
+            "I can identify when an elevated civil threshold applies",
+            "I can explain what an acquittal does and does not establish"
+          ],
+          "sections": [
+            {
+              "title": "More than one civil test may exist",
+              "body_md": "Many civil claims use a preponderance or balance-of-probabilities standard. Certain proceedings in some jurisdictions demand clear and convincing evidence, a higher degree of assurance but not the criminal test of proof beyond reasonable doubt. These labels do not have identical definitions across the world. A lawyer must locate the relevant statute or precedent and identify which proposition it governs. The seriousness of a case alone does not authorize inventing a special evidentiary threshold.",
+              "example": null,
+              "audio_script": "Many civil claims use a preponderance or balance-of-probabilities standard. Certain proceedings in some jurisdictions demand clear and convincing evidence, a higher degree of assurance but not the criminal test of proof beyond reasonable doubt. These labels do not have identical definitions across the world. A lawyer must locate the relevant statute or precedent and identify which proposition it governs. The seriousness of a case alone does not authorize inventing a special evidentiary threshold.",
+              "video": null
+            },
+            {
+              "title": "Conviction requires lawful persuasion",
+              "body_md": "In a criminal trial applying beyond-reasonable-doubt proof, the prosecution must establish guilt to that demanding standard. An accused person's denial does not itself carry a burden to prove innocence under that framework. The specific treatment of defenses and presumptions remains governed by law. An acquittal means the required guilt finding was not made; it need not assert that the alleged event was scientifically disproved. Counsel should explain this distinction with care to both accused persons and complainants.",
+              "example": null,
+              "audio_script": "In a criminal trial applying beyond-reasonable-doubt proof, the prosecution must establish guilt to that demanding standard. An accused person's denial does not itself carry a burden to prove innocence under that framework. The specific treatment of defenses and presumptions remains governed by law. An acquittal means the required guilt finding was not made; it need not assert that the alleged event was scientifically disproved. Counsel should explain this distinction with care to both accused persons and complainants.",
+              "video": null
+            },
+            {
+              "title": "Proof is not a head count",
+              "body_md": "One authenticated record may be more informative than ten witnesses repeating the same rumor. Credibility, reliability, corroboration, and permissible inference affect the combined evidentiary picture. Standards of proof are not instructions to count exhibits or to assign an exact percentage to every statement. Jurors and judges must evaluate evidence under the legal directions governing their role. A correct result requires both the proper threshold and disciplined attention to what the evidence actually shows.",
+              "example": null,
+              "audio_script": "One authenticated record may be more informative than ten witnesses repeating the same rumor. Credibility, reliability, corroboration, and permissible inference affect the combined evidentiary picture. Standards of proof are not instructions to count exhibits or to assign an exact percentage to every statement. Jurors and judges must evaluate evidence under the legal directions governing their role. A correct result requires both the proper threshold and disciplined attention to what the evidence actually shows.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q1",
+              "type": "true_false",
+              "prompt": "Clear and convincing means heightened civil proof standard used in specified contexts.",
+              "answer": true,
+              "explanation_if_true": "Clear and convincing means heightened civil proof standard used in specified contexts.",
+              "explanation_if_false": "Clear and convincing means heightened civil proof standard used in specified contexts."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q2",
+              "type": "true_false",
+              "prompt": "A criminal acquittal necessarily proves the alleged conduct never happened.",
+              "answer": false,
+              "explanation_if_true": "The prosecution can fail to satisfy the threshold even when factual questions remain unresolved.",
+              "explanation_if_false": "The prosecution can fail to satisfy the threshold even when factual questions remain unresolved."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Preponderance?",
+              "choices": [
+                "Standard commonly requiring greater likelihood than its alternative",
+                "Heightened civil proof standard used in specified contexts",
+                "Demanding criminal proof standard in many systems",
+                "Finding that criminal guilt was not legally established"
+              ],
+              "answer_index": 0,
+              "explanation": "Preponderance means standard commonly requiring greater likelihood than its alternative."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A specified civil proceeding requires stronger evidence than ordinary preponderance. Which standard may be prescribed?",
+              "choices": [
+                "Anything the claimant chooses",
+                "Automatic presumption of guilt",
+                "No evidence at all",
+                "Clear and convincing"
+              ],
+              "answer_index": 3,
+              "explanation": "Some legal systems adopt heightened civil thresholds for particular issues."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes demanding criminal proof standard in many systems?",
+              "choices": [
+                "Clear and convincing",
+                "Acquittal",
+                "Preponderance",
+                "Beyond reasonable doubt"
+              ],
+              "answer_index": 3,
+              "explanation": "Beyond reasonable doubt means demanding criminal proof standard in many systems."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the standards to their meanings.",
+              "pairs": [
+                [
+                  "Preponderance",
+                  "Standard commonly requiring greater likelihood than its alternative"
+                ],
+                [
+                  "Clear and convincing",
+                  "Heightened civil proof standard used in specified contexts"
+                ],
+                [
+                  "Beyond reasonable doubt",
+                  "Demanding criminal proof standard in many systems"
+                ],
+                [
+                  "Acquittal",
+                  "Finding that criminal guilt was not legally established"
+                ]
+              ],
+              "explanation": "Different burdens and standards answer different legal questions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Standard commonly requiring greater likelihood than its alternative is called ___.",
+              "answer": "Preponderance",
+              "accept": [
+                "Preponderance"
+              ],
+              "explanation": "The term is Preponderance."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Finding that criminal guilt was not legally established is called ___.",
+              "answer": "Acquittal",
+              "accept": [
+                "Acquittal"
+              ],
+              "explanation": "The term is Acquittal."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze proof thresholds as decisions about error.",
+          "summary": "Proof standards distribute the risks of wrongful findings and unremedied harm. Compare these costs without pretending that numbers make uncertainty disappear.",
+          "checklist": [
+            "I can explain opposing risks of legal error",
+            "I can distinguish a numerical model from a legal test",
+            "I can evaluate thresholds in different proceedings"
+          ],
+          "sections": [
+            {
+              "title": "Changing the threshold changes the risks",
+              "body_md": "Lowering the threshold for conviction may sanction more actual offenders but increases the chance of convicting innocent people. Raising it better protects against wrongful conviction but may allow more wrongdoing to go unpunished. A legal system must justify how it values both errors, especially where imprisonment or stigma is possible. A sophisticated analysis begins with the binding standard, then separately evaluates whether that allocation of risk is justified by the type of consequence at stake.",
+              "example": null,
+              "audio_script": "Lowering the threshold for conviction may sanction more actual offenders but increases the chance of convicting innocent people. Raising it better protects against wrongful conviction but may allow more wrongdoing to go unpunished. A legal system must justify how it values both errors, especially where imprisonment or stigma is possible. A sophisticated analysis begins with the binding standard, then separately evaluates whether that allocation of risk is justified by the type of consequence at stake.",
+              "video": null
+            },
+            {
+              "title": "A percentage is not a verdict",
+              "body_md": "Probability models can help explain uncertainty, but evidence may be correlated, incomplete, or distorted by an unreliable baseline. A court is not ordinarily required to calculate a numerical posterior for every witness and document. Nor does a juror's confident belief make a conclusion objectively true. The standard of proof is a legal rule about justified decision-making, not an algorithm that guarantees factual accuracy. Distinguish the empirical strength of the evidence from the normative threshold the law sets.",
+              "example": null,
+              "audio_script": "Probability models can help explain uncertainty, but evidence may be correlated, incomplete, or distorted by an unreliable baseline. A court is not ordinarily required to calculate a numerical posterior for every witness and document. Nor does a juror's confident belief make a conclusion objectively true. The standard of proof is a legal rule about justified decision-making, not an algorithm that guarantees factual accuracy. Distinguish the empirical strength of the evidence from the normative threshold the law sets.",
+              "video": null
+            },
+            {
+              "title": "Different consequences justify comparison",
+              "body_md": "A modest debt order, compulsory loss of parental rights, and criminal imprisonment can threaten people in different ways. Some jurisdictions select special standards for specified high-stakes proceedings. An advanced lawyer should explain the exact legal source before invoking a threshold and should assess the kind of error it seeks to avoid. If evidence is inadequate, the answer must reflect that uncertainty rather than quietly substitute a personal policy preference for the governing rule.",
+              "example": null,
+              "audio_script": "A modest debt order, compulsory loss of parental rights, and criminal imprisonment can threaten people in different ways. Some jurisdictions select special standards for specified high-stakes proceedings. An advanced lawyer should explain the exact legal source before invoking a threshold and should assess the kind of error it seeks to avoid. If evidence is inadequate, the answer must reflect that uncertainty rather than quietly substitute a personal policy preference for the governing rule.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q1",
+              "type": "true_false",
+              "prompt": "False acquittal means failure to convict despite actual guilt.",
+              "answer": true,
+              "explanation_if_true": "False acquittal means failure to convict despite actual guilt.",
+              "explanation_if_false": "False acquittal means failure to convict despite actual guilt."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q2",
+              "type": "true_false",
+              "prompt": "A threshold eliminates the possibility of erroneous verdicts once it is correctly applied.",
+              "answer": false,
+              "explanation_if_true": "A rule may regulate decisions under uncertainty without eliminating mistaken inferences.",
+              "explanation_if_false": "A rule may regulate decisions under uncertainty without eliminating mistaken inferences."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits False conviction?",
+              "choices": [
+                "Failure to convict despite actual guilt",
+                "Minimum assurance needed for a decision",
+                "Harm arising from a mistaken legal outcome",
+                "Mistaken determination of criminal guilt"
+              ],
+              "answer_index": 3,
+              "explanation": "False conviction means mistaken determination of criminal guilt."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A legislature raises the criminal proof threshold. What trade-off can result?",
+              "choices": [
+                "Guaranteed truthful testimony",
+                "No impact on outcomes",
+                "Fewer wrongful convictions but potentially more wrongful acquittals",
+                "Elimination of every mistake"
+              ],
+              "answer_index": 2,
+              "explanation": "Higher assurance requirements allocate errors differently, not eliminate them."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes minimum assurance needed for a decision?",
+              "choices": [
+                "Error cost",
+                "False conviction",
+                "Decision threshold",
+                "False acquittal"
+              ],
+              "answer_index": 2,
+              "explanation": "Decision threshold means minimum assurance needed for a decision."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q6",
+              "type": "matching",
+              "prompt": "Match the standards to their meanings.",
+              "pairs": [
+                [
+                  "False conviction",
+                  "Mistaken determination of criminal guilt"
+                ],
+                [
+                  "False acquittal",
+                  "Failure to convict despite actual guilt"
+                ],
+                [
+                  "Decision threshold",
+                  "Minimum assurance needed for a decision"
+                ],
+                [
+                  "Error cost",
+                  "Harm arising from a mistaken legal outcome"
+                ]
+              ],
+              "explanation": "Different burdens and standards answer different legal questions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q7",
+              "type": "fill_in",
+              "prompt": "Mistaken determination of criminal guilt is called ___.",
+              "answer": "False conviction",
+              "accept": [
+                "False conviction"
+              ],
+              "explanation": "The term is False conviction."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.orange.q8",
+              "type": "fill_in",
+              "prompt": "Harm arising from a mistaken legal outcome is called ___.",
+              "answer": "Error cost",
+              "accept": [
+                "Error cost"
+              ],
+              "explanation": "The term is Error cost."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend proof standards as constraints on state coercion.",
+          "summary": "Evidence supports conclusions, but it cannot alone determine the morally tolerable risk of an unjust judgment. Explain why legitimacy also depends on fair procedure and accountable institutions.",
+          "checklist": [
+            "I can critique purely numeric accounts of legal proof",
+            "I can justify thresholds in light of the stakes",
+            "I can propose safeguards against systematic evidence error"
+          ],
+          "sections": [
+            {
+              "title": "Certainty cannot be legislated",
+              "body_md": "Imagine an algorithm assigns an eighty percent likelihood of guilt. Even if the estimate is well calibrated, it cannot tell us whether the state may lawfully imprison someone at that level of risk. A legal threshold embodies normative choices about wrongful punishment, victim protection, and the value of liberty. A doctoral account should separate empirical confidence from the authority to impose a consequence. It should also confront competing approaches to evidence, including probabilistic models and nonquantitative legal reasoning.",
+              "example": null,
+              "audio_script": "Imagine an algorithm assigns an eighty percent likelihood of guilt. Even if the estimate is well calibrated, it cannot tell us whether the state may lawfully imprison someone at that level of risk. A legal threshold embodies normative choices about wrongful punishment, victim protection, and the value of liberty. A doctoral account should separate empirical confidence from the authority to impose a consequence. It should also confront competing approaches to evidence, including probabilistic models and nonquantitative legal reasoning.",
+              "video": null
+            },
+            {
+              "title": "Uniform standards may produce unequal error",
+              "body_md": "The same proof threshold can yield different outcomes if witness identification, investigative resources, or forensic processes have systematically unequal reliability. A formally neutral rule does not automatically correct biased collection or interpretation of evidence. Consider opportunities for challenge, disclosure of methods, independent evaluation, and access to competent representation. A reform should examine actual error rates and the people who bear those errors, rather than merely relabel the standard or announce that every witness has equal value.",
+              "example": null,
+              "audio_script": "The same proof threshold can yield different outcomes if witness identification, investigative resources, or forensic processes have systematically unequal reliability. A formally neutral rule does not automatically correct biased collection or interpretation of evidence. Consider opportunities for challenge, disclosure of methods, independent evaluation, and access to competent representation. A reform should examine actual error rates and the people who bear those errors, rather than merely relabel the standard or announce that every witness has equal value.",
+              "video": null
+            },
+            {
+              "title": "Require reasons, correction, and restraint",
+              "body_md": "A defensible proof system combines a publicly justified threshold with reliable factfinding and meaningful opportunities to challenge error. Specify the consequence at stake, the allocated burden, the relevant record, and safeguards protecting affected persons. Separate current binding law from your preferred reform. The normative claim should be clear enough that someone facing an unfavorable result can understand why coercion was permitted, and how an important mistake may be corrected.",
+              "example": null,
+              "audio_script": "A defensible proof system combines a publicly justified threshold with reliable factfinding and meaningful opportunities to challenge error. Specify the consequence at stake, the allocated burden, the relevant record, and safeguards protecting affected persons. Separate current binding law from your preferred reform. The normative claim should be clear enough that someone facing an unfavorable result can understand why coercion was permitted, and how an important mistake may be corrected.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q1",
+              "type": "true_false",
+              "prompt": "Coercive risk means risk of unjustified state-backed consequence.",
+              "answer": true,
+              "explanation_if_true": "Coercive risk means risk of unjustified state-backed consequence.",
+              "explanation_if_false": "Coercive risk means risk of unjustified state-backed consequence."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q2",
+              "type": "true_false",
+              "prompt": "A predictive number alone determines the moral permissibility of any legal punishment.",
+              "answer": false,
+              "explanation_if_true": "Authorized coercion also depends on legal rights, error costs, and procedures.",
+              "explanation_if_false": "Authorized coercion also depends on legal rights, error costs, and procedures."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Epistemic justification?",
+              "choices": [
+                "Agreement between expressed confidence and actual accuracy",
+                "Justification for the authority of a legal finding",
+                "Reasoned grounds for believing an assertion",
+                "Risk of unjustified state-backed consequence"
+              ],
+              "answer_index": 2,
+              "explanation": "Epistemic justification means reasoned grounds for believing an assertion."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Two algorithms report equal accuracy but the proposed criminal sentence is severe. What issue remains?",
+              "choices": [
+                "Only the number of samples",
+                "Whether coercion is justified at the available certainty",
+                "The model's icon",
+                "The colour of the courtroom"
+              ],
+              "answer_index": 1,
+              "explanation": "Accuracy and the moral threshold for punishment are distinct judgments."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term describes agreement between expressed confidence and actual accuracy?",
+              "choices": [
+                "Epistemic justification",
+                "Calibration",
+                "Coercive risk",
+                "Verdict legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Calibration means agreement between expressed confidence and actual accuracy."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q6",
+              "type": "matching",
+              "prompt": "Match the standards to their meanings.",
+              "pairs": [
+                [
+                  "Epistemic justification",
+                  "Reasoned grounds for believing an assertion"
+                ],
+                [
+                  "Coercive risk",
+                  "Risk of unjustified state-backed consequence"
+                ],
+                [
+                  "Calibration",
+                  "Agreement between expressed confidence and actual accuracy"
+                ],
+                [
+                  "Verdict legitimacy",
+                  "Justification for the authority of a legal finding"
+                ]
+              ],
+              "explanation": "Different burdens and standards answer different legal questions."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q7",
+              "type": "fill_in",
+              "prompt": "Reasoned grounds for believing an assertion is called ___.",
+              "answer": "Epistemic justification",
+              "accept": [
+                "Epistemic justification"
+              ],
+              "explanation": "The term is Epistemic justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.standard-of-proof.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification for the authority of a legal finding is called ___.",
+              "answer": "Verdict legitimacy",
+              "accept": [
+                "Verdict legitimacy"
+              ],
+              "explanation": "The term is Verdict legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

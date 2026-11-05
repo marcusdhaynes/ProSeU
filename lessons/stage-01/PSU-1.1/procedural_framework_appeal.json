@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "appeal-and-review",
+      "name": "Appeal and Review",
+      "levels": {
+        "red": {
+          "focus": "Understand how a judgment can be reviewed.",
+          "summary": "Courts can err about facts, rules, or process. An appeal offers a regulated challenge, not an automatic new trial.",
+          "checklist": [
+            "I can distinguish legal error from factual error",
+            "I can identify the purpose of an appeal",
+            "I can explain why finality and correction both matter"
+          ],
+          "sections": [
+            {
+              "title": "An error deserves an answer",
+              "body_md": "A tribunal decides a licensing dispute using a repealed statute. The losing party may have a right to ask an authorized body to review that error. An appeal must ordinarily satisfy deadlines, jurisdiction, and permitted grounds. It is not a general request to begin the dispute again. The court may affirm the decision, correct it, or send it back for further consideration, depending on the governing law.",
+              "audio_script": "A tribunal decides a licensing dispute using a repealed statute. The losing party may have a right to ask an authorized body to review that error. An appeal must ordinarily satisfy deadlines, jurisdiction, and permitted grounds. It is not a general request to begin the dispute again. The court may affirm the decision, correct it, or send it back for further consideration, depending on the governing law.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Different questions require different review",
+              "body_md": "A witness may be wrong about a date, or the judge may be wrong about the legal test. The first presents a factual question; the second a legal one. Appellate courts often treat them differently because a trial decision maker may have heard the witnesses directly. Not every appeal permits new evidence. Identify what the earlier court decided and what the reviewing court is actually authorized to reconsider.",
+              "audio_script": "A witness may be wrong about a date, or the judge may be wrong about the legal test. The first presents a factual question; the second a legal one. Appellate courts often treat them differently because a trial decision maker may have heard the witnesses directly. Not every appeal permits new evidence. Identify what the earlier court decided and what the reviewing court is actually authorized to reconsider.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Correction cannot go on forever",
+              "body_md": "Without review, serious mistakes can destroy a person's home or freedom. Without finality, disputes may never end, making it impossible to plan a life around legal decisions. Appeals balance those values through procedural rules. A responsible lawyer must state the likely benefits, costs, deadlines, and chance of failure. The client's hope for justice should be respected, but never exploited through false promises of a guaranteed reversal.",
+              "audio_script": "Without review, serious mistakes can destroy a person's home or freedom. Without finality, disputes may never end, making it impossible to plan a life around legal decisions. Appeals balance those values through procedural rules. A responsible lawyer must state the likely benefits, costs, deadlines, and chance of failure. The client's hope for justice should be respected, but never exploited through false promises of a guaranteed reversal.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q1",
+              "type": "true_false",
+              "prompt": "Legal error means mistake concerning an applicable rule.",
+              "answer": true,
+              "explanation_if_true": "Legal error is mistake concerning an applicable rule.",
+              "explanation_if_false": "Legal error is mistake concerning an applicable rule."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q2",
+              "type": "true_false",
+              "prompt": "An appeal always grants a second complete trial with all new evidence.",
+              "answer": false,
+              "explanation_if_true": "Its scope depends on law, forum, record and permitted grounds.",
+              "explanation_if_false": "Its scope depends on law, forum, record and permitted grounds."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Appeal mean?",
+              "choices": [
+                "Legal closure of a dispute",
+                "Authorized challenge to a legal decision",
+                "Mistake concerning an applicable rule",
+                "Mistake about events or evidence"
+              ],
+              "answer_index": 1,
+              "explanation": "Appeal means authorized challenge to a legal decision."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A trial judge used an expired statute and the reviewing court sends the case back. What happened?",
+              "choices": [
+                "Correction of legal error",
+                "Automatic proof that all witnesses lied",
+                "A new contract was made",
+                "The claimant waived every legal right"
+              ],
+              "answer_index": 0,
+              "explanation": "Review can correct a legal mistake without redoing every factual issue."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means mistake about events or evidence?",
+              "choices": [
+                "Factual error",
+                "Appeal",
+                "Finality",
+                "Legal error"
+              ],
+              "answer_index": 0,
+              "explanation": "Factual error is mistake about events or evidence."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q6",
+              "type": "matching",
+              "prompt": "Match each appeal concept.",
+              "pairs": [
+                [
+                  "Appeal",
+                  "Authorized challenge to a legal decision"
+                ],
+                [
+                  "Legal error",
+                  "Mistake concerning an applicable rule"
+                ],
+                [
+                  "Factual error",
+                  "Mistake about events or evidence"
+                ],
+                [
+                  "Finality",
+                  "Legal closure of a dispute"
+                ]
+              ],
+              "explanation": "Review depends on legal grounds and authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for authorized challenge to a legal decision is ___.",
+              "answer": "Appeal",
+              "accept": [
+                "Appeal"
+              ],
+              "explanation": "The answer is Appeal."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal closure of a dispute is ___.",
+              "answer": "Finality",
+              "accept": [
+                "Finality"
+              ],
+              "explanation": "The answer is Finality."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply standards of appellate review.",
+          "summary": "Appellate bodies may review legal rules afresh while deferring to specified factual findings. Learn why timely objections and material error matter.",
+          "checklist": [
+            "I can distinguish fresh and deferential review",
+            "I can explain preservation of error",
+            "I can recognize harmless-error analysis"
+          ],
+          "sections": [
+            {
+              "title": "Standards describe the reviewing role",
+              "body_md": "A court may review legal interpretation de novo, or afresh, while reviewing certain factual findings for clear error. Discretionary trial rulings may face abuse-of-discretion review. These standards are common in some systems but not uniform worldwide. Each reflects a judgment about which institution is best placed to decide a question. A persuasive appeal identifies the correct standard first and then explains why the challenged decision fails that standard.",
+              "audio_script": "A court may review legal interpretation de novo, or afresh, while reviewing certain factual findings for clear error. Discretionary trial rulings may face abuse-of-discretion review. These standards are common in some systems but not uniform worldwide. Each reflects a judgment about which institution is best placed to decide a question. A persuasive appeal identifies the correct standard first and then explains why the challenged decision fails that standard.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Objections must sometimes be preserved",
+              "body_md": "Some jurisdictions require parties to object in the earlier proceeding so that a judge can correct a mistake. Failure to raise a point may limit later review, subject to exceptions. The appellate record should therefore document the challenged ruling, the precise legal objection, and relevant evidence. An appeal based on memory alone can be misleading. Accurate preservation protects the client and prevents a reviewing court from being asked to decide an issue never properly presented below.",
+              "audio_script": "Some jurisdictions require parties to object in the earlier proceeding so that a judge can correct a mistake. Failure to raise a point may limit later review, subject to exceptions. The appellate record should therefore document the challenged ruling, the precise legal objection, and relevant evidence. An appeal based on memory alone can be misleading. Accurate preservation protects the client and prevents a reviewing court from being asked to decide an issue never properly presented below.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Errors differ in consequence",
+              "body_md": "A procedural mistake may occur without affecting the result. Some legal systems treat certain defects as harmless under a specified test, while others require a remedy without an ordinary prejudice inquiry. A lawyer should identify the error, the governing threshold, and its legal effect. Never assume that any imperfection mandates reversal, or that a state can ignore serious violations by calling them harmless. Appellate reasoning must give reasons for the distinction.",
+              "audio_script": "A procedural mistake may occur without affecting the result. Some legal systems treat certain defects as harmless under a specified test, while others require a remedy without an ordinary prejudice inquiry. A lawyer should identify the error, the governing threshold, and its legal effect. Never assume that any imperfection mandates reversal, or that a state can ignore serious violations by calling them harmless. Appellate reasoning must give reasons for the distinction.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q1",
+              "type": "true_false",
+              "prompt": "Clear error means review threshold for certain fact findings.",
+              "answer": true,
+              "explanation_if_true": "Clear error is review threshold for certain fact findings.",
+              "explanation_if_false": "Clear error is review threshold for certain fact findings."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every trial-level error, even one that could not matter, necessarily requires reversal.",
+              "answer": false,
+              "explanation_if_true": "Applicable review standards distinguish material, harmless, and other categories of error.",
+              "explanation_if_false": "Applicable review standards distinguish material, harmless, and other categories of error."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "What does De novo review mean?",
+              "choices": [
+                "Fresh examination without deference",
+                "Review threshold for certain fact findings",
+                "Timely objection supporting later review",
+                "Mistake not requiring relief under the governing rule"
+              ],
+              "answer_index": 0,
+              "explanation": "De novo review means fresh examination without deference."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A judge misstates an irrelevant date without affecting the result. What doctrine may matter?",
+              "choices": [
+                "An automatic claim for damages",
+                "A new source of jurisdiction",
+                "A mandatory change of judge",
+                "Harmless error"
+              ],
+              "answer_index": 3,
+              "explanation": "Review may consider whether the mistake had a legally significant effect."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means timely objection supporting later review?",
+              "choices": [
+                "De novo review",
+                "Harmless error",
+                "Clear error",
+                "Preservation"
+              ],
+              "answer_index": 3,
+              "explanation": "Preservation is timely objection supporting later review."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each appeal concept.",
+              "pairs": [
+                [
+                  "De novo review",
+                  "Fresh examination without deference"
+                ],
+                [
+                  "Clear error",
+                  "Review threshold for certain fact findings"
+                ],
+                [
+                  "Preservation",
+                  "Timely objection supporting later review"
+                ],
+                [
+                  "Harmless error",
+                  "Mistake not requiring relief under the governing rule"
+                ]
+              ],
+              "explanation": "Review depends on legal grounds and authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for fresh examination without deference is ___.",
+              "answer": "De novo review",
+              "accept": [
+                "De novo review"
+              ],
+              "explanation": "The answer is De novo review."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for mistake not requiring relief under the governing rule is ___.",
+              "answer": "Harmless error",
+              "accept": [
+                "Harmless error"
+              ],
+              "explanation": "The answer is Harmless error."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Build a record-grounded appellate argument.",
+          "summary": "An appeal needs a specific legal error, a controlling review standard, and an authorized remedy. It also needs discipline about facts the record actually supports.",
+          "checklist": [
+            "I can identify what belongs in the record on appeal",
+            "I can prioritize outcome-determinative mistakes",
+            "I can distinguish reversal from remand"
+          ],
+          "sections": [
+            {
+              "title": "Use the record instead of revising history",
+              "body_md": "Reviewing bodies commonly work from pleadings, exhibits, transcripts, and orders from earlier proceedings. New evidence may be excluded unless a separate legal route permits it. A lawyer must not assert facts missing from the authorized record as though they were proved. Identify the decision challenged, the source of the relevant rule, and the location in the record supporting each claim. This approach makes error correction reliable rather than rhetorical.",
+              "audio_script": "Reviewing bodies commonly work from pleadings, exhibits, transcripts, and orders from earlier proceedings. New evidence may be excluded unless a separate legal route permits it. A lawyer must not assert facts missing from the authorized record as though they were proved. Identify the decision challenged, the source of the relevant rule, and the location in the record supporting each claim. This approach makes error correction reliable rather than rhetorical.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Choose the strongest ground",
+              "body_md": "A judgment may contain several questionable phrases but only one legal mistake capable of changing the outcome. An effective appellate brief identifies that mistake, names the standard of review, applies authoritative law, and confronts the strongest counterargument. Unsupported claims of systemic injustice can distract from a legally decisive error. Candor includes acknowledging adverse facts and controlling authority where required. A compelling argument earns credibility by using no more claims than the record can support.",
+              "audio_script": "A judgment may contain several questionable phrases but only one legal mistake capable of changing the outcome. An effective appellate brief identifies that mistake, names the standard of review, applies authoritative law, and confronts the strongest counterargument. Unsupported claims of systemic injustice can distract from a legally decisive error. Candor includes acknowledging adverse facts and controlling authority where required. A compelling argument earns credibility by using no more claims than the record can support.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Request a remedy within power",
+              "body_md": "A reviewing court may reverse and remand a case for new factfinding instead of entering its own factual verdict. Other cases permit modification or a final substituted disposition. The available remedy depends on law and institutional role. A lawyer should explain why the requested result follows from the identified error, not merely why the earlier judgment was disappointing. This respects the client's interest in a remedy that can actually be obtained.",
+              "audio_script": "A reviewing court may reverse and remand a case for new factfinding instead of entering its own factual verdict. Other cases permit modification or a final substituted disposition. The available remedy depends on law and institutional role. A lawyer should explain why the requested result follows from the identified error, not merely why the earlier judgment was disappointing. This respects the client's interest in a remedy that can actually be obtained.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q1",
+              "type": "true_false",
+              "prompt": "Material error means mistake affecting the legal outcome.",
+              "answer": true,
+              "explanation_if_true": "Material error is mistake affecting the legal outcome.",
+              "explanation_if_false": "Material error is mistake affecting the legal outcome."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q2",
+              "type": "true_false",
+              "prompt": "A lawyer may invent additional facts on appeal to improve an otherwise weak claim.",
+              "answer": false,
+              "explanation_if_true": "Appellate argument must be grounded in materials and procedures the reviewing court may lawfully consider.",
+              "explanation_if_false": "Appellate argument must be grounded in materials and procedures the reviewing court may lawfully consider."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Record on appeal mean?",
+              "choices": [
+                "Mistake affecting the legal outcome",
+                "Return of a case for further proceedings",
+                "Setting aside a decision on lawful grounds",
+                "Materials legally available to a reviewing court"
+              ],
+              "answer_index": 3,
+              "explanation": "Record on appeal means materials legally available to a reviewing court."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A reviewing court finds a legal error but further factfinding is needed. Which outcome may be appropriate?",
+              "choices": [
+                "Judicial creation of a new statute",
+                "Finding all contested facts without a record",
+                "Reversal and remand",
+                "Automatic criminal conviction"
+              ],
+              "answer_index": 2,
+              "explanation": "Remand permits the authorized factfinder to complete the decision."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means return of a case for further proceedings?",
+              "choices": [
+                "Reversal",
+                "Material error",
+                "Remand",
+                "Record on appeal"
+              ],
+              "answer_index": 2,
+              "explanation": "Remand is return of a case for further proceedings."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q6",
+              "type": "matching",
+              "prompt": "Match each appeal concept.",
+              "pairs": [
+                [
+                  "Record on appeal",
+                  "Materials legally available to a reviewing court"
+                ],
+                [
+                  "Material error",
+                  "Mistake affecting the legal outcome"
+                ],
+                [
+                  "Remand",
+                  "Return of a case for further proceedings"
+                ],
+                [
+                  "Reversal",
+                  "Setting aside a decision on lawful grounds"
+                ]
+              ],
+              "explanation": "Review depends on legal grounds and authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for materials legally available to a reviewing court is ___.",
+              "answer": "Record on appeal",
+              "accept": [
+                "Record on appeal"
+              ],
+              "explanation": "The answer is Record on appeal."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for setting aside a decision on lawful grounds is ___.",
+              "answer": "Reversal",
+              "accept": [
+                "Reversal"
+              ],
+              "explanation": "The answer is Reversal."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Balance the legitimacy of finality against profound injustice.",
+          "summary": "An unlimited appellate system can prolong disputes, but severe limits may protect wrongful decisions. Defend a framework for review that is accurate, affordable, and accountable.",
+          "checklist": [
+            "I can compare harms from excessive and inadequate review",
+            "I can analyze socioeconomic barriers to appeals",
+            "I can design a justified exceptional reopening process"
+          ],
+          "sections": [
+            {
+              "title": "Every review system allocates error",
+              "body_md": "A state can allow repeated appeals, risking endless cost and delay, or impose strict finality, risking uncorrected grave errors. Neither approach is costless. A doctoral theory distinguishes the error of wrongly affirming an unlawful decision from the costs of repeated challenges to a correct one. Explain whose interests each rule protects, and what evidence would show its effects in practice. A high-stakes criminal case may justify safeguards different from a minor civil dispute.",
+              "audio_script": "A state can allow repeated appeals, risking endless cost and delay, or impose strict finality, risking uncorrected grave errors. Neither approach is costless. A doctoral theory distinguishes the error of wrongly affirming an unlawful decision from the costs of repeated challenges to a correct one. Explain whose interests each rule protects, and what evidence would show its effects in practice. A high-stakes criminal case may justify safeguards different from a minor civil dispute.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Formal access is not practical access",
+              "body_md": "A person may technically have an appellate right but be unable to pay for transcripts, representation, or translation. Strict deadlines may also interact with official delay and disability. A principled system considers legal aid, accessible records, simplified procedures where appropriate, and independent review in selected cases. Each reform has costs and may create incentives for abuse. Compare the outcomes for people with and without resources rather than assuming identical written rules guarantee equality.",
+              "audio_script": "A person may technically have an appellate right but be unable to pay for transcripts, representation, or translation. Strict deadlines may also interact with official delay and disability. A principled system considers legal aid, accessible records, simplified procedures where appropriate, and independent review in selected cases. Each reform has costs and may create incentives for abuse. Compare the outcomes for people with and without resources rather than assuming identical written rules guarantee equality.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Closure needs a safety valve",
+              "body_md": "Imagine reliable new evidence of innocence emerging after the ordinary appeal period. A narrow reopening procedure could examine its strength while preventing endless unsupported repetition. Specify the body with authority, evidentiary threshold, permissible relief, and protections for other affected people. Distinguish a proposal for reform from current binding law. The moral point is that finality helps people live beyond litigation, but a legal order should also have a principled answer when a grave judgment's factual foundation collapses.",
+              "audio_script": "Imagine reliable new evidence of innocence emerging after the ordinary appeal period. A narrow reopening procedure could examine its strength while preventing endless unsupported repetition. Specify the body with authority, evidentiary threshold, permissible relief, and protections for other affected people. Distinguish a proposal for reform from current binding law. The moral point is that finality helps people live beyond litigation, but a legal order should also have a principled answer when a grave judgment's factual foundation collapses.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q1",
+              "type": "true_false",
+              "prompt": "Appellate accessibility means practical opportunity to obtain review.",
+              "answer": true,
+              "explanation_if_true": "Appellate accessibility is practical opportunity to obtain review.",
+              "explanation_if_false": "Appellate accessibility is practical opportunity to obtain review."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q2",
+              "type": "true_false",
+              "prompt": "A legitimate legal system must refuse to reconsider a judgment even after decisive evidence of wrongful conviction appears.",
+              "answer": false,
+              "explanation_if_true": "Exceptional review may be justified to prevent profound injustice while respecting finality.",
+              "explanation_if_false": "Exceptional review may be justified to prevent profound injustice while respecting finality."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q3",
+              "type": "multiple_choice",
+              "prompt": "What does Error correction mean?",
+              "choices": [
+                "Limited reconsideration despite ordinary finality",
+                "Justification for the fairness of decision procedures",
+                "Lawful remedy for mistaken judgments",
+                "Practical opportunity to obtain review"
+              ],
+              "answer_index": 2,
+              "explanation": "Error correction means lawful remedy for mistaken judgments."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Decisive evidence of innocence arrives after ordinary deadlines. What principle supports a narrow review process?",
+              "choices": [
+                "Removing all finality from every case",
+                "Correction of profound injustice",
+                "Maximizing filing charges",
+                "Protecting official reputation"
+              ],
+              "answer_index": 1,
+              "explanation": "Limited reopening reconciles serious error correction with justified closure."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means limited reconsideration despite ordinary finality?",
+              "choices": [
+                "Appellate accessibility",
+                "Exceptional reopening",
+                "Error correction",
+                "Procedural legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Exceptional reopening is limited reconsideration despite ordinary finality."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q6",
+              "type": "matching",
+              "prompt": "Match each appeal concept.",
+              "pairs": [
+                [
+                  "Error correction",
+                  "Lawful remedy for mistaken judgments"
+                ],
+                [
+                  "Appellate accessibility",
+                  "Practical opportunity to obtain review"
+                ],
+                [
+                  "Exceptional reopening",
+                  "Limited reconsideration despite ordinary finality"
+                ],
+                [
+                  "Procedural legitimacy",
+                  "Justification for the fairness of decision procedures"
+                ]
+              ],
+              "explanation": "Review depends on legal grounds and authority."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for lawful remedy for mistaken judgments is ___.",
+              "answer": "Error correction",
+              "accept": [
+                "Error correction"
+              ],
+              "explanation": "The answer is Error correction."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.appeal-and-review.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for justification for the fairness of decision procedures is ___.",
+              "answer": "Procedural legitimacy",
+              "accept": [
+                "Procedural legitimacy"
+              ],
+              "explanation": "The answer is Procedural legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

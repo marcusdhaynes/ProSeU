@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Read legal words in the system that gives them force",
+          "summary": "A legal text cannot be interpreted without knowing what kind of text it is and who made it authoritative. Learn why the same words can have different legal effects in a statute, contract, or treaty.",
+          "checklist": [
+            "I can identify the legal status of a text",
+            "I can begin with words in their relevant context",
+            "I can separate ordinary language from legally defined terms"
+          ],
+          "sections": [
+            {
+              "title": "Text and Source Are Different Questions",
+              "body_md": "The words 'must deliver' may appear in a statute, a contract, or a polite email. Their legal significance depends first on the source. Legislation may impose a public duty, a valid contract may create an obligation between parties, and an email may be evidence without creating any legal duty. Before interpreting disputed words, determine whether the document has legal force in the relevant jurisdiction and what law governs it. Context begins with authority, not with a dictionary.",
+              "example": null,
+              "audio_script": "The words 'must deliver' may appear in a statute, a contract, or a polite email. Their legal significance depends first on the source. Legislation may impose a public duty, a valid contract may create an obligation between parties, and an email may be evidence without creating any legal duty. Before interpreting disputed words, determine whether the document has legal force in the relevant jurisdiction and what law governs it. Context begins with authority, not with a dictionary.",
+              "video": null
+            },
+            {
+              "title": "Read the Whole Sentence",
+              "body_md": "A rule says, 'Vehicles may enter the park except during maintenance.' Is entry permitted during maintenance? No: the exception changes the effect of the general permission. Quoting only the first clause would be misleading. A legal interpretation begins with the actual wording and reads qualifications, definitions and neighboring provisions together. This is straightforward language discipline, but its consequences can be serious when an omitted phrase affects liberty, money or access to a home.",
+              "example": null,
+              "audio_script": "A rule says, 'Vehicles may enter the park except during maintenance.' Is entry permitted during maintenance? No: the exception changes the effect of the general permission. Quoting only the first clause would be misleading. A legal interpretation begins with the actual wording and reads qualifications, definitions and neighboring provisions together. This is straightforward language discipline, but its consequences can be serious when an omitted phrase affects liberty, money or access to a home.",
+              "video": null
+            },
+            {
+              "title": "Definitions Can Change Familiar Words",
+              "body_md": "A statute may define 'vehicle' to include a bicycle even if everyday speakers use the word differently. A contract may define 'business day' by reference to a particular holiday calendar. The interpreter must identify whether a legally controlling definition applies before assuming ordinary meaning. If no such definition exists, language and context still matter. The beginner's method is simple: source, exact text, definitions, neighboring provisions, and the concrete dispute requiring interpretation.",
+              "example": null,
+              "audio_script": "A statute may define 'vehicle' to include a bicycle even if everyday speakers use the word differently. A contract may define 'business day' by reference to a particular holiday calendar. The interpreter must identify whether a legally controlling definition applies before assuming ordinary meaning. If no such definition exists, language and context still matter. The beginner's method is simple: source, exact text, definitions, neighboring provisions, and the concrete dispute requiring interpretation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Context means relevant language and circumstances bearing on meaning.",
+              "answer": true,
+              "explanation_if_true": "Context means relevant language and circumstances bearing on meaning.",
+              "explanation_if_false": "Context means relevant language and circumstances bearing on meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "A familiar word always has the same meaning in every legal instrument.",
+              "answer": false,
+              "explanation_if_true": "Statutes, contracts and treaties may define words or use them in distinct contexts.",
+              "explanation_if_false": "Statutes, contracts and treaties may define words or use them in distinct contexts."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Operative text?",
+              "choices": [
+                "Language limiting an otherwise broad statement",
+                "Words with recognized legal effect",
+                "Relevant language and circumstances bearing on meaning",
+                "Word given a specific meaning by an instrument"
+              ],
+              "answer_index": 1,
+              "explanation": "Operative text means words with recognized legal effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute defines 'vehicle' to include bicycles. What should an interpreter apply?",
+              "choices": [
+                "The statute's applicable definition",
+                "Only a casual dictionary preference",
+                "A definition from another country's statute",
+                "The judge's favorite example"
+              ],
+              "answer_index": 0,
+              "explanation": "An enacted definition governs the instrument within its scope."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means word given a specific meaning by an instrument?",
+              "choices": [
+                "Defined term",
+                "Operative text",
+                "Qualification",
+                "Context"
+              ],
+              "answer_index": 0,
+              "explanation": "Defined term means word given a specific meaning by an instrument."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Operative text",
+                  "Words with recognized legal effect"
+                ],
+                [
+                  "Context",
+                  "Relevant language and circumstances bearing on meaning"
+                ],
+                [
+                  "Defined term",
+                  "Word given a specific meaning by an instrument"
+                ],
+                [
+                  "Qualification",
+                  "Language limiting an otherwise broad statement"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Words with recognized legal effect is called ___.",
+              "answer": "Operative text",
+              "accept": [
+                "Operative text"
+              ],
+              "explanation": "The answer is Operative text."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Language limiting an otherwise broad statement is called ___.",
+              "answer": "Qualification",
+              "accept": [
+                "Qualification"
+              ],
+              "explanation": "The answer is Qualification."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish ordinary meaning from contextual and purposive interpretation",
+          "summary": "Build on textual reading to analyze how structure and purpose can clarify ambiguity. Learn why the correct approach depends on the legal system and instrument involved.",
+          "checklist": [
+            "I can read a clause within its wider scheme",
+            "I can identify a relevant purpose without replacing the text",
+            "I can compare statutory and contractual contexts"
+          ],
+          "sections": [
+            {
+              "title": "Meaning Comes From Structure",
+              "body_md": "A statute grants an agency power to inspect 'commercial premises' and elsewhere defines that term. The interpreter must read both provisions, not select a dictionary entry in isolation. Surrounding sections may distinguish homes, shops and temporary locations. Legal interpretation asks what meaning the legislature's chosen words bear in that context. An apparent ambiguity can disappear when the provision is read as part of the whole enacted scheme.",
+              "example": null,
+              "audio_script": "A statute grants an agency power to inspect 'commercial premises' and elsewhere defines that term. The interpreter must read both provisions, not select a dictionary entry in isolation. Surrounding sections may distinguish homes, shops and temporary locations. Legal interpretation asks what meaning the legislature's chosen words bear in that context. An apparent ambiguity can disappear when the provision is read as part of the whole enacted scheme.",
+              "video": null
+            },
+            {
+              "title": "Purpose Helps but Does Not Erase Words",
+              "body_md": "A consumer-protection statute may seek to prevent misleading sales practices. That purpose can inform how a disputed phrase is understood, but a court must still respect the language and limits enacted under its legal method. It cannot simply write a new rule because greater protection seems desirable. Different jurisdictions give different weight to preparatory materials and purpose. A careful explanation identifies the interpretive source and the exact textual uncertainty it helps resolve.",
+              "example": null,
+              "audio_script": "A consumer-protection statute may seek to prevent misleading sales practices. That purpose can inform how a disputed phrase is understood, but a court must still respect the language and limits enacted under its legal method. It cannot simply write a new rule because greater protection seems desirable. Different jurisdictions give different weight to preparatory materials and purpose. A careful explanation identifies the interpretive source and the exact textual uncertainty it helps resolve.",
+              "video": null
+            },
+            {
+              "title": "Contracts Have Their Own Context",
+              "body_md": "A shipping agreement may use 'delivery' to mean arrival at a warehouse rather than receipt by the buyer. Definitions, related clauses, commercial setting and applicable contract doctrine can clarify the word. The court may examine certain surrounding circumstances under the governing law while restricting others. This is not identical to statutory interpretation, because contractual authority and party arrangements differ from legislative power. The analyst should identify which interpretive rules govern before borrowing a method from another context.",
+              "example": null,
+              "audio_script": "A shipping agreement may use 'delivery' to mean arrival at a warehouse rather than receipt by the buyer. Definitions, related clauses, commercial setting and applicable contract doctrine can clarify the word. The court may examine certain surrounding circumstances under the governing law while restricting others. This is not identical to statutory interpretation, because contractual authority and party arrangements differ from legislative power. The analyst should identify which interpretive rules govern before borrowing a method from another context.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Purposive interpretation means reading aimed at an instrument's legally relevant objective.",
+              "answer": true,
+              "explanation_if_true": "Purposive interpretation means reading aimed at an instrument's legally relevant objective.",
+              "explanation_if_false": "Purposive interpretation means reading aimed at an instrument's legally relevant objective."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "A judge may ignore clear legally controlling words whenever a broader purpose seems attractive.",
+              "answer": false,
+              "explanation_if_true": "Purpose informs interpretation within the governing method; it does not grant unrestricted power to rewrite texts.",
+              "explanation_if_false": "Purpose informs interpretation within the governing method; it does not grant unrestricted power to rewrite texts."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Ordinary meaning?",
+              "choices": [
+                "Meaning words convey in relevant usage",
+                "Reading aimed at an instrument's legally relevant objective",
+                "Understanding a provision with related clauses",
+                "Documents associated with the creation of an instrument"
+              ],
+              "answer_index": 0,
+              "explanation": "Ordinary meaning means meaning words convey in relevant usage."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A term is defined in a contract schedule but ordinary speech uses it differently. What is the best starting point?",
+              "choices": [
+                "Only a colloquial dictionary",
+                "The buyer's private hopes",
+                "An unrelated statute",
+                "The contractual definition read with related clauses"
+              ],
+              "answer_index": 3,
+              "explanation": "The instrument's language and agreed structure are central to its meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means understanding a provision with related clauses?",
+              "choices": [
+                "Ordinary meaning",
+                "Preparatory material",
+                "Purposive interpretation",
+                "Whole-text reading"
+              ],
+              "answer_index": 3,
+              "explanation": "Whole-text reading means understanding a provision with related clauses."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Ordinary meaning",
+                  "Meaning words convey in relevant usage"
+                ],
+                [
+                  "Purposive interpretation",
+                  "Reading aimed at an instrument's legally relevant objective"
+                ],
+                [
+                  "Whole-text reading",
+                  "Understanding a provision with related clauses"
+                ],
+                [
+                  "Preparatory material",
+                  "Documents associated with the creation of an instrument"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Meaning words convey in relevant usage is called ___.",
+              "answer": "Ordinary meaning",
+              "accept": [
+                "Ordinary meaning"
+              ],
+              "explanation": "The answer is Ordinary meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Documents associated with the creation of an instrument is called ___.",
+              "answer": "Preparatory material",
+              "accept": [
+                "Preparatory material"
+              ],
+              "explanation": "The answer is Preparatory material."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Apply treaty interpretation as a distinct legal method",
+          "summary": "Use the Vienna Convention framework to analyze the interpretation of treaty language in good faith. Distinguish the general rule from supplementary means and multilingual authenticity.",
+          "checklist": [
+            "I can identify the components of Article 31 treaty interpretation",
+            "I can explain when Article 32 supplementary means are used",
+            "I can recognize issues raised by multiple authentic languages"
+          ],
+          "sections": [
+            {
+              "title": "The General Treaty Rule",
+              "body_md": "Article 31 of the Vienna Convention on the Law of Treaties directs good-faith interpretation by ordinary meaning in context and in light of a treaty's object and purpose. This is a unified inquiry rather than a rule to choose whichever element produces a preferred result. Relevant context includes the text, preamble and annexes, along with specified related instruments. A lawyer should identify the treaty, parties, authenticated language and relevant provision before applying the framework. Treaty interpretation cannot simply be replaced with domestic statute-construction slogans.",
+              "example": null,
+              "audio_script": "Article 31 of the Vienna Convention on the Law of Treaties directs good-faith interpretation by ordinary meaning in context and in light of a treaty's object and purpose. This is a unified inquiry rather than a rule to choose whichever element produces a preferred result. Relevant context includes the text, preamble and annexes, along with specified related instruments. A lawyer should identify the treaty, parties, authenticated language and relevant provision before applying the framework. Treaty interpretation cannot simply be replaced with domestic statute-construction slogans.",
+              "video": null
+            },
+            {
+              "title": "Supplementary Materials Have a Role",
+              "body_md": "Article 32 permits supplementary means, including preparatory work and circumstances of conclusion, to confirm an Article 31 reading or address ambiguity, obscurity or a manifestly unreasonable result. The provision does not license selective quotation from diplomatic history to override an otherwise defensible treaty interpretation. A rigorous analysis records what the supplementary materials actually show and how they relate to the text. Subsequent agreements and practice may also matter under Article 31's distinct rules.",
+              "example": null,
+              "audio_script": "Article 32 permits supplementary means, including preparatory work and circumstances of conclusion, to confirm an Article 31 reading or address ambiguity, obscurity or a manifestly unreasonable result. The provision does not license selective quotation from diplomatic history to override an otherwise defensible treaty interpretation. A rigorous analysis records what the supplementary materials actually show and how they relate to the text. Subsequent agreements and practice may also matter under Article 31's distinct rules.",
+              "video": null
+            },
+            {
+              "title": "More Than One Authentic Language",
+              "body_md": "Some treaties are authentic in several languages. Article 33 addresses their status and methods of reconciling differences. A translation made for convenience is not necessarily an authentic treaty text. If equally authoritative versions diverge, the interpreter must use the relevant treaty rules, not assume the English version always wins. This matters when a word affecting jurisdiction or human rights has different shades of meaning across languages. Comparative legal competence includes knowing when translation itself is a contested legal question.",
+              "example": null,
+              "audio_script": "Some treaties are authentic in several languages. Article 33 addresses their status and methods of reconciling differences. A translation made for convenience is not necessarily an authentic treaty text. If equally authoritative versions diverge, the interpreter must use the relevant treaty rules, not assume the English version always wins. This matters when a word affecting jurisdiction or human rights has different shades of meaning across languages. Comparative legal competence includes knowing when translation itself is a contested legal question.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "VCLT Article 32 means supplementary treaty interpretation means.",
+              "answer": true,
+              "explanation_if_true": "VCLT Article 32 means supplementary treaty interpretation means.",
+              "explanation_if_false": "VCLT Article 32 means supplementary treaty interpretation means."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "A treaty's English translation always controls even if it is not an authentic language version.",
+              "answer": false,
+              "explanation_if_true": "Authentic language status and reconciliation follow the treaty's governing interpretation rules.",
+              "explanation_if_false": "Authentic language status and reconciliation follow the treaty's governing interpretation rules."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes VCLT Article 31?",
+              "choices": [
+                "Supplementary treaty interpretation means",
+                "Treaty-language version officially authoritative",
+                "Later treaty application relevant under specified rules",
+                "General treaty interpretation rule based on meaning, context and purpose"
+              ],
+              "answer_index": 3,
+              "explanation": "VCLT Article 31 means general treaty interpretation rule based on meaning, context and purpose."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An Article 31 reading remains obscure. Which source may be considered under Article 32?",
+              "choices": [
+                "A country's most popular newspaper",
+                "Only an interpreter's personal beliefs",
+                "Treaty preparatory work and circumstances of conclusion",
+                "An unrelated corporation's policy"
+              ],
+              "answer_index": 2,
+              "explanation": "Article 32 permits specified supplementary means in these circumstances."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means treaty-language version officially authoritative?",
+              "choices": [
+                "Subsequent practice",
+                "VCLT Article 32",
+                "Authentic text",
+                "VCLT Article 31"
+              ],
+              "answer_index": 2,
+              "explanation": "Authentic text means treaty-language version officially authoritative."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "VCLT Article 31",
+                  "General treaty interpretation rule based on meaning, context and purpose"
+                ],
+                [
+                  "VCLT Article 32",
+                  "Supplementary treaty interpretation means"
+                ],
+                [
+                  "Authentic text",
+                  "Treaty-language version officially authoritative"
+                ],
+                [
+                  "Subsequent practice",
+                  "Later treaty application relevant under specified rules"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "General treaty interpretation rule based on meaning, context and purpose is called ___.",
+              "answer": "VCLT Article 31",
+              "accept": [
+                "VCLT Article 31"
+              ],
+              "explanation": "The answer is VCLT Article 31."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Later treaty application relevant under specified rules is called ___.",
+              "answer": "Subsequent practice",
+              "accept": [
+                "Subsequent practice"
+              ],
+              "explanation": "The answer is Subsequent practice."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique interpretive authority across institutional traditions",
+          "summary": "At doctoral depth, analyze why textual fidelity and legitimate institutional change can pull in different directions. Compare judicial construction, negotiated meaning and contested religious legal interpretation without treating them as interchangeable.",
+          "checklist": [
+            "I can explain institutional limits on interpretive creativity",
+            "I can compare treaty and domestic legal interpretation transparently",
+            "I can evaluate plural interpretations with source and community accountability"
+          ],
+          "sections": [
+            {
+              "title": "The Interpreter Is Not the Author",
+              "body_md": "A statute's interpreter, treaty tribunal or private arbitrator may have a different mandate from the body that created the norm. Their power to develop meaning must be justified under the relevant legal system. Excessive rigidity can conceal genuine textual ambiguity, while unconstrained purposive interpretation can replace authorized choices with a decision maker's preferences. A doctoral theory should identify which interpretive moves positive law permits and which arguments instead seek legal reform. The distinction is crucial when rights and coercive power are at stake.",
+              "example": null,
+              "audio_script": "A statute's interpreter, treaty tribunal or private arbitrator may have a different mandate from the body that created the norm. Their power to develop meaning must be justified under the relevant legal system. Excessive rigidity can conceal genuine textual ambiguity, while unconstrained purposive interpretation can replace authorized choices with a decision maker's preferences. A doctoral theory should identify which interpretive moves positive law permits and which arguments instead seek legal reform. The distinction is crucial when rights and coercive power are at stake.",
+              "video": null
+            },
+            {
+              "title": "Sacred Text and State Law Are Distinct",
+              "body_md": "Religious traditions may have developed sophisticated interpretive methods involving language, transmission, commentary and legal reasoning. Their use as enforceable state law depends on the particular constitutional and institutional arrangement, as well as diversity within the tradition. It is inaccurate to assume a sacred text always operates like a statute or that a religious community has only one authoritative interpreter. Comparative analysis should describe internal methods respectfully, distinguish theological from positive legal authority, and examine the rights of affected persons.",
+              "example": null,
+              "audio_script": "Religious traditions may have developed sophisticated interpretive methods involving language, transmission, commentary and legal reasoning. Their use as enforceable state law depends on the particular constitutional and institutional arrangement, as well as diversity within the tradition. It is inaccurate to assume a sacred text always operates like a statute or that a religious community has only one authoritative interpreter. Comparative analysis should describe internal methods respectfully, distinguish theological from positive legal authority, and examine the rights of affected persons.",
+              "video": null
+            },
+            {
+              "title": "Interpretation Needs Accountability",
+              "body_md": "A community may debate a text's meaning while state officials enforce one interpretation coercively. That creates questions of participation, legal notice, equality and review. A doctoral proposal must consider who can contest interpretation, what evidence is treated as authoritative, and how minority perspectives are protected. No interpretive method is simply a technical trick; it allocates power over people's relationships and freedoms. Masterful legal interpretation combines precision about sources with responsibility for human consequences.",
+              "example": null,
+              "audio_script": "A community may debate a text's meaning while state officials enforce one interpretation coercively. That creates questions of participation, legal notice, equality and review. A doctoral proposal must consider who can contest interpretation, what evidence is treated as authoritative, and how minority perspectives are protected. No interpretive method is simply a technical trick; it allocates power over people's relationships and freedoms. Masterful legal interpretation combines precision about sources with responsibility for human consequences.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Institutional mandate means legally assigned function of a decision maker.",
+              "answer": true,
+              "explanation_if_true": "Institutional mandate means legally assigned function of a decision maker.",
+              "explanation_if_false": "Institutional mandate means legally assigned function of a decision maker."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "A sacred text automatically has identical enforceable status in every national legal system.",
+              "answer": false,
+              "explanation_if_true": "State recognition and internal interpretive authority vary by legal tradition and jurisdiction.",
+              "explanation_if_false": "State recognition and internal interpretive authority vary by legal tradition and jurisdiction."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Interpretive authority?",
+              "choices": [
+                "Study of methods for interpreting texts",
+                "Coexistence of multiple recognized interpretive approaches",
+                "Recognized power to assign legal meaning",
+                "Legally assigned function of a decision maker"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretive authority means recognized power to assign legal meaning."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A national court applies a single claimed religious interpretation despite internal scholarly disagreement. What should a comparative analyst examine?",
+              "choices": [
+                "How many pages the opinion contains",
+                "Source authority, institutional recognition and affected persons' rights",
+                "Only one unofficial translation",
+                "Whether the text is old"
+              ],
+              "answer_index": 1,
+              "explanation": "Interpretive legitimacy requires attention to institutions, diversity and legal effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means study of methods for interpreting texts?",
+              "choices": [
+                "Institutional mandate",
+                "Hermeneutics",
+                "Interpretive authority",
+                "Interpretive pluralism"
+              ],
+              "answer_index": 1,
+              "explanation": "Hermeneutics means study of methods for interpreting texts."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Interpretive authority",
+                  "Recognized power to assign legal meaning"
+                ],
+                [
+                  "Institutional mandate",
+                  "Legally assigned function of a decision maker"
+                ],
+                [
+                  "Hermeneutics",
+                  "Study of methods for interpreting texts"
+                ],
+                [
+                  "Interpretive pluralism",
+                  "Coexistence of multiple recognized interpretive approaches"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Recognized power to assign legal meaning is called ___.",
+              "answer": "Interpretive authority",
+              "accept": [
+                "Interpretive authority"
+              ],
+              "explanation": "The answer is Interpretive authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Coexistence of multiple recognized interpretive approaches is called ___.",
+              "answer": "Interpretive pluralism",
+              "accept": [
+                "Interpretive pluralism"
+              ],
+              "explanation": "The answer is Interpretive pluralism."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

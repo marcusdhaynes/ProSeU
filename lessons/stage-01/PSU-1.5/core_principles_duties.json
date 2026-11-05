@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Research legal obligations with respect for client confidentiality",
+          "summary": "Professional legal research begins with understanding the relevant duty and protecting the information entrusted to counsel. Learn to separate factual investigation from careless disclosure.",
+          "checklist": [
+            "I can identify the alleged obligation and its source",
+            "I can explain why client information must be handled carefully",
+            "I can record only facts necessary for the research question"
+          ],
+          "sections": [
+            {
+              "title": "Find the Duty Before Testing Conduct",
+              "body_md": "A professional adviser promises to safeguard a customer's documents. The client claims the adviser failed. Research begins by identifying the agreement, governing professional standards and any applicable statutory duties. Only then can the investigator determine whether the alleged conduct breached an enforceable obligation. The word negligence alone is not a complete test. The researcher should write down who was bound, the required conduct, the alleged breach and the available source for each proposition.",
+              "example": null,
+              "audio_script": "A professional adviser promises to safeguard a customer's documents. The client claims the adviser failed. Research begins by identifying the agreement, governing professional standards and any applicable statutory duties. Only then can the investigator determine whether the alleged conduct breached an enforceable obligation. The word negligence alone is not a complete test. The researcher should write down who was bound, the required conduct, the alleged breach and the available source for each proposition.",
+              "video": null
+            },
+            {
+              "title": "Confidentiality Is Part of Competence",
+              "body_md": "Clients may disclose medical, financial or family details that are necessary for advice. Depending on jurisdiction and relationship, professional confidentiality duties and legal privilege rules can restrict disclosure in distinct ways. A student must not upload private records to an unapproved website simply to save time researching. The correct approach is to use authorized resources, remove unnecessary identifying details where possible, and follow professional and organizational rules. The aim is to protect the client while developing an accurate legal answer.",
+              "example": null,
+              "audio_script": "Clients may disclose medical, financial or family details that are necessary for advice. Depending on jurisdiction and relationship, professional confidentiality duties and legal privilege rules can restrict disclosure in distinct ways. A student must not upload private records to an unapproved website simply to save time researching. The correct approach is to use authorized resources, remove unnecessary identifying details where possible, and follow professional and organizational rules. The aim is to protect the client while developing an accurate legal answer.",
+              "video": null
+            },
+            {
+              "title": "Create a Safe Research File",
+              "body_md": "A useful research note identifies the issue, relevant facts, sources to consult and outstanding questions. It should not include unrelated private information merely because the client shared it. Record dates and documents accurately, and separate verified information from the client's account or an investigator's inference. Secure handling is an aspect of professional skill, not an optional feature added after a memo is finished. A great lawyer protects a client's trust as carefully as the legal position.",
+              "example": null,
+              "audio_script": "A useful research note identifies the issue, relevant facts, sources to consult and outstanding questions. It should not include unrelated private information merely because the client shared it. Record dates and documents accurately, and separate verified information from the client's account or an investigator's inference. Secure handling is an aspect of professional skill, not an optional feature added after a memo is finished. A great lawyer protects a client's trust as carefully as the legal position.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Legal privilege means protection for qualifying communications from compelled disclosure.",
+              "answer": true,
+              "explanation_if_true": "Legal privilege means protection for qualifying communications from compelled disclosure.",
+              "explanation_if_false": "Legal privilege means protection for qualifying communications from compelled disclosure."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "Information received from a client may always be uploaded to any free research service.",
+              "answer": false,
+              "explanation_if_true": "Confidentiality, privacy and professional obligations can restrict such disclosure.",
+              "explanation_if_false": "Confidentiality, privacy and professional obligations can restrict such disclosure."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Confidentiality?",
+              "choices": [
+                "Use of only necessary personal information",
+                "Duty to restrict certain information disclosures",
+                "Protection for qualifying communications from compelled disclosure",
+                "Recognized rule or relationship imposing an obligation"
+              ],
+              "answer_index": 1,
+              "explanation": "Confidentiality means duty to restrict certain information disclosures."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client provides sensitive medical records for a narrow legal question. What should be done?",
+              "choices": [
+                "Use approved secure methods and only necessary details",
+                "Post the full records publicly",
+                "Send them to unknown researchers",
+                "Ignore confidentiality rules"
+              ],
+              "answer_index": 0,
+              "explanation": "Efficient legal research must protect entrusted information."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means recognized rule or relationship imposing an obligation?",
+              "choices": [
+                "Duty source",
+                "Confidentiality",
+                "Data minimization",
+                "Legal privilege"
+              ],
+              "answer_index": 0,
+              "explanation": "Duty source means recognized rule or relationship imposing an obligation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Confidentiality",
+                  "Duty to restrict certain information disclosures"
+                ],
+                [
+                  "Legal privilege",
+                  "Protection for qualifying communications from compelled disclosure"
+                ],
+                [
+                  "Duty source",
+                  "Recognized rule or relationship imposing an obligation"
+                ],
+                [
+                  "Data minimization",
+                  "Use of only necessary personal information"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Duty to restrict certain information disclosures is called ___.",
+              "answer": "Confidentiality",
+              "accept": [
+                "Confidentiality"
+              ],
+              "explanation": "The term is Confidentiality."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Use of only necessary personal information is called ___.",
+              "answer": "Data minimization",
+              "accept": [
+                "Data minimization"
+              ],
+              "explanation": "The term is Data minimization."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Verify professional duties and their exceptions",
+          "summary": "Learn why ethical obligations have precise sources and sometimes carefully defined exceptions. Separate confidentiality, legal privilege and duties to the tribunal.",
+          "checklist": [
+            "I can find current professional conduct rules",
+            "I can distinguish confidentiality from privilege",
+            "I can identify exceptions rather than assuming absolute secrecy"
+          ],
+          "sections": [
+            {
+              "title": "Two Protections, Different Questions",
+              "body_md": "A lawyer's duty of confidentiality may cover broad information about representation. Legal privilege can protect particular communications from compelled disclosure under specified conditions. Their scopes, exceptions and holders are not always identical. A legal research memo should identify which protection is asserted and the governing jurisdiction before promising secrecy. A client who relies on an inaccurate assurance may make life-changing decisions on a false premise.",
+              "example": null,
+              "audio_script": "A lawyer's duty of confidentiality may cover broad information about representation. Legal privilege can protect particular communications from compelled disclosure under specified conditions. Their scopes, exceptions and holders are not always identical. A legal research memo should identify which protection is asserted and the governing jurisdiction before promising secrecy. A client who relies on an inaccurate assurance may make life-changing decisions on a false premise.",
+              "video": null
+            },
+            {
+              "title": "The Rules May Compete",
+              "body_md": "An attorney may owe duties of client confidentiality and candor toward a tribunal. Professional regimes provide rules for handling conflicts, permitted disclosure and correcting certain statements. The details differ across jurisdictions; the analyst must not invent a universal exception whenever an ethical difficulty arises. Locate the actual professional rule, relevant commentary, statutory requirements and authoritative disciplinary decisions. Then explain what conduct is required, permitted or forbidden under the specific facts.",
+              "example": null,
+              "audio_script": "An attorney may owe duties of client confidentiality and candor toward a tribunal. Professional regimes provide rules for handling conflicts, permitted disclosure and correcting certain statements. The details differ across jurisdictions; the analyst must not invent a universal exception whenever an ethical difficulty arises. Locate the actual professional rule, relevant commentary, statutory requirements and authoritative disciplinary decisions. Then explain what conduct is required, permitted or forbidden under the specific facts.",
+              "video": null
+            },
+            {
+              "title": "A Good Note Separates the Layers",
+              "body_md": "Create an ethics source table identifying each duty, its holder, trigger, exception and remedy or disciplinary consequence. Include a version date because professional standards change. Record uncertainty where conflicting rules or unresolved questions exist. Such a note is more valuable than a dramatic general statement that lawyers must always keep secrets or always reveal misconduct. Client trust grows from clear, accurate advice about the real limits of professional obligation.",
+              "example": null,
+              "audio_script": "Create an ethics source table identifying each duty, its holder, trigger, exception and remedy or disciplinary consequence. Include a version date because professional standards change. Record uncertainty where conflicting rules or unresolved questions exist. Such a note is more valuable than a dramatic general statement that lawyers must always keep secrets or always reveal misconduct. Client trust grows from clear, accurate advice about the real limits of professional obligation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Duty of candor means obligation of honesty toward a tribunal under applicable rules.",
+              "answer": true,
+              "explanation_if_true": "Duty of candor means obligation of honesty toward a tribunal under applicable rules.",
+              "explanation_if_false": "Duty of candor means obligation of honesty toward a tribunal under applicable rules."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "Professional confidentiality and legal privilege are identical and have no exceptions.",
+              "answer": false,
+              "explanation_if_true": "They are distinct legal protections with system-specific limitations.",
+              "explanation_if_false": "They are distinct legal protections with system-specific limitations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Professional conduct rule?",
+              "choices": [
+                "Binding standard for members of a profession",
+                "Obligation of honesty toward a tribunal under applicable rules",
+                "Person legally entitled to assert a protected communication",
+                "Release of information authorized by an applicable exception"
+              ],
+              "answer_index": 0,
+              "explanation": "Professional conduct rule means binding standard for members of a profession."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A lawyer is asked whether a document is privileged. Which research distinction matters?",
+              "choices": [
+                "Only whether the client says secret",
+                "The paper size",
+                "Whether the office is large",
+                "Privilege rules versus broader confidentiality duties"
+              ],
+              "answer_index": 3,
+              "explanation": "Confidentiality does not necessarily establish legal privilege."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means person legally entitled to assert a protected communication?",
+              "choices": [
+                "Professional conduct rule",
+                "Permitted disclosure",
+                "Duty of candor",
+                "Privilege holder"
+              ],
+              "answer_index": 3,
+              "explanation": "Privilege holder means person legally entitled to assert a protected communication."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Professional conduct rule",
+                  "Binding standard for members of a profession"
+                ],
+                [
+                  "Duty of candor",
+                  "Obligation of honesty toward a tribunal under applicable rules"
+                ],
+                [
+                  "Privilege holder",
+                  "Person legally entitled to assert a protected communication"
+                ],
+                [
+                  "Permitted disclosure",
+                  "Release of information authorized by an applicable exception"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Binding standard for members of a profession is called ___.",
+              "answer": "Professional conduct rule",
+              "accept": [
+                "Professional conduct rule"
+              ],
+              "explanation": "The term is Professional conduct rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Release of information authorized by an applicable exception is called ___.",
+              "answer": "Permitted disclosure",
+              "accept": [
+                "Permitted disclosure"
+              ],
+              "explanation": "The term is Permitted disclosure."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Research conflicting duties across borders and organizations",
+          "summary": "A legal professional may face overlapping client, regulatory, disclosure and institutional duties. Learn to map those duties without exposing confidential information or assuming a single legal order controls.",
+          "checklist": [
+            "I can identify competing legal obligations across jurisdictions",
+            "I can check professional and organizational authority separately",
+            "I can assess lawful ways to resolve duty conflicts"
+          ],
+          "sections": [
+            {
+              "title": "Cross-Border Data Has More Than One Rule",
+              "body_md": "A multinational company asks counsel to review employee messages stored in several countries. Privacy, employment, professional secrecy and discovery rules may all affect access or transfer. A subpoena in one jurisdiction does not necessarily remove restrictions imposed elsewhere. The researcher should establish where data sits, who controls it, whose rights it implicates, and which obligations apply. An unplanned transfer can create legal risk before substantive analysis even begins.",
+              "example": null,
+              "audio_script": "A multinational company asks counsel to review employee messages stored in several countries. Privacy, employment, professional secrecy and discovery rules may all affect access or transfer. A subpoena in one jurisdiction does not necessarily remove restrictions imposed elsewhere. The researcher should establish where data sits, who controls it, whose rights it implicates, and which obligations apply. An unplanned transfer can create legal risk before substantive analysis even begins.",
+              "video": null
+            },
+            {
+              "title": "An Internal Policy Is Not a Statute",
+              "body_md": "Organizations may impose confidentiality, retention and approval requirements that go beyond legislation. Internal policy can matter contractually or professionally, yet it does not automatically override mandatory law. A careful research note labels each source by legal force and explains conflicts. If an internal instruction would cause a legal breach, the lawyer must identify the relevant governing duty and lawful escalation route rather than simply choosing whichever rule is easiest to follow.",
+              "example": null,
+              "audio_script": "Organizations may impose confidentiality, retention and approval requirements that go beyond legislation. Internal policy can matter contractually or professionally, yet it does not automatically override mandatory law. A careful research note labels each source by legal force and explains conflicts. If an internal instruction would cause a legal breach, the lawyer must identify the relevant governing duty and lawful escalation route rather than simply choosing whichever rule is easiest to follow.",
+              "video": null
+            },
+            {
+              "title": "Resolve the Real Conflict",
+              "body_md": "Sometimes two obligations appear inconsistent because they apply to different acts, persons or periods. Analyze the exact trigger and scope of each. Other conflicts require careful interpretation of statutory exceptions, court orders, protective measures or international cooperation. A sophisticated adviser presents lawful options and their risks while preserving entrusted information. The goal is neither blind disclosure nor absolute secrecy, but accurate navigation of the actual legal requirements protecting the client and others.",
+              "example": null,
+              "audio_script": "Sometimes two obligations appear inconsistent because they apply to different acts, persons or periods. Analyze the exact trigger and scope of each. Other conflicts require careful interpretation of statutory exceptions, court orders, protective measures or international cooperation. A sophisticated adviser presents lawful options and their risks while preserving entrusted information. The goal is neither blind disclosure nor absolute secrecy, but accurate navigation of the actual legal requirements protecting the client and others.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Legal hold means preservation of information for actual or anticipated proceedings.",
+              "answer": true,
+              "explanation_if_true": "Legal hold means preservation of information for actual or anticipated proceedings.",
+              "explanation_if_false": "Legal hold means preservation of information for actual or anticipated proceedings."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "An organization's internal policy automatically overrides all applicable laws in other jurisdictions.",
+              "answer": false,
+              "explanation_if_true": "Legal force depends on source hierarchy and the specific rule.",
+              "explanation_if_false": "Legal force depends on source hierarchy and the specific rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Cross-border disclosure?",
+              "choices": [
+                "Preservation of information for actual or anticipated proceedings",
+                "Requirement that cannot simply be waived",
+                "Judicial instruction limiting specified information use or disclosure",
+                "Transfer of information across legal jurisdictions"
+              ],
+              "answer_index": 3,
+              "explanation": "Cross-border disclosure means transfer of information across legal jurisdictions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A company wants to transfer employee data abroad for litigation. What must counsel research?",
+              "choices": [
+                "The nationality of the printer",
+                "Whether the office likes the request",
+                "Applicable privacy, disclosure and transfer rules in relevant systems",
+                "Only the cost of cloud storage"
+              ],
+              "answer_index": 2,
+              "explanation": "Multiple legal orders can impose distinct duties on information handling."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means requirement that cannot simply be waived?",
+              "choices": [
+                "Protective order",
+                "Legal hold",
+                "Mandatory duty",
+                "Cross-border disclosure"
+              ],
+              "answer_index": 2,
+              "explanation": "Mandatory duty means requirement that cannot simply be waived."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Cross-border disclosure",
+                  "Transfer of information across legal jurisdictions"
+                ],
+                [
+                  "Legal hold",
+                  "Preservation of information for actual or anticipated proceedings"
+                ],
+                [
+                  "Mandatory duty",
+                  "Requirement that cannot simply be waived"
+                ],
+                [
+                  "Protective order",
+                  "Judicial instruction limiting specified information use or disclosure"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Transfer of information across legal jurisdictions is called ___.",
+              "answer": "Cross-border disclosure",
+              "accept": [
+                "Cross-border disclosure"
+              ],
+              "explanation": "The term is Cross-border disclosure."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Judicial instruction limiting specified information use or disclosure is called ___.",
+              "answer": "Protective order",
+              "accept": [
+                "Protective order"
+              ],
+              "explanation": "The term is Protective order."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design ethical research governance for high-stakes legal work",
+          "summary": "At doctoral depth, evaluate professional duties in an era of automated search and large datasets. Create standards that make source verification, confidentiality and human accountability inseparable.",
+          "checklist": [
+            "I can design controls for automated legal research",
+            "I can separate machine assistance from human professional responsibility",
+            "I can evaluate how resource inequality affects quality of representation"
+          ],
+          "sections": [
+            {
+              "title": "Automation Can Magnify Mistakes",
+              "body_md": "Automated systems may generate convincing legal citations that do not exist or summaries that omit controlling exceptions. A lawyer cannot make the tool responsible for the client's loss. Each material legal proposition needs verification against authoritative sources; confidential inputs require approved handling. A doctoral governance design should specify what can be automated, which decisions require qualified human review, and how an audit record will document source provenance. Speed is valuable only when it preserves reliability.",
+              "example": null,
+              "audio_script": "Automated systems may generate convincing legal citations that do not exist or summaries that omit controlling exceptions. A lawyer cannot make the tool responsible for the client's loss. Each material legal proposition needs verification against authoritative sources; confidential inputs require approved handling. A doctoral governance design should specify what can be automated, which decisions require qualified human review, and how an audit record will document source provenance. Speed is valuable only when it preserves reliability.",
+              "video": null
+            },
+            {
+              "title": "Unequal Resources Affect Legal Truth",
+              "body_md": "A wealthy litigant may hire experts and purchase specialized databases while a low-income client has limited access to counsel and primary materials. Those differences can affect which legal arguments enter court. The answer is not to lower standards of truth, but to improve access, public legal information, legal aid and transparent research methods. A professional duty to competent representation has meaning only when institutions make that competence realistically attainable. A serious reform weighs cost, quality and accountability.",
+              "example": null,
+              "audio_script": "A wealthy litigant may hire experts and purchase specialized databases while a low-income client has limited access to counsel and primary materials. Those differences can affect which legal arguments enter court. The answer is not to lower standards of truth, but to improve access, public legal information, legal aid and transparent research methods. A professional duty to competent representation has meaning only when institutions make that competence realistically attainable. A serious reform weighs cost, quality and accountability.",
+              "video": null
+            },
+            {
+              "title": "Trust Must Be Designed, Not Assumed",
+              "body_md": "A high-quality legal workflow should protect confidentiality, check citations, log amendments and adverse authority, and escalate uncertain findings. It should also ensure the client understands the advice and controls lawful objectives. The final review is not a search count; it is whether the research genuinely supports the proposed action and can be defended to the person affected. Technical mastery is inseparable from the moral responsibility that accompanies legal authority.",
+              "example": null,
+              "audio_script": "A high-quality legal workflow should protect confidentiality, check citations, log amendments and adverse authority, and escalate uncertain findings. It should also ensure the client understands the advice and controls lawful objectives. The final review is not a search count; it is whether the research genuinely supports the proposed action and can be defended to the person affected. Technical mastery is inseparable from the moral responsibility that accompanies legal authority.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Model hallucination means generated assertion unsupported by authentic source.",
+              "answer": true,
+              "explanation_if_true": "Model hallucination means generated assertion unsupported by authentic source.",
+              "explanation_if_false": "Model hallucination means generated assertion unsupported by authentic source."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "A legal professional may rely on an AI-generated case citation without verifying the source.",
+              "answer": false,
+              "explanation_if_true": "Professional competence and candor demand independent validation of material authorities.",
+              "explanation_if_false": "Professional competence and candor demand independent validation of material authorities."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Citation verification?",
+              "choices": [
+                "Qualified evaluation of automated work",
+                "Controls governing accuracy, privacy and accountability",
+                "Independent confirmation of a source and its asserted meaning",
+                "Generated assertion unsupported by authentic source"
+              ],
+              "answer_index": 2,
+              "explanation": "Citation verification means independent confirmation of a source and its asserted meaning."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An automated memo cites a plausible case not found in authoritative reports. What should counsel do?",
+              "choices": [
+                "Assume the citation is merely delayed",
+                "Verify or remove the citation before relying on it",
+                "File it without checking",
+                "Invent a reporter reference"
+              ],
+              "answer_index": 1,
+              "explanation": "Unverified invented authority can gravely harm clients and judicial process."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means qualified evaluation of automated work?",
+              "choices": [
+                "Model hallucination",
+                "Human review",
+                "Citation verification",
+                "Research governance"
+              ],
+              "answer_index": 1,
+              "explanation": "Human review means qualified evaluation of automated work."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match the research concepts.",
+              "pairs": [
+                [
+                  "Citation verification",
+                  "Independent confirmation of a source and its asserted meaning"
+                ],
+                [
+                  "Model hallucination",
+                  "Generated assertion unsupported by authentic source"
+                ],
+                [
+                  "Human review",
+                  "Qualified evaluation of automated work"
+                ],
+                [
+                  "Research governance",
+                  "Controls governing accuracy, privacy and accountability"
+                ]
+              ],
+              "explanation": "Accurate sources must be distinguished from mere explanations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "Independent confirmation of a source and its asserted meaning is called ___.",
+              "answer": "Citation verification",
+              "accept": [
+                "Citation verification"
+              ],
+              "explanation": "The term is Citation verification."
+            },
+            {
+              "id": "PSU-1.5.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Controls governing accuracy, privacy and accountability is called ___.",
+              "answer": "Research governance",
+              "accept": [
+                "Research governance"
+              ],
+              "explanation": "The term is Research governance."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

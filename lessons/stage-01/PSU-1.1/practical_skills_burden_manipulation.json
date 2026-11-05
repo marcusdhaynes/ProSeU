@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "burden-manipulation",
+      "name": "Burden Manipulation",
+      "levels": {
+        "red": {
+          "focus": "Recognize who must prove a claim without trying to alter the facts.",
+          "summary": "The party making a legal claim often must establish specified elements, and defenses may carry separate requirements. Learn to identify the governing burden of proof and seek real evidence rather than manipulating witnesses or hiding records.",
+          "checklist": [
+            "I can distinguish a claim from evidence supporting it",
+            "I can identify who bears the relevant burden",
+            "I can recognize that lawfully challenging proof does not permit falsification"
+          ],
+          "sections": [
+            {
+              "title": "An accusation is not a finding",
+              "body_md": "A shop owner says a customer damaged equipment and owes compensation. The owner may need to establish facts about responsibility, causation, and loss under the governing civil rules. The customer can dispute those facts and provide contrary evidence. Do not infer that the claimant must win because the story sounds convincing. Also do not assume that every country uses the same proof standard. Begin by identifying what each side must establish, and which records, witnesses, or other materials can legitimately answer the questions.",
+              "example": null,
+              "audio_script": "A shop owner says a customer damaged equipment and owes compensation. The owner may need to establish facts about responsibility, causation, and loss under the governing civil rules. The customer can dispute those facts and provide contrary evidence. Do not infer that the claimant must win because the story sounds convincing. Also do not assume that every country uses the same proof standard. Begin by identifying what each side must establish, and which records, witnesses, or other materials can legitimately answer the questions.",
+              "video": null
+            },
+            {
+              "title": "Production and persuasion are different tasks",
+              "body_md": "A burden of production concerns bringing enough evidence for an issue to proceed under applicable law; the burden of persuasion concerns convincing the decision maker to the legally required standard. A person can produce a photograph without necessarily proving who caused the damage. A receipt could help establish financial loss but may not prove negligence. The exact allocation and effect of these burdens vary by claim, defense, and legal system. Describe what a particular item shows and what it cannot show before claiming that a burden has been satisfied.",
+              "example": null,
+              "audio_script": "A burden of production concerns bringing enough evidence for an issue to proceed under applicable law; the burden of persuasion concerns convincing the decision maker to the legally required standard. A person can produce a photograph without necessarily proving who caused the damage. A receipt could help establish financial loss but may not prove negligence. The exact allocation and effect of these burdens vary by claim, defense, and legal system. Describe what a particular item shows and what it cannot show before claiming that a burden has been satisfied.",
+              "video": null
+            },
+            {
+              "title": "Challenge evidence, not the truth",
+              "body_md": "If the owner offers an undated photo, the customer may legitimately ask when it was taken and whether it depicts the disputed equipment. They may not manufacture a different date or pressure a witness to lie. Relevant documents must be handled under lawful disclosure and preservation obligations. The objective is to test the evidence against the governing standard, not to move the burden by tricks. A good first answer identifies who must prove what, which fact remains unsupported, and what honest step could resolve it.",
+              "example": null,
+              "audio_script": "If the owner offers an undated photo, the customer may legitimately ask when it was taken and whether it depicts the disputed equipment. They may not manufacture a different date or pressure a witness to lie. Relevant documents must be handled under lawful disclosure and preservation obligations. The objective is to test the evidence against the governing standard, not to move the burden by tricks. A good first answer identifies who must prove what, which fact remains unsupported, and what honest step could resolve it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q1",
+              "type": "true_false",
+              "prompt": "A photograph can be relevant evidence without proving every element of a negligence claim.",
+              "answer": true,
+              "explanation_if_true": "Evidence may support only particular propositions and require corroboration.",
+              "explanation_if_false": "Evidence may support only particular propositions and require corroboration."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q2",
+              "type": "true_false",
+              "prompt": "An advocate may secretly change a document to make the opposing party's claim harder to prove.",
+              "answer": false,
+              "explanation_if_true": "Falsifying or concealing evidence can violate serious professional and legal duties.",
+              "explanation_if_false": "Falsifying or concealing evidence can violate serious professional and legal duties."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A claimant offers a picture with no reliable date. What is a lawful response?",
+              "choices": [
+                "Destroy the copy before disclosure",
+                "Ask how and when the photograph was created",
+                "Alter its metadata secretly",
+                "Tell a witness to deny seeing it"
+              ],
+              "answer_index": 1,
+              "explanation": "Testing authenticity and timing is legitimate; fabrication is not."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which task belongs to the burden of persuasion?",
+              "choices": [
+                "Convincing the decision maker under the applicable proof standard",
+                "Simply filing any document",
+                "Automatically winning after naming a claim",
+                "Hiding material unfavorable evidence"
+              ],
+              "answer_index": 0,
+              "explanation": "Production and persuasion are different legal obligations."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Burden of production mean?",
+              "choices": [
+                "Obligation to present sufficient evidence on an issue",
+                "Obligation to convince the decision maker to the required standard",
+                "Lawful retention of potentially relevant material",
+                "Allocation of responsibility to establish a legal proposition"
+              ],
+              "answer_index": 0,
+              "explanation": "Burden of production means obligation to present sufficient evidence on an issue."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q6",
+              "type": "matching",
+              "prompt": "Match the burdens-of-proof concepts.",
+              "pairs": [
+                [
+                  "Burden of proof",
+                  "Allocation of responsibility to establish a legal proposition"
+                ],
+                [
+                  "Burden of production",
+                  "Obligation to present sufficient evidence on an issue"
+                ],
+                [
+                  "Burden of persuasion",
+                  "Obligation to convince the decision maker to the required standard"
+                ],
+                [
+                  "Evidence preservation",
+                  "Lawful retention of potentially relevant material"
+                ]
+              ],
+              "explanation": "Production and persuasion have distinct legal meanings."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for allocation of responsibility to establish a legal proposition is ___.",
+              "answer": "Burden of proof",
+              "accept": [
+                "Burden of proof"
+              ],
+              "explanation": "The answer is Burden of proof."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for lawful retention of potentially relevant material is ___.",
+              "answer": "Evidence preservation",
+              "accept": [
+                "Evidence preservation"
+              ],
+              "explanation": "The answer is Evidence preservation."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Apply presumptions and lawful burden shifting without confusing legal standards.",
+          "summary": "A prima facie showing and a presumption may change what evidence an opponent must produce, but they do not necessarily transfer the ultimate burden of persuasion. Learn to map the allocation of proof from the actual governing rule.",
+          "checklist": [
+            "I can distinguish a prima facie case and rebuttal",
+            "I can apply the basic structure of U.S. Federal Rule of Evidence 301 accurately",
+            "I can identify claim-specific exceptions to general rules"
+          ],
+          "sections": [
+            {
+              "title": "Make the elements visible",
+              "body_md": "Suppose a tenant presents a lease, dated heat complaints, and maintenance reports after a prolonged outage. Depending on governing law, those documents may satisfy an initial evidentiary burden for a particular housing claim. The owner may offer records of prompt repair and evidence showing an independent interruption. The significance of each item depends on the actual elements, standard, and procedural posture. A lawyer should not call every sequence a burden shift: opposing evidence may simply dispute the claimant's proof without changing which party ultimately must persuade the tribunal.",
+              "example": null,
+              "audio_script": "Suppose a tenant presents a lease, dated heat complaints, and maintenance reports after a prolonged outage. Depending on governing law, those documents may satisfy an initial evidentiary burden for a particular housing claim. The owner may offer records of prompt repair and evidence showing an independent interruption. The significance of each item depends on the actual elements, standard, and procedural posture. A lawyer should not call every sequence a burden shift: opposing evidence may simply dispute the claimant's proof without changing which party ultimately must persuade the tribunal.",
+              "video": null
+            },
+            {
+              "title": "A presumption has a defined consequence",
+              "body_md": "Under U.S. Federal Rule of Evidence 301 in an ordinary federal civil case, unless another rule or federal statute provides differently, a presumption puts on the opposing party the burden to produce evidence rebutting the presumed fact. It does not transfer the burden of persuasion, which stays where the governing law originally placed it. Other statutes and state-law rules may produce different effects. This specific structure matters because a lawyer can misstate the case by asserting that producing contrary material automatically shifts the ultimate obligation to the other side.",
+              "example": null,
+              "audio_script": "Under U.S. Federal Rule of Evidence 301 in an ordinary federal civil case, unless another rule or federal statute provides differently, a presumption puts on the opposing party the burden to produce evidence rebutting the presumed fact. It does not transfer the burden of persuasion, which stays where the governing law originally placed it. Other statutes and state-law rules may produce different effects. This specific structure matters because a lawyer can misstate the case by asserting that producing contrary material automatically shifts the ultimate obligation to the other side.",
+              "video": null
+            },
+            {
+              "title": "Use rebuttal evidence fairly",
+              "body_md": "A party facing a properly triggered presumption should identify the predicate facts, applicable source, and evidence permitted to rebut it. A party relying on the presumption should not invent its prerequisites. The distinction protects adversarial fairness: each side knows the proposition being tested. For a client meeting, draft a table with columns for element, assigned burden, proof needed, present evidence, and remaining gap. This is productive burden work, not a game of avoiding disclosure or suppressing truth.",
+              "example": null,
+              "audio_script": "A party facing a properly triggered presumption should identify the predicate facts, applicable source, and evidence permitted to rebut it. A party relying on the presumption should not invent its prerequisites. The distinction protects adversarial fairness: each side knows the proposition being tested. For a client meeting, draft a table with columns for element, assigned burden, proof needed, present evidence, and remaining gap. This is productive burden work, not a game of avoiding disclosure or suppressing truth.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Under Federal Rule of Evidence 301, an ordinary federal civil presumption shifts production but not persuasion unless another rule applies.",
+              "answer": true,
+              "explanation_if_true": "Rule 301 expressly preserves the burden of persuasion while requiring rebuttal production.",
+              "explanation_if_false": "Rule 301 expressly preserves the burden of persuasion while requiring rebuttal production."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every presumption in every country automatically transfers the ultimate burden of persuasion.",
+              "answer": false,
+              "explanation_if_true": "Presumptions have different effects under different statutes, rules, and jurisdictions.",
+              "explanation_if_false": "Presumptions have different effects under different statutes, rules, and jurisdictions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "An ordinary Rule 301 civil presumption is triggered and the opponent offers rebuttal evidence. What remains with the original party?",
+              "choices": [
+                "The burden of persuasion",
+                "An unlimited right to conceal records",
+                "A guarantee of judgment",
+                "Automatic criminal guilt"
+              ],
+              "answer_index": 0,
+              "explanation": "The Federal Rule addresses production, not an automatic transfer of persuasion."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What must counsel establish before invoking a presumption?",
+              "choices": [
+                "Only the client's preference",
+                "The opposing lawyer's age",
+                "That every factual allegation is admitted",
+                "The predicate facts and a governing legal source for it"
+              ],
+              "answer_index": 3,
+              "explanation": "A presumption arises under specified legal conditions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Presumption mean?",
+              "choices": [
+                "Evidence or reasoning contesting a presumed or asserted proposition",
+                "Final responsibility to convince under the governing standard",
+                "Showing sufficient to meet an initial legal threshold",
+                "Rule allowing or requiring an inference when specified facts exist"
+              ],
+              "answer_index": 3,
+              "explanation": "Presumption means rule allowing or requiring an inference when specified facts exist."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the burdens-of-proof concepts.",
+              "pairs": [
+                [
+                  "Prima facie case",
+                  "Showing sufficient to meet an initial legal threshold"
+                ],
+                [
+                  "Presumption",
+                  "Rule allowing or requiring an inference when specified facts exist"
+                ],
+                [
+                  "Rebuttal",
+                  "Evidence or reasoning contesting a presumed or asserted proposition"
+                ],
+                [
+                  "Ultimate persuasion",
+                  "Final responsibility to convince under the governing standard"
+                ]
+              ],
+              "explanation": "Production and persuasion have distinct legal meanings."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for showing sufficient to meet an initial legal threshold is ___.",
+              "answer": "Prima facie case",
+              "accept": [
+                "Prima facie case"
+              ],
+              "explanation": "The answer is Prima facie case."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for final responsibility to convince under the governing standard is ___.",
+              "answer": "Ultimate persuasion",
+              "accept": [
+                "Ultimate persuasion"
+              ],
+              "explanation": "The answer is Ultimate persuasion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare evidential and persuasive burdens in criminal and discrimination proceedings.",
+          "summary": "Criminal presumptions must respect the governing presumption of innocence, while some civil regimes use staged evidentiary frameworks. Distinguish a shift in explanation or production from a transfer of the legally protected ultimate burden.",
+          "checklist": [
+            "I can state the prosecution's ordinary criminal burden accurately",
+            "I can explain a staged discrimination proof framework without generalizing it worldwide",
+            "I can evaluate whether a presumption respects governing fair-trial protections"
+          ],
+          "sections": [
+            {
+              "title": "The accused need not prove innocence",
+              "body_md": "In U.S. criminal prosecutions, the government ordinarily must establish every element of the offense beyond a reasonable doubt. A defendant's choice not to testify cannot simply be treated as proof of guilt. Some affirmative defenses may have particular allocated burdens under relevant law, but those exceptions cannot be assumed without a source. An allegation that the accused was near a location may be evidence of opportunity, not proof of every element. Advanced burden analysis identifies the exact legal issue and the constitutional limits on any presumption.",
+              "example": null,
+              "audio_script": "In U.S. criminal prosecutions, the government ordinarily must establish every element of the offense beyond a reasonable doubt. A defendant's choice not to testify cannot simply be treated as proof of guilt. Some affirmative defenses may have particular allocated burdens under relevant law, but those exceptions cannot be assumed without a source. An allegation that the accused was near a location may be evidence of opportunity, not proof of every element. Advanced burden analysis identifies the exact legal issue and the constitutional limits on any presumption.",
+              "video": null
+            },
+            {
+              "title": "Civil frameworks can have distinct stages",
+              "body_md": "U.S. employment-discrimination cases under the McDonnell Douglas framework sometimes employ a sequence involving an initial plaintiff showing, an employer's burden to articulate a legitimate nondiscriminatory reason, and a plaintiff's opportunity to prove pretext. That framework arises in a defined legal context and is not the exclusive method for all discrimination claims. The intermediate employer burden is generally one of production rather than proving the reason persuaded the court. Lawyers must distinguish this procedural allocation from substantive elements and from direct-evidence routes that may apply.",
+              "example": null,
+              "audio_script": "U.S. employment-discrimination cases under the McDonnell Douglas framework sometimes employ a sequence involving an initial plaintiff showing, an employer's burden to articulate a legitimate nondiscriminatory reason, and a plaintiff's opportunity to prove pretext. That framework arises in a defined legal context and is not the exclusive method for all discrimination claims. The intermediate employer burden is generally one of production rather than proving the reason persuaded the court. Lawyers must distinguish this procedural allocation from substantive elements and from direct-evidence routes that may apply.",
+              "video": null
+            },
+            {
+              "title": "Test safeguards and explanations",
+              "body_md": "Suppose a statute presumes a disputed fact from a particular preliminary finding. Ask whether that preliminary finding is sufficiently related to the proposition presumed, who must produce rebuttal evidence, and what happens if the record stays evenly balanced. Identify whether the rule involves criminal liability, a civil penalty, or private damages. Procedural legality also depends on the relevant constitution or human-rights instrument. A master's answer should compare legitimate evidentiary efficiencies with the danger of forcing a person to disprove an unproved accusation.",
+              "example": null,
+              "audio_script": "Suppose a statute presumes a disputed fact from a particular preliminary finding. Ask whether that preliminary finding is sufficiently related to the proposition presumed, who must produce rebuttal evidence, and what happens if the record stays evenly balanced. Identify whether the rule involves criminal liability, a civil penalty, or private damages. Procedural legality also depends on the relevant constitution or human-rights instrument. A master's answer should compare legitimate evidentiary efficiencies with the danger of forcing a person to disprove an unproved accusation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q1",
+              "type": "true_false",
+              "prompt": "In ordinary U.S. criminal prosecutions the government bears the duty to establish offense elements beyond a reasonable doubt.",
+              "answer": true,
+              "explanation_if_true": "The constitutional burden protects the presumption of innocence.",
+              "explanation_if_false": "The constitutional burden protects the presumption of innocence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q2",
+              "type": "true_false",
+              "prompt": "McDonnell Douglas automatically makes every employer prove a discrimination plaintiff's whole case was false.",
+              "answer": false,
+              "explanation_if_true": "The framework uses particular stages and burdens; the ultimate plaintiff burden generally remains.",
+              "explanation_if_false": "The framework uses particular stages and burdens; the ultimate plaintiff burden generally remains."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An employer articulates a nondiscriminatory reason under a staged proof framework. What should the plaintiff test next?",
+              "choices": [
+                "Whether the employer can be arrested without charge",
+                "Whether legal burdens cease to matter",
+                "Whether disclosure rules can be ignored",
+                "Whether evidence shows that reason is pretextual under governing law"
+              ],
+              "answer_index": 3,
+              "explanation": "A rebuttal strategy examines real evidence rather than presuming the employer loses."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "What is most dangerous about an unfounded criminal presumption?",
+              "choices": [
+                "It encourages jurors to take notes",
+                "It demands clear evidence",
+                "It may undermine the prosecution's required proof and the accused's safeguards",
+                "It makes trials shorter"
+              ],
+              "answer_index": 2,
+              "explanation": "Fair-trial guarantees constrain use of proof shortcuts."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Burden shifting mean?",
+              "choices": [
+                "Inference permitted under specified conditions from evidence or conduct",
+                "Protection requiring prosecution proof before criminal condemnation",
+                "Rule-directed change in who must respond evidentially or persuasively",
+                "Proffered explanation alleged not to be the real reason"
+              ],
+              "answer_index": 2,
+              "explanation": "Burden shifting means rule-directed change in who must respond evidentially or persuasively."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q6",
+              "type": "matching",
+              "prompt": "Match the burdens-of-proof concepts.",
+              "pairs": [
+                [
+                  "Presumption of innocence",
+                  "Protection requiring prosecution proof before criminal condemnation"
+                ],
+                [
+                  "Burden shifting",
+                  "Rule-directed change in who must respond evidentially or persuasively"
+                ],
+                [
+                  "Pretext",
+                  "Proffered explanation alleged not to be the real reason"
+                ],
+                [
+                  "Adverse inference",
+                  "Inference permitted under specified conditions from evidence or conduct"
+                ]
+              ],
+              "explanation": "Production and persuasion have distinct legal meanings."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for protection requiring prosecution proof before criminal condemnation is ___.",
+              "answer": "Presumption of innocence",
+              "accept": [
+                "Presumption of innocence"
+              ],
+              "explanation": "The answer is Presumption of innocence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for inference permitted under specified conditions from evidence or conduct is ___.",
+              "answer": "Adverse inference",
+              "accept": [
+                "Adverse inference"
+              ],
+              "explanation": "The answer is Adverse inference."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique burden allocation as a distribution of evidentiary risk and institutional power.",
+          "summary": "The law cannot make every factual uncertainty disappear, so burden rules decide who risks losing when proof is incomplete. Develop an evidence-sensitive approach that respects due process, structural information asymmetry, and candor.",
+          "checklist": [
+            "I can analyze why burden allocation shapes substantive outcomes",
+            "I can distinguish legitimate information-forcing devices from coercive shortcuts",
+            "I can design a fair burden regime under asymmetric evidence access"
+          ],
+          "sections": [
+            {
+              "title": "Uncertainty must be allocated somehow",
+              "body_md": "A product manufacturer holds internal testing records while an injured consumer possesses only the failed device. The burden of proof may determine who loses when neither side can establish a key fact conclusively. Allocating all evidentiary risk to the party least able to access information can undermine the purposes of a right. But an automatic presumption against the manufacturer may be unfair if it has complied fully and the failure could arise elsewhere. A doctoral framework compares fault, access, reliability, and the substantive entitlement before proposing changes to evidentiary rules.",
+              "example": null,
+              "audio_script": "A product manufacturer holds internal testing records while an injured consumer possesses only the failed device. The burden of proof may determine who loses when neither side can establish a key fact conclusively. Allocating all evidentiary risk to the party least able to access information can undermine the purposes of a right. But an automatic presumption against the manufacturer may be unfair if it has complied fully and the failure could arise elsewhere. A doctoral framework compares fault, access, reliability, and the substantive entitlement before proposing changes to evidentiary rules.",
+              "video": null
+            },
+            {
+              "title": "A useful presumption is not a moral verdict",
+              "body_md": "A presumption may encourage disclosure or make litigation feasible where a predictable relationship supports inference. It must be legally authorized, factually grounded, and responsive to counterevidence under governing procedures. Consider the costs of false positives and false negatives as well as the risk that a powerful actor can exploit discovery or secrecy. The architecture varies across civil, criminal, administrative, and human-rights claims. Labels like 'shifting the burden' are inadequate without identifying the precise proposition and which burden actually moves.",
+              "example": null,
+              "audio_script": "A presumption may encourage disclosure or make litigation feasible where a predictable relationship supports inference. It must be legally authorized, factually grounded, and responsive to counterevidence under governing procedures. Consider the costs of false positives and false negatives as well as the risk that a powerful actor can exploit discovery or secrecy. The architecture varies across civil, criminal, administrative, and human-rights claims. Labels like 'shifting the burden' are inadequate without identifying the precise proposition and which burden actually moves.",
+              "video": null
+            },
+            {
+              "title": "Design a principled rule rather than a tactical trick",
+              "body_md": "Imagine a draft statute addressing medical records controlled exclusively by hospitals. Require initial patient evidence of treatment and a specified records failure before triggering a rebuttable inference, permit meaningful counterproof, and preserve the relevant ultimate proof standard where justice and law require it. Explain potential effects on recordkeeping, defensive behavior, and access to remedies. Audit the mechanism for disproportionate impacts on poor claimants. Competent advocacy may expose genuine information asymmetry, but manipulating testimony, destroying documents, or hiding legal authority would defeat the fairness the rule is meant to secure.",
+              "example": null,
+              "audio_script": "Imagine a draft statute addressing medical records controlled exclusively by hospitals. Require initial patient evidence of treatment and a specified records failure before triggering a rebuttable inference, permit meaningful counterproof, and preserve the relevant ultimate proof standard where justice and law require it. Explain potential effects on recordkeeping, defensive behavior, and access to remedies. Audit the mechanism for disproportionate impacts on poor claimants. Competent advocacy may expose genuine information asymmetry, but manipulating testimony, destroying documents, or hiding legal authority would defeat the fairness the rule is meant to secure.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q1",
+              "type": "true_false",
+              "prompt": "The allocation of proof burdens can determine an outcome even when the underlying historical facts remain uncertain.",
+              "answer": true,
+              "explanation_if_true": "A party may lose because the legal standard was not met, not because a complete account is known.",
+              "explanation_if_false": "A party may lose because the legal standard was not met, not because a complete account is known."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q2",
+              "type": "true_false",
+              "prompt": "A just evidence system should always presume the wealthier party liable without examining the claim or governing law.",
+              "answer": false,
+              "explanation_if_true": "Fair allocation must be justified by the underlying rule, reliable evidence, and procedural protections.",
+              "explanation_if_false": "Fair allocation must be justified by the underlying rule, reliable evidence, and procedural protections."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A claimant has no access to key hospital records solely controlled by the defendant. What reform warrants careful consideration?",
+              "choices": [
+                "Automatic punishment without hearing",
+                "A rule forbidding any defense",
+                "A defined disclosure duty and legally grounded rebuttable inference",
+                "Secret fabrication of missing records"
+              ],
+              "answer_index": 2,
+              "explanation": "A targeted mechanism can address information imbalance without abandoning fair proof."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What distinguishes sound burden advocacy from manipulation?",
+              "choices": [
+                "Changing facts until the claim wins",
+                "Accurate allocation, lawful evidence, clear standards and candor",
+                "Creating false documents",
+                "Suppressing inconvenient witnesses"
+              ],
+              "answer_index": 1,
+              "explanation": "The legal system's allocation of uncertainty should not be distorted through deception."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Risk of nonpersuasion mean?",
+              "choices": [
+                "Unequal access to information needed for proof",
+                "Chance of losing because the required fact remains unproved",
+                "Conclusion that may be contested with permitted evidence",
+                "Fair design and operation of decision-making procedures"
+              ],
+              "answer_index": 1,
+              "explanation": "Risk of nonpersuasion means chance of losing because the required fact remains unproved."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q6",
+              "type": "matching",
+              "prompt": "Match the burdens-of-proof concepts.",
+              "pairs": [
+                [
+                  "Evidentiary asymmetry",
+                  "Unequal access to information needed for proof"
+                ],
+                [
+                  "Risk of nonpersuasion",
+                  "Chance of losing because the required fact remains unproved"
+                ],
+                [
+                  "Rebuttable inference",
+                  "Conclusion that may be contested with permitted evidence"
+                ],
+                [
+                  "Procedural justice",
+                  "Fair design and operation of decision-making procedures"
+                ]
+              ],
+              "explanation": "Production and persuasion have distinct legal meanings."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for unequal access to information needed for proof is ___.",
+              "answer": "Evidentiary asymmetry",
+              "accept": [
+                "Evidentiary asymmetry"
+              ],
+              "explanation": "The answer is Evidentiary asymmetry."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.burden-manipulation.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for fair design and operation of decision-making procedures is ___.",
+              "answer": "Procedural justice",
+              "accept": [
+                "Procedural justice"
+              ],
+              "explanation": "The answer is Procedural justice."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

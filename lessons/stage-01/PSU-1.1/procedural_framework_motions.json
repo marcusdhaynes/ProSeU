@@ -1,0 +1,552 @@
+{
+  "key": "procedural_framework",
+  "name": "Procedural Frameworks",
+  "subsections": [
+    {
+      "key": "motion-practice",
+      "name": "Motion Practice",
+      "levels": {
+        "red": {
+          "focus": "Identify the question a motion asks a court to decide.",
+          "summary": "A motion requests a particular order before or during litigation. Learn how such decisions can narrow a dispute without resolving all of its merits.",
+          "checklist": [
+            "I can identify the relief sought by a motion",
+            "I can distinguish provisional orders from final decisions",
+            "I can explain why the requested order needs lawful authority"
+          ],
+          "sections": [
+            {
+              "title": "A motion asks for a specific ruling",
+              "body_md": "A defendant believes the court lacks jurisdiction and asks it to decide that question. This application is a motion. Courts may receive requests to dismiss a claim, regulate evidence, or protect interests temporarily. The party should identify the rule permitting the order and explain why its conditions are met. A motion is not simply an opportunity to repeat every fact about the dispute. Its function is to present a defined issue that can be addressed at the current stage.",
+              "audio_script": "A defendant believes the court lacks jurisdiction and asks it to decide that question. This application is a motion. Courts may receive requests to dismiss a claim, regulate evidence, or protect interests temporarily. The party should identify the rule permitting the order and explain why its conditions are met. A motion is not simply an opportunity to repeat every fact about the dispute. Its function is to present a defined issue that can be addressed at the current stage.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Early ruling does not mean final victory",
+              "body_md": "A judge may refuse to dismiss a case because the pleadings state a potentially valid claim, not because the allegations have been proved. A temporary order may preserve property while facts remain contested. Conversely, a jurisdictional dismissal might leave the underlying conduct entirely undecided. The lawyer must distinguish what the order actually decides from what the client hopes it suggests. That distinction prevents incorrect claims of guilt or innocence based on procedural rulings.",
+              "audio_script": "A judge may refuse to dismiss a case because the pleadings state a potentially valid claim, not because the allegations have been proved. A temporary order may preserve property while facts remain contested. Conversely, a jurisdictional dismissal might leave the underlying conduct entirely undecided. The lawyer must distinguish what the order actually decides from what the client hopes it suggests. That distinction prevents incorrect claims of guilt or innocence based on procedural rulings.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Make the request intelligible",
+              "body_md": "An effective motion identifies the legal rule, relevant facts, specific order, and practical consequence. It avoids unsupported accusations and material not permitted at the procedural stage. A judge should be able to understand why deciding the issue now is lawful and useful. The other party deserves a fair chance to respond under the applicable rules. Concision serves justice when it makes the real question clearer rather than concealing an important qualification.",
+              "audio_script": "An effective motion identifies the legal rule, relevant facts, specific order, and practical consequence. It avoids unsupported accusations and material not permitted at the procedural stage. A judge should be able to understand why deciding the issue now is lawful and useful. The other party deserves a fair chance to respond under the applicable rules. Concision serves justice when it makes the real question clearer rather than concealing an important qualification.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q1",
+              "type": "true_false",
+              "prompt": "Interim order means temporary ruling before final resolution.",
+              "answer": true,
+              "explanation_if_true": "Interim order means temporary ruling before final resolution.",
+              "explanation_if_false": "Interim order means temporary ruling before final resolution."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q2",
+              "type": "true_false",
+              "prompt": "Denial of dismissal always means the defendant has been finally found liable.",
+              "answer": false,
+              "explanation_if_true": "The court may simply be permitting the dispute to proceed.",
+              "explanation_if_false": "The court may simply be permitting the dispute to proceed."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Motion?",
+              "choices": [
+                "Substantive correctness of the underlying claim",
+                "Request for a specific judicial order",
+                "Temporary ruling before final resolution",
+                "Authorized termination of a claim"
+              ],
+              "answer_index": 1,
+              "explanation": "Motion means request for a specific judicial order."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A motion is denied because disputed facts need a hearing. What follows?",
+              "choices": [
+                "Further adjudication is needed",
+                "Automatic guilt",
+                "A final judgment awarding damages",
+                "A decision that all witnesses are truthful"
+              ],
+              "answer_index": 0,
+              "explanation": "The merits may remain undecided after an early motion."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means authorized termination of a claim?",
+              "choices": [
+                "Dismissal",
+                "Motion",
+                "Merits",
+                "Interim order"
+              ],
+              "answer_index": 0,
+              "explanation": "Dismissal means authorized termination of a claim."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q6",
+              "type": "matching",
+              "prompt": "Match the motion practice terms.",
+              "pairs": [
+                [
+                  "Motion",
+                  "Request for a specific judicial order"
+                ],
+                [
+                  "Interim order",
+                  "Temporary ruling before final resolution"
+                ],
+                [
+                  "Dismissal",
+                  "Authorized termination of a claim"
+                ],
+                [
+                  "Merits",
+                  "Substantive correctness of the underlying claim"
+                ]
+              ],
+              "explanation": "Each motion-related concept answers a different question."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for request for a specific judicial order is ___.",
+              "answer": "Motion",
+              "accept": [
+                "Motion"
+              ],
+              "explanation": "The answer is Motion."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for substantive correctness of the underlying claim is ___.",
+              "answer": "Merits",
+              "accept": [
+                "Merits"
+              ],
+              "explanation": "The answer is Merits."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish pleading dismissal, summary judgment, and interim relief.",
+          "summary": "Pretrial procedures apply different standards to different questions. Learn when the existing record can support a ruling and when further factfinding is required.",
+          "checklist": [
+            "I can distinguish pleading sufficiency from summary judgment",
+            "I can identify provisional relief standards",
+            "I can match a motion to the permissible record"
+          ],
+          "sections": [
+            {
+              "title": "Not every motion uses the same test",
+              "body_md": "A request to dismiss for pleading insufficiency can ask whether allegations, treated as the governing rule requires, state a legally viable claim. Summary judgment in some systems asks whether a genuine material factual dispute requires trial. The materials a court may consider often differ. Combining these procedures into a single demand for early victory is analytically unsound. Identify the correct rule, the specific issue it reaches, and the consequences of granting it.",
+              "audio_script": "A request to dismiss for pleading insufficiency can ask whether allegations, treated as the governing rule requires, state a legally viable claim. Summary judgment in some systems asks whether a genuine material factual dispute requires trial. The materials a court may consider often differ. Combining these procedures into a single demand for early victory is analytically unsound. Identify the correct rule, the specific issue it reaches, and the consequences of granting it.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Temporary protection has costs",
+              "body_md": "An interim injunction may restrain a disputed act before a full hearing. This can protect against harm that ordinary damages cannot remedy, but it also imposes a burden on someone not yet found liable. Applicable tests may examine likelihood of success, irreparable harm, balance of hardships, and public interest. A lawyer should never present urgency alone as proof that every element is satisfied. Different jurisdictions and remedies impose different standards.",
+              "audio_script": "An interim injunction may restrain a disputed act before a full hearing. This can protect against harm that ordinary damages cannot remedy, but it also imposes a burden on someone not yet found liable. Applicable tests may examine likelihood of success, irreparable harm, balance of hardships, and public interest. A lawyer should never present urgency alone as proof that every element is satisfied. Different jurisdictions and remedies impose different standards.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Match the issue to available proof",
+              "body_md": "If the parties agree on the material facts but disagree about a controlling statute, an early legal ruling may save time. If they dispute what happened and credibility is central, further proof may be necessary. The legal standard decides what evidence is admissible or assumed at this stage. A sound motion separates undisputed facts from contested ones and explains why the requested result follows without unfairly deciding an issue the procedure cannot yet resolve.",
+              "audio_script": "If the parties agree on the material facts but disagree about a controlling statute, an early legal ruling may save time. If they dispute what happened and credibility is central, further proof may be necessary. The legal standard decides what evidence is admissible or assumed at this stage. A sound motion separates undisputed facts from contested ones and explains why the requested result follows without unfairly deciding an issue the procedure cannot yet resolve.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q1",
+              "type": "true_false",
+              "prompt": "Summary judgment means decision without trial where governing conditions are met.",
+              "answer": true,
+              "explanation_if_true": "Summary judgment means decision without trial where governing conditions are met.",
+              "explanation_if_false": "Summary judgment means decision without trial where governing conditions are met."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q2",
+              "type": "true_false",
+              "prompt": "All motions before trial use identical legal and evidentiary standards.",
+              "answer": false,
+              "explanation_if_true": "Different requests are controlled by different tests and records.",
+              "explanation_if_false": "Different requests are controlled by different tests and records."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Pleading sufficiency?",
+              "choices": [
+                "Whether allegations state a viable claim",
+                "Decision without trial where governing conditions are met",
+                "Temporary restraint or direction of conduct",
+                "Fact that can affect the legal outcome"
+              ],
+              "answer_index": 0,
+              "explanation": "Pleading sufficiency means whether allegations state a viable claim."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Parties agree on facts but dispute the legal meaning of a statute. What may help?",
+              "choices": [
+                "Automatically finding a witness dishonest",
+                "Ignoring the governing standard",
+                "Treating the case as already settled",
+                "A properly grounded early legal ruling"
+              ],
+              "answer_index": 3,
+              "explanation": "Some legal questions can be resolved without factfinding disputes."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means temporary restraint or direction of conduct?",
+              "choices": [
+                "Pleading sufficiency",
+                "Material fact",
+                "Summary judgment",
+                "Interim injunction"
+              ],
+              "answer_index": 3,
+              "explanation": "Interim injunction means temporary restraint or direction of conduct."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the motion practice terms.",
+              "pairs": [
+                [
+                  "Pleading sufficiency",
+                  "Whether allegations state a viable claim"
+                ],
+                [
+                  "Summary judgment",
+                  "Decision without trial where governing conditions are met"
+                ],
+                [
+                  "Interim injunction",
+                  "Temporary restraint or direction of conduct"
+                ],
+                [
+                  "Material fact",
+                  "Fact that can affect the legal outcome"
+                ]
+              ],
+              "explanation": "Each motion-related concept answers a different question."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for whether allegations state a viable claim is ___.",
+              "answer": "Pleading sufficiency",
+              "accept": [
+                "Pleading sufficiency"
+              ],
+              "explanation": "The answer is Pleading sufficiency."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for fact that can affect the legal outcome is ___.",
+              "answer": "Material fact",
+              "accept": [
+                "Material fact"
+              ],
+              "explanation": "The answer is Material fact."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Use motion practice without turning procedure into harassment.",
+          "summary": "A motion can save resources or impose disproportionate costs. Evaluate whether early relief narrows a genuine legal issue or unfairly blocks access to evidence.",
+          "checklist": [
+            "I can identify lawful reasons for narrowing litigation",
+            "I can recognize tactical abuse and information asymmetry",
+            "I can propose narrower relief when it is adequate"
+          ],
+          "sections": [
+            {
+              "title": "Efficiency is not the only aim",
+              "body_md": "A public agency may control the records needed to challenge its decision. An early motion could save costs if a claim is legally impossible, but may create injustice if the key evidence remains inaccessible. Evaluate the claim’s elements, the proper procedural stage, and any lawful opportunity for limited disclosure. A strong argument identifies what can fairly be decided now and what remains uncertain. It does not convert the opponent’s lack of documents into a rhetorical substitute for legal insufficiency.",
+              "audio_script": "A public agency may control the records needed to challenge its decision. An early motion could save costs if a claim is legally impossible, but may create injustice if the key evidence remains inaccessible. Evaluate the claim’s elements, the proper procedural stage, and any lawful opportunity for limited disclosure. A strong argument identifies what can fairly be decided now and what remains uncertain. It does not convert the opponent’s lack of documents into a rhetorical substitute for legal insufficiency.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "The court is not a weapon of attrition",
+              "body_md": "Repeated baseless motions can force a weaker party to spend money responding without bringing the legal dispute closer to a justified answer. Professional duties and procedural sanctions may restrict such practices. Before filing, counsel should state the motion’s legal basis, legitimate purpose, expected benefit, and cost. A client may want aggressive representation, but that does not authorize knowingly frivolous applications. Fidelity to the client includes protecting them from unethical or wasteful strategy.",
+              "audio_script": "Repeated baseless motions can force a weaker party to spend money responding without bringing the legal dispute closer to a justified answer. Professional duties and procedural sanctions may restrict such practices. Before filing, counsel should state the motion’s legal basis, legitimate purpose, expected benefit, and cost. A client may want aggressive representation, but that does not authorize knowingly frivolous applications. Fidelity to the client includes protecting them from unethical or wasteful strategy.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "A narrower order may do more",
+              "body_md": "A court might resolve one controlling legal issue, restrict an overbroad document request, or allow a specific pleading correction rather than dispose of the entire case. Such relief can preserve fair factfinding while avoiding unnecessary steps. Compare the consequences of each request for evidence, cost, and available review. An advanced lawyer chooses the least intrusive measure that addresses the actual procedural problem within the court’s lawful power.",
+              "audio_script": "A court might resolve one controlling legal issue, restrict an overbroad document request, or allow a specific pleading correction rather than dispose of the entire case. Such relief can preserve fair factfinding while avoiding unnecessary steps. Compare the consequences of each request for evidence, cost, and available review. An advanced lawyer chooses the least intrusive measure that addresses the actual procedural problem within the court’s lawful power.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q1",
+              "type": "true_false",
+              "prompt": "Abusive motion means application lacking a legitimate legal purpose.",
+              "answer": true,
+              "explanation_if_true": "Abusive motion means application lacking a legitimate legal purpose.",
+              "explanation_if_false": "Abusive motion means application lacking a legitimate legal purpose."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q2",
+              "type": "true_false",
+              "prompt": "A motion is ethically proper whenever it increases the opponent's legal expenses.",
+              "answer": false,
+              "explanation_if_true": "Procedural applications require legal grounds and must not be used merely to harass.",
+              "explanation_if_false": "Procedural applications require legal grounds and must not be used merely to harass."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Early disposition?",
+              "choices": [
+                "Application lacking a legitimate legal purpose",
+                "Limiting relief to a justified scope",
+                "Fair allocation of litigation opportunities",
+                "Resolution of claims before trial"
+              ],
+              "answer_index": 3,
+              "explanation": "Early disposition means resolution of claims before trial."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A wealthy party repeatedly files baseless motions to exhaust the claimant. What is the issue?",
+              "choices": [
+                "Proper factual disclosure",
+                "A valid consent judgment",
+                "Procedural abuse",
+                "A new source of jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "Misusing procedure for attrition may violate legal and ethical duties."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means limiting relief to a justified scope?",
+              "choices": [
+                "Procedural fairness",
+                "Abusive motion",
+                "Narrow tailoring",
+                "Early disposition"
+              ],
+              "answer_index": 2,
+              "explanation": "Narrow tailoring means limiting relief to a justified scope."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q6",
+              "type": "matching",
+              "prompt": "Match the motion practice terms.",
+              "pairs": [
+                [
+                  "Early disposition",
+                  "Resolution of claims before trial"
+                ],
+                [
+                  "Abusive motion",
+                  "Application lacking a legitimate legal purpose"
+                ],
+                [
+                  "Narrow tailoring",
+                  "Limiting relief to a justified scope"
+                ],
+                [
+                  "Procedural fairness",
+                  "Fair allocation of litigation opportunities"
+                ]
+              ],
+              "explanation": "Each motion-related concept answers a different question."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for resolution of claims before trial is ___.",
+              "answer": "Early disposition",
+              "accept": [
+                "Early disposition"
+              ],
+              "explanation": "The answer is Early disposition."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for fair allocation of litigation opportunities is ___.",
+              "answer": "Procedural fairness",
+              "accept": [
+                "Procedural fairness"
+              ],
+              "explanation": "The answer is Procedural fairness."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend pretrial screening rules that allocate error fairly.",
+          "summary": "Pretrial decisions protect defendants from baseless suits but can exclude meritorious claims. Design rules that acknowledge uncertainty and unequal control of relevant evidence.",
+          "checklist": [
+            "I can compare harms of wrongly advancing and wrongly dismissing claims",
+            "I can analyze evidence asymmetry",
+            "I can propose a reviewable, proportionate screening framework"
+          ],
+          "sections": [
+            {
+              "title": "An early ruling distributes risks",
+              "body_md": "Granting dismissal can spare an innocent defendant substantial costs, yet a premature ruling may bar a genuine claimant who cannot yet prove facts. Rejecting dismissal can protect access while imposing expense on a party who ultimately owes nothing. A theory of legitimate motion practice must account for errors in both directions, not assume one is always harmless. Ask which facts are reasonably knowable at the stage, what burden each side bears, and what legal interests are at stake.",
+              "audio_script": "Granting dismissal can spare an innocent defendant substantial costs, yet a premature ruling may bar a genuine claimant who cannot yet prove facts. Rejecting dismissal can protect access while imposing expense on a party who ultimately owes nothing. A theory of legitimate motion practice must account for errors in both directions, not assume one is always harmless. Ask which facts are reasonably knowable at the stage, what burden each side bears, and what legal interests are at stake.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Formal neutrality can hide power",
+              "body_md": "A high proof threshold might affect a citizen challenging a public institution differently from a corporation able to access its own records. At the same time, unrestricted discovery may threaten the privacy of people not involved and cripple smaller defendants. A balanced system can consider carefully staged disclosure, proportional protective orders, and reasoned decisions. A doctoral proposal must identify which reforms current law permits and evaluate their real-world consequences rather than rely only on moral intuitions.",
+              "audio_script": "A high proof threshold might affect a citizen challenging a public institution differently from a corporation able to access its own records. At the same time, unrestricted discovery may threaten the privacy of people not involved and cripple smaller defendants. A balanced system can consider carefully staged disclosure, proportional protective orders, and reasoned decisions. A doctoral proposal must identify which reforms current law permits and evaluate their real-world consequences rather than rely only on moral intuitions.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Explain and review the decision",
+              "body_md": "Design a motion standard requiring a concrete legal defect, specified permitted evidence, written reasons, and appropriate review. Allow proportional opportunities to correct a pleading defect without rewarding deliberate falsehoods or endless delay. Test the proposal against claims involving livelihood and liberty, not just commercial transactions. The ethical point is reciprocal: the claimant deserves meaningful access to truth, and the defendant deserves protection against unsupported coercion. A justified procedure protects both through rules that can be publicly defended.",
+              "audio_script": "Design a motion standard requiring a concrete legal defect, specified permitted evidence, written reasons, and appropriate review. Allow proportional opportunities to correct a pleading defect without rewarding deliberate falsehoods or endless delay. Test the proposal against claims involving livelihood and liberty, not just commercial transactions. The ethical point is reciprocal: the claimant deserves meaningful access to truth, and the defendant deserves protection against unsupported coercion. A justified procedure protects both through rules that can be publicly defended.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q1",
+              "type": "true_false",
+              "prompt": "False-positive claim means baseless claim mistakenly allowed to continue.",
+              "answer": true,
+              "explanation_if_true": "False-positive claim means baseless claim mistakenly allowed to continue.",
+              "explanation_if_false": "False-positive claim means baseless claim mistakenly allowed to continue."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q2",
+              "type": "true_false",
+              "prompt": "The most severe available motion practice is always the fairest.",
+              "answer": false,
+              "explanation_if_true": "Severe screening can reduce weak suits but also block legitimate claims before evidence can be obtained.",
+              "explanation_if_false": "Severe screening can reduce weak suits but also block legitimate claims before evidence can be obtained."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Gatekeeping?",
+              "choices": [
+                "Valid claim wrongly terminated",
+                "Distribution of the risks of mistaken decisions",
+                "Early procedural screening of claims",
+                "Baseless claim mistakenly allowed to continue"
+              ],
+              "answer_index": 2,
+              "explanation": "Gatekeeping means early procedural screening of claims."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A rule dismisses likely valid claims because needed records are held by defendants. What concern arises?",
+              "choices": [
+                "A final statute amendment",
+                "False-negative dismissal",
+                "A guaranteed trial",
+                "More accurate access to proof"
+              ],
+              "answer_index": 1,
+              "explanation": "Early screening can exclude meritorious claims under information asymmetry."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means valid claim wrongly terminated?",
+              "choices": [
+                "False-positive claim",
+                "False-negative dismissal",
+                "Gatekeeping",
+                "Error allocation"
+              ],
+              "answer_index": 1,
+              "explanation": "False-negative dismissal means valid claim wrongly terminated."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q6",
+              "type": "matching",
+              "prompt": "Match the motion practice terms.",
+              "pairs": [
+                [
+                  "Gatekeeping",
+                  "Early procedural screening of claims"
+                ],
+                [
+                  "False-positive claim",
+                  "Baseless claim mistakenly allowed to continue"
+                ],
+                [
+                  "False-negative dismissal",
+                  "Valid claim wrongly terminated"
+                ],
+                [
+                  "Error allocation",
+                  "Distribution of the risks of mistaken decisions"
+                ]
+              ],
+              "explanation": "Each motion-related concept answers a different question."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for early procedural screening of claims is ___.",
+              "answer": "Gatekeeping",
+              "accept": [
+                "Gatekeeping"
+              ],
+              "explanation": "The answer is Gatekeeping."
+            },
+            {
+              "id": "PSU-1.1.procedural_framework.motion-practice.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for distribution of the risks of mistaken decisions is ___.",
+              "answer": "Error allocation",
+              "accept": [
+                "Error allocation"
+              ],
+              "explanation": "The answer is Error allocation."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

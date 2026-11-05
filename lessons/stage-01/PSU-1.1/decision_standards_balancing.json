@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "balancing-tests",
+      "name": "Balancing Tests",
+      "levels": {
+        "red": {
+          "focus": "Understand why courts sometimes weigh competing legal interests.",
+          "summary": "Some disputes cannot be settled by identifying one interest alone. Learn how a structured balancing test compares legally relevant rights, harms, and public purposes.",
+          "checklist": [
+            "I can identify the interests a legal test requires comparing",
+            "I can distinguish legal balancing from a personal preference",
+            "I can explain why the same rules must apply to both parties"
+          ],
+          "sections": [
+            {
+              "title": "Two important interests can conflict",
+              "body_md": "A journalist wants to publish information while another person seeks to protect private medical details. Each may invoke a recognized legal interest. A balancing test evaluates competing considerations under a defined legal rule. It does not permit a judge to select a winner merely because one person is more sympathetic. The first task is to identify which interests the legal system protects and whether the governing doctrine actually calls for balancing in this type of case.",
+              "example": null,
+              "audio_script": "A journalist wants to publish information while another person seeks to protect private medical details. Each may invoke a recognized legal interest. A balancing test evaluates competing considerations under a defined legal rule. It does not permit a judge to select a winner merely because one person is more sympathetic. The first task is to identify which interests the legal system protects and whether the governing doctrine actually calls for balancing in this type of case.",
+              "video": null
+            },
+            {
+              "title": "The framework limits the choice",
+              "body_md": "A legal test may specify relevant factors, required governmental interests, or limits on available restrictions. Those rules control the evaluation, even where different judges might weigh the factors differently. A lawyer should write the interests separately, note the evidence for each, and explain how the controlling standard treats them. One interest may prevail without the other becoming worthless. An honest analysis makes the competing reasons visible rather than pretending the dispute was easy.",
+              "example": null,
+              "audio_script": "A legal test may specify relevant factors, required governmental interests, or limits on available restrictions. Those rules control the evaluation, even where different judges might weigh the factors differently. A lawyer should write the interests separately, note the evidence for each, and explain how the controlling standard treats them. One interest may prevail without the other becoming worthless. An honest analysis makes the competing reasons visible rather than pretending the dispute was easy.",
+              "video": null
+            },
+            {
+              "title": "Evidence affects the balance",
+              "body_md": "A proposal to ban all demonstrations may advance traffic safety while severely burdening expression. Evidence about less restrictive alternatives and actual danger could matter under the governing law. A court should not accept an invented danger or dismiss genuine safety concerns without analysis. The goal of legal balancing is reasoned justification tied to relevant facts, not arbitrary compromise. A sound judgment can explain why a particular limit is permitted while preserving respect for the competing right.",
+              "example": null,
+              "audio_script": "A proposal to ban all demonstrations may advance traffic safety while severely burdening expression. Evidence about less restrictive alternatives and actual danger could matter under the governing law. A court should not accept an invented danger or dismiss genuine safety concerns without analysis. The goal of legal balancing is reasoned justification tied to relevant facts, not arbitrary compromise. A sound judgment can explain why a particular limit is permitted while preserving respect for the competing right.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q1",
+              "type": "true_false",
+              "prompt": "Protected interest means right or value recognized by governing law.",
+              "answer": true,
+              "explanation_if_true": "Protected interest means right or value recognized by governing law.",
+              "explanation_if_false": "Protected interest means right or value recognized by governing law."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q2",
+              "type": "true_false",
+              "prompt": "Balancing allows a judge to ignore all binding law and decide according to taste.",
+              "answer": false,
+              "explanation_if_true": "The governing doctrine determines which factors matter and how they are assessed.",
+              "explanation_if_false": "The governing doctrine determines which factors matter and how they are assessed."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Balancing test?",
+              "choices": [
+                "Legal relationship between a measure and its effect",
+                "Legal method comparing specified competing factors",
+                "Right or value recognized by governing law",
+                "Official objective asserted for an action"
+              ],
+              "answer_index": 1,
+              "explanation": "Balancing test means legal method comparing specified competing factors."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A court evaluates a safety restriction against protected expression under a governing test. What method may apply?",
+              "choices": [
+                "Structured balancing",
+                "A popularity vote alone",
+                "Automatically choosing the larger group",
+                "Ignoring the safety evidence"
+              ],
+              "answer_index": 0,
+              "explanation": "Balancing evaluates recognized interests under legal criteria."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means official objective asserted for an action?",
+              "choices": [
+                "Balancing test",
+                "Public purpose",
+                "Protected interest",
+                "Proportionality"
+              ],
+              "answer_index": 1,
+              "explanation": "Public purpose means official objective asserted for an action."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q6",
+              "type": "matching",
+              "prompt": "Match each balancing concept.",
+              "pairs": [
+                [
+                  "Balancing test",
+                  "Legal method comparing specified competing factors"
+                ],
+                [
+                  "Protected interest",
+                  "Right or value recognized by governing law"
+                ],
+                [
+                  "Public purpose",
+                  "Official objective asserted for an action"
+                ],
+                [
+                  "Proportionality",
+                  "Legal relationship between a measure and its effect"
+                ]
+              ],
+              "explanation": "A structured comparison requires legal constraints as well as judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for legal method comparing specified competing factors is ___.",
+              "answer": "Balancing test",
+              "accept": [
+                "Balancing test"
+              ],
+              "explanation": "The term is Balancing test."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for legal relationship between a measure and its effect is ___.",
+              "answer": "Proportionality",
+              "accept": [
+                "Proportionality"
+              ],
+              "explanation": "The term is Proportionality."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish factor tests from proportionality and categorical rules.",
+          "summary": "Courts can evaluate multiple factors, compare means and ends, or apply an overriding rule. Learn why the method must come from the governing source.",
+          "checklist": [
+            "I can identify mandatory versus optional factors",
+            "I can apply a multi-factor legal standard carefully",
+            "I can distinguish balancing from an automatic categorical prohibition"
+          ],
+          "sections": [
+            {
+              "title": "A factor list needs a legal source",
+              "body_md": "A court may consider the nature of the right, the government's purpose, evidentiary reliability, and the effects of alternatives. But the relevant factors depend on the specific legal doctrine. A lawyer cannot invent a fifth factor because it helps the preferred side. Identify whether the test prescribes weights, assigns a burden, or allows discretion within defined limits. The strongest answer explains each required consideration and identifies facts that would change the conclusion.",
+              "example": null,
+              "audio_script": "A court may consider the nature of the right, the government's purpose, evidentiary reliability, and the effects of alternatives. But the relevant factors depend on the specific legal doctrine. A lawyer cannot invent a fifth factor because it helps the preferred side. Identify whether the test prescribes weights, assigns a burden, or allows discretion within defined limits. The strongest answer explains each required consideration and identifies facts that would change the conclusion.",
+              "video": null
+            },
+            {
+              "title": "Proportionality is more than general balance",
+              "body_md": "In legal systems using proportionality, a court may separately assess legitimate aim, suitability, necessity, and final balance. Conflating these stages obscures the reasoning: a measure could be suitable yet needlessly broad. Other doctrines use an overall multi-factor evaluation without the same sequence. Still others impose categorical limits that no amount of benefit can overcome. Respect the applicable structure instead of calling every difficult decision a balance between good and bad.",
+              "example": null,
+              "audio_script": "In legal systems using proportionality, a court may separately assess legitimate aim, suitability, necessity, and final balance. Conflating these stages obscures the reasoning: a measure could be suitable yet needlessly broad. Other doctrines use an overall multi-factor evaluation without the same sequence. Still others impose categorical limits that no amount of benefit can overcome. Respect the applicable structure instead of calling every difficult decision a balance between good and bad.",
+              "video": null
+            },
+            {
+              "title": "A transparent explanation aids review",
+              "body_md": "A judge might conclude that a limited disclosure order adequately serves public scrutiny without publishing a person's full medical file. The decision should explain what the parties needed, which evidence was considered, and why narrower relief achieved the legally relevant aim. An unsupported label such as 'fair on balance' is not enough. Transparency allows affected persons and reviewing courts to identify mistaken assumptions or missing factors.",
+              "example": null,
+              "audio_script": "A judge might conclude that a limited disclosure order adequately serves public scrutiny without publishing a person's full medical file. The decision should explain what the parties needed, which evidence was considered, and why narrower relief achieved the legally relevant aim. An unsupported label such as 'fair on balance' is not enough. Transparency allows affected persons and reviewing courts to identify mistaken assumptions or missing factors.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q1",
+              "type": "true_false",
+              "prompt": "Mandatory factor means consideration the governing law requires.",
+              "answer": true,
+              "explanation_if_true": "Mandatory factor means consideration the governing law requires.",
+              "explanation_if_false": "Mandatory factor means consideration the governing law requires."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every legal rule must yield to a balancing test whenever a judge thinks it useful.",
+              "answer": false,
+              "explanation_if_true": "Some rules impose categorical requirements, and legal methods are not interchangeable.",
+              "explanation_if_false": "Some rules impose categorical requirements, and legal methods are not interchangeable."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Multi-factor test?",
+              "choices": [
+                "Decision method assessing several specified considerations",
+                "Consideration the governing law requires",
+                "Legal command applying without general balancing",
+                "Inquiry into comparably effective less restrictive means"
+              ],
+              "answer_index": 0,
+              "explanation": "Multi-factor test means decision method assessing several specified considerations."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A proportionality court finds an equally effective, less intrusive alternative. Which stage is implicated?",
+              "choices": [
+                "Only the court's jurisdiction",
+                "Automatic statutory repeal",
+                "The spelling of the injunction",
+                "Necessity"
+              ],
+              "answer_index": 3,
+              "explanation": "The necessity stage addresses justified means compared with less restrictive alternatives."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal command applying without general balancing?",
+              "choices": [
+                "Categorical rule",
+                "Mandatory factor",
+                "Necessity",
+                "Multi-factor test"
+              ],
+              "answer_index": 0,
+              "explanation": "Categorical rule means legal command applying without general balancing."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each balancing concept.",
+              "pairs": [
+                [
+                  "Multi-factor test",
+                  "Decision method assessing several specified considerations"
+                ],
+                [
+                  "Mandatory factor",
+                  "Consideration the governing law requires"
+                ],
+                [
+                  "Categorical rule",
+                  "Legal command applying without general balancing"
+                ],
+                [
+                  "Necessity",
+                  "Inquiry into comparably effective less restrictive means"
+                ]
+              ],
+              "explanation": "A structured comparison requires legal constraints as well as judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for decision method assessing several specified considerations is ___.",
+              "answer": "Multi-factor test",
+              "accept": [
+                "Multi-factor test"
+              ],
+              "explanation": "The term is Multi-factor test."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for inquiry into comparably effective less restrictive means is ___.",
+              "answer": "Necessity",
+              "accept": [
+                "Necessity"
+              ],
+              "explanation": "The term is Necessity."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate the risks of incomparability and unstructured weighing.",
+          "summary": "Not all legal values can be expressed in money or a single numerical score. Compare how factor-based tests handle rights, welfare, risk, and distributive effects.",
+          "checklist": [
+            "I can identify values that cannot be reduced to a common metric",
+            "I can evaluate the cost of inconsistent factor weighting",
+            "I can apply a disciplined balancing method to conflicting interests"
+          ],
+          "sections": [
+            {
+              "title": "Not every value shares a unit",
+              "body_md": "Public health may be measured through expected lives protected, while speech rights concern dignity and political participation. Assigning arbitrary numerical scores to each can conceal moral disagreements rather than resolve them. A legal balancing test may require reasoned qualitative judgment alongside empirical facts. The advocate should distinguish measurable consequences from normative weights and explain why the governing legal rule gives each factor its role. A transparent argument need not pretend that all values are commensurable.",
+              "example": null,
+              "audio_script": "Public health may be measured through expected lives protected, while speech rights concern dignity and political participation. Assigning arbitrary numerical scores to each can conceal moral disagreements rather than resolve them. A legal balancing test may require reasoned qualitative judgment alongside empirical facts. The advocate should distinguish measurable consequences from normative weights and explain why the governing legal rule gives each factor its role. A transparent argument need not pretend that all values are commensurable.",
+              "video": null
+            },
+            {
+              "title": "Unstructured balancing risks inconsistency",
+              "body_md": "If one court favors efficiency and another favors individual autonomy without articulating shared criteria, similar cases may yield unpredictable outcomes. A factor test should identify legally relevant interests, burdens of justification, evidence and boundaries on discretion. Precedents may show how to apply these criteria to different facts. Consistency need not require identical results, but it does require explaining which factual differences justify the variation. That makes law more than case-by-case moral improvisation.",
+              "example": null,
+              "audio_script": "If one court favors efficiency and another favors individual autonomy without articulating shared criteria, similar cases may yield unpredictable outcomes. A factor test should identify legally relevant interests, burdens of justification, evidence and boundaries on discretion. Precedents may show how to apply these criteria to different facts. Consistency need not require identical results, but it does require explaining which factual differences justify the variation. That makes law more than case-by-case moral improvisation.",
+              "video": null
+            },
+            {
+              "title": "Look at who pays the cost",
+              "body_md": "A city restriction may benefit most residents while placing nearly all the burden on a small marginalized group. Aggregate benefits alone may obscure this distribution, particularly where equality rules impose independent constraints. An advanced analysis should identify affected persons, available alternatives, and nonnegotiable legal protections. Balancing cannot make an otherwise prohibited discriminatory classification lawful by merely multiplying benefits. A rigorous conclusion states the doctrine and its limits before evaluating social effects.",
+              "example": null,
+              "audio_script": "A city restriction may benefit most residents while placing nearly all the burden on a small marginalized group. Aggregate benefits alone may obscure this distribution, particularly where equality rules impose independent constraints. An advanced analysis should identify affected persons, available alternatives, and nonnegotiable legal protections. Balancing cannot make an otherwise prohibited discriminatory classification lawful by merely multiplying benefits. A rigorous conclusion states the doctrine and its limits before evaluating social effects.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q1",
+              "type": "true_false",
+              "prompt": "Factor weighting means relative importance assigned to legal considerations.",
+              "answer": true,
+              "explanation_if_true": "Factor weighting means relative importance assigned to legal considerations.",
+              "explanation_if_false": "Factor weighting means relative importance assigned to legal considerations."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q2",
+              "type": "true_false",
+              "prompt": "Every legal right can be reduced to an objective monetary value without any moral judgment.",
+              "answer": false,
+              "explanation_if_true": "Rights may embody dignity and freedom that cannot be mechanically converted into prices.",
+              "explanation_if_false": "Rights may embody dignity and freedom that cannot be mechanically converted into prices."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Incommensurability?",
+              "choices": [
+                "Relative importance assigned to legal considerations",
+                "How consequences fall across persons or groups",
+                "Rule limiting the balancing decision",
+                "Lack of a single shared measure for values"
+              ],
+              "answer_index": 3,
+              "explanation": "Incommensurability means lack of a single shared measure for values."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A policy benefits many but places severe burdens on a protected minority. What must analysis consider?",
+              "choices": [
+                "Only the mayor's statement",
+                "An invented mathematical score",
+                "Distributional effects and independent equality limits",
+                "Only total aggregate savings"
+              ],
+              "answer_index": 2,
+              "explanation": "Balancing must respect legally protected persons and nonnegotiable constraints."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means how consequences fall across persons or groups?",
+              "choices": [
+                "Factor weighting",
+                "Legal constraint",
+                "Incommensurability",
+                "Distributive effect"
+              ],
+              "answer_index": 3,
+              "explanation": "Distributive effect means how consequences fall across persons or groups."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q6",
+              "type": "matching",
+              "prompt": "Match each balancing concept.",
+              "pairs": [
+                [
+                  "Incommensurability",
+                  "Lack of a single shared measure for values"
+                ],
+                [
+                  "Factor weighting",
+                  "Relative importance assigned to legal considerations"
+                ],
+                [
+                  "Distributive effect",
+                  "How consequences fall across persons or groups"
+                ],
+                [
+                  "Legal constraint",
+                  "Rule limiting the balancing decision"
+                ]
+              ],
+              "explanation": "A structured comparison requires legal constraints as well as judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for lack of a single shared measure for values is ___.",
+              "answer": "Incommensurability",
+              "accept": [
+                "Incommensurability"
+              ],
+              "explanation": "The term is Incommensurability."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for rule limiting the balancing decision is ___.",
+              "answer": "Legal constraint",
+              "accept": [
+                "Legal constraint"
+              ],
+              "explanation": "The term is Legal constraint."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique proportionality and balancing as theories of legitimacy.",
+          "summary": "Structured weighing promises rational justification yet can obscure judicial values and empower the strongest institution. Defend a method that is candid about uncertainty and respectful of rights.",
+          "checklist": [
+            "I can compare principled objections to balancing",
+            "I can identify how legal power shapes permitted factors",
+            "I can design an accountable proportionality practice"
+          ],
+          "sections": [
+            {
+              "title": "Balancing is not morally neutral",
+              "body_md": "Deciding which interests count, what evidence matters, and how much weight an affected person's freedom receives involves normative choices. A court can hide those choices behind a seemingly technical list of factors. A doctoral theory should ask whether some rights should operate as limits against aggregation and when proportionality offers better protection through contextual reasoning. The correct answer can differ across constitutional systems. The first discipline is to separate the legal method actually binding the court from an argument about its moral adequacy.",
+              "example": null,
+              "audio_script": "Deciding which interests count, what evidence matters, and how much weight an affected person's freedom receives involves normative choices. A court can hide those choices behind a seemingly technical list of factors. A doctoral theory should ask whether some rights should operate as limits against aggregation and when proportionality offers better protection through contextual reasoning. The correct answer can differ across constitutional systems. The first discipline is to separate the legal method actually binding the court from an argument about its moral adequacy.",
+              "video": null
+            },
+            {
+              "title": "Judges and legislatures have distinct roles",
+              "body_md": "A legislature may choose a safety policy after public debate, while a court must ensure that it respects legal limits. Searching balancing review can protect individuals yet risk substituting judicial preferences for political judgments. Overly deferential review can leave domination uncorrected. A defensible framework should identify who carries the burden of justification, what facts demand closer scrutiny, and what room the law leaves for permissible policy choice. Institutional responsibility is part of the balance itself.",
+              "example": null,
+              "audio_script": "A legislature may choose a safety policy after public debate, while a court must ensure that it respects legal limits. Searching balancing review can protect individuals yet risk substituting judicial preferences for political judgments. Overly deferential review can leave domination uncorrected. A defensible framework should identify who carries the burden of justification, what facts demand closer scrutiny, and what room the law leaves for permissible policy choice. Institutional responsibility is part of the balance itself.",
+              "video": null
+            },
+            {
+              "title": "Make weighing reviewable",
+              "body_md": "Propose a structured account requiring explicit interests, evidentiary assumptions, legally mandated constraints, realistic alternatives, and a reasoned explanation of the chosen remedy. Report who bears the burdens rather than relying on aggregate outcomes alone. Allow review of errors without claiming that complex value disputes possess one mathematical solution. The goal is to treat affected people as holders of rights who deserve reasons, not inputs in an unexplained optimization.",
+              "example": null,
+              "audio_script": "Propose a structured account requiring explicit interests, evidentiary assumptions, legally mandated constraints, realistic alternatives, and a reasoned explanation of the chosen remedy. Report who bears the burdens rather than relying on aggregate outcomes alone. Allow review of errors without claiming that complex value disputes possess one mathematical solution. The goal is to treat affected people as holders of rights who deserve reasons, not inputs in an unexplained optimization.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q1",
+              "type": "true_false",
+              "prompt": "Rights as constraints means protections limiting aggregate trade-offs.",
+              "answer": true,
+              "explanation_if_true": "Rights as constraints means protections limiting aggregate trade-offs.",
+              "explanation_if_false": "Rights as constraints means protections limiting aggregate trade-offs."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q2",
+              "type": "true_false",
+              "prompt": "A balancing test becomes perfectly objective merely because it lists several factors.",
+              "answer": false,
+              "explanation_if_true": "Selecting and weighing factors can involve contestable legal and moral judgments.",
+              "explanation_if_false": "Selecting and weighing factors can involve contestable legal and moral judgments."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Proportionality principle?",
+              "choices": [
+                "Institutional duty to justify a decision",
+                "Choice exercised within lawful and reviewable boundaries",
+                "Legal discipline relating state means to rights impacts",
+                "Protections limiting aggregate trade-offs"
+              ],
+              "answer_index": 2,
+              "explanation": "Proportionality principle means legal discipline relating state means to rights impacts."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A judge uses unexplained numerical weights to restrict a right. What is principally missing?",
+              "choices": [
+                "A guarantee of agreement",
+                "Publicly defensible reasons for the weights",
+                "Another computer",
+                "More decorative tables"
+              ],
+              "answer_index": 1,
+              "explanation": "A legitimate judgment must explain the legally relevant comparison."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means institutional duty to justify a decision?",
+              "choices": [
+                "Legitimate discretion",
+                "Proportionality principle",
+                "Reason-giving",
+                "Rights as constraints"
+              ],
+              "answer_index": 2,
+              "explanation": "Reason-giving means institutional duty to justify a decision."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q6",
+              "type": "matching",
+              "prompt": "Match each balancing concept.",
+              "pairs": [
+                [
+                  "Proportionality principle",
+                  "Legal discipline relating state means to rights impacts"
+                ],
+                [
+                  "Rights as constraints",
+                  "Protections limiting aggregate trade-offs"
+                ],
+                [
+                  "Reason-giving",
+                  "Institutional duty to justify a decision"
+                ],
+                [
+                  "Legitimate discretion",
+                  "Choice exercised within lawful and reviewable boundaries"
+                ]
+              ],
+              "explanation": "A structured comparison requires legal constraints as well as judgment."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for legal discipline relating state means to rights impacts is ___.",
+              "answer": "Proportionality principle",
+              "accept": [
+                "Proportionality principle"
+              ],
+              "explanation": "The term is Proportionality principle."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.balancing-tests.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for choice exercised within lawful and reviewable boundaries is ___.",
+              "answer": "Legitimate discretion",
+              "accept": [
+                "Legitimate discretion"
+              ],
+              "explanation": "The term is Legitimate discretion."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

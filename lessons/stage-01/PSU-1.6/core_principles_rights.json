@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "Identify rights hidden in ordinary legal sentences",
+          "summary": "A legal provision may grant protection through conditions, exceptions or definitions rather than an explicit word like right. Learn to read the operative language before advising a client.",
+          "checklist": [
+            "I can identify a provision's protected person",
+            "I can explain the condition triggering protection",
+            "I can read exceptions and deadlines before stating a right"
+          ],
+          "sections": [
+            {
+              "title": "A Right May Be Written as a Duty",
+              "body_md": "A law says, 'A landlord must return the deposit within fourteen days after a qualifying tenancy ends.' The tenant's practical protection appears in the landlord's duty. The interpreter must identify who the rule covers, which event starts the deadline and whether the statute defines exceptions. Simply saying tenants have a right to repayment may be overbroad. Correct interpretation turns the actual words into a conditional legal proposition the tenant can understand and use.",
+              "example": null,
+              "audio_script": "A law says, 'A landlord must return the deposit within fourteen days after a qualifying tenancy ends.' The tenant's practical protection appears in the landlord's duty. The interpreter must identify who the rule covers, which event starts the deadline and whether the statute defines exceptions. Simply saying tenants have a right to repayment may be overbroad. Correct interpretation turns the actual words into a conditional legal proposition the tenant can understand and use.",
+              "video": null
+            },
+            {
+              "title": "Small Words Change Big Outcomes",
+              "body_md": "Words such as 'if,' 'unless,' 'and,' 'or,' and 'only' can determine who receives protection. A clause stating that relief is available if two requirements are satisfied differs from one allowing either requirement. Punctuation and drafting conventions may matter under governing interpretive rules. A student should rewrite a complex sentence into separate logical conditions without losing the text's meaning. That makes rights easier to identify and guards against missing an exception that changes the result.",
+              "example": null,
+              "audio_script": "Words such as 'if,' 'unless,' 'and,' 'or,' and 'only' can determine who receives protection. A clause stating that relief is available if two requirements are satisfied differs from one allowing either requirement. Punctuation and drafting conventions may matter under governing interpretive rules. A student should rewrite a complex sentence into separate logical conditions without losing the text's meaning. That makes rights easier to identify and guards against missing an exception that changes the result.",
+              "video": null
+            },
+            {
+              "title": "Read for the Client's Situation",
+              "body_md": "A statutory right may be limited to employees, consumers or residents defined elsewhere in the instrument. The interpreter must check those definitions before promising relief. Dates, procedures and exceptions can be decisive. A sound explanation begins with the person's question, cites the relevant provision and shows precisely which facts bring the person within its scope. This is both technical and humane: clear legal language allows clients to make decisions rather than depend on vague assurances.",
+              "example": null,
+              "audio_script": "A statutory right may be limited to employees, consumers or residents defined elsewhere in the instrument. The interpreter must check those definitions before promising relief. Dates, procedures and exceptions can be decisive. A sound explanation begins with the person's question, cites the relevant provision and shows precisely which facts bring the person within its scope. This is both technical and humane: clear legal language allows clients to make decisions rather than depend on vague assurances.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Condition means requirement triggering a rule's operation.",
+              "answer": true,
+              "explanation_if_true": "Condition means requirement triggering a rule's operation.",
+              "explanation_if_false": "Condition means requirement triggering a rule's operation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "A general heading saying 'rights' guarantees every person every remedy described elsewhere in the statute.",
+              "answer": false,
+              "explanation_if_true": "Operative provisions, definitions and exceptions determine the actual protection.",
+              "explanation_if_false": "Operative provisions, definitions and exceptions determine the actual protection."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Entitlement?",
+              "choices": [
+                "Person protected under the governing rule",
+                "Legally recognized claim to protection or performance",
+                "Requirement triggering a rule's operation",
+                "Specified limit to a general provision"
+              ],
+              "answer_index": 1,
+              "explanation": "Entitlement means legally recognized claim to protection or performance."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute protects only 'qualifying tenants' defined in another section. What must the lawyer read?",
+              "choices": [
+                "The definition and conditions of qualification",
+                "Only the section heading",
+                "A foreign newspaper",
+                "A broad dictionary meaning"
+              ],
+              "answer_index": 0,
+              "explanation": "A right's scope depends on the instrument's operative definitions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means specified limit to a general provision?",
+              "choices": [
+                "Exception",
+                "Entitlement",
+                "Rights holder",
+                "Condition"
+              ],
+              "answer_index": 0,
+              "explanation": "Exception means specified limit to a general provision."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Entitlement",
+                  "Legally recognized claim to protection or performance"
+                ],
+                [
+                  "Condition",
+                  "Requirement triggering a rule's operation"
+                ],
+                [
+                  "Exception",
+                  "Specified limit to a general provision"
+                ],
+                [
+                  "Rights holder",
+                  "Person protected under the governing rule"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "Legally recognized claim to protection or performance is called ___.",
+              "answer": "Entitlement",
+              "accept": [
+                "Entitlement"
+              ],
+              "explanation": "The answer is Entitlement."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "Person protected under the governing rule is called ___.",
+              "answer": "Rights holder",
+              "accept": [
+                "Rights holder"
+              ],
+              "explanation": "The answer is Rights holder."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Interpret conditional rights across related provisions",
+          "summary": "Develop the ability to read rights-protecting clauses as a coordinated scheme. Distinguish a general entitlement, an exception and a procedure for invoking protection.",
+          "checklist": [
+            "I can read cross-referenced definitions and exceptions",
+            "I can separate substantive right from procedural route",
+            "I can avoid an interpretation making key words redundant"
+          ],
+          "sections": [
+            {
+              "title": "The Rule Has Several Parts",
+              "body_md": "An employment statute may protect an employee from dismissal for specified reasons while allowing dismissal through lawful procedures in defined circumstances. The interpreter must connect the substantive prohibition, exceptions, definitions and remedy sections. Reading any one clause alone can make the rule appear broader or narrower than it is. A clear analysis presents the structure, then asks whether the employee's particular facts satisfy the required elements. This is more reliable than searching for one reassuring quotation.",
+              "example": null,
+              "audio_script": "An employment statute may protect an employee from dismissal for specified reasons while allowing dismissal through lawful procedures in defined circumstances. The interpreter must connect the substantive prohibition, exceptions, definitions and remedy sections. Reading any one clause alone can make the rule appear broader or narrower than it is. A clear analysis presents the structure, then asks whether the employee's particular facts satisfy the required elements. This is more reliable than searching for one reassuring quotation.",
+              "video": null
+            },
+            {
+              "title": "Read Every Word as Part of the Scheme",
+              "body_md": "If an interpretation makes an entire exception or definition meaningless, investigate whether it fits the statute as a whole. Courts may use presumptions about coherence or avoiding surplusage, subject to jurisdiction-specific interpretive rules. Such presumptions are aids, not mechanical commands that override enacted language. The key is to give a reasoned account of why the chosen reading best fits the relevant provisions. A legal right should not be invented through selective reading or erased through unnecessary technicality.",
+              "example": null,
+              "audio_script": "If an interpretation makes an entire exception or definition meaningless, investigate whether it fits the statute as a whole. Courts may use presumptions about coherence or avoiding surplusage, subject to jurisdiction-specific interpretive rules. Such presumptions are aids, not mechanical commands that override enacted language. The key is to give a reasoned account of why the chosen reading best fits the relevant provisions. A legal right should not be invented through selective reading or erased through unnecessary technicality.",
+              "video": null
+            },
+            {
+              "title": "Procedure Is Part of Practical Protection",
+              "body_md": "A person may satisfy the definition of a protected employee but still need to file a complaint within a specified period or use a prescribed forum. Interpret remedy and procedure provisions alongside substantive guarantees. Rights that exist without an accessible route may fail the person in practice. A useful client explanation identifies the protected conduct, likely exceptions, time limits and immediate options. Clear interpretation connects legal language to decisions that preserve rights before deadlines pass.",
+              "example": null,
+              "audio_script": "A person may satisfy the definition of a protected employee but still need to file a complaint within a specified period or use a prescribed forum. Interpret remedy and procedure provisions alongside substantive guarantees. Rights that exist without an accessible route may fail the person in practice. A useful client explanation identifies the protected conduct, likely exceptions, time limits and immediate options. Clear interpretation connects legal language to decisions that preserve rights before deadlines pass.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Cross-reference means direction to another operative provision.",
+              "answer": true,
+              "explanation_if_true": "Cross-reference means direction to another operative provision.",
+              "explanation_if_false": "Cross-reference means direction to another operative provision."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "Interpreting one sentence in isolation is always adequate even when it explicitly refers to another section.",
+              "answer": false,
+              "explanation_if_true": "Cross-references and related provisions can determine the rule's scope.",
+              "explanation_if_false": "Cross-references and related provisions can determine the rule's scope."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Statutory scheme?",
+              "choices": [
+                "Connected provisions forming a legal framework",
+                "Direction to another operative provision",
+                "Presumption favoring effect for enacted wording",
+                "Step required to invoke a right"
+              ],
+              "answer_index": 0,
+              "explanation": "Statutory scheme means connected provisions forming a legal framework."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A right appears broad, but a nearby section limits eligible applicants. What is the best method?",
+              "choices": [
+                "Ignore the limitation",
+                "Assume the heading controls",
+                "Use an unrelated policy statement",
+                "Read the provisions together within the scheme"
+              ],
+              "answer_index": 3,
+              "explanation": "The legal meaning is often supplied by related text and definitions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means presumption favoring effect for enacted wording?",
+              "choices": [
+                "Statutory scheme",
+                "Procedural condition",
+                "Cross-reference",
+                "Surplusage canon"
+              ],
+              "answer_index": 3,
+              "explanation": "Surplusage canon means presumption favoring effect for enacted wording."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Statutory scheme",
+                  "Connected provisions forming a legal framework"
+                ],
+                [
+                  "Cross-reference",
+                  "Direction to another operative provision"
+                ],
+                [
+                  "Surplusage canon",
+                  "Presumption favoring effect for enacted wording"
+                ],
+                [
+                  "Procedural condition",
+                  "Step required to invoke a right"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Connected provisions forming a legal framework is called ___.",
+              "answer": "Statutory scheme",
+              "accept": [
+                "Statutory scheme"
+              ],
+              "explanation": "The answer is Statutory scheme."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Step required to invoke a right is called ___.",
+              "answer": "Procedural condition",
+              "accept": [
+                "Procedural condition"
+              ],
+              "explanation": "The answer is Procedural condition."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Resolve ambiguous rights language through lawful methods",
+          "summary": "Analyze how text, purpose and precedent interact when rights protections admit competing readings. Distinguish resolving ambiguity from creating a new entitlement.",
+          "checklist": [
+            "I can present two plausible readings fairly",
+            "I can apply applicable interpretive presumptions",
+            "I can identify factual and rights consequences of each reading"
+          ],
+          "sections": [
+            {
+              "title": "When Two Readings Fit",
+              "body_md": "A statute promises 'reasonable access' to records without defining reasonable. One reading may stress speed, while another allows longer processing for privacy review. The lawyer must identify the governing interpretive approach and related provisions, not simply pick the reading most favorable to the client. Examine ordinary meaning in context, legislative purpose where relevant, authoritative judicial interpretations and the practical operation of each option. A good analysis shows exactly what ambiguity remains after those steps.",
+              "example": null,
+              "audio_script": "A statute promises 'reasonable access' to records without defining reasonable. One reading may stress speed, while another allows longer processing for privacy review. The lawyer must identify the governing interpretive approach and related provisions, not simply pick the reading most favorable to the client. Examine ordinary meaning in context, legislative purpose where relevant, authoritative judicial interpretations and the practical operation of each option. A good analysis shows exactly what ambiguity remains after those steps.",
+              "video": null
+            },
+            {
+              "title": "Constitutional Values May Inform Reading",
+              "body_md": "Some legal systems use presumptions favoring interpretations consistent with constitutional rights or international obligations, within defined limits. Others assign different weight to those considerations. A lawyer must identify the applicable doctrine and what the text can reasonably bear. Invoking human dignity does not authorize rewriting unambiguous provisions without legal authority. The disciplined question is how rights-protective principles legitimately influence the interpretation of enacted language in this jurisdiction.",
+              "example": null,
+              "audio_script": "Some legal systems use presumptions favoring interpretations consistent with constitutional rights or international obligations, within defined limits. Others assign different weight to those considerations. A lawyer must identify the applicable doctrine and what the text can reasonably bear. Invoking human dignity does not authorize rewriting unambiguous provisions without legal authority. The disciplined question is how rights-protective principles legitimately influence the interpretation of enacted language in this jurisdiction.",
+              "video": null
+            },
+            {
+              "title": "Make the Result Concrete",
+              "body_md": "Suppose two readings affect whether a disabled applicant receives an accessible appeal. The analysis should explain which text supports each, what a court has said, and what consequences follow for the person's ability to be heard. Policy concerns may strengthen an interpretation if the legal method permits them, but they cannot replace the legal basis. Advanced competence means presenting competing interpretations transparently while making their human significance understandable.",
+              "example": null,
+              "audio_script": "Suppose two readings affect whether a disabled applicant receives an accessible appeal. The analysis should explain which text supports each, what a court has said, and what consequences follow for the person's ability to be heard. Policy concerns may strengthen an interpretation if the legal method permits them, but they cannot replace the legal basis. Advanced competence means presenting competing interpretations transparently while making their human significance understandable.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Rights-consistent interpretation means method favoring a lawful reading compatible with protected rights.",
+              "answer": true,
+              "explanation_if_true": "Rights-consistent interpretation means method favoring a lawful reading compatible with protected rights.",
+              "explanation_if_false": "Rights-consistent interpretation means method favoring a lawful reading compatible with protected rights."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "A court may always create any new right simply by saying it would make a statute fairer.",
+              "answer": false,
+              "explanation_if_true": "Courts must act within their interpretive authority and governing legal sources.",
+              "explanation_if_false": "Courts must act within their interpretive authority and governing legal sources."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Legal ambiguity?",
+              "choices": [
+                "Method favoring a lawful reading compatible with protected rights",
+                "Interpretation informed by legally relevant objectives",
+                "Boundary on a decision maker's power to assign meaning",
+                "Text admitting more than one plausible legal reading"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal ambiguity means text admitting more than one plausible legal reading."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A statute has two plausible meanings, one of which may undermine protected access to review. What should counsel identify?",
+              "choices": [
+                "The client's voting history",
+                "A convenient unrelated treaty",
+                "Applicable rights-consistent interpretive principles and textual limits",
+                "Only the preferred result"
+              ],
+              "answer_index": 2,
+              "explanation": "Rights values may inform lawful interpretation but do not erase textual and institutional limits."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means interpretation informed by legally relevant objectives?",
+              "choices": [
+                "Interpretive limit",
+                "Rights-consistent interpretation",
+                "Purposive reading",
+                "Legal ambiguity"
+              ],
+              "answer_index": 2,
+              "explanation": "Purposive reading means interpretation informed by legally relevant objectives."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Legal ambiguity",
+                  "Text admitting more than one plausible legal reading"
+                ],
+                [
+                  "Rights-consistent interpretation",
+                  "Method favoring a lawful reading compatible with protected rights"
+                ],
+                [
+                  "Purposive reading",
+                  "Interpretation informed by legally relevant objectives"
+                ],
+                [
+                  "Interpretive limit",
+                  "Boundary on a decision maker's power to assign meaning"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "Text admitting more than one plausible legal reading is called ___.",
+              "answer": "Legal ambiguity",
+              "accept": [
+                "Legal ambiguity"
+              ],
+              "explanation": "The answer is Legal ambiguity."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "Boundary on a decision maker's power to assign meaning is called ___.",
+              "answer": "Interpretive limit",
+              "accept": [
+                "Interpretive limit"
+              ],
+              "explanation": "The answer is Interpretive limit."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate institutional responsibility in rights interpretation",
+          "summary": "At doctoral depth, examine whether judicial creativity protects vulnerable persons or exceeds legitimate authority. Defend a rights interpretation with clear source limits, public reasons and meaningful review.",
+          "checklist": [
+            "I can distinguish interpretation from legal reform",
+            "I can critique judicial restraint and intervention fairly",
+            "I can connect interpretive choices to access and dignity"
+          ],
+          "sections": [
+            {
+              "title": "Rights Need Both Text and Institutions",
+              "body_md": "A legislature may enact a broad equality guarantee, leaving courts to decide what it means in unprecedented situations. Interpretation can protect people whom lawmakers did not specifically foresee. Yet courts also face questions about democratic authority and the proper boundary between applying and changing law. A doctoral argument should identify what the text and constitutional structure permit, what precedent requires, and where a proposed result depends on further normative judgment. This candor strengthens rather than weakens rights reasoning.",
+              "example": null,
+              "audio_script": "A legislature may enact a broad equality guarantee, leaving courts to decide what it means in unprecedented situations. Interpretation can protect people whom lawmakers did not specifically foresee. Yet courts also face questions about democratic authority and the proper boundary between applying and changing law. A doctoral argument should identify what the text and constitutional structure permit, what precedent requires, and where a proposed result depends on further normative judgment. This candor strengthens rather than weakens rights reasoning.",
+              "video": null
+            },
+            {
+              "title": "Restraint Can Harm; Intervention Can Overreach",
+              "body_md": "Refusing to interpret a broadly worded protection in a new factual setting can leave serious injuries unaddressed. But an expansive judicial reading can impose obligations never lawfully authorized or create unpredictable effects for nonparties. A mature theory considers the institution's information, independence, accountability and corrective mechanisms. It does not claim that one label—activism or restraint—decides legitimacy. The focus is whether the method gives publicly defensible reasons for the coercive outcome.",
+              "example": null,
+              "audio_script": "Refusing to interpret a broadly worded protection in a new factual setting can leave serious injuries unaddressed. But an expansive judicial reading can impose obligations never lawfully authorized or create unpredictable effects for nonparties. A mature theory considers the institution's information, independence, accountability and corrective mechanisms. It does not claim that one label—activism or restraint—decides legitimacy. The focus is whether the method gives publicly defensible reasons for the coercive outcome.",
+              "video": null
+            },
+            {
+              "title": "The Person Behind the Interpretation",
+              "body_md": "A dispute about a word such as 'family' may determine whether someone can maintain housing, care for a relative or remain with a partner. Expert reasoning must preserve the technical meaning of the source while attending to those stakes. A responsible lawyer describes the legal uncertainty and possible avenues for change without promising results outside current law. Great interpretation is disciplined intellectual work in service of the lives and freedoms affected.",
+              "example": null,
+              "audio_script": "A dispute about a word such as 'family' may determine whether someone can maintain housing, care for a relative or remain with a partner. Expert reasoning must preserve the technical meaning of the source while attending to those stakes. A responsible lawyer describes the legal uncertainty and possible avenues for change without promising results outside current law. Great interpretation is disciplined intellectual work in service of the lives and freedoms affected.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Judicial creativity means interpretive development beyond an obvious fixed rule.",
+              "answer": true,
+              "explanation_if_true": "Judicial creativity means interpretive development beyond an obvious fixed rule.",
+              "explanation_if_false": "Judicial creativity means interpretive development beyond an obvious fixed rule."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "An interpretation's humane outcome alone proves the court had legal power to adopt it.",
+              "answer": false,
+              "explanation_if_true": "Substantive appeal and institutional authority are distinct questions.",
+              "explanation_if_false": "Substantive appeal and institutional authority are distinct questions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Rights adjudication?",
+              "choices": [
+                "Respect for limits on a decision maker's authority",
+                "Justification offered in terms open to contestation",
+                "Legal determination of contested rights",
+                "Interpretive development beyond an obvious fixed rule"
+              ],
+              "answer_index": 2,
+              "explanation": "Rights adjudication means legal determination of contested rights."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An expansive rights interpretation would protect vulnerable persons but contradict binding text. What must a court first confront?",
+              "choices": [
+                "Which legal commentator is famous",
+                "Its legal authority and interpretive limits",
+                "Whether the outcome is popular",
+                "How long the judgment could be"
+              ],
+              "answer_index": 1,
+              "explanation": "A court cannot bypass its lawful mandate simply by choosing a desirable result."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means respect for limits on a decision maker's authority?",
+              "choices": [
+                "Judicial creativity",
+                "Institutional restraint",
+                "Rights adjudication",
+                "Public reason"
+              ],
+              "answer_index": 1,
+              "explanation": "Institutional restraint means respect for limits on a decision maker's authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match the interpretation concepts and definitions.",
+              "pairs": [
+                [
+                  "Rights adjudication",
+                  "Legal determination of contested rights"
+                ],
+                [
+                  "Judicial creativity",
+                  "Interpretive development beyond an obvious fixed rule"
+                ],
+                [
+                  "Institutional restraint",
+                  "Respect for limits on a decision maker's authority"
+                ],
+                [
+                  "Public reason",
+                  "Justification offered in terms open to contestation"
+                ]
+              ],
+              "explanation": "Different legal instruments require their own lawful interpretive methods."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "Legal determination of contested rights is called ___.",
+              "answer": "Rights adjudication",
+              "accept": [
+                "Rights adjudication"
+              ],
+              "explanation": "The answer is Rights adjudication."
+            },
+            {
+              "id": "PSU-1.6.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification offered in terms open to contestation is called ___.",
+              "answer": "Public reason",
+              "accept": [
+                "Public reason"
+              ],
+              "explanation": "The answer is Public reason."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

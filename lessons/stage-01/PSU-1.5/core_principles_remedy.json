@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Write a clear answer and next step",
+          "summary": "A legal research product should tell the reader what the law likely means for their problem. Learn a concise structure that connects the issue, rule, application and available relief.",
+          "checklist": [
+            "I can state the issue in one sentence",
+            "I can write the rule with a verified source",
+            "I can give a qualified conclusion and practical next step"
+          ],
+          "sections": [
+            {
+              "title": "The Answer Comes First",
+              "body_md": "A client asks whether they can recover a prepaid deposit. A useful short memorandum begins with a qualified answer: repayment may be available if the agreement and consumer law support it. Then it explains the governing rule and facts that matter. It does not begin with an unrelated history of contracts. Readers facing urgent legal problems need the answer early, along with enough reasons to trust it. Brevity works when the key legal conditions remain visible.",
+              "example": null,
+              "audio_script": "A client asks whether they can recover a prepaid deposit. A useful short memorandum begins with a qualified answer: repayment may be available if the agreement and consumer law support it. Then it explains the governing rule and facts that matter. It does not begin with an unrelated history of contracts. Readers facing urgent legal problems need the answer early, along with enough reasons to trust it. Brevity works when the key legal conditions remain visible.",
+              "video": null
+            },
+            {
+              "title": "Use an Understandable Structure",
+              "body_md": "Issue, Rule, Application, Conclusion—often called IRAC—provides one common way to organize a legal analysis. State the precise question, set out the controlling law, connect relevant facts to required conditions, and finish with a supported conclusion. Variants such as CREAC put the conclusion first. The formula is not a substitute for reasoning. It is a tool for ensuring the reader can see each step instead of hunting through long paragraphs for the actual argument.",
+              "example": null,
+              "audio_script": "Issue, Rule, Application, Conclusion—often called IRAC—provides one common way to organize a legal analysis. State the precise question, set out the controlling law, connect relevant facts to required conditions, and finish with a supported conclusion. Variants such as CREAC put the conclusion first. The formula is not a substitute for reasoning. It is a tool for ensuring the reader can see each step instead of hunting through long paragraphs for the actual argument.",
+              "video": null
+            },
+            {
+              "title": "Relief Makes the Answer Practical",
+              "body_md": "After explaining liability, identify what the institution may do: return money, issue an injunction, or grant another remedy if legally available. Include material deadlines and factual gaps. A client may need an immediate filing rather than a lengthy essay. Clear research writing distinguishes strong claims from uncertain remedies and does not guarantee success. The purpose is to help a person make an informed decision, not merely to demonstrate legal vocabulary.",
+              "example": null,
+              "audio_script": "After explaining liability, identify what the institution may do: return money, issue an injunction, or grant another remedy if legally available. Include material deadlines and factual gaps. A client may need an immediate filing rather than a lengthy essay. Clear research writing distinguishes strong claims from uncertain remedies and does not guarantee success. The purpose is to help a person make an informed decision, not merely to demonstrate legal vocabulary.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Issue means precise question requiring legal answer.",
+              "answer": true,
+              "explanation_if_true": "Issue means precise question requiring legal answer.",
+              "explanation_if_false": "Issue means precise question requiring legal answer."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "A legal memorandum is complete when it states a rule without applying it to the client's facts.",
+              "answer": false,
+              "explanation_if_true": "A useful analysis must connect law with the actual situation and likely result.",
+              "explanation_if_false": "A useful analysis must connect law with the actual situation and likely result."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits IRAC?",
+              "choices": [
+                "Supported answer to the defined question",
+                "Issue, Rule, Application, Conclusion structure",
+                "Precise question requiring legal answer",
+                "Reasoned use of law on relevant facts"
+              ],
+              "answer_index": 1,
+              "explanation": "IRAC means issue, rule, application, conclusion structure."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client needs to know whether a deposit is refundable by Friday. What should appear early in the memo?",
+              "choices": [
+                "A qualified answer, controlling rule and urgent next step",
+                "Several pages of unrelated history",
+                "A dramatic quotation",
+                "Only a list of authorities"
+              ],
+              "answer_index": 0,
+              "explanation": "Clear legal writing prioritizes the client's real question and timing."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reasoned use of law on relevant facts?",
+              "choices": [
+                "Application",
+                "IRAC",
+                "Conclusion",
+                "Issue"
+              ],
+              "answer_index": 0,
+              "explanation": "Application means reasoned use of law on relevant facts."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "IRAC",
+                  "Issue, Rule, Application, Conclusion structure"
+                ],
+                [
+                  "Issue",
+                  "Precise question requiring legal answer"
+                ],
+                [
+                  "Application",
+                  "Reasoned use of law on relevant facts"
+                ],
+                [
+                  "Conclusion",
+                  "Supported answer to the defined question"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Issue, Rule, Application, Conclusion structure is called ___.",
+              "answer": "IRAC",
+              "accept": [
+                "IRAC"
+              ],
+              "explanation": "The term is IRAC."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Supported answer to the defined question is called ___.",
+              "answer": "Conclusion",
+              "accept": [
+                "Conclusion"
+              ],
+              "explanation": "The term is Conclusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Draft an objective predictive memorandum",
+          "summary": "Develop a writing sequence that distinguishes a client's desired outcome from the likely result under law. Learn to integrate adverse evidence without sacrificing clarity.",
+          "checklist": [
+            "I can organize a predictive issue analysis",
+            "I can state uncertainty with legally meaningful reasons",
+            "I can explain the significance of adverse authority"
+          ],
+          "sections": [
+            {
+              "title": "Forecast, Do Not Campaign",
+              "body_md": "A predictive memorandum assesses what a court is likely to do based on controlling law and available facts. It should not read like a closing argument written only for the client's side. Present the rule, favorable evidence, adverse authority and unresolved factual questions. The conclusion may be qualified: a claim is plausible, but a disputed exception could defeat it. That statement is more helpful than pretending certainty because it allows the client to weigh risk before spending money.",
+              "example": null,
+              "audio_script": "A predictive memorandum assesses what a court is likely to do based on controlling law and available facts. It should not read like a closing argument written only for the client's side. Present the rule, favorable evidence, adverse authority and unresolved factual questions. The conclusion may be qualified: a claim is plausible, but a disputed exception could defeat it. That statement is more helpful than pretending certainty because it allows the client to weigh risk before spending money.",
+              "video": null
+            },
+            {
+              "title": "Paragraphs Need a Job",
+              "body_md": "A strong analysis paragraph begins with a clear proposition, supplies governing support, applies material facts and explains the significance. Quotations should be short and used only when their exact words matter. A string of case summaries without synthesis forces the reader to do the lawyer's reasoning. Each paragraph should advance the answer. Remove sentences that repeat the same proposition without adding a source, distinction or necessary explanation.",
+              "example": null,
+              "audio_script": "A strong analysis paragraph begins with a clear proposition, supplies governing support, applies material facts and explains the significance. Quotations should be short and used only when their exact words matter. A string of case summaries without synthesis forces the reader to do the lawyer's reasoning. Each paragraph should advance the answer. Remove sentences that repeat the same proposition without adding a source, distinction or necessary explanation.",
+              "video": null
+            },
+            {
+              "title": "End With Decisions, Not Just Opinions",
+              "body_md": "The concluding section should identify the likely result, major uncertainties, available relief and practical next steps. Where facts are missing, recommend a targeted inquiry rather than a vague demand for more information. If a deadline or urgent order matters, state it precisely after verification. The client's ability to decide is the measure of writing quality. The best memorandum is both accurate enough for another lawyer and clear enough for the person whose life it affects.",
+              "example": null,
+              "audio_script": "The concluding section should identify the likely result, major uncertainties, available relief and practical next steps. Where facts are missing, recommend a targeted inquiry rather than a vague demand for more information. If a deadline or urgent order matters, state it precisely after verification. The client's ability to decide is the measure of writing quality. The best memorandum is both accurate enough for another lawyer and clear enough for the person whose life it affects.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Synthesis paragraph means paragraph integrating sources and their implications.",
+              "answer": true,
+              "explanation_if_true": "Synthesis paragraph means paragraph integrating sources and their implications.",
+              "explanation_if_false": "Synthesis paragraph means paragraph integrating sources and their implications."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "A predictive memo should omit a strong adverse case to keep its conclusion reassuring.",
+              "answer": false,
+              "explanation_if_true": "Accurate prediction requires confronting legally material weaknesses.",
+              "explanation_if_false": "Accurate prediction requires confronting legally material weaknesses."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Predictive memorandum?",
+              "choices": [
+                "Objective written estimate of a legal outcome",
+                "Paragraph integrating sources and their implications",
+                "Source weakening the proposed result",
+                "Finding tied to specific practical decisions"
+              ],
+              "answer_index": 0,
+              "explanation": "Predictive memorandum means objective written estimate of a legal outcome."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A memo lists six cases but never explains how they apply to the client. What is missing?",
+              "choices": [
+                "More quotations from the same cases",
+                "A different title",
+                "The client's signature on each page",
+                "Legal synthesis and factual application"
+              ],
+              "answer_index": 3,
+              "explanation": "Authority summaries must be integrated into reasoning that answers the client's problem."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means source weakening the proposed result?",
+              "choices": [
+                "Predictive memorandum",
+                "Actionable conclusion",
+                "Synthesis paragraph",
+                "Adverse authority"
+              ],
+              "answer_index": 3,
+              "explanation": "Adverse authority means source weakening the proposed result."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Predictive memorandum",
+                  "Objective written estimate of a legal outcome"
+                ],
+                [
+                  "Synthesis paragraph",
+                  "Paragraph integrating sources and their implications"
+                ],
+                [
+                  "Adverse authority",
+                  "Source weakening the proposed result"
+                ],
+                [
+                  "Actionable conclusion",
+                  "Finding tied to specific practical decisions"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Objective written estimate of a legal outcome is called ___.",
+              "answer": "Predictive memorandum",
+              "accept": [
+                "Predictive memorandum"
+              ],
+              "explanation": "The term is Predictive memorandum."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Finding tied to specific practical decisions is called ___.",
+              "answer": "Actionable conclusion",
+              "accept": [
+                "Actionable conclusion"
+              ],
+              "explanation": "The term is Actionable conclusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Write strategic briefs without losing candor",
+          "summary": "Advocacy writing persuades through authoritative rules, record citations and disciplined handling of opposing arguments. Separate forceful presentation from misleading omission.",
+          "checklist": [
+            "I can structure an issue-based argument",
+            "I can cite both legal authority and factual record",
+            "I can answer a strong counterargument candidly"
+          ],
+          "sections": [
+            {
+              "title": "The Claim Must Be Built, Not Declared",
+              "body_md": "A motion brief should identify the requested relief, legal standard, facts in the record and specific grounds for granting the motion. A bold heading can state the proposition, but the text must prove it. Use the most authoritative source and explain why its rule applies. Facts should have record references, not bare assertions. Effective advocacy is a logical progression from law through evidence to the proposed order, not an accumulation of emotional language.",
+              "example": null,
+              "audio_script": "A motion brief should identify the requested relief, legal standard, facts in the record and specific grounds for granting the motion. A bold heading can state the proposition, but the text must prove it. Use the most authoritative source and explain why its rule applies. Facts should have record references, not bare assertions. Effective advocacy is a logical progression from law through evidence to the proposed order, not an accumulation of emotional language.",
+              "video": null
+            },
+            {
+              "title": "Anticipate the Other Side",
+              "body_md": "A strong brief considers the opponent's best authority and explains why it is inapplicable, distinguishable or outweighed under the governing rule. Avoid describing a limited holding as universal. Professional duties of candor vary by jurisdiction but may require disclosure of directly adverse controlling law. Even when a disclosure rule does not dictate the entire paragraph, addressing likely objections makes the argument more persuasive and trustworthy. The writer should attack reasoning, not a person's character.",
+              "example": null,
+              "audio_script": "A strong brief considers the opponent's best authority and explains why it is inapplicable, distinguishable or outweighed under the governing rule. Avoid describing a limited holding as universal. Professional duties of candor vary by jurisdiction but may require disclosure of directly adverse controlling law. Even when a disclosure rule does not dictate the entire paragraph, addressing likely objections makes the argument more persuasive and trustworthy. The writer should attack reasoning, not a person's character.",
+              "video": null
+            },
+            {
+              "title": "The Remedy Must Be Precise",
+              "body_md": "Courts need an order they can lawfully issue and parties can implement. A brief seeking an injunction should identify the conduct to be restrained and the relevant legal conditions. An overly broad request may fail even when the underlying right is strong. Good writing links the requested relief to the proved injury and the institution's power. Concision includes leaving out alternative theories that do not improve the outcome, while preserving those needed to protect the client.",
+              "example": null,
+              "audio_script": "Courts need an order they can lawfully issue and parties can implement. A brief seeking an injunction should identify the conduct to be restrained and the relevant legal conditions. An overly broad request may fail even when the underlying right is strong. Good writing links the requested relief to the proved injury and the institution's power. Concision includes leaving out alternative theories that do not improve the outcome, while preserving those needed to protect the client.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Record citation means reference to evidence before the tribunal.",
+              "answer": true,
+              "explanation_if_true": "Record citation means reference to evidence before the tribunal.",
+              "explanation_if_false": "Record citation means reference to evidence before the tribunal."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "A motion brief can replace record evidence with confident factual assertions.",
+              "answer": false,
+              "explanation_if_true": "Advocacy must tie material factual propositions to admissible or properly presented evidence.",
+              "explanation_if_false": "Advocacy must tie material factual propositions to admissible or properly presented evidence."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Motion brief?",
+              "choices": [
+                "Reference to evidence before the tribunal",
+                "Reasoned objection to an asserted position",
+                "Specified relief requested from the tribunal",
+                "Written argument seeking a court order"
+              ],
+              "answer_index": 3,
+              "explanation": "Motion brief means written argument seeking a court order."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A brief proves a violation but requests an injunction covering unrelated lawful conduct. What weakness is most significant?",
+              "choices": [
+                "The heading uses active voice",
+                "The lawyer used short paragraphs",
+                "The proposed order is overbroad",
+                "The document has too few adjectives"
+              ],
+              "answer_index": 2,
+              "explanation": "Relief must be legally authorized and tailored to the actual harm."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reasoned objection to an asserted position?",
+              "choices": [
+                "Proposed order",
+                "Record citation",
+                "Counterargument",
+                "Motion brief"
+              ],
+              "answer_index": 2,
+              "explanation": "Counterargument means reasoned objection to an asserted position."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Motion brief",
+                  "Written argument seeking a court order"
+                ],
+                [
+                  "Record citation",
+                  "Reference to evidence before the tribunal"
+                ],
+                [
+                  "Counterargument",
+                  "Reasoned objection to an asserted position"
+                ],
+                [
+                  "Proposed order",
+                  "Specified relief requested from the tribunal"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Written argument seeking a court order is called ___.",
+              "answer": "Motion brief",
+              "accept": [
+                "Motion brief"
+              ],
+              "explanation": "The term is Motion brief."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Specified relief requested from the tribunal is called ___.",
+              "answer": "Proposed order",
+              "accept": [
+                "Proposed order"
+              ],
+              "explanation": "The term is Proposed order."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend accessible legal writing as a professional obligation",
+          "summary": "At doctoral depth, analyze why clear legal communication is essential to legitimate decision-making. Design writing standards that remain precise while empowering people who are not legal specialists.",
+          "checklist": [
+            "I can critique legalese that hides uncertainty",
+            "I can design transparent communication for high-stakes clients",
+            "I can evaluate how wording affects access to justice"
+          ],
+          "sections": [
+            {
+              "title": "Complexity Can Conceal Weakness",
+              "body_md": "Long nominalizations and unexplained technical phrases can make a weak argument look impressive while preventing a client from understanding it. Technical legal terms have value when they convey exact doctrine, but unfamiliar vocabulary should be defined at its first use. A doctoral writer distinguishes necessary precision from unnecessary obscurity. The objective is not childish simplification. It is to preserve all legally decisive conditions using the fewest clear words that allow independent evaluation.",
+              "example": null,
+              "audio_script": "Long nominalizations and unexplained technical phrases can make a weak argument look impressive while preventing a client from understanding it. Technical legal terms have value when they convey exact doctrine, but unfamiliar vocabulary should be defined at its first use. A doctoral writer distinguishes necessary precision from unnecessary obscurity. The objective is not childish simplification. It is to preserve all legally decisive conditions using the fewest clear words that allow independent evaluation.",
+              "video": null
+            },
+            {
+              "title": "Two Audiences, One Truth",
+              "body_md": "A court needs sources, standards and record citations; a client needs the result, risks, choices and human consequences. These needs justify different presentations, not inconsistent facts. A professional may prepare a rigorous internal analysis and a concise plain-language explanation. Both should state important uncertainty accurately. This approach protects autonomy: a client who understands the options can make a meaningful decision about settlement, litigation and personal risk.",
+              "example": null,
+              "audio_script": "A court needs sources, standards and record citations; a client needs the result, risks, choices and human consequences. These needs justify different presentations, not inconsistent facts. A professional may prepare a rigorous internal analysis and a concise plain-language explanation. Both should state important uncertainty accurately. This approach protects autonomy: a client who understands the options can make a meaningful decision about settlement, litigation and personal risk.",
+              "video": null
+            },
+            {
+              "title": "Writing as Institutional Design",
+              "body_md": "Official forms, judicial notices and administrative decisions can shape whether people can invoke legal rights at all. A reform might require clear reasons, translated instructions, accessible deadlines and review routes while preserving necessary legal detail. Such changes should be tested with actual users and measured for effects on error and compliance. The highest skill in legal writing is not stylistic elegance alone; it is helping law work fairly for people who depend on its protections.",
+              "example": null,
+              "audio_script": "Official forms, judicial notices and administrative decisions can shape whether people can invoke legal rights at all. A reform might require clear reasons, translated instructions, accessible deadlines and review routes while preserving necessary legal detail. Such changes should be tested with actual users and measured for effects on error and compliance. The highest skill in legal writing is not stylistic elegance alone; it is helping law work fairly for people who depend on its protections.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Legalese means specialized wording sometimes obscuring legal meaning.",
+              "answer": true,
+              "explanation_if_true": "Legalese means specialized wording sometimes obscuring legal meaning.",
+              "explanation_if_false": "Legalese means specialized wording sometimes obscuring legal meaning."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "A legal document becomes more accurate merely by adding longer sentences and specialized terms.",
+              "answer": false,
+              "explanation_if_true": "Accuracy depends on faithful rules and precise meaning, not verbal complexity.",
+              "explanation_if_false": "Accuracy depends on faithful rules and precise meaning, not verbal complexity."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Plain-language drafting?",
+              "choices": [
+                "Communication people can understand and act upon",
+                "Informed control of lawful legal choices",
+                "Accurate communication without needless complexity",
+                "Specialized wording sometimes obscuring legal meaning"
+              ],
+              "answer_index": 2,
+              "explanation": "Plain-language drafting means accurate communication without needless complexity."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A benefits notice states a deadline using unexplained technical language. What reform best serves access to justice?",
+              "choices": [
+                "A longer decorative title",
+                "Clear instructions preserving the legal deadline's meaning",
+                "More legal jargon",
+                "Removing all appeals information"
+              ],
+              "answer_index": 1,
+              "explanation": "Communication should enable affected persons to understand and exercise rights."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means communication people can understand and act upon?",
+              "choices": [
+                "Legalese",
+                "Accessible notice",
+                "Plain-language drafting",
+                "Client autonomy"
+              ],
+              "answer_index": 1,
+              "explanation": "Accessible notice means communication people can understand and act upon."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Plain-language drafting",
+                  "Accurate communication without needless complexity"
+                ],
+                [
+                  "Legalese",
+                  "Specialized wording sometimes obscuring legal meaning"
+                ],
+                [
+                  "Accessible notice",
+                  "Communication people can understand and act upon"
+                ],
+                [
+                  "Client autonomy",
+                  "Informed control of lawful legal choices"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Accurate communication without needless complexity is called ___.",
+              "answer": "Plain-language drafting",
+              "accept": [
+                "Plain-language drafting"
+              ],
+              "explanation": "The term is Plain-language drafting."
+            },
+            {
+              "id": "PSU-1.5.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Informed control of lawful legal choices is called ___.",
+              "answer": "Client autonomy",
+              "accept": [
+                "Client autonomy"
+              ],
+              "explanation": "The term is Client autonomy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

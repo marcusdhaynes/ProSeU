@@ -1,7 +1,7 @@
 
 'use client';
 
-import React, { useState, useEffect, useMemo, use } from 'react';
+import React, { useState, useEffect, useMemo, useRef, use } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { 
   Flame, 
@@ -71,6 +71,15 @@ import {
   type AcademyCatalog,
 } from '@/supabase/public-curriculum';
 import { NotebookWorkspace } from '@/components/learn/notebook/notebook-workspace';
+import { LessonScreen } from '@/components/learn/lesson/LessonScreen';
+import { lessonAdapter } from '@/lib/lesson-adapter';
+import { competencyMasteryPercent, nextLessonLabel } from '@/lib/lesson-progress';
+import { MASTERY_SECTIONS, findSubsection, subsectionId } from '@/lib/mastery-catalog';
+import { isJurisprudenceCourse, coursePlayUrl } from '@/lib/course-play';
+import { useAdminAccess } from '@/hooks/use-admin-access';
+import { ringSegmentTier, activeLevelFromProgress, type PartRecord } from '@/learning/part-progress';
+import type { LevelId } from '@/lib/mastery-catalog';
+
 
 // --- Types & Constants ---
 type TierType = 'basic' | 'electrum' | 'orichalcum' | 'adamantine';
@@ -90,106 +99,8 @@ const TIER_STYLES: Record<TierType, TierStyle> = {
 
 const TIER_ORDER: TierType[] = ['basic', 'electrum', 'orichalcum', 'adamantine'];
 
-const MASTERY_SECTIONS = [
-  { 
-    name: 'Core Principles', 
-    desc: 'Foundational concepts and state-individual relationships.', 
-    color: '#ff4b4b',
-    principles: [
-      { name: 'Authority', snippet: 'WHO HAS LEGAL POWER...' },
-      { name: 'Rights', snippet: 'WHO IS PROTECTED...' },
-      { name: 'Duties', snippet: 'WHO IS OBLIGATED...' },
-      { name: 'Harm', snippet: 'WHAT COUNTS AS INJURY...' },
-      { name: 'Causation', snippet: 'LEGAL RESPONSIBILITY LINK...' },
-      { name: 'Remedy', snippet: 'LEGAL CONSEQUENCES...' },
-      { name: 'Legitimacy', snippet: 'WHY AUTHORITY IS VALID...' }
-    ]
-  },
-  { 
-    name: 'Major Doctrines', 
-    desc: 'Key rules, standards, and legal definitions.', 
-    color: '#ff9600',
-    principles: [
-      { name: 'Jurisdiction Doctrines', snippet: 'AUTHORITY SCOPE DEFINED...' },
-      { name: 'Liability Doctrines', snippet: 'CONDITIONS FOR RESPONSIBILITY...' },
-      { name: 'Defense Doctrines', snippet: 'VALID EXCUSES...' },
-      { name: 'Remedy Doctrines', snippet: 'AVAILABLE RELIEF...' },
-      { name: 'Procedural Doctrines', snippet: 'CASE PROGRESSION RULES...' },
-      { name: 'Constitutional Doctrines', snippet: 'RIGHTS AND STRUCTURE...' },
-      { name: 'Equity Doctrines', snippet: 'FAIRNESS-BASED RULES...' }
-    ]
-  },
-  { 
-    name: 'Procedural Framework', 
-    desc: 'Steps for application, enforcement, and adjudication.', 
-    color: '#e6b400',
-    principles: [
-      { name: 'Jurisdiction Establishment', snippet: 'COURT AUTHORITY CONFIRMED...' },
-      { name: 'Pleading', snippet: 'CLAIMS AND DEFENSES STATED...' },
-      { name: 'Motion Practice', snippet: 'ISSUES RESOLVED EARLY...' },
-      { name: 'Discovery', snippet: 'EVIDENCE OBTAINED...' },
-      { name: 'Pre-trial Resolution', snippet: 'SETTLEMENT OR DISMISSAL...' },
-      { name: 'Adjudication', snippet: 'CASE DECIDED...' },
-      { name: 'Appeal and Review', snippet: 'DECISION REVIEWED...' }
-    ]
-  }, 
-  { 
-    name: 'Decision Standards', 
-    desc: 'The lens through which the court decides outcomes.', 
-    color: '#58cc02',
-    principles: [
-      { name: 'Authority-Defining Cases', snippet: 'WHO HOLDS AUTHORITY...' },
-      { name: 'Rights-Defining Cases', snippet: 'SCOPE OF RIGHTS...' },
-      { name: 'Limits-of-Power Cases', snippet: 'BOUNDARIES ENFORCED...' },
-      { name: 'Procedure-Defining Cases', snippet: 'PROCESS REQUIREMENTS...' },
-      { name: 'Liability-Expansion Cases', snippet: 'SCOPE BROADENED...' },
-      { name: 'Liability-Restriction Cases', snippet: 'SCOPE NARROWED...' },
-      { name: 'Paradigm-Shifting Cases', snippet: 'FRAMEWORK CHANGED...' }
-    ]
-  },
-  { 
-    name: 'Major Cases', 
-    desc: 'Landmark judicial decisions and their impacts.', 
-    color: '#1cb0f6',
-    principles: [
-      { name: 'Individual vs State Power', snippet: 'BALANCE OF POWER...' },
-      { name: 'Fairness vs Efficiency', snippet: 'JUSTICE VS SYSTEM...' },
-      { name: 'Predictability vs Flexibility', snippet: 'CONSISTENCY VS ADAPTATION...' },
-      { name: 'Centralization vs Decentralization', snippet: 'POWER DISTRIBUTION...' },
-      { name: 'Formalism vs Pragmatism', snippet: 'STRICT VS PRACTICAL...' },
-      { name: 'Stability vs Evolution', snippet: 'CONTINUITY VS CHANGE...' },
-      { name: 'Liberty vs Security', snippet: 'FREEDOM VS SAFETY...' }
-    ]
-  },
-  { 
-    name: 'Policy Debates', 
-    desc: 'Controversies, reforms, and competing arguments.', 
-    color: '#9333ea',
-    principles: [
-      { name: 'Issue Spotting', snippet: 'IDENTIFYING PROBLEMS...' },
-      { name: 'Rule Extraction', snippet: 'DERIVING RULES...' },
-      { name: 'Burden Manipulation', snippet: 'SHIFTING PROOF...' },
-      { name: 'Evidence Structuring', snippet: 'ORGANIZING RECORDS...' },
-      { name: 'Argument Construction', snippet: 'LOGICAL REASONING...' },
-      { name: 'Procedural Leverage', snippet: 'USING PROCESS...' },
-      { name: 'Judicial Psychology Navigation', snippet: 'UNDERSTANDING TENDENCIES...' }
-    ]
-  }, 
-  { 
-    name: 'Practical Skills', 
-    desc: 'Real-world application, drafting, and advocacy.', 
-    color: '#ff66aa',
-    principles: [
-      { name: 'Burden of Proof', snippet: 'WHO MUST PROVE...' },
-      { name: 'Standard of Proof', snippet: 'HOW MUCH PROOF...' },
-      { name: 'Standard of Review', snippet: 'APPELLATE REVIEW...' },
-      { name: 'Level of Scrutiny', snippet: 'RIGHTS PROTECTION...' },
-      { name: 'Evidentiary Weight', snippet: 'EVALUATING EVIDENCE...' },
-      { name: 'Deference Doctrines', snippet: 'WHEN COURTS DEFER...' },
-      { name: 'Balancing Tests', snippet: 'WEIGHING INTERESTS...' }
-    ]
-  },
-];
+
+
 
 const CAREER_PATHS = [
   { title: "[Career Potential Path 1]", market: "--", salary: "---,---" },
@@ -288,39 +199,82 @@ function Segment({ index, color, tierIndex }: { index: number, color: string, ti
   );
 }
 
-function TieredProgressRing({ color, progress }: { color: string, progress: number }) {
+function TieredProgressRing({ color, progress }: { color: string; progress: number }) {
   return (
-    <svg 
-      viewBox="0 0 120 120" 
-      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20 w-[6.5rem] h-[6.5rem]"
-    >
-      {[...Array(7)].map((_, i) => {
-        let tierIdx = -1;
-        if (progress >= 26 + i) tierIdx = 3;
-        else if (progress >= 18 + i) tierIdx = 2;
-        else if (progress >= 10 + i) tierIdx = 1;
-        else if (progress >= 2 + i) tierIdx = 0;
-        return <Segment key={i} index={i} color={color} tierIndex={tierIdx} />;
-      })}
+    <svg viewBox="0 0 120 120" aria-hidden="true"
+      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20 w-[6.5rem] h-[6.5rem]">
+      {Array.from({ length: 7 }, (_, i) => (
+        <Segment key={i} index={i} color={color} tierIndex={ringSegmentTier(progress, i)} />
+      ))}
     </svg>
   );
 }
 
-function DuolingoNode({ color, progress, onNodeClick, id }: { 
-  color: string, 
-  progress: number, 
-  onNodeClick: () => void,
-  id: string 
+/** A real long hold is required before an owner can clear local preview progress.
+ * Normal mouse/touch taps and keyboard activation never erase progress.
+ */
+function HoldTarget({ children, onTap, onHold, canReset, label, className, style }: {
+  children: React.ReactNode;
+  onTap: () => void;
+  onHold: () => void;
+  canReset: boolean;
+  label: string;
+  className: string;
+  style?: React.CSSProperties;
+}) {
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const consumed = useRef(false);
+  const stop = () => {
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = null;
+  };
+  useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
+  return (
+    <button type="button" aria-label={label} title={label} style={style} className={className}
+      onPointerDown={event => {
+        if (!canReset || event.button !== 0) return;
+        consumed.current = false;
+        stop();
+        timer.current = setTimeout(() => {
+          consumed.current = true;
+          onHold();
+        }, 700);
+      }}
+      onPointerUp={stop}
+      onPointerLeave={stop}
+      onPointerCancel={stop}
+      onContextMenu={event => { if (canReset) event.preventDefault(); }}
+      onClick={event => {
+        event.stopPropagation();
+        if (consumed.current) {
+          event.preventDefault();
+          consumed.current = false;
+          return;
+        }
+        onTap();
+      }}>
+      {children}
+    </button>
+  );
+}
+
+function DuolingoNode({ color, progress, onNodeClick, onPartClick, onResetAll, onResetFromPart, canReset, id }: {
+  color: string;
+  progress: number;
+  onNodeClick: () => void;
+  onPartClick: (part: number) => void;
+  onResetAll: () => void;
+  onResetFromPart: (part: number) => void;
+  canReset: boolean;
+  id: string;
 }) {
   let currentTierIdx = -1;
   if (progress >= 25) currentTierIdx = 3;
   else if (progress >= 17) currentTierIdx = 2;
   else if (progress >= 9) currentTierIdx = 1;
   else if (progress >= 1) currentTierIdx = 0;
-
   let activeColor = "hsl(var(--muted))";
   let activeShadow = "hsl(var(--muted))";
-
   if (currentTierIdx === 0) {
     activeColor = color;
     activeShadow = darkenHex(color, 30);
@@ -329,42 +283,63 @@ function DuolingoNode({ color, progress, onNodeClick, id }: {
     activeColor = style.color;
     activeShadow = style.shadow;
   }
-
   const isPrestige = currentTierIdx > 0;
   const outlineColor = "rgba(0,0,0,0.9)";
-
   return (
-    <div className="relative group flex items-center justify-center w-20 h-20 shrink-0">
+    <div className="relative group flex items-center justify-center w-20 h-20 shrink-0"
+      data-testid={`lesson-node-${id}`}>
       {isPrestige && (
         <div className="absolute inset-[-0.75rem] pointer-events-none flex items-center justify-center z-0">
-          <div className="w-14 h-14 rounded-full blur-2xl transition-opacity duration-1000" style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%)', animation: 'pulse-glow 2s infinite ease-in-out' }} />
+          <div className="w-14 h-14 rounded-full blur-2xl transition-opacity duration-1000"
+            style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%)', animation: 'pulse-glow 2s infinite ease-in-out' }} />
         </div>
       )}
       <TieredProgressRing color={color} progress={progress} />
-      <button 
-        type="button"
-        onClick={(e) => { e.stopPropagation(); onNodeClick(); }} 
-        className="w-12 h-12 rounded-full relative transition-all active:translate-y-1 duration-100 flex items-center justify-center group z-10 overflow-hidden" 
-        style={{ 
-          backgroundColor: activeColor, 
-          boxShadow: `0 5px 0 ${activeShadow}, 0 5px 0 2px ${outlineColor}, 0 0 0 2px ${outlineColor}` 
-        }}
-      >
+      {Array.from({ length: 7 }, (_, index) => {
+        const angle = ((index + 0.5) * 360 / 7 - 90) * Math.PI / 180;
+        const x = Math.round(Math.cos(angle) * 42);
+        const y = Math.round(Math.sin(angle) * 42);
+        const filled = ringSegmentTier(progress, index) >= 0;
+        return (
+          <HoldTarget key={index}
+            label={`Part ${index + 1} of 7: ${filled ? 'complete' : 'not complete'}${canReset ? '. Hold to reset this and subsequent parts' : ''}`}
+            canReset={canReset}
+            onTap={() => onPartClick(index)}
+            onHold={() => onResetFromPart(index)}
+            className="absolute z-30 h-8 w-8 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+            style={{ left: `calc(50% + ${x}px)`, top: `calc(50% + ${y}px)`, transform: 'translate(-50%, -50%)', touchAction: 'manipulation' }}>
+            <span className="sr-only">Part {index + 1}</span>
+          </HoldTarget>
+        );
+      })}
+      <HoldTarget
+        label={`Begin or resume this law lesson${canReset ? '. Hold to reset all seven parts at every level' : ''}`}
+        canReset={canReset}
+        onTap={onNodeClick}
+        onHold={onResetAll}
+        className="w-12 h-12 rounded-full relative transition-all active:translate-y-1 duration-100 flex items-center justify-center group z-40 overflow-hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+        style={{ backgroundColor: activeColor, touchAction: 'manipulation',
+          boxShadow: `0 5px 0 ${activeShadow}, 0 5px 0 2px ${outlineColor}, 0 0 0 2px ${outlineColor}` }}>
         <div className="absolute inset-0 rounded-full border-[2px] border-black/30 pointer-events-none z-30" />
         <div className="absolute inset-[1px] rounded-full border-t-[2px] border-l-[2px] border-white/20 pointer-events-none z-30" />
         {isPrestige && <div className={cn("absolute inset-0 pointer-events-none opacity-80 z-20", TIER_ORDER[currentTierIdx] === 'orichalcum' ? "fiery-gloss" : "gloss-band")} />}
         <BeveledScaleIcon tierIdx={currentTierIdx} progress={progress} />
-      </button>
+      </HoldTarget>
     </div>
   );
 }
 
-function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM }: { 
+function PathView({ course, nodeProgress, masteryBySection, onNodeClick, onPartClick, onResetAll, onResetFromPart, canReset, isICM, setView, setIsICM }: { 
   course: any, 
   nodeProgress: Record<string, number>, 
+  masteryBySection: number[],
   onNodeClick: (sIdx: number, bIdx: number) => void,
+  onPartClick: (sIdx: number, bIdx: number, part: number) => void,
+  onResetAll: (sIdx: number, bIdx: number) => void,
+  onResetFromPart: (sIdx: number, bIdx: number, part: number) => void,
+  canReset: boolean,
   isICM: boolean,
-  setView: (v: 'academy' | 'domain' | 'course' | 'notebook') => void,
+  setView: (v: 'academy' | 'domain' | 'course' | 'notebook' | 'lesson') => void,
   setIsICM: (v: boolean) => void
 }) {
   return (
@@ -396,6 +371,19 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
         </div>
       </header>
 
+      {isJurisprudenceCourse(course) && (
+        <div className="flex flex-wrap items-center gap-3">
+          <Button type="button" onClick={() => {
+            const choices = MASTERY_SECTIONS.flatMap((section, sIdx) =>
+              section.principles.map((_, bIdx) => ({ sIdx, bIdx, value: nodeProgress[`${sIdx}-${bIdx}`] || 0 })));
+            const next = choices.find(choice => choice.value < 32) || choices[0];
+            onNodeClick(next.sIdx, next.bIdx);
+          }} className="rounded-full gap-2 font-black uppercase tracking-widest">
+            <Play className="h-4 w-4 fill-current" /> Begin Course
+          </Button>
+          <span className="text-xs text-muted-foreground">Opens the first lesson. Use Track or ICM to select other lessons.</span>
+        </div>
+      )}
       <section className="space-y-4">
         <h2 className="text-lg font-black flex items-center gap-2 text-foreground uppercase tracking-widest">
           <AlignLeft className="h-4 w-4 text-accent" /> Overview
@@ -411,12 +399,18 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
       {isICM ? (
         <Accordion type="multiple" className="space-y-3">
           {MASTERY_SECTIONS.map((section, sIdx) => (
-            <AccordionItem key={sIdx} value={`mastery-${sIdx}`} className="bg-muted/10 border-2 border-muted rounded-2xl overflow-hidden shadow-sm border-b-2 group/mastery">
+            <AccordionItem key={sIdx} value={`mastery-${sIdx}`} className="relative bg-muted/10 border-2 border-muted rounded-2xl overflow-hidden shadow-sm border-b-2 group/mastery">
+              <button type="button" aria-label={`Begin or resume ${section.name}`}
+                onClick={() => {
+                  const next = section.principles.findIndex((_, bIdx) => (nodeProgress[`${sIdx}-${bIdx}`] || 0) < 32);
+                  onNodeClick(sIdx, next >= 0 ? next : 0);
+                }}
+                className="absolute left-4 top-3 z-20 bg-primary/10 p-2.5 rounded-lg text-primary hover:bg-accent hover:text-white focus-visible:outline focus-visible:outline-accent">
+                <Play className="h-4 w-4 fill-current" />
+              </button>
               <AccordionTrigger className="px-6 py-3 hover:no-underline hover:bg-muted/5 transition-all text-foreground">
                 <div className="flex items-center gap-3 text-left w-full">
-                  <div className="bg-primary/10 p-2.5 rounded-lg text-primary flex items-center justify-center shadow-sm">
-                    <Play className="h-4 w-4 fill-primary" />
-                  </div>
+                  <div className="w-9 h-9 shrink-0" aria-hidden="true" />
                   <div className="flex-1">
                     <h3 className="font-black text-foreground text-base uppercase tracking-tight">{section.name}</h3>
                     <p className="text-[9px] text-muted-foreground font-bold uppercase tracking-widest opacity-60">{section.desc}</p>
@@ -424,9 +418,9 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                   <div className="mr-4 w-32 space-y-1 shrink-0">
                     <div className="flex justify-between items-baseline">
                       <span className="text-[8px] font-black text-muted-foreground uppercase tracking-widest opacity-60">Mastery</span>
-                      <span className="text-xs font-black text-foreground">0%</span>
+                      <span className="text-xs font-black text-foreground">{masteryBySection[sIdx] ?? 0}%</span>
                     </div>
-                    <Progress value={0} className="h-1 bg-muted w-full" />
+                    <Progress value={masteryBySection[sIdx] ?? 0} className="h-1 bg-muted w-full" />
                   </div>
                 </div>
               </AccordionTrigger>
@@ -435,9 +429,11 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                    <div key={pIdx} className="flex items-start justify-between p-2.5 pr-6 bg-card rounded-xl border border-dashed border-border group/p hover:bg-accent/5 transition-all">
                       <div className="flex flex-col gap-2 flex-1">
                         <div className="flex items-start gap-3">
-                          <div className="bg-primary/10 p-2 rounded-lg text-primary flex items-center justify-center shadow-sm group-hover/p:bg-accent group-hover/p:text-white transition-colors shrink-0">
+                          <button type="button" aria-label={`Begin ${p.name}`}
+                            onClick={() => onNodeClick(sIdx, pIdx)}
+                            className="bg-primary/10 p-2 rounded-lg text-primary flex items-center justify-center shadow-sm group-hover/p:bg-accent group-hover/p:text-white transition-colors shrink-0">
                             <Play className="h-3.5 w-3.5 fill-current" />
-                          </div>
+                          </button>
                           <div className="flex flex-col pt-0.5 items-start">
                             <span className="font-black text-foreground text-xs uppercase tracking-tight">{p.name}</span>
                             <span className="text-[8px] text-muted-foreground font-bold uppercase tracking-widest opacity-60">{p.snippet}</span>
@@ -453,7 +449,7 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                           <div className="flex-1 bg-muted/20 border border-border rounded-lg p-1.5 space-y-0.5">
                             <p className="text-[7px] font-black text-muted-foreground uppercase tracking-[0.2em]">Next Lesson</p>
                             <p className="text-[9px] font-bold text-accent">
-                              {(nodeProgress[`${sIdx}-${pIdx}`] || 0) > 0 ? "Scheduled" : "Start track"}
+                              {nextLessonLabel(nodeProgress[`${sIdx}-${pIdx}`] || 0)}
                             </p>
                           </div>
                         </div>
@@ -463,6 +459,10 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                           color={section.color} 
                           progress={nodeProgress[`${sIdx}-${pIdx}`] || 0} 
                           onNodeClick={() => onNodeClick(sIdx, pIdx)} 
+                          onPartClick={part => onPartClick(sIdx, pIdx, part)}
+                          onResetAll={() => onResetAll(sIdx, pIdx)}
+                          onResetFromPart={part => onResetFromPart(sIdx, pIdx, part)}
+                          canReset={canReset}
                           id={`${sIdx}-${pIdx}`} 
                         />
                       </div>
@@ -494,6 +494,10 @@ function PathView({ course, nodeProgress, onNodeClick, isICM, setView, setIsICM 
                         color={section.color} 
                         progress={progress} 
                         onNodeClick={() => onNodeClick(sIdx, bIdx)} 
+                        onPartClick={part => onPartClick(sIdx, bIdx, part)}
+                        onResetAll={() => onResetAll(sIdx, bIdx)}
+                        onResetFromPart={part => onResetFromPart(sIdx, bIdx, part)}
+                        canReset={canReset}
                         id={id} 
                       />
                     </div>
@@ -526,8 +530,10 @@ function QuestItem({ label, current, total, color }: { label: string, current: n
 // --- Page Wrapper ---
 
 export default function LearnPage() {
+  const { isAdmin } = useAdminAccess();
+  const [resetNotice, setResetNotice] = useState<string | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [view, setView] = useState<'academy' | 'domain' | 'course' | 'notebook'>('academy');
+  const [view, setView] = useState<'academy' | 'domain' | 'course' | 'notebook' | 'lesson'>('academy');
   const [activeDomain, setActiveDomain] = useState<any>(null);
   const [activeCourse, setActiveCourse] = useState<any>(null);
   const [learnAccordionOpen, setLearnAccordionOpen] = useState(false);
@@ -538,6 +544,9 @@ export default function LearnPage() {
   const domSlug = searchParams.get('dom');
   const courseSlug = searchParams.get('course');
   const viewParam = searchParams.get('view');
+  const nodeParam = searchParams.get('node');
+  const partParam = searchParams.get('part');
+  const levelParam = searchParams.get('level');
   const notebookTab = searchParams.get('tab') || 'toc';
 
   // The Academy is a public, read-only view of Supabase's published catalog.
@@ -591,7 +600,7 @@ export default function LearnPage() {
           const course = coursesData.find(c => c.slug === courseSlug);
           if (course) {
             setActiveCourse(course);
-            setView('course');
+            setView(nodeParam && findSubsection(nodeParam) ? 'lesson' : 'course');
           } else {
             setView('domain');
           }
@@ -602,7 +611,7 @@ export default function LearnPage() {
     } else {
       setView('academy');
     }
-  }, [domSlug, courseSlug, domains, coursesData, viewParam]);
+  }, [domSlug, courseSlug, nodeParam, domains, coursesData, viewParam]);
 
   const sortedDomains = useMemo(() => Array.isArray(domains) ? [...domains].sort((a, b) => (a.order || 0) - (b.order || 0)) : [], [domains]);
   const sortedFields = useMemo(() => Array.isArray(fields) ? [...fields].sort((a, b) => (a.order || 0) - (b.order || 0)) : [], [fields]);
@@ -614,25 +623,118 @@ export default function LearnPage() {
     const params = new URLSearchParams(searchParams.toString());
     params.set('dom', dom.slug);
     params.delete('course');
+    params.delete('node');
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
+  };
+
+  // Play begins the first playable lesson. Course-title clicks still open the outline.
+  const handleCoursePlay = (course: any) => {
+    if (!activeDomain) return;
+    router.push(coursePlayUrl(new URLSearchParams(searchParams.toString()), activeDomain.slug, course));
   };
 
   const handleCourseSelect = (course: any) => {
     const params = new URLSearchParams(searchParams.toString());
     params.set('dom', activeDomain.slug);
     params.set('course', course.slug);
+    params.delete('node');
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
   };
 
-  const handleNodeClick = (sIdx: number, bIdx: number) => {
-    const id = `${sIdx}-${bIdx}`;
-    setNodeProgress(prev => {
-      const current = prev[id] || 0;
-      if (current >= 32) return prev; 
-      return { ...prev, [id]: current + 1 };
+  const masteryBySection = useMemo(
+    () => MASTERY_SECTIONS.map((section, sIdx) => competencyMasteryPercent(
+      section.principles.map((_, bIdx) => nodeProgress[`${sIdx}-${bIdx}`] || 0),
+    )),
+    [nodeProgress],
+  );
+  const courseCompletion = useMemo(() => competencyMasteryPercent(
+    MASTERY_SECTIONS.flatMap((section, sIdx) => section.principles.map((_, bIdx) => nodeProgress[`${sIdx}-${bIdx}`] || 0)),
+  ), [nodeProgress]);
+
+  useEffect(() => {
+    if (!activeCourse?.id) return;
+    let cancelled = false;
+    const courseId = activeCourse.id as string;
+    Promise.all(MASTERY_SECTIONS.flatMap((section, sIdx) => section.principles.map(async (principle, bIdx) => {
+      const snap = await lessonAdapter.getProgress({
+        courseId,
+        subsectionId: subsectionId(section.slug, principle.slug),
+      });
+      return [`${sIdx}-${bIdx}`, snap.progress] as const;
+    }))).then(rows => {
+      if (!cancelled) setNodeProgress(Object.fromEntries(rows));
+    }).catch(() => {
+      if (!cancelled) setNodeProgress({});
     });
+    return () => { cancelled = true; };
+  }, [activeCourse?.id]);
+
+  const handleNodeClick = (sIdx: number, bIdx: number) => {
+    if (!activeDomain || !activeCourse) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle) return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('dom', activeDomain.slug);
+    params.set('course', activeCourse.slug);
+    params.set('node', subsectionId(section.slug, principle.slug));
+    params.delete('part');
+    params.delete('level');
+    params.delete('view');
+    router.push(`/learn?${params.toString()}`);
+  };
+
+  const handlePartClick = (sIdx: number, bIdx: number, part: number) => {
+    if (!activeDomain || !activeCourse || !Number.isInteger(part) || part < 0 || part >= 7) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle) return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('dom', activeDomain.slug);
+    params.set('course', activeCourse.slug);
+    params.set('node', subsectionId(section.slug, principle.slug));
+    params.set('part', String(part + 1));
+    const progress = nodeProgress[`${sIdx}-${bIdx}`] || 0;
+    const visibleLevel: LevelId = progress >= 25 ? 'doctorate'
+      : progress >= 17 ? 'masters' : progress >= 9 ? 'bachelor' : 'paralegal';
+    params.set('level', visibleLevel);
+    params.delete('view');
+    router.push(`/learn?${params.toString()}`);
+  };
+
+  const handleReset = async (sIdx: number, bIdx: number, fromPart?: number) => {
+    if (!isAdmin || !activeCourse || !isJurisprudenceCourse(activeCourse)) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle || !lessonAdapter.resetProgress) return;
+    const key = `${sIdx}-${bIdx}`;
+    const progress = nodeProgress[key] || 0;
+    const visibleLevel: LevelId = progress >= 25 ? 'doctorate'
+      : progress >= 17 ? 'masters' : progress >= 9 ? 'bachelor' : 'paralegal';
+    try {
+      const snapshot = await lessonAdapter.resetProgress({
+        courseId: activeCourse.id,
+        curriculumCode: 'PSU-1.1',
+        subsectionId: subsectionId(section.slug, principle.slug),
+        ...(fromPart == null ? {} : { levelId: visibleLevel, fromPart }),
+      });
+      setNodeProgress(current => ({ ...current, [key]: snapshot.progress }));
+      setResetNotice(fromPart == null
+        ? `Reset all seven parts and all levels of ${principle.name} on this device.`
+        : `Reset ${principle.name}, parts ${fromPart + 1}–7 and later mastery levels on this device.`);
+    } catch (error) {
+      setResetNotice(error instanceof Error ? error.message : String(error));
+    }
+  };
+
+  const closeLesson = () => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete('node');
+    params.delete('part');
+    params.delete('level');
+    router.push(`/learn?${params.toString()}`);
   };
 
   return (
@@ -870,7 +972,7 @@ export default function LearnPage() {
                                         {course.description || "Course modules pending..."}
                                       </p>
                                       <div className="absolute bottom-[-1rem] right-[-1rem]">
-                                        <button type="button" onClick={() => handleCourseSelect(course)} className="text-muted-foreground hover:text-accent transition-colors p-2">
+                                        <button type="button" onClick={() => handleCoursePlay(course)} aria-label={`Begin learning ${course.title}`} title={`Begin ${course.title}`} className="text-muted-foreground hover:text-accent transition-colors p-2">
                                           <PlayCircle className="h-6 w-6" />
                                         </button>
                                       </div>
@@ -886,12 +988,39 @@ export default function LearnPage() {
                   </div>
                 )}
 
+
+                {resetNotice && (
+                <p role="status" className="mx-auto my-2 max-w-xl text-center text-xs font-semibold text-amber-700 dark:text-amber-300">{resetNotice}</p>
+              )}
+              {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
+                  <LessonScreen
+                    courseId={activeCourse.id}
+                    curriculumCode={activeCourse.curriculumCode || (isJurisprudenceCourse(activeCourse) ? 'PSU-1.1' : null)}
+                    subsectionId={nodeParam}
+                    initialPart={partParam && /^[1-7]$/.test(partParam) ? Number(partParam) - 1 : null}
+                    initialLevel={levelParam && ['paralegal', 'bachelor', 'masters', 'doctorate'].includes(levelParam) ? levelParam as LevelId : null}
+                    subsectionName={findSubsection(nodeParam)!.principle.name}
+                    competencyName={findSubsection(nodeParam)!.section.displayName}
+                    color={findSubsection(nodeParam)!.section.color}
+                    onBack={closeLesson}
+                    onProgress={snapshot => {
+                      const found = findSubsection(nodeParam);
+                      if (!found) return;
+                      setNodeProgress(prev => ({ ...prev, [`${found.sectionIndex}-${found.principleIndex}`]: snapshot.progress }));
+                    }}
+                  />
+                )}
                 {view === 'course' && activeCourse && (
                   <>
                     <PathView 
                       course={activeCourse} 
-                      nodeProgress={nodeProgress} 
+                      nodeProgress={nodeProgress}
+                      masteryBySection={masteryBySection}
                       onNodeClick={handleNodeClick}
+                      onPartClick={handlePartClick}
+                      onResetAll={(sIdx, bIdx) => { void handleReset(sIdx, bIdx); }}
+                      onResetFromPart={(sIdx, bIdx, part) => { void handleReset(sIdx, bIdx, part); }}
+                      canReset={isAdmin && isJurisprudenceCourse(activeCourse)}
                       isICM={isICM}
                       setView={setView}
                       setIsICM={setIsICM}
@@ -1020,7 +1149,7 @@ export default function LearnPage() {
             </CardContent>
           </Card>
 
-          {view === 'course' && activeCourse && (
+          {(view === 'course' || view === 'lesson') && activeCourse && (
             <div className="space-y-2.5 animate-in fade-in zoom-in duration-300">
               <Card className="rounded-[1.5rem] border-2 border-accent shadow-sm overflow-hidden bg-accent/5">
                 <CardHeader className="p-2.5 bg-accent text-white">
@@ -1032,13 +1161,13 @@ export default function LearnPage() {
                   <div className="space-y-1">
                     <div className="flex justify-between text-[9px] font-black uppercase tracking-widest text-foreground">
                       <span>Completion</span>
-                      <span>0%</span>
+                      <span>{courseCompletion}%</span>
                     </div>
-                    <Progress value={0} className="h-1 bg-muted" />
+                    <Progress value={courseCompletion} className="h-1 bg-muted" />
                   </div>
                   <div className="p-2 bg-muted/20 rounded-xl space-y-0.5 border border-border">
                     <p className="text-[7px] font-black text-muted-foreground uppercase tracking-widest">Last Studied</p>
-                    <p className="text-[10px] font-black text-foreground">N/A</p>
+                    <p className="text-[10px] font-black text-foreground">{courseCompletion > 0 ? 'Today' : 'N/A'}</p>
                   </div>
                   <div className="p-2 bg-red-500/10 rounded-xl space-y-0.5 border border-red-200/50">
                     <p className="text-[7px] font-black text-red-500 uppercase tracking-widest">Difficulty Area</p>

@@ -1,0 +1,552 @@
+{
+  "key": "decision_standards",
+  "name": "Decision Standards",
+  "subsections": [
+    {
+      "key": "level-of-scrutiny",
+      "name": "Level of Scrutiny",
+      "levels": {
+        "red": {
+          "focus": "Recognize that rights restrictions require legal justification.",
+          "summary": "Government restrictions may face different levels of judicial examination. Identify the protected interest and the governing test before debating whether the restriction seems fair.",
+          "checklist": [
+            "I can identify the right and state action at issue",
+            "I can explain the purpose of legal scrutiny",
+            "I can avoid treating one country's tests as universal"
+          ],
+          "sections": [
+            {
+              "title": "A right limits official choice",
+              "body_md": "A city restricts a public demonstration. Its policy may be popular, but popularity does not answer whether the action respects applicable rights. A court may ask whether the government has lawful authority and whether its reason satisfies the applicable constitutional or statutory standard. Scrutiny is a method of examining that justification. It is not an invitation to choose an outcome through personal preference. Start with the legal source, right, act, and review power.",
+              "example": null,
+              "audio_script": "A city restricts a public demonstration. Its policy may be popular, but popularity does not answer whether the action respects applicable rights. A court may ask whether the government has lawful authority and whether its reason satisfies the applicable constitutional or statutory standard. Scrutiny is a method of examining that justification. It is not an invitation to choose an outcome through personal preference. Start with the legal source, right, act, and review power.",
+              "video": null
+            },
+            {
+              "title": "Tests can be more or less demanding",
+              "body_md": "A demanding standard may require a powerful governmental purpose and a close connection between the measure and that purpose. A more deferential standard gives officials greater latitude. Which test applies depends on the jurisdiction, legal interest, and governing precedents. Labels alone cannot decide the dispute. A lawyer must examine the evidence about what the measure does and whether it meets the actual requirements of the applicable rule.",
+              "example": null,
+              "audio_script": "A demanding standard may require a powerful governmental purpose and a close connection between the measure and that purpose. A more deferential standard gives officials greater latitude. Which test applies depends on the jurisdiction, legal interest, and governing precedents. Labels alone cannot decide the dispute. A lawyer must examine the evidence about what the measure does and whether it meets the actual requirements of the applicable rule.",
+              "video": null
+            },
+            {
+              "title": "Respect the people affected",
+              "body_md": "A restriction on assembly may be defended as protecting safety while its opponents argue that it prevents lawful expression. Both interests deserve serious legal analysis. Identify what harm the government seeks to avoid, which people lose an opportunity, and whether the specific measure is allowed by law. Treating every restriction as lawful or every public need as oppressive would miss the intellectual task. Constitutional reasoning begins by asking what legal justification is required and why.",
+              "example": null,
+              "audio_script": "A restriction on assembly may be defended as protecting safety while its opponents argue that it prevents lawful expression. Both interests deserve serious legal analysis. Identify what harm the government seeks to avoid, which people lose an opportunity, and whether the specific measure is allowed by law. Treating every restriction as lawful or every public need as oppressive would miss the intellectual task. Constitutional reasoning begins by asking what legal justification is required and why.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q1",
+              "type": "true_false",
+              "prompt": "Protected interest means individual right recognized by law.",
+              "answer": true,
+              "explanation_if_true": "Protected interest means individual right recognized by law.",
+              "explanation_if_false": "Protected interest means individual right recognized by law."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q2",
+              "type": "true_false",
+              "prompt": "All constitutional systems use precisely the same three scrutiny tiers.",
+              "answer": false,
+              "explanation_if_true": "Review frameworks vary by legal order and right.",
+              "explanation_if_false": "Review frameworks vary by legal order and right."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Judicial scrutiny?",
+              "choices": [
+                "Relationship between a measure and its objective",
+                "Legal examination of government justification",
+                "Individual right recognized by law",
+                "Public purpose advanced for a policy"
+              ],
+              "answer_index": 1,
+              "explanation": "Judicial scrutiny means legal examination of government justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A city restricts a protected activity and claims safety requires it. What comes first?",
+              "choices": [
+                "Identify the applicable right and legal test",
+                "Accept the mayor's claim automatically",
+                "Ask only whether the measure is popular",
+                "Assume all countries use U.S. law"
+              ],
+              "answer_index": 0,
+              "explanation": "The review depends on recognized rights and lawful scrutiny rules."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means public purpose advanced for a policy?",
+              "choices": [
+                "Government objective",
+                "Protected interest",
+                "Means–ends fit",
+                "Judicial scrutiny"
+              ],
+              "answer_index": 0,
+              "explanation": "Government objective means public purpose advanced for a policy."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q6",
+              "type": "matching",
+              "prompt": "Match the rights review principles.",
+              "pairs": [
+                [
+                  "Judicial scrutiny",
+                  "Legal examination of government justification"
+                ],
+                [
+                  "Protected interest",
+                  "Individual right recognized by law"
+                ],
+                [
+                  "Government objective",
+                  "Public purpose advanced for a policy"
+                ],
+                [
+                  "Means–ends fit",
+                  "Relationship between a measure and its objective"
+                ]
+              ],
+              "explanation": "Different tests demand different forms of justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q7",
+              "type": "fill_in",
+              "prompt": "Legal examination of government justification is called ___.",
+              "answer": "Judicial scrutiny",
+              "accept": [
+                "Judicial scrutiny"
+              ],
+              "explanation": "The term is Judicial scrutiny."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.red.q8",
+              "type": "fill_in",
+              "prompt": "Relationship between a measure and its objective is called ___.",
+              "answer": "Means–ends fit",
+              "accept": [
+                "Means–ends fit"
+              ],
+              "explanation": "The term is Means–ends fit."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Differentiate major U.S. scrutiny frameworks.",
+          "summary": "Rational-basis, intermediate, and strict scrutiny can apply in specified U.S. constitutional settings. Learn the required governmental interest and relationship to the measure while recognizing context-specific exceptions.",
+          "checklist": [
+            "I can distinguish three familiar U.S. tiers",
+            "I can connect interest and fit in each analysis",
+            "I can identify which legal authority selects the tier"
+          ],
+          "sections": [
+            {
+              "title": "Rational basis and legitimate interests",
+              "body_md": "In many U.S. equal-protection disputes, rational-basis review asks whether a challenged classification is rationally related to a legitimate governmental interest. The degree of deference can be substantial, although its application is not perfectly uniform across all cases. A court does not substitute its preferred economic policy merely because it thinks it better. A lawyer must identify why rational basis applies to the particular classification, rather than assume it governs all disputes involving a public official.",
+              "example": null,
+              "audio_script": "In many U.S. equal-protection disputes, rational-basis review asks whether a challenged classification is rationally related to a legitimate governmental interest. The degree of deference can be substantial, although its application is not perfectly uniform across all cases. A court does not substitute its preferred economic policy merely because it thinks it better. A lawyer must identify why rational basis applies to the particular classification, rather than assume it governs all disputes involving a public official.",
+              "video": null
+            },
+            {
+              "title": "Intermediate scrutiny demands a substantial link",
+              "body_md": "Intermediate scrutiny, common in certain sex-classification disputes, generally concerns an important governmental objective and a substantial relation between that objective and the classification. The Supreme Court's cases add context-specific refinements; the formula is not a mathematical midpoint. The claimed purpose must be evaluated under controlling decisions. A lawyer should not transfer this test uncritically to other constitutional rights, which may be governed by different doctrines and formulations.",
+              "example": null,
+              "audio_script": "Intermediate scrutiny, common in certain sex-classification disputes, generally concerns an important governmental objective and a substantial relation between that objective and the classification. The Supreme Court's cases add context-specific refinements; the formula is not a mathematical midpoint. The claimed purpose must be evaluated under controlling decisions. A lawyer should not transfer this test uncritically to other constitutional rights, which may be governed by different doctrines and formulations.",
+              "video": null
+            },
+            {
+              "title": "Strict scrutiny is demanding, not fictional",
+              "body_md": "Strict scrutiny ordinarily requires a compelling governmental interest and narrow tailoring of the measure within the relevant doctrine. Some settings also require consideration of less restrictive alternatives. It is a serious burden, but not a claim that lawful government action is impossible. The first obligation is to demonstrate why the disputed classification or measure triggers that standard. Only then can the court assess the evidence supporting the asserted purpose and the means chosen.",
+              "example": null,
+              "audio_script": "Strict scrutiny ordinarily requires a compelling governmental interest and narrow tailoring of the measure within the relevant doctrine. Some settings also require consideration of less restrictive alternatives. It is a serious burden, but not a claim that lawful government action is impossible. The first obligation is to demonstrate why the disputed classification or measure triggers that standard. Only then can the court assess the evidence supporting the asserted purpose and the means chosen.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q1",
+              "type": "true_false",
+              "prompt": "Intermediate scrutiny means review involving important interest and substantial relation.",
+              "answer": true,
+              "explanation_if_true": "Intermediate scrutiny means review involving important interest and substantial relation.",
+              "explanation_if_false": "Intermediate scrutiny means review involving important interest and substantial relation."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q2",
+              "type": "true_false",
+              "prompt": "Strict scrutiny governs every dispute involving state conduct.",
+              "answer": false,
+              "explanation_if_true": "Its application depends on controlling doctrine, rights and classifications.",
+              "explanation_if_false": "Its application depends on controlling doctrine, rights and classifications."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Rational basis?",
+              "choices": [
+                "Review for rational relation to legitimate governmental interest",
+                "Review involving important interest and substantial relation",
+                "Demanding review of compelling purpose and narrow tailoring",
+                "Close fit between a policy and its justified purpose"
+              ],
+              "answer_index": 0,
+              "explanation": "Rational basis means review for rational relation to legitimate governmental interest."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A U.S. equal-protection claim involves a category subject to intermediate scrutiny. What is ordinarily examined?",
+              "choices": [
+                "Only whether voters approve",
+                "The existence of any possible benefit",
+                "The judge's personal belief",
+                "Important objective and substantial relationship"
+              ],
+              "answer_index": 3,
+              "explanation": "Intermediate scrutiny examines both the asserted governmental interest and the measure's fit."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means demanding review of compelling purpose and narrow tailoring?",
+              "choices": [
+                "Intermediate scrutiny",
+                "Narrow tailoring",
+                "Rational basis",
+                "Strict scrutiny"
+              ],
+              "answer_index": 3,
+              "explanation": "Strict scrutiny means demanding review of compelling purpose and narrow tailoring."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the rights review principles.",
+              "pairs": [
+                [
+                  "Rational basis",
+                  "Review for rational relation to legitimate governmental interest"
+                ],
+                [
+                  "Intermediate scrutiny",
+                  "Review involving important interest and substantial relation"
+                ],
+                [
+                  "Strict scrutiny",
+                  "Demanding review of compelling purpose and narrow tailoring"
+                ],
+                [
+                  "Narrow tailoring",
+                  "Close fit between a policy and its justified purpose"
+                ]
+              ],
+              "explanation": "Different tests demand different forms of justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Review for rational relation to legitimate governmental interest is called ___.",
+              "answer": "Rational basis",
+              "accept": [
+                "Rational basis"
+              ],
+              "explanation": "The term is Rational basis."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Close fit between a policy and its justified purpose is called ___.",
+              "answer": "Narrow tailoring",
+              "accept": [
+                "Narrow tailoring"
+              ],
+              "explanation": "The term is Narrow tailoring."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare U.S. tiered review with proportionality.",
+          "summary": "Constitutional systems differ on how they balance rights and public purposes. Analyze suitability, necessity, and proportionate impact without reducing them to a single vague impression of fairness.",
+          "checklist": [
+            "I can identify stages of proportionality review",
+            "I can compare categorical and contextual tests",
+            "I can analyze a less restrictive alternative"
+          ],
+          "sections": [
+            {
+              "title": "Proportionality is a structured inquiry",
+              "body_md": "Many legal systems use proportionality to test restrictions on protected rights. A court may evaluate a legitimate aim, suitability for achieving it, necessity when effective less restrictive alternatives exist, and whether the benefit justifies the harm under a final balancing stage. The sequence and doctrinal details vary. This is different from automatically assigning one U.S.-style tier. A lawyer first identifies which constitution and decisions govern, then applies each stage separately.",
+              "example": null,
+              "audio_script": "Many legal systems use proportionality to test restrictions on protected rights. A court may evaluate a legitimate aim, suitability for achieving it, necessity when effective less restrictive alternatives exist, and whether the benefit justifies the harm under a final balancing stage. The sequence and doctrinal details vary. This is different from automatically assigning one U.S.-style tier. A lawyer first identifies which constitution and decisions govern, then applies each stage separately.",
+              "video": null
+            },
+            {
+              "title": "A useful measure may still go too far",
+              "body_md": "A general ban on all assemblies could reduce traffic disruption, but narrower time or place rules might protect the same interest with less interference. Under relevant proportionality tests, a court may need evidence comparing alternatives. Suitability alone does not settle necessity. Conversely, an alternative that sounds gentler may not achieve the legitimate purpose as effectively. Explain the factual basis rather than assuming that the least restrictive imaginable measure is always legally required.",
+              "example": null,
+              "audio_script": "A general ban on all assemblies could reduce traffic disruption, but narrower time or place rules might protect the same interest with less interference. Under relevant proportionality tests, a court may need evidence comparing alternatives. Suitability alone does not settle necessity. Conversely, an alternative that sounds gentler may not achieve the legitimate purpose as effectively. Explain the factual basis rather than assuming that the least restrictive imaginable measure is always legally required.",
+              "video": null
+            },
+            {
+              "title": "Categorical predictability has a cost",
+              "body_md": "Tiered scrutiny can help lawyers anticipate the government's required justification for certain categories. Proportionality can accommodate varied circumstances and harms but may leave greater room for judicial judgment. Neither automatically ensures superior rights protection. Compare who must produce evidence, which interests count, how a court explains its conclusion, and what deference applies. An advanced answer should state the competing virtues and show which method actually governs the particular case.",
+              "example": null,
+              "audio_script": "Tiered scrutiny can help lawyers anticipate the government's required justification for certain categories. Proportionality can accommodate varied circumstances and harms but may leave greater room for judicial judgment. Neither automatically ensures superior rights protection. Compare who must produce evidence, which interests count, how a court explains its conclusion, and what deference applies. An advanced answer should state the competing virtues and show which method actually governs the particular case.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q1",
+              "type": "true_false",
+              "prompt": "Suitability means measure's ability to advance an objective.",
+              "answer": true,
+              "explanation_if_true": "Suitability means measure's ability to advance an objective.",
+              "explanation_if_false": "Suitability means measure's ability to advance an objective."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q2",
+              "type": "true_false",
+              "prompt": "A restriction is necessarily proportionate whenever it advances a legitimate goal at all.",
+              "answer": false,
+              "explanation_if_true": "Suitability alone may not establish necessity or justified final balance.",
+              "explanation_if_false": "Suitability alone may not establish necessity or justified final balance."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Proportionality?",
+              "choices": [
+                "Measure's ability to advance an objective",
+                "Question of comparably effective less restrictive measures",
+                "Assessment of competing interests under law",
+                "Structured test of government aim, means and impact"
+              ],
+              "answer_index": 3,
+              "explanation": "Proportionality means structured test of government aim, means and impact."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A total ban advances safety, but targeted restrictions appear equally effective. What stage requires attention?",
+              "choices": [
+                "A witness's criminal history",
+                "Calculation of a limitation period",
+                "Necessity",
+                "Jurisdiction alone"
+              ],
+              "answer_index": 2,
+              "explanation": "A suitable measure may fail if a less restrictive adequate means exists."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means question of comparably effective less restrictive measures?",
+              "choices": [
+                "Balancing",
+                "Proportionality",
+                "Necessity",
+                "Suitability"
+              ],
+              "answer_index": 2,
+              "explanation": "Necessity means question of comparably effective less restrictive measures."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q6",
+              "type": "matching",
+              "prompt": "Match the rights review principles.",
+              "pairs": [
+                [
+                  "Proportionality",
+                  "Structured test of government aim, means and impact"
+                ],
+                [
+                  "Suitability",
+                  "Measure's ability to advance an objective"
+                ],
+                [
+                  "Necessity",
+                  "Question of comparably effective less restrictive measures"
+                ],
+                [
+                  "Balancing",
+                  "Assessment of competing interests under law"
+                ]
+              ],
+              "explanation": "Different tests demand different forms of justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q7",
+              "type": "fill_in",
+              "prompt": "Structured test of government aim, means and impact is called ___.",
+              "answer": "Proportionality",
+              "accept": [
+                "Proportionality"
+              ],
+              "explanation": "The term is Proportionality."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.orange.q8",
+              "type": "fill_in",
+              "prompt": "Assessment of competing interests under law is called ___.",
+              "answer": "Balancing",
+              "accept": [
+                "Balancing"
+              ],
+              "explanation": "The term is Balancing."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Justify the intensity of rights review.",
+          "summary": "Judicial scrutiny determines when courts defer to political institutions and when public power must meet demanding justification. Defend a framework that preserves rights without treating judges as infallible rulers.",
+          "checklist": [
+            "I can critique who bears the risk of rights violations",
+            "I can compare judicial and legislative competence",
+            "I can propose transparent standards for review intensity"
+          ],
+          "sections": [
+            {
+              "title": "A test assigns authority between institutions",
+              "body_md": "Strict scrutiny can protect minorities and fundamental liberties, yet searching judicial review can also displace policy choices made by democratic institutions. Deferential review respects political judgment but may preserve arbitrary restrictions. A doctoral account should explain why a particular interest warrants special protection and why a judge is institutionally equipped to evaluate the state's justification. Neither judicial intervention nor political discretion is legitimate merely because one side feels morally superior.",
+              "example": null,
+              "audio_script": "Strict scrutiny can protect minorities and fundamental liberties, yet searching judicial review can also displace policy choices made by democratic institutions. Deferential review respects political judgment but may preserve arbitrary restrictions. A doctoral account should explain why a particular interest warrants special protection and why a judge is institutionally equipped to evaluate the state's justification. Neither judicial intervention nor political discretion is legitimate merely because one side feels morally superior.",
+              "video": null
+            },
+            {
+              "title": "Formal tests do not eliminate values",
+              "body_md": "Words such as compelling, substantial, necessary, and reasonable require judgment about evidence and social interests. Categorizing a restriction may conceal the normative choice about how intensely to review it. A principled opinion should make those assumptions visible and treat adverse arguments fairly. Jurisdictions may differ on judicial role and rights doctrine; borrowing a standard without its constitutional context risks misleading readers about authority. Legal explanation must be clear enough that affected people can see why a court accepted or rejected a justification.",
+              "example": null,
+              "audio_script": "Words such as compelling, substantial, necessary, and reasonable require judgment about evidence and social interests. Categorizing a restriction may conceal the normative choice about how intensely to review it. A principled opinion should make those assumptions visible and treat adverse arguments fairly. Jurisdictions may differ on judicial role and rights doctrine; borrowing a standard without its constitutional context risks misleading readers about authority. Legal explanation must be clear enough that affected people can see why a court accepted or rejected a justification.",
+              "video": null
+            },
+            {
+              "title": "Review should guard against domination",
+              "body_md": "Consider a facially neutral permit rule that consistently excludes a vulnerable group. Evaluate the legal equality provision, evidence of impact, relevant intent requirements, and practical alternatives. A review design should address systemic abuse without authorizing courts to invent powers or facts. Define the kinds of errors demanding closer scrutiny and how decisions can be reviewed. The purpose is accountable government that protects ordinary lives and freedoms, not the largest possible jurisdiction for judges.",
+              "example": null,
+              "audio_script": "Consider a facially neutral permit rule that consistently excludes a vulnerable group. Evaluate the legal equality provision, evidence of impact, relevant intent requirements, and practical alternatives. A review design should address systemic abuse without authorizing courts to invent powers or facts. Define the kinds of errors demanding closer scrutiny and how decisions can be reviewed. The purpose is accountable government that protects ordinary lives and freedoms, not the largest possible jurisdiction for judges.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q1",
+              "type": "true_false",
+              "prompt": "Democratic deference means respect for lawful elected policy choices.",
+              "answer": true,
+              "explanation_if_true": "Democratic deference means respect for lawful elected policy choices.",
+              "explanation_if_false": "Democratic deference means respect for lawful elected policy choices."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q2",
+              "type": "true_false",
+              "prompt": "The most aggressive judicial review is necessarily the most legitimate in every dispute.",
+              "answer": false,
+              "explanation_if_true": "Authority, rights, competence and democratic design can justify different intensities.",
+              "explanation_if_false": "Authority, rights, competence and democratic design can justify different intensities."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Review intensity?",
+              "choices": [
+                "Legal limit protecting an individual interest",
+                "Justification of an institution's authority",
+                "Degree of scrutiny applied by a court",
+                "Respect for lawful elected policy choices"
+              ],
+              "answer_index": 2,
+              "explanation": "Review intensity means degree of scrutiny applied by a court."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court seeks to replace a lawful technical judgment based only on disagreement. What question arises?",
+              "choices": [
+                "The size of the witness table",
+                "Institutional competence and deference",
+                "Whether the judge prefers the agency's logo",
+                "The age of the courthouse"
+              ],
+              "answer_index": 1,
+              "explanation": "Review intensity must be grounded in legal and institutional reasons."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means legal limit protecting an individual interest?",
+              "choices": [
+                "Review intensity",
+                "Rights constraint",
+                "Democratic deference",
+                "Institutional legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Rights constraint means legal limit protecting an individual interest."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q6",
+              "type": "matching",
+              "prompt": "Match the rights review principles.",
+              "pairs": [
+                [
+                  "Review intensity",
+                  "Degree of scrutiny applied by a court"
+                ],
+                [
+                  "Democratic deference",
+                  "Respect for lawful elected policy choices"
+                ],
+                [
+                  "Rights constraint",
+                  "Legal limit protecting an individual interest"
+                ],
+                [
+                  "Institutional legitimacy",
+                  "Justification of an institution's authority"
+                ]
+              ],
+              "explanation": "Different tests demand different forms of justification."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q7",
+              "type": "fill_in",
+              "prompt": "Degree of scrutiny applied by a court is called ___.",
+              "answer": "Review intensity",
+              "accept": [
+                "Review intensity"
+              ],
+              "explanation": "The term is Review intensity."
+            },
+            {
+              "id": "PSU-1.1.decision_standards.level-of-scrutiny.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification of an institution's authority is called ___.",
+              "answer": "Institutional legitimacy",
+              "accept": [
+                "Institutional legitimacy"
+              ],
+              "explanation": "The term is Institutional legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

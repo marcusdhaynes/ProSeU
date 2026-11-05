@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "See how ancient legal protection depended on status",
+          "summary": "Discover why the presence of rules about injuries and property did not mean equal rights for everyone. Learn to read ancient legal protections against the social categories that shaped them.",
+          "checklist": [
+            "I can distinguish possession of a protected interest from equal protection",
+            "I can identify status distinctions in ancient law",
+            "I can avoid projecting modern universal rights onto ancient sources"
+          ],
+          "sections": [
+            {
+              "title": "Protection for Some, Not All",
+              "body_md": "The Babylonian judgments associated with Hammurabi discuss injury, trade, marriage and property. They show that an ancient legal order could recognize protected interests and specify consequences for violating them. Yet penalties and entitlements varied with social position, including distinctions involving free people and enslaved people. The existence of a remedy therefore does not demonstrate that all persons held the same rights. A historian must ask not only 'what was protected?' but 'for whom, under which conditions, and against whom?'",
+              "example": null,
+              "audio_script": "The Babylonian judgments associated with Hammurabi discuss injury, trade, marriage and property. They show that an ancient legal order could recognize protected interests and specify consequences for violating them. Yet penalties and entitlements varied with social position, including distinctions involving free people and enslaved people. The existence of a remedy therefore does not demonstrate that all persons held the same rights. A historian must ask not only 'what was protected?' but 'for whom, under which conditions, and against whom?'",
+              "video": null
+            },
+            {
+              "title": "Status Shapes the Claim",
+              "body_md": "Modern readers may begin from equal dignity. Ancient legal texts often begin from the parties' socially assigned roles. Status could influence marriage arrangements, liability and the remedy for bodily harm. This is a historical observation, not a defense of discrimination. It teaches the difference between a rule that protects an individual interest and a general principle of equality before law. To describe the past accurately, first identify the category the source assigns to each person, then examine the legal consequence.",
+              "example": null,
+              "audio_script": "Modern readers may begin from equal dignity. Ancient legal texts often begin from the parties' socially assigned roles. Status could influence marriage arrangements, liability and the remedy for bodily harm. This is a historical observation, not a defense of discrimination. It teaches the difference between a rule that protects an individual interest and a general principle of equality before law. To describe the past accurately, first identify the category the source assigns to each person, then examine the legal consequence.",
+              "video": null
+            },
+            {
+              "title": "Read What the Source Can Show",
+              "body_md": "An inscribed collection of royal judgments records official norms, not the experience of everyone living under them. It can reveal what rulers valued and how they represented differences among social groups. It cannot establish by itself how frequently claims were brought, whether decisions were enforced or how ordinary people negotiated disputes. Studying rights historically therefore requires both textual analysis and caution about missing evidence. The lesson is methodological: rights claims become meaningful when connected to persons, procedures and actual remedies.",
+              "example": null,
+              "audio_script": "An inscribed collection of royal judgments records official norms, not the experience of everyone living under them. It can reveal what rulers valued and how they represented differences among social groups. It cannot establish by itself how frequently claims were brought, whether decisions were enforced or how ordinary people negotiated disputes. Studying rights historically therefore requires both textual analysis and caution about missing evidence. The lesson is methodological: rights claims become meaningful when connected to persons, procedures and actual remedies.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Protected interest refers to an interest a legal rule safeguards.",
+              "answer": true,
+              "explanation_if_true": "The term denotes an interest a legal rule safeguards.",
+              "explanation_if_false": "The term denotes an interest a legal rule safeguards."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "A legal rule protecting property shows that ancient residents had identical rights.",
+              "answer": false,
+              "explanation_if_true": "Ancient legal protections often depended on social status.",
+              "explanation_if_false": "Ancient legal protections often depended on social status."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Legal status?",
+              "choices": [
+                "Equal treatment under legally relevant standards",
+                "A person's recognized position in a legal order",
+                "An interest a legal rule safeguards",
+                "Unequal ordering of groups and privileges"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal status means a person's recognized position in a legal order."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An ancient text assigns different penalties for the same injury depending on status. What does that reveal?",
+              "choices": [
+                "Legal protection was differentiated by status",
+                "The society had no law",
+                "The rule was never enforced",
+                "Every person held equal rights"
+              ],
+              "answer_index": 0,
+              "explanation": "A right's scope must be read with the categories of people to whom the rule applied."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes unequal ordering of groups and privileges?",
+              "choices": [
+                "Legal status",
+                "Social hierarchy",
+                "Protected interest",
+                "Legal equality"
+              ],
+              "answer_index": 1,
+              "explanation": "Social hierarchy means unequal ordering of groups and privileges."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Legal status",
+                  "A person's recognized position in a legal order"
+                ],
+                [
+                  "Protected interest",
+                  "An interest a legal rule safeguards"
+                ],
+                [
+                  "Social hierarchy",
+                  "Unequal ordering of groups and privileges"
+                ],
+                [
+                  "Legal equality",
+                  "Equal treatment under legally relevant standards"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for a person's recognized position in a legal order is ___.",
+              "answer": "Legal status",
+              "accept": [
+                "Legal status"
+              ],
+              "explanation": "The answer is Legal status."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for equal treatment under legally relevant standards is ___.",
+              "answer": "Legal equality",
+              "accept": [
+                "Legal equality"
+              ],
+              "explanation": "The answer is Legal equality."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Trace Roman citizenship and legal personality",
+          "summary": "Follow the development of Roman legal status through citizenship, family relations and legal capacity. Learn why sophisticated legal doctrine could coexist with slavery and deep inequalities.",
+          "checklist": [
+            "I can distinguish citizenship from universal humanity",
+            "I can explain legal capacity as a historically variable category",
+            "I can recognize change in Roman citizenship over time"
+          ],
+          "sections": [
+            {
+              "title": "Citizenship Was a Legal Position",
+              "body_md": "Roman citizenship affected legal and political entitlements, but not every person in Roman territory possessed the same status. Free residents, noncitizens, enslaved people and people under particular family powers encountered different rules. These categories changed across centuries and jurisdictions. A legal historian asks what citizenship meant at the relevant date instead of using it as a timeless label. Roman law's precision about personal status became influential, but its conceptual sophistication did not make its social arrangements egalitarian.",
+              "example": null,
+              "audio_script": "Roman citizenship affected legal and political entitlements, but not every person in Roman territory possessed the same status. Free residents, noncitizens, enslaved people and people under particular family powers encountered different rules. These categories changed across centuries and jurisdictions. A legal historian asks what citizenship meant at the relevant date instead of using it as a timeless label. Roman law's precision about personal status became influential, but its conceptual sophistication did not make its social arrangements egalitarian.",
+              "video": null
+            },
+            {
+              "title": "From Status to Capacity",
+              "body_md": "The ability to own property, make certain agreements or participate in proceedings could depend on a person's place within the Roman family and status system. The paterfamilias, as a household's legally recognized head, illustrates how family organization structured legal capacity. Women, children and enslaved people did not all share the same legal powers. Modern lawyers studying these arrangements must separate a source's technical classification from its moral justification. Historical description is necessary for comparison, not an endorsement of hierarchy.",
+              "example": null,
+              "audio_script": "The ability to own property, make certain agreements or participate in proceedings could depend on a person's place within the Roman family and status system. The paterfamilias, as a household's legally recognized head, illustrates how family organization structured legal capacity. Women, children and enslaved people did not all share the same legal powers. Modern lawyers studying these arrangements must separate a source's technical classification from its moral justification. Historical description is necessary for comparison, not an endorsement of hierarchy.",
+              "video": null
+            },
+            {
+              "title": "Citizenship Expanded",
+              "body_md": "In 212 CE, the Constitutio Antoniniana, associated with Emperor Caracalla, broadly extended Roman citizenship to free inhabitants of the empire, subject to historical qualifications. This shows that legal membership can change through political decisions while deeper inequalities remain. Citizenship did not erase distinctions of wealth, gender or freedom. The episode invites an important question: when a state expands who belongs, which practical rights follow, and which barriers survive under different rules? The answer requires both the enactment and its historical setting.",
+              "example": null,
+              "audio_script": "In 212 CE, the Constitutio Antoniniana, associated with Emperor Caracalla, broadly extended Roman citizenship to free inhabitants of the empire, subject to historical qualifications. This shows that legal membership can change through political decisions while deeper inequalities remain. Citizenship did not erase distinctions of wealth, gender or freedom. The episode invites an important question: when a state expands who belongs, which practical rights follow, and which barriers survive under different rules? The answer requires both the enactment and its historical setting.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Legal capacity refers to ability recognized by law to perform specified acts.",
+              "answer": true,
+              "explanation_if_true": "The term denotes ability recognized by law to perform specified acts.",
+              "explanation_if_false": "The term denotes ability recognized by law to perform specified acts."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "Extending citizenship in 212 CE automatically ended slavery and all inequalities.",
+              "answer": false,
+              "explanation_if_true": "Citizenship expansion did not abolish slavery or erase other legal and social distinctions.",
+              "explanation_if_false": "Citizenship expansion did not abolish slavery or erase other legal and social distinctions."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Citizenship?",
+              "choices": [
+                "Membership conferring defined legal status within a polity",
+                "Ability recognized by law to perform specified acts",
+                "Roman household head with defined familial legal powers",
+                "212 CE measure broadly extending Roman citizenship"
+              ],
+              "answer_index": 0,
+              "explanation": "Citizenship means membership conferring defined legal status within a polity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A Roman document distinguishes free citizens from enslaved persons. What concept should be examined before making a rights claim?",
+              "choices": [
+                "Whether medieval writs existed",
+                "The text of a modern constitution",
+                "The doctrine of judicial review",
+                "Legal status and capacity"
+              ],
+              "answer_index": 3,
+              "explanation": "Historical rights depended on classification and time-specific legal capacity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes roman household head with defined familial legal powers?",
+              "choices": [
+                "Paterfamilias",
+                "Legal capacity",
+                "Constitutio Antoniniana",
+                "Citizenship"
+              ],
+              "answer_index": 0,
+              "explanation": "Paterfamilias means roman household head with defined familial legal powers."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Citizenship",
+                  "Membership conferring defined legal status within a polity"
+                ],
+                [
+                  "Legal capacity",
+                  "Ability recognized by law to perform specified acts"
+                ],
+                [
+                  "Paterfamilias",
+                  "Roman household head with defined familial legal powers"
+                ],
+                [
+                  "Constitutio Antoniniana",
+                  "212 CE measure broadly extending Roman citizenship"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for membership conferring defined legal status within a polity is ___.",
+              "answer": "Citizenship",
+              "accept": [
+                "Citizenship"
+              ],
+              "explanation": "The answer is Citizenship."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for 212 ce measure broadly extending roman citizenship is ___.",
+              "answer": "Constitutio Antoniniana",
+              "accept": [
+                "Constitutio Antoniniana"
+              ],
+              "explanation": "The answer is Constitutio Antoniniana."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain the growth and limits of chartered liberties",
+          "summary": "Examine how claims to legal liberty developed through medieval charters and later constitutional struggles. Distinguish the enduring symbolic use of Magna Carta from rights actually available to people in 1215.",
+          "checklist": [
+            "I can identify the social limitations of medieval liberties",
+            "I can trace the reinterpretation of Magna Carta",
+            "I can contrast historical privileges with universal rights claims"
+          ],
+          "sections": [
+            {
+              "title": "Privileges Before Universality",
+              "body_md": "Magna Carta's promises emerged from feudal conflict and primarily concerned the political order of free people, landholders and royal administration. It did not proclaim equal liberty for every resident. Some of its later fame comes from language about lawful judgment and established law, but modern due-process doctrine cannot be read directly into its medieval context. The historian must locate a clause in its political setting before describing what it accomplished and how later jurists reshaped its meaning.",
+              "example": null,
+              "audio_script": "Magna Carta's promises emerged from feudal conflict and primarily concerned the political order of free people, landholders and royal administration. It did not proclaim equal liberty for every resident. Some of its later fame comes from language about lawful judgment and established law, but modern due-process doctrine cannot be read directly into its medieval context. The historian must locate a clause in its political setting before describing what it accomplished and how later jurists reshaped its meaning.",
+              "video": null
+            },
+            {
+              "title": "A Text Acquires a New Life",
+              "body_md": "After the 1215 settlement, Magna Carta was annulled and then reissued in altered forms. Later generations invoked the charter to contest royal arbitrariness and defend ideas of lawful government. Its constitutional role was not simply transmitted unchanged from 1215; it was built through argument, reform and conflict. That is a general pattern in legal history: a document may become more influential in reinterpretation than in its original enforcement. Such influence is real, but its stages must be explained.",
+              "example": null,
+              "audio_script": "After the 1215 settlement, Magna Carta was annulled and then reissued in altered forms. Later generations invoked the charter to contest royal arbitrariness and defend ideas of lawful government. Its constitutional role was not simply transmitted unchanged from 1215; it was built through argument, reform and conflict. That is a general pattern in legal history: a document may become more influential in reinterpretation than in its original enforcement. Such influence is real, but its stages must be explained.",
+              "video": null
+            },
+            {
+              "title": "From the Few Toward the Many",
+              "body_md": "English constitutional struggles later developed claims about petitions, unlawful detention and parliamentary limits on royal power. Those advances were neither linear nor equally available to all people. Religious exclusion, property qualifications, imperial domination and gender inequality often survived. To study the expansion of rights rigorously, ask who initially benefited, which institutions enforced the guarantee, and what political change opened it to others. A usable historical narrative celebrates genuine progress without describing it as inevitable or complete.",
+              "example": null,
+              "audio_script": "English constitutional struggles later developed claims about petitions, unlawful detention and parliamentary limits on royal power. Those advances were neither linear nor equally available to all people. Religious exclusion, property qualifications, imperial domination and gender inequality often survived. To study the expansion of rights rigorously, ask who initially benefited, which institutions enforced the guarantee, and what political change opened it to others. A usable historical narrative celebrates genuine progress without describing it as inevitable or complete.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Due process refers to lawful and fair procedure as defined by the governing system.",
+              "answer": true,
+              "explanation_if_true": "The term denotes lawful and fair procedure as defined by the governing system.",
+              "explanation_if_false": "The term denotes lawful and fair procedure as defined by the governing system."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "Magna Carta became a universal bill of rights immediately upon its first issue.",
+              "answer": false,
+              "explanation_if_true": "It began as a feudal settlement and acquired broader interpretations over centuries.",
+              "explanation_if_false": "It began as a feudal settlement and acquired broader interpretations over centuries."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Chartered liberty?",
+              "choices": [
+                "Lawful and fair procedure as defined by the governing system",
+                "Subsequent promulgation of an altered legal instrument",
+                "Claim held by persons regardless of a privileged status",
+                "Protection articulated in a historical grant or charter"
+              ],
+              "answer_index": 3,
+              "explanation": "Chartered liberty means protection articulated in a historical grant or charter."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A student claims the 1215 charter directly guaranteed modern rights to every adult. What correction is essential?",
+              "choices": [
+                "Treat all charters as invalid",
+                "Assume every clause remained unchanged",
+                "Separate original social scope from later interpretation",
+                "Ignore the original text entirely"
+              ],
+              "answer_index": 2,
+              "explanation": "Historical influence cannot be equated with the document's first practical reach."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes subsequent promulgation of an altered legal instrument?",
+              "choices": [
+                "Due process",
+                "Universal right",
+                "Chartered liberty",
+                "Reissue"
+              ],
+              "answer_index": 3,
+              "explanation": "Reissue means subsequent promulgation of an altered legal instrument."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Chartered liberty",
+                  "Protection articulated in a historical grant or charter"
+                ],
+                [
+                  "Due process",
+                  "Lawful and fair procedure as defined by the governing system"
+                ],
+                [
+                  "Reissue",
+                  "Subsequent promulgation of an altered legal instrument"
+                ],
+                [
+                  "Universal right",
+                  "Claim held by persons regardless of a privileged status"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for protection articulated in a historical grant or charter is ___.",
+              "answer": "Chartered liberty",
+              "accept": [
+                "Chartered liberty"
+              ],
+              "explanation": "The answer is Chartered liberty."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for claim held by persons regardless of a privileged status is ___.",
+              "answer": "Universal right",
+              "accept": [
+                "Universal right"
+              ],
+              "explanation": "The answer is Universal right."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate the move from status-based privileges to universal dignity",
+          "summary": "Analyze the philosophical and institutional transformation of rights claims across modern legal history. Treat the Universal Declaration of Human Rights as a crucial milestone without confusing a declaration with a directly enforceable treaty.",
+          "checklist": [
+            "I can critique the relationship between universal language and unequal enforcement",
+            "I can distinguish declarations from binding treaty obligations",
+            "I can trace how historical exclusion informs modern rights design"
+          ],
+          "sections": [
+            {
+              "title": "A Universal Claim After Catastrophe",
+              "body_md": "Following the devastation of the Second World War, the United Nations General Assembly proclaimed the Universal Declaration of Human Rights on 10 December 1948. Its language asserted equal human dignity beyond the inherited privileges of citizenship or class. The declaration was adopted as a common standard of achievement, not itself a treaty automatically creating identical enforceable claims in every court. Its importance includes the later instruments and movements it inspired, as well as the challenge it posed to exclusionary legal systems.",
+              "example": null,
+              "audio_script": "Following the devastation of the Second World War, the United Nations General Assembly proclaimed the Universal Declaration of Human Rights on 10 December 1948. Its language asserted equal human dignity beyond the inherited privileges of citizenship or class. The declaration was adopted as a common standard of achievement, not itself a treaty automatically creating identical enforceable claims in every court. Its importance includes the later instruments and movements it inspired, as well as the challenge it posed to exclusionary legal systems.",
+              "video": null
+            },
+            {
+              "title": "Declarations Need Institutions",
+              "body_md": "A right written on paper can remain ineffective without accessible remedies, independent decision makers, political accountability and material conditions for enforcement. International human-rights treaties, regional systems and domestic constitutional arrangements may each give rights different legal force. A doctoral historian must therefore track the path from moral proclamation to enforceable duty, identifying the relevant state commitments and institutions. Treating all rights texts as equally binding produces a comforting but inaccurate account of modern law.",
+              "example": null,
+              "audio_script": "A right written on paper can remain ineffective without accessible remedies, independent decision makers, political accountability and material conditions for enforcement. International human-rights treaties, regional systems and domestic constitutional arrangements may each give rights different legal force. A doctoral historian must therefore track the path from moral proclamation to enforceable duty, identifying the relevant state commitments and institutions. Treating all rights texts as equally binding produces a comforting but inaccurate account of modern law.",
+              "video": null
+            },
+            {
+              "title": "Whose History Counts?",
+              "body_md": "Narratives of rights progression sometimes center European charters and revolutions while overlooking colonized peoples, abolition movements, labor struggles, women's campaigns and traditions beyond Europe. The Universal Declaration itself emerged through contributors from multiple regions. A critical legal history asks whose ideas shaped the norm, whose sacrifices made it effective, and whose exclusion persisted. The measure of progress is not the elegance of a proclamation alone but the actual freedom and dignity enjoyed by people subject to legal power.",
+              "example": null,
+              "audio_script": "Narratives of rights progression sometimes center European charters and revolutions while overlooking colonized peoples, abolition movements, labor struggles, women's campaigns and traditions beyond Europe. The Universal Declaration itself emerged through contributors from multiple regions. A critical legal history asks whose ideas shaped the norm, whose sacrifices made it effective, and whose exclusion persisted. The measure of progress is not the elegance of a proclamation alone but the actual freedom and dignity enjoyed by people subject to legal power.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Human dignity refers to equal moral worth affirmed for every person.",
+              "answer": true,
+              "explanation_if_true": "The term denotes equal moral worth affirmed for every person.",
+              "explanation_if_false": "The term denotes equal moral worth affirmed for every person."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "The Universal Declaration of Human Rights was itself a treaty binding every state as soon as it was proclaimed.",
+              "answer": false,
+              "explanation_if_true": "The 1948 document is a declaration; binding obligations arise through other legal routes, including treaties and applicable law.",
+              "explanation_if_false": "The 1948 document is a declaration; binding obligations arise through other legal routes, including treaties and applicable law."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Universal Declaration?",
+              "choices": [
+                "International duty arising under a binding agreement",
+                "Institutional means of making a right effective",
+                "1948 United Nations declaration of human rights standards",
+                "Equal moral worth affirmed for every person"
+              ],
+              "answer_index": 2,
+              "explanation": "Universal Declaration means 1948 united nations declaration of human rights standards."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant cites the Universal Declaration and assumes it automatically overrides every national statute. What must the lawyer determine?",
+              "choices": [
+                "Whether the claimant memorized Article 1",
+                "The relevant binding legal source and available remedy",
+                "The declaration's page dimensions",
+                "Which nation hosted the final vote only"
+              ],
+              "answer_index": 1,
+              "explanation": "Aspirational and influential rights texts must be distinguished from enforceable legal obligations."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term best describes international duty arising under a binding agreement?",
+              "choices": [
+                "Rights enforcement",
+                "Universal Declaration",
+                "Treaty obligation",
+                "Human dignity"
+              ],
+              "answer_index": 2,
+              "explanation": "Treaty obligation means international duty arising under a binding agreement."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match each historical idea to its description.",
+              "pairs": [
+                [
+                  "Universal Declaration",
+                  "1948 United Nations declaration of human rights standards"
+                ],
+                [
+                  "Human dignity",
+                  "Equal moral worth affirmed for every person"
+                ],
+                [
+                  "Treaty obligation",
+                  "International duty arising under a binding agreement"
+                ],
+                [
+                  "Rights enforcement",
+                  "Institutional means of making a right effective"
+                ]
+              ],
+              "explanation": "Dates, source types and historical categories must not be conflated."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for 1948 united nations declaration of human rights standards is ___.",
+              "answer": "Universal Declaration",
+              "accept": [
+                "Universal Declaration"
+              ],
+              "explanation": "The answer is Universal Declaration."
+            },
+            {
+              "id": "PSU-1.2.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for institutional means of making a right effective is ___.",
+              "answer": "Rights enforcement",
+              "accept": [
+                "Rights enforcement"
+              ],
+              "explanation": "The answer is Rights enforcement."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

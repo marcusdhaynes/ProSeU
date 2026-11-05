@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Write law as a service, not a performance",
+          "summary": "Legal research becomes trustworthy when every important assertion can be checked. Learn to acknowledge uncertainty and explain why a source supports the proposed conclusion.",
+          "checklist": [
+            "I can state legal reasons without exaggeration",
+            "I can attribute sources accurately",
+            "I can identify when advice needs more investigation"
+          ],
+          "sections": [
+            {
+              "title": "Truth Before Confidence",
+              "body_md": "A client asks whether they can challenge a school decision. A lawyer should not promise victory because the decision sounds unfair. Begin by checking the governing law and available procedure, then explain what is known and uncertain. Confidence without evidence may feel reassuring but can lead someone to miss deadlines or spend money unwisely. Legal research is a duty of truthfulness because the client may act on the advice in ways that affect their education, family or freedom.",
+              "example": null,
+              "audio_script": "A client asks whether they can challenge a school decision. A lawyer should not promise victory because the decision sounds unfair. Begin by checking the governing law and available procedure, then explain what is known and uncertain. Confidence without evidence may feel reassuring but can lead someone to miss deadlines or spend money unwisely. Legal research is a duty of truthfulness because the client may act on the advice in ways that affect their education, family or freedom.",
+              "video": null
+            },
+            {
+              "title": "Show How You Know",
+              "body_md": "A legal memo should link its decisive claims to authentic authority and the client's relevant facts. Distinguish a quotation from a paraphrase and a binding rule from commentary. If a source is unavailable, say so rather than inventing a citation. This candor makes the work reviewable by other lawyers and understandable to the client. The reader should not have to trust the author's prestige to see why the conclusion may be right.",
+              "example": null,
+              "audio_script": "A legal memo should link its decisive claims to authentic authority and the client's relevant facts. Distinguish a quotation from a paraphrase and a binding rule from commentary. If a source is unavailable, say so rather than inventing a citation. This candor makes the work reviewable by other lawyers and understandable to the client. The reader should not have to trust the author's prestige to see why the conclusion may be right.",
+              "video": null
+            },
+            {
+              "title": "Keep the Human Question Visible",
+              "body_md": "Legal writing can become a series of procedural abstractions. Yet behind a dispute may be a frightened parent, a worker facing dismissal or someone at risk of detention. Clear explanation is not an optional kindness; it helps the person participate in decisions. A good legal professional identifies the client's actual objective and writes toward it, using concise sentences and honest qualifications. Technical mastery is most valuable when it protects the person who must live with the outcome.",
+              "example": null,
+              "audio_script": "Legal writing can become a series of procedural abstractions. Yet behind a dispute may be a frightened parent, a worker facing dismissal or someone at risk of detention. Clear explanation is not an optional kindness; it helps the person participate in decisions. A good legal professional identifies the client's actual objective and writes toward it, using concise sentences and honest qualifications. Technical mastery is most valuable when it protects the person who must live with the outcome.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Qualification means accurate statement of a conclusion's limits.",
+              "answer": true,
+              "explanation_if_true": "Qualification means accurate statement of a conclusion's limits.",
+              "explanation_if_false": "Qualification means accurate statement of a conclusion's limits."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "A persuasive legal opinion is trustworthy even if the author invented its central authority.",
+              "answer": false,
+              "explanation_if_true": "Invented sources undermine the factual and legal basis of advice.",
+              "explanation_if_false": "Invented sources undermine the factual and legal basis of advice."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Source integrity?",
+              "choices": [
+                "Honest communication of legally relevant information",
+                "Faithful use of genuine legal material",
+                "Accurate statement of a conclusion's limits",
+                "Outcome the represented person seeks"
+              ],
+              "answer_index": 1,
+              "explanation": "Source integrity means faithful use of genuine legal material."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A researcher cannot verify a cited judgment before advising about a deadline. What should they do?",
+              "choices": [
+                "Disclose uncertainty and verify controlling sources",
+                "Invent a parallel citation",
+                "Promise success anyway",
+                "Remove all date information"
+              ],
+              "answer_index": 0,
+              "explanation": "Responsible advice distinguishes verified law from uncertainty."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means outcome the represented person seeks?",
+              "choices": [
+                "Client objective",
+                "Source integrity",
+                "Professional candor",
+                "Qualification"
+              ],
+              "answer_index": 0,
+              "explanation": "Client objective means outcome the represented person seeks."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Source integrity",
+                  "Faithful use of genuine legal material"
+                ],
+                [
+                  "Qualification",
+                  "Accurate statement of a conclusion's limits"
+                ],
+                [
+                  "Client objective",
+                  "Outcome the represented person seeks"
+                ],
+                [
+                  "Professional candor",
+                  "Honest communication of legally relevant information"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "Faithful use of genuine legal material is called ___.",
+              "answer": "Source integrity",
+              "accept": [
+                "Source integrity"
+              ],
+              "explanation": "The term is Source integrity."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "Honest communication of legally relevant information is called ___.",
+              "answer": "Professional candor",
+              "accept": [
+                "Professional candor"
+              ],
+              "explanation": "The term is Professional candor."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish candid legal analysis from rhetorical distortion",
+          "summary": "Learn how selective citation, exaggerated holdings and omission of exceptions can mislead even when every quoted word is authentic. Develop a review process that protects opposing parties and the tribunal.",
+          "checklist": [
+            "I can recognize quotation distortion",
+            "I can explain why adverse authority belongs in analysis",
+            "I can revise claims to match their actual sources"
+          ],
+          "sections": [
+            {
+              "title": "True Words Can Communicate a False Rule",
+              "body_md": "A decision says a legal duty generally exists but is limited by a specific exception. Quoting only the first half may imply an unconditional rule that the court never adopted. The writing error is not cured because the words appear in the report. Accuracy requires preserving the condition on which the legal proposition depends. A careful writer checks the source's full reasoning and makes qualifications visible, especially when a client's rights turn on them.",
+              "example": null,
+              "audio_script": "A decision says a legal duty generally exists but is limited by a specific exception. Quoting only the first half may imply an unconditional rule that the court never adopted. The writing error is not cured because the words appear in the report. Accuracy requires preserving the condition on which the legal proposition depends. A careful writer checks the source's full reasoning and makes qualifications visible, especially when a client's rights turn on them.",
+              "video": null
+            },
+            {
+              "title": "Candor Helps the Decision Maker",
+              "body_md": "Legal professionals may owe express duties to disclose controlling adverse law or correct false statements under jurisdiction-specific conduct rules. These duties recognize that adversarial procedure works only when advocates respect limits on deception. Even where the exact obligation differs, sound scholarship asks what authority could weaken the proposed conclusion and addresses it. The purpose is not to weaken advocacy needlessly. It is to build a position strong enough to survive transparent scrutiny.",
+              "example": null,
+              "audio_script": "Legal professionals may owe express duties to disclose controlling adverse law or correct false statements under jurisdiction-specific conduct rules. These duties recognize that adversarial procedure works only when advocates respect limits on deception. Even where the exact obligation differs, sound scholarship asks what authority could weaken the proposed conclusion and addresses it. The purpose is not to weaken advocacy needlessly. It is to build a position strong enough to survive transparent scrutiny.",
+              "video": null
+            },
+            {
+              "title": "Revise Toward Verifiability",
+              "body_md": "Replace sweeping statements such as 'courts always' with a precise description of which courts, issues and conditions a case actually concerns. Keep necessary source references close to the propositions they support. Note whether a discussion describes current law, policy or proposed reform. This approach makes legal prose shorter and more dependable. It also reduces unnecessary conflict because the reader can see where the dispute lies rather than debating an exaggerated abstraction.",
+              "example": null,
+              "audio_script": "Replace sweeping statements such as 'courts always' with a precise description of which courts, issues and conditions a case actually concerns. Keep necessary source references close to the propositions they support. Note whether a discussion describes current law, policy or proposed reform. This approach makes legal prose shorter and more dependable. It also reduces unnecessary conflict because the reader can see where the dispute lies rather than debating an exaggerated abstraction.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Adverse authority means law materially contrary to a proposed position.",
+              "answer": true,
+              "explanation_if_true": "Adverse authority means law materially contrary to a proposed position.",
+              "explanation_if_false": "Adverse authority means law materially contrary to a proposed position."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Leaving out a court's controlling exception is acceptable whenever the quoted sentence itself is accurate.",
+              "answer": false,
+              "explanation_if_true": "Selective quotation can misrepresent the actual legal rule.",
+              "explanation_if_false": "Selective quotation can misrepresent the actual legal rule."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Misquotation?",
+              "choices": [
+                "Distortion of meaning through inaccurate or incomplete quotation",
+                "Law materially contrary to a proposed position",
+                "Proposition necessary to a judicial decision",
+                "Ability to check a claim against authentic sources"
+              ],
+              "answer_index": 0,
+              "explanation": "Misquotation means distortion of meaning through inaccurate or incomplete quotation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A memo says a decision applies universally, but its holding was narrow. What revision is needed?",
+              "choices": [
+                "Add a more dramatic adjective",
+                "Ignore subsequent decisions",
+                "Describe the case only by its title",
+                "Limit the proposition to the court's actual rule and conditions"
+              ],
+              "answer_index": 3,
+              "explanation": "Accuracy requires stating the scope of authority honestly."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means proposition necessary to a judicial decision?",
+              "choices": [
+                "Misquotation",
+                "Verifiability",
+                "Adverse authority",
+                "Holding"
+              ],
+              "answer_index": 3,
+              "explanation": "Holding means proposition necessary to a judicial decision."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Misquotation",
+                  "Distortion of meaning through inaccurate or incomplete quotation"
+                ],
+                [
+                  "Adverse authority",
+                  "Law materially contrary to a proposed position"
+                ],
+                [
+                  "Holding",
+                  "Proposition necessary to a judicial decision"
+                ],
+                [
+                  "Verifiability",
+                  "Ability to check a claim against authentic sources"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Distortion of meaning through inaccurate or incomplete quotation is called ___.",
+              "answer": "Misquotation",
+              "accept": [
+                "Misquotation"
+              ],
+              "explanation": "The term is Misquotation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Ability to check a claim against authentic sources is called ___.",
+              "answer": "Verifiability",
+              "accept": [
+                "Verifiability"
+              ],
+              "explanation": "The term is Verifiability."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Research disputed law with epistemic humility",
+          "summary": "Advanced legal questions may be unsettled despite abundant sources. Distinguish unresolved doctrine from poor research and present the competing explanations with justified confidence.",
+          "checklist": [
+            "I can identify a genuine doctrinal conflict",
+            "I can calibrate confidence to available sources",
+            "I can record when facts or legal changes would alter the advice"
+          ],
+          "sections": [
+            {
+              "title": "More Sources Do Not Guarantee Certainty",
+              "body_md": "Several appellate courts may disagree about a new legal issue, or a recent statute may have no controlling interpretation. A researcher can perform excellent work and still find an unsettled question. The correct response is not to manufacture a majority rule by counting opinions that differ in authority. Explain which decisions bind the relevant court, which merely persuade, and where the dispute remains. The final assessment should reflect the actual legal landscape and its uncertainty.",
+              "example": null,
+              "audio_script": "Several appellate courts may disagree about a new legal issue, or a recent statute may have no controlling interpretation. A researcher can perform excellent work and still find an unsettled question. The correct response is not to manufacture a majority rule by counting opinions that differ in authority. Explain which decisions bind the relevant court, which merely persuade, and where the dispute remains. The final assessment should reflect the actual legal landscape and its uncertainty.",
+              "video": null
+            },
+            {
+              "title": "Distinguish Disagreement From Error",
+              "body_md": "Two qualified scholars may use different interpretive methods and reach different conclusions from the same statutory text. Their disagreement need not prove one acted dishonestly. The lawyer should reconstruct each argument fairly, identify its assumptions and test it against the sources. This exercise is especially important when a popular narrative favors one answer before research begins. Intellectual humility means being willing to revise a favored view, not avoiding a conclusion after the evidence supports one.",
+              "example": null,
+              "audio_script": "Two qualified scholars may use different interpretive methods and reach different conclusions from the same statutory text. Their disagreement need not prove one acted dishonestly. The lawyer should reconstruct each argument fairly, identify its assumptions and test it against the sources. This exercise is especially important when a popular narrative favors one answer before research begins. Intellectual humility means being willing to revise a favored view, not avoiding a conclusion after the evidence supports one.",
+              "video": null
+            },
+            {
+              "title": "Make Uncertainty Actionable",
+              "body_md": "Advice should say what could change the answer: a missing record, a higher court's decision, a regulation's commencement, or a client's choice of forum. Where risk is significant, describe plausible outcomes and options without invented precision. A client deciding whether to litigate needs that information to control their own life. Research that admits uncertainty while explaining its sources is more useful than confident language concealing legal instability.",
+              "example": null,
+              "audio_script": "Advice should say what could change the answer: a missing record, a higher court's decision, a regulation's commencement, or a client's choice of forum. Where risk is significant, describe plausible outcomes and options without invented precision. A client deciding whether to litigate needs that information to control their own life. Research that admits uncertainty while explaining its sources is more useful than confident language concealing legal instability.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Confidence calibration means matching certainty to the strength of evidence.",
+              "answer": true,
+              "explanation_if_true": "Confidence calibration means matching certainty to the strength of evidence.",
+              "explanation_if_false": "Confidence calibration means matching certainty to the strength of evidence."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "An unsettled legal question becomes settled when a researcher finds many nonbinding sources favoring one side.",
+              "answer": false,
+              "explanation_if_true": "Quantity of persuasive material does not create binding authority.",
+              "explanation_if_false": "Quantity of persuasive material does not create binding authority."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Unsettled doctrine?",
+              "choices": [
+                "Matching certainty to the strength of evidence",
+                "Reasoned conflict over the meaning of legal text",
+                "Fact or development that could change a conclusion",
+                "Legal issue lacking a clearly controlling answer"
+              ],
+              "answer_index": 3,
+              "explanation": "Unsettled doctrine means legal issue lacking a clearly controlling answer."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Two equally authoritative courts disagree on a new statutory issue. What should an opinion disclose?",
+              "choices": [
+                "A fabricated tie-breaking rule",
+                "A guarantee of success",
+                "The conflict, governing forum and outcome risk",
+                "Only the more favorable decision"
+              ],
+              "answer_index": 2,
+              "explanation": "A candid memo distinguishes controlling and persuasive authority and acknowledges real disputes."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reasoned conflict over the meaning of legal text?",
+              "choices": [
+                "Research contingency",
+                "Confidence calibration",
+                "Interpretive disagreement",
+                "Unsettled doctrine"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretive disagreement means reasoned conflict over the meaning of legal text."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Unsettled doctrine",
+                  "Legal issue lacking a clearly controlling answer"
+                ],
+                [
+                  "Confidence calibration",
+                  "Matching certainty to the strength of evidence"
+                ],
+                [
+                  "Interpretive disagreement",
+                  "Reasoned conflict over the meaning of legal text"
+                ],
+                [
+                  "Research contingency",
+                  "Fact or development that could change a conclusion"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Legal issue lacking a clearly controlling answer is called ___.",
+              "answer": "Unsettled doctrine",
+              "accept": [
+                "Unsettled doctrine"
+              ],
+              "explanation": "The term is Unsettled doctrine."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Fact or development that could change a conclusion is called ___.",
+              "answer": "Research contingency",
+              "accept": [
+                "Research contingency"
+              ],
+              "explanation": "The term is Research contingency."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend research transparency as part of legal legitimacy",
+          "summary": "At doctoral depth, examine how inaccessible sources, opaque algorithms and advocacy incentives undermine trust. Design legal research governance that respects confidentiality, public accountability and human dignity.",
+          "checklist": [
+            "I can critique hidden selection in legal information systems",
+            "I can defend independent source auditing",
+            "I can propose accessible standards for high-stakes legal communication"
+          ],
+          "sections": [
+            {
+              "title": "Law Must Be Inspectable",
+              "body_md": "A legal order asks people to accept coercive decisions based on rules and reasons. If essential law is inaccessible or conclusions cannot be traced to authentic sources, the promise of rule-bound governance weakens. Legal research supports legitimacy by making the authority behind decisions visible. A doctoral scholar should examine who can access sources, whose legal practices are recorded, and how language and publication choices shape public understanding. Institutional transparency is a condition of meaningful challenge, not merely professional convenience.",
+              "example": null,
+              "audio_script": "A legal order asks people to accept coercive decisions based on rules and reasons. If essential law is inaccessible or conclusions cannot be traced to authentic sources, the promise of rule-bound governance weakens. Legal research supports legitimacy by making the authority behind decisions visible. A doctoral scholar should examine who can access sources, whose legal practices are recorded, and how language and publication choices shape public understanding. Institutional transparency is a condition of meaningful challenge, not merely professional convenience.",
+              "video": null
+            },
+            {
+              "title": "Automation Requires Accountability",
+              "body_md": "Automated research may reduce cost while making errors harder to locate when outputs have no traceable sources. A legitimate design needs source verification, version dates, disclosure of material limitations and human responsibility for high-stakes use. Privacy safeguards are equally necessary because a system that makes legal analysis accessible by exposing client data can create another injustice. The proper question is not whether a machine is impressive, but whether affected people can understand and contest the advice it influences.",
+              "example": null,
+              "audio_script": "Automated research may reduce cost while making errors harder to locate when outputs have no traceable sources. A legitimate design needs source verification, version dates, disclosure of material limitations and human responsibility for high-stakes use. Privacy safeguards are equally necessary because a system that makes legal analysis accessible by exposing client data can create another injustice. The proper question is not whether a machine is impressive, but whether affected people can understand and contest the advice it influences.",
+              "video": null
+            },
+            {
+              "title": "The Standard Is Human Service",
+              "body_md": "A client may need a clear explanation of risks more than a sophisticated academic display. A vulnerable community may need translated legal notices and genuine access to appeal. Research excellence should therefore be judged by accuracy, transparency, accessibility and its capacity to protect informed choice. The scholarly task is to design methods that deliver those values together. A trustworthy legal system does not ask people to submit to expertise blindly; it gives them reasons they can examine and avenues they can use.",
+              "example": null,
+              "audio_script": "A client may need a clear explanation of risks more than a sophisticated academic display. A vulnerable community may need translated legal notices and genuine access to appeal. Research excellence should therefore be judged by accuracy, transparency, accessibility and its capacity to protect informed choice. The scholarly task is to design methods that deliver those values together. A trustworthy legal system does not ask people to submit to expertise blindly; it gives them reasons they can examine and avenues they can use.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Algorithmic accountability means ability to inspect and challenge automated decisions.",
+              "answer": true,
+              "explanation_if_true": "Algorithmic accountability means ability to inspect and challenge automated decisions.",
+              "explanation_if_false": "Algorithmic accountability means ability to inspect and challenge automated decisions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "A legal research system is necessarily legitimate whenever it delivers answers quickly.",
+              "answer": false,
+              "explanation_if_true": "Speed does not replace source accuracy, privacy, participation and reviewability.",
+              "explanation_if_false": "Speed does not replace source accuracy, privacy, participation and reviewability."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Research transparency?",
+              "choices": [
+                "Fair access to producing and assessing knowledge",
+                "Justification of law's claim to authority",
+                "Visibility of sources and methods supporting legal claims",
+                "Ability to inspect and challenge automated decisions"
+              ],
+              "answer_index": 2,
+              "explanation": "Research transparency means visibility of sources and methods supporting legal claims."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A legal chatbot gives confident answers but conceals sources and corrections. What major concern follows?",
+              "choices": [
+                "There are too many keyboard shortcuts",
+                "Users cannot effectively verify or challenge the advice",
+                "The answers are too short",
+                "The logo is not memorable"
+              ],
+              "answer_index": 1,
+              "explanation": "Source transparency and correction are crucial where people act on legal guidance."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means fair access to producing and assessing knowledge?",
+              "choices": [
+                "Algorithmic accountability",
+                "Epistemic justice",
+                "Research transparency",
+                "Legal legitimacy"
+              ],
+              "answer_index": 1,
+              "explanation": "Epistemic justice means fair access to producing and assessing knowledge."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Research transparency",
+                  "Visibility of sources and methods supporting legal claims"
+                ],
+                [
+                  "Algorithmic accountability",
+                  "Ability to inspect and challenge automated decisions"
+                ],
+                [
+                  "Epistemic justice",
+                  "Fair access to producing and assessing knowledge"
+                ],
+                [
+                  "Legal legitimacy",
+                  "Justification of law's claim to authority"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "Visibility of sources and methods supporting legal claims is called ___.",
+              "answer": "Research transparency",
+              "accept": [
+                "Research transparency"
+              ],
+              "explanation": "The term is Research transparency."
+            },
+            {
+              "id": "PSU-1.5.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "Justification of law's claim to authority is called ___.",
+              "answer": "Legal legitimacy",
+              "accept": [
+                "Legal legitimacy"
+              ],
+              "explanation": "The term is Legal legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

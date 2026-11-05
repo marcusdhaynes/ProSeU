@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "duties",
+      "name": "Duties",
+      "levels": {
+        "red": {
+          "focus": "Distinguish obligations imposed by different legal systems",
+          "summary": "Learn why a legal duty always requires identification of the person bound and the recognized rule. Explore duties arising from legislation, promises, and particular relationships across legal traditions.",
+          "checklist": [
+            "I can identify who owes a duty to whom",
+            "I can separate moral obligation from enforceable legal duty",
+            "I can recognize diverse legal sources of obligation"
+          ],
+          "sections": [
+            {
+              "title": "Who Must Do What?",
+              "body_md": "A company promises to deliver equipment to a hospital. Whether its failure creates a legal claim depends on the applicable contract law, the agreement, and any governing legislation. A legal duty identifies an actor required to do or avoid conduct under an authoritative rule. Different systems recognize similar broad categories—contractual, statutory, fiduciary, public—while defining their elements differently. The first question is not which legal family sounds familiar, but what source creates the particular obligation.",
+              "example": null,
+              "audio_script": "A company promises to deliver equipment to a hospital. Whether its failure creates a legal claim depends on the applicable contract law, the agreement, and any governing legislation. A legal duty identifies an actor required to do or avoid conduct under an authoritative rule. Different systems recognize similar broad categories—contractual, statutory, fiduciary, public—while defining their elements differently. The first question is not which legal family sounds familiar, but what source creates the particular obligation.",
+              "video": null
+            },
+            {
+              "title": "Promises and Public Rules",
+              "body_md": "Some duties arise because persons undertake obligations through recognized agreements; others arise regardless of consent, such as duties imposed by traffic or environmental rules. An agreement cannot necessarily waive a public safety requirement. Equally, a moral promise between friends may lack elements required for legal enforcement. This distinction matters everywhere but the legal tests vary. A careful comparison identifies which duties flow from consent, which from status or conduct, and which from the state's public protective role.",
+              "example": null,
+              "audio_script": "Some duties arise because persons undertake obligations through recognized agreements; others arise regardless of consent, such as duties imposed by traffic or environmental rules. An agreement cannot necessarily waive a public safety requirement. Equally, a moral promise between friends may lack elements required for legal enforcement. This distinction matters everywhere but the legal tests vary. A careful comparison identifies which duties flow from consent, which from status or conduct, and which from the state's public protective role.",
+              "video": null
+            },
+            {
+              "title": "Relationship Matters",
+              "body_md": "A trustee's obligations may be more demanding than those of a stranger in an ordinary market transaction. A professional may owe obligations to a client; parents and children may occupy legally defined relationships. How those duties arise and change differs across systems. A lawyer must not infer fiduciary duties merely because someone trusted another person. Identify the particular relationship, the governing rule, whose interests it protects, and the behavior it requires before making a liability claim.",
+              "example": null,
+              "audio_script": "A trustee's obligations may be more demanding than those of a stranger in an ordinary market transaction. A professional may owe obligations to a client; parents and children may occupy legally defined relationships. How those duties arise and change differs across systems. A lawyer must not infer fiduciary duties merely because someone trusted another person. Identify the particular relationship, the governing rule, whose interests it protects, and the behavior it requires before making a liability claim.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q1",
+              "type": "true_false",
+              "prompt": "Contractual duty means obligation arising from a legally recognized agreement.",
+              "answer": true,
+              "explanation_if_true": "Contractual duty means obligation arising from a legally recognized agreement.",
+              "explanation_if_false": "Contractual duty means obligation arising from a legally recognized agreement."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q2",
+              "type": "true_false",
+              "prompt": "Only voluntary promises can create enforceable legal obligations.",
+              "answer": false,
+              "explanation_if_true": "Statutes, recognized relationships and tort or delict rules may impose duties without agreement.",
+              "explanation_if_false": "Statutes, recognized relationships and tort or delict rules may impose duties without agreement."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Legal duty?",
+              "choices": [
+                "Heightened duty of loyalty within a defined relationship",
+                "Requirement imposed by an applicable legal rule",
+                "Obligation arising from a legally recognized agreement",
+                "Obligation imposed by legislation"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal duty means requirement imposed by an applicable legal rule."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A factory must follow an emissions limit although neighbors signed no contract. What source most likely creates the obligation?",
+              "choices": [
+                "Statutory or regulatory duty",
+                "A gift promise",
+                "A private invitation",
+                "A family custom with no recognition"
+              ],
+              "answer_index": 0,
+              "explanation": "Public regulation may impose requirements independently of agreement."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to obligation imposed by legislation?",
+              "choices": [
+                "Statutory duty",
+                "Legal duty",
+                "Fiduciary duty",
+                "Contractual duty"
+              ],
+              "answer_index": 0,
+              "explanation": "Statutory duty means obligation imposed by legislation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Legal duty",
+                  "Requirement imposed by an applicable legal rule"
+                ],
+                [
+                  "Contractual duty",
+                  "Obligation arising from a legally recognized agreement"
+                ],
+                [
+                  "Statutory duty",
+                  "Obligation imposed by legislation"
+                ],
+                [
+                  "Fiduciary duty",
+                  "Heightened duty of loyalty within a defined relationship"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q7",
+              "type": "fill_in",
+              "prompt": "Requirement imposed by an applicable legal rule is called ___.",
+              "answer": "Legal duty",
+              "accept": [
+                "Legal duty"
+              ],
+              "explanation": "The term is Legal duty."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.red.q8",
+              "type": "fill_in",
+              "prompt": "Heightened duty of loyalty within a defined relationship is called ___.",
+              "answer": "Fiduciary duty",
+              "accept": [
+                "Fiduciary duty"
+              ],
+              "explanation": "The term is Fiduciary duty."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare obligations, delicts and non-contractual duties",
+          "summary": "Move from duty sources to distinct methods for establishing responsibility. Understand why civil-law codes and common-law doctrines may organize similar conduct under different categories.",
+          "checklist": [
+            "I can distinguish agreement-based and non-contractual duties",
+            "I can identify duties arising from dangerous conduct",
+            "I can compare terminology without assuming identical elements"
+          ],
+          "sections": [
+            {
+              "title": "Beyond a Bargain",
+              "body_md": "A driver who injures a stranger may owe duties of care even though the parties never agreed to anything. Common-law systems often analyze such cases through tort doctrine; civil-law systems may speak in terms of delictual or extra-contractual responsibility. The categories vary, and the terms cannot be translated one-to-one in every context. Identify the actual protected interest, duty standard, fault requirements and remedy. Similar facts can be organized under different doctrinal headings without changing their human stakes.",
+              "example": null,
+              "audio_script": "A driver who injures a stranger may owe duties of care even though the parties never agreed to anything. Common-law systems often analyze such cases through tort doctrine; civil-law systems may speak in terms of delictual or extra-contractual responsibility. The categories vary, and the terms cannot be translated one-to-one in every context. Identify the actual protected interest, duty standard, fault requirements and remedy. Similar facts can be organized under different doctrinal headings without changing their human stakes.",
+              "video": null
+            },
+            {
+              "title": "Codes and Cases",
+              "body_md": "Civil codes may state broad obligations in general provisions, leaving courts to clarify application to particular facts. Common-law systems may derive a duty standard from a combination of decisions and legislation. Both involve interpretation, and neither is exclusively deductive or exclusively case based. For a comparative problem, read the controlling provision or decision in the original system before translating it into another's vocabulary. A familiar label is only the beginning of the legal analysis.",
+              "example": null,
+              "audio_script": "Civil codes may state broad obligations in general provisions, leaving courts to clarify application to particular facts. Common-law systems may derive a duty standard from a combination of decisions and legislation. Both involve interpretation, and neither is exclusively deductive or exclusively case based. For a comparative problem, read the controlling provision or decision in the original system before translating it into another's vocabulary. A familiar label is only the beginning of the legal analysis.",
+              "video": null
+            },
+            {
+              "title": "Public Duty and Private Claim",
+              "body_md": "A regulatory safety rule can impose a public obligation without automatically giving every person a private right to damages. Some systems allow a statutory violation to inform civil liability; others require a separate cause of action. Distinguish whether the rule exists, who enforces it, and whether a private claimant can invoke it. Otherwise a legally accurate statement that a company broke a regulation may be turned into an inaccurate promise of compensation to an injured person.",
+              "example": null,
+              "audio_script": "A regulatory safety rule can impose a public obligation without automatically giving every person a private right to damages. Some systems allow a statutory violation to inform civil liability; others require a separate cause of action. Distinguish whether the rule exists, who enforces it, and whether a private claimant can invoke it. Otherwise a legally accurate statement that a company broke a regulation may be turned into an inaccurate promise of compensation to an injured person.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q1",
+              "type": "true_false",
+              "prompt": "Tort means civil wrong recognized under relevant common-law doctrine.",
+              "answer": true,
+              "explanation_if_true": "Tort means civil wrong recognized under relevant common-law doctrine.",
+              "explanation_if_false": "Tort means civil wrong recognized under relevant common-law doctrine."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every breach of an administrative rule necessarily gives every affected individual a private damages claim.",
+              "answer": false,
+              "explanation_if_true": "A private remedy depends on the law creating or recognizing that cause of action.",
+              "explanation_if_false": "A private remedy depends on the law creating or recognizing that cause of action."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Delictual duty?",
+              "choices": [
+                "Non-contractual obligation associated with a recognized wrong",
+                "Civil wrong recognized under relevant common-law doctrine",
+                "Legal basis for a private person to seek relief",
+                "Public implementation of statutory requirements"
+              ],
+              "answer_index": 0,
+              "explanation": "Delictual duty means non-contractual obligation associated with a recognized wrong."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A regulator can fine a polluter, but residents want civil compensation. What separate issue needs analysis?",
+              "choices": [
+                "Which regulator has the nicest offices",
+                "Whether emissions are measured metrically",
+                "What currency the company prefers",
+                "Whether a private cause of action exists"
+              ],
+              "answer_index": 3,
+              "explanation": "Public regulatory duties and private claims are legally distinct."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to legal basis for a private person to seek relief?",
+              "choices": [
+                "Delictual duty",
+                "Regulatory enforcement",
+                "Tort",
+                "Private cause of action"
+              ],
+              "answer_index": 3,
+              "explanation": "Private cause of action means legal basis for a private person to seek relief."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Delictual duty",
+                  "Non-contractual obligation associated with a recognized wrong"
+                ],
+                [
+                  "Tort",
+                  "Civil wrong recognized under relevant common-law doctrine"
+                ],
+                [
+                  "Private cause of action",
+                  "Legal basis for a private person to seek relief"
+                ],
+                [
+                  "Regulatory enforcement",
+                  "Public implementation of statutory requirements"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Non-contractual obligation associated with a recognized wrong is called ___.",
+              "answer": "Delictual duty",
+              "accept": [
+                "Delictual duty"
+              ],
+              "explanation": "The term is Delictual duty."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Public implementation of statutory requirements is called ___.",
+              "answer": "Regulatory enforcement",
+              "accept": [
+                "Regulatory enforcement"
+              ],
+              "explanation": "The term is Regulatory enforcement."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze overlapping duties in transnational transactions",
+          "summary": "Study how multiple sources may govern the same relationship across national borders. Distinguish choice of law, mandatory rules, and party agreement when duties conflict.",
+          "checklist": [
+            "I can identify governing-law and mandatory-rule questions",
+            "I can separate a contractual choice-of-law clause from jurisdiction",
+            "I can analyze obligations created by public protections despite consent"
+          ],
+          "sections": [
+            {
+              "title": "A Contract Crosses Borders",
+              "body_md": "An online platform based in one country sells a service to a customer in another. Their agreement may select a governing law, yet consumer-protection rules in the customer's country may still impose mandatory safeguards under applicable private international law. The legal result depends on forum, jurisdiction and specific conflict rules. Choosing a law is not the same as deciding which court may hear the case. A sophisticated lawyer analyzes the choice clause, mandatory limitations, and enforcement route separately.",
+              "example": null,
+              "audio_script": "An online platform based in one country sells a service to a customer in another. Their agreement may select a governing law, yet consumer-protection rules in the customer's country may still impose mandatory safeguards under applicable private international law. The legal result depends on forum, jurisdiction and specific conflict rules. Choosing a law is not the same as deciding which court may hear the case. A sophisticated lawyer analyzes the choice clause, mandatory limitations, and enforcement route separately.",
+              "video": null
+            },
+            {
+              "title": "Mandatory Duties Limit Bargaining",
+              "body_md": "Rules protecting employees, consumers or personal data may restrict the parties' ability to contract away safeguards. The precise protections depend on jurisdiction and sometimes residence, workplace, or targeting of a market. One cannot assert that every domestic mandatory rule applies worldwide. Comparative analysis should explain the connecting factors that make a law applicable, the protected interest it serves, and the conflict rule used to resolve competing obligations.",
+              "example": null,
+              "audio_script": "Rules protecting employees, consumers or personal data may restrict the parties' ability to contract away safeguards. The precise protections depend on jurisdiction and sometimes residence, workplace, or targeting of a market. One cannot assert that every domestic mandatory rule applies worldwide. Comparative analysis should explain the connecting factors that make a law applicable, the protected interest it serves, and the conflict rule used to resolve competing obligations.",
+              "video": null
+            },
+            {
+              "title": "Institutional Duties Travel Unevenly",
+              "body_md": "International business can involve contractual promises, professional fiduciary duties, public compliance obligations and expectations of responsible conduct that are not all legally enforceable in the same way. A corporation's public ethics policy, for example, may create reputational commitments without necessarily creating a private damages action. A sound legal opinion identifies each normative layer and states what evidence would convert a claim into an enforceable duty. The aim is reliable guidance, not a maximal list of laws.",
+              "example": null,
+              "audio_script": "International business can involve contractual promises, professional fiduciary duties, public compliance obligations and expectations of responsible conduct that are not all legally enforceable in the same way. A corporation's public ethics policy, for example, may create reputational commitments without necessarily creating a private damages action. A sound legal opinion identifies each normative layer and states what evidence would convert a claim into an enforceable duty. The aim is reliable guidance, not a maximal list of laws.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q1",
+              "type": "true_false",
+              "prompt": "Mandatory rule means applicable legal protection parties cannot simply waive.",
+              "answer": true,
+              "explanation_if_true": "Mandatory rule means applicable legal protection parties cannot simply waive.",
+              "explanation_if_false": "Mandatory rule means applicable legal protection parties cannot simply waive."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q2",
+              "type": "true_false",
+              "prompt": "A choice-of-law clause always eliminates every mandatory protection of another connected jurisdiction.",
+              "answer": false,
+              "explanation_if_true": "Applicable conflict-of-laws rules may preserve nonwaivable duties in connected systems.",
+              "explanation_if_false": "Applicable conflict-of-laws rules may preserve nonwaivable duties in connected systems."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Choice of law?",
+              "choices": [
+                "Applicable legal protection parties cannot simply waive",
+                "Fact linking a dispute to a legal order",
+                "Institution in which a dispute is heard",
+                "Rules selecting the substantive law governing a dispute"
+              ],
+              "answer_index": 3,
+              "explanation": "Choice of law means rules selecting the substantive law governing a dispute."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A seller selects foreign law but targets consumers protected by mandatory local legislation. What must be evaluated?",
+              "choices": [
+                "The seller's logo",
+                "The website's color palette",
+                "The conflict rule and mandatory protection",
+                "Only the selected language"
+              ],
+              "answer_index": 2,
+              "explanation": "Party choice can coexist with overriding protections depending on the forum's governing law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to fact linking a dispute to a legal order?",
+              "choices": [
+                "Forum",
+                "Mandatory rule",
+                "Connecting factor",
+                "Choice of law"
+              ],
+              "answer_index": 2,
+              "explanation": "Connecting factor means fact linking a dispute to a legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Choice of law",
+                  "Rules selecting the substantive law governing a dispute"
+                ],
+                [
+                  "Mandatory rule",
+                  "Applicable legal protection parties cannot simply waive"
+                ],
+                [
+                  "Connecting factor",
+                  "Fact linking a dispute to a legal order"
+                ],
+                [
+                  "Forum",
+                  "Institution in which a dispute is heard"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q7",
+              "type": "fill_in",
+              "prompt": "Rules selecting the substantive law governing a dispute is called ___.",
+              "answer": "Choice of law",
+              "accept": [
+                "Choice of law"
+              ],
+              "explanation": "The term is Choice of law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.orange.q8",
+              "type": "fill_in",
+              "prompt": "Institution in which a dispute is heard is called ___.",
+              "answer": "Forum",
+              "accept": [
+                "Forum"
+              ],
+              "explanation": "The term is Forum."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend legal duties under unequal power and plural institutions",
+          "summary": "At doctoral depth, examine why duty sometimes exceeds consent in relationships marked by dependency and unequal control. Design comparative obligations that protect vulnerable persons without imposing limitless liability.",
+          "checklist": [
+            "I can evaluate consent as a justification for duty under unequal bargaining",
+            "I can compare public regulation and private enforcement",
+            "I can defend duty allocation based on control and institutional competence"
+          ],
+          "sections": [
+            {
+              "title": "Formal Consent and Real Freedom",
+              "body_md": "A migrant worker may sign an agreement under conditions of limited language access, urgent financial need and dependence on an employer. A rule treating signature as conclusive consent can overlook structural constraint. Yet disregarding every agreement would also undermine autonomy. A comparative theory should identify which information, alternatives and protections make consent meaningful, and how mandatory duties can correct predictable vulnerability. Actual rights and remedies must come from the governing legal order rather than a moral conclusion alone.",
+              "example": null,
+              "audio_script": "A migrant worker may sign an agreement under conditions of limited language access, urgent financial need and dependence on an employer. A rule treating signature as conclusive consent can overlook structural constraint. Yet disregarding every agreement would also undermine autonomy. A comparative theory should identify which information, alternatives and protections make consent meaningful, and how mandatory duties can correct predictable vulnerability. Actual rights and remedies must come from the governing legal order rather than a moral conclusion alone.",
+              "video": null
+            },
+            {
+              "title": "Protecting Without Overreaching",
+              "body_md": "A platform may influence working conditions while denying traditional employer status. Duties could arise from labor law, consumer law, data regulation or tort, each with distinct jurisdictional boundaries. A proposed reform should examine who controls the risk, who benefits, and which institution can realistically monitor compliance. Imposing every possible duty on every participant is neither administrable nor necessarily just. The scholarly task is to justify a proportional allocation that preserves legitimate cooperation while protecting persons with little bargaining power.",
+              "example": null,
+              "audio_script": "A platform may influence working conditions while denying traditional employer status. Duties could arise from labor law, consumer law, data regulation or tort, each with distinct jurisdictional boundaries. A proposed reform should examine who controls the risk, who benefits, and which institution can realistically monitor compliance. Imposing every possible duty on every participant is neither administrable nor necessarily just. The scholarly task is to justify a proportional allocation that preserves legitimate cooperation while protecting persons with little bargaining power.",
+              "video": null
+            },
+            {
+              "title": "Plural Obligations and the Client",
+              "body_md": "A lawyer may owe duties under professional regulation, private contract and ethical commitments to the client's well-being. Those layers should reinforce rather than confuse each other. The legal question asks what rules are enforceable; the professional question asks what honorable service requires where the rules permit discretion. In a cross-cultural setting, genuine respect includes listening, informed consent and clear explanation of choices. Great representation protects a person's freedom to decide, not merely the lawyer's ability to win.",
+              "example": null,
+              "audio_script": "A lawyer may owe duties under professional regulation, private contract and ethical commitments to the client's well-being. Those layers should reinforce rather than confuse each other. The legal question asks what rules are enforceable; the professional question asks what honorable service requires where the rules permit discretion. In a cross-cultural setting, genuine respect includes listening, informed consent and clear explanation of choices. Great representation protects a person's freedom to decide, not merely the lawyer's ability to win.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q1",
+              "type": "true_false",
+              "prompt": "Structural vulnerability means dependency produced by social or institutional arrangements.",
+              "answer": true,
+              "explanation_if_true": "Structural vulnerability means dependency produced by social or institutional arrangements.",
+              "explanation_if_false": "Structural vulnerability means dependency produced by social or institutional arrangements."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q2",
+              "type": "true_false",
+              "prompt": "Every signed contract proves the parties had equal practical freedom to negotiate.",
+              "answer": false,
+              "explanation_if_true": "A formal agreement can coexist with dependency, information gaps and coercive circumstances.",
+              "explanation_if_false": "A formal agreement can coexist with dependency, information gaps and coercive circumstances."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Substantive consent?",
+              "choices": [
+                "Distribution of burdens arising from an activity",
+                "Duties governing legal practitioners' conduct",
+                "Agreement made with meaningful understanding and opportunity",
+                "Dependency produced by social or institutional arrangements"
+              ],
+              "answer_index": 2,
+              "explanation": "Substantive consent means agreement made with meaningful understanding and opportunity."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A vulnerable client agrees to an unfavorable term without understanding the language. What is the key legitimacy question?",
+              "choices": [
+                "Whether the lawyer owns the paper",
+                "Whether consent was meaningfully informed and voluntary",
+                "Whether the text uses bold headings",
+                "Whether it is one or two pages"
+              ],
+              "answer_index": 1,
+              "explanation": "Lawful and ethical advice requires examining capacity, information and genuine choice."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term refers to distribution of burdens arising from an activity?",
+              "choices": [
+                "Structural vulnerability",
+                "Risk allocation",
+                "Substantive consent",
+                "Professional responsibility"
+              ],
+              "answer_index": 1,
+              "explanation": "Risk allocation means distribution of burdens arising from an activity."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q6",
+              "type": "matching",
+              "prompt": "Match the comparative-law concepts.",
+              "pairs": [
+                [
+                  "Substantive consent",
+                  "Agreement made with meaningful understanding and opportunity"
+                ],
+                [
+                  "Structural vulnerability",
+                  "Dependency produced by social or institutional arrangements"
+                ],
+                [
+                  "Risk allocation",
+                  "Distribution of burdens arising from an activity"
+                ],
+                [
+                  "Professional responsibility",
+                  "Duties governing legal practitioners' conduct"
+                ]
+              ],
+              "explanation": "A source must be interpreted within its particular legal order."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q7",
+              "type": "fill_in",
+              "prompt": "Agreement made with meaningful understanding and opportunity is called ___.",
+              "answer": "Substantive consent",
+              "accept": [
+                "Substantive consent"
+              ],
+              "explanation": "The term is Substantive consent."
+            },
+            {
+              "id": "PSU-1.3.core_principles.duties.black.q8",
+              "type": "fill_in",
+              "prompt": "Duties governing legal practitioners' conduct is called ___.",
+              "answer": "Professional responsibility",
+              "accept": [
+                "Professional responsibility"
+              ],
+              "explanation": "The term is Professional responsibility."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

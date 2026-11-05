@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Research the evidence supporting a causal claim",
+          "summary": "A legal narrative should not turn a sequence of events into an unsupported causal accusation. Learn to find facts that support or challenge a claimed connection.",
+          "checklist": [
+            "I can differentiate chronology from causation",
+            "I can list plausible alternative causes",
+            "I can record the source of each factual assertion"
+          ],
+          "sections": [
+            {
+              "title": "A Timeline Is a Beginning",
+              "body_md": "A client starts a new job and develops back pain a week later. The order of events does not prove the workplace caused the injury. Research must identify work tasks, medical records, prior symptoms and other possible explanations while respecting privacy. The governing claim may also define the required causal link differently from ordinary conversation. A legal researcher begins with a reliable timeline, then seeks evidence about mechanisms and alternative causes rather than treating the sequence as proof.",
+              "example": null,
+              "audio_script": "A client starts a new job and develops back pain a week later. The order of events does not prove the workplace caused the injury. Research must identify work tasks, medical records, prior symptoms and other possible explanations while respecting privacy. The governing claim may also define the required causal link differently from ordinary conversation. A legal researcher begins with a reliable timeline, then seeks evidence about mechanisms and alternative causes rather than treating the sequence as proof.",
+              "video": null
+            },
+            {
+              "title": "Ask What Would Change the Answer",
+              "body_md": "Suppose an accident report says a safety device failed. Maintenance records, photographs and a manufacturer's technical information could help determine why. A good research note identifies what each source can show and where it is weak. The task is not to collect every possible document. It is to find information capable of distinguishing the main causal explanations. That approach produces shorter, more meaningful analysis and reduces the risk of overlooking a decisive fact.",
+              "example": null,
+              "audio_script": "Suppose an accident report says a safety device failed. Maintenance records, photographs and a manufacturer's technical information could help determine why. A good research note identifies what each source can show and where it is weak. The task is not to collect every possible document. It is to find information capable of distinguishing the main causal explanations. That approach produces shorter, more meaningful analysis and reduces the risk of overlooking a decisive fact.",
+              "video": null
+            },
+            {
+              "title": "State the Link Honestly",
+              "body_md": "An inference may be plausible but not yet established under the law's proof standard. A lawyer should label hypotheses, disputed facts and verified records distinctly. Expert assistance may be needed for medicine, engineering or statistics, while the legal decision maker determines the consequences under applicable law. Clear writing explains why the evidence supports a causal proposition instead of relying on dramatic storytelling. Clients deserve accurate assessments because mistaken conclusions can affect health, compensation and freedom.",
+              "example": null,
+              "audio_script": "An inference may be plausible but not yet established under the law's proof standard. A lawyer should label hypotheses, disputed facts and verified records distinctly. Expert assistance may be needed for medicine, engineering or statistics, while the legal decision maker determines the consequences under applicable law. Clear writing explains why the evidence supports a causal proposition instead of relying on dramatic storytelling. Clients deserve accurate assessments because mistaken conclusions can affect health, compensation and freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Causal hypothesis means proposed explanation linking events.",
+              "answer": true,
+              "explanation_if_true": "Causal hypothesis means proposed explanation linking events.",
+              "explanation_if_false": "Causal hypothesis means proposed explanation linking events."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "An injury occurring after a new job necessarily proves the employer caused it.",
+              "answer": false,
+              "explanation_if_true": "Chronology alone is not proof of causation.",
+              "explanation_if_false": "Chronology alone is not proof of causation."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Timeline?",
+              "choices": [
+                "Degree of persuasion required by law",
+                "Ordered record of relevant events",
+                "Proposed explanation linking events",
+                "Independent evidence supporting a proposition"
+              ],
+              "answer_index": 1,
+              "explanation": "Timeline means ordered record of relevant events."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An injury follows a machine malfunction, but maintenance records are absent. What is the appropriate research action?",
+              "choices": [
+                "Seek relevant technical and maintenance evidence",
+                "Assume the worker caused the malfunction",
+                "Conclude causation is impossible",
+                "Ignore the missing records"
+              ],
+              "answer_index": 0,
+              "explanation": "Causal analysis requires evidence of how the event occurred."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means independent evidence supporting a proposition?",
+              "choices": [
+                "Corroboration",
+                "Timeline",
+                "Proof standard",
+                "Causal hypothesis"
+              ],
+              "answer_index": 0,
+              "explanation": "Corroboration means independent evidence supporting a proposition."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Timeline",
+                  "Ordered record of relevant events"
+                ],
+                [
+                  "Causal hypothesis",
+                  "Proposed explanation linking events"
+                ],
+                [
+                  "Corroboration",
+                  "Independent evidence supporting a proposition"
+                ],
+                [
+                  "Proof standard",
+                  "Degree of persuasion required by law"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Ordered record of relevant events is called ___.",
+              "answer": "Timeline",
+              "accept": [
+                "Timeline"
+              ],
+              "explanation": "The term is Timeline."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Degree of persuasion required by law is called ___.",
+              "answer": "Proof standard",
+              "accept": [
+                "Proof standard"
+              ],
+              "explanation": "The term is Proof standard."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Verify causal conclusions using distinct sources",
+          "summary": "Learn to combine factual records, legal standards and expert evidence without confusing their functions. Identify which causal propositions remain uncertain and why.",
+          "checklist": [
+            "I can trace a factual conclusion to records",
+            "I can distinguish expert opinion from a legal holding",
+            "I can identify a factual gap in a causation argument"
+          ],
+          "sections": [
+            {
+              "title": "Records and Opinions Serve Different Roles",
+              "body_md": "A hospital record can establish treatment dates and recorded symptoms, but may not resolve what caused an illness. An expert opinion may interpret the records through medical knowledge. A court then evaluates the evidence under its legal standards. Research quality depends on keeping those roles separate. When a source states that exposure 'could' cause a condition, do not silently translate the statement into a conclusion that it did cause this person's condition.",
+              "example": null,
+              "audio_script": "A hospital record can establish treatment dates and recorded symptoms, but may not resolve what caused an illness. An expert opinion may interpret the records through medical knowledge. A court then evaluates the evidence under its legal standards. Research quality depends on keeping those roles separate. When a source states that exposure 'could' cause a condition, do not silently translate the statement into a conclusion that it did cause this person's condition.",
+              "video": null
+            },
+            {
+              "title": "Follow the Logic of the Report",
+              "body_md": "An engineering expert may conclude a beam failed because of corrosion. The researcher should identify the inspection methods, measurements, alternative causes considered and assumptions. A strong explanation permits another reader to see how the conclusion follows from evidence. If the report merely repeats the client's account, it offers less independent support than its professional format suggests. The lawyer's duty is to assess relevance and reliability, not to accept every technical statement uncritically.",
+              "example": null,
+              "audio_script": "An engineering expert may conclude a beam failed because of corrosion. The researcher should identify the inspection methods, measurements, alternative causes considered and assumptions. A strong explanation permits another reader to see how the conclusion follows from evidence. If the report merely repeats the client's account, it offers less independent support than its professional format suggests. The lawyer's duty is to assess relevance and reliability, not to accept every technical statement uncritically.",
+              "video": null
+            },
+            {
+              "title": "Causation Has a Legal Side",
+              "body_md": "A factual connection does not necessarily determine the scope of compensable loss. Legal systems may impose separate requirements about remoteness, protected interests or foreseeability. Research must identify those tests from controlling sources. The final memo should state what evidence shows about events and what legal rule assigns responsibility for resulting harm. Keeping factual and normative questions distinct makes the advice clearer and more defensible.",
+              "example": null,
+              "audio_script": "A factual connection does not necessarily determine the scope of compensable loss. Legal systems may impose separate requirements about remoteness, protected interests or foreseeability. Research must identify those tests from controlling sources. The final memo should state what evidence shows about events and what legal rule assigns responsibility for resulting harm. Keeping factual and normative questions distinct makes the advice clearer and more defensible.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Reliability means trustworthiness of a method or conclusion.",
+              "answer": true,
+              "explanation_if_true": "Reliability means trustworthiness of a method or conclusion.",
+              "explanation_if_false": "Reliability means trustworthiness of a method or conclusion."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "An expert's statement that a cause is possible automatically proves it occurred in a specific case.",
+              "answer": false,
+              "explanation_if_true": "Possibility and legally sufficient specific causation are distinct propositions.",
+              "explanation_if_false": "Possibility and legally sufficient specific causation are distinct propositions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Expert opinion?",
+              "choices": [
+                "Specialized interpretation of relevant evidence",
+                "Trustworthiness of a method or conclusion",
+                "Link between conduct and one identified injury",
+                "Legal limit on consequences attributable to an actor"
+              ],
+              "answer_index": 0,
+              "explanation": "Expert opinion means specialized interpretation of relevant evidence."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A report says a chemical can cause a disease but gives no patient-specific evidence. What remains?",
+              "choices": [
+                "A new citation style",
+                "The color of the laboratory",
+                "Only a larger report title",
+                "Specific causal analysis"
+              ],
+              "answer_index": 3,
+              "explanation": "General capability does not itself establish that this claimant's condition was caused by the exposure."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means link between conduct and one identified injury?",
+              "choices": [
+                "Expert opinion",
+                "Scope of liability",
+                "Reliability",
+                "Specific causation"
+              ],
+              "answer_index": 3,
+              "explanation": "Specific causation means link between conduct and one identified injury."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Expert opinion",
+                  "Specialized interpretation of relevant evidence"
+                ],
+                [
+                  "Reliability",
+                  "Trustworthiness of a method or conclusion"
+                ],
+                [
+                  "Specific causation",
+                  "Link between conduct and one identified injury"
+                ],
+                [
+                  "Scope of liability",
+                  "Legal limit on consequences attributable to an actor"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Specialized interpretation of relevant evidence is called ___.",
+              "answer": "Expert opinion",
+              "accept": [
+                "Expert opinion"
+              ],
+              "explanation": "The term is Expert opinion."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legal limit on consequences attributable to an actor is called ___.",
+              "answer": "Scope of liability",
+              "accept": [
+                "Scope of liability"
+              ],
+              "explanation": "The term is Scope of liability."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Research statistics responsibly for causal claims",
+          "summary": "Advanced causal research requires separating association, confounding and individual attribution. Learn how method and sampling affect the weight of empirical evidence.",
+          "checklist": [
+            "I can recognize confounders and selection bias",
+            "I can read a statistical finding without exaggeration",
+            "I can compare empirical conclusions with legal burdens"
+          ],
+          "sections": [
+            {
+              "title": "Correlation Does Not Finish the Inquiry",
+              "body_md": "A study finds more illness among employees exposed to a substance, but those workers also differ in age or other exposures. A researcher should ask whether the study controlled for likely confounders and how participants were selected. Statistical association can be important evidence, yet it is not identical to establishing a mechanism or individual cause. Legal research must identify what a statistic actually estimates before using it in an argument about a person's liability.",
+              "example": null,
+              "audio_script": "A study finds more illness among employees exposed to a substance, but those workers also differ in age or other exposures. A researcher should ask whether the study controlled for likely confounders and how participants were selected. Statistical association can be important evidence, yet it is not identical to establishing a mechanism or individual cause. Legal research must identify what a statistic actually estimates before using it in an argument about a person's liability.",
+              "video": null
+            },
+            {
+              "title": "Precision Is Not Certainty",
+              "body_md": "A narrow confidence interval may indicate that a particular estimate is measured precisely within the study's model, but it cannot guarantee the model is unbiased. Missing data, misclassified exposure and selection effects may still matter. The lawyer should examine the assumptions and limitations reported by qualified experts. Describing a study as conclusive because its numerical presentation looks sophisticated can mislead a court and a client. Every quantitative statement needs a careful account of what was measured.",
+              "example": null,
+              "audio_script": "A narrow confidence interval may indicate that a particular estimate is measured precisely within the study's model, but it cannot guarantee the model is unbiased. Missing data, misclassified exposure and selection effects may still matter. The lawyer should examine the assumptions and limitations reported by qualified experts. Describing a study as conclusive because its numerical presentation looks sophisticated can mislead a court and a client. Every quantitative statement needs a careful account of what was measured.",
+              "video": null
+            },
+            {
+              "title": "Connect the Research to the Legal Question",
+              "body_md": "Different legal systems and causes of action require different proof thresholds and causal elements. A statistical finding may inform a regulatory risk assessment without establishing the causation necessary for private damages. The analysis must state which legal standard applies, what the evidence satisfies, and which uncertainties remain. A court may lawfully weigh expert evidence differently from a public health agency because the institutional task is different. Clear research explains rather than hides that distinction.",
+              "example": null,
+              "audio_script": "Different legal systems and causes of action require different proof thresholds and causal elements. A statistical finding may inform a regulatory risk assessment without establishing the causation necessary for private damages. The analysis must state which legal standard applies, what the evidence satisfies, and which uncertainties remain. A court may lawfully weigh expert evidence differently from a public health agency because the institutional task is different. Clear research explains rather than hides that distinction.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Selection bias means systematic distortion from who or what is included.",
+              "answer": true,
+              "explanation_if_true": "Selection bias means systematic distortion from who or what is included.",
+              "explanation_if_false": "Selection bias means systematic distortion from who or what is included."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "A narrow confidence interval eliminates bias in every underlying study.",
+              "answer": false,
+              "explanation_if_true": "Precision cannot cure biased sampling or incorrect model assumptions.",
+              "explanation_if_false": "Precision cannot cure biased sampling or incorrect model assumptions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Confounder?",
+              "choices": [
+                "Systematic distortion from who or what is included",
+                "Statistical range estimating uncertainty under a model",
+                "Conclusion about cause based on reasoning and evidence",
+                "Variable that can distort an observed association"
+              ],
+              "answer_index": 3,
+              "explanation": "Confounder means variable that can distort an observed association."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A study's exposed group also has much higher smoking rates. Which issue needs investigation?",
+              "choices": [
+                "Court hierarchy",
+                "Privilege",
+                "Confounding",
+                "Subject-matter jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "Differences in other causal factors may distort the exposure association."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means statistical range estimating uncertainty under a model?",
+              "choices": [
+                "Causal inference",
+                "Selection bias",
+                "Confidence interval",
+                "Confounder"
+              ],
+              "answer_index": 2,
+              "explanation": "Confidence interval means statistical range estimating uncertainty under a model."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Confounder",
+                  "Variable that can distort an observed association"
+                ],
+                [
+                  "Selection bias",
+                  "Systematic distortion from who or what is included"
+                ],
+                [
+                  "Confidence interval",
+                  "Statistical range estimating uncertainty under a model"
+                ],
+                [
+                  "Causal inference",
+                  "Conclusion about cause based on reasoning and evidence"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Variable that can distort an observed association is called ___.",
+              "answer": "Confounder",
+              "accept": [
+                "Confounder"
+              ],
+              "explanation": "The term is Confounder."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Conclusion about cause based on reasoning and evidence is called ___.",
+              "answer": "Causal inference",
+              "accept": [
+                "Causal inference"
+              ],
+              "explanation": "The term is Causal inference."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Audit empirical legal research and attribution ethics",
+          "summary": "At doctoral depth, evaluate the methodological and moral stakes of using probabilistic evidence to assign legal responsibility. Develop a research protocol that is both scientifically cautious and legally actionable.",
+          "checklist": [
+            "I can critique causal methods under observational uncertainty",
+            "I can assess competing error costs in legal attribution",
+            "I can design evidence requests that reduce asymmetry"
+          ],
+          "sections": [
+            {
+              "title": "The Model Is Not the World",
+              "body_md": "Causal estimates depend on assumptions about measurement, missing variables and the mechanisms connecting observed events. An advanced legal researcher should identify those assumptions explicitly, check whether they are testable, and explain how sensitive the conclusion is to alternatives. A persuasive numerical estimate without methodological transparency may create false certainty. This matters deeply when courts are asked to assign blame, impose penalties or award compensation for harms that science cannot trace to one source with precision.",
+              "example": null,
+              "audio_script": "Causal estimates depend on assumptions about measurement, missing variables and the mechanisms connecting observed events. An advanced legal researcher should identify those assumptions explicitly, check whether they are testable, and explain how sensitive the conclusion is to alternatives. A persuasive numerical estimate without methodological transparency may create false certainty. This matters deeply when courts are asked to assign blame, impose penalties or award compensation for harms that science cannot trace to one source with precision.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty Is Distributed by Law",
+              "body_md": "A strict proof threshold can leave genuinely injured people without a remedy when evidence is held by the defendant or lost over time. A relaxed threshold can impose liability on a person who did not cause the harm. Legal presumptions and public compensation schemes sometimes address these problems under different rationales. A doctoral analysis should state which errors a proposal tolerates, what evidence exists and who can realistically obtain it. Fairness requires more than choosing the most sympathetic litigant.",
+              "example": null,
+              "audio_script": "A strict proof threshold can leave genuinely injured people without a remedy when evidence is held by the defendant or lost over time. A relaxed threshold can impose liability on a person who did not cause the harm. Legal presumptions and public compensation schemes sometimes address these problems under different rationales. A doctoral analysis should state which errors a proposal tolerates, what evidence exists and who can realistically obtain it. Fairness requires more than choosing the most sympathetic litigant.",
+              "video": null
+            },
+            {
+              "title": "Evidence Governance Protects Everyone",
+              "body_md": "Research involving health records, employment data or environmental monitoring may reveal sensitive information about nonparties. A robust protocol specifies lawful access, minimization, technical reliability, review and retention. It should also include adverse hypothesis testing and disclosure of material methodological limits. The final legal opinion must separate empirical findings from normative judgments about responsibility. Great lawyering protects victims through rigorous investigation without treating the rights of other people as expendable.",
+              "example": null,
+              "audio_script": "Research involving health records, employment data or environmental monitoring may reveal sensitive information about nonparties. A robust protocol specifies lawful access, minimization, technical reliability, review and retention. It should also include adverse hypothesis testing and disclosure of material methodological limits. The final legal opinion must separate empirical findings from normative judgments about responsibility. Great lawyering protects victims through rigorous investigation without treating the rights of other people as expendable.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Confounding uncertainty means unmeasured factors affecting causal estimates.",
+              "answer": true,
+              "explanation_if_true": "Confounding uncertainty means unmeasured factors affecting causal estimates.",
+              "explanation_if_false": "Confounding uncertainty means unmeasured factors affecting causal estimates."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "Large datasets necessarily remove causal uncertainty and ethical risks from legal analysis.",
+              "answer": false,
+              "explanation_if_true": "Scale does not eliminate biased models, confounding or privacy obligations.",
+              "explanation_if_false": "Scale does not eliminate biased models, confounding or privacy obligations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Causal sensitivity?",
+              "choices": [
+                "Distribution of risks from mistaken findings",
+                "Rules for lawful collection, use and verification of records",
+                "Dependence of an inference on its assumptions",
+                "Unmeasured factors affecting causal estimates"
+              ],
+              "answer_index": 2,
+              "explanation": "Causal sensitivity means dependence of an inference on its assumptions."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant needs records held only by a company, but those records contain nonparty health data. What approach is principled?",
+              "choices": [
+                "Refuse to investigate any claim",
+                "Targeted lawful disclosure with privacy safeguards",
+                "Publish all records online",
+                "Assume the company's guilt without evidence"
+              ],
+              "answer_index": 1,
+              "explanation": "Evidence access and third-party rights both require careful protection."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means distribution of risks from mistaken findings?",
+              "choices": [
+                "Confounding uncertainty",
+                "Error allocation",
+                "Causal sensitivity",
+                "Data governance"
+              ],
+              "answer_index": 1,
+              "explanation": "Error allocation means distribution of risks from mistaken findings."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-research concepts.",
+              "pairs": [
+                [
+                  "Causal sensitivity",
+                  "Dependence of an inference on its assumptions"
+                ],
+                [
+                  "Confounding uncertainty",
+                  "Unmeasured factors affecting causal estimates"
+                ],
+                [
+                  "Error allocation",
+                  "Distribution of risks from mistaken findings"
+                ],
+                [
+                  "Data governance",
+                  "Rules for lawful collection, use and verification of records"
+                ]
+              ],
+              "explanation": "The method depends on separating sources, evidence and interpretations."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Dependence of an inference on its assumptions is called ___.",
+              "answer": "Causal sensitivity",
+              "accept": [
+                "Causal sensitivity"
+              ],
+              "explanation": "The term is Causal sensitivity."
+            },
+            {
+              "id": "PSU-1.5.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Rules for lawful collection, use and verification of records is called ___.",
+              "answer": "Data governance",
+              "accept": [
+                "Data governance"
+              ],
+              "explanation": "The term is Data governance."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Interpret provisions that grant or limit relief",
+          "summary": "Knowing that a person has a legal right is different from knowing what relief a decision maker may provide. Learn to locate the remedy words and apply their conditions.",
+          "checklist": [
+            "I can identify the remedy stated in a provision",
+            "I can distinguish a power to grant relief from an entitlement to it",
+            "I can read thresholds and exceptions before promising relief"
+          ],
+          "sections": [
+            {
+              "title": "Look for What the Court May Order",
+              "body_md": "A consumer statute says a tribunal may order repayment if a supplier breaches certain rules. The word may can signal judicial discretion or defined authority, depending on context. It does not automatically mean a claimant receives repayment whenever they ask. The interpreter must identify who can grant relief, which breach triggers it, and whether further requirements apply. This is a separate inquiry from whether the underlying duty existed.",
+              "example": null,
+              "audio_script": "A consumer statute says a tribunal may order repayment if a supplier breaches certain rules. The word may can signal judicial discretion or defined authority, depending on context. It does not automatically mean a claimant receives repayment whenever they ask. The interpreter must identify who can grant relief, which breach triggers it, and whether further requirements apply. This is a separate inquiry from whether the underlying duty existed.",
+              "video": null
+            },
+            {
+              "title": "Different Orders Do Different Things",
+              "body_md": "An injunction directs or prevents conduct; damages may compensate recognized loss; a declaration states legal status. A statute may authorize only some of these. A court cannot necessarily invent a new remedy because another form of relief would be convenient. A beginner should read the remedies section and associated definitions alongside the main rule. That habit keeps advice realistic and connects a legal finding with a result the client can actually seek.",
+              "example": null,
+              "audio_script": "An injunction directs or prevents conduct; damages may compensate recognized loss; a declaration states legal status. A statute may authorize only some of these. A court cannot necessarily invent a new remedy because another form of relief would be convenient. A beginner should read the remedies section and associated definitions alongside the main rule. That habit keeps advice realistic and connects a legal finding with a result the client can actually seek.",
+              "video": null
+            },
+            {
+              "title": "The Human Need Is the Starting Point",
+              "body_md": "A person facing imminent eviction may need temporary protection, while someone recovering a small debt may primarily need payment. The correct legal interpretation depends on the governing court's powers and conditions, not only the client's urgent wish. Good advice explains what relief is available now, what evidence it requires and which deadlines matter. It can be concise while still protecting the person's ability to act before an avoidable harm occurs.",
+              "example": null,
+              "audio_script": "A person facing imminent eviction may need temporary protection, while someone recovering a small debt may primarily need payment. The correct legal interpretation depends on the governing court's powers and conditions, not only the client's urgent wish. Good advice explains what relief is available now, what evidence it requires and which deadlines matter. It can be concise while still protecting the person's ability to act before an avoidable harm occurs.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Damages means monetary response to recognized loss.",
+              "answer": true,
+              "explanation_if_true": "Damages means monetary response to recognized loss.",
+              "explanation_if_false": "Damages means monetary response to recognized loss."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "A statute saying a court may award damages necessarily orders damages in every successful case.",
+              "answer": false,
+              "explanation_if_true": "The word may and the surrounding statutory conditions require interpretation.",
+              "explanation_if_false": "The word may and the surrounding statutory conditions require interpretation."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Remedial power?",
+              "choices": [
+                "Legally authorized choice within defined limits",
+                "Authority of a body to order specified relief",
+                "Monetary response to recognized loss",
+                "Order controlling conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Remedial power means authority of a body to order specified relief."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A tribunal is authorized to award compensation only for defined losses. What must counsel identify?",
+              "choices": [
+                "The statutory scope and conditions of compensation",
+                "Any amount the client hopes to receive",
+                "A foreign court's unrelated remedy",
+                "Only the case title"
+              ],
+              "answer_index": 0,
+              "explanation": "Relief must fit the institution's legal power."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means order controlling conduct?",
+              "choices": [
+                "Injunction",
+                "Remedial power",
+                "Discretion",
+                "Damages"
+              ],
+              "answer_index": 0,
+              "explanation": "Injunction means order controlling conduct."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Remedial power",
+                  "Authority of a body to order specified relief"
+                ],
+                [
+                  "Damages",
+                  "Monetary response to recognized loss"
+                ],
+                [
+                  "Injunction",
+                  "Order controlling conduct"
+                ],
+                [
+                  "Discretion",
+                  "Legally authorized choice within defined limits"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Authority of a body to order specified relief is called ___.",
+              "answer": "Remedial power",
+              "accept": [
+                "Remedial power"
+              ],
+              "explanation": "The term is Remedial power."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Legally authorized choice within defined limits is called ___.",
+              "answer": "Discretion",
+              "accept": [
+                "Discretion"
+              ],
+              "explanation": "The term is Discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Read remedial clauses in their statutory and contractual context",
+          "summary": "Remedy clauses often operate with exclusions, notice rules and procedural limitations. Learn to connect those provisions without assuming the main liability rule alone answers everything.",
+          "checklist": [
+            "I can identify preconditions for damages or rescission",
+            "I can distinguish exclusive from supplementary remedy language",
+            "I can analyze limitation and notice clauses under governing law"
+          ],
+          "sections": [
+            {
+              "title": "Conditions Can Control Relief",
+              "body_md": "A warranty permits repair or replacement after a customer provides timely notice and proof of a defect. The lawyer must interpret the remedy language with its defined trigger, time period and any exclusions. Some legal systems preserve additional mandatory consumer rights despite contractual limits. The analysis must distinguish what the agreement promises from what the law separately guarantees. A simple statement that the item was defective is not yet a complete remedy opinion.",
+              "example": null,
+              "audio_script": "A warranty permits repair or replacement after a customer provides timely notice and proof of a defect. The lawyer must interpret the remedy language with its defined trigger, time period and any exclusions. Some legal systems preserve additional mandatory consumer rights despite contractual limits. The analysis must distinguish what the agreement promises from what the law separately guarantees. A simple statement that the item was defective is not yet a complete remedy opinion.",
+              "video": null
+            },
+            {
+              "title": "Is the Remedy Exclusive?",
+              "body_md": "A contract may describe a payment as the 'sole remedy' for delay. Its meaning and enforceability can depend on the clause, broader agreement and mandatory law. A student should not assume that listing a remedy automatically excludes every other one, nor that the words sole remedy are always effective. Read how the contract defines breach, causation, loss and termination. Then assess whether the remedy restriction is legally valid. Interpretation and enforceability remain distinct questions.",
+              "example": null,
+              "audio_script": "A contract may describe a payment as the 'sole remedy' for delay. Its meaning and enforceability can depend on the clause, broader agreement and mandatory law. A student should not assume that listing a remedy automatically excludes every other one, nor that the words sole remedy are always effective. Read how the contract defines breach, causation, loss and termination. Then assess whether the remedy restriction is legally valid. Interpretation and enforceability remain distinct questions.",
+              "video": null
+            },
+            {
+              "title": "Procedure Can Make Relief Unavailable",
+              "body_md": "A valid remedy may need to be requested within a statutory limitation period or through a specified procedure. The interpreter should examine commencement dates, notice rules and possible exceptions using the relevant legal authority. A client's claim can be strong on merits yet threatened by an approaching deadline. Professional legal writing therefore states time-sensitive conditions plainly, rather than hiding them in an appendix after an elaborate discussion of policy.",
+              "example": null,
+              "audio_script": "A valid remedy may need to be requested within a statutory limitation period or through a specified procedure. The interpreter should examine commencement dates, notice rules and possible exceptions using the relevant legal authority. A client's claim can be strong on merits yet threatened by an approaching deadline. Professional legal writing therefore states time-sensitive conditions plainly, rather than hiding them in an appendix after an elaborate discussion of policy.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Condition precedent means requirement before a remedy becomes available.",
+              "answer": true,
+              "explanation_if_true": "Condition precedent means requirement before a remedy becomes available.",
+              "explanation_if_false": "Condition precedent means requirement before a remedy becomes available."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Listing one remedy in a contract always means all other legal remedies are excluded.",
+              "answer": false,
+              "explanation_if_true": "Exclusivity depends on language, context and applicable law.",
+              "explanation_if_false": "Exclusivity depends on language, context and applicable law."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Exclusive remedy?",
+              "choices": [
+                "Relief intended to replace other listed options under valid law",
+                "Requirement before a remedy becomes available",
+                "Setting aside an agreement on recognized legal grounds",
+                "Legally defined time for pursuing a claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Exclusive remedy means relief intended to replace other listed options under valid law."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A warranty contains a notice requirement and a separate consumer statute protects buyers. What must be analyzed?",
+              "choices": [
+                "Only the warranty's first sentence",
+                "The seller's nationality alone",
+                "Whether the buyer kept the box",
+                "Contractual conditions and mandatory legal remedies"
+              ],
+              "answer_index": 3,
+              "explanation": "Rights and remedies may arise from more than the contract."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means setting aside an agreement on recognized legal grounds?",
+              "choices": [
+                "Exclusive remedy",
+                "Limitation period",
+                "Condition precedent",
+                "Rescission"
+              ],
+              "answer_index": 3,
+              "explanation": "Rescission means setting aside an agreement on recognized legal grounds."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Exclusive remedy",
+                  "Relief intended to replace other listed options under valid law"
+                ],
+                [
+                  "Condition precedent",
+                  "Requirement before a remedy becomes available"
+                ],
+                [
+                  "Rescission",
+                  "Setting aside an agreement on recognized legal grounds"
+                ],
+                [
+                  "Limitation period",
+                  "Legally defined time for pursuing a claim"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Relief intended to replace other listed options under valid law is called ___.",
+              "answer": "Exclusive remedy",
+              "accept": [
+                "Exclusive remedy"
+              ],
+              "explanation": "The term is Exclusive remedy."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legally defined time for pursuing a claim is called ___.",
+              "answer": "Limitation period",
+              "accept": [
+                "Limitation period"
+              ],
+              "explanation": "The term is Limitation period."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Interpret remedial powers in international and public law",
+          "summary": "Different legal systems give different institutions powers to declare, compensate or order compliance. Distinguish a tribunal's jurisdiction from its authority to grant a particular form of relief.",
+          "checklist": [
+            "I can identify remedial limits of courts and arbitral tribunals",
+            "I can analyze recognition and enforceability separately",
+            "I can evaluate treaty-based remedies against domestic procedures"
+          ],
+          "sections": [
+            {
+              "title": "A Forum May Decide Without Enforcing",
+              "body_md": "An arbitral tribunal may resolve a contractual dispute and issue an award, but compulsory enforcement may require a national court. A treaty-based adjudicative body can have distinct remedial powers from a domestic court. Interpretation must begin with the jurisdiction-conferring instrument and the provision authorizing relief. Do not assume that the authority to decide a dispute automatically includes power to seize assets, reform a government agency or grant every form of compensation.",
+              "example": null,
+              "audio_script": "An arbitral tribunal may resolve a contractual dispute and issue an award, but compulsory enforcement may require a national court. A treaty-based adjudicative body can have distinct remedial powers from a domestic court. Interpretation must begin with the jurisdiction-conferring instrument and the provision authorizing relief. Do not assume that the authority to decide a dispute automatically includes power to seize assets, reform a government agency or grant every form of compensation.",
+              "video": null
+            },
+            {
+              "title": "Treaties Can Define Consequences Differently",
+              "body_md": "A treaty may require states to provide an effective domestic remedy for specified violations, while leaving procedural design to national law under applicable obligations. The interpreter must identify the state's commitments, the scope of the remedy clause and the institution through which it operates. A declaration of international responsibility does not necessarily give a private person an immediately executable domestic judgment. This distinction is critical when advising people whose rights have been violated across borders.",
+              "example": null,
+              "audio_script": "A treaty may require states to provide an effective domestic remedy for specified violations, while leaving procedural design to national law under applicable obligations. The interpreter must identify the state's commitments, the scope of the remedy clause and the institution through which it operates. A declaration of international responsibility does not necessarily give a private person an immediately executable domestic judgment. This distinction is critical when advising people whose rights have been violated across borders.",
+              "video": null
+            },
+            {
+              "title": "Remedial Meaning Has Practical Limits",
+              "body_md": "A broad phrase authorizing 'appropriate measures' may seem to permit almost any court order. Yet related provisions, institutional competence, precedent and the instrument's object can restrict its meaning. An advanced lawyer should articulate a remedy that fits the legal text and can actually be administered. The most effective advice considers enforceability, timeliness and the client's priority alongside formal legal authority.",
+              "example": null,
+              "audio_script": "A broad phrase authorizing 'appropriate measures' may seem to permit almost any court order. Yet related provisions, institutional competence, precedent and the instrument's object can restrict its meaning. An advanced lawyer should articulate a remedy that fits the legal text and can actually be administered. The most effective advice considers enforceability, timeliness and the client's priority alongside formal legal authority.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Arbitral award means decision issued by a qualifying arbitral tribunal.",
+              "answer": true,
+              "explanation_if_true": "Arbitral award means decision issued by a qualifying arbitral tribunal.",
+              "explanation_if_false": "Arbitral award means decision issued by a qualifying arbitral tribunal."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "A tribunal with authority to decide a dispute necessarily has power to seize foreign assets directly.",
+              "answer": false,
+              "explanation_if_true": "Adjudication, recognition and coercive enforcement are separate functions.",
+              "explanation_if_false": "Adjudication, recognition and coercive enforcement are separate functions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Remedial jurisdiction?",
+              "choices": [
+                "Decision issued by a qualifying arbitral tribunal",
+                "Acceptance of a foreign decision's legal effect",
+                "Practical lawful means of vindicating a right",
+                "Power to grant specified forms of legal relief"
+              ],
+              "answer_index": 3,
+              "explanation": "Remedial jurisdiction means power to grant specified forms of legal relief."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An arbitration tribunal awards damages but assets are abroad. What instrument and process may matter?",
+              "choices": [
+                "A dictionary definition of damages alone",
+                "The client's academic transcript",
+                "Foreign award recognition and enforcement",
+                "A new local building permit"
+              ],
+              "answer_index": 2,
+              "explanation": "An award needs lawful recognition and execution where assets can be reached."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means acceptance of a foreign decision's legal effect?",
+              "choices": [
+                "Effective remedy",
+                "Arbitral award",
+                "Recognition",
+                "Remedial jurisdiction"
+              ],
+              "answer_index": 2,
+              "explanation": "Recognition means acceptance of a foreign decision's legal effect."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Remedial jurisdiction",
+                  "Power to grant specified forms of legal relief"
+                ],
+                [
+                  "Arbitral award",
+                  "Decision issued by a qualifying arbitral tribunal"
+                ],
+                [
+                  "Recognition",
+                  "Acceptance of a foreign decision's legal effect"
+                ],
+                [
+                  "Effective remedy",
+                  "Practical lawful means of vindicating a right"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Power to grant specified forms of legal relief is called ___.",
+              "answer": "Remedial jurisdiction",
+              "accept": [
+                "Remedial jurisdiction"
+              ],
+              "explanation": "The term is Remedial jurisdiction."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Practical lawful means of vindicating a right is called ___.",
+              "answer": "Effective remedy",
+              "accept": [
+                "Effective remedy"
+              ],
+              "explanation": "The term is Effective remedy."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique the gap between remedial words and lived protection",
+          "summary": "At doctoral depth, examine whether legal interpretation can make remedies effective without violating institutional limits. Design a method that values clients' real needs and transparent constitutional authority.",
+          "checklist": [
+            "I can distinguish formal entitlement from effective redress",
+            "I can evaluate structural relief and separation of powers",
+            "I can defend a human-centered but legally bounded remedial reading"
+          ],
+          "sections": [
+            {
+              "title": "A Beautiful Right Can Be Hollow",
+              "body_md": "An official notice promises access to review, but the procedure is too slow to prevent a family's eviction. The wording may be technically satisfied while the practical right is ineffective. A doctoral interpreter must determine whether the governing legal sources impose requirements of timeliness, effectiveness or procedural fairness. Where they do, interpret them accurately; where they do not, identify reform rather than fabricate existing law. This discipline joins concern for human consequences with fidelity to legal authority.",
+              "example": null,
+              "audio_script": "An official notice promises access to review, but the procedure is too slow to prevent a family's eviction. The wording may be technically satisfied while the practical right is ineffective. A doctoral interpreter must determine whether the governing legal sources impose requirements of timeliness, effectiveness or procedural fairness. Where they do, interpret them accurately; where they do not, identify reform rather than fabricate existing law. This discipline joins concern for human consequences with fidelity to legal authority.",
+              "video": null
+            },
+            {
+              "title": "Judicial Power Needs Limits",
+              "body_md": "A court asked to reform an entire public service may identify a serious violation yet lack expertise or legal power to supervise every operational detail. A broad remedial clause must be read with constitutional structure, statute and relevant precedent. Too little judicial action can leave systemic abuse untouched; too much can displace institutions without accountability. A defensible interpretive approach explains why its proposed order fits the authorized role of the court and how its effects can be reviewed.",
+              "example": null,
+              "audio_script": "A court asked to reform an entire public service may identify a serious violation yet lack expertise or legal power to supervise every operational detail. A broad remedial clause must be read with constitutional structure, statute and relevant precedent. Too little judicial action can leave systemic abuse untouched; too much can displace institutions without accountability. A defensible interpretive approach explains why its proposed order fits the authorized role of the court and how its effects can be reviewed.",
+              "video": null
+            },
+            {
+              "title": "Effective Relief Is a Design Problem",
+              "body_md": "Imagine a statute empowering a tribunal to take 'necessary steps' to stop unlawful benefit denials. A proposed interpretation might permit targeted corrective orders, measurable reporting or time-limited compliance plans, but each requires textual and institutional support. A doctoral argument should analyze alternatives, costs, participation and the risk of unintended harm. The best reading protects actual people while making coercive decisions reasoned, bounded and publicly contestable.",
+              "example": null,
+              "audio_script": "Imagine a statute empowering a tribunal to take 'necessary steps' to stop unlawful benefit denials. A proposed interpretation might permit targeted corrective orders, measurable reporting or time-limited compliance plans, but each requires textual and institutional support. A doctoral argument should analyze alternatives, costs, participation and the risk of unintended harm. The best reading protects actual people while making coercive decisions reasoned, bounded and publicly contestable.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Structural remedy means order addressing recurring institutional practices.",
+              "answer": true,
+              "explanation_if_true": "Structural remedy means order addressing recurring institutional practices.",
+              "explanation_if_false": "Structural remedy means order addressing recurring institutional practices."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "An urgent human need automatically gives a court every remedial power it could wish to exercise.",
+              "answer": false,
+              "explanation_if_true": "Need is important but institutional powers remain governed by law.",
+              "explanation_if_false": "Need is important but institutional powers remain governed by law."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Remedial effectiveness?",
+              "choices": [
+                "Allocation of state authority among institutions",
+                "Authorized choice subject to reasoned oversight",
+                "Practical capacity of relief to vindicate a right",
+                "Order addressing recurring institutional practices"
+              ],
+              "answer_index": 2,
+              "explanation": "Remedial effectiveness means practical capacity of relief to vindicate a right."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court considers ordering comprehensive agency reforms under a broad remedy clause. What must analysis include?",
+              "choices": [
+                "The number of claimants alone",
+                "Textual power, institutional competence and actual effectiveness",
+                "Only the court's preferred public policy",
+                "The agency's building design"
+              ],
+              "answer_index": 1,
+              "explanation": "Effective remedial interpretation must remain lawfully bounded."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means allocation of state authority among institutions?",
+              "choices": [
+                "Structural remedy",
+                "Separation of powers",
+                "Remedial effectiveness",
+                "Reviewable discretion"
+              ],
+              "answer_index": 1,
+              "explanation": "Separation of powers means allocation of state authority among institutions."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept to its meaning.",
+              "pairs": [
+                [
+                  "Remedial effectiveness",
+                  "Practical capacity of relief to vindicate a right"
+                ],
+                [
+                  "Structural remedy",
+                  "Order addressing recurring institutional practices"
+                ],
+                [
+                  "Separation of powers",
+                  "Allocation of state authority among institutions"
+                ],
+                [
+                  "Reviewable discretion",
+                  "Authorized choice subject to reasoned oversight"
+                ]
+              ],
+              "explanation": "These distinctions preserve legally relevant meaning and authority."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Practical capacity of relief to vindicate a right is called ___.",
+              "answer": "Remedial effectiveness",
+              "accept": [
+                "Remedial effectiveness"
+              ],
+              "explanation": "The term is Remedial effectiveness."
+            },
+            {
+              "id": "PSU-1.6.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Authorized choice subject to reasoned oversight is called ___.",
+              "answer": "Reviewable discretion",
+              "accept": [
+                "Reviewable discretion"
+              ],
+              "explanation": "The term is Reviewable discretion."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

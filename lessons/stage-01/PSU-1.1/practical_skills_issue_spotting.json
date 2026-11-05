@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "issue-spotting",
+      "name": "Issue Spotting",
+      "levels": {
+        "red": {
+          "focus": "Find the legal question hidden inside an ordinary person's story.",
+          "summary": "A client usually describes what happened, not the legal elements of a claim. Learn to separate important facts, uncertain facts, possible harms, and immediate deadlines before deciding which law may apply.",
+          "checklist": [
+            "I can distinguish a client's goal from the legal questions",
+            "I can identify factual gaps and time-sensitive risks",
+            "I can write a neutral first issue statement"
+          ],
+          "sections": [
+            {
+              "title": "Hear the story before selecting a rule",
+              "body_md": "A tenant says that the landlord shut off the heating system after a complaint and now threatens eviction. The client wants to stay warm and keep the home. Possible issues include the duty to maintain habitable premises, retaliation, notice, and available emergency relief, but the controlling rules depend on place and facts. At the first interview, record what happened in time order rather than declaring the landlord guilty. Ask who acted, when the utility failed, which communications occurred, and what papers were received. The client's immediate safety matters alongside the eventual legal classification.",
+              "example": null,
+              "audio_script": "A tenant says that the landlord shut off the heating system after a complaint and now threatens eviction. The client wants to stay warm and keep the home. Possible issues include the duty to maintain habitable premises, retaliation, notice, and available emergency relief, but the controlling rules depend on place and facts. At the first interview, record what happened in time order rather than declaring the landlord guilty. Ask who acted, when the utility failed, which communications occurred, and what papers were received. The client's immediate safety matters alongside the eventual legal classification.",
+              "video": null
+            },
+            {
+              "title": "Mark facts, claims, and missing proof separately",
+              "body_md": "The tenant reports that the owner deliberately disabled the heat. That assertion should be recorded as the client's account, not as an established finding. A dated photo of the thermostat could show conditions but might not establish who caused them. The lease and written notices may clarify obligations. Ask about witnesses, repair requests, payment records, and the tenant's health needs without inviting embellishment. Good issue spotting keeps three columns in mind: what is known, what is alleged, and what must be checked. This prevents an attractive narrative from concealing an evidentiary gap.",
+              "example": null,
+              "audio_script": "The tenant reports that the owner deliberately disabled the heat. That assertion should be recorded as the client's account, not as an established finding. A dated photo of the thermostat could show conditions but might not establish who caused them. The lease and written notices may clarify obligations. Ask about witnesses, repair requests, payment records, and the tenant's health needs without inviting embellishment. Good issue spotting keeps three columns in mind: what is known, what is alleged, and what must be checked. This prevents an attractive narrative from concealing an evidentiary gap.",
+              "video": null
+            },
+            {
+              "title": "Make a useful first issue statement",
+              "body_md": "A neutral formulation could be: Does the applicable housing law require a landlord to restore heat, and can the tenant obtain urgent relief following the reported interruption? The statement names an actor, conduct, governing source to research, and possible remedy. It does not assume the answer. Follow with questions about the correct tribunal, filing deadlines, notice requirements, and the client's preferred outcome. If there is an immediate health or safety danger, prioritize appropriate lawful assistance while preserving evidence. Issue spotting is disciplined attention to the person, not a hunt for impressive Latin labels.",
+              "example": null,
+              "audio_script": "A neutral formulation could be: Does the applicable housing law require a landlord to restore heat, and can the tenant obtain urgent relief following the reported interruption? The statement names an actor, conduct, governing source to research, and possible remedy. It does not assume the answer. Follow with questions about the correct tribunal, filing deadlines, notice requirements, and the client's preferred outcome. If there is an immediate health or safety danger, prioritize appropriate lawful assistance while preserving evidence. Issue spotting is disciplined attention to the person, not a hunt for impressive Latin labels.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q1",
+              "type": "true_false",
+              "prompt": "A client's assertion about the cause of a problem should initially be treated as an allegation rather than a proved fact.",
+              "answer": true,
+              "explanation_if_true": "Competent analysis distinguishes reported events from verified evidence.",
+              "explanation_if_false": "Competent analysis distinguishes reported events from verified evidence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q2",
+              "type": "true_false",
+              "prompt": "The fastest way to spot legal issues is to decide the defendant is guilty before reviewing documents.",
+              "answer": false,
+              "explanation_if_true": "A premature conclusion can hide disputed facts and relevant defenses.",
+              "explanation_if_false": "A premature conclusion can hide disputed facts and relevant defenses."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A tenant describes no heat and a threatened eviction. What is the best first step?",
+              "choices": [
+                "Assume housing law is identical worldwide",
+                "Clarify timeline, safety, notice, and possible legal duties",
+                "Promise a criminal conviction",
+                "Invent a witness to confirm the story"
+              ],
+              "answer_index": 1,
+              "explanation": "A structured account surfaces distinct issues without assuming answers."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which issue statement is most neutral and actionable?",
+              "choices": [
+                "Does governing law require repair and provide urgent relief?",
+                "The landlord is obviously criminal",
+                "All leases are unenforceable",
+                "The tenant deserves every possible remedy"
+              ],
+              "answer_index": 0,
+              "explanation": "A legal issue should identify the question to research rather than announce a verdict."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Material fact mean?",
+              "choices": [
+                "Fact capable of changing a legal outcome",
+                "Claim not yet established by proof",
+                "Legally available response to a wrong",
+                "Question requiring application of law to facts"
+              ],
+              "answer_index": 0,
+              "explanation": "Material fact means fact capable of changing a legal outcome."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q6",
+              "type": "matching",
+              "prompt": "Match the practical-law concepts with their functions.",
+              "pairs": [
+                [
+                  "Legal issue",
+                  "Question requiring application of law to facts"
+                ],
+                [
+                  "Material fact",
+                  "Fact capable of changing a legal outcome"
+                ],
+                [
+                  "Allegation",
+                  "Claim not yet established by proof"
+                ],
+                [
+                  "Remedy",
+                  "Legally available response to a wrong"
+                ]
+              ],
+              "explanation": "Legal analysis separates facts, claims, and questions of authority."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for question requiring application of law to facts is ___.",
+              "answer": "Legal issue",
+              "accept": [
+                "Legal issue"
+              ],
+              "explanation": "The answer is Legal issue."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally available response to a wrong is ___.",
+              "answer": "Remedy",
+              "accept": [
+                "Remedy"
+              ],
+              "explanation": "The answer is Remedy."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Turn a messy fact pattern into an elements-and-issues map.",
+          "summary": "An effective lawyer identifies each plausible cause of action and defense, then connects them to facts that matter. Learn to prioritize dispositive issues and keep jurisdiction, remedy, and procedural posture visible.",
+          "checklist": [
+            "I can map facts to claim and defense elements",
+            "I can rank issues by legal consequence and urgency",
+            "I can write questions that separate merits from procedure"
+          ],
+          "sections": [
+            {
+              "title": "Build a rule-to-fact matrix",
+              "body_md": "A cyclist says a delivery driver struck them at an intersection. Potential negligence analysis may include a duty of reasonable care, breach, causation, and loss. The cyclist also may have entered against a signal, raising a jurisdiction-specific comparative or contributory fault issue. Arrange the competing accounts beside each element rather than treating the driver's delivery job as conclusive. What was the signal? Where were the vehicles? Was there a collision? What injuries and costs followed? A strong initial matrix records both evidence supporting an element and facts that might defeat it.",
+              "example": null,
+              "audio_script": "A cyclist says a delivery driver struck them at an intersection. Potential negligence analysis may include a duty of reasonable care, breach, causation, and loss. The cyclist also may have entered against a signal, raising a jurisdiction-specific comparative or contributory fault issue. Arrange the competing accounts beside each element rather than treating the driver's delivery job as conclusive. What was the signal? Where were the vehicles? Was there a collision? What injuries and costs followed? A strong initial matrix records both evidence supporting an element and facts that might defeat it.",
+              "video": null
+            },
+            {
+              "title": "Find the issues that can decide the case",
+              "body_md": "An expensive reconstruction may be pointless if the filing deadline has already expired, the wrong court has been selected, or a threshold immunity rule controls. Check those questions early without neglecting urgent medical or preservation needs. Then distinguish disputed law from disputed fact. If the governing duty is uncontroversial but the signal color is unknown, the next useful action may be evidence collection rather than more doctrinal research. Priority is not a measure of which issue sounds most dramatic; it reflects what must be resolved for the client's objective.",
+              "example": null,
+              "audio_script": "An expensive reconstruction may be pointless if the filing deadline has already expired, the wrong court has been selected, or a threshold immunity rule controls. Check those questions early without neglecting urgent medical or preservation needs. Then distinguish disputed law from disputed fact. If the governing duty is uncontroversial but the signal color is unknown, the next useful action may be evidence collection rather than more doctrinal research. Priority is not a measure of which issue sounds most dramatic; it reflects what must be resolved for the client's objective.",
+              "video": null
+            },
+            {
+              "title": "Draft a disciplined issue outline",
+              "body_md": "Write short questions, each with a possible rule and evidence plan: Did the driver fail to exercise due care? Did any conduct by the cyclist affect liability under the governing regime? What proof links the collision to the claimed harm? Which court and deadline apply? State assumptions explicitly and flag conflicts. An issue outline should guide interviews, legal research, and client decisions. It is neither an opening speech nor a guarantee of success. Its value is that another lawyer can see which question remains unanswered and why it matters.",
+              "example": null,
+              "audio_script": "Write short questions, each with a possible rule and evidence plan: Did the driver fail to exercise due care? Did any conduct by the cyclist affect liability under the governing regime? What proof links the collision to the claimed harm? Which court and deadline apply? State assumptions explicitly and flag conflicts. An issue outline should guide interviews, legal research, and client decisions. It is neither an opening speech nor a guarantee of success. Its value is that another lawyer can see which question remains unanswered and why it matters.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q1",
+              "type": "true_false",
+              "prompt": "A potentially expired filing deadline can be a priority even before every factual dispute is resolved.",
+              "answer": true,
+              "explanation_if_true": "Some procedural bars can prevent substantive claims from being heard.",
+              "explanation_if_false": "Some procedural bars can prevent substantive claims from being heard."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q2",
+              "type": "true_false",
+              "prompt": "Issue spotting should exclude plausible defenses because the client expects an advocate to be loyal.",
+              "answer": false,
+              "explanation_if_true": "Competent loyalty includes anticipating opposing arguments and explaining risk.",
+              "explanation_if_false": "Competent loyalty includes anticipating opposing arguments and explaining risk."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A driver denies negligence and evidence may show the cyclist crossed against a signal. What should an issue matrix include?",
+              "choices": [
+                "Claim elements, disputed facts, and possible comparative fault",
+                "Only facts favoring the cyclist",
+                "A promise that liability is certain",
+                "All legal issues from unrelated cases"
+              ],
+              "answer_index": 0,
+              "explanation": "Mapping both sides clarifies proof and prevents surprise."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What makes an issue a threshold issue?",
+              "choices": [
+                "It always concerns a large dollar figure",
+                "It can be answered only after trial",
+                "It is any question appearing first in a textbook",
+                "Its resolution can change whether or where the merits are reached"
+              ],
+              "answer_index": 3,
+              "explanation": "Jurisdiction, timeliness, and standing can affect whether merits are considered."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Issue matrix mean?",
+              "choices": [
+                "Question capable of ending or redirecting a case early",
+                "Stage and legal setting in which a dispute is considered",
+                "Required component of a claim or defense",
+                "Mapping of legal requirements to supporting and contrary facts"
+              ],
+              "answer_index": 3,
+              "explanation": "Issue matrix means mapping of legal requirements to supporting and contrary facts."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the practical-law concepts with their functions.",
+              "pairs": [
+                [
+                  "Element",
+                  "Required component of a claim or defense"
+                ],
+                [
+                  "Issue matrix",
+                  "Mapping of legal requirements to supporting and contrary facts"
+                ],
+                [
+                  "Threshold issue",
+                  "Question capable of ending or redirecting a case early"
+                ],
+                [
+                  "Procedural posture",
+                  "Stage and legal setting in which a dispute is considered"
+                ]
+              ],
+              "explanation": "Legal analysis separates facts, claims, and questions of authority."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for required component of a claim or defense is ___.",
+              "answer": "Element",
+              "accept": [
+                "Element"
+              ],
+              "explanation": "The answer is Element."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for stage and legal setting in which a dispute is considered is ___.",
+              "answer": "Procedural posture",
+              "accept": [
+                "Procedural posture"
+              ],
+              "explanation": "The answer is Procedural posture."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze jurisdiction, alternative characterizations, and competing remedies in a cross-border dispute.",
+          "summary": "The same events may support claims under several legal sources yet face different tribunals and limitation periods. Construct a decision tree that preserves conflicts of law, evidence, and remedy rather than assuming a single preferred characterization.",
+          "checklist": [
+            "I can identify plausible alternative legal characterizations",
+            "I can screen jurisdiction and applicable-law issues independently",
+            "I can prioritize missing facts that alter forum or remedy"
+          ],
+          "sections": [
+            {
+              "title": "One transaction can produce several disputes",
+              "body_md": "A customer living in one country pays an online platform operated in another for a medical device shipped from a third state. The device allegedly fails and causes injury. Potential questions include consumer contract obligations, product liability, data handling, and duties of intermediaries. No single country's rule can be assumed from the customer's address alone. A master's-level issue analysis maps actors, conduct, location of harm, contract terms, and recognized connecting factors. It also notes where international or regional instruments may affect forum and applicable law.",
+              "example": null,
+              "audio_script": "A customer living in one country pays an online platform operated in another for a medical device shipped from a third state. The device allegedly fails and causes injury. Potential questions include consumer contract obligations, product liability, data handling, and duties of intermediaries. No single country's rule can be assumed from the customer's address alone. A master's-level issue analysis maps actors, conduct, location of harm, contract terms, and recognized connecting factors. It also notes where international or regional instruments may affect forum and applicable law.",
+              "video": null
+            },
+            {
+              "title": "Separate the forum from the governing law",
+              "body_md": "A court might have jurisdiction but apply another jurisdiction's substantive law under its conflict rules. A contractual forum clause or arbitration agreement may affect the venue, subject to statutory consumer protections and enforceability limits. The place of injury can matter to a tort analysis without necessarily controlling every issue. Identify the precise question at each branch: where may proceedings be brought, what law governs each claim, and how could a judgment be recognized? A decision tree makes uncertainty explicit rather than collapsing every issue into the most convenient forum.",
+              "example": null,
+              "audio_script": "A court might have jurisdiction but apply another jurisdiction's substantive law under its conflict rules. A contractual forum clause or arbitration agreement may affect the venue, subject to statutory consumer protections and enforceability limits. The place of injury can matter to a tort analysis without necessarily controlling every issue. Identify the precise question at each branch: where may proceedings be brought, what law governs each claim, and how could a judgment be recognized? A decision tree makes uncertainty explicit rather than collapsing every issue into the most convenient forum.",
+              "video": null
+            },
+            {
+              "title": "Preserve options while facts are tested",
+              "body_md": "The claimant needs treatment, evidence preservation, and timely advice, not an encyclopedic list of speculative causes of action. Rank the questions most likely to change the immediate path: product identification, purchase terms, defect evidence, limitation dates, and available interim relief. Flag factual alternatives honestly. Do not use cross-border complexity to threaten the other side with claims that lack an arguable basis. Good issue spotting creates a small, testable sequence of decisions supported by sources, with the client's priorities and costs visible at each step.",
+              "example": null,
+              "audio_script": "The claimant needs treatment, evidence preservation, and timely advice, not an encyclopedic list of speculative causes of action. Rank the questions most likely to change the immediate path: product identification, purchase terms, defect evidence, limitation dates, and available interim relief. Flag factual alternatives honestly. Do not use cross-border complexity to threaten the other side with claims that lack an arguable basis. Good issue spotting creates a small, testable sequence of decisions supported by sources, with the client's priorities and costs visible at each step.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q1",
+              "type": "true_false",
+              "prompt": "A court can possess jurisdiction over a dispute while its conflict rules select another jurisdiction's substantive law.",
+              "answer": true,
+              "explanation_if_true": "Adjudicative authority and choice of law are separate issues.",
+              "explanation_if_false": "Adjudicative authority and choice of law are separate issues."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q2",
+              "type": "true_false",
+              "prompt": "An international online sale must always be governed exclusively by the buyer's home law.",
+              "answer": false,
+              "explanation_if_true": "The result depends on connecting factors, instruments, and enforceable agreements.",
+              "explanation_if_false": "The result depends on connecting factors, instruments, and enforceable agreements."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An online purchase involves three countries and an alleged injury. What analysis should precede choice of court?",
+              "choices": [
+                "Assume the seller's headquarters always controls",
+                "Select whichever venue seems most punitive",
+                "Ignore arbitration and consumer protections",
+                "Parties, connecting factors, jurisdiction and applicable-law rules"
+              ],
+              "answer_index": 3,
+              "explanation": "Cross-border claims require separate analyses of authority and governing law."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which fact could most alter a conflict-of-laws assessment?",
+              "choices": [
+                "A slogan on the product box",
+                "Whether counsel enjoys travel",
+                "The legally relevant location of injury and agreed terms",
+                "The customer's favorite color"
+              ],
+              "answer_index": 2,
+              "explanation": "Material connecting facts shape the jurisdictional and governing-law inquiry."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Jurisdiction mean?",
+              "choices": [
+                "Legally relevant relationship to a jurisdiction",
+                "Classification of a legal question for a governing analysis",
+                "Authority of a tribunal to determine a matter",
+                "Substantive legal system selected for an issue"
+              ],
+              "answer_index": 2,
+              "explanation": "Jurisdiction means authority of a tribunal to determine a matter."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q6",
+              "type": "matching",
+              "prompt": "Match the practical-law concepts with their functions.",
+              "pairs": [
+                [
+                  "Characterization",
+                  "Classification of a legal question for a governing analysis"
+                ],
+                [
+                  "Jurisdiction",
+                  "Authority of a tribunal to determine a matter"
+                ],
+                [
+                  "Applicable law",
+                  "Substantive legal system selected for an issue"
+                ],
+                [
+                  "Connecting factor",
+                  "Legally relevant relationship to a jurisdiction"
+                ]
+              ],
+              "explanation": "Legal analysis separates facts, claims, and questions of authority."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for classification of a legal question for a governing analysis is ___.",
+              "answer": "Characterization",
+              "accept": [
+                "Characterization"
+              ],
+              "explanation": "The answer is Characterization."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally relevant relationship to a jurisdiction is ___.",
+              "answer": "Connecting factor",
+              "accept": [
+                "Connecting factor"
+              ],
+              "explanation": "The answer is Connecting factor."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design a defensible issue-identification process under factual uncertainty and ethical limits.",
+          "summary": "Complex legal problems reward imagination, but unstructured issue generation creates noise, privilege risk, and false confidence. Develop an iterative, auditable approach linking competing theories to sources, confidence levels, and the client's actual objectives.",
+          "checklist": [
+            "I can construct a prioritized multi-hypothesis issue map",
+            "I can differentiate uncertainty in fact, law, forum, and remedy",
+            "I can defend ethical limits against invented or frivolous claims"
+          ],
+          "sections": [
+            {
+              "title": "Separate hypotheses rather than accumulating labels",
+              "body_md": "Consider a public agency's algorithm that wrongly denies a benefit, while a private contractor designed the system and an applicant provided inaccurate data unknowingly. Possible public-law, data-protection, contract, and discrimination issues do not all have equal merit. State each theory with its legal source, threshold elements, putative defendant, procedural forum, and evidence needed to test it. Mark the strongest competing explanations and the facts that would disprove the preferred one. A large inventory of legal labels is less useful than a short set of falsifiable, ranked propositions.",
+              "example": null,
+              "audio_script": "Consider a public agency's algorithm that wrongly denies a benefit, while a private contractor designed the system and an applicant provided inaccurate data unknowingly. Possible public-law, data-protection, contract, and discrimination issues do not all have equal merit. State each theory with its legal source, threshold elements, putative defendant, procedural forum, and evidence needed to test it. Mark the strongest competing explanations and the facts that would disprove the preferred one. A large inventory of legal labels is less useful than a short set of falsifiable, ranked propositions.",
+              "video": null
+            },
+            {
+              "title": "Uncertainty should have a place in the work product",
+              "body_md": "A fact can be uncertain because the client cannot recall it, because records conflict, or because a witness's testimony has not been tested. A legal question may be unsettled because authorities disagree, while a remedy can depend on standing or available judicial power. Record these as different uncertainties. Explain which can be resolved by document request, legal research, expert input, or client decision. Do not turn a missing fact into an assertion of wrongdoing. An audit trail helps later counsel identify when the theory changed and why.",
+              "example": null,
+              "audio_script": "A fact can be uncertain because the client cannot recall it, because records conflict, or because a witness's testimony has not been tested. A legal question may be unsettled because authorities disagree, while a remedy can depend on standing or available judicial power. Record these as different uncertainties. Explain which can be resolved by document request, legal research, expert input, or client decision. Do not turn a missing fact into an assertion of wrongdoing. An audit trail helps later counsel identify when the theory changed and why.",
+              "video": null
+            },
+            {
+              "title": "The map should protect the person it serves",
+              "body_md": "A lawyer can advocate robustly without filing baseless accusations, concealing adverse authority, or treating the client as an instrument for an interesting constitutional test. Evaluate available relief, collateral effects, cost, time, and dignity alongside likelihood of success. Clarify who directs objectives and which professional duties govern the representation. A final doctoral issue map should show the strongest claim and the strongest answer against it, with a realistic next step and an ethically defensible scope. Sophistication means judgment under uncertainty, not maximum possible aggression.",
+              "example": null,
+              "audio_script": "A lawyer can advocate robustly without filing baseless accusations, concealing adverse authority, or treating the client as an instrument for an interesting constitutional test. Evaluate available relief, collateral effects, cost, time, and dignity alongside likelihood of success. Clarify who directs objectives and which professional duties govern the representation. A final doctoral issue map should show the strongest claim and the strongest answer against it, with a realistic next step and an ethically defensible scope. Sophistication means judgment under uncertainty, not maximum possible aggression.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q1",
+              "type": "true_false",
+              "prompt": "A strong legal issue map can include an adverse hypothesis that challenges the client's preferred explanation.",
+              "answer": true,
+              "explanation_if_true": "Testing plausible rival accounts improves accuracy and protects decision-making.",
+              "explanation_if_false": "Testing plausible rival accounts improves accuracy and protects decision-making."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q2",
+              "type": "true_false",
+              "prompt": "Good legal strategy requires asserting every imaginable claim regardless of evidentiary or legal support.",
+              "answer": false,
+              "explanation_if_true": "Professional obligations and sound analysis demand a nonfrivolous basis and candor.",
+              "explanation_if_false": "Professional obligations and sound analysis demand a nonfrivolous basis and candor."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q3",
+              "type": "multiple_choice",
+              "prompt": "An automated benefit denial has several possible causes, including incorrect applicant records. What is the strongest first approach?",
+              "choices": [
+                "Hide the incorrect records",
+                "Assume every algorithm is unlawful",
+                "Map competing causes, relevant sources and evidence needed to distinguish them",
+                "Accuse every agency worker of fraud"
+              ],
+              "answer_index": 2,
+              "explanation": "A disciplined investigation keeps multiple theories open until evidence resolves them."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What makes an issue map useful to successor counsel?",
+              "choices": [
+                "All uncertain facts stated as certain",
+                "Documented assumptions, contrary evidence, authority and priorities",
+                "Only a list of dramatic allegations",
+                "A secret conclusion with no sources"
+              ],
+              "answer_index": 1,
+              "explanation": "An auditable map allows professional reassessment without losing the client's context."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Falsification mean?",
+              "choices": [
+                "Testable proposal that a legal question arises on stated facts",
+                "Evidence or authority that would disprove a claim",
+                "Explicit statement of uncertainty or assumption",
+                "Outcome the represented person seeks to achieve"
+              ],
+              "answer_index": 1,
+              "explanation": "Falsification means evidence or authority that would disprove a claim."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q6",
+              "type": "matching",
+              "prompt": "Match the practical-law concepts with their functions.",
+              "pairs": [
+                [
+                  "Issue hypothesis",
+                  "Testable proposal that a legal question arises on stated facts"
+                ],
+                [
+                  "Falsification",
+                  "Evidence or authority that would disprove a claim"
+                ],
+                [
+                  "Confidence qualifier",
+                  "Explicit statement of uncertainty or assumption"
+                ],
+                [
+                  "Client objective",
+                  "Outcome the represented person seeks to achieve"
+                ]
+              ],
+              "explanation": "Legal analysis separates facts, claims, and questions of authority."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for testable proposal that a legal question arises on stated facts is ___.",
+              "answer": "Issue hypothesis",
+              "accept": [
+                "Issue hypothesis"
+              ],
+              "explanation": "The answer is Issue hypothesis."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.issue-spotting.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for outcome the represented person seeks to achieve is ___.",
+              "answer": "Client objective",
+              "accept": [
+                "Client objective"
+              ],
+              "explanation": "The answer is Client objective."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Choose a legal response by reasoning from the client's goal",
+          "summary": "A remedy is useful when it addresses the problem the client actually faces. Learn to connect the desired outcome, legal conditions and practical next step without pretending any one remedy always works.",
+          "checklist": [
+            "I can state the client's immediate legal objective",
+            "I can distinguish money from preventive relief",
+            "I can identify a condition needed for requested relief"
+          ],
+          "sections": [
+            {
+              "title": "Start With the Real Problem",
+              "body_md": "A neighbor repeatedly blocks the only entrance to a home. The client may want access restored more urgently than compensation for inconvenience. The lawyer should identify the right allegedly violated, the legally available remedies and the facts supporting an order. A court may require particular conditions for an injunction, so the client cannot simply demand it as of right. Clear practical reasoning connects the human objective to an authorized legal response.",
+              "example": null,
+              "audio_script": "A neighbor repeatedly blocks the only entrance to a home. The client may want access restored more urgently than compensation for inconvenience. The lawyer should identify the right allegedly violated, the legally available remedies and the facts supporting an order. A court may require particular conditions for an injunction, so the client cannot simply demand it as of right. Clear practical reasoning connects the human objective to an authorized legal response.",
+              "video": null
+            },
+            {
+              "title": "A Remedy Must Fit Its Purpose",
+              "body_md": "Damages may address a past loss; an injunction can restrain future conduct; a declaration may clarify the parties' legal position. Each has its own legal requirements. A client with a one-time small overcharge may benefit from repayment, while continuing threatened disclosure might demand preventive action. The choice should not be based on which remedy sounds more forceful. Ask what the order would do, whether it is available and whether it can realistically be enforced.",
+              "example": null,
+              "audio_script": "Damages may address a past loss; an injunction can restrain future conduct; a declaration may clarify the parties' legal position. Each has its own legal requirements. A client with a one-time small overcharge may benefit from repayment, while continuing threatened disclosure might demand preventive action. The choice should not be based on which remedy sounds more forceful. Ask what the order would do, whether it is available and whether it can realistically be enforced.",
+              "video": null
+            },
+            {
+              "title": "Make the Next Step Explicit",
+              "body_md": "An accurate legal conclusion should lead to action: preserve a relevant record, investigate a deadline, request a lawful order, or consider settlement. Some steps are urgent; others can await further facts. A useful answer states what is known and what must be checked before taking a high-risk step. This makes legal reasoning practical while respecting the client's informed choices. The lawyer's role is to equip the person, not to replace their judgment with professional confidence.",
+              "example": null,
+              "audio_script": "An accurate legal conclusion should lead to action: preserve a relevant record, investigate a deadline, request a lawful order, or consider settlement. Some steps are urgent; others can await further facts. A useful answer states what is known and what must be checked before taking a high-risk step. This makes legal reasoning practical while respecting the client's informed choices. The lawyer's role is to equip the person, not to replace their judgment with professional confidence.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Damages means monetary relief for recognized loss.",
+              "answer": true,
+              "explanation_if_true": "Damages means monetary relief for recognized loss.",
+              "explanation_if_false": "Damages means monetary relief for recognized loss."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "Every legal violation automatically entitles a claimant to the most severe available injunction.",
+              "answer": false,
+              "explanation_if_true": "Relief depends on the court's powers and remedy-specific requirements.",
+              "explanation_if_false": "Relief depends on the court's powers and remedy-specific requirements."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Remedy?",
+              "choices": [
+                "Outcome the represented person seeks",
+                "Legally authorized response to an established claim",
+                "Monetary relief for recognized loss",
+                "Court order directing or restraining conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Remedy refers to legally authorized response to an established claim."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A repeated obstruction threatens access to a home tomorrow. Which remedy type may directly address future conduct?",
+              "choices": [
+                "Injunction",
+                "Only past damages",
+                "A legal dictionary",
+                "An unrelated administrative fine"
+              ],
+              "answer_index": 0,
+              "explanation": "Preventive relief can address recurring harm where the governing test is satisfied."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means court order directing or restraining conduct?",
+              "choices": [
+                "Injunction",
+                "Remedy",
+                "Client objective",
+                "Damages"
+              ],
+              "answer_index": 0,
+              "explanation": "Injunction means court order directing or restraining conduct."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Remedy",
+                  "Legally authorized response to an established claim"
+                ],
+                [
+                  "Damages",
+                  "Monetary relief for recognized loss"
+                ],
+                [
+                  "Injunction",
+                  "Court order directing or restraining conduct"
+                ],
+                [
+                  "Client objective",
+                  "Outcome the represented person seeks"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Legally authorized response to an established claim is called ___.",
+              "answer": "Remedy",
+              "accept": [
+                "Remedy"
+              ],
+              "explanation": "The term is Remedy."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Outcome the represented person seeks is called ___.",
+              "answer": "Client objective",
+              "accept": [
+                "Client objective"
+              ],
+              "explanation": "The term is Client objective."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Build remedy decision trees using legal conditions",
+          "summary": "Legal choices often depend on evidence, deadlines and the availability of alternative relief. Develop a decision tree that separates a plausible claim from the conditions for each remedy.",
+          "checklist": [
+            "I can construct a branch based on a remedy's requirements",
+            "I can separate likelihood of success from value of relief",
+            "I can identify a factual question that changes the recommended path"
+          ],
+          "sections": [
+            {
+              "title": "The Decision Tree Begins With Law",
+              "body_md": "Suppose a person has a potential contract claim. First ask whether the agreement is enforceable and breached; then whether monetary damages are available and adequate. If the subject is unique, specific performance may be worth investigating under the governing law. This is a decision tree, not a mechanical rule: each branch corresponds to a legal requirement or material fact. The lawyer should document uncertainty where the evidence does not yet establish a condition.",
+              "example": null,
+              "audio_script": "Suppose a person has a potential contract claim. First ask whether the agreement is enforceable and breached; then whether monetary damages are available and adequate. If the subject is unique, specific performance may be worth investigating under the governing law. This is a decision tree, not a mechanical rule: each branch corresponds to a legal requirement or material fact. The lawyer should document uncertainty where the evidence does not yet establish a condition.",
+              "video": null
+            },
+            {
+              "title": "Probability and Value Are Different",
+              "body_md": "A strong claim for a small amount may be easier to pursue than a weak claim for an enormous award. Litigation costs, delay, collectibility and client priorities matter. Expected-value calculations can inform decisions, but probability estimates may be unreliable and rights cannot always be reduced to money. An accurate adviser distinguishes what could legally be awarded, the likelihood of obtaining it and whether collection is feasible. No calculation should be presented as a guarantee.",
+              "example": null,
+              "audio_script": "A strong claim for a small amount may be easier to pursue than a weak claim for an enormous award. Litigation costs, delay, collectibility and client priorities matter. Expected-value calculations can inform decisions, but probability estimates may be unreliable and rights cannot always be reduced to money. An accurate adviser distinguishes what could legally be awarded, the likelihood of obtaining it and whether collection is feasible. No calculation should be presented as a guarantee.",
+              "video": null
+            },
+            {
+              "title": "A Different Fact Can Change Everything",
+              "body_md": "If a limitation period expires tomorrow, the next step may be urgent even if other aspects of the case remain unclear. If the defendant has no assets, settlement or alternative relief may deserve more attention. A good decision tree identifies the fact or deadline that would move the recommendation onto another branch. That allows the client to understand why further investigation is needed and to make choices under uncertainty.",
+              "example": null,
+              "audio_script": "If a limitation period expires tomorrow, the next step may be urgent even if other aspects of the case remain unclear. If the defendant has no assets, settlement or alternative relief may deserve more attention. A good decision tree identifies the fact or deadline that would move the recommendation onto another branch. That allows the client to understand why further investigation is needed and to make choices under uncertainty.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Expected value means probability-weighted value of possible outcomes.",
+              "answer": true,
+              "explanation_if_true": "Expected value means probability-weighted value of possible outcomes.",
+              "explanation_if_false": "Expected value means probability-weighted value of possible outcomes."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "A high potential award necessarily makes a risky lawsuit the client's best choice.",
+              "answer": false,
+              "explanation_if_true": "Likelihood, cost, collectibility and client priorities can change the decision.",
+              "explanation_if_false": "Likelihood, cost, collectibility and client priorities can change the decision."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Decision tree?",
+              "choices": [
+                "Structured choice path based on defined conditions",
+                "Probability-weighted value of possible outcomes",
+                "Practical ability to obtain payment",
+                "Legally specified deadline for pursuing a claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Decision tree refers to structured choice path based on defined conditions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A strong damages claim may expire tomorrow. Which issue most urgently alters the decision tree?",
+              "choices": [
+                "The memorandum's length",
+                "The order of citations",
+                "A distant court's architecture",
+                "The verified filing deadline"
+              ],
+              "answer_index": 3,
+              "explanation": "Time limits can make a legal option unavailable regardless of later merits."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means practical ability to obtain payment?",
+              "choices": [
+                "Decision tree",
+                "Limitation period",
+                "Expected value",
+                "Collectibility"
+              ],
+              "answer_index": 3,
+              "explanation": "Collectibility means practical ability to obtain payment."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Decision tree",
+                  "Structured choice path based on defined conditions"
+                ],
+                [
+                  "Expected value",
+                  "Probability-weighted value of possible outcomes"
+                ],
+                [
+                  "Collectibility",
+                  "Practical ability to obtain payment"
+                ],
+                [
+                  "Limitation period",
+                  "Legally specified deadline for pursuing a claim"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Structured choice path based on defined conditions is called ___.",
+              "answer": "Decision tree",
+              "accept": [
+                "Decision tree"
+              ],
+              "explanation": "The term is Decision tree."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Legally specified deadline for pursuing a claim is called ___.",
+              "answer": "Limitation period",
+              "accept": [
+                "Limitation period"
+              ],
+              "explanation": "The term is Limitation period."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Use proportionality and evidence when remedies affect others",
+          "summary": "Advanced remedial reasoning must account for the claimant, respondent and third parties. Evaluate the fit of proposed orders under the governing court's authority rather than assuming maximally broad relief is best.",
+          "checklist": [
+            "I can identify the actual harm an order should address",
+            "I can compare narrower lawful alternatives",
+            "I can explain when a remedy would burden nonparties"
+          ],
+          "sections": [
+            {
+              "title": "Remedies Can Create New Harms",
+              "body_md": "A company unlawfully discloses private data, and a claimant seeks an order shutting down all its systems. Such relief might prevent some disclosures but harm unrelated people who rely on lawful services. A court's remedial powers and proportionality requirements vary by jurisdiction. The lawyer should identify what conduct must stop and whether a more targeted order would protect the claimant effectively. Precise relief is often stronger than an expansive demand that the institution cannot lawfully grant.",
+              "example": null,
+              "audio_script": "A company unlawfully discloses private data, and a claimant seeks an order shutting down all its systems. Such relief might prevent some disclosures but harm unrelated people who rely on lawful services. A court's remedial powers and proportionality requirements vary by jurisdiction. The lawyer should identify what conduct must stop and whether a more targeted order would protect the claimant effectively. Precise relief is often stronger than an expansive demand that the institution cannot lawfully grant.",
+              "video": null
+            },
+            {
+              "title": "Interim Relief Is Its Own Question",
+              "body_md": "An urgent injunction may be considered before final liability is resolved, often under different standards involving merits, irreparable harm and competing hardships. Do not assume the temporary order decides every factual dispute. A careful argument identifies the risk of acting too late, the risk of restraining lawful conduct and the evidence supporting each. This makes the court's choice reviewable instead of treating urgency as a substitute for legal conditions.",
+              "example": null,
+              "audio_script": "An urgent injunction may be considered before final liability is resolved, often under different standards involving merits, irreparable harm and competing hardships. Do not assume the temporary order decides every factual dispute. A careful argument identifies the risk of acting too late, the risk of restraining lawful conduct and the evidence supporting each. This makes the court's choice reviewable instead of treating urgency as a substitute for legal conditions.",
+              "video": null
+            },
+            {
+              "title": "Implementation Must Be Designed",
+              "body_md": "An order requiring an agency to correct thousands of records may be legitimate yet difficult to implement. A workable remedy could specify defined records, deadlines, reporting and an authorized review mechanism. The institution must possess lawful power to impose those steps, and its limits should be acknowledged. Advanced reasoning explains how the proposed order repairs harm without leaving enforcement vague or creating unreasonable burdens on affected persons.",
+              "example": null,
+              "audio_script": "An order requiring an agency to correct thousands of records may be legitimate yet difficult to implement. A workable remedy could specify defined records, deadlines, reporting and an authorized review mechanism. The institution must possess lawful power to impose those steps, and its limits should be acknowledged. Advanced reasoning explains how the proposed order repairs harm without leaving enforcement vague or creating unreasonable burdens on affected persons.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Third-party effect means consequence for people outside the dispute.",
+              "answer": true,
+              "explanation_if_true": "Third-party effect means consequence for people outside the dispute.",
+              "explanation_if_false": "Third-party effect means consequence for people outside the dispute."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "A court should always order the widest possible restriction without considering lawful nonparty interests.",
+              "answer": false,
+              "explanation_if_true": "Remedial authority and applicable proportionality or hardship standards can constrain breadth.",
+              "explanation_if_false": "Remedial authority and applicable proportionality or hardship standards can constrain breadth."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Proportionality?",
+              "choices": [
+                "Consequence for people outside the dispute",
+                "Temporary protection before final determination",
+                "Defined extent of an order's commands or protections",
+                "Fit between a remedy and lawful objective"
+              ],
+              "answer_index": 3,
+              "explanation": "Proportionality refers to fit between a remedy and lawful objective."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "An order to stop one unlawful data flow would shut down unrelated critical services. What should counsel consider?",
+              "choices": [
+                "The company's reputation alone",
+                "Eliminating all review",
+                "Narrower effective lawful relief",
+                "Only the punishment's dramatic effect"
+              ],
+              "answer_index": 2,
+              "explanation": "A remedy should target the harm while respecting its legal and practical limits."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means temporary protection before final determination?",
+              "choices": [
+                "Remedial scope",
+                "Third-party effect",
+                "Interim relief",
+                "Proportionality"
+              ],
+              "answer_index": 2,
+              "explanation": "Interim relief means temporary protection before final determination."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Proportionality",
+                  "Fit between a remedy and lawful objective"
+                ],
+                [
+                  "Third-party effect",
+                  "Consequence for people outside the dispute"
+                ],
+                [
+                  "Interim relief",
+                  "Temporary protection before final determination"
+                ],
+                [
+                  "Remedial scope",
+                  "Defined extent of an order's commands or protections"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Fit between a remedy and lawful objective is called ___.",
+              "answer": "Proportionality",
+              "accept": [
+                "Proportionality"
+              ],
+              "explanation": "The term is Proportionality."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Defined extent of an order's commands or protections is called ___.",
+              "answer": "Remedial scope",
+              "accept": [
+                "Remedial scope"
+              ],
+              "explanation": "The term is Remedial scope."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend decisions under remedial uncertainty and human vulnerability",
+          "summary": "At doctoral depth, evaluate how uncertainty, unequal resources and irreversible harm shape legal choices. Develop a remedial decision method that is fair, reviewable and responsive to people who bear the risks.",
+          "checklist": [
+            "I can evaluate asymmetrical harm from decision errors",
+            "I can distinguish legal authority from preferred policy",
+            "I can design accountable choices when outcomes cannot be predicted precisely"
+          ],
+          "sections": [
+            {
+              "title": "Errors Do Not Hurt Everyone Equally",
+              "body_md": "An incorrect order may impose serious costs on a respondent, while refusal of urgently needed protection may leave a claimant homeless or detained. A legal system must consider those harms under governing standards rather than assume they are symmetrical. A doctoral analysis should identify what evidence is reliable, which harm may be irreversible and which institutional safeguards address errors. Sympathy cannot eliminate proof, but the cost of error is relevant wherever law permits it.",
+              "example": null,
+              "audio_script": "An incorrect order may impose serious costs on a respondent, while refusal of urgently needed protection may leave a claimant homeless or detained. A legal system must consider those harms under governing standards rather than assume they are symmetrical. A doctoral analysis should identify what evidence is reliable, which harm may be irreversible and which institutional safeguards address errors. Sympathy cannot eliminate proof, but the cost of error is relevant wherever law permits it.",
+              "video": null
+            },
+            {
+              "title": "Decision Theory Has Boundaries",
+              "body_md": "A lawyer might estimate expected outcomes of settlement and trial, but probabilities are uncertain and the client may value safety, privacy or principle more than money. Some choices cannot be responsibly reduced to a numerical formula. A useful decision model discloses assumptions, ranges and the client's own priorities. It does not conceal a professional preference inside an apparently objective calculation. The client's lawful authority over objectives must remain central.",
+              "example": null,
+              "audio_script": "A lawyer might estimate expected outcomes of settlement and trial, but probabilities are uncertain and the client may value safety, privacy or principle more than money. Some choices cannot be responsibly reduced to a numerical formula. A useful decision model discloses assumptions, ranges and the client's own priorities. It does not conceal a professional preference inside an apparently objective calculation. The client's lawful authority over objectives must remain central.",
+              "video": null
+            },
+            {
+              "title": "The Process Must Be Correctable",
+              "body_md": "A remedial system can combine timely interim protection, reasoned final orders, proportionate implementation and review where law allows. A doctoral proposal should make each stage accountable and specify how errors are detected and repaired. Effective justice is not the maximum sanction or the largest damages figure. It is a lawful response that genuinely protects human interests while preserving fairness to all persons affected. That is a more demanding standard than rhetorical victory.",
+              "example": null,
+              "audio_script": "A remedial system can combine timely interim protection, reasoned final orders, proportionate implementation and review where law allows. A doctoral proposal should make each stage accountable and specify how errors are detected and repaired. Effective justice is not the maximum sanction or the largest damages figure. It is a lawful response that genuinely protects human interests while preserving fairness to all persons affected. That is a more demanding standard than rhetorical victory.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Asymmetric error cost means unequal consequences of opposing mistaken decisions.",
+              "answer": true,
+              "explanation_if_true": "Asymmetric error cost means unequal consequences of opposing mistaken decisions.",
+              "explanation_if_false": "Asymmetric error cost means unequal consequences of opposing mistaken decisions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "A lawyer's preferred numerical expected-value model automatically overrides the client's informed lawful objectives.",
+              "answer": false,
+              "explanation_if_true": "Models inform but do not replace the client's choices or the governing legal requirements.",
+              "explanation_if_false": "Models inform but do not replace the client's choices or the governing legal requirements."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Irreversible harm?",
+              "choices": [
+                "Choice among outcomes whose likelihood is incompletely known",
+                "Reviewable justification and implementation of relief",
+                "Injury not readily repaired after occurrence",
+                "Unequal consequences of opposing mistaken decisions"
+              ],
+              "answer_index": 2,
+              "explanation": "Irreversible harm refers to injury not readily repaired after occurrence."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A client values immediate safety over a potentially large delayed award. How should advice proceed?",
+              "choices": [
+                "Select the most novel legal theory",
+                "Explain lawful options and incorporate the client's priorities",
+                "Maximize expected dollars regardless",
+                "Withhold uncertainty"
+              ],
+              "answer_index": 1,
+              "explanation": "Good decision-making serves the person while accurately representing risk."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means choice among outcomes whose likelihood is incompletely known?",
+              "choices": [
+                "Asymmetric error cost",
+                "Decision under uncertainty",
+                "Irreversible harm",
+                "Remedial accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "Decision under uncertainty means choice among outcomes whose likelihood is incompletely known."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Irreversible harm",
+                  "Injury not readily repaired after occurrence"
+                ],
+                [
+                  "Asymmetric error cost",
+                  "Unequal consequences of opposing mistaken decisions"
+                ],
+                [
+                  "Decision under uncertainty",
+                  "Choice among outcomes whose likelihood is incompletely known"
+                ],
+                [
+                  "Remedial accountability",
+                  "Reviewable justification and implementation of relief"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Injury not readily repaired after occurrence is called ___.",
+              "answer": "Irreversible harm",
+              "accept": [
+                "Irreversible harm"
+              ],
+              "explanation": "The term is Irreversible harm."
+            },
+            {
+              "id": "PSU-1.8.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Reviewable justification and implementation of relief is called ___.",
+              "answer": "Remedial accountability",
+              "accept": [
+                "Remedial accountability"
+              ],
+              "explanation": "The term is Remedial accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

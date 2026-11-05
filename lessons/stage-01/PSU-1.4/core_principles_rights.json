@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "rights",
+      "name": "Rights",
+      "levels": {
+        "red": {
+          "focus": "Turn a client's story into a legal-rights question",
+          "summary": "Start legal analysis by asking who claims protection, against whom, and under what rule. Learn to separate the client's experience from the legal elements the decision maker must test.",
+          "checklist": [
+            "I can identify the claimant and respondent",
+            "I can state the protected interest and alleged interference",
+            "I can separate a legal claim from a moral complaint"
+          ],
+          "sections": [
+            {
+              "title": "Listen Before You Label",
+              "body_md": "A client says, 'My boss treated me unfairly.' The word unfairly matters, but does not itself identify the law violated. Ask what happened, when, who acted, what the client lost, and which legal protections may apply. The right at issue could arise from contract, anti-discrimination law, workplace safety rules or another source. Beginning with careful listening avoids forcing a complex life into an inaccurate legal category. It also helps the client feel heard before advice becomes technical.",
+              "example": null,
+              "audio_script": "A client says, 'My boss treated me unfairly.' The word unfairly matters, but does not itself identify the law violated. Ask what happened, when, who acted, what the client lost, and which legal protections may apply. The right at issue could arise from contract, anti-discrimination law, workplace safety rules or another source. Beginning with careful listening avoids forcing a complex life into an inaccurate legal category. It also helps the client feel heard before advice becomes technical.",
+              "video": null
+            },
+            {
+              "title": "Name the Legal Relationship",
+              "body_md": "A rights claim generally identifies a person or entity protected and another person or institution under a corresponding duty or restriction. Constitutional rights may protect against state action; statutory rights may regulate private employers; contractual rights can bind defined parties. The same event can involve more than one relation. A beginner should write one clear sentence: 'Under [source], [claimant] may require [respondent] to [act or refrain] if [conditions].' This format turns a vague grievance into a testable issue.",
+              "example": null,
+              "audio_script": "A rights claim generally identifies a person or entity protected and another person or institution under a corresponding duty or restriction. Constitutional rights may protect against state action; statutory rights may regulate private employers; contractual rights can bind defined parties. The same event can involve more than one relation. A beginner should write one clear sentence: 'Under [source], [claimant] may require [respondent] to [act or refrain] if [conditions].' This format turns a vague grievance into a testable issue.",
+              "video": null
+            },
+            {
+              "title": "Rights Are Not Unlimited Promises",
+              "body_md": "A law may recognize freedom of expression yet permit specified limits. A consumer may have protection against misleading conduct but still need to show particular elements. Knowing the name of a right is therefore not enough. Identify the rule's trigger, exceptions, defenses and available remedy. A reliable legal adviser avoids saying 'you have a right' when the actual question is whether this client's facts satisfy the governing conditions. That precision protects the client's choices.",
+              "example": null,
+              "audio_script": "A law may recognize freedom of expression yet permit specified limits. A consumer may have protection against misleading conduct but still need to show particular elements. Knowing the name of a right is therefore not enough. Identify the rule's trigger, exceptions, defenses and available remedy. A reliable legal adviser avoids saying 'you have a right' when the actual question is whether this client's facts satisfy the governing conditions. That precision protects the client's choices.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q1",
+              "type": "true_false",
+              "prompt": "Respondent means person or institution asked to answer a claim.",
+              "answer": true,
+              "explanation_if_true": "Respondent means person or institution asked to answer a claim.",
+              "explanation_if_false": "Respondent means person or institution asked to answer a claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q2",
+              "type": "true_false",
+              "prompt": "A client's use of the word unfair establishes a legal cause of action by itself.",
+              "answer": false,
+              "explanation_if_true": "Legal claims require a recognized rule and facts meeting its elements.",
+              "explanation_if_false": "Legal claims require a recognized rule and facts meeting its elements."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Claimant?",
+              "choices": [
+                "Legal basis on which relief can be sought",
+                "Person asserting a legal protection",
+                "Person or institution asked to answer a claim",
+                "Interest safeguarded by an applicable rule"
+              ],
+              "answer_index": 1,
+              "explanation": "Claimant means person asserting a legal protection."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A worker alleges unfair treatment without dates, actions or legal source. What should counsel do first?",
+              "choices": [
+                "Clarify the events and identify potentially applicable rights",
+                "Guarantee damages",
+                "File in every court",
+                "Assume discrimination has been proved"
+              ],
+              "answer_index": 0,
+              "explanation": "Accurate legal issue framing starts with listening and material facts."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means interest safeguarded by an applicable rule?",
+              "choices": [
+                "Protected interest",
+                "Claimant",
+                "Cause of action",
+                "Respondent"
+              ],
+              "answer_index": 0,
+              "explanation": "Protected interest means interest safeguarded by an applicable rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Claimant",
+                  "Person asserting a legal protection"
+                ],
+                [
+                  "Respondent",
+                  "Person or institution asked to answer a claim"
+                ],
+                [
+                  "Protected interest",
+                  "Interest safeguarded by an applicable rule"
+                ],
+                [
+                  "Cause of action",
+                  "Legal basis on which relief can be sought"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q7",
+              "type": "fill_in",
+              "prompt": "Person asserting a legal protection is called ___.",
+              "answer": "Claimant",
+              "accept": [
+                "Claimant"
+              ],
+              "explanation": "The term is Claimant."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.red.q8",
+              "type": "fill_in",
+              "prompt": "Legal basis on which relief can be sought is called ___.",
+              "answer": "Cause of action",
+              "accept": [
+                "Cause of action"
+              ],
+              "explanation": "The term is Cause of action."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze right-holder, duty-holder and exceptions",
+          "summary": "Develop a claim by connecting the right's elements to identified facts. Understand why a legal entitlement often has limits and corresponding obligations.",
+          "checklist": [
+            "I can decompose an entitlement into legal elements",
+            "I can distinguish conditions from exceptions",
+            "I can identify who bears the relevant proof burden"
+          ],
+          "sections": [
+            {
+              "title": "Elements Build the Claim",
+              "body_md": "Suppose a renter asserts a statutory right to notice before eviction. The lawyer must find the statutory definition of tenancy, the type and period of notice, any permitted grounds, and the procedure used. Each requirement is a component of the claim. A useful element chart links the precise rule to a factual proposition and evidence. This separates what the client believes from what the tribunal needs to find under the law.",
+              "example": null,
+              "audio_script": "Suppose a renter asserts a statutory right to notice before eviction. The lawyer must find the statutory definition of tenancy, the type and period of notice, any permitted grounds, and the procedure used. Each requirement is a component of the claim. A useful element chart links the precise rule to a factual proposition and evidence. This separates what the client believes from what the tribunal needs to find under the law.",
+              "video": null
+            },
+            {
+              "title": "Exceptions Matter",
+              "body_md": "A statute may grant a right subject to emergency exceptions, specified exclusions or time limits. A defendant may assert an affirmative defense rather than deny the claimant's basic elements. Those distinctions shape pleading and proof. For example, a particular consent exception may be invoked only under certain conditions. The lawyer should avoid stating the general protection so broadly that it erases the legislature's limits. Good advice identifies both the ordinary rule and the exception that might change the outcome.",
+              "example": null,
+              "audio_script": "A statute may grant a right subject to emergency exceptions, specified exclusions or time limits. A defendant may assert an affirmative defense rather than deny the claimant's basic elements. Those distinctions shape pleading and proof. For example, a particular consent exception may be invoked only under certain conditions. The lawyer should avoid stating the general protection so broadly that it erases the legislature's limits. Good advice identifies both the ordinary rule and the exception that might change the outcome.",
+              "video": null
+            },
+            {
+              "title": "Proof Shapes Practical Rights",
+              "body_md": "An entitlement may be valid in principle but difficult to enforce without documents, witnesses or accessible procedures. Burdens of production and persuasion can be assigned differently by law, and the outcome may depend on the proof standard. A skilled legal analyst prepares an evidence map for each element and defense. That method makes it possible to tell a client precisely what is known, what is uncertain, and which fact would most change the case.",
+              "example": null,
+              "audio_script": "An entitlement may be valid in principle but difficult to enforce without documents, witnesses or accessible procedures. Burdens of production and persuasion can be assigned differently by law, and the outcome may depend on the proof standard. A skilled legal analyst prepares an evidence map for each element and defense. That method makes it possible to tell a client precisely what is known, what is uncertain, and which fact would most change the case.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q1",
+              "type": "true_false",
+              "prompt": "Exception means defined circumstance limiting a general rule.",
+              "answer": true,
+              "explanation_if_true": "Exception means defined circumstance limiting a general rule.",
+              "explanation_if_false": "Exception means defined circumstance limiting a general rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q2",
+              "type": "true_false",
+              "prompt": "An exception to a right may be ignored because the general rule sounds more protective.",
+              "answer": false,
+              "explanation_if_true": "Applicable statutory and doctrinal exceptions must be assessed.",
+              "explanation_if_false": "Applicable statutory and doctrinal exceptions must be assessed."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Legal element?",
+              "choices": [
+                "Required component of a claim",
+                "Defined circumstance limiting a general rule",
+                "Response introducing a legal basis to avoid liability",
+                "Map linking rules, facts and supporting evidence"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal element means required component of a claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A tenant has a right to notice, but the statute has a narrow emergency exception. What analysis is required?",
+              "choices": [
+                "Whether notice seems convenient",
+                "Whether the landlord is wealthy",
+                "Whether the tenant understands Latin",
+                "Whether the exception's defined conditions are met"
+              ],
+              "answer_index": 3,
+              "explanation": "A right's scope includes its lawful conditions and exceptions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means response introducing a legal basis to avoid liability?",
+              "choices": [
+                "Legal element",
+                "Element chart",
+                "Exception",
+                "Affirmative defense"
+              ],
+              "answer_index": 3,
+              "explanation": "Affirmative defense means response introducing a legal basis to avoid liability."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Legal element",
+                  "Required component of a claim"
+                ],
+                [
+                  "Exception",
+                  "Defined circumstance limiting a general rule"
+                ],
+                [
+                  "Affirmative defense",
+                  "Response introducing a legal basis to avoid liability"
+                ],
+                [
+                  "Element chart",
+                  "Map linking rules, facts and supporting evidence"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Required component of a claim is called ___.",
+              "answer": "Legal element",
+              "accept": [
+                "Legal element"
+              ],
+              "explanation": "The term is Legal element."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Map linking rules, facts and supporting evidence is called ___.",
+              "answer": "Element chart",
+              "accept": [
+                "Element chart"
+              ],
+              "explanation": "The term is Element chart."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Resolve competing rights in hard cases",
+          "summary": "Analyze facts where several people can assert plausible legal protections. Construct a transparent argument that identifies the governing test rather than assuming one right automatically defeats another.",
+          "checklist": [
+            "I can identify a genuine collision between rights",
+            "I can apply the jurisdiction's balancing or priority rule",
+            "I can explain least-restrictive alternatives where relevant"
+          ],
+          "sections": [
+            {
+              "title": "Two People Can Both Have Claims",
+              "body_md": "A reporter investigates a public official, while the official seeks protection against disclosure of intimate medical details. Expression and privacy may both be legally relevant. Neither label automatically wins. The lawyer must find the jurisdiction's applicable test, identify the public interest, examine the character of the information, and consider harm. Some systems use proportionality or balancing; others give stronger categorical protection. A persuasive argument must be anchored in the actual law, not a preferred abstract ranking.",
+              "example": null,
+              "audio_script": "A reporter investigates a public official, while the official seeks protection against disclosure of intimate medical details. Expression and privacy may both be legally relevant. Neither label automatically wins. The lawyer must find the jurisdiction's applicable test, identify the public interest, examine the character of the information, and consider harm. Some systems use proportionality or balancing; others give stronger categorical protection. A persuasive argument must be anchored in the actual law, not a preferred abstract ranking.",
+              "video": null
+            },
+            {
+              "title": "The Facts Move the Balance",
+              "body_md": "Publication of a public budget decision is different from publication of a person's unrelated medical record. The difference matters because the asserted public interest and intrusion are not identical. A good argument explains which factual features are legally material under the governing test. If the law asks whether a restriction is necessary, the lawyer should evaluate alternatives rather than merely repeat 'important right.' Careful comparison preserves both interests while showing why the rule yields a particular result.",
+              "example": null,
+              "audio_script": "Publication of a public budget decision is different from publication of a person's unrelated medical record. The difference matters because the asserted public interest and intrusion are not identical. A good argument explains which factual features are legally material under the governing test. If the law asks whether a restriction is necessary, the lawyer should evaluate alternatives rather than merely repeat 'important right.' Careful comparison preserves both interests while showing why the rule yields a particular result.",
+              "video": null
+            },
+            {
+              "title": "Build the Best Counterargument",
+              "body_md": "Rights litigation often fails when counsel assumes opponents have no serious claim. Identify the strongest adverse authority and the factual point most favorable to the other side. Then answer it with the source, distinction or principle that genuinely supports the client's position. If the result is uncertain, explain that. This method produces stronger advocacy and better client advice because it anticipates the decision maker's concern instead of treating the conflict as a morality play.",
+              "example": null,
+              "audio_script": "Rights litigation often fails when counsel assumes opponents have no serious claim. Identify the strongest adverse authority and the factual point most favorable to the other side. Then answer it with the source, distinction or principle that genuinely supports the client's position. If the result is uncertain, explain that. This method produces stronger advocacy and better client advice because it anticipates the decision maker's concern instead of treating the conflict as a morality play.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q1",
+              "type": "true_false",
+              "prompt": "Proportionality means test of a restriction's justification and degree.",
+              "answer": true,
+              "explanation_if_true": "Proportionality means test of a restriction's justification and degree.",
+              "explanation_if_false": "Proportionality means test of a restriction's justification and degree."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q2",
+              "type": "true_false",
+              "prompt": "A right to expression necessarily permits publication of any personal information in all circumstances.",
+              "answer": false,
+              "explanation_if_true": "Expression and privacy can conflict, and the applicable law determines their balance.",
+              "explanation_if_false": "Expression and privacy can conflict, and the applicable law determines their balance."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Rights collision?",
+              "choices": [
+                "Test of a restriction's justification and degree",
+                "Difference affecting application of a legal rule",
+                "Reasoned objection to a proposed legal conclusion",
+                "Conflict among legally protected interests"
+              ],
+              "answer_index": 3,
+              "explanation": "Rights collision means conflict among legally protected interests."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A reporter can tell a public-interest story without revealing unrelated medical details. What may matter under proportionality?",
+              "choices": [
+                "The official's favorite newspaper",
+                "Whether both people are lawyers",
+                "A less intrusive alternative",
+                "The reporter's preferred font"
+              ],
+              "answer_index": 2,
+              "explanation": "Less restrictive means can matter where proportionality controls."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means difference affecting application of a legal rule?",
+              "choices": [
+                "Counterargument",
+                "Proportionality",
+                "Material distinction",
+                "Rights collision"
+              ],
+              "answer_index": 2,
+              "explanation": "Material distinction means difference affecting application of a legal rule."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Rights collision",
+                  "Conflict among legally protected interests"
+                ],
+                [
+                  "Proportionality",
+                  "Test of a restriction's justification and degree"
+                ],
+                [
+                  "Material distinction",
+                  "Difference affecting application of a legal rule"
+                ],
+                [
+                  "Counterargument",
+                  "Reasoned objection to a proposed legal conclusion"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q7",
+              "type": "fill_in",
+              "prompt": "Conflict among legally protected interests is called ___.",
+              "answer": "Rights collision",
+              "accept": [
+                "Rights collision"
+              ],
+              "explanation": "The term is Rights collision."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.orange.q8",
+              "type": "fill_in",
+              "prompt": "Reasoned objection to a proposed legal conclusion is called ___.",
+              "answer": "Counterargument",
+              "accept": [
+                "Counterargument"
+              ],
+              "explanation": "The term is Counterargument."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Develop a coherent theory of contested legal rights",
+          "summary": "At doctoral depth, evaluate why some rights deserve priority and who is entitled to make that judgment. Make legal theory serve accurate interpretation and human protection rather than mere abstraction.",
+          "checklist": [
+            "I can distinguish text-based interpretation from moral argument",
+            "I can evaluate institutional limits in rights adjudication",
+            "I can defend a principled account of right-conflicts under uncertainty"
+          ],
+          "sections": [
+            {
+              "title": "Rights Language Can Hide Theory",
+              "body_md": "A constitutional guarantee of liberty may be interpreted through text, structure, history, precedent and competing moral accounts. A decision maker's choice among these methods can shape outcomes. A doctoral argument must identify which approaches are authorized by the system and why any moral reasoning should influence interpretation. Merely calling a favored result 'fundamental' does not demonstrate legal authority. The aim is to make the path from sources to conclusion visible to readers who disagree.",
+              "example": null,
+              "audio_script": "A constitutional guarantee of liberty may be interpreted through text, structure, history, precedent and competing moral accounts. A decision maker's choice among these methods can shape outcomes. A doctoral argument must identify which approaches are authorized by the system and why any moral reasoning should influence interpretation. Merely calling a favored result 'fundamental' does not demonstrate legal authority. The aim is to make the path from sources to conclusion visible to readers who disagree.",
+              "video": null
+            },
+            {
+              "title": "Priority Has Institutional Consequences",
+              "body_md": "Courts may protect minorities against majoritarian rules, but judges also hold coercive power and limited democratic accountability. Legislatures may bring information and public deliberation, but can overlook unpopular groups. A rights theory must explain which institution should decide, what factual record it needs, and how decisions can be corrected. The best approach does not assume either judicial supremacy or legislative control solves every conflict. It defends the procedural structure under which substantive rights are vindicated.",
+              "example": null,
+              "audio_script": "Courts may protect minorities against majoritarian rules, but judges also hold coercive power and limited democratic accountability. Legislatures may bring information and public deliberation, but can overlook unpopular groups. A rights theory must explain which institution should decide, what factual record it needs, and how decisions can be corrected. The best approach does not assume either judicial supremacy or legislative control solves every conflict. It defends the procedural structure under which substantive rights are vindicated.",
+              "video": null
+            },
+            {
+              "title": "A Great Lawyer Protects the Person",
+              "body_md": "A rights claim can affect freedom, family, safety and a client's ability to live with dignity. Counsel should communicate complex tests in terms the person understands, present choices honestly, and avoid using a vulnerable client as a vehicle for an attractive test case without consent. Doctoral legal mastery includes recognizing the tension between doctrinal reform and individual welfare. A sophisticated legal theory is worthwhile when it helps people understand, assert and protect their rights in the real world.",
+              "example": null,
+              "audio_script": "A rights claim can affect freedom, family, safety and a client's ability to live with dignity. Counsel should communicate complex tests in terms the person understands, present choices honestly, and avoid using a vulnerable client as a vehicle for an attractive test case without consent. Doctoral legal mastery includes recognizing the tension between doctrinal reform and individual welfare. A sophisticated legal theory is worthwhile when it helps people understand, assert and protect their rights in the real world.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q1",
+              "type": "true_false",
+              "prompt": "Interpretive method means recognized approach to deriving legal meaning.",
+              "answer": true,
+              "explanation_if_true": "Interpretive method means recognized approach to deriving legal meaning.",
+              "explanation_if_false": "Interpretive method means recognized approach to deriving legal meaning."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q2",
+              "type": "true_false",
+              "prompt": "The lawyer's preferred rights theory may override the client's informed objectives in every case.",
+              "answer": false,
+              "explanation_if_true": "Representation must respect lawful client autonomy and professional obligations.",
+              "explanation_if_false": "Representation must respect lawful client autonomy and professional obligations."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition describes Rights theory?",
+              "choices": [
+                "Justification for a decision maker's authority",
+                "Client's informed ability to direct legal objectives",
+                "Account of why and how entitlements deserve legal protection",
+                "Recognized approach to deriving legal meaning"
+              ],
+              "answer_index": 2,
+              "explanation": "Rights theory means account of why and how entitlements deserve legal protection."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Counsel wishes to bring a risky constitutional test case, but the client primarily seeks quick protection. What is required?",
+              "choices": [
+                "Treat doctrinal novelty as the only objective",
+                "Explain options and respect informed lawful client choices",
+                "Conceal strategic risks",
+                "File before consulting the client"
+              ],
+              "answer_index": 1,
+              "explanation": "Intellectual ambition does not replace the duty to serve the person's interests."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means justification for a decision maker's authority?",
+              "choices": [
+                "Interpretive method",
+                "Institutional legitimacy",
+                "Rights theory",
+                "Client autonomy"
+              ],
+              "answer_index": 1,
+              "explanation": "Institutional legitimacy means justification for a decision maker's authority."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical concept with its meaning.",
+              "pairs": [
+                [
+                  "Rights theory",
+                  "Account of why and how entitlements deserve legal protection"
+                ],
+                [
+                  "Interpretive method",
+                  "Recognized approach to deriving legal meaning"
+                ],
+                [
+                  "Institutional legitimacy",
+                  "Justification for a decision maker's authority"
+                ],
+                [
+                  "Client autonomy",
+                  "Client's informed ability to direct legal objectives"
+                ]
+              ],
+              "explanation": "The distinctions help isolate the governing legal question."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q7",
+              "type": "fill_in",
+              "prompt": "Account of why and how entitlements deserve legal protection is called ___.",
+              "answer": "Rights theory",
+              "accept": [
+                "Rights theory"
+              ],
+              "explanation": "The term is Rights theory."
+            },
+            {
+              "id": "PSU-1.4.core_principles.rights.black.q8",
+              "type": "fill_in",
+              "prompt": "Client's informed ability to direct legal objectives is called ___.",
+              "answer": "Client autonomy",
+              "accept": [
+                "Client autonomy"
+              ],
+              "explanation": "The term is Client autonomy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

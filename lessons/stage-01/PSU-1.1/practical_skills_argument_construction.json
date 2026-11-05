@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "argument-construction",
+      "name": "Argument Construction",
+      "levels": {
+        "red": {
+          "focus": "Build a legal explanation with a claim, rule, facts, and conclusion.",
+          "summary": "An argument is more than saying that an outcome feels fair. Learn to state a focused legal question, identify a valid rule, show how the facts satisfy or fail its conditions, and reach a careful conclusion.",
+          "checklist": [
+            "I can state an issue without assuming its answer",
+            "I can connect one legally relevant fact to a rule",
+            "I can give a qualified conclusion rather than a promise"
+          ],
+          "sections": [
+            {
+              "title": "An argument answers one question",
+              "body_md": "A customer claims that a merchant failed to deliver a paid-for item. The customer wants a refund. First ask which legal system and contract terms govern, whether payment and promised delivery are documented, and whether any legally recognized excuse applies. The question could be framed: Did the seller breach an enforceable delivery obligation, and what relief may follow? The wording matters because it tells the listener what must be decided. Anger alone cannot establish a breach, and a sympathetic client still needs legally relevant facts.",
+              "example": null,
+              "audio_script": "A customer claims that a merchant failed to deliver a paid-for item. The customer wants a refund. First ask which legal system and contract terms govern, whether payment and promised delivery are documented, and whether any legally recognized excuse applies. The question could be framed: Did the seller breach an enforceable delivery obligation, and what relief may follow? The wording matters because it tells the listener what must be decided. Anger alone cannot establish a breach, and a sympathetic client still needs legally relevant facts.",
+              "video": null
+            },
+            {
+              "title": "Connect a rule to evidence",
+              "body_md": "Suppose the contract required shipment by September 1 and a tracking record indicates no shipment by September 10. The legal rule may require proof of a binding obligation, nonperformance, and a remedy under governing law. Put the contract beside the rule, and explain what the tracking record does and does not show. The seller might offer a valid contractual extension or evidence of delivery. A useful argument should acknowledge that possibility rather than pretending contrary information does not exist. The evidence makes the explanation checkable.",
+              "example": null,
+              "audio_script": "Suppose the contract required shipment by September 1 and a tracking record indicates no shipment by September 10. The legal rule may require proof of a binding obligation, nonperformance, and a remedy under governing law. Put the contract beside the rule, and explain what the tracking record does and does not show. The seller might offer a valid contractual extension or evidence of delivery. A useful argument should acknowledge that possibility rather than pretending contrary information does not exist. The evidence makes the explanation checkable.",
+              "video": null
+            },
+            {
+              "title": "Conclude without overpromising",
+              "body_md": "The conclusion can say that the buyer appears to have a viable nonperformance claim if the shipment date was binding and no valid excuse exists. Next steps include checking contractual remedies and local filing requirements. This is better than saying the customer will certainly win or that the seller should be punished. Clear legal writing uses simple connecting words—because, however, therefore—to show why facts matter. Its purpose is to help a person understand a decision and options, not merely impress them with complicated vocabulary.",
+              "example": null,
+              "audio_script": "The conclusion can say that the buyer appears to have a viable nonperformance claim if the shipment date was binding and no valid excuse exists. Next steps include checking contractual remedies and local filing requirements. This is better than saying the customer will certainly win or that the seller should be punished. Clear legal writing uses simple connecting words—because, however, therefore—to show why facts matter. Its purpose is to help a person understand a decision and options, not merely impress them with complicated vocabulary.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q1",
+              "type": "true_false",
+              "prompt": "A legal argument should explain how particular evidence supports the conditions of the governing rule.",
+              "answer": true,
+              "explanation_if_true": "Application is what connects legal authority to the case at hand.",
+              "explanation_if_false": "Application is what connects legal authority to the case at hand."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q2",
+              "type": "true_false",
+              "prompt": "A strong legal argument must ignore all plausible evidence against the client.",
+              "answer": false,
+              "explanation_if_true": "Accurate advocacy anticipates contrary proof and does not conceal material uncertainty.",
+              "explanation_if_false": "Accurate advocacy anticipates contrary proof and does not conceal material uncertainty."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A contract sets a shipment date and the seller disputes missing delivery. What belongs in the argument?",
+              "choices": [
+                "Unverified claims about the seller's motives",
+                "The controlling term, reliable delivery evidence and any valid defense",
+                "Only the buyer's frustration",
+                "A guarantee that every late item is criminal fraud"
+              ],
+              "answer_index": 1,
+              "explanation": "Arguments link actual legal elements with supported facts."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which conclusion best communicates uncertainty?",
+              "choices": [
+                "A claim appears available if the date was binding and no excuse applies",
+                "Victory is absolutely certain",
+                "Contracts never require proof",
+                "The judge must favor the buyer"
+              ],
+              "answer_index": 0,
+              "explanation": "Qualified advice explains what facts or rules could change the result."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Issue mean?",
+              "choices": [
+                "Legal question requiring a decision",
+                "Explanation of how a rule relates to particular facts",
+                "Outcome stated with relevant conditions or uncertainty",
+                "Reasoned connection between authority, facts and a proposed conclusion"
+              ],
+              "answer_index": 0,
+              "explanation": "Issue means legal question requiring a decision."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q6",
+              "type": "matching",
+              "prompt": "Match reasoning and advocacy concepts.",
+              "pairs": [
+                [
+                  "Legal argument",
+                  "Reasoned connection between authority, facts and a proposed conclusion"
+                ],
+                [
+                  "Issue",
+                  "Legal question requiring a decision"
+                ],
+                [
+                  "Application",
+                  "Explanation of how a rule relates to particular facts"
+                ],
+                [
+                  "Qualified conclusion",
+                  "Outcome stated with relevant conditions or uncertainty"
+                ]
+              ],
+              "explanation": "A persuasive argument must connect authority, facts, objections and relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for reasoned connection between authority, facts and a proposed conclusion is ___.",
+              "answer": "Legal argument",
+              "accept": [
+                "Legal argument"
+              ],
+              "explanation": "The answer is Legal argument."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for outcome stated with relevant conditions or uncertainty is ___.",
+              "answer": "Qualified conclusion",
+              "accept": [
+                "Qualified conclusion"
+              ],
+              "explanation": "The answer is Qualified conclusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Write a structured IRAC or CREAC analysis with a fair counterargument.",
+          "summary": "Issue–Rule–Application–Conclusion and Conclusion–Rule–Explanation–Application–Conclusion are frameworks for clear legal reasoning. Use them to make each element testable, incorporate authority accurately, and answer the strongest opposing claim.",
+          "checklist": [
+            "I can organize one element of a claim using IRAC or CREAC",
+            "I can use an authoritative source instead of a vague slogan",
+            "I can write and answer a plausible counterargument"
+          ],
+          "sections": [
+            {
+              "title": "Structure follows the question",
+              "body_md": "A pedestrian is injured when a shop's delivery cart rolls onto a walkway. The issue might be whether the shop breached a duty of reasonable care. State the jurisdiction's governing negligence rule; then identify the duty's relevant conditions and cases. Describe what the shop knew about a defective brake and what precautions were feasible, separating established facts from testimony still in dispute. Conclude on that element, not the entire lawsuit. The IRAC framework is a memory aid; it cannot replace verifying the rule and evidence.",
+              "example": null,
+              "audio_script": "A pedestrian is injured when a shop's delivery cart rolls onto a walkway. The issue might be whether the shop breached a duty of reasonable care. State the jurisdiction's governing negligence rule; then identify the duty's relevant conditions and cases. Describe what the shop knew about a defective brake and what precautions were feasible, separating established facts from testimony still in dispute. Conclude on that element, not the entire lawsuit. The IRAC framework is a memory aid; it cannot replace verifying the rule and evidence.",
+              "video": null
+            },
+            {
+              "title": "Authority needs explanation, not decoration",
+              "body_md": "A brief should not list three cases without saying why each matters. Explain a holding's material facts, legal principle, and relationship to the delivery cart. An earlier case involving a similar defect may support foreseeability; another involving an unforeseeable external force may be distinguishable. Check subsequent treatment before calling any case controlling. CREAC places the tentative conclusion up front, then gives the rule and its explanation before application and final conclusion. Either organization should make the chain of reasoning accessible to an unfamiliar reader.",
+              "example": null,
+              "audio_script": "A brief should not list three cases without saying why each matters. Explain a holding's material facts, legal principle, and relationship to the delivery cart. An earlier case involving a similar defect may support foreseeability; another involving an unforeseeable external force may be distinguishable. Check subsequent treatment before calling any case controlling. CREAC places the tentative conclusion up front, then gives the rule and its explanation before application and final conclusion. Either organization should make the chain of reasoning accessible to an unfamiliar reader.",
+              "video": null
+            },
+            {
+              "title": "Answer the best opposing argument",
+              "body_md": "The shop may assert that a stranger moved the cart after staff had secured it. If evidence supports that account, it can affect breach or causation. State the strongest version of the defense and explain what testimony or record would distinguish it from the pedestrian's theory. A weak rebuttal that calls the shop dishonest without evidence may damage credibility. The conclusion should identify the evidentiary hinge and recommended next inquiry. Good advocacy is not a refusal to acknowledge a real risk; it is a precise explanation of why one legal result is better supported.",
+              "example": null,
+              "audio_script": "The shop may assert that a stranger moved the cart after staff had secured it. If evidence supports that account, it can affect breach or causation. State the strongest version of the defense and explain what testimony or record would distinguish it from the pedestrian's theory. A weak rebuttal that calls the shop dishonest without evidence may damage credibility. The conclusion should identify the evidentiary hinge and recommended next inquiry. Good advocacy is not a refusal to acknowledge a real risk; it is a precise explanation of why one legal result is better supported.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q1",
+              "type": "true_false",
+              "prompt": "IRAC and CREAC are organizational aids, not substitutes for identifying governing law.",
+              "answer": true,
+              "explanation_if_true": "The quality of a legal argument depends on its authority, facts and application.",
+              "explanation_if_false": "The quality of a legal argument depends on its authority, facts and application."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q2",
+              "type": "true_false",
+              "prompt": "A lawyer should describe an adverse controlling judgment as favorable if doing so improves the structure of a brief.",
+              "answer": false,
+              "explanation_if_true": "Candor and accurate treatment of authority are essential to legitimate advocacy.",
+              "explanation_if_false": "Candor and accurate treatment of authority are essential to legitimate advocacy."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "An opposing precedent involves a brake defect caused by sabotage, while the new case involves known wear. What is a sound response?",
+              "choices": [
+                "Explain why the legally material cause and foreseeability may differ",
+                "Omit the precedent without analysis",
+                "Invent a dissent favoring the client",
+                "Repeat the case name without facts"
+              ],
+              "answer_index": 0,
+              "explanation": "A material distinction can limit a precedent without misrepresenting it."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What makes a counterargument valuable in a brief?",
+              "choices": [
+                "It replaces the need for evidence",
+                "It ensures the court cannot disagree",
+                "It authorizes personal attacks on opposing counsel",
+                "It tests the preferred claim against the strongest plausible opposing theory"
+              ],
+              "answer_index": 3,
+              "explanation": "Confronting contrary reasoning improves legal reliability."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What does CREAC mean?",
+              "choices": [
+                "Reasoned competing position to be addressed",
+                "Explaining why another case's material differences limit its force",
+                "Issue, Rule, Application, Conclusion organization",
+                "Conclusion, Rule, Explanation, Application, Conclusion organization"
+              ],
+              "answer_index": 3,
+              "explanation": "CREAC means conclusion, rule, explanation, application, conclusion organization."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q6",
+              "type": "matching",
+              "prompt": "Match reasoning and advocacy concepts.",
+              "pairs": [
+                [
+                  "IRAC",
+                  "Issue, Rule, Application, Conclusion organization"
+                ],
+                [
+                  "CREAC",
+                  "Conclusion, Rule, Explanation, Application, Conclusion organization"
+                ],
+                [
+                  "Counterargument",
+                  "Reasoned competing position to be addressed"
+                ],
+                [
+                  "Distinguishing authority",
+                  "Explaining why another case's material differences limit its force"
+                ]
+              ],
+              "explanation": "A persuasive argument must connect authority, facts, objections and relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for issue, rule, application, conclusion organization is ___.",
+              "answer": "IRAC",
+              "accept": [
+                "IRAC"
+              ],
+              "explanation": "The answer is IRAC."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for explaining why another case's material differences limit its force is ___.",
+              "answer": "Distinguishing authority",
+              "accept": [
+                "Distinguishing authority"
+              ],
+              "explanation": "The answer is Distinguishing authority."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Construct appellate arguments from text, precedent, standard of review and remedy.",
+          "summary": "An appellate position must identify what was preserved, which legal question the reviewing court can decide, and the standard governing each issue. Build a persuasive brief without confusing factual dispute with legal error.",
+          "checklist": [
+            "I can separate an appealable legal error from disputed fact",
+            "I can connect the standard of review to the argument's structure",
+            "I can state an authorized remedy proportionate to the alleged error"
+          ],
+          "sections": [
+            {
+              "title": "Know what the reviewing tribunal can do",
+              "body_md": "A trial court excludes a witness and enters judgment. The dissatisfied party wants the appeal court to rehear everything, but appellate jurisdiction and standards of review may limit that ambition. Begin with the precise decision, the authority for review, whether the point was preserved, and any requirement to show prejudice. A question about interpreting a statute may receive different review from a factual finding or evidentiary ruling. A master's-level argument cannot simply declare the trial judge wrong without naming the legal route by which correction is possible.",
+              "example": null,
+              "audio_script": "A trial court excludes a witness and enters judgment. The dissatisfied party wants the appeal court to rehear everything, but appellate jurisdiction and standards of review may limit that ambition. Begin with the precise decision, the authority for review, whether the point was preserved, and any requirement to show prejudice. A question about interpreting a statute may receive different review from a factual finding or evidentiary ruling. A master's-level argument cannot simply declare the trial judge wrong without naming the legal route by which correction is possible.",
+              "video": null
+            },
+            {
+              "title": "Organize each proposition around authority",
+              "body_md": "State the applicable standard of review before relying on cases that govern a different posture. Then give the challenged ruling, controlling legal test, record citations, error alleged, and why it mattered to the outcome. A precedent concerning clear error may not support a demand for unrestricted reconsideration of witness credibility. Use a carefully explained analogy and address adverse binding cases. A well-structured appellate argument narrows the dispute to something the tribunal can legitimately decide. It should not smuggle in facts outside the record as though they were established below.",
+              "example": null,
+              "audio_script": "State the applicable standard of review before relying on cases that govern a different posture. Then give the challenged ruling, controlling legal test, record citations, error alleged, and why it mattered to the outcome. A precedent concerning clear error may not support a demand for unrestricted reconsideration of witness credibility. Use a carefully explained analogy and address adverse binding cases. A well-structured appellate argument narrows the dispute to something the tribunal can legitimately decide. It should not smuggle in facts outside the record as though they were established below.",
+              "video": null
+            },
+            {
+              "title": "Ask for relief the court may grant",
+              "body_md": "Even an established mistake may not justify a new trial if governing harmless-error principles apply. Explain how the error affected substantial rights where that is required. The requested remedy might be reversal, remand, reconsideration, or a narrower direction, depending on law and posture. Distinguish a victory on a legal proposition from practical relief for the client. Test the best opposing case: perhaps the excluded witness was cumulative or the ruling fell within authorized discretion. A strong brief gives the court a lawful path to the result it requests.",
+              "example": null,
+              "audio_script": "Even an established mistake may not justify a new trial if governing harmless-error principles apply. Explain how the error affected substantial rights where that is required. The requested remedy might be reversal, remand, reconsideration, or a narrower direction, depending on law and posture. Distinguish a victory on a legal proposition from practical relief for the client. Test the best opposing case: perhaps the excluded witness was cumulative or the ruling fell within authorized discretion. A strong brief gives the court a lawful path to the result it requests.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q1",
+              "type": "true_false",
+              "prompt": "An appellate argument should identify the standard of review and explain why an alleged error warrants relief.",
+              "answer": true,
+              "explanation_if_true": "The power to correct a decision depends on jurisdiction, preservation and legal standards.",
+              "explanation_if_false": "The power to correct a decision depends on jurisdiction, preservation and legal standards."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q2",
+              "type": "true_false",
+              "prompt": "An appellate court always retries all facts from scratch whenever a litigant dislikes the verdict.",
+              "answer": false,
+              "explanation_if_true": "Appellate review is constrained by governing standards, record and jurisdiction.",
+              "explanation_if_false": "Appellate review is constrained by governing standards, record and jurisdiction."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An appellant argues that excluding testimony was wrong but does not explain whether it mattered. What may be missing?",
+              "choices": [
+                "A longer list of the judge's hobbies",
+                "A claim that all rulings are reviewed de novo",
+                "A promise that every exclusion is reversible",
+                "An analysis of prejudice and available remedy"
+              ],
+              "answer_index": 3,
+              "explanation": "Some legal systems require a showing that an error affected the outcome or rights."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Why identify preservation in an appellate brief?",
+              "choices": [
+                "It replaces all merits analysis",
+                "It is another word for witness credibility",
+                "A point may be limited if not properly raised before the lower tribunal",
+                "It determines whether the litigant is wealthy"
+              ],
+              "answer_index": 2,
+              "explanation": "Preservation can condition which arguments are available on appeal."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Preservation mean?",
+              "choices": [
+                "Return of a case to another tribunal for action",
+                "Measure of scrutiny an appellate body applies to a decision",
+                "Procedural steps needed to raise an issue on appeal",
+                "Mistake not warranting relief under a governing prejudice rule"
+              ],
+              "answer_index": 2,
+              "explanation": "Preservation means procedural steps needed to raise an issue on appeal."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q6",
+              "type": "matching",
+              "prompt": "Match reasoning and advocacy concepts.",
+              "pairs": [
+                [
+                  "Standard of review",
+                  "Measure of scrutiny an appellate body applies to a decision"
+                ],
+                [
+                  "Preservation",
+                  "Procedural steps needed to raise an issue on appeal"
+                ],
+                [
+                  "Harmless error",
+                  "Mistake not warranting relief under a governing prejudice rule"
+                ],
+                [
+                  "Remand",
+                  "Return of a case to another tribunal for action"
+                ]
+              ],
+              "explanation": "A persuasive argument must connect authority, facts, objections and relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for measure of scrutiny an appellate body applies to a decision is ___.",
+              "answer": "Standard of review",
+              "accept": [
+                "Standard of review"
+              ],
+              "explanation": "The answer is Standard of review."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for return of a case to another tribunal for action is ___.",
+              "answer": "Remand",
+              "accept": [
+                "Remand"
+              ],
+              "explanation": "The answer is Remand."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design an ethically legitimate theory of persuasive adjudicative reasons.",
+          "summary": "Persuasive legal arguments must work within institutional authority while acknowledging uncertainty, values and the people affected by a decision. Synthesize doctrinal rigor, practical consequences, interpretive theory and professional candor.",
+          "checklist": [
+            "I can identify hidden normative assumptions in an otherwise technical argument",
+            "I can balance institutional competence with legal principle and effects",
+            "I can design a reasoned position that addresses adverse authority and affected persons"
+          ],
+          "sections": [
+            {
+              "title": "Reasoning needs premises that can be challenged",
+              "body_md": "A constitutional challenge may rely on a textual command, judicial precedent, and a policy prediction about how restrictions affect minorities. Those are different types of premises. A doctoral argument makes their status explicit: what source binds, what principle is contested, what empirical claim requires support, and what result the institution may lawfully deliver. Do not invoke dignity or liberty as decorative words without explaining their legal relationship to the dispute. The opposing party should be able to identify the real point of disagreement instead of guessing at the advocate's assumptions.",
+              "example": null,
+              "audio_script": "A constitutional challenge may rely on a textual command, judicial precedent, and a policy prediction about how restrictions affect minorities. Those are different types of premises. A doctoral argument makes their status explicit: what source binds, what principle is contested, what empirical claim requires support, and what result the institution may lawfully deliver. Do not invoke dignity or liberty as decorative words without explaining their legal relationship to the dispute. The opposing party should be able to identify the real point of disagreement instead of guessing at the advocate's assumptions.",
+              "video": null
+            },
+            {
+              "title": "Candor is part of persuasive strength",
+              "body_md": "In jurisdictions following rules akin to the American Bar Association's Model Rule 3.3, an advocate owes duties not to make knowingly false statements and, in specified circumstances, to disclose directly adverse controlling authority the opponent has not identified. Local professional rules govern; the model provision is not a universal code. Acknowledging a damaging case can help the court trust the lawyer's distinction or request for principled reconsideration. Hiding authority may temporarily simplify a narrative but undermines adjudication and exposes the client to legal and professional risk.",
+              "example": null,
+              "audio_script": "In jurisdictions following rules akin to the American Bar Association's Model Rule 3.3, an advocate owes duties not to make knowingly false statements and, in specified circumstances, to disclose directly adverse controlling authority the opponent has not identified. Local professional rules govern; the model provision is not a universal code. Acknowledging a damaging case can help the court trust the lawyer's distinction or request for principled reconsideration. Hiding authority may temporarily simplify a narrative but undermines adjudication and exposes the client to legal and professional risk.",
+              "video": null
+            },
+            {
+              "title": "Build a remedy-centered constitutional argument",
+              "body_md": "Suppose a benefits system systematically denies applicants with limited language access. A robust argument identifies statutory procedures, applicable equality rights, institutional competence, evidence of impact, and the strongest legitimate administrative justification. It then proposes relief proportionate to the proven wrong, with attention to the applicants who urgently need support. Compare competing interpretations fairly and explain why one is superior under governing law. The best position does not just win a rhetorical contest; it gives the tribunal a defensible decision, a workable remedy, and public reasons for the people who must live with it.",
+              "example": null,
+              "audio_script": "Suppose a benefits system systematically denies applicants with limited language access. A robust argument identifies statutory procedures, applicable equality rights, institutional competence, evidence of impact, and the strongest legitimate administrative justification. It then proposes relief proportionate to the proven wrong, with attention to the applicants who urgently need support. Compare competing interpretations fairly and explain why one is superior under governing law. The best position does not just win a rhetorical contest; it gives the tribunal a defensible decision, a workable remedy, and public reasons for the people who must live with it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q1",
+              "type": "true_false",
+              "prompt": "A persuasive legal argument can become stronger by accurately confronting adverse controlling authority.",
+              "answer": true,
+              "explanation_if_true": "Candor enables a credible explanation of why a competing holding is distinguishable or should be revisited.",
+              "explanation_if_false": "Candor enables a credible explanation of why a competing holding is distinguishable or should be revisited."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q2",
+              "type": "true_false",
+              "prompt": "A lawyer's duty of advocacy always permits knowingly false statements of fact to a tribunal.",
+              "answer": false,
+              "explanation_if_true": "Professional candor obligations prohibit deception in the applicable legal framework.",
+              "explanation_if_false": "Professional candor obligations prohibit deception in the applicable legal framework."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Counsel knows a directly adverse controlling case that opposing counsel omitted. What is the appropriate analytical response?",
+              "choices": [
+                "Invent a favorable holding",
+                "Misquote the court",
+                "Check governing disclosure duties and address the case accurately",
+                "Destroy the research record"
+              ],
+              "answer_index": 2,
+              "explanation": "Ethical advocacy includes candid treatment of authority under the rules that apply."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What makes a sophisticated requested remedy persuasive?",
+              "choices": [
+                "It relies only on political popularity",
+                "It follows from proven legal error and the tribunal's lawful powers",
+                "It is the most punitive imaginable regardless of cause",
+                "It is detached from the client's interest"
+              ],
+              "answer_index": 1,
+              "explanation": "A judgment must connect the wrong, legal authority and actual relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Adverse authority mean?",
+              "choices": [
+                "Claim supporting a reasoned legal conclusion",
+                "Legal source supporting a competing result",
+                "Legal capacity of a tribunal to decide and grant relief",
+                "Relationship between a proven wrong and requested relief"
+              ],
+              "answer_index": 1,
+              "explanation": "Adverse authority means legal source supporting a competing result."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q6",
+              "type": "matching",
+              "prompt": "Match reasoning and advocacy concepts.",
+              "pairs": [
+                [
+                  "Argument premise",
+                  "Claim supporting a reasoned legal conclusion"
+                ],
+                [
+                  "Adverse authority",
+                  "Legal source supporting a competing result"
+                ],
+                [
+                  "Institutional competence",
+                  "Legal capacity of a tribunal to decide and grant relief"
+                ],
+                [
+                  "Remedial fit",
+                  "Relationship between a proven wrong and requested relief"
+                ]
+              ],
+              "explanation": "A persuasive argument must connect authority, facts, objections and relief."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for claim supporting a reasoned legal conclusion is ___.",
+              "answer": "Argument premise",
+              "accept": [
+                "Argument premise"
+              ],
+              "explanation": "The answer is Argument premise."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.argument-construction.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for relationship between a proven wrong and requested relief is ___.",
+              "answer": "Remedial fit",
+              "accept": [
+                "Remedial fit"
+              ],
+              "explanation": "The answer is Remedial fit."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

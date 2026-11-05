@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "formalism-vs-pragmatism",
+      "name": "Formalism vs Pragmatism",
+      "levels": {
+        "red": {
+          "focus": "Explain why the written rule and its practical purpose both matter.",
+          "summary": "Formal legal reasoning asks what authoritative rules require; pragmatic reasoning considers what an interpretation will do in the real world. Learn to use consequences responsibly without inventing powers or ignoring clear law.",
+          "checklist": [
+            "I can identify an applicable rule before deciding a case",
+            "I can recognize consequences that help explain a legal ambiguity",
+            "I can distinguish legal interpretation from a preferred policy"
+          ],
+          "sections": [
+            {
+              "title": "Begin with what law actually says",
+              "body_md": "A city requires delivery vehicles to stop in a marked zone. A driver parks a delivery van there, but an ambulance must enter to reach an injured person. The ordinary meaning of the regulation matters because people should be able to know the rule in advance. Yet its text may not expressly address emergencies. A lawyer should read the rule, identify any existing exemptions, and examine the lawful method of interpretation before advising either driver. Ignoring text or treating it as infinitely flexible would create uncertainty.",
+              "example": null,
+              "audio_script": "A city requires delivery vehicles to stop in a marked zone. A driver parks a delivery van there, but an ambulance must enter to reach an injured person. The ordinary meaning of the regulation matters because people should be able to know the rule in advance. Yet its text may not expressly address emergencies. A lawyer should read the rule, identify any existing exemptions, and examine the lawful method of interpretation before advising either driver. Ignoring text or treating it as infinitely flexible would create uncertainty.",
+              "video": null
+            },
+            {
+              "title": "Purpose can clarify a hard case",
+              "body_md": "Suppose the stopping rule was intended to prevent dangerous congestion, not delay emergency medical care. That purpose may help interpret an ambiguity where the legal system permits purpose-based reasoning. It does not permit a court to rewrite clear legislation whenever the court dislikes an outcome. The law may include an emergency defense or provide a mechanism for amendment. A sound argument explains how the chosen interpretation follows from recognized sources and why its practical result is relevant under the governing method.",
+              "example": null,
+              "audio_script": "Suppose the stopping rule was intended to prevent dangerous congestion, not delay emergency medical care. That purpose may help interpret an ambiguity where the legal system permits purpose-based reasoning. It does not permit a court to rewrite clear legislation whenever the court dislikes an outcome. The law may include an emergency defense or provide a mechanism for amendment. A sound argument explains how the chosen interpretation follows from recognized sources and why its practical result is relevant under the governing method.",
+              "video": null
+            },
+            {
+              "title": "The client needs more than a slogan",
+              "body_md": "A worker asks whether the ambulance driver will be punished. Saying 'rules are rules' gives no analysis; saying 'good intentions excuse everything' is equally unreliable. Identify the exact legal offense, facts, defenses, and competent decision maker. Then distinguish the law as currently interpreted from a proposal to improve it. This discipline lets legal reasoning remain both realistic and answerable to institutions. A judge's obligation is not to pick the most appealing story without explanation.",
+              "example": null,
+              "audio_script": "A worker asks whether the ambulance driver will be punished. Saying 'rules are rules' gives no analysis; saying 'good intentions excuse everything' is equally unreliable. Identify the exact legal offense, facts, defenses, and competent decision maker. Then distinguish the law as currently interpreted from a proposal to improve it. This discipline lets legal reasoning remain both realistic and answerable to institutions. A judge's obligation is not to pick the most appealing story without explanation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q1",
+              "type": "true_false",
+              "prompt": "Practical consequences may help interpret an ambiguous rule where the governing legal method permits them.",
+              "answer": true,
+              "explanation_if_true": "Context and purpose can be legally relevant without overriding authoritative sources.",
+              "explanation_if_false": "Context and purpose can be legally relevant without overriding authoritative sources."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q2",
+              "type": "true_false",
+              "prompt": "A judge is authorized to ignore any clear statute merely because a different outcome seems kinder.",
+              "answer": false,
+              "explanation_if_true": "The lawful interpretive method and institutional role constrain decisions.",
+              "explanation_if_false": "The lawful interpretive method and institutional role constrain decisions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q3",
+              "type": "multiple_choice",
+              "prompt": "An ambulance enters a restricted delivery zone during an emergency. What should counsel investigate first?",
+              "choices": [
+                "Whether every emergency cancels all statutes",
+                "The rule, recognized exceptions, and controlling interpretation",
+                "Only the driver's good intentions",
+                "Only whether the zone is busy"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal reasons must link purpose and practical circumstances to existing law."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which answer best avoids two extremes?",
+              "choices": [
+                "Apply governing text while considering context under lawful standards",
+                "Never consult a statute's words",
+                "Ignore consequences even if law makes them relevant",
+                "Let every lawyer choose a different law"
+              ],
+              "answer_index": 0,
+              "explanation": "Interpretation respects authority and the legal relevance of consequences."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Pragmatic reasoning?",
+              "choices": [
+                "Analysis attentive to practical effects and context",
+                "Determination of the meaning of a governing source",
+                "Ideal of public power exercised under lawful standards",
+                "Analysis emphasizing authoritative rules and their application"
+              ],
+              "answer_index": 0,
+              "explanation": "Pragmatic reasoning means analysis attentive to practical effects and context."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept.",
+              "pairs": [
+                [
+                  "Formal reasoning",
+                  "Analysis emphasizing authoritative rules and their application"
+                ],
+                [
+                  "Pragmatic reasoning",
+                  "Analysis attentive to practical effects and context"
+                ],
+                [
+                  "Legal interpretation",
+                  "Determination of the meaning of a governing source"
+                ],
+                [
+                  "Rule of law",
+                  "Ideal of public power exercised under lawful standards"
+                ]
+              ],
+              "explanation": "Realism, interpretation, and doctrine contribute different kinds of reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q7",
+              "type": "fill_in",
+              "prompt": "The concept for analysis emphasizing authoritative rules and their application is ___.",
+              "answer": "Formal reasoning",
+              "accept": [
+                "Formal reasoning"
+              ],
+              "explanation": "The term is Formal reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.red.q8",
+              "type": "fill_in",
+              "prompt": "The concept for ideal of public power exercised under lawful standards is ___.",
+              "answer": "Rule of law",
+              "accept": [
+                "Rule of law"
+              ],
+              "explanation": "The term is Rule of law."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Distinguish textual, purposive, and precedent-based interpretation.",
+          "summary": "Legal formality can constrain arbitrariness while purpose-oriented reasoning can resolve genuine ambiguity. Identify which interpretive tools the jurisdiction recognizes and how a lawyer must justify choosing among them.",
+          "checklist": [
+            "I can state an ordinary textual argument accurately",
+            "I can use purpose without inventing legislative intention",
+            "I can recognize precedent as a constraint on interpretation"
+          ],
+          "sections": [
+            {
+              "title": "Text supplies a shared starting point",
+              "body_md": "A statute states that permits must be issued within thirty days. The number and verb matter; courts should not treat them as decorative. Yet additional provisions may specify when the period begins and consequences of delay. Textual analysis reads words within the enacted structure and accepted legal usage. It does not require ignoring context. A lawyer should compare competing readings and explain which one better respects the source before appealing to the policy outcome favored by the client.",
+              "example": null,
+              "audio_script": "A statute states that permits must be issued within thirty days. The number and verb matter; courts should not treat them as decorative. Yet additional provisions may specify when the period begins and consequences of delay. Textual analysis reads words within the enacted structure and accepted legal usage. It does not require ignoring context. A lawyer should compare competing readings and explain which one better respects the source before appealing to the policy outcome favored by the client.",
+              "video": null
+            },
+            {
+              "title": "Purpose may illuminate uncertainty",
+              "body_md": "Suppose the statute aims to prevent agencies from leaving applicants indefinitely uncertain, but does not specify whether holidays count. Legislative structure, definitions, related enactments, and recognized interpretive conventions may clarify the issue. A purposive argument can be rigorous when it identifies a legally relevant purpose and applies it to actual language. It becomes suspect when a lawyer invents an intention no source supports. A mature student distinguishes a statute's objective from a free-standing preference for a convenient result.",
+              "example": null,
+              "audio_script": "Suppose the statute aims to prevent agencies from leaving applicants indefinitely uncertain, but does not specify whether holidays count. Legislative structure, definitions, related enactments, and recognized interpretive conventions may clarify the issue. A purposive argument can be rigorous when it identifies a legally relevant purpose and applies it to actual language. It becomes suspect when a lawyer invents an intention no source supports. A mature student distinguishes a statute's objective from a free-standing preference for a convenient result.",
+              "video": null
+            },
+            {
+              "title": "Precedent sets boundaries",
+              "body_md": "A higher court may have already interpreted the same thirty-day provision. A lower court ordinarily must respect binding precedent under its legal system, even where another reading seems preferable. It can sometimes distinguish materially different facts or apply a later valid statute. The strength of an interpretation depends on institutional authority, not only on persuasive writing. A rule-based advocate should also acknowledge that binding sources can leave gaps; recognizing a gap is not the same as claiming judges possess unlimited legislative freedom.",
+              "example": null,
+              "audio_script": "A higher court may have already interpreted the same thirty-day provision. A lower court ordinarily must respect binding precedent under its legal system, even where another reading seems preferable. It can sometimes distinguish materially different facts or apply a later valid statute. The strength of an interpretation depends on institutional authority, not only on persuasive writing. A rule-based advocate should also acknowledge that binding sources can leave gaps; recognizing a gap is not the same as claiming judges possess unlimited legislative freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q1",
+              "type": "true_false",
+              "prompt": "Reading a statute's words in context is consistent with disciplined textual interpretation.",
+              "answer": true,
+              "explanation_if_true": "Text must be understood within the legal instrument and recognized usage.",
+              "explanation_if_false": "Text must be understood within the legal instrument and recognized usage."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q2",
+              "type": "true_false",
+              "prompt": "Purposive interpretation permits a court to invent any goal and override the enacted words.",
+              "answer": false,
+              "explanation_if_true": "Legally relevant purpose must be grounded in authoritative materials and interpretive rules.",
+              "explanation_if_false": "Legally relevant purpose must be grounded in authoritative materials and interpretive rules."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A statute's deadline is unclear about holidays and a higher court has interpreted it. What is especially relevant?",
+              "choices": [
+                "The statute's text, context and binding precedent",
+                "Only the plaintiff's preferred deadline",
+                "Only informal agency rumor",
+                "A judge's personal schedule"
+              ],
+              "answer_index": 0,
+              "explanation": "Interpretation starts with legal sources and their authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Which claim about precedent is accurate?",
+              "choices": [
+                "Every court opinion anywhere binds every later judge",
+                "A popular commentary automatically repeals a statute",
+                "Pragmatism makes all hierarchy irrelevant",
+                "A court's place in the hierarchy can constrain its available readings"
+              ],
+              "answer_index": 3,
+              "explanation": "The law of precedent assigns different weight to different decisions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Purposive interpretation?",
+              "choices": [
+                "Prior decision authoritative for a later court",
+                "Choice permitted by law where sources leave room",
+                "Reading enacted words in their legal context",
+                "Construction informed by legally relevant objectives"
+              ],
+              "answer_index": 3,
+              "explanation": "Purposive interpretation means construction informed by legally relevant objectives."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept.",
+              "pairs": [
+                [
+                  "Textual interpretation",
+                  "Reading enacted words in their legal context"
+                ],
+                [
+                  "Purposive interpretation",
+                  "Construction informed by legally relevant objectives"
+                ],
+                [
+                  "Binding precedent",
+                  "Prior decision authoritative for a later court"
+                ],
+                [
+                  "Judicial discretion",
+                  "Choice permitted by law where sources leave room"
+                ]
+              ],
+              "explanation": "Realism, interpretation, and doctrine contribute different kinds of reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The concept for reading enacted words in their legal context is ___.",
+              "answer": "Textual interpretation",
+              "accept": [
+                "Textual interpretation"
+              ],
+              "explanation": "The term is Textual interpretation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The concept for choice permitted by law where sources leave room is ___.",
+              "answer": "Judicial discretion",
+              "accept": [
+                "Judicial discretion"
+              ],
+              "explanation": "The term is Judicial discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Examine legal realism and law in action without abandoning doctrine.",
+          "summary": "Oliver Wendell Holmes and realist traditions attended to the practical behavior of legal institutions. Compare formal reasoning, empirical prediction and the normative question of what judges ought to decide.",
+          "checklist": [
+            "I can explain a realist concern with actual adjudicative behavior",
+            "I can distinguish predicting decisions from justifying them",
+            "I can evaluate the limits of case-sensitive judicial pragmatism"
+          ],
+          "sections": [
+            {
+              "title": "Law operates in institutions, not only in books",
+              "body_md": "Oliver Wendell Holmes Jr.'s influential writings emphasized the practical life of legal rules and the importance of experience rather than pure logical deduction alone. Later legal realists studied how courts decide, how facts are characterized, and how institutions respond to social conditions. That attention can reveal that a clean doctrinal formula produces uneven results in practice. It does not prove that every judge acts only on personal whim or that written sources cease to matter. A strong argument treats doctrine and institutional evidence as complementary subjects.",
+              "example": null,
+              "audio_script": "Oliver Wendell Holmes Jr.'s influential writings emphasized the practical life of legal rules and the importance of experience rather than pure logical deduction alone. Later legal realists studied how courts decide, how facts are characterized, and how institutions respond to social conditions. That attention can reveal that a clean doctrinal formula produces uneven results in practice. It does not prove that every judge acts only on personal whim or that written sources cease to matter. A strong argument treats doctrine and institutional evidence as complementary subjects.",
+              "video": null
+            },
+            {
+              "title": "Prediction differs from legal justification",
+              "body_md": "A lawyer may predict that a court will uphold an agency because it has historically been deferential. That can be useful client advice, but it does not establish that the agency's act is lawful or that the result is morally justified. A realist description of judicial behavior is not automatically a norm prescribing how judges should act. The lawyer must separately identify controlling legal doctrine, empirical reasons for the prediction, and any argument for reform. Conflating them makes both advice and jurisprudence less reliable.",
+              "example": null,
+              "audio_script": "A lawyer may predict that a court will uphold an agency because it has historically been deferential. That can be useful client advice, but it does not establish that the agency's act is lawful or that the result is morally justified. A realist description of judicial behavior is not automatically a norm prescribing how judges should act. The lawyer must separately identify controlling legal doctrine, empirical reasons for the prediction, and any argument for reform. Conflating them makes both advice and jurisprudence less reliable.",
+              "video": null
+            },
+            {
+              "title": "Pragmatism needs accountable limits",
+              "body_md": "A judge interpreting an open-ended consumer-protection statute may consider foreseeable market effects and the burdens of alternative rules, where authorized. The consequences matter, but so do enacted language, precedent, parties' rights, and institutional competence. A purely outcome-driven ruling risks making law unpredictable. An advanced pragmatic account explains which effects are legally relevant, how evidence supports them, and why the court may consider those effects. It should remain open to the possibility that the best policy cannot lawfully be enacted by judicial interpretation.",
+              "example": null,
+              "audio_script": "A judge interpreting an open-ended consumer-protection statute may consider foreseeable market effects and the burdens of alternative rules, where authorized. The consequences matter, but so do enacted language, precedent, parties' rights, and institutional competence. A purely outcome-driven ruling risks making law unpredictable. An advanced pragmatic account explains which effects are legally relevant, how evidence supports them, and why the court may consider those effects. It should remain open to the possibility that the best policy cannot lawfully be enacted by judicial interpretation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q1",
+              "type": "true_false",
+              "prompt": "A useful prediction about judicial behavior can be different from an argument that the predicted decision is lawful.",
+              "answer": true,
+              "explanation_if_true": "Descriptive evidence and normative or doctrinal reasons answer different questions.",
+              "explanation_if_false": "Descriptive evidence and normative or doctrinal reasons answer different questions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q2",
+              "type": "true_false",
+              "prompt": "Legal realism necessarily means that statutes and precedents exert no influence on any judge.",
+              "answer": false,
+              "explanation_if_true": "Realist inquiry into actual practice does not require such a sweeping denial.",
+              "explanation_if_false": "Realist inquiry into actual practice does not require such a sweeping denial."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An attorney predicts a court's decision from past patterns without asserting that the result is legally correct. What kind of claim is that?",
+              "choices": [
+                "A binding constitutional amendment",
+                "A proof of moral obligation",
+                "A conclusive statutory interpretation",
+                "A descriptive prediction"
+              ],
+              "answer_index": 3,
+              "explanation": "Predicting institutional behavior is different from defending the law's proper meaning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A pragmatic judge weighs effects not authorized by the governing rule. What concern arises?",
+              "choices": [
+                "Only economic analysis can decide rights",
+                "Empirical data always create jurisdiction",
+                "The court may exceed its interpretive role",
+                "Every use of evidence is forbidden"
+              ],
+              "answer_index": 2,
+              "explanation": "Practical reasoning must remain connected to legally recognized authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Holmesian perspective?",
+              "choices": [
+                "Assertion about how law or institutions ought to behave",
+                "Approach examining how legal institutions actually decide",
+                "Emphasis on experience and practical operation of law",
+                "Assertion about how institutions behave"
+              ],
+              "answer_index": 2,
+              "explanation": "Holmesian perspective means emphasis on experience and practical operation of law."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept.",
+              "pairs": [
+                [
+                  "Legal realism",
+                  "Approach examining how legal institutions actually decide"
+                ],
+                [
+                  "Holmesian perspective",
+                  "Emphasis on experience and practical operation of law"
+                ],
+                [
+                  "Descriptive claim",
+                  "Assertion about how institutions behave"
+                ],
+                [
+                  "Normative claim",
+                  "Assertion about how law or institutions ought to behave"
+                ]
+              ],
+              "explanation": "Realism, interpretation, and doctrine contribute different kinds of reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q7",
+              "type": "fill_in",
+              "prompt": "The concept for approach examining how legal institutions actually decide is ___.",
+              "answer": "Legal realism",
+              "accept": [
+                "Legal realism"
+              ],
+              "explanation": "The term is Legal realism."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.orange.q8",
+              "type": "fill_in",
+              "prompt": "The concept for assertion about how law or institutions ought to behave is ___.",
+              "answer": "Normative claim",
+              "accept": [
+                "Normative claim"
+              ],
+              "explanation": "The term is Normative claim."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate law as integrity against instrumental and formalist accounts of judging.",
+          "summary": "Dworkin argued that interpretation should make legal practice a principled whole, while critics emphasize social sources and the danger of judges importing private moral theories. Defend a method that handles hard cases without dissolving institutional limits.",
+          "checklist": [
+            "I can state Dworkin's fit-and-justification aspiration",
+            "I can compare interpretivist and source-based challenges fairly",
+            "I can construct a reasoned judgment in a contested case"
+          ],
+          "sections": [
+            {
+              "title": "Interpretation involves justification",
+              "body_md": "Ronald Dworkin's law-as-integrity account holds that legal interpretation should seek the principles that both fit the community's institutional legal history and justify it in its best light. The metaphor of a chain novel highlights the responsibility to continue a shared practice rather than start a new one with every case. This does not reduce to judicial selection of the most personally attractive policy. The requirements of fit, existing decisions, and publicly defensible principles constrain what an interpreter may plausibly say the law is.",
+              "example": null,
+              "audio_script": "Ronald Dworkin's law-as-integrity account holds that legal interpretation should seek the principles that both fit the community's institutional legal history and justify it in its best light. The metaphor of a chain novel highlights the responsibility to continue a shared practice rather than start a new one with every case. This does not reduce to judicial selection of the most personally attractive policy. The requirements of fit, existing decisions, and publicly defensible principles constrain what an interpreter may plausibly say the law is.",
+              "video": null
+            },
+            {
+              "title": "Source-based objections deserve serious treatment",
+              "body_md": "Positivist thinkers argue that identifying law by social sources can explain legal validity without presuming that judges always find a single morally best interpretation. They may acknowledge difficult cases and morally relevant reasoning while disputing Dworkin's account of its status as pre-existing law. A doctoral comparison should distinguish cases where officials agree on the source but dispute its meaning from deeper disagreement about the grounds of law. Avoid the false claim that positivists regard unjust laws as morally binding merely because they are valid.",
+              "example": null,
+              "audio_script": "Positivist thinkers argue that identifying law by social sources can explain legal validity without presuming that judges always find a single morally best interpretation. They may acknowledge difficult cases and morally relevant reasoning while disputing Dworkin's account of its status as pre-existing law. A doctoral comparison should distinguish cases where officials agree on the source but dispute its meaning from deeper disagreement about the grounds of law. Avoid the false claim that positivists regard unjust laws as morally binding merely because they are valid.",
+              "video": null
+            },
+            {
+              "title": "Write a judgment that survives disagreement",
+              "body_md": "Suppose a court must interpret a law protecting workers against retaliation when a new type of platform work was unforeseen. State the enacted language, authoritative precedent, legitimate purpose, practical consequences, and strongest rival reading. Explain whether a principle of equal treatment fits the legal history, where institutional competence ends, and which reform needs legislation. A defensible decision does not promise moral perfection. It gives public reasons tied to the legal practice and shows how the affected worker and employer can understand the rule going forward.",
+              "example": null,
+              "audio_script": "Suppose a court must interpret a law protecting workers against retaliation when a new type of platform work was unforeseen. State the enacted language, authoritative precedent, legitimate purpose, practical consequences, and strongest rival reading. Explain whether a principle of equal treatment fits the legal history, where institutional competence ends, and which reform needs legislation. A defensible decision does not promise moral perfection. It gives public reasons tied to the legal practice and shows how the affected worker and employer can understand the rule going forward.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q1",
+              "type": "true_false",
+              "prompt": "Dworkin's law-as-integrity theory asks interpreters to consider both institutional fit and principled justification.",
+              "answer": true,
+              "explanation_if_true": "Interpretation should explain an existing legal practice rather than ignore its history.",
+              "explanation_if_false": "Interpretation should explain an existing legal practice rather than ignore its history."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q2",
+              "type": "true_false",
+              "prompt": "Every legal positivist maintains that the validity of a law creates an unconditional moral duty to obey.",
+              "answer": false,
+              "explanation_if_true": "The validity of a source and its moral value are distinct even for leading positivist theorists.",
+              "explanation_if_false": "The validity of a source and its moral value are distinct even for leading positivist theorists."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Two readings of a worker-protection statute fit some precedents, but differ in principled coherence. Which method examines both?",
+              "choices": [
+                "Pure prediction from a judge's biography",
+                "Strict exclusion of all precedent",
+                "Law as integrity",
+                "A rule that all statutes are optional"
+              ],
+              "answer_index": 2,
+              "explanation": "Interpretivism assesses legal fit and the principles that justify the practice."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What is a fair critique of unconstrained judicial pragmatism?",
+              "choices": [
+                "Judges may freely substitute themselves for legislatures",
+                "Practical benefits alone may not authorize a court to alter binding law",
+                "Consequences are never relevant in legal systems",
+                "All moral reasoning is always illegal"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal justification must respect the source and scope of judicial authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which description fits Fit?",
+              "choices": [
+                "Dworkin's account of coherent principled legal interpretation",
+                "Consistency of an interpretation with legal practice",
+                "Reasons showing a legal interpretation in a morally defensible light",
+                "Assessment of legal rules in relation to chosen practical ends"
+              ],
+              "answer_index": 1,
+              "explanation": "Fit means consistency of an interpretation with legal practice."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q6",
+              "type": "matching",
+              "prompt": "Match each interpretive concept.",
+              "pairs": [
+                [
+                  "Law as integrity",
+                  "Dworkin's account of coherent principled legal interpretation"
+                ],
+                [
+                  "Fit",
+                  "Consistency of an interpretation with legal practice"
+                ],
+                [
+                  "Justification",
+                  "Reasons showing a legal interpretation in a morally defensible light"
+                ],
+                [
+                  "Instrumentalism",
+                  "Assessment of legal rules in relation to chosen practical ends"
+                ]
+              ],
+              "explanation": "Realism, interpretation, and doctrine contribute different kinds of reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q7",
+              "type": "fill_in",
+              "prompt": "The concept for dworkin's account of coherent principled legal interpretation is ___.",
+              "answer": "Law as integrity",
+              "accept": [
+                "Law as integrity"
+              ],
+              "explanation": "The term is Law as integrity."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.formalism-vs-pragmatism.black.q8",
+              "type": "fill_in",
+              "prompt": "The concept for assessment of legal rules in relation to chosen practical ends is ___.",
+              "answer": "Instrumentalism",
+              "accept": [
+                "Instrumentalism"
+              ],
+              "explanation": "The term is Instrumentalism."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

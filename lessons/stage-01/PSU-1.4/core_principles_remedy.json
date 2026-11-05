@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "remedy",
+      "name": "Remedy",
+      "levels": {
+        "red": {
+          "focus": "Make a legal conclusion useful to the client",
+          "summary": "Analysis should end with an answer to the question actually asked and a realistic description of relief. Learn to distinguish the strength of a claim from the practical consequences of winning.",
+          "checklist": [
+            "I can state a conclusion using rule and facts",
+            "I can identify the remedy sought",
+            "I can avoid promising relief before checking its availability"
+          ],
+          "sections": [
+            {
+              "title": "An Answer Must Answer Something",
+              "body_md": "Suppose a customer asks whether they can recover a deposit after a seller fails to deliver goods. A useful legal conclusion identifies the controlling agreement and law, applies the relevant facts, and explains what return of money or other relief may be available. Saying the seller behaved badly is not enough. Saying the customer will definitely win may also be unjustified. The first skill is to connect a supported legal conclusion to the client's concrete goal.",
+              "example": null,
+              "audio_script": "Suppose a customer asks whether they can recover a deposit after a seller fails to deliver goods. A useful legal conclusion identifies the controlling agreement and law, applies the relevant facts, and explains what return of money or other relief may be available. Saying the seller behaved badly is not enough. Saying the customer will definitely win may also be unjustified. The first skill is to connect a supported legal conclusion to the client's concrete goal.",
+              "video": null
+            },
+            {
+              "title": "Relief Has Its Own Rules",
+              "body_md": "A claimant may establish a violation yet fail to obtain the remedy they prefer. Damages, restitution, injunctions and declarations are governed by distinct rules and institutional powers. For example, an order requiring personal performance may be unavailable or inappropriate even if a contract was breached. A good analysis asks which relief is authorized and what additional facts matter to its award. That question belongs alongside liability, not after it.",
+              "example": null,
+              "audio_script": "A claimant may establish a violation yet fail to obtain the remedy they prefer. Damages, restitution, injunctions and declarations are governed by distinct rules and institutional powers. For example, an order requiring personal performance may be unavailable or inappropriate even if a contract was breached. A good analysis asks which relief is authorized and what additional facts matter to its award. That question belongs alongside liability, not after it.",
+              "video": null
+            },
+            {
+              "title": "Use a Four-Part Answer",
+              "body_md": "State the likely result; give the governing rule; identify facts driving that result; and explain what should happen next. If a filing deadline or urgent risk exists, the client needs to know. Avoid turning a straightforward answer into a tour through unrelated doctrines. Concision improves legal reasoning when it preserves all necessary conditions. It is especially valuable to people anxious about housing, employment, health, or freedom.",
+              "example": null,
+              "audio_script": "State the likely result; give the governing rule; identify facts driving that result; and explain what should happen next. If a filing deadline or urgent risk exists, the client needs to know. Avoid turning a straightforward answer into a tour through unrelated doctrines. Concision improves legal reasoning when it preserves all necessary conditions. It is especially valuable to people anxious about housing, employment, health, or freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q1",
+              "type": "true_false",
+              "prompt": "Remedy means legally available response to a claim.",
+              "answer": true,
+              "explanation_if_true": "Remedy means legally available response to a claim.",
+              "explanation_if_false": "Remedy means legally available response to a claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q2",
+              "type": "true_false",
+              "prompt": "A court must grant every requested remedy whenever it finds a legal wrong.",
+              "answer": false,
+              "explanation_if_true": "Each remedy has its own conditions and limits.",
+              "explanation_if_false": "Each remedy has its own conditions and limits."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Legal conclusion?",
+              "choices": [
+                "Practical action following legal analysis",
+                "Reasoned answer to a defined legal issue",
+                "Legally available response to a claim",
+                "Return of an unjustly held benefit or value"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal conclusion means reasoned answer to a defined legal issue."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A client wants repayment, but counsel proves only that the contract was breached. What else must be checked?",
+              "choices": [
+                "Rules governing the requested relief",
+                "The clerk's name",
+                "Whether the buyer likes the court building",
+                "A country's flag"
+              ],
+              "answer_index": 0,
+              "explanation": "Breach does not automatically determine the form or amount of redress."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means return of an unjustly held benefit or value?",
+              "choices": [
+                "Restitution",
+                "Legal conclusion",
+                "Next step",
+                "Remedy"
+              ],
+              "answer_index": 0,
+              "explanation": "Restitution means return of an unjustly held benefit or value."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Legal conclusion",
+                  "Reasoned answer to a defined legal issue"
+                ],
+                [
+                  "Remedy",
+                  "Legally available response to a claim"
+                ],
+                [
+                  "Restitution",
+                  "Return of an unjustly held benefit or value"
+                ],
+                [
+                  "Next step",
+                  "Practical action following legal analysis"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q7",
+              "type": "fill_in",
+              "prompt": "Reasoned answer to a defined legal issue is called ___.",
+              "answer": "Legal conclusion",
+              "accept": [
+                "Legal conclusion"
+              ],
+              "explanation": "The term is Legal conclusion."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.red.q8",
+              "type": "fill_in",
+              "prompt": "Practical action following legal analysis is called ___.",
+              "answer": "Next step",
+              "accept": [
+                "Next step"
+              ],
+              "explanation": "The term is Next step."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Turn rule application into a balanced prediction",
+          "summary": "A legal memo should distinguish what a court could do from what it is likely to do. Learn how remedies, adverse evidence and procedural obstacles affect prediction.",
+          "checklist": [
+            "I can write a qualified prediction tied to specific facts",
+            "I can separate best and worst legally plausible outcomes",
+            "I can identify practical procedural obstacles"
+          ],
+          "sections": [
+            {
+              "title": "Prediction Is Not Advocacy",
+              "body_md": "A predictive memorandum must tell the client what is likely to happen, not simply why an advocate could argue for victory. That requires addressing adverse sources, missing proof and applicable remedy conditions. A balanced conclusion may be, 'The claim is plausible, but the requested injunction is uncertain because damages may be adequate.' That sentence is useful because it separates the strength of liability from the availability of preventive relief. An unqualified promise would hide the client's real risk.",
+              "example": null,
+              "audio_script": "A predictive memorandum must tell the client what is likely to happen, not simply why an advocate could argue for victory. That requires addressing adverse sources, missing proof and applicable remedy conditions. A balanced conclusion may be, 'The claim is plausible, but the requested injunction is uncertain because damages may be adequate.' That sentence is useful because it separates the strength of liability from the availability of preventive relief. An unqualified promise would hide the client's real risk.",
+              "video": null
+            },
+            {
+              "title": "Construct a Remedy Matrix",
+              "body_md": "List each possible legal remedy, the condition for obtaining it, the evidence available and the institutional limitations. A party might qualify for repayment while lacking a basis for consequential damages. Delay, proof of loss, or statutory caps may matter. A remedy matrix prevents the writer from treating all relief as one undifferentiated result. It also informs settlement: a client may value prompt, certain protection more than the chance of a larger but speculative judgment.",
+              "example": null,
+              "audio_script": "List each possible legal remedy, the condition for obtaining it, the evidence available and the institutional limitations. A party might qualify for repayment while lacking a basis for consequential damages. Delay, proof of loss, or statutory caps may matter. A remedy matrix prevents the writer from treating all relief as one undifferentiated result. It also informs settlement: a client may value prompt, certain protection more than the chance of a larger but speculative judgment.",
+              "video": null
+            },
+            {
+              "title": "Next Steps Carry Risk",
+              "body_md": "An apparently strong claim may be barred by a limitation period or filed in the wrong forum. A deadline can matter more immediately than the eventual merits. Good legal advice identifies what the client must preserve, investigate or decide next. It states urgency without inventing it. A lawyer who writes a beautiful essay while missing a procedural deadline has failed at the practical purpose of legal reasoning.",
+              "example": null,
+              "audio_script": "An apparently strong claim may be barred by a limitation period or filed in the wrong forum. A deadline can matter more immediately than the eventual merits. Good legal advice identifies what the client must preserve, investigate or decide next. It states urgency without inventing it. A lawyer who writes a beautiful essay while missing a procedural deadline has failed at the practical purpose of legal reasoning.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Remedy matrix means comparison of available relief and its requirements.",
+              "answer": true,
+              "explanation_if_true": "Remedy matrix means comparison of available relief and its requirements.",
+              "explanation_if_false": "Remedy matrix means comparison of available relief and its requirements."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q2",
+              "type": "true_false",
+              "prompt": "Predictive legal analysis should omit adverse evidence to make the client's prospects look stronger.",
+              "answer": false,
+              "explanation_if_true": "A realistic prediction addresses weaknesses and uncertainty.",
+              "explanation_if_false": "A realistic prediction addresses weaknesses and uncertainty."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Predictive memorandum?",
+              "choices": [
+                "Objective assessment of likely legal outcome",
+                "Comparison of available relief and its requirements",
+                "Time restriction governing a claim",
+                "Result stated with supported uncertainty"
+              ],
+              "answer_index": 0,
+              "explanation": "Predictive memorandum means objective assessment of likely legal outcome."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Liability is strong, but money may fully repair the loss. Why is an injunction uncertain?",
+              "choices": [
+                "The claim cannot involve contract",
+                "The court never awards damages",
+                "The witness's handwriting",
+                "Remedy-specific requirements may not be met"
+              ],
+              "answer_index": 3,
+              "explanation": "Proof of a wrong does not establish entitlement to preventive relief."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means time restriction governing a claim?",
+              "choices": [
+                "Predictive memorandum",
+                "Qualified conclusion",
+                "Remedy matrix",
+                "Limitation period"
+              ],
+              "answer_index": 3,
+              "explanation": "Limitation period means time restriction governing a claim."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Predictive memorandum",
+                  "Objective assessment of likely legal outcome"
+                ],
+                [
+                  "Remedy matrix",
+                  "Comparison of available relief and its requirements"
+                ],
+                [
+                  "Limitation period",
+                  "Time restriction governing a claim"
+                ],
+                [
+                  "Qualified conclusion",
+                  "Result stated with supported uncertainty"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Objective assessment of likely legal outcome is called ___.",
+              "answer": "Predictive memorandum",
+              "accept": [
+                "Predictive memorandum"
+              ],
+              "explanation": "The term is Predictive memorandum."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Result stated with supported uncertainty is called ___.",
+              "answer": "Qualified conclusion",
+              "accept": [
+                "Qualified conclusion"
+              ],
+              "explanation": "The term is Qualified conclusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare remedies under strategic and institutional constraints",
+          "summary": "Advanced legal reasoning evaluates relief through forum, timing, enforcement and client preference. Learn why the strongest theoretical argument may not produce the best practical result.",
+          "checklist": [
+            "I can evaluate interim and final relief separately",
+            "I can compare litigation and settlement outcomes",
+            "I can account for enforceability and unintended effects"
+          ],
+          "sections": [
+            {
+              "title": "Temporary Relief Has Another Question",
+              "body_md": "A tenant may need an urgent order preserving a home before a final hearing. Courts often apply special standards for interim relief, including risk of irreparable harm, likelihood of success or balance of hardship under the governing jurisdiction. A final decision on liability answers different questions. A sound analysis keeps the two tests separate. It should explain what must be established now, what remains disputed, and the consequences of granting or denying temporary protection.",
+              "example": null,
+              "audio_script": "A tenant may need an urgent order preserving a home before a final hearing. Courts often apply special standards for interim relief, including risk of irreparable harm, likelihood of success or balance of hardship under the governing jurisdiction. A final decision on liability answers different questions. A sound analysis keeps the two tests separate. It should explain what must be established now, what remains disputed, and the consequences of granting or denying temporary protection.",
+              "video": null
+            },
+            {
+              "title": "The Best Remedy Is Not Always the Largest",
+              "body_md": "A drawn-out trial may promise substantial damages but consume the client's savings and time. Settlement may provide certainty, confidentiality or practical cooperation that judgment cannot secure. Those are client decisions informed by accurate legal analysis, not reasons to pressure the person into compromise. An advanced lawyer compares expected outcomes, enforcement difficulty, costs, delay and the client's priorities. Ethical analysis includes risks to the client's life and relationships, not only financial estimates.",
+              "example": null,
+              "audio_script": "A drawn-out trial may promise substantial damages but consume the client's savings and time. Settlement may provide certainty, confidentiality or practical cooperation that judgment cannot secure. Those are client decisions informed by accurate legal analysis, not reasons to pressure the person into compromise. An advanced lawyer compares expected outcomes, enforcement difficulty, costs, delay and the client's priorities. Ethical analysis includes risks to the client's life and relationships, not only financial estimates.",
+              "video": null
+            },
+            {
+              "title": "A Judgment Needs Implementation",
+              "body_md": "Suppose a creditor wins a large judgment against a defendant with no collectible assets. The written victory may offer little immediate value. A lawyer should assess jurisdiction, execution procedures, possible insolvency issues and lawful assets research before promising collection. Likewise an institutional injunction may require supervision that a court cannot practically supply. Effective reasoning links doctrine, evidence, procedure and implementation. The client's question is rarely only 'can I win'; it is also 'what happens if I do?'",
+              "example": null,
+              "audio_script": "Suppose a creditor wins a large judgment against a defendant with no collectible assets. The written victory may offer little immediate value. A lawyer should assess jurisdiction, execution procedures, possible insolvency issues and lawful assets research before promising collection. Likewise an institutional injunction may require supervision that a court cannot practically supply. Effective reasoning links doctrine, evidence, procedure and implementation. The client's question is rarely only 'can I win'; it is also 'what happens if I do?'",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q1",
+              "type": "true_false",
+              "prompt": "Final relief means remedy following relevant final determination.",
+              "answer": true,
+              "explanation_if_true": "Final relief means remedy following relevant final determination.",
+              "explanation_if_false": "Final relief means remedy following relevant final determination."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q2",
+              "type": "true_false",
+              "prompt": "The highest hypothetical damages award is always the best outcome for every client.",
+              "answer": false,
+              "explanation_if_true": "Timing, costs, enforcement, risk and client goals can make alternatives better.",
+              "explanation_if_false": "Timing, costs, enforcement, risk and client goals can make alternatives better."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Interim relief?",
+              "choices": [
+                "Remedy following relevant final determination",
+                "Practical ability to compel or secure compliance",
+                "Range of plausible results considering probability and costs",
+                "Temporary order before final judgment"
+              ],
+              "answer_index": 3,
+              "explanation": "Interim relief means temporary order before final judgment."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A strong judgment is unlikely to be collected because the defendant has no available assets. What must advice address?",
+              "choices": [
+                "A longer introduction to the brief",
+                "The judge's preferred book",
+                "Practical enforceability and alternatives",
+                "Only the size of the judgment"
+              ],
+              "answer_index": 2,
+              "explanation": "The remedy's real value depends on more than winning on paper."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means practical ability to compel or secure compliance?",
+              "choices": [
+                "Expected outcome",
+                "Final relief",
+                "Enforceability",
+                "Interim relief"
+              ],
+              "answer_index": 2,
+              "explanation": "Enforceability means practical ability to compel or secure compliance."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Interim relief",
+                  "Temporary order before final judgment"
+                ],
+                [
+                  "Final relief",
+                  "Remedy following relevant final determination"
+                ],
+                [
+                  "Enforceability",
+                  "Practical ability to compel or secure compliance"
+                ],
+                [
+                  "Expected outcome",
+                  "Range of plausible results considering probability and costs"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q7",
+              "type": "fill_in",
+              "prompt": "Temporary order before final judgment is called ___.",
+              "answer": "Interim relief",
+              "accept": [
+                "Interim relief"
+              ],
+              "explanation": "The term is Interim relief."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.orange.q8",
+              "type": "fill_in",
+              "prompt": "Range of plausible results considering probability and costs is called ___.",
+              "answer": "Expected outcome",
+              "accept": [
+                "Expected outcome"
+              ],
+              "explanation": "The term is Expected outcome."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend legal remedies as a theory of practical justice",
+          "summary": "At doctoral depth, critique gaps between declared rights and effective protection. Design legal reasoning that accounts for systemic enforcement failures while remaining faithful to institutional limits.",
+          "checklist": [
+            "I can analyze effectiveness beyond formal victory",
+            "I can compare corrective, deterrent and structural objectives",
+            "I can propose accountable remedial strategies for vulnerable people"
+          ],
+          "sections": [
+            {
+              "title": "A Rights System Is Measured in Lives",
+              "body_md": "A person may win a declaration that public benefits were unlawfully denied yet receive no payments for months. The formal ruling is important but does not necessarily meet the urgent need. A doctoral legal analysis asks whether the available remedy is timely, accessible and enforceable. It also examines institutional barriers such as cost, complexity and repeated noncompliance. Describing these conditions accurately is not disrespect for law; it is part of understanding what law is for.",
+              "example": null,
+              "audio_script": "A person may win a declaration that public benefits were unlawfully denied yet receive no payments for months. The formal ruling is important but does not necessarily meet the urgent need. A doctoral legal analysis asks whether the available remedy is timely, accessible and enforceable. It also examines institutional barriers such as cost, complexity and repeated noncompliance. Describing these conditions accurately is not disrespect for law; it is part of understanding what law is for.",
+              "video": null
+            },
+            {
+              "title": "Remedial Purposes Can Diverge",
+              "body_md": "Compensation addresses past loss, deterrence seeks to prevent new wrongs, and structural relief attempts to change recurring institutional conduct. A single remedy may partly serve several goals, but their tensions should be made explicit. A large punitive award may deter yet create proportionality concerns; an injunction may protect many people while burdening nonparties. A scholarly proposal must identify which legal interest it prioritizes and what institutional powers can support the chosen design.",
+              "example": null,
+              "audio_script": "Compensation addresses past loss, deterrence seeks to prevent new wrongs, and structural relief attempts to change recurring institutional conduct. A single remedy may partly serve several goals, but their tensions should be made explicit. A large punitive award may deter yet create proportionality concerns; an injunction may protect many people while burdening nonparties. A scholarly proposal must identify which legal interest it prioritizes and what institutional powers can support the chosen design.",
+              "video": null
+            },
+            {
+              "title": "Make Justice Reviewable",
+              "body_md": "Imagine redesigning appeals for wrongful benefit denials. A principled proposal could require clear reasons, accessible review, provisional support in urgent cases, and transparent measurements of overturned decisions. Each step needs legal authority, financing, privacy safeguards and an opportunity to challenge mistakes. The objective is to reduce avoidable human harm without bypassing fair procedure. Great legal reasoning produces remedies that protect dignity and freedom while remaining accountable to the rule of law.",
+              "example": null,
+              "audio_script": "Imagine redesigning appeals for wrongful benefit denials. A principled proposal could require clear reasons, accessible review, provisional support in urgent cases, and transparent measurements of overturned decisions. Each step needs legal authority, financing, privacy safeguards and an opportunity to challenge mistakes. The objective is to reduce avoidable human harm without bypassing fair procedure. Great legal reasoning produces remedies that protect dignity and freedom while remaining accountable to the rule of law.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q1",
+              "type": "true_false",
+              "prompt": "Corrective aim means repair of an injury or wrong.",
+              "answer": true,
+              "explanation_if_true": "Corrective aim means repair of an injury or wrong.",
+              "explanation_if_false": "Corrective aim means repair of an injury or wrong."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q2",
+              "type": "true_false",
+              "prompt": "A formally successful judgment necessarily secures prompt, effective protection for the claimant.",
+              "answer": false,
+              "explanation_if_true": "Delay, cost, enforcement and institutional barriers can defeat practical redress.",
+              "explanation_if_false": "Delay, cost, enforcement and institutional barriers can defeat practical redress."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Remedial justice?",
+              "choices": [
+                "Prevention of future violations",
+                "Remedy aimed at continuing institutional practices",
+                "Justification and effectiveness of legal responses to wrongdoing",
+                "Repair of an injury or wrong"
+              ],
+              "answer_index": 2,
+              "explanation": "Remedial justice means justification and effectiveness of legal responses to wrongdoing."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A public agency continues illegal benefit denials after losing several cases. What additional inquiry is justified?",
+              "choices": [
+                "Whether claimants know the judge",
+                "Whether lawful structural remedies could prevent recurrence",
+                "Whether the agency has an elegant logo",
+                "Only the compensation already awarded"
+              ],
+              "answer_index": 1,
+              "explanation": "Repeated violations may require examining institution-level relief subject to lawful limits."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means prevention of future violations?",
+              "choices": [
+                "Corrective aim",
+                "Deterrent aim",
+                "Remedial justice",
+                "Structural relief"
+              ],
+              "answer_index": 1,
+              "explanation": "Deterrent aim means prevention of future violations."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q6",
+              "type": "matching",
+              "prompt": "Match each analytical term with its meaning.",
+              "pairs": [
+                [
+                  "Remedial justice",
+                  "Justification and effectiveness of legal responses to wrongdoing"
+                ],
+                [
+                  "Corrective aim",
+                  "Repair of an injury or wrong"
+                ],
+                [
+                  "Deterrent aim",
+                  "Prevention of future violations"
+                ],
+                [
+                  "Structural relief",
+                  "Remedy aimed at continuing institutional practices"
+                ]
+              ],
+              "explanation": "Accurate reasoning depends on these distinctions."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q7",
+              "type": "fill_in",
+              "prompt": "Justification and effectiveness of legal responses to wrongdoing is called ___.",
+              "answer": "Remedial justice",
+              "accept": [
+                "Remedial justice"
+              ],
+              "explanation": "The term is Remedial justice."
+            },
+            {
+              "id": "PSU-1.4.core_principles.remedy.black.q8",
+              "type": "fill_in",
+              "prompt": "Remedy aimed at continuing institutional practices is called ___.",
+              "answer": "Structural relief",
+              "accept": [
+                "Structural relief"
+              ],
+              "explanation": "The term is Structural relief."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

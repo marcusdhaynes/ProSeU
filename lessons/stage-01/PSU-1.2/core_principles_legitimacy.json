@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "legitimacy",
+      "name": "Legitimacy",
+      "levels": {
+        "red": {
+          "focus": "Ask why ancient rulers claimed a right to command",
+          "summary": "Begin with the visible symbols rulers used to present themselves as lawful guardians rather than mere holders of force. Learn why a claim of divine support is historical evidence of legitimacy, not proof that subjects freely consented.",
+          "checklist": [
+            "I can identify a claim to legitimate authority",
+            "I can interpret the iconography of Hammurabi's stele",
+            "I can distinguish political justification from actual consent"
+          ],
+          "sections": [
+            {
+              "title": "The Ruler Explains His Power",
+              "body_md": "At the top of Hammurabi's inscribed stele, the king appears before the sun god Shamash. The scene and surrounding legal judgments present royal justice within a sacred and political worldview. This tells us how the king wanted his authority understood: as more than personal ability to punish. It does not establish whether every inhabitant accepted the claim or how officials behaved. Studying legitimacy means asking which reasons a ruler offered for obedience and how those reasons related to the lived order.",
+              "example": null,
+              "audio_script": "At the top of Hammurabi's inscribed stele, the king appears before the sun god Shamash. The scene and surrounding legal judgments present royal justice within a sacred and political worldview. This tells us how the king wanted his authority understood: as more than personal ability to punish. It does not establish whether every inhabitant accepted the claim or how officials behaved. Studying legitimacy means asking which reasons a ruler offered for obedience and how those reasons related to the lived order.",
+              "video": null
+            },
+            {
+              "title": "Authority and Force Are Different",
+              "body_md": "A bandit may compel payment through fear. A ruler claims that a tax or judgment binds because an institution has lawful authority. Ancient legal texts often supported that claim through religion, tradition, ancestry or public order. These justifications could coexist with violence and hierarchy. A legal historian should neither dismiss them as meaningless nor accept them without criticism. Explain the belief system in which the authority claim was made, and then examine who gained protection or power under it.",
+              "example": null,
+              "audio_script": "A bandit may compel payment through fear. A ruler claims that a tax or judgment binds because an institution has lawful authority. Ancient legal texts often supported that claim through religion, tradition, ancestry or public order. These justifications could coexist with violence and hierarchy. A legal historian should neither dismiss them as meaningless nor accept them without criticism. Explain the belief system in which the authority claim was made, and then examine who gained protection or power under it.",
+              "video": null
+            },
+            {
+              "title": "A Question Every Era Faces",
+              "body_md": "Who may make rules for other people, and why should those rules be followed? This question connects Babylonian royal judgments with later constitutions and modern human rights. The vocabulary changes across centuries: sacred mandate, inherited custom, consent, sovereignty and popular participation may all appear. The historian's first duty is accuracy. Describe the reason each historical order gave for legitimate power before asking whether that reason satisfies broader standards of justice or freedom.",
+              "example": null,
+              "audio_script": "Who may make rules for other people, and why should those rules be followed? This question connects Babylonian royal judgments with later constitutions and modern human rights. The vocabulary changes across centuries: sacred mandate, inherited custom, consent, sovereignty and popular participation may all appear. The historian's first duty is accuracy. Describe the reason each historical order gave for legitimate power before asking whether that reason satisfies broader standards of justice or freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q1",
+              "type": "true_false",
+              "prompt": "Divine sanction describes assertion that a deity supports political authority.",
+              "answer": true,
+              "explanation_if_true": "Divine sanction refers to assertion that a deity supports political authority.",
+              "explanation_if_false": "Divine sanction refers to assertion that a deity supports political authority."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q2",
+              "type": "true_false",
+              "prompt": "The depiction of Shamash proves all Babylonian subjects freely consented to Hammurabi's judgments.",
+              "answer": false,
+              "explanation_if_true": "Royal iconography establishes an official claim, not universal consent.",
+              "explanation_if_false": "Royal iconography establishes an official claim, not universal consent."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Legitimacy?",
+              "choices": [
+                "Agreement or acceptance relevant to claimed authority",
+                "Justification claimed for rightful authority",
+                "Assertion that a deity supports political authority",
+                "Administration of law as a ruler's responsibility"
+              ],
+              "answer_index": 1,
+              "explanation": "Legitimacy means justification claimed for rightful authority."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A king's monument depicts a deity authorizing him to judge. What does the image directly show?",
+              "choices": [
+                "An official claim of divine legitimacy",
+                "A popular referendum",
+                "Equal rights for every person",
+                "The outcome of every trial"
+              ],
+              "answer_index": 0,
+              "explanation": "Political symbolism communicates a justification rather than demonstrating public agreement."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means administration of law as a ruler's responsibility?",
+              "choices": [
+                "Royal justice",
+                "Legitimacy",
+                "Consent",
+                "Divine sanction"
+              ],
+              "answer_index": 0,
+              "explanation": "Royal justice means administration of law as a ruler's responsibility."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Legitimacy",
+                  "Justification claimed for rightful authority"
+                ],
+                [
+                  "Divine sanction",
+                  "Assertion that a deity supports political authority"
+                ],
+                [
+                  "Royal justice",
+                  "Administration of law as a ruler's responsibility"
+                ],
+                [
+                  "Consent",
+                  "Agreement or acceptance relevant to claimed authority"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for justification claimed for rightful authority is ___.",
+              "answer": "Legitimacy",
+              "accept": [
+                "Legitimacy"
+              ],
+              "explanation": "The term is Legitimacy."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for agreement or acceptance relevant to claimed authority is ___.",
+              "answer": "Consent",
+              "accept": [
+                "Consent"
+              ],
+              "explanation": "The term is Consent."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare Roman republican authority with imperial centralization",
+          "summary": "Explore why Roman law's authority changed as its political institutions changed. Distinguish a formal claim that law serves the community from the practical concentration of power under an emperor.",
+          "checklist": [
+            "I can recognize institutional differences across Roman political periods",
+            "I can analyze why juristic authority matters",
+            "I can avoid conflating legal validity with democratic legitimacy"
+          ],
+          "sections": [
+            {
+              "title": "The Republic's Public Institutions",
+              "body_md": "Roman republican legal authority involved magistrates, assemblies, the senate and evolving legal practices. Their powers were not organized as a modern representative democracy, and participation was sharply limited by status and gender. Nevertheless, competing institutions and public lawmaking mattered for the claim that legal order rested on more than one person's whim. To understand a Roman source, identify its political period and the institution asserting authority. A rule associated with a republican assembly is not the same kind of source as a later imperial constitution.",
+              "example": null,
+              "audio_script": "Roman republican legal authority involved magistrates, assemblies, the senate and evolving legal practices. Their powers were not organized as a modern representative democracy, and participation was sharply limited by status and gender. Nevertheless, competing institutions and public lawmaking mattered for the claim that legal order rested on more than one person's whim. To understand a Roman source, identify its political period and the institution asserting authority. A rule associated with a republican assembly is not the same kind of source as a later imperial constitution.",
+              "video": null
+            },
+            {
+              "title": "The Emperor and the Jurist",
+              "body_md": "Under imperial rule, enactments issued through the emperor became central sources of legal authority. Jurists still developed legal analysis, and official recognition could influence whose opinions carried weight. This created an enduring tension between reasoning as a source of legal wisdom and institutional command as a source of legal force. The historian should trace how a particular legal proposition gained authority rather than assume that scholarly persuasiveness and binding status always coincide. That distinction remains important for modern legal scholarship.",
+              "example": null,
+              "audio_script": "Under imperial rule, enactments issued through the emperor became central sources of legal authority. Jurists still developed legal analysis, and official recognition could influence whose opinions carried weight. This created an enduring tension between reasoning as a source of legal wisdom and institutional command as a source of legal force. The historian should trace how a particular legal proposition gained authority rather than assume that scholarly persuasiveness and binding status always coincide. That distinction remains important for modern legal scholarship.",
+              "video": null
+            },
+            {
+              "title": "Legitimacy Without Idealization",
+              "body_md": "Roman legal institutions offered sophisticated methods for organizing disputes while reproducing social exclusions and imperial domination. Calling their legal tradition influential does not endorse its political structures. The advanced student should ask who could participate in lawmaking, who was governed without meaningful voice, and what mechanisms restrained the officials applying rules. It is possible for a system to produce coherent private law while leaving profound questions about the legitimacy of public power unanswered.",
+              "example": null,
+              "audio_script": "Roman legal institutions offered sophisticated methods for organizing disputes while reproducing social exclusions and imperial domination. Calling their legal tradition influential does not endorse its political structures. The advanced student should ask who could participate in lawmaking, who was governed without meaningful voice, and what mechanisms restrained the officials applying rules. It is possible for a system to produce coherent private law while leaving profound questions about the legitimacy of public power unanswered.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q1",
+              "type": "true_false",
+              "prompt": "Imperial enactment describes rule issued through recognized imperial authority.",
+              "answer": true,
+              "explanation_if_true": "Imperial enactment refers to rule issued through recognized imperial authority.",
+              "explanation_if_false": "Imperial enactment refers to rule issued through recognized imperial authority."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Roman Republic gave all inhabitants equal votes and legal powers.",
+              "answer": false,
+              "explanation_if_true": "Political participation and status in the Republic were strongly unequal.",
+              "explanation_if_false": "Political participation and status in the Republic were strongly unequal."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Republican institution?",
+              "choices": [
+                "Office or body exercising authority in the Roman Republic",
+                "Rule issued through recognized imperial authority",
+                "Weight accorded to expert legal interpretation",
+                "Justification of a political order's right to govern"
+              ],
+              "answer_index": 0,
+              "explanation": "Republican institution means office or body exercising authority in the roman republic."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A scholar says a jurist's persuasive view is automatically binding law in every Roman period. What distinction is missing?",
+              "choices": [
+                "The number of Roman provinces",
+                "How a stone tablet was carried",
+                "Whether ancient coins were minted",
+                "Scholarly reasoning versus recognized legal source"
+              ],
+              "answer_index": 3,
+              "explanation": "Expert reasoning and institutional legal force need separate historical analysis."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means weight accorded to expert legal interpretation?",
+              "choices": [
+                "Republican institution",
+                "Political legitimacy",
+                "Imperial enactment",
+                "Juristic authority"
+              ],
+              "answer_index": 3,
+              "explanation": "Juristic authority means weight accorded to expert legal interpretation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Republican institution",
+                  "Office or body exercising authority in the Roman Republic"
+                ],
+                [
+                  "Imperial enactment",
+                  "Rule issued through recognized imperial authority"
+                ],
+                [
+                  "Juristic authority",
+                  "Weight accorded to expert legal interpretation"
+                ],
+                [
+                  "Political legitimacy",
+                  "Justification of a political order's right to govern"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for office or body exercising authority in the roman republic is ___.",
+              "answer": "Republican institution",
+              "accept": [
+                "Republican institution"
+              ],
+              "explanation": "The term is Republican institution."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for justification of a political order's right to govern is ___.",
+              "answer": "Political legitimacy",
+              "accept": [
+                "Political legitimacy"
+              ],
+              "explanation": "The term is Political legitimacy."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain the constitutional transformation of legitimacy",
+          "summary": "Analyze how royal authority came to be constrained by charters, institutions and ideas of representative accountability. Distinguish historical negotiation over privilege from the later principle that state power must answer to law.",
+          "checklist": [
+            "I can explain how Magna Carta challenged unchecked royal action",
+            "I can trace the reinterpretation of charter-based restraints",
+            "I can compare inherited authority with institutional accountability"
+          ],
+          "sections": [
+            {
+              "title": "A Bargain Becomes a Symbol",
+              "body_md": "Magna Carta was negotiated in 1215 amid rebellion against King John. Its immediate operation was narrow and uncertain, but later generations treated it as a text supporting lawful limits on government. The legal historian must not collapse these two histories. In its first setting, the document addressed a specific political crisis; in its afterlife, lawyers and reformers used it to argue against arbitrary power. Its legitimacy story is therefore one of contested interpretation as well as formal enactment.",
+              "example": null,
+              "audio_script": "Magna Carta was negotiated in 1215 amid rebellion against King John. Its immediate operation was narrow and uncertain, but later generations treated it as a text supporting lawful limits on government. The legal historian must not collapse these two histories. In its first setting, the document addressed a specific political crisis; in its afterlife, lawyers and reformers used it to argue against arbitrary power. Its legitimacy story is therefore one of contested interpretation as well as formal enactment.",
+              "video": null
+            },
+            {
+              "title": "Accountability Requires Institutions",
+              "body_md": "A promise by a monarch is difficult to enforce without institutions able to recognize breach and demand correction. Historical developments involving parliament, courts, petitions and limits on executive action gradually altered the relationships among political powers in Britain. These processes were uneven and contested, not a straight march to modern democracy. A constitutional account should explain who could challenge the ruler, on what legal grounds, and with what effective remedy. A written limit without a means to invoke it may offer little protection.",
+              "example": null,
+              "audio_script": "A promise by a monarch is difficult to enforce without institutions able to recognize breach and demand correction. Historical developments involving parliament, courts, petitions and limits on executive action gradually altered the relationships among political powers in Britain. These processes were uneven and contested, not a straight march to modern democracy. A constitutional account should explain who could challenge the ruler, on what legal grounds, and with what effective remedy. A written limit without a means to invoke it may offer little protection.",
+              "video": null
+            },
+            {
+              "title": "Consent and the Rule of Law",
+              "body_md": "The idea that government should act under publicly knowable law is distinct from the idea that government rests on popular consent, although they may reinforce each other. Historical arrangements might offer legal restraints while excluding many people from political participation. A mature account of legitimacy asks both questions: is power constrained by rules, and do the governed have a justifiable voice in forming or contesting those rules? The charter tradition supplies part of the discussion, not a complete modern answer.",
+              "example": null,
+              "audio_script": "The idea that government should act under publicly knowable law is distinct from the idea that government rests on popular consent, although they may reinforce each other. Historical arrangements might offer legal restraints while excluding many people from political participation. A mature account of legitimacy asks both questions: is power constrained by rules, and do the governed have a justifiable voice in forming or contesting those rules? The charter tradition supplies part of the discussion, not a complete modern answer.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q1",
+              "type": "true_false",
+              "prompt": "Magna Carta describes 1215 charter later invoked against arbitrary rule.",
+              "answer": true,
+              "explanation_if_true": "Magna Carta refers to 1215 charter later invoked against arbitrary rule.",
+              "explanation_if_false": "Magna Carta refers to 1215 charter later invoked against arbitrary rule."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q2",
+              "type": "true_false",
+              "prompt": "A formally published charter by itself guarantees effective accountability in every case.",
+              "answer": false,
+              "explanation_if_true": "Rules require institutions and practical mechanisms capable of enforcing their limits.",
+              "explanation_if_false": "Rules require institutions and practical mechanisms capable of enforcing their limits."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Rule of law?",
+              "choices": [
+                "1215 charter later invoked against arbitrary rule",
+                "Mechanisms making officials answer for their conduct",
+                "Acceptance or authorization attributed to the governed",
+                "Principle that public power is subject to law"
+              ],
+              "answer_index": 3,
+              "explanation": "Rule of law means principle that public power is subject to law."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A ruler signs a charter but courts cannot review breaches and nobody may petition. What is especially missing?",
+              "choices": [
+                "A royal portrait",
+                "An imperial Roman census",
+                "Institutional accountability",
+                "A longer Latin preface"
+              ],
+              "answer_index": 2,
+              "explanation": "A constitutional promise gains practical value through mechanisms of enforcement and challenge."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means mechanisms making officials answer for their conduct?",
+              "choices": [
+                "Popular consent",
+                "Magna Carta",
+                "Institutional accountability",
+                "Rule of law"
+              ],
+              "answer_index": 2,
+              "explanation": "Institutional accountability means mechanisms making officials answer for their conduct."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Rule of law",
+                  "Principle that public power is subject to law"
+                ],
+                [
+                  "Magna Carta",
+                  "1215 charter later invoked against arbitrary rule"
+                ],
+                [
+                  "Institutional accountability",
+                  "Mechanisms making officials answer for their conduct"
+                ],
+                [
+                  "Popular consent",
+                  "Acceptance or authorization attributed to the governed"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for principle that public power is subject to law is ___.",
+              "answer": "Rule of law",
+              "accept": [
+                "Rule of law"
+              ],
+              "explanation": "The term is Rule of law."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for acceptance or authorization attributed to the governed is ___.",
+              "answer": "Popular consent",
+              "accept": [
+                "Popular consent"
+              ],
+              "explanation": "The term is Popular consent."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Evaluate legitimacy amid colonialism and plural legal orders",
+          "summary": "Question whether formally valid law is always entitled to obedience, especially where populations were conquered or excluded. Connect the moral responsibility of lawyers with the need for lawful, participatory and effective institutions.",
+          "checklist": [
+            "I can distinguish legal validity from moral legitimacy",
+            "I can analyze colonial imposition and plural legal authority",
+            "I can propose accountability centered on affected persons"
+          ],
+          "sections": [
+            {
+              "title": "Validity Does Not Finish the Argument",
+              "body_md": "A colonial administration may promulgate a code that its courts recognize as binding while the governed population lacks meaningful participation. A legal historian should accurately describe that positive law without confusing its institutional validity with a justified right to rule. Colonial legal change often combined imposed sources with selectively recognized local traditions. The resulting systems varied widely. A serious analysis examines the authority's origin, the rules for contesting power and the effects on persons whose legal knowledge or interests were marginalized.",
+              "example": null,
+              "audio_script": "A colonial administration may promulgate a code that its courts recognize as binding while the governed population lacks meaningful participation. A legal historian should accurately describe that positive law without confusing its institutional validity with a justified right to rule. Colonial legal change often combined imposed sources with selectively recognized local traditions. The resulting systems varied widely. A serious analysis examines the authority's origin, the rules for contesting power and the effects on persons whose legal knowledge or interests were marginalized.",
+              "video": null
+            },
+            {
+              "title": "More Than One Legal Voice",
+              "body_md": "National constitutions, Indigenous governance, religious legal traditions and international commitments can express overlapping claims of authority. They need not use identical concepts of property, family or public obligation. The presence of several traditions does not mean all decisions are equally valid under existing law. It does require identifying each system's source, participants and recognized relation to others. A doctoral legal historian should avoid portraying legal pluralism as either chaos or an automatic solution to domination. Institutional design determines whether coexistence protects or silences people.",
+              "example": null,
+              "audio_script": "National constitutions, Indigenous governance, religious legal traditions and international commitments can express overlapping claims of authority. They need not use identical concepts of property, family or public obligation. The presence of several traditions does not mean all decisions are equally valid under existing law. It does require identifying each system's source, participants and recognized relation to others. A doctoral legal historian should avoid portraying legal pluralism as either chaos or an automatic solution to domination. Institutional design determines whether coexistence protects or silences people.",
+              "video": null
+            },
+            {
+              "title": "The Lawyer's Ethical Burden",
+              "body_md": "A lawyer may be obliged to argue within an imperfect legal order while recognizing that an apparently lawful process threatens a client's dignity or freedom. Excellence requires technical precision and moral seriousness together. Distinguish a rule presently binding a court from a proposal to change it, seek legitimate avenues for challenge, and speak truthfully about uncertainty. A history of legitimacy becomes valuable when it teaches not simply who won authority, but how legal professionals can resist arbitrary power while protecting actual human lives.",
+              "example": null,
+              "audio_script": "A lawyer may be obliged to argue within an imperfect legal order while recognizing that an apparently lawful process threatens a client's dignity or freedom. Excellence requires technical precision and moral seriousness together. Distinguish a rule presently binding a court from a proposal to change it, seek legitimate avenues for challenge, and speak truthfully about uncertainty. A history of legitimacy becomes valuable when it teaches not simply who won authority, but how legal professionals can resist arbitrary power while protecting actual human lives.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q1",
+              "type": "true_false",
+              "prompt": "Moral legitimacy describes justification for a rule's or institution's authority.",
+              "answer": true,
+              "explanation_if_true": "Moral legitimacy refers to justification for a rule's or institution's authority.",
+              "explanation_if_false": "Moral legitimacy refers to justification for a rule's or institution's authority."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q2",
+              "type": "true_false",
+              "prompt": "A law validly issued by a colonial authority is necessarily morally legitimate.",
+              "answer": false,
+              "explanation_if_true": "Institutional validity and justified authority are different questions.",
+              "explanation_if_false": "Institutional validity and justified authority are different questions."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Legal validity?",
+              "choices": [
+                "Coexistence of distinct legal traditions or authorities",
+                "Opportunities to influence and challenge governing power",
+                "Status of a rule within an accepted legal system",
+                "Justification for a rule's or institution's authority"
+              ],
+              "answer_index": 2,
+              "explanation": "Legal validity means status of a rule within an accepted legal system."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A colonial code is binding in local courts, but the community had no role in adopting it. What is the central jurisprudential distinction?",
+              "choices": [
+                "A writ versus an injunction",
+                "Legal validity versus moral legitimacy",
+                "Venue versus standing",
+                "Compensation versus restitution"
+              ],
+              "answer_index": 1,
+              "explanation": "The rule's recognized force does not settle whether the governing power was justified."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means coexistence of distinct legal traditions or authorities?",
+              "choices": [
+                "Moral legitimacy",
+                "Legal pluralism",
+                "Legal validity",
+                "Participatory accountability"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal pluralism means coexistence of distinct legal traditions or authorities."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Legal validity",
+                  "Status of a rule within an accepted legal system"
+                ],
+                [
+                  "Moral legitimacy",
+                  "Justification for a rule's or institution's authority"
+                ],
+                [
+                  "Legal pluralism",
+                  "Coexistence of distinct legal traditions or authorities"
+                ],
+                [
+                  "Participatory accountability",
+                  "Opportunities to influence and challenge governing power"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for status of a rule within an accepted legal system is ___.",
+              "answer": "Legal validity",
+              "accept": [
+                "Legal validity"
+              ],
+              "explanation": "The term is Legal validity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.legitimacy.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for opportunities to influence and challenge governing power is ___.",
+              "answer": "Participatory accountability",
+              "accept": [
+                "Participatory accountability"
+              ],
+              "explanation": "The term is Participatory accountability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

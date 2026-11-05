@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "rule-extraction",
+      "name": "Rule Extraction",
+      "levels": {
+        "red": {
+          "focus": "Learn to find an operative rule rather than repeat a case's story.",
+          "summary": "A court decision contains facts, arguments, and reasons, but not every sentence states a binding rule. Learn to identify the legal question decided, the outcome, and why the court reached it.",
+          "checklist": [
+            "I can name the question a judgment decided",
+            "I can distinguish what a court held from surrounding commentary",
+            "I can state a narrow rule tied to the facts"
+          ],
+          "sections": [
+            {
+              "title": "A judgment solves a particular dispute",
+              "body_md": "A customer sues a manufacturer after a sealed drink allegedly contains a dangerous object. A legal report discusses the parties, the claimed harm, and reasons a manufacturer might owe care to a consumer without a contract. The report may also include comments about social responsibility. A reader who copies every line as a rule will mislead the client. First ask what question the court had authority to answer. In Donoghue v Stevenson, the central question concerned a possible duty of care; the House of Lords did not finally prove the alleged snail or determine every element of damages.",
+              "example": null,
+              "audio_script": "A customer sues a manufacturer after a sealed drink allegedly contains a dangerous object. A legal report discusses the parties, the claimed harm, and reasons a manufacturer might owe care to a consumer without a contract. The report may also include comments about social responsibility. A reader who copies every line as a rule will mislead the client. First ask what question the court had authority to answer. In Donoghue v Stevenson, the central question concerned a possible duty of care; the House of Lords did not finally prove the alleged snail or determine every element of damages.",
+              "video": null
+            },
+            {
+              "title": "Separate holding from explanation",
+              "body_md": "A holding is the legal conclusion required to decide the issue presented in the case. Supporting reasoning can explain its scope; broader observations may be dicta rather than controlling propositions in a precedent-based system. Courts and legal systems differ in how such distinctions operate. The beginner should record the material facts, legal issue, disposition, and essential reasoning. Do not quote a broad phrase as permission for any lawsuit. A precedent about contaminated products does not, by itself, establish liability for an unrelated employment dispute.",
+              "example": null,
+              "audio_script": "A holding is the legal conclusion required to decide the issue presented in the case. Supporting reasoning can explain its scope; broader observations may be dicta rather than controlling propositions in a precedent-based system. Courts and legal systems differ in how such distinctions operate. The beginner should record the material facts, legal issue, disposition, and essential reasoning. Do not quote a broad phrase as permission for any lawsuit. A precedent about contaminated products does not, by itself, establish liability for an unrelated employment dispute.",
+              "video": null
+            },
+            {
+              "title": "Write a rule with conditions",
+              "body_md": "A helpful first rule statement is: In the relevant common-law setting, a manufacturer may owe reasonable care to an ultimate consumer of a product intended to reach them without an effective intervening inspection. Then identify limits and what still must be proved. The word may matters: a duty does not mean negligence, causation, and loss have been established. Good extraction makes a case easier to apply and harder to exaggerate. Compare your statement to the actual reasons in the opinion, and mark uncertainties for further research.",
+              "example": null,
+              "audio_script": "A helpful first rule statement is: In the relevant common-law setting, a manufacturer may owe reasonable care to an ultimate consumer of a product intended to reach them without an effective intervening inspection. Then identify limits and what still must be proved. The word may matters: a duty does not mean negligence, causation, and loss have been established. Good extraction makes a case easier to apply and harder to exaggerate. Compare your statement to the actual reasons in the opinion, and mark uncertainties for further research.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q1",
+              "type": "true_false",
+              "prompt": "A useful rule statement identifies legal conditions and does not automatically assume the claimant wins.",
+              "answer": true,
+              "explanation_if_true": "A legal duty can be established while other required elements remain disputed.",
+              "explanation_if_false": "A legal duty can be established while other required elements remain disputed."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q2",
+              "type": "true_false",
+              "prompt": "Every sentence in an appellate judgment is always equally binding as a rule.",
+              "answer": false,
+              "explanation_if_true": "The authority of holdings and surrounding observations can differ.",
+              "explanation_if_false": "The authority of holdings and surrounding observations can differ."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A precedent recognizes a possible duty but no trial has established causation. What should the student extract?",
+              "choices": [
+                "That all judicial examples are statutes",
+                "The conditional duty rule, not a guaranteed damages award",
+                "That all plaintiffs automatically recover",
+                "That causation is irrelevant"
+              ],
+              "answer_index": 1,
+              "explanation": "Rule extraction preserves what the court actually resolved."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which note best separates the case's core from commentary?",
+              "choices": [
+                "Issue, material facts, holding, then supporting and nonessential reasons",
+                "A list of memorable quotes only",
+                "The judge's entire biography",
+                "The client's preferred outcome alone"
+              ],
+              "answer_index": 0,
+              "explanation": "The legal weight of a passage depends on its role in the decision."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Dicta?",
+              "choices": [
+                "Judicial observations not necessary to the decision",
+                "Fact important to the legal rule or outcome",
+                "Accurate summary of a governing proposition and conditions",
+                "Court's legal decision on an issue necessary to the result"
+              ],
+              "answer_index": 0,
+              "explanation": "Dicta means judicial observations not necessary to the decision."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal authority and research concepts.",
+              "pairs": [
+                [
+                  "Holding",
+                  "Court's legal decision on an issue necessary to the result"
+                ],
+                [
+                  "Dicta",
+                  "Judicial observations not necessary to the decision"
+                ],
+                [
+                  "Material fact",
+                  "Fact important to the legal rule or outcome"
+                ],
+                [
+                  "Rule statement",
+                  "Accurate summary of a governing proposition and conditions"
+                ]
+              ],
+              "explanation": "Reliable rules require clear sources, limits and subsequent history."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q7",
+              "type": "fill_in",
+              "prompt": "The concept for court's legal decision on an issue necessary to the result is ___.",
+              "answer": "Holding",
+              "accept": [
+                "Holding"
+              ],
+              "explanation": "The answer is Holding."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.red.q8",
+              "type": "fill_in",
+              "prompt": "The concept for accurate summary of a governing proposition and conditions is ___.",
+              "answer": "Rule statement",
+              "accept": [
+                "Rule statement"
+              ],
+              "explanation": "The answer is Rule statement."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Produce precise case briefs and identify ratio decidendi across different fact patterns.",
+          "summary": "Legal rules come from operative text and authoritative interpretations, not isolated quotations. Distinguish a case's ratio, factual limits, procedural posture, and later treatment before applying it.",
+          "checklist": [
+            "I can create a five-part case brief using real sources",
+            "I can test whether factual differences are material",
+            "I can record negative and subsequent treatment of authority"
+          ],
+          "sections": [
+            {
+              "title": "Build a compact brief",
+              "body_md": "Brief a judgment using five fields: relevant facts, legal issue, decision, essential legal reasoning, and disposition. Add the court's place in the hierarchy and the date. Suppose a court finds an official search unlawful because no statute or common-law rule authorized the interference. The rule should concern absence of lawful power, not the entire biography of the person searched. Note whether the case was an appeal, preliminary question, or merits decision; procedural posture affects what was actually decided. Clear briefs allow another reader to check the source quickly.",
+              "example": null,
+              "audio_script": "Brief a judgment using five fields: relevant facts, legal issue, decision, essential legal reasoning, and disposition. Add the court's place in the hierarchy and the date. Suppose a court finds an official search unlawful because no statute or common-law rule authorized the interference. The rule should concern absence of lawful power, not the entire biography of the person searched. Note whether the case was an appeal, preliminary question, or merits decision; procedural posture affects what was actually decided. Clear briefs allow another reader to check the source quickly.",
+              "video": null
+            },
+            {
+              "title": "Ratio depends on what mattered",
+              "body_md": "A court describes several facts, but only some support the rule necessary for the outcome. If the decision involved a government search of a private home, a later case involving a voluntary consensual inspection may be distinguishable. The lawyer must explain why consent changes the legal question rather than merely assert that the cases look different. Ratio decidendi is a familiar concept in many common-law systems, yet formulations and binding effects vary. It should not be imposed unchanged on civil-law judgments that use a different precedent structure.",
+              "example": null,
+              "audio_script": "A court describes several facts, but only some support the rule necessary for the outcome. If the decision involved a government search of a private home, a later case involving a voluntary consensual inspection may be distinguishable. The lawyer must explain why consent changes the legal question rather than merely assert that the cases look different. Ratio decidendi is a familiar concept in many common-law systems, yet formulations and binding effects vary. It should not be imposed unchanged on civil-law judgments that use a different precedent structure.",
+              "video": null
+            },
+            {
+              "title": "Check the case's continuing status",
+              "body_md": "A reported case may have been reversed, distinguished, limited, or overtaken by legislation. Extracting a beautiful rule from a superseded authority can damage the client's case. Use reliable citators and the relevant current statute where available, and identify whether adverse authority is binding. In a research log, distinguish the historical rule a case announced from the law now controlling the facts. A good case brief is a starting point for verification, not a substitute for it.",
+              "example": null,
+              "audio_script": "A reported case may have been reversed, distinguished, limited, or overtaken by legislation. Extracting a beautiful rule from a superseded authority can damage the client's case. Use reliable citators and the relevant current statute where available, and identify whether adverse authority is binding. In a research log, distinguish the historical rule a case announced from the law now controlling the facts. A good case brief is a starting point for verification, not a substitute for it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q1",
+              "type": "true_false",
+              "prompt": "The legal force of a case can change through later overruling or legislation.",
+              "answer": true,
+              "explanation_if_true": "Current advice requires checking whether a historical holding still controls.",
+              "explanation_if_false": "Current advice requires checking whether a historical holding still controls."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q2",
+              "type": "true_false",
+              "prompt": "A case brief is complete once it reproduces a judge's most dramatic quote without the facts or disposition.",
+              "answer": false,
+              "explanation_if_true": "An accurate rule must be connected to the issue and essential reasoning.",
+              "explanation_if_false": "An accurate rule must be connected to the issue and essential reasoning."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A court's earlier ruling addressed an involuntary search; a new case turns on documented consent. What technique may be appropriate?",
+              "choices": [
+                "Distinguish materially different circumstances",
+                "Pretend the earlier case never existed",
+                "Assume consent is irrelevant everywhere",
+                "Quote the case without reading its holding"
+              ],
+              "answer_index": 0,
+              "explanation": "A legal distinction needs a reason tied to operative facts."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "How should a lawyer respond when a well-known case was later overruled?",
+              "choices": [
+                "Cite it as unchanged binding law",
+                "Conceal the overruling",
+                "Assume every earlier citation remains correct",
+                "Explain its historical role and use the current governing authority"
+              ],
+              "answer_index": 3,
+              "explanation": "Subsequent history determines which proposition remains authoritative."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Case brief?",
+              "choices": [
+                "Explaining why a precedent does not govern materially different circumstances",
+                "Later judicial or legislative change to an authority's force",
+                "Essential legal rationale of a decision in a precedent system",
+                "Structured summary of issue, facts, ruling and reasoning"
+              ],
+              "answer_index": 3,
+              "explanation": "Case brief means structured summary of issue, facts, ruling and reasoning."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal authority and research concepts.",
+              "pairs": [
+                [
+                  "Ratio decidendi",
+                  "Essential legal rationale of a decision in a precedent system"
+                ],
+                [
+                  "Case brief",
+                  "Structured summary of issue, facts, ruling and reasoning"
+                ],
+                [
+                  "Distinguishing",
+                  "Explaining why a precedent does not govern materially different circumstances"
+                ],
+                [
+                  "Subsequent treatment",
+                  "Later judicial or legislative change to an authority's force"
+                ]
+              ],
+              "explanation": "Reliable rules require clear sources, limits and subsequent history."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The concept for essential legal rationale of a decision in a precedent system is ___.",
+              "answer": "Ratio decidendi",
+              "accept": [
+                "Ratio decidendi"
+              ],
+              "explanation": "The answer is Ratio decidendi."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The concept for later judicial or legislative change to an authority's force is ___.",
+              "answer": "Subsequent treatment",
+              "accept": [
+                "Subsequent treatment"
+              ],
+              "explanation": "The answer is Subsequent treatment."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Extract rules from complex statutes and multi-opinion judgments.",
+          "summary": "Not every case has one uncontested rationale, and not every statutory rule exists in a single sentence. Develop a source-first method for synthesizing multiple opinions, defined terms, exceptions, and temporal amendments.",
+          "checklist": [
+            "I can distinguish a judgment from separate judicial reasons",
+            "I can identify statutory definitions, conditions and exceptions",
+            "I can avoid claiming a single majority rationale without support"
+          ],
+          "sections": [
+            {
+              "title": "Agreement in result need not equal agreement in reasons",
+              "body_md": "An appellate court may reach a majority disposition through opinions that disagree on the necessary rationale. Counting which judges joined which propositions is essential before describing a passage as the holding of the court. In U.S. Supreme Court plurality settings, Marks v United States proposes a narrowest-grounds method where applicable, but identifying a common rationale can be contested. Do not mechanically label the shortest opinion binding or assume the doctrine transfers to every legal order. Build a vote and reasoning map before announcing the governing proposition.",
+              "example": null,
+              "audio_script": "An appellate court may reach a majority disposition through opinions that disagree on the necessary rationale. Counting which judges joined which propositions is essential before describing a passage as the holding of the court. In U.S. Supreme Court plurality settings, Marks v United States proposes a narrowest-grounds method where applicable, but identifying a common rationale can be contested. Do not mechanically label the shortest opinion binding or assume the doctrine transfers to every legal order. Build a vote and reasoning map before announcing the governing proposition.",
+              "video": null
+            },
+            {
+              "title": "A statute's conditions may be dispersed",
+              "body_md": "A consumer rights statute might state a general remedy in one section, define a protected consumer elsewhere, and create exceptions in schedules. Extracting only the remedy sentence would omit who qualifies and when proceedings must start. Locate definitions, cross-references, transitional provisions, and any controlling regulations. Check the version effective at the relevant date. A compact rule should use conditional structure: if specified persons and facts satisfy the conditions, the authority permits or requires a specified consequence, unless an applicable exception or defense changes it.",
+              "example": null,
+              "audio_script": "A consumer rights statute might state a general remedy in one section, define a protected consumer elsewhere, and create exceptions in schedules. Extracting only the remedy sentence would omit who qualifies and when proceedings must start. Locate definitions, cross-references, transitional provisions, and any controlling regulations. Check the version effective at the relevant date. A compact rule should use conditional structure: if specified persons and facts satisfy the conditions, the authority permits or requires a specified consequence, unless an applicable exception or defense changes it.",
+              "video": null
+            },
+            {
+              "title": "Synthesize without erasing disagreement",
+              "body_md": "Suppose two lines of appellate authority describe when an agency may exercise discretion. One emphasizes statutory text; another applies a particular reasonableness framework. Check whether they govern different categories, were decided under amended law, or actually conflict. State the hierarchy and any unresolved tension. A master's synthesis must show the reader which source supports each proposition and where the gap remains. It should not invent a harmonizing rule for the sake of a clean outline. When authority is unsettled, uncertainty belongs in the answer, followed by the strongest legally supportable interpretation.",
+              "example": null,
+              "audio_script": "Suppose two lines of appellate authority describe when an agency may exercise discretion. One emphasizes statutory text; another applies a particular reasonableness framework. Check whether they govern different categories, were decided under amended law, or actually conflict. State the hierarchy and any unresolved tension. A master's synthesis must show the reader which source supports each proposition and where the gap remains. It should not invent a harmonizing rule for the sake of a clean outline. When authority is unsettled, uncertainty belongs in the answer, followed by the strongest legally supportable interpretation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q1",
+              "type": "true_false",
+              "prompt": "A decision supported by a majority in result may lack a single majority rationale for every legal proposition.",
+              "answer": true,
+              "explanation_if_true": "Separate opinions can agree on disposition while advancing different reasons.",
+              "explanation_if_false": "Separate opinions can agree on disposition while advancing different reasons."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q2",
+              "type": "true_false",
+              "prompt": "The narrowest opinion in any divided case is automatically the binding opinion regardless of how other justices reasoned.",
+              "answer": false,
+              "explanation_if_true": "Plurality treatment is more complex and jurisdiction dependent.",
+              "explanation_if_false": "Plurality treatment is more complex and jurisdiction dependent."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A law's remedy clause refers to a defined consumer and exceptions in other sections. What is the correct method?",
+              "choices": [
+                "Extract only the first sentence",
+                "Ignore amendments after the first enactment",
+                "Assume every claimant qualifies",
+                "Read operative provisions, definitions, exceptions and effective dates together"
+              ],
+              "answer_index": 3,
+              "explanation": "Statutory rules depend on the instrument's full conditions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A fractured appellate opinion lacks an obvious common rationale. What should counsel report?",
+              "choices": [
+                "A rule extracted from a dissenter alone",
+                "The proposition that no judgment exists",
+                "Agreement on disposition and uncertainty about binding reasoning",
+                "A fabricated unanimous holding"
+              ],
+              "answer_index": 2,
+              "explanation": "Precision about judicial agreement prevents overstating precedent."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Statutory definition?",
+              "choices": [
+                "Reasoned combination of multiple authoritative sources",
+                "Reasoning supported by fewer than a majority of judges",
+                "Legislatively specified meaning controlling a provision",
+                "Question which version of a rule applies at a given time"
+              ],
+              "answer_index": 2,
+              "explanation": "Statutory definition means legislatively specified meaning controlling a provision."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal authority and research concepts.",
+              "pairs": [
+                [
+                  "Plurality opinion",
+                  "Reasoning supported by fewer than a majority of judges"
+                ],
+                [
+                  "Statutory definition",
+                  "Legislatively specified meaning controlling a provision"
+                ],
+                [
+                  "Temporal application",
+                  "Question which version of a rule applies at a given time"
+                ],
+                [
+                  "Synthesis",
+                  "Reasoned combination of multiple authoritative sources"
+                ]
+              ],
+              "explanation": "Reliable rules require clear sources, limits and subsequent history."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q7",
+              "type": "fill_in",
+              "prompt": "The concept for reasoning supported by fewer than a majority of judges is ___.",
+              "answer": "Plurality opinion",
+              "accept": [
+                "Plurality opinion"
+              ],
+              "explanation": "The answer is Plurality opinion."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.orange.q8",
+              "type": "fill_in",
+              "prompt": "The concept for reasoned combination of multiple authoritative sources is ___.",
+              "answer": "Synthesis",
+              "accept": [
+                "Synthesis"
+              ],
+              "explanation": "The answer is Synthesis."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Construct a jurisprudentially sound rule-extraction protocol for contested authority.",
+          "summary": "Extracting law is an interpretive act shaped by institutional sources, precedent, and contested theories of judicial authority. Build an auditable model that distinguishes legal validity, interpretive choice, and normative evaluation.",
+          "checklist": [
+            "I can compare source-based and principled approaches to legal rule identification",
+            "I can audit a complex authority chain for conflict and change",
+            "I can state candid legal uncertainty without surrendering analysis"
+          ],
+          "sections": [
+            {
+              "title": "An algorithm cannot settle every legal disagreement",
+              "body_md": "A software tool may identify repeated phrases in judgments and rank them by citation count, yet binding doctrine depends on who decided what, procedural posture, subsequent authority, and legally relevant facts. A frequency count is not a rule of recognition. Hartian accounts attend to social sources of law, while interpretivists dispute whether principles fitting and justifying practice are reducible to an inventory of sources. A doctoral protocol should state its theory of authority openly. It must not treat an extracted sentence as self-authenticating law.",
+              "example": null,
+              "audio_script": "A software tool may identify repeated phrases in judgments and rank them by citation count, yet binding doctrine depends on who decided what, procedural posture, subsequent authority, and legally relevant facts. A frequency count is not a rule of recognition. Hartian accounts attend to social sources of law, while interpretivists dispute whether principles fitting and justifying practice are reducible to an inventory of sources. A doctoral protocol should state its theory of authority openly. It must not treat an extracted sentence as self-authenticating law.",
+              "video": null
+            },
+            {
+              "title": "Trace propositions to institutional authority",
+              "body_md": "Take a contested constitutional claim and record a provenance graph: enacted provision, original cases, conflicting interpretations, controlling later rulings, and exceptions. Identify the actual decision maker and whether the asserted ratio was necessary to the result. Explain tensions among text, purpose, precedent, and jurisdictional competence rather than hiding them in a polished summary. The method should allow later researchers to reproduce each step, distinguish an authoritative proposition from a persuasive one, and update a conclusion when new binding authority appears.",
+              "example": null,
+              "audio_script": "Take a contested constitutional claim and record a provenance graph: enacted provision, original cases, conflicting interpretations, controlling later rulings, and exceptions. Identify the actual decision maker and whether the asserted ratio was necessary to the result. Explain tensions among text, purpose, precedent, and jurisdictional competence rather than hiding them in a polished summary. The method should allow later researchers to reproduce each step, distinguish an authoritative proposition from a persuasive one, and update a conclusion when new binding authority appears.",
+              "video": null
+            },
+            {
+              "title": "Preserve uncertainty as a professional obligation",
+              "body_md": "When authority supports two plausible interpretations, counsel should evaluate comparative strength, litigation consequences, and the client's choices, not declare that ambiguity eliminates a duty of competence. Do not fabricate a consensus or conceal a directly adverse controlling authority. State what a court would have to decide, why one reading is stronger, and what change in facts or law could reverse the conclusion. The final rule extraction should be concise enough to use yet transparent enough to challenge. Legal scholarship serves persons affected by decisions, not an illusion of perfect certainty.",
+              "example": null,
+              "audio_script": "When authority supports two plausible interpretations, counsel should evaluate comparative strength, litigation consequences, and the client's choices, not declare that ambiguity eliminates a duty of competence. Do not fabricate a consensus or conceal a directly adverse controlling authority. State what a court would have to decide, why one reading is stronger, and what change in facts or law could reverse the conclusion. The final rule extraction should be concise enough to use yet transparent enough to challenge. Legal scholarship serves persons affected by decisions, not an illusion of perfect certainty.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q1",
+              "type": "true_false",
+              "prompt": "Citation frequency alone does not determine whether a proposition is binding law.",
+              "answer": true,
+              "explanation_if_true": "Institutional authority, holding, hierarchy and subsequent treatment must be examined.",
+              "explanation_if_false": "Institutional authority, holding, hierarchy and subsequent treatment must be examined."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q2",
+              "type": "true_false",
+              "prompt": "Professional legal analysis requires concealing all ambiguity so the client feels certain.",
+              "answer": false,
+              "explanation_if_true": "Candor and competence require explaining material uncertainties and competing authority.",
+              "explanation_if_false": "Candor and competence require explaining material uncertainties and competing authority."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A legal AI extracts a popular sentence from an overruled opinion as current law. What is the critical error?",
+              "choices": [
+                "It did not use enough synonyms",
+                "It quoted an appellate decision",
+                "Failure to trace provenance and subsequent authority",
+                "Its response was too short"
+              ],
+              "answer_index": 2,
+              "explanation": "Current legal force depends on authoritative history, not popularity."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What makes a complex rule extraction academically reproducible?",
+              "choices": [
+                "Omission of adverse controlling law",
+                "Source chain, reasoning map, qualifications, and documented uncertainty",
+                "An unsupported conclusion presented confidently",
+                "Only a list of buzzwords"
+              ],
+              "answer_index": 1,
+              "explanation": "Auditability is essential when extracting governing propositions from contested materials."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition fits Interpretivism?",
+              "choices": [
+                "Hartian social criteria for identifying valid sources of law",
+                "Theory relating legal content to principled interpretation",
+                "Traceable chain supporting a legal proposition",
+                "Reasoned disagreement about controlling legal content"
+              ],
+              "answer_index": 1,
+              "explanation": "Interpretivism means theory relating legal content to principled interpretation."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal authority and research concepts.",
+              "pairs": [
+                [
+                  "Rule of recognition",
+                  "Hartian social criteria for identifying valid sources of law"
+                ],
+                [
+                  "Interpretivism",
+                  "Theory relating legal content to principled interpretation"
+                ],
+                [
+                  "Authority provenance",
+                  "Traceable chain supporting a legal proposition"
+                ],
+                [
+                  "Doctrinal uncertainty",
+                  "Reasoned disagreement about controlling legal content"
+                ]
+              ],
+              "explanation": "Reliable rules require clear sources, limits and subsequent history."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q7",
+              "type": "fill_in",
+              "prompt": "The concept for hartian social criteria for identifying valid sources of law is ___.",
+              "answer": "Rule of recognition",
+              "accept": [
+                "Rule of recognition"
+              ],
+              "explanation": "The answer is Rule of recognition."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.rule-extraction.black.q8",
+              "type": "fill_in",
+              "prompt": "The concept for reasoned disagreement about controlling legal content is ___.",
+              "answer": "Doctrinal uncertainty",
+              "accept": [
+                "Doctrinal uncertainty"
+              ],
+              "explanation": "The answer is Doctrinal uncertainty."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

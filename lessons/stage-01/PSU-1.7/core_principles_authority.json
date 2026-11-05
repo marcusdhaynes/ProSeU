@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "authority",
+      "name": "Authority",
+      "levels": {
+        "red": {
+          "focus": "Distinguish legal authority from evidence about outcomes",
+          "summary": "Law tells institutions what rules they may apply, while empirical research can show how those rules work. Learn why a useful study is not automatically binding law and why a binding law is not automatically effective policy.",
+          "checklist": [
+            "I can identify the governing legal source",
+            "I can distinguish empirical evidence from normative authority",
+            "I can ask what outcomes a rule is intended to change"
+          ],
+          "sections": [
+            {
+              "title": "Rules and Results Answer Different Questions",
+              "body_md": "A city law requires safety inspections. The statute tells officials what they must do; a study may show whether inspections reduce accidents. Both matter, but they have different roles. A positive legal source establishes authority, while empirical data helps assess outcomes. An expert report does not repeal legislation because its findings are persuasive. Equally, the fact that a rule is legally valid does not establish that it achieves its objective. Good legal reasoning keeps those questions separate.",
+              "example": null,
+              "audio_script": "A city law requires safety inspections. The statute tells officials what they must do; a study may show whether inspections reduce accidents. Both matter, but they have different roles. A positive legal source establishes authority, while empirical data helps assess outcomes. An expert report does not repeal legislation because its findings are persuasive. Equally, the fact that a rule is legally valid does not establish that it achieves its objective. Good legal reasoning keeps those questions separate.",
+              "video": null
+            },
+            {
+              "title": "Start With an Observable Claim",
+              "body_md": "A politician says a new penalty makes streets safer. That is an empirical claim: we should look for changes in injury, behavior, enforcement and other possible explanations. A lawyer must also identify what the penalty actually authorizes and whom it affects. A study could show that one measure fails, yet the lawful decision about changing it may belong to a legislature. Understanding law's social world means knowing what evidence can establish and what only a competent institution may decide.",
+              "example": null,
+              "audio_script": "A politician says a new penalty makes streets safer. That is an empirical claim: we should look for changes in injury, behavior, enforcement and other possible explanations. A lawyer must also identify what the penalty actually authorizes and whom it affects. A study could show that one measure fails, yet the lawful decision about changing it may belong to a legislature. Understanding law's social world means knowing what evidence can establish and what only a competent institution may decide.",
+              "video": null
+            },
+            {
+              "title": "Ask Whose Outcomes Count",
+              "body_md": "A rule could lower reported offenses but increase unlawful detention or administrative burdens. Measuring success therefore requires defining more than one outcome. The analyst should consider affected people, costs, benefits, unintended effects and which outcomes the law itself prioritizes. Numbers do not choose our values for us. They reveal consequences that decision makers must evaluate with legal and ethical reasons. This distinction is foundational to responsible economic and empirical study of law.",
+              "example": null,
+              "audio_script": "A rule could lower reported offenses but increase unlawful detention or administrative burdens. Measuring success therefore requires defining more than one outcome. The analyst should consider affected people, costs, benefits, unintended effects and which outcomes the law itself prioritizes. Numbers do not choose our values for us. They reveal consequences that decision makers must evaluate with legal and ethical reasons. This distinction is foundational to responsible economic and empirical study of law.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q1",
+              "type": "true_false",
+              "prompt": "Empirical claim means proposition about observable facts or outcomes.",
+              "answer": true,
+              "explanation_if_true": "Empirical claim means proposition about observable facts or outcomes.",
+              "explanation_if_false": "Empirical claim means proposition about observable facts or outcomes."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q2",
+              "type": "true_false",
+              "prompt": "An empirical study finding a rule ineffective automatically repeals the rule.",
+              "answer": false,
+              "explanation_if_true": "Legal change requires the appropriate institutional process, even when evidence supports reform.",
+              "explanation_if_false": "Legal change requires the appropriate institutional process, even when evidence supports reform."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Positive law?",
+              "choices": [
+                "Recognized institutional power to make or apply law",
+                "Rules recognized as legally in force",
+                "Proposition about observable facts or outcomes",
+                "Effect a public intervention is intended to produce"
+              ],
+              "answer_index": 1,
+              "explanation": "Positive law means rules recognized as legally in force."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A safety study finds an inspection law ineffective. What has the study established?",
+              "choices": [
+                "Evidence relevant to policy evaluation, not repeal",
+                "The statute is automatically void",
+                "Every official is personally liable",
+                "The court must write a new statute"
+              ],
+              "answer_index": 0,
+              "explanation": "Empirical evaluation informs lawful decisions but does not itself create or repeal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means effect a public intervention is intended to produce?",
+              "choices": [
+                "Policy outcome",
+                "Positive law",
+                "Legal authority",
+                "Empirical claim"
+              ],
+              "answer_index": 0,
+              "explanation": "Policy outcome means effect a public intervention is intended to produce."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Positive law",
+                  "Rules recognized as legally in force"
+                ],
+                [
+                  "Empirical claim",
+                  "Proposition about observable facts or outcomes"
+                ],
+                [
+                  "Policy outcome",
+                  "Effect a public intervention is intended to produce"
+                ],
+                [
+                  "Legal authority",
+                  "Recognized institutional power to make or apply law"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q7",
+              "type": "fill_in",
+              "prompt": "Rules recognized as legally in force is called ___.",
+              "answer": "Positive law",
+              "accept": [
+                "Positive law"
+              ],
+              "explanation": "The term is Positive law."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.red.q8",
+              "type": "fill_in",
+              "prompt": "Recognized institutional power to make or apply law is called ___.",
+              "answer": "Legal authority",
+              "accept": [
+                "Legal authority"
+              ],
+              "explanation": "The term is Legal authority."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Evaluate evidence used to justify legal rules",
+          "summary": "Learn to distinguish descriptive data, causal estimates and normative goals in legislative or judicial arguments. Identify who collected evidence, what it measures and whether it supports the proposed decision.",
+          "checklist": [
+            "I can separate correlation from an effect claim",
+            "I can identify relevant source and measurement limits",
+            "I can explain why evidence quality affects policy justification"
+          ],
+          "sections": [
+            {
+              "title": "A Trend Is Not Yet an Effect",
+              "body_md": "Road deaths fall after a new traffic penalty. That is evidence of a change, but it does not prove the penalty caused the decline. Weather, vehicle technology, travel volume and enforcement practices could also matter. A careful analyst compares the observed data with a credible account of what would have happened without the change. The distinction between description and causation is essential when government asserts that restricting liberty will solve a public problem.",
+              "example": null,
+              "audio_script": "Road deaths fall after a new traffic penalty. That is evidence of a change, but it does not prove the penalty caused the decline. Weather, vehicle technology, travel volume and enforcement practices could also matter. A careful analyst compares the observed data with a credible account of what would have happened without the change. The distinction between description and causation is essential when government asserts that restricting liberty will solve a public problem.",
+              "video": null
+            },
+            {
+              "title": "Measurement Can Hide the Problem",
+              "body_md": "If a city measures public safety only through reported crimes, changes in reporting practices may create a misleading trend. A new hotline could increase reports even as underlying harm decreases. Data must be interpreted through definitions, collection methods, missing cases and incentives to report. The analyst should ask which measure best reflects the protected interest and whether groups experience different outcomes. Numbers can make policy clearer only when the meaning of the numbers is understood.",
+              "example": null,
+              "audio_script": "If a city measures public safety only through reported crimes, changes in reporting practices may create a misleading trend. A new hotline could increase reports even as underlying harm decreases. Data must be interpreted through definitions, collection methods, missing cases and incentives to report. The analyst should ask which measure best reflects the protected interest and whether groups experience different outcomes. Numbers can make policy clearer only when the meaning of the numbers is understood.",
+              "video": null
+            },
+            {
+              "title": "Evidence Is Part of Reason-Giving",
+              "body_md": "Some legal decisions require factual justification under constitutional, administrative or statutory standards. Other choices are largely legislative policy judgments. A lawyer must identify the institution's legal duty to give reasons, then assess whether the evidence actually supports its conclusion. A well-designed empirical analysis can expose an unsupported assumption, but it cannot substitute for the governing legal standard. Sound advocacy links lawful authority, reliable evidence and a transparent explanation.",
+              "example": null,
+              "audio_script": "Some legal decisions require factual justification under constitutional, administrative or statutory standards. Other choices are largely legislative policy judgments. A lawyer must identify the institution's legal duty to give reasons, then assess whether the evidence actually supports its conclusion. A well-designed empirical analysis can expose an unsupported assumption, but it cannot substitute for the governing legal standard. Sound advocacy links lawful authority, reliable evidence and a transparent explanation.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q1",
+              "type": "true_false",
+              "prompt": "Causal effect means change attributable to a particular intervention.",
+              "answer": true,
+              "explanation_if_true": "Causal effect means change attributable to a particular intervention.",
+              "explanation_if_false": "Causal effect means change attributable to a particular intervention."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q2",
+              "type": "true_false",
+              "prompt": "A decline in reported offenses after a law proves the law caused the decline.",
+              "answer": false,
+              "explanation_if_true": "Other changes and reporting effects must be considered before inferring causation.",
+              "explanation_if_false": "Other changes and reporting effects must be considered before inferring causation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Correlation?",
+              "choices": [
+                "Observed association between variables",
+                "Change attributable to a particular intervention",
+                "Difference between recorded and actual phenomenon",
+                "Reasons offered for an institutional choice"
+              ],
+              "answer_index": 0,
+              "explanation": "Correlation means observed association between variables."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Reported violations rise after an anonymous hotline begins. What should be checked?",
+              "choices": [
+                "Whether the hotline has a bright logo",
+                "Only the number of police cars",
+                "Whether the statute is written in Latin",
+                "Whether reporting increased without a rise in actual harm"
+              ],
+              "answer_index": 3,
+              "explanation": "Measurement procedures can change recorded outcomes independently of underlying conduct."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means difference between recorded and actual phenomenon?",
+              "choices": [
+                "Correlation",
+                "Policy justification",
+                "Causal effect",
+                "Measurement error"
+              ],
+              "answer_index": 3,
+              "explanation": "Measurement error means difference between recorded and actual phenomenon."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Correlation",
+                  "Observed association between variables"
+                ],
+                [
+                  "Causal effect",
+                  "Change attributable to a particular intervention"
+                ],
+                [
+                  "Measurement error",
+                  "Difference between recorded and actual phenomenon"
+                ],
+                [
+                  "Policy justification",
+                  "Reasons offered for an institutional choice"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Observed association between variables is called ___.",
+              "answer": "Correlation",
+              "accept": [
+                "Correlation"
+              ],
+              "explanation": "The term is Correlation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Reasons offered for an institutional choice is called ___.",
+              "answer": "Policy justification",
+              "accept": [
+                "Policy justification"
+              ],
+              "explanation": "The term is Policy justification."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Analyze institutional evidence under economic incentives",
+          "summary": "Compare the legal force of different decisions with the incentives and information influencing their evidence. Understand why measurement can change behavior when it becomes a target.",
+          "checklist": [
+            "I can identify incentive-driven measurement distortions",
+            "I can compare observational and experimental evidence",
+            "I can evaluate institutional competence in policy choice"
+          ],
+          "sections": [
+            {
+              "title": "People Respond to How Success Is Measured",
+              "body_md": "A court administration may reward faster case closure. Judges and staff might then reduce delays, but some cases could be closed without adequate attention. A metric can alter the behavior it seeks to measure. The analyst should examine whether quality, review, error rates and affected-person experience changed alongside speed. An institution may lawfully use performance metrics while still needing safeguards against manipulation. A single headline number rarely captures justice.",
+              "example": null,
+              "audio_script": "A court administration may reward faster case closure. Judges and staff might then reduce delays, but some cases could be closed without adequate attention. A metric can alter the behavior it seeks to measure. The analyst should examine whether quality, review, error rates and affected-person experience changed alongside speed. An institution may lawfully use performance metrics while still needing safeguards against manipulation. A single headline number rarely captures justice.",
+              "video": null
+            },
+            {
+              "title": "Experiments and Comparisons",
+              "body_md": "An experimental study randomly assigns a permissible intervention, making causal comparison easier when conditions are met. Many legal policies cannot be randomized ethically or practically, so analysts use observational designs and carefully chosen comparison groups. Both approaches require attention to selection, measurement, spillovers and external validity. A lawyer should ask whether the evidence really supports the expected policy effect in the population the law will govern. This avoids treating statistical authority as equivalent to legal or moral authority.",
+              "example": null,
+              "audio_script": "An experimental study randomly assigns a permissible intervention, making causal comparison easier when conditions are met. Many legal policies cannot be randomized ethically or practically, so analysts use observational designs and carefully chosen comparison groups. Both approaches require attention to selection, measurement, spillovers and external validity. A lawyer should ask whether the evidence really supports the expected policy effect in the population the law will govern. This avoids treating statistical authority as equivalent to legal or moral authority.",
+              "video": null
+            },
+            {
+              "title": "Who Should Decide?",
+              "body_md": "Courts may have power to assess evidence in a particular case but limited capacity to design and monitor an entire regulatory system. Legislatures and agencies may gather broader evidence yet face political and administrative incentives. A sophisticated analysis identifies the lawful allocation of authority and what information each institution can reliably evaluate. Evidence can reveal errors in policy, but the choice of remedy or reform must remain tied to the institution's actual mandate and the rights of those affected.",
+              "example": null,
+              "audio_script": "Courts may have power to assess evidence in a particular case but limited capacity to design and monitor an entire regulatory system. Legislatures and agencies may gather broader evidence yet face political and administrative incentives. A sophisticated analysis identifies the lawful allocation of authority and what information each institution can reliably evaluate. Evidence can reveal errors in policy, but the choice of remedy or reform must remain tied to the institution's actual mandate and the rights of those affected.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q1",
+              "type": "true_false",
+              "prompt": "Random assignment means allocation by chance to support causal comparison.",
+              "answer": true,
+              "explanation_if_true": "Random assignment means allocation by chance to support causal comparison.",
+              "explanation_if_false": "Random assignment means allocation by chance to support causal comparison."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q2",
+              "type": "true_false",
+              "prompt": "An improvement in a single performance metric necessarily means the legal system became fairer overall.",
+              "answer": false,
+              "explanation_if_true": "Incentives may improve the measured number while harming unmeasured quality or access.",
+              "explanation_if_false": "Incentives may improve the measured number while harming unmeasured quality or access."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Goodhart effect?",
+              "choices": [
+                "Allocation by chance to support causal comparison",
+                "Applicability of findings to other settings",
+                "Capacity and authority to act effectively",
+                "Distortion when an indicator becomes a target"
+              ],
+              "answer_index": 3,
+              "explanation": "Goodhart effect means distortion when an indicator becomes a target."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A tribunal closes cases faster after a new quota, but more decisions are overturned. What should an analyst examine?",
+              "choices": [
+                "The color of the case-management dashboard",
+                "Whether every appeal is frivolous",
+                "Whether speed targets displaced decision quality",
+                "Only the new closure total"
+              ],
+              "answer_index": 2,
+              "explanation": "A target metric can change behavior in harmful unintended ways."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means applicability of findings to other settings?",
+              "choices": [
+                "Institutional competence",
+                "Random assignment",
+                "External validity",
+                "Goodhart effect"
+              ],
+              "answer_index": 2,
+              "explanation": "External validity means applicability of findings to other settings."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Goodhart effect",
+                  "Distortion when an indicator becomes a target"
+                ],
+                [
+                  "Random assignment",
+                  "Allocation by chance to support causal comparison"
+                ],
+                [
+                  "External validity",
+                  "Applicability of findings to other settings"
+                ],
+                [
+                  "Institutional competence",
+                  "Capacity and authority to act effectively"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q7",
+              "type": "fill_in",
+              "prompt": "Distortion when an indicator becomes a target is called ___.",
+              "answer": "Goodhart effect",
+              "accept": [
+                "Goodhart effect"
+              ],
+              "explanation": "The term is Goodhart effect."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.orange.q8",
+              "type": "fill_in",
+              "prompt": "Capacity and authority to act effectively is called ___.",
+              "answer": "Institutional competence",
+              "accept": [
+                "Institutional competence"
+              ],
+              "explanation": "The term is Institutional competence."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique evidence-based authority without technocracy",
+          "summary": "At doctoral depth, evaluate the role of social science in legal legitimacy while preserving the distinction between facts, values and lawful institutions. Defend accountable use of evidence under uncertainty.",
+          "checklist": [
+            "I can distinguish empirical efficiency from rights justification",
+            "I can evaluate expertise and democratic accountability",
+            "I can design audit mechanisms for evidence-driven governance"
+          ],
+          "sections": [
+            {
+              "title": "Evidence Cannot Choose the Constitution",
+              "body_md": "A rigorous study might show that intrusive surveillance reduces one class of offenses. It does not by itself establish that the surveillance is legally permissible or morally justified. Rights, equality, privacy and institutional limits impose independent constraints. A doctoral theory of evidence-based governance should distinguish causal findings from the decision rule governing their use. Treating statistical improvement as conclusive authority risks replacing public law with unaccountable technocratic preference.",
+              "example": null,
+              "audio_script": "A rigorous study might show that intrusive surveillance reduces one class of offenses. It does not by itself establish that the surveillance is legally permissible or morally justified. Rights, equality, privacy and institutional limits impose independent constraints. A doctoral theory of evidence-based governance should distinguish causal findings from the decision rule governing their use. Treating statistical improvement as conclusive authority risks replacing public law with unaccountable technocratic preference.",
+              "video": null
+            },
+            {
+              "title": "Experts Also Make Choices",
+              "body_md": "Researchers choose outcomes, samples, comparison groups and models. Those choices can be technically defensible but reflect which harms or populations receive attention. A serious legal scholar should examine preregistration, replication, data access, uncertainty and the people excluded from the study. Expertise deserves respect because of method and evidence, not simply institutional prestige. Public decisions relying on science should explain why a particular estimate is relevant and how its limitations were considered.",
+              "example": null,
+              "audio_script": "Researchers choose outcomes, samples, comparison groups and models. Those choices can be technically defensible but reflect which harms or populations receive attention. A serious legal scholar should examine preregistration, replication, data access, uncertainty and the people excluded from the study. Expertise deserves respect because of method and evidence, not simply institutional prestige. Public decisions relying on science should explain why a particular estimate is relevant and how its limitations were considered.",
+              "video": null
+            },
+            {
+              "title": "Accountability in Policy Learning",
+              "body_md": "Imagine a regulation justified by a disputed forecast. A principled design could specify measurable objectives, independent evaluation, protected rights, sunset review and a transparent process for correcting harmful effects. Each safeguard must fit the governing constitutional and administrative framework. The goal is not to wait for perfect certainty before acting, nor to make evidence immune from challenge. It is to create institutions that learn from facts while remaining answerable to the human beings they govern.",
+              "example": null,
+              "audio_script": "Imagine a regulation justified by a disputed forecast. A principled design could specify measurable objectives, independent evaluation, protected rights, sunset review and a transparent process for correcting harmful effects. Each safeguard must fit the governing constitutional and administrative framework. The goal is not to wait for perfect certainty before acting, nor to make evidence immune from challenge. It is to create institutions that learn from facts while remaining answerable to the human beings they govern.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q1",
+              "type": "true_false",
+              "prompt": "Normative constraint means value or legal limit not determined by measurement alone.",
+              "answer": true,
+              "explanation_if_true": "Normative constraint means value or legal limit not determined by measurement alone.",
+              "explanation_if_false": "Normative constraint means value or legal limit not determined by measurement alone."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q2",
+              "type": "true_false",
+              "prompt": "Strong empirical evidence of efficiency automatically eliminates constitutional limits on government action.",
+              "answer": false,
+              "explanation_if_true": "Legal rights and authorized powers are not determined solely by measured effectiveness.",
+              "explanation_if_false": "Legal rights and authorized powers are not determined solely by measured effectiveness."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best describes Technocracy?",
+              "choices": [
+                "Independent re-examination of an empirical result",
+                "Scheduled reassessment of a rule's continuation",
+                "Governance primarily justified by expert assessment",
+                "Value or legal limit not determined by measurement alone"
+              ],
+              "answer_index": 2,
+              "explanation": "Technocracy means governance primarily justified by expert assessment."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A policy study supports surveillance but a constitutional privacy limit may apply. What must the decision maker analyze?",
+              "choices": [
+                "The number of charts",
+                "Both the empirical benefit and independent legal constraints",
+                "Only the statistical benefit",
+                "Only the researcher's reputation"
+              ],
+              "answer_index": 1,
+              "explanation": "Evidence informs policy within, not above, the rule of law."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means independent re-examination of an empirical result?",
+              "choices": [
+                "Normative constraint",
+                "Replication",
+                "Technocracy",
+                "Sunset review"
+              ],
+              "answer_index": 1,
+              "explanation": "Replication means independent re-examination of an empirical result."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q6",
+              "type": "matching",
+              "prompt": "Match the economic and legal ideas.",
+              "pairs": [
+                [
+                  "Technocracy",
+                  "Governance primarily justified by expert assessment"
+                ],
+                [
+                  "Normative constraint",
+                  "Value or legal limit not determined by measurement alone"
+                ],
+                [
+                  "Replication",
+                  "Independent re-examination of an empirical result"
+                ],
+                [
+                  "Sunset review",
+                  "Scheduled reassessment of a rule's continuation"
+                ]
+              ],
+              "explanation": "Economic estimates and legal duties answer distinct questions."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q7",
+              "type": "fill_in",
+              "prompt": "Governance primarily justified by expert assessment is called ___.",
+              "answer": "Technocracy",
+              "accept": [
+                "Technocracy"
+              ],
+              "explanation": "The term is Technocracy."
+            },
+            {
+              "id": "PSU-1.7.core_principles.authority.black.q8",
+              "type": "fill_in",
+              "prompt": "Scheduled reassessment of a rule's continuation is called ___.",
+              "answer": "Sunset review",
+              "accept": [
+                "Sunset review"
+              ],
+              "explanation": "The term is Sunset review."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

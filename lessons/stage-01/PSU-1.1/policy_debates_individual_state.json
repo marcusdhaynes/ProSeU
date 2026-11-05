@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "individual-vs-state-power",
+      "name": "Individual vs State Power",
+      "levels": {
+        "red": {
+          "focus": "Recognize why law must protect people while enabling government to act.",
+          "summary": "A state needs power to maintain public order, but the person subject to its rules has rights and interests of their own. Learn to identify who may act, who is affected, and what legal justification is required.",
+          "checklist": [
+            "I can name a protected personal interest and the official act affecting it",
+            "I can distinguish government's useful goals from its legal powers",
+            "I can explain why even unpopular persons deserve legal protection"
+          ],
+          "sections": [
+            {
+              "title": "Two needs can be legitimate",
+              "body_md": "A city limits access to a dangerous bridge after an engineering warning. People need safe infrastructure, but a delivery worker also needs to earn a living. Saying that safety matters does not end the inquiry, and neither does saying that freedom matters. Identify exactly what officials have done, which interests are restricted, and what law empowers them. Public power is not the same as a private person's freedom to act. Because the state can enforce its orders, its reasons require particular scrutiny.",
+              "audio_script": "A city limits access to a dangerous bridge after an engineering warning. People need safe infrastructure, but a delivery worker also needs to earn a living. Saying that safety matters does not end the inquiry, and neither does saying that freedom matters. Identify exactly what officials have done, which interests are restricted, and what law empowers them. Public power is not the same as a private person's freedom to act. Because the state can enforce its orders, its reasons require particular scrutiny.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Power comes with boundaries",
+              "body_md": "A council may close roads under a valid emergency regulation, yet lack authority to punish residents who respectfully criticize the closure. Legal power is a grant limited by its source, purpose, and any applicable rights. A policy can be sensible while an official lacks permission to impose it in the chosen way. Conversely, a valid restriction need not be pleasant for every individual. The first question is not which participant seems likable; it is what authority and protection the legal order recognizes.",
+              "audio_script": "A council may close roads under a valid emergency regulation, yet lack authority to punish residents who respectfully criticize the closure. Legal power is a grant limited by its source, purpose, and any applicable rights. A policy can be sensible while an official lacks permission to impose it in the chosen way. Conversely, a valid restriction need not be pleasant for every individual. The first question is not which participant seems likable; it is what authority and protection the legal order recognizes.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Ask how the affected person is heard",
+              "body_md": "Suppose the bridge stays closed for months after repairs are complete. The worker needs a fair way to challenge continued restrictions, obtain reasons, and seek a lawful remedy. Participation, notice, and review can make government answerable without disabling legitimate safety measures. Different jurisdictions set different legal standards. A strong beginner's answer names the person, the governmental goal, the source of power, the relevant right, and the next authorized step for checking whether the limit remains justified.",
+              "audio_script": "Suppose the bridge stays closed for months after repairs are complete. The worker needs a fair way to challenge continued restrictions, obtain reasons, and seek a lawful remedy. Participation, notice, and review can make government answerable without disabling legitimate safety measures. Different jurisdictions set different legal standards. A strong beginner's answer names the person, the governmental goal, the source of power, the relevant right, and the next authorized step for checking whether the limit remains justified.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q1",
+              "type": "true_false",
+              "prompt": "A safety measure can pursue a useful public objective while still requiring lawful authorization.",
+              "answer": true,
+              "explanation_if_true": "The importance of a policy does not itself confer the legal power to impose it.",
+              "explanation_if_false": "The importance of a policy does not itself confer the legal power to impose it."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q2",
+              "type": "true_false",
+              "prompt": "Whenever officials say an act is useful, individual legal rights automatically disappear.",
+              "answer": false,
+              "explanation_if_true": "Public purposes operate within governing legal and rights constraints.",
+              "explanation_if_false": "Public purposes operate within governing legal and rights constraints."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A city keeps a repaired bridge closed without explaining why. Which approach respects both sides?",
+              "choices": [
+                "Treat a worker's income as the only relevant public interest",
+                "Seek the legal basis, current evidence, and review",
+                "Assume all safety decisions are permanently immune",
+                "Ignore any possibility of danger"
+              ],
+              "answer_index": 1,
+              "explanation": "A lawful challenge weighs safety against ongoing limits and available accountability."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q4",
+              "type": "multiple_choice",
+              "prompt": "An official has an excellent policy idea but no authority to impose a fine. What follows?",
+              "choices": [
+                "The idea alone does not grant power to fine",
+                "A public benefit automatically creates penalty jurisdiction",
+                "The fine becomes a private contract",
+                "Only public opinion decides legal competence"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal justification includes the source and limits of official authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Individual liberty?",
+              "choices": [
+                "Protected freedom to make choices and act",
+                "Recognized source allowing official action",
+                "Duty of officials to explain and answer for decisions",
+                "Authority exercised by institutions of government"
+              ],
+              "answer_index": 0,
+              "explanation": "Individual liberty means protected freedom to make choices and act."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q6",
+              "type": "matching",
+              "prompt": "Match the theories and concepts to their meanings.",
+              "pairs": [
+                [
+                  "Public power",
+                  "Authority exercised by institutions of government"
+                ],
+                [
+                  "Individual liberty",
+                  "Protected freedom to make choices and act"
+                ],
+                [
+                  "Legal authorization",
+                  "Recognized source allowing official action"
+                ],
+                [
+                  "Accountability",
+                  "Duty of officials to explain and answer for decisions"
+                ]
+              ],
+              "explanation": "These ideas justify different limits and uses of public power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for authority exercised by institutions of government is ___.",
+              "answer": "Public power",
+              "accept": [
+                "Public power"
+              ],
+              "explanation": "The term is Public power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for duty of officials to explain and answer for decisions is ___.",
+              "answer": "Accountability",
+              "accept": [
+                "Accountability"
+              ],
+              "explanation": "The term is Accountability."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare Mill's harm principle with public paternalism.",
+          "summary": "John Stuart Mill defended strong limits on coercion for a person's own good, while other thinkers justify some protective restrictions. Distinguish harm to others from self-regarding risk without assuming the distinction always settles existing law.",
+          "checklist": [
+            "I can state the basic harm principle with its limits",
+            "I can distinguish paternalistic from third-party protective measures",
+            "I can apply lawful proportionality or rights tests to a concrete rule"
+          ],
+          "sections": [
+            {
+              "title": "The harm principle asks whom conduct threatens",
+              "body_md": "In On Liberty (1859), Mill famously argued for limiting coercion over competent adults when their conduct concerns only themselves, while recognizing protection against harm to others as a reason for intervention. This is a political and moral principle, not a statute automatically binding every court. A helmet rule for adults may be defended as prevention of self-harm, while rules against reckless driving address danger to other people. Both still require attention to the governing legal system and the factual justification.",
+              "audio_script": "In On Liberty (1859), Mill famously argued for limiting coercion over competent adults when their conduct concerns only themselves, while recognizing protection against harm to others as a reason for intervention. This is a political and moral principle, not a statute automatically binding every court. A helmet rule for adults may be defended as prevention of self-harm, while rules against reckless driving address danger to other people. Both still require attention to the governing legal system and the factual justification.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Paternalism can help or dominate",
+              "body_md": "A protective rule may prevent devastating injury, but it may also deny people meaningful control over their own lives. Paternalism describes interference intended to benefit the person restricted. Defenders point to severe risks, constrained decision-making, and social costs; critics emphasize autonomy, dignity, and the state's tendency to misjudge individual welfare. The analysis must not assume that any use of the word 'safety' proves third-party harm. Identify whose interests are protected and what less restrictive alternatives might exist.",
+              "audio_script": "A protective rule may prevent devastating injury, but it may also deny people meaningful control over their own lives. Paternalism describes interference intended to benefit the person restricted. Defenders point to severe risks, constrained decision-making, and social costs; critics emphasize autonomy, dignity, and the state's tendency to misjudge individual welfare. The analysis must not assume that any use of the word 'safety' proves third-party harm. Identify whose interests are protected and what less restrictive alternatives might exist.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Turn philosophy into legal method",
+              "body_md": "A law school's debate about Mill is distinct from advising a client about current constitutional rights. For a specific restriction, locate the enabling law, identify any affected rights, determine the governing standard of review, and examine evidence supporting its purpose and fit. A court may permit a measure that Mill would criticize, or reject one that a political philosopher defends. Good jurisprudence can explain both what the law is and whether it should change, without disguising moral preference as binding authority.",
+              "audio_script": "A law school's debate about Mill is distinct from advising a client about current constitutional rights. For a specific restriction, locate the enabling law, identify any affected rights, determine the governing standard of review, and examine evidence supporting its purpose and fit. A court may permit a measure that Mill would criticize, or reject one that a political philosopher defends. Good jurisprudence can explain both what the law is and whether it should change, without disguising moral preference as binding authority.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q1",
+              "type": "true_false",
+              "prompt": "A rule aimed only at protecting a competent adult from self-regarding risk raises paternalism concerns.",
+              "answer": true,
+              "explanation_if_true": "The policy may interfere with a choice primarily to benefit the person making it.",
+              "explanation_if_false": "The policy may interfere with a choice primarily to benefit the person making it."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q2",
+              "type": "true_false",
+              "prompt": "Mill's harm principle is identical to a binding constitutional test in every jurisdiction.",
+              "answer": false,
+              "explanation_if_true": "It is an influential normative argument, while legal scrutiny depends on actual sources.",
+              "explanation_if_false": "It is an influential normative argument, while legal scrutiny depends on actual sources."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A government requires helmets solely to protect adult riders from self-injury. Which normative dispute is most directly involved?",
+              "choices": [
+                "Paternalism versus autonomy",
+                "Whether every contract requires arbitration",
+                "The distinction between statutory and common-law damages only",
+                "Whether a city owns a road"
+              ],
+              "answer_index": 0,
+              "explanation": "The state seeks to protect individuals from risks they choose for themselves."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A rule restricts conduct that endangers pedestrians rather than only the actor. Which justification is closest to Mill's principle?",
+              "choices": [
+                "Automatic recognition of every personal preference",
+                "Exemption from constitutional review",
+                "A declaration that all paternalism is legally required",
+                "Prevention of harm to others"
+              ],
+              "answer_index": 3,
+              "explanation": "Third-party danger is a different rationale from purely self-regarding protection."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Paternalism?",
+              "choices": [
+                "A person's capacity to govern their own decisions",
+                "Legal assessment of the relation between a measure and its impact",
+                "Mill's limit on coercion concerning harm to others",
+                "Interference intended to protect a person from their own choices"
+              ],
+              "answer_index": 3,
+              "explanation": "Paternalism means interference intended to protect a person from their own choices."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the theories and concepts to their meanings.",
+              "pairs": [
+                [
+                  "Harm principle",
+                  "Mill's limit on coercion concerning harm to others"
+                ],
+                [
+                  "Paternalism",
+                  "Interference intended to protect a person from their own choices"
+                ],
+                [
+                  "Autonomy",
+                  "A person's capacity to govern their own decisions"
+                ],
+                [
+                  "Proportionality",
+                  "Legal assessment of the relation between a measure and its impact"
+                ]
+              ],
+              "explanation": "These ideas justify different limits and uses of public power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for mill's limit on coercion concerning harm to others is ___.",
+              "answer": "Harm principle",
+              "accept": [
+                "Harm principle"
+              ],
+              "explanation": "The term is Harm principle."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal assessment of the relation between a measure and its impact is ___.",
+              "answer": "Proportionality",
+              "accept": [
+                "Proportionality"
+              ],
+              "explanation": "The term is Proportionality."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate the relationship among Hobbesian order, Locke's rights, and Raz's authority.",
+          "summary": "Government can prevent destructive private conflict, but that alone may not justify every command. Compare security-based accounts of political obligation with rights-oriented limits and the service conception of authority.",
+          "checklist": [
+            "I can contrast order-based and rights-based justifications",
+            "I can explain Raz's normal-justification idea without conflating validity and obedience",
+            "I can assess whether a particular official decision improves subjects' ability to act on reasons"
+          ],
+          "sections": [
+            {
+              "title": "Order explains why institutions matter",
+              "body_md": "Thomas Hobbes emphasized the dangers of insecurity when no common authority can settle disputes; a sovereign's power could enable peace. John Locke placed greater weight on government securing rights and on limits to political power. These thinkers offer contrasting normative explanations, not templates copied wholesale into modern constitutions. A master's student should ask what insecurity a rule prevents, which rights it burdens, and which institution is authorized to impose it. The demand for public order cannot by itself resolve the limits of government.",
+              "audio_script": "Thomas Hobbes emphasized the dangers of insecurity when no common authority can settle disputes; a sovereign's power could enable peace. John Locke placed greater weight on government securing rights and on limits to political power. These thinkers offer contrasting normative explanations, not templates copied wholesale into modern constitutions. A master's student should ask what insecurity a rule prevents, which rights it burdens, and which institution is authorized to impose it. The demand for public order cannot by itself resolve the limits of government.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Authority can serve, not merely command",
+              "body_md": "Joseph Raz's service conception asks when authority helps subjects better conform to reasons that already apply to them. In the normal-justification thesis, obeying an authority can sometimes improve conformity to those underlying reasons compared with acting alone. This is not a claim that every legally valid order is morally justified, nor that subjects lack any independent reasons to resist. It invites scrutiny of expertise, coordination, and whether the institution actually performs the function invoked to support its authority.",
+              "audio_script": "Joseph Raz's service conception asks when authority helps subjects better conform to reasons that already apply to them. In the normal-justification thesis, obeying an authority can sometimes improve conformity to those underlying reasons compared with acting alone. This is not a claim that every legally valid order is morally justified, nor that subjects lack any independent reasons to resist. It invites scrutiny of expertise, coordination, and whether the institution actually performs the function invoked to support its authority.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Apply the test to a public agency",
+              "body_md": "An environmental agency adopts a technically grounded limit on emissions that cross property boundaries. The rule may coordinate action people cannot easily achieve individually. Yet the agency must still act within law, use reliable evidence, and respect rights and review. Its ability to help solve collective problems supports one argument for authority; its institutional failures may weaken that argument. Distinguish the legal question of statutory competence from the moral claim that obedience would better serve the reasons relevant to citizens.",
+              "audio_script": "An environmental agency adopts a technically grounded limit on emissions that cross property boundaries. The rule may coordinate action people cannot easily achieve individually. Yet the agency must still act within law, use reliable evidence, and respect rights and review. Its ability to help solve collective problems supports one argument for authority; its institutional failures may weaken that argument. Distinguish the legal question of statutory competence from the moral claim that obedience would better serve the reasons relevant to citizens.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q1",
+              "type": "true_false",
+              "prompt": "An institution may help people coordinate actions that they could not manage reliably on their own.",
+              "answer": true,
+              "explanation_if_true": "Coordination and expertise can be reasons offered in support of legitimate public authority.",
+              "explanation_if_false": "Coordination and expertise can be reasons offered in support of legitimate public authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q2",
+              "type": "true_false",
+              "prompt": "Raz's service conception entails that all valid official orders deserve unconditional moral obedience.",
+              "answer": false,
+              "explanation_if_true": "The account concerns justificatory conditions and is not automatic endorsement of every command.",
+              "explanation_if_false": "The account concerns justificatory conditions and is not automatic endorsement of every command."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An agency has genuine expertise but acts beyond its statutory mandate. What two questions must be kept apart?",
+              "choices": [
+                "Whether official expertise replaces legislation automatically",
+                "Whether only the agency's popularity determines rights",
+                "Whether all technical findings are false",
+                "Whether its rule is legally authorized and whether its expertise morally supports it"
+              ],
+              "answer_index": 3,
+              "explanation": "Legal validity and moral justification are distinct analytical inquiries."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which comparison is most faithful to the theories?",
+              "choices": [
+                "Both theories compel obedience to every law without qualification",
+                "Raz argued that technical expertise makes coercion automatically legal",
+                "Hobbes stresses order; Locke stresses rights-protecting limits",
+                "Hobbes rejected government entirely; Locke denied all rights"
+              ],
+              "answer_index": 2,
+              "explanation": "The philosophers emphasize different bases and limits of authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Hobbesian order?",
+              "choices": [
+                "Raz's account of authority aiding compliance with underlying reasons",
+                "Question whether people have reasons or duties to obey law",
+                "Justification emphasizing security under common authority",
+                "Rights-oriented restrictions on governmental power"
+              ],
+              "answer_index": 2,
+              "explanation": "Hobbesian order means justification emphasizing security under common authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q6",
+              "type": "matching",
+              "prompt": "Match the theories and concepts to their meanings.",
+              "pairs": [
+                [
+                  "Political obligation",
+                  "Question whether people have reasons or duties to obey law"
+                ],
+                [
+                  "Hobbesian order",
+                  "Justification emphasizing security under common authority"
+                ],
+                [
+                  "Lockean limits",
+                  "Rights-oriented restrictions on governmental power"
+                ],
+                [
+                  "Service conception",
+                  "Raz's account of authority aiding compliance with underlying reasons"
+                ]
+              ],
+              "explanation": "These ideas justify different limits and uses of public power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for question whether people have reasons or duties to obey law is ___.",
+              "answer": "Political obligation",
+              "accept": [
+                "Political obligation"
+              ],
+              "explanation": "The term is Political obligation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for raz's account of authority aiding compliance with underlying reasons is ___.",
+              "answer": "Service conception",
+              "accept": [
+                "Service conception"
+              ],
+              "explanation": "The term is Service conception."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Construct a justified limit on state coercion within political pluralism.",
+          "summary": "Liberty, coordinated welfare, and nondomination can collide when public decisions affect vulnerable groups. Defend a theory that distinguishes legal authority, its moral justification, and effective avenues of challenge.",
+          "checklist": [
+            "I can differentiate legitimacy, legality, and moral duty",
+            "I can evaluate domination and exclusion in supposedly beneficial interventions",
+            "I can design public justification and oversight for coercive policy"
+          ],
+          "sections": [
+            {
+              "title": "Legality does not settle legitimacy",
+              "body_md": "A legislature may validly pass a law that deeply burdens a minority community. Hart-style source-based validity may identify the rule as law without establishing a moral duty to obey it; rival theories may place justice more directly within legal interpretation. A doctoral response should state the theoretical disagreement rather than caricature positivism as blind obedience. Identify legal status, political justification, and individual obligation as separable propositions. Each demands an argument and may produce a different answer for the same statute.",
+              "audio_script": "A legislature may validly pass a law that deeply burdens a minority community. Hart-style source-based validity may identify the rule as law without establishing a moral duty to obey it; rival theories may place justice more directly within legal interpretation. A doctoral response should state the theoretical disagreement rather than caricature positivism as blind obedience. Identify legal status, political justification, and individual obligation as separable propositions. Each demands an argument and may produce a different answer for the same statute.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Power can be arbitrary without being violent",
+              "body_md": "A licensing regime might allow officials to deny applications for opaque reasons. Even if most applicants receive permits, those excluded may be dominated by discretionary power they cannot anticipate or contest. Republican theories of nondomination emphasize the problem of uncontrolled interference. Other approaches emphasize autonomy, participation, or distributive justice. A defensible comparison asks which harms each theory reveals and whether objective standards, reasons, and appeal actually reduce arbitrary dependence. Merely calling a rule neutral does not make its effects just.",
+              "audio_script": "A licensing regime might allow officials to deny applications for opaque reasons. Even if most applicants receive permits, those excluded may be dominated by discretionary power they cannot anticipate or contest. Republican theories of nondomination emphasize the problem of uncontrolled interference. Other approaches emphasize autonomy, participation, or distributive justice. A defensible comparison asks which harms each theory reveals and whether objective standards, reasons, and appeal actually reduce arbitrary dependence. Merely calling a rule neutral does not make its effects just.",
+              "example": null,
+              "video": null
+            },
+            {
+              "title": "Design accountable coercion",
+              "body_md": "Propose clear legislative authorization, publicly available criteria, necessity or proportionality review where governing law requires, meaningful participation, and effective remedies for abuse. Explain why the scheme addresses a collective problem better than less restrictive alternatives. If expert decisions are needed, define how their evidence can be challenged without ignoring their competence. Separate reforms from presently binding requirements. A legitimate order should be explainable even to the person who loses: why the state acted, why this restriction was chosen, and how an error can be corrected.",
+              "audio_script": "Propose clear legislative authorization, publicly available criteria, necessity or proportionality review where governing law requires, meaningful participation, and effective remedies for abuse. Explain why the scheme addresses a collective problem better than less restrictive alternatives. If expert decisions are needed, define how their evidence can be challenged without ignoring their competence. Separate reforms from presently binding requirements. A legitimate order should be explainable even to the person who loses: why the state acted, why this restriction was chosen, and how an error can be corrected.",
+              "example": null,
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q1",
+              "type": "true_false",
+              "prompt": "An official act can be lawful under existing rules yet remain subject to serious moral criticism.",
+              "answer": true,
+              "explanation_if_true": "Legal validity and moral justification are not identical questions on many theories.",
+              "explanation_if_false": "Legal validity and moral justification are not identical questions on many theories."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q2",
+              "type": "true_false",
+              "prompt": "A rule becomes fully legitimate solely because officials describe it as technically efficient.",
+              "answer": false,
+              "explanation_if_true": "Legitimacy also involves authority, affected rights, reasons, and avenues of challenge.",
+              "explanation_if_false": "Legitimacy also involves authority, affected rights, reasons, and avenues of challenge."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A permit scheme lets officials reject a minority applicant without criteria or appeal. Which normative concern is especially acute?",
+              "choices": [
+                "A purely mathematical problem with no rights",
+                "Mandatory decentralization in every constitution",
+                "Arbitrary domination by public discretion",
+                "The absence of a private insurance contract"
+              ],
+              "answer_index": 2,
+              "explanation": "Uncontrolled power undermines freedom even if officials often exercise it benignly."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What distinguishes a defensible coercive rule from officials' preferences?",
+              "choices": [
+                "Unlimited authority after any emergency declaration",
+                "A lawful source, public reasons, constrained discretion, and review",
+                "Secrecy combined with unexplained enforcement",
+                "A guarantee that no one ever disagrees"
+              ],
+              "answer_index": 1,
+              "explanation": "Legitimacy requires more than the power to compel obedience."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Legitimacy?",
+              "choices": [
+                "Conformity with recognized legal requirements",
+                "Justification for exercising public authority",
+                "Freedom from uncontrolled arbitrary interference",
+                "Reasons officials can offer to those subject to decisions"
+              ],
+              "answer_index": 1,
+              "explanation": "Legitimacy means justification for exercising public authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q6",
+              "type": "matching",
+              "prompt": "Match the theories and concepts to their meanings.",
+              "pairs": [
+                [
+                  "Legality",
+                  "Conformity with recognized legal requirements"
+                ],
+                [
+                  "Legitimacy",
+                  "Justification for exercising public authority"
+                ],
+                [
+                  "Nondomination",
+                  "Freedom from uncontrolled arbitrary interference"
+                ],
+                [
+                  "Public justification",
+                  "Reasons officials can offer to those subject to decisions"
+                ]
+              ],
+              "explanation": "These ideas justify different limits and uses of public power."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for conformity with recognized legal requirements is ___.",
+              "answer": "Legality",
+              "accept": [
+                "Legality"
+              ],
+              "explanation": "The term is Legality."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.individual-vs-state-power.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for reasons officials can offer to those subject to decisions is ___.",
+              "answer": "Public justification",
+              "accept": [
+                "Public justification"
+              ],
+              "explanation": "The term is Public justification."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

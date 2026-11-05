@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Understand why causal proof matters across legal orders",
+          "summary": "Law must identify a connection between conduct and a claimed outcome before assigning many kinds of responsibility. Learn to ask which factual relationship and legal rule are required.",
+          "checklist": [
+            "I can distinguish temporal sequence from causal connection",
+            "I can ask who must establish causation under the relevant rule",
+            "I can separate scientific and legal statements about cause"
+          ],
+          "sections": [
+            {
+              "title": "After Does Not Mean Because Of",
+              "body_md": "A customer takes medicine and later becomes ill. The timing alone does not prove the medicine caused the illness. Medical evidence, alternative explanations, known risks, and circumstances matter. A legal system may also impose requirements about how closely the conduct must be connected to recognized damage. A student should separate the physical event, the proposed causal story, and the legal rule applying to that story instead of inferring responsibility from chronology.",
+              "example": null,
+              "audio_script": "A customer takes medicine and later becomes ill. The timing alone does not prove the medicine caused the illness. Medical evidence, alternative explanations, known risks, and circumstances matter. A legal system may also impose requirements about how closely the conduct must be connected to recognized damage. A student should separate the physical event, the proposed causal story, and the legal rule applying to that story instead of inferring responsibility from chronology.",
+              "video": null
+            },
+            {
+              "title": "Different Rules, Same Need for Evidence",
+              "body_md": "Tort, delict, contract, criminal, and administrative rules may ask distinct causal questions. A breach of contract can require proof of a particular loss for compensation even when the breach itself is clear; a regulatory offense might define an obligation without requiring proof of individual injury. This variation does not mean causation is irrelevant. It means the lawyer must identify which element the governing rule actually requires. The same facts can thus be legally relevant in different ways.",
+              "example": null,
+              "audio_script": "Tort, delict, contract, criminal, and administrative rules may ask distinct causal questions. A breach of contract can require proof of a particular loss for compensation even when the breach itself is clear; a regulatory offense might define an obligation without requiring proof of individual injury. This variation does not mean causation is irrelevant. It means the lawyer must identify which element the governing rule actually requires. The same facts can thus be legally relevant in different ways.",
+              "video": null
+            },
+            {
+              "title": "Ask a Better Question",
+              "body_md": "Rather than asking only whether someone acted wrongly, ask what result the person is said to have caused and what evidence supports the connection. A broken bridge may involve poor design, weather, maintenance and extraordinary loading. The legally selected cause need not be the only physical contributor. The first step is to construct a timeline, identify possible causes, and locate the rule that determines which connections matter. That is a method useful in every legal tradition.",
+              "example": null,
+              "audio_script": "Rather than asking only whether someone acted wrongly, ask what result the person is said to have caused and what evidence supports the connection. A broken bridge may involve poor design, weather, maintenance and extraordinary loading. The legally selected cause need not be the only physical contributor. The first step is to construct a timeline, identify possible causes, and locate the rule that determines which connections matter. That is a method useful in every legal tradition.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Temporal sequence means one event occurring after another.",
+              "answer": true,
+              "explanation_if_true": "Temporal sequence means one event occurring after another.",
+              "explanation_if_false": "Temporal sequence means one event occurring after another."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "If harm follows conduct, the conduct necessarily caused it.",
+              "answer": false,
+              "explanation_if_true": "Chronology alone does not establish causal connection.",
+              "explanation_if_false": "Chronology alone does not establish causal connection."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Causation?",
+              "choices": [
+                "Requirement that must be shown under a claim",
+                "Connection between conduct or event and a result",
+                "One event occurring after another",
+                "Another possible account of the result"
+              ],
+              "answer_index": 1,
+              "explanation": "Causation means connection between conduct or event and a result."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A patient falls ill after a treatment but also had an independent infection. What must be evaluated?",
+              "choices": [
+                "Evidence about competing causes",
+                "Only which event came last",
+                "The physician's office décor",
+                "The number of pages in the prescription"
+              ],
+              "answer_index": 0,
+              "explanation": "A causal claim needs a supported explanation, not mere temporal sequence."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means another possible account of the result?",
+              "choices": [
+                "Alternative explanation",
+                "Causation",
+                "Legal element",
+                "Temporal sequence"
+              ],
+              "answer_index": 0,
+              "explanation": "Alternative explanation means another possible account of the result."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Causation",
+                  "Connection between conduct or event and a result"
+                ],
+                [
+                  "Temporal sequence",
+                  "One event occurring after another"
+                ],
+                [
+                  "Alternative explanation",
+                  "Another possible account of the result"
+                ],
+                [
+                  "Legal element",
+                  "Requirement that must be shown under a claim"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Connection between conduct or event and a result is called ___.",
+              "answer": "Causation",
+              "accept": [
+                "Causation"
+              ],
+              "explanation": "The term is Causation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Requirement that must be shown under a claim is called ___.",
+              "answer": "Legal element",
+              "accept": [
+                "Legal element"
+              ],
+              "explanation": "The term is Legal element."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Compare causal tests and limits of attribution",
+          "summary": "Different systems may use counterfactual reasoning, foreseeability, adequacy or scope-of-liability standards. Learn to treat them as particular tools rather than a universal formula.",
+          "checklist": [
+            "I can explain basic counterfactual causal reasoning",
+            "I can distinguish factual causation from legal scope",
+            "I can identify the limits of cross-system equivalence"
+          ],
+          "sections": [
+            {
+              "title": "A Counterfactual Question",
+              "body_md": "A common factual-causation inquiry asks whether the result would have occurred without the defendant's conduct. This counterfactual can clarify ordinary cases: would the injury have happened without the neglected safety rail? But multiple sufficient causes can complicate that test. Different legal systems employ refinements or alternative approaches in specified situations. A comparison should not declare one test universally controlling. It should identify the cause of action, jurisdiction and causal problem first.",
+              "example": null,
+              "audio_script": "A common factual-causation inquiry asks whether the result would have occurred without the defendant's conduct. This counterfactual can clarify ordinary cases: would the injury have happened without the neglected safety rail? But multiple sufficient causes can complicate that test. Different legal systems employ refinements or alternative approaches in specified situations. A comparison should not declare one test universally controlling. It should identify the cause of action, jurisdiction and causal problem first.",
+              "video": null
+            },
+            {
+              "title": "Not Every Result Is Attributed",
+              "body_md": "Even when an action helped cause a loss, the governing legal rule may limit which consequences the defendant must answer for. Civil-law systems may discuss adequate causation, protected interests, or other limits; common-law systems may use remoteness, scope of duty and foreseeability in particular contexts. Those words are not interchangeable across all countries or causes of action. The deeper question is where factual explanation ends and a normative decision about legal responsibility begins.",
+              "example": null,
+              "audio_script": "Even when an action helped cause a loss, the governing legal rule may limit which consequences the defendant must answer for. Civil-law systems may discuss adequate causation, protected interests, or other limits; common-law systems may use remoteness, scope of duty and foreseeability in particular contexts. Those words are not interchangeable across all countries or causes of action. The deeper question is where factual explanation ends and a normative decision about legal responsibility begins.",
+              "video": null
+            },
+            {
+              "title": "The Burden Must Be Located",
+              "body_md": "A claimant may normally bear responsibility for proving necessary causal elements, but evidentiary presumptions and statutory schemes can alter how uncertainty is allocated. Different standards can apply in civil and criminal cases. In an exposure dispute, a legal presumption may address missing records but still require specified foundational facts. Comparative method demands exact identification of the burden, standard and legal source. Without these, saying that cause is 'proved' has little operational meaning.",
+              "example": null,
+              "audio_script": "A claimant may normally bear responsibility for proving necessary causal elements, but evidentiary presumptions and statutory schemes can alter how uncertainty is allocated. Different standards can apply in civil and criminal cases. In an exposure dispute, a legal presumption may address missing records but still require specified foundational facts. Comparative method demands exact identification of the burden, standard and legal source. Without these, saying that cause is 'proved' has little operational meaning.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Remoteness means normative limit on consequences attributable in law.",
+              "answer": true,
+              "explanation_if_true": "Remoteness means normative limit on consequences attributable in law.",
+              "explanation_if_false": "Remoteness means normative limit on consequences attributable in law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "The but-for test resolves every case involving multiple sufficient causes.",
+              "answer": false,
+              "explanation_if_true": "Multiple causes can require more complex tests or rules under applicable law.",
+              "explanation_if_false": "Multiple causes can require more complex tests or rules under applicable law."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Counterfactual test?",
+              "choices": [
+                "Question whether an outcome would occur without an event",
+                "Normative limit on consequences attributable in law",
+                "Rule allowing a fact to be inferred upon stated conditions",
+                "Responsibility for establishing a contested legal element"
+              ],
+              "answer_index": 0,
+              "explanation": "Counterfactual test means question whether an outcome would occur without an event."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Two independently sufficient fires combine to destroy a house. What is the difficulty?",
+              "choices": [
+                "The house has no owner",
+                "The fires have different names",
+                "No legal system can consider multiple actors",
+                "Ordinary counterfactual reasoning may be inadequate"
+              ],
+              "answer_index": 3,
+              "explanation": "If either fire would have sufficed, a simple but-for inquiry may mislead."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means rule allowing a fact to be inferred upon stated conditions?",
+              "choices": [
+                "Counterfactual test",
+                "Burden of proof",
+                "Remoteness",
+                "Presumption"
+              ],
+              "answer_index": 3,
+              "explanation": "Presumption means rule allowing a fact to be inferred upon stated conditions."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Counterfactual test",
+                  "Question whether an outcome would occur without an event"
+                ],
+                [
+                  "Remoteness",
+                  "Normative limit on consequences attributable in law"
+                ],
+                [
+                  "Presumption",
+                  "Rule allowing a fact to be inferred upon stated conditions"
+                ],
+                [
+                  "Burden of proof",
+                  "Responsibility for establishing a contested legal element"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Question whether an outcome would occur without an event is called ___.",
+              "answer": "Counterfactual test",
+              "accept": [
+                "Counterfactual test"
+              ],
+              "explanation": "The term is Counterfactual test."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Responsibility for establishing a contested legal element is called ___.",
+              "answer": "Burden of proof",
+              "accept": [
+                "Burden of proof"
+              ],
+              "explanation": "The term is Burden of proof."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare scientific evidence with juridical standards",
+          "summary": "At advanced level, assess how legal systems manage probabilistic causal evidence. Separate general statistical risk, particular causation, and the social choice of which mistakes to tolerate.",
+          "checklist": [
+            "I can distinguish population risk from individual causation",
+            "I can compare evidentiary presumptions with scientific inference",
+            "I can evaluate error distribution in causation rules"
+          ],
+          "sections": [
+            {
+              "title": "Scientific and Legal Questions Differ",
+              "body_md": "An epidemiological study may find that exposure increases a disease's prevalence in a population. That does not automatically identify which individual illness was caused by a defendant, nor does it determine the legal standard for liability. Courts may use scientific testimony, standards for expert evidence, or statutory presumptions. Their rules vary. A sophisticated comparison analyzes the strength and limits of the study and then separately asks what the applicable substantive and procedural law requires for this claim.",
+              "example": null,
+              "audio_script": "An epidemiological study may find that exposure increases a disease's prevalence in a population. That does not automatically identify which individual illness was caused by a defendant, nor does it determine the legal standard for liability. Courts may use scientific testimony, standards for expert evidence, or statutory presumptions. Their rules vary. A sophisticated comparison analyzes the strength and limits of the study and then separately asks what the applicable substantive and procedural law requires for this claim.",
+              "video": null
+            },
+            {
+              "title": "A Presumption Allocates Uncertainty",
+              "body_md": "Some legislation creates presumptions or shifts evidentiary burdens where direct proof is exceptionally difficult. Such rules can improve access to compensation but may also risk wrongful attribution. Their defensibility depends on the underlying probability, available alternatives and opportunity for rebuttal. Lawyers should not confuse a presumption with scientific certainty. It is a legal decision about how to proceed when evidence is incomplete, shaped by the relative consequences of denying and imposing responsibility.",
+              "example": null,
+              "audio_script": "Some legislation creates presumptions or shifts evidentiary burdens where direct proof is exceptionally difficult. Such rules can improve access to compensation but may also risk wrongful attribution. Their defensibility depends on the underlying probability, available alternatives and opportunity for rebuttal. Lawyers should not confuse a presumption with scientific certainty. It is a legal decision about how to proceed when evidence is incomplete, shaped by the relative consequences of denying and imposing responsibility.",
+              "video": null
+            },
+            {
+              "title": "What Courts Can Reliably Decide",
+              "body_md": "Cross-border harm may involve laboratories, data standards, different admissibility rules and language barriers. A study accepted in one court could receive less weight in another because of procedural differences. This is not proof one jurisdiction values science less; it may reflect distinct institutional rules or evidentiary records. An advanced lawyer assembles the strongest possible causal account, identifies uncertainty transparently, and explains what further information would actually affect the legal conclusion.",
+              "example": null,
+              "audio_script": "Cross-border harm may involve laboratories, data standards, different admissibility rules and language barriers. A study accepted in one court could receive less weight in another because of procedural differences. This is not proof one jurisdiction values science less; it may reflect distinct institutional rules or evidentiary records. An advanced lawyer assembles the strongest possible causal account, identifies uncertainty transparently, and explains what further information would actually affect the legal conclusion.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "General causation means whether a factor can cause a type of injury.",
+              "answer": true,
+              "explanation_if_true": "General causation means whether a factor can cause a type of injury.",
+              "explanation_if_false": "General causation means whether a factor can cause a type of injury."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "Population-level statistical evidence always proves specific causation for each exposed individual.",
+              "answer": false,
+              "explanation_if_true": "General and individual causal inquiries are distinct, even where evidence overlaps.",
+              "explanation_if_false": "General and individual causal inquiries are distinct, even where evidence overlaps."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Epidemiology?",
+              "choices": [
+                "Whether a factor can cause a type of injury",
+                "Whether it caused this claimant's injury",
+                "Inference open to being disproved by evidence",
+                "Study of disease patterns in populations"
+              ],
+              "answer_index": 3,
+              "explanation": "Epidemiology means study of disease patterns in populations."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A trial relies on an exposure study to show risk but not the cause of one person's illness. What issue remains?",
+              "choices": [
+                "Whether all experts have the same nationality",
+                "Whether the courtroom has a jury",
+                "Specific causation under the legal standard",
+                "Whether the study used enough pages"
+              ],
+              "answer_index": 2,
+              "explanation": "Group risk evidence may not resolve individual causal attribution."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means whether it caused this claimant's injury?",
+              "choices": [
+                "Rebuttable presumption",
+                "General causation",
+                "Specific causation",
+                "Epidemiology"
+              ],
+              "answer_index": 2,
+              "explanation": "Specific causation means whether it caused this claimant's injury."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Epidemiology",
+                  "Study of disease patterns in populations"
+                ],
+                [
+                  "General causation",
+                  "Whether a factor can cause a type of injury"
+                ],
+                [
+                  "Specific causation",
+                  "Whether it caused this claimant's injury"
+                ],
+                [
+                  "Rebuttable presumption",
+                  "Inference open to being disproved by evidence"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Study of disease patterns in populations is called ___.",
+              "answer": "Epidemiology",
+              "accept": [
+                "Epidemiology"
+              ],
+              "explanation": "The term is Epidemiology."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Inference open to being disproved by evidence is called ___.",
+              "answer": "Rebuttable presumption",
+              "accept": [
+                "Rebuttable presumption"
+              ],
+              "explanation": "The term is Rebuttable presumption."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design fair causal rules for global, cumulative risks",
+          "summary": "At doctoral depth, examine how law can address uncertain causation without treating all risk as liability. Compare public prevention, individual compensation and collective risk-sharing as distinct institutional responses.",
+          "checklist": [
+            "I can critique doctrinal tests that assume single-actor harms",
+            "I can explain competing error costs under causal uncertainty",
+            "I can propose bounded risk-based remedies with transparent proof"
+          ],
+          "sections": [
+            {
+              "title": "The Single-Actor Model Breaks Down",
+              "body_md": "Climate change, cumulative industrial exposure and interconnected software failures can involve many contributing actors and long causal chains. Some liability systems evolved around a clearly identifiable injury and defendant. Extending those concepts to mass harm may create difficulty in assigning shares of responsibility. A doctoral argument must distinguish the existence of global harm, the contribution of a particular actor, and the legal source of an enforceable duty. Moral urgency does not remove the need to state those distinctions.",
+              "example": null,
+              "audio_script": "Climate change, cumulative industrial exposure and interconnected software failures can involve many contributing actors and long causal chains. Some liability systems evolved around a clearly identifiable injury and defendant. Extending those concepts to mass harm may create difficulty in assigning shares of responsibility. A doctoral argument must distinguish the existence of global harm, the contribution of a particular actor, and the legal source of an enforceable duty. Moral urgency does not remove the need to state those distinctions.",
+              "video": null
+            },
+            {
+              "title": "Error Has Human Costs on Both Sides",
+              "body_md": "A strict causation test may deny relief to people seriously injured by diffuse activities but unable to document each contribution. An overly relaxed test may impose crushing damages on parties whose conduct did not cause the claimant's loss. These risks should be measured, not hidden. A defensible reform could combine information duties, proportionate presumptions, funds and public preventive standards, but each demands authorization and institutional capacity. No label such as 'precaution' is a substitute for explaining the allocation of errors.",
+              "example": null,
+              "audio_script": "A strict causation test may deny relief to people seriously injured by diffuse activities but unable to document each contribution. An overly relaxed test may impose crushing damages on parties whose conduct did not cause the claimant's loss. These risks should be measured, not hidden. A defensible reform could combine information duties, proportionate presumptions, funds and public preventive standards, but each demands authorization and institutional capacity. No label such as 'precaution' is a substitute for explaining the allocation of errors.",
+              "video": null
+            },
+            {
+              "title": "A Comparative Design Exercise",
+              "body_md": "Suppose three countries share a polluted river and disagree about evidence of long-term harm. A sound framework could require coordinated monitoring, transparent data access, adjudication of proven claims and a prevention mechanism based on specified risk thresholds. It must also define jurisdiction, financing and review. The doctoral objective is to design rules that produce actionable knowledge and accountable protection while preserving room to contest causation. Legal mastery means finding the fairest administrable approach, not asserting certainty where evidence is incomplete.",
+              "example": null,
+              "audio_script": "Suppose three countries share a polluted river and disagree about evidence of long-term harm. A sound framework could require coordinated monitoring, transparent data access, adjudication of proven claims and a prevention mechanism based on specified risk thresholds. It must also define jurisdiction, financing and review. The doctoral objective is to design rules that produce actionable knowledge and accountable protection while preserving room to contest causation. Legal mastery means finding the fairest administrable approach, not asserting certainty where evidence is incomplete.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Precautionary rule means preventive standard triggered by specified uncertainty or risk.",
+              "answer": true,
+              "explanation_if_true": "Precautionary rule means preventive standard triggered by specified uncertainty or risk.",
+              "explanation_if_false": "Precautionary rule means preventive standard triggered by specified uncertainty or risk."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "Preventive regulation and civil damages require identical causal showings in every jurisdiction.",
+              "answer": false,
+              "explanation_if_true": "Their purposes and evidentiary thresholds can differ under distinct legal frameworks.",
+              "explanation_if_false": "Their purposes and evidentiary thresholds can differ under distinct legal frameworks."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best fits Cumulative causation?",
+              "choices": [
+                "Harm caused by a mistaken legal decision",
+                "Mechanism distributing certain losses across contributors",
+                "Result generated by multiple contributions over time",
+                "Preventive standard triggered by specified uncertainty or risk"
+              ],
+              "answer_index": 2,
+              "explanation": "Cumulative causation means result generated by multiple contributions over time."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Several countries seek compensation and prevention for a polluted shared river. Which approach is most defensible?",
+              "choices": [
+                "Ignore international jurisdiction",
+                "Separate causal proof for damages from risk-based preventive design",
+                "Treat every allegation as conclusive",
+                "Deny every claim until all scientific uncertainty vanishes"
+              ],
+              "answer_index": 1,
+              "explanation": "Accountable policy distinguishes compensation, precaution and cross-border jurisdiction."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means harm caused by a mistaken legal decision?",
+              "choices": [
+                "Precautionary rule",
+                "Error cost",
+                "Cumulative causation",
+                "Risk-sharing fund"
+              ],
+              "answer_index": 1,
+              "explanation": "Error cost means harm caused by a mistaken legal decision."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its comparative-law meaning.",
+              "pairs": [
+                [
+                  "Cumulative causation",
+                  "Result generated by multiple contributions over time"
+                ],
+                [
+                  "Precautionary rule",
+                  "Preventive standard triggered by specified uncertainty or risk"
+                ],
+                [
+                  "Error cost",
+                  "Harm caused by a mistaken legal decision"
+                ],
+                [
+                  "Risk-sharing fund",
+                  "Mechanism distributing certain losses across contributors"
+                ]
+              ],
+              "explanation": "Comparable legal terms may still have different system-specific legal effects."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Result generated by multiple contributions over time is called ___.",
+              "answer": "Cumulative causation",
+              "accept": [
+                "Cumulative causation"
+              ],
+              "explanation": "The term is Cumulative causation."
+            },
+            {
+              "id": "PSU-1.3.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Mechanism distributing certain losses across contributors is called ___.",
+              "answer": "Risk-sharing fund",
+              "accept": [
+                "Risk-sharing fund"
+              ],
+              "explanation": "The term is Risk-sharing fund."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

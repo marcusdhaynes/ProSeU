@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Separate association from cause in legal evidence",
+          "summary": "Two things can move together without one producing the other. Learn to ask what else might explain an observed pattern before advising that a legal policy worked.",
+          "checklist": [
+            "I can describe an association without claiming cause",
+            "I can identify a plausible confounder",
+            "I can ask what would happen without the policy"
+          ],
+          "sections": [
+            {
+              "title": "A Pattern Is Not an Explanation",
+              "body_md": "A town adds street cameras, and reported theft declines. The events occur together, but the decrease could also reflect seasonal changes, new patrols or shifts in reporting. Correlation is a relationship between variables; causation means that changing one factor produces a change in another. A legal-economic analyst should distinguish the two before claiming the cameras justified a restriction on privacy. The observed pattern is evidence worth investigating, not a complete proof.",
+              "example": null,
+              "audio_script": "A town adds street cameras, and reported theft declines. The events occur together, but the decrease could also reflect seasonal changes, new patrols or shifts in reporting. Correlation is a relationship between variables; causation means that changing one factor produces a change in another. A legal-economic analyst should distinguish the two before claiming the cameras justified a restriction on privacy. The observed pattern is evidence worth investigating, not a complete proof.",
+              "video": null
+            },
+            {
+              "title": "Look for a Comparison",
+              "body_md": "To estimate a policy's effect, ask what would likely have happened without it. A similar town without cameras might provide a comparison, but only if important differences and concurrent changes are considered. The ideal counterfactual cannot be observed directly for the same place and time. The analyst therefore looks for credible evidence approximating it. This habit prevents legal advocacy from treating the policy's implementation date as the cause of every later improvement.",
+              "example": null,
+              "audio_script": "To estimate a policy's effect, ask what would likely have happened without it. A similar town without cameras might provide a comparison, but only if important differences and concurrent changes are considered. The ideal counterfactual cannot be observed directly for the same place and time. The analyst therefore looks for credible evidence approximating it. This habit prevents legal advocacy from treating the policy's implementation date as the cause of every later improvement.",
+              "video": null
+            },
+            {
+              "title": "Describe What the Data Actually Say",
+              "body_md": "A report should specify which crimes were counted, how they were recorded, when the policy began and whether other conditions changed. Without clear measures, even a strong trend may be misleading. The lawyer can use the evidence to question or support a proposal while acknowledging its limits. Honest causal language helps clients and lawmakers evaluate policy without granting a statistic more authority than it deserves.",
+              "example": null,
+              "audio_script": "A report should specify which crimes were counted, how they were recorded, when the policy began and whether other conditions changed. Without clear measures, even a strong trend may be misleading. The lawyer can use the evidence to question or support a proposal while acknowledging its limits. Honest causal language helps clients and lawmakers evaluate policy without granting a statistic more authority than it deserves.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Causation means effect of one factor on another.",
+              "answer": true,
+              "explanation_if_true": "Causation means effect of one factor on another.",
+              "explanation_if_false": "Causation means effect of one factor on another."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "A policy starting before a favorable trend proves the policy caused the trend.",
+              "answer": false,
+              "explanation_if_true": "Time order alone cannot exclude other causal explanations.",
+              "explanation_if_false": "Time order alone cannot exclude other causal explanations."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Correlation?",
+              "choices": [
+                "Estimate of what would happen without an intervention",
+                "Observed association among variables",
+                "Effect of one factor on another",
+                "Additional factor distorting an observed association"
+              ],
+              "answer_index": 1,
+              "explanation": "Correlation means observed association among variables."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Theft falls after cameras are installed, but police patrols doubled too. What is a possible confounder?",
+              "choices": [
+                "Increased patrols",
+                "The cameras' color",
+                "The length of the press release",
+                "Whether the town has a flag"
+              ],
+              "answer_index": 0,
+              "explanation": "Another simultaneous change could explain the outcome."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means additional factor distorting an observed association?",
+              "choices": [
+                "Confounder",
+                "Correlation",
+                "Counterfactual",
+                "Causation"
+              ],
+              "answer_index": 0,
+              "explanation": "Confounder means additional factor distorting an observed association."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Correlation",
+                  "Observed association among variables"
+                ],
+                [
+                  "Causation",
+                  "Effect of one factor on another"
+                ],
+                [
+                  "Confounder",
+                  "Additional factor distorting an observed association"
+                ],
+                [
+                  "Counterfactual",
+                  "Estimate of what would happen without an intervention"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Observed association among variables is called ___.",
+              "answer": "Correlation",
+              "accept": [
+                "Correlation"
+              ],
+              "explanation": "The term is Correlation."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Estimate of what would happen without an intervention is called ___.",
+              "answer": "Counterfactual",
+              "accept": [
+                "Counterfactual"
+              ],
+              "explanation": "The term is Counterfactual."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Use comparison groups to strengthen causal inference",
+          "summary": "Learn why experiments and carefully constructed observational comparisons can be more informative than before-after changes alone. Recognize baseline differences and selection effects.",
+          "checklist": [
+            "I can explain a treatment and comparison group",
+            "I can identify why random assignment helps",
+            "I can recognize remaining limitations of an experiment"
+          ],
+          "sections": [
+            {
+              "title": "Compare With What Would Happen Otherwise",
+              "body_md": "A legal aid program begins in some districts but not others. Researchers compare dispute outcomes between participating and nonparticipating places. That comparison may reveal an effect if the groups are otherwise sufficiently comparable. Random assignment, when lawful and ethical, can reduce systematic differences on average. But it does not guarantee perfect measurement, no attrition or applicability to every other jurisdiction. A good causal claim explains the comparison and its limitations.",
+              "example": null,
+              "audio_script": "A legal aid program begins in some districts but not others. Researchers compare dispute outcomes between participating and nonparticipating places. That comparison may reveal an effect if the groups are otherwise sufficiently comparable. Random assignment, when lawful and ethical, can reduce systematic differences on average. But it does not guarantee perfect measurement, no attrition or applicability to every other jurisdiction. A good causal claim explains the comparison and its limitations.",
+              "video": null
+            },
+            {
+              "title": "Selection Can Mislead",
+              "body_md": "Suppose only highly motivated applicants enroll in a voluntary legal training course. Their later success might reflect prior motivation as well as the training. Comparing participants with nonparticipants without addressing that difference can exaggerate the program's effect. Researchers may use baseline information, statistical methods or a better design, but each approach depends on assumptions. The analyst should ask how people entered the program and which variables could affect both participation and outcomes.",
+              "example": null,
+              "audio_script": "Suppose only highly motivated applicants enroll in a voluntary legal training course. Their later success might reflect prior motivation as well as the training. Comparing participants with nonparticipants without addressing that difference can exaggerate the program's effect. Researchers may use baseline information, statistical methods or a better design, but each approach depends on assumptions. The analyst should ask how people entered the program and which variables could affect both participation and outcomes.",
+              "video": null
+            },
+            {
+              "title": "Statistical Significance Is Not Impact",
+              "body_md": "A large study may detect a tiny change with high statistical confidence, while a smaller study may be inconclusive despite a potentially meaningful effect. Courts and policymakers should care about the size, uncertainty and practical consequences of an estimate, not only a threshold label. The law's normative question remains separate: does the measured effect justify the chosen intervention under applicable rights and authority? Evidence helps answer a part of that question, not all of it.",
+              "example": null,
+              "audio_script": "A large study may detect a tiny change with high statistical confidence, while a smaller study may be inconclusive despite a potentially meaningful effect. Courts and policymakers should care about the size, uncertainty and practical consequences of an estimate, not only a threshold label. The law's normative question remains separate: does the measured effect justify the chosen intervention under applicable rights and authority? Evidence helps answer a part of that question, not all of it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Comparison group means relevant participants without the intervention.",
+              "answer": true,
+              "explanation_if_true": "Comparison group means relevant participants without the intervention.",
+              "explanation_if_false": "Comparison group means relevant participants without the intervention."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "Volunteers and nonvolunteers necessarily differ only because of the program they choose.",
+              "answer": false,
+              "explanation_if_true": "Preexisting motivation and other traits can affect both participation and outcomes.",
+              "explanation_if_false": "Preexisting motivation and other traits can affect both participation and outcomes."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Treatment group?",
+              "choices": [
+                "Participants receiving an intervention",
+                "Relevant participants without the intervention",
+                "Allocation by chance for causal inference",
+                "Distortion from nonrandom inclusion or participation"
+              ],
+              "answer_index": 0,
+              "explanation": "Treatment group means participants receiving an intervention."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A voluntary training program's participants later outperform nonparticipants. What should a researcher test?",
+              "choices": [
+                "Only the graduation photo",
+                "The course name's length",
+                "Whether the building is modern",
+                "Preexisting selection differences"
+              ],
+              "answer_index": 3,
+              "explanation": "Motivated applicants may have performed better even without the program."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means allocation by chance for causal inference?",
+              "choices": [
+                "Treatment group",
+                "Selection bias",
+                "Comparison group",
+                "Random assignment"
+              ],
+              "answer_index": 3,
+              "explanation": "Random assignment means allocation by chance for causal inference."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Treatment group",
+                  "Participants receiving an intervention"
+                ],
+                [
+                  "Comparison group",
+                  "Relevant participants without the intervention"
+                ],
+                [
+                  "Random assignment",
+                  "Allocation by chance for causal inference"
+                ],
+                [
+                  "Selection bias",
+                  "Distortion from nonrandom inclusion or participation"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Participants receiving an intervention is called ___.",
+              "answer": "Treatment group",
+              "accept": [
+                "Treatment group"
+              ],
+              "explanation": "The term is Treatment group."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Distortion from nonrandom inclusion or participation is called ___.",
+              "answer": "Selection bias",
+              "accept": [
+                "Selection bias"
+              ],
+              "explanation": "The term is Selection bias."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Assess quasi-experiments in legal policy evaluation",
+          "summary": "Public interventions often cannot be randomized. Learn the logic and assumptions of difference-in-differences, regression discontinuity and instrumental-variable approaches without treating them as magic proofs.",
+          "checklist": [
+            "I can state the parallel-trends assumption",
+            "I can identify a plausible threshold design",
+            "I can explain why instruments require exclusion assumptions"
+          ],
+          "sections": [
+            {
+              "title": "Difference-in-Differences",
+              "body_md": "Suppose one state changes its wage law while a comparable state does not. Difference-in-differences compares how outcomes change in each place, subtracting the control trend from the treated trend. Its causal interpretation often relies on a parallel-trends assumption: absent treatment, their outcomes would have evolved similarly. If one state also experiences an economic shock, the assumption may fail. A useful analysis plots pre-policy trends and explains why the comparison is credible rather than trusting the method's name.",
+              "example": null,
+              "audio_script": "Suppose one state changes its wage law while a comparable state does not. Difference-in-differences compares how outcomes change in each place, subtracting the control trend from the treated trend. Its causal interpretation often relies on a parallel-trends assumption: absent treatment, their outcomes would have evolved similarly. If one state also experiences an economic shock, the assumption may fail. A useful analysis plots pre-policy trends and explains why the comparison is credible rather than trusting the method's name.",
+              "video": null
+            },
+            {
+              "title": "Regression Discontinuity",
+              "body_md": "A benefit becomes available only when household income falls below a threshold. Researchers may compare cases just above and below that cutoff, where characteristics can be similar. The design requires assumptions about continuity and whether people can manipulate the assignment variable. It can estimate a local effect near the threshold, not necessarily the effect on every household. A lawyer reviewing such evidence should identify the relevant population and whether the result can justify the broader policy claim.",
+              "example": null,
+              "audio_script": "A benefit becomes available only when household income falls below a threshold. Researchers may compare cases just above and below that cutoff, where characteristics can be similar. The design requires assumptions about continuity and whether people can manipulate the assignment variable. It can estimate a local effect near the threshold, not necessarily the effect on every household. A lawyer reviewing such evidence should identify the relevant population and whether the result can justify the broader policy claim.",
+              "video": null
+            },
+            {
+              "title": "Instrumental Variables",
+              "body_md": "A researcher may use a variable that changes exposure but is assumed not to influence the outcome except through that exposure. Such an instrument can help address confounding under demanding conditions, including relevance and exclusion. A seemingly clever instrument can fail if it affects outcomes through another route. The analyst must explain those assumptions in ordinary language and test their plausibility. Econometric terminology cannot replace the burden of making the causal reasoning intelligible.",
+              "example": null,
+              "audio_script": "A researcher may use a variable that changes exposure but is assumed not to influence the outcome except through that exposure. Such an instrument can help address confounding under demanding conditions, including relevance and exclusion. A seemingly clever instrument can fail if it affects outcomes through another route. The analyst must explain those assumptions in ordinary language and test their plausibility. Econometric terminology cannot replace the burden of making the causal reasoning intelligible.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Parallel trends means assumption that group outcomes would otherwise move similarly.",
+              "answer": true,
+              "explanation_if_true": "Parallel trends means assumption that group outcomes would otherwise move similarly.",
+              "explanation_if_false": "Parallel trends means assumption that group outcomes would otherwise move similarly."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "Difference-in-differences yields a valid causal estimate even if treated and control groups would have had very different untreated trends.",
+              "answer": false,
+              "explanation_if_true": "The parallel-trends assumption is central to many interpretations of that design.",
+              "explanation_if_false": "The parallel-trends assumption is central to many interpretations of that design."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Difference-in-differences?",
+              "choices": [
+                "Assumption that group outcomes would otherwise move similarly",
+                "Design comparing units around a treatment cutoff",
+                "Variable used to identify an effect under specified assumptions",
+                "Causal design comparing changes across treated and comparison groups"
+              ],
+              "answer_index": 3,
+              "explanation": "Difference-in-differences means causal design comparing changes across treated and comparison groups."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A policy study compares two states, but only the treated state had a major factory closure. What is threatened?",
+              "choices": [
+                "The existence of a statute",
+                "The distinction between law and economics",
+                "The comparability and parallel-trends assumption",
+                "The spelling of the policy name"
+              ],
+              "answer_index": 2,
+              "explanation": "An independent shock can contaminate the estimated policy effect."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means design comparing units around a treatment cutoff?",
+              "choices": [
+                "Instrumental variable",
+                "Parallel trends",
+                "Regression discontinuity",
+                "Difference-in-differences"
+              ],
+              "answer_index": 2,
+              "explanation": "Regression discontinuity means design comparing units around a treatment cutoff."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Difference-in-differences",
+                  "Causal design comparing changes across treated and comparison groups"
+                ],
+                [
+                  "Parallel trends",
+                  "Assumption that group outcomes would otherwise move similarly"
+                ],
+                [
+                  "Regression discontinuity",
+                  "Design comparing units around a treatment cutoff"
+                ],
+                [
+                  "Instrumental variable",
+                  "Variable used to identify an effect under specified assumptions"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Causal design comparing changes across treated and comparison groups is called ___.",
+              "answer": "Difference-in-differences",
+              "accept": [
+                "Difference-in-differences"
+              ],
+              "explanation": "The term is Difference-in-differences."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Variable used to identify an effect under specified assumptions is called ___.",
+              "answer": "Instrumental variable",
+              "accept": [
+                "Instrumental variable"
+              ],
+              "explanation": "The term is Instrumental variable."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique causal identification and the ethics of legal experiments",
+          "summary": "At doctoral depth, examine what can be learned from policy experiments when treatment changes institutions and people respond strategically. Evaluate spillovers, external validity and consent.",
+          "checklist": [
+            "I can identify threats to internal and external validity",
+            "I can explain why spillovers complicate treatment comparisons",
+            "I can propose ethically defensible evaluation of high-stakes legal policies"
+          ],
+          "sections": [
+            {
+              "title": "The Intervention Changes the World",
+              "body_md": "A new sentencing policy may alter prosecutor offers, police behavior and defendants' plea decisions. The 'treatment' is not just a number assigned by researchers; institutions and people adjust in response. Spillovers can affect comparison groups, and local estimates may not transport to other courts with different rules. A doctoral evaluator must define the estimand—the causal effect actually sought—and explain which assumptions permit inference. Otherwise an impressive regression may answer a different question from the legal one.",
+              "example": null,
+              "audio_script": "A new sentencing policy may alter prosecutor offers, police behavior and defendants' plea decisions. The 'treatment' is not just a number assigned by researchers; institutions and people adjust in response. Spillovers can affect comparison groups, and local estimates may not transport to other courts with different rules. A doctoral evaluator must define the estimand—the causal effect actually sought—and explain which assumptions permit inference. Otherwise an impressive regression may answer a different question from the legal one.",
+              "video": null
+            },
+            {
+              "title": "Legal Experimentation Has Ethical Limits",
+              "body_md": "Randomizing access to life-preserving representation or essential benefits can raise ethical and legal concerns. Policy evaluation must respect consent, equality, lawful authority and independent oversight. Sometimes a natural experiment or phased rollout offers more acceptable evidence, though each has methodological limits. A rigorous design should explain why its information gains justify the burdens placed on participants. No desire for a clean causal estimate permits disregard of human rights.",
+              "example": null,
+              "audio_script": "Randomizing access to life-preserving representation or essential benefits can raise ethical and legal concerns. Policy evaluation must respect consent, equality, lawful authority and independent oversight. Sometimes a natural experiment or phased rollout offers more acceptable evidence, though each has methodological limits. A rigorous design should explain why its information gains justify the burdens placed on participants. No desire for a clean causal estimate permits disregard of human rights.",
+              "video": null
+            },
+            {
+              "title": "Replication and Policy Learning",
+              "body_md": "A single study may show an effect in one court, time or population. A policy claim becomes stronger when methods, data and results can be scrutinized and findings recur in relevant settings. Yet replication itself must respect confidentiality and data protection. A doctoral legal scholar should state the result's uncertainty, possible mechanisms and limits of transportability before recommending national reform. The goal is law that learns from evidence while remaining accountable to the people it governs.",
+              "example": null,
+              "audio_script": "A single study may show an effect in one court, time or population. A policy claim becomes stronger when methods, data and results can be scrutinized and findings recur in relevant settings. Yet replication itself must respect confidentiality and data protection. A doctoral legal scholar should state the result's uncertainty, possible mechanisms and limits of transportability before recommending national reform. The goal is law that learns from evidence while remaining accountable to the people it governs.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Spillover means intervention affecting units beyond direct recipients.",
+              "answer": true,
+              "explanation_if_true": "Spillover means intervention affecting units beyond direct recipients.",
+              "explanation_if_false": "Spillover means intervention affecting units beyond direct recipients."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "A statistically valid experiment automatically makes any human-subject intervention legally and ethically permissible.",
+              "answer": false,
+              "explanation_if_true": "Causal methodology and ethical or legal authorization are distinct requirements.",
+              "explanation_if_false": "Causal methodology and ethical or legal authorization are distinct requirements."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Estimand?",
+              "choices": [
+                "Applicability of study results to other settings",
+                "Standards protecting people affected by investigation",
+                "Precisely defined causal quantity being estimated",
+                "Intervention affecting units beyond direct recipients"
+              ],
+              "answer_index": 2,
+              "explanation": "Estimand means precisely defined causal quantity being estimated."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A sentencing study changes prosecutor behavior even in comparison courts. What issue arises?",
+              "choices": [
+                "No constitutional law exists",
+                "Spillover and contamination of the comparison",
+                "Lack of mathematical symbols",
+                "A court's ability to publish judgments"
+              ],
+              "answer_index": 1,
+              "explanation": "The intervention can change behavior beyond those formally treated."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means applicability of study results to other settings?",
+              "choices": [
+                "Spillover",
+                "External validity",
+                "Estimand",
+                "Research ethics"
+              ],
+              "answer_index": 1,
+              "explanation": "External validity means applicability of study results to other settings."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match the legal-economic concepts.",
+              "pairs": [
+                [
+                  "Estimand",
+                  "Precisely defined causal quantity being estimated"
+                ],
+                [
+                  "Spillover",
+                  "Intervention affecting units beyond direct recipients"
+                ],
+                [
+                  "External validity",
+                  "Applicability of study results to other settings"
+                ],
+                [
+                  "Research ethics",
+                  "Standards protecting people affected by investigation"
+                ]
+              ],
+              "explanation": "Economic evaluation must not be confused with legal authority."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Precisely defined causal quantity being estimated is called ___.",
+              "answer": "Estimand",
+              "accept": [
+                "Estimand"
+              ],
+              "explanation": "The term is Estimand."
+            },
+            {
+              "id": "PSU-1.7.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Standards protecting people affected by investigation is called ___.",
+              "answer": "Research ethics",
+              "accept": [
+                "Research ethics"
+              ],
+              "explanation": "The term is Research ethics."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

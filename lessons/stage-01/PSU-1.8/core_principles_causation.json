@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Avoid mistaking sequence for cause",
+          "summary": "An event happening before another does not prove the first produced the second. Learn to build a causal argument from observations, plausible mechanisms and alternative explanations.",
+          "checklist": [
+            "I can recognize the post hoc fallacy",
+            "I can distinguish correlation from causation",
+            "I can identify a fact that could test competing explanations"
+          ],
+          "sections": [
+            {
+              "title": "After Does Not Mean Because",
+              "body_md": "A city installs cameras, then theft declines. The order of events is real, but it does not establish that cameras caused the change. Weather, new patrols or reporting practices could also matter. The post hoc fallacy treats 'after this' as proof of 'because of this.' Legal advocacy should distinguish a timeline from a demonstrated effect. Ask what evidence supports the claimed connection and what alternative changes occurred at the same time.",
+              "example": null,
+              "audio_script": "A city installs cameras, then theft declines. The order of events is real, but it does not establish that cameras caused the change. Weather, new patrols or reporting practices could also matter. The post hoc fallacy treats 'after this' as proof of 'because of this.' Legal advocacy should distinguish a timeline from a demonstrated effect. Ask what evidence supports the claimed connection and what alternative changes occurred at the same time.",
+              "video": null
+            },
+            {
+              "title": "A Cause Needs a Reasoned Link",
+              "body_md": "A mechanic finds that a vehicle's brakes failed before a collision. That observation may support a causal theory, but inspection records and the sequence of events still matter. A clear argument identifies conduct, outcome and evidence connecting them. The conclusion should be no stronger than that connection allows. In law, an additional question may arise: whether the governing liability rule assigns responsibility for the harm. Physical explanation and legal attribution are related but distinct.",
+              "example": null,
+              "audio_script": "A mechanic finds that a vehicle's brakes failed before a collision. That observation may support a causal theory, but inspection records and the sequence of events still matter. A clear argument identifies conduct, outcome and evidence connecting them. The conclusion should be no stronger than that connection allows. In law, an additional question may arise: whether the governing liability rule assigns responsibility for the harm. Physical explanation and legal attribution are related but distinct.",
+              "video": null
+            },
+            {
+              "title": "Ask What Would Have Happened Otherwise",
+              "body_md": "A useful counterfactual question asks what likely would have happened without the suspected action. If a traffic signal had worked, might the collision still have occurred? This cannot always be known with certainty, but it focuses investigation on facts that discriminate between hypotheses. The beginner need not use elaborate statistics. The important habit is to avoid accepting the first explanation merely because it is emotionally compelling or easy to describe.",
+              "example": null,
+              "audio_script": "A useful counterfactual question asks what likely would have happened without the suspected action. If a traffic signal had worked, might the collision still have occurred? This cannot always be known with certainty, but it focuses investigation on facts that discriminate between hypotheses. The beginner need not use elaborate statistics. The important habit is to avoid accepting the first explanation merely because it is emotionally compelling or easy to describe.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Correlation means association between observed events or variables.",
+              "answer": true,
+              "explanation_if_true": "Correlation means association between observed events or variables.",
+              "explanation_if_false": "Correlation means association between observed events or variables."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "A legal policy enacted before a decline in crime necessarily caused that decline.",
+              "answer": false,
+              "explanation_if_true": "Chronology alone cannot rule out concurrent causes or changes in reporting.",
+              "explanation_if_false": "Chronology alone cannot rule out concurrent causes or changes in reporting."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Post hoc fallacy?",
+              "choices": [
+                "Another plausible explanation of an outcome",
+                "Invalid inference that earlier means causal",
+                "Association between observed events or variables",
+                "What might happen absent a specified event"
+              ],
+              "answer_index": 1,
+              "explanation": "Post hoc fallacy refers to invalid inference that earlier means causal."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Accidents decrease after new signage but road traffic also drops sharply. What should be investigated?",
+              "choices": [
+                "The competing effect of reduced traffic",
+                "Only the sign's color",
+                "Whether the ordinance is long",
+                "The mayor's preferred conclusion"
+              ],
+              "answer_index": 0,
+              "explanation": "A second change may explain the observed decline."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means what might happen absent a specified event?",
+              "choices": [
+                "Counterfactual",
+                "Post hoc fallacy",
+                "Alternative cause",
+                "Correlation"
+              ],
+              "answer_index": 0,
+              "explanation": "Counterfactual means what might happen absent a specified event."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Post hoc fallacy",
+                  "Invalid inference that earlier means causal"
+                ],
+                [
+                  "Correlation",
+                  "Association between observed events or variables"
+                ],
+                [
+                  "Counterfactual",
+                  "What might happen absent a specified event"
+                ],
+                [
+                  "Alternative cause",
+                  "Another plausible explanation of an outcome"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "Invalid inference that earlier means causal is called ___.",
+              "answer": "Post hoc fallacy",
+              "accept": [
+                "Post hoc fallacy"
+              ],
+              "explanation": "The term is Post hoc fallacy."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "Another plausible explanation of an outcome is called ___.",
+              "answer": "Alternative cause",
+              "accept": [
+                "Alternative cause"
+              ],
+              "explanation": "The term is Alternative cause."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Use necessary and sufficient conditions without causal confusion",
+          "summary": "Causal explanations often involve several contributors and different logical relationships. Distinguish what is required for an outcome from what could produce it alone.",
+          "checklist": [
+            "I can explain necessity and sufficiency in a causal argument",
+            "I can identify multiple sufficient causes",
+            "I can avoid converting correlation into a legal rule"
+          ],
+          "sections": [
+            {
+              "title": "One Condition May Not Be Enough",
+              "body_md": "A fire requires fuel, oxygen and ignition in a simplified physical model. Having fuel alone is not sufficient for a fire, even though fuel is a necessary part of that model. Legal reasoning also distinguishes conditions from complete explanations. A shop's failure to inspect may increase risk without being the sole reason an injury occurred. Define the relevant outcome and scope of the claim before deciding whether a fact was necessary, sufficient or only contributory.",
+              "example": null,
+              "audio_script": "A fire requires fuel, oxygen and ignition in a simplified physical model. Having fuel alone is not sufficient for a fire, even though fuel is a necessary part of that model. Legal reasoning also distinguishes conditions from complete explanations. A shop's failure to inspect may increase risk without being the sole reason an injury occurred. Define the relevant outcome and scope of the claim before deciding whether a fact was necessary, sufficient or only contributory.",
+              "video": null
+            },
+            {
+              "title": "Two Causes May Each Suffice",
+              "body_md": "Imagine two independent fires merging and destroying a house. If either fire alone would have destroyed it, an ordinary but-for inquiry applied to each may misleadingly suggest neither was necessary. This is causal overdetermination. Legal systems handle such problems differently under specified liability doctrines. The student must first recognize the logical difficulty, then find the governing legal response. It is unsafe to assert one universal multiple-cause rule without checking jurisdiction.",
+              "example": null,
+              "audio_script": "Imagine two independent fires merging and destroying a house. If either fire alone would have destroyed it, an ordinary but-for inquiry applied to each may misleadingly suggest neither was necessary. This is causal overdetermination. Legal systems handle such problems differently under specified liability doctrines. The student must first recognize the logical difficulty, then find the governing legal response. It is unsafe to assert one universal multiple-cause rule without checking jurisdiction.",
+              "video": null
+            },
+            {
+              "title": "Evidence Is Not the Same as a Formal Implication",
+              "body_md": "A study might associate a chemical exposure with illness while other variables influence both. The statement 'if exposed, then ill' is often too strong and may erase probabilities. A lawyer should preserve the actual scientific claim and avoid turning risk into a deterministic rule. The causal argument must explain what evidence exists, what alternatives were considered and which legal proof requirement applies. Good logic prevents both false accusations and the dismissal of real injury.",
+              "example": null,
+              "audio_script": "A study might associate a chemical exposure with illness while other variables influence both. The statement 'if exposed, then ill' is often too strong and may erase probabilities. A lawyer should preserve the actual scientific claim and avoid turning risk into a deterministic rule. The causal argument must explain what evidence exists, what alternatives were considered and which legal proof requirement applies. Good logic prevents both false accusations and the dismissal of real injury.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Sufficient condition means factor adequate to produce an outcome under specified assumptions.",
+              "answer": true,
+              "explanation_if_true": "Sufficient condition means factor adequate to produce an outcome under specified assumptions.",
+              "explanation_if_false": "Sufficient condition means factor adequate to produce an outcome under specified assumptions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "When two independent causes are each sufficient, an ordinary but-for test always identifies each as necessary.",
+              "answer": false,
+              "explanation_if_true": "Neither may be individually necessary in an overdetermined outcome.",
+              "explanation_if_false": "Neither may be individually necessary in an overdetermined outcome."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Necessary condition?",
+              "choices": [
+                "Factor required for an outcome under specified assumptions",
+                "Factor adequate to produce an outcome under specified assumptions",
+                "Outcome with more than one independently sufficient cause",
+                "Variable distorting an observed relation"
+              ],
+              "answer_index": 0,
+              "explanation": "Necessary condition refers to factor required for an outcome under specified assumptions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Two independently sufficient fires merge before destroying one building. Which problem appears?",
+              "choices": [
+                "A missing statutory definition",
+                "A valid syllogism that both are necessary",
+                "Judicial notice of ownership",
+                "Causal overdetermination"
+              ],
+              "answer_index": 3,
+              "explanation": "Each cause could be sufficient even though neither alone is necessary."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means outcome with more than one independently sufficient cause?",
+              "choices": [
+                "Necessary condition",
+                "Confounder",
+                "Sufficient condition",
+                "Overdetermination"
+              ],
+              "answer_index": 3,
+              "explanation": "Overdetermination means outcome with more than one independently sufficient cause."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Necessary condition",
+                  "Factor required for an outcome under specified assumptions"
+                ],
+                [
+                  "Sufficient condition",
+                  "Factor adequate to produce an outcome under specified assumptions"
+                ],
+                [
+                  "Overdetermination",
+                  "Outcome with more than one independently sufficient cause"
+                ],
+                [
+                  "Confounder",
+                  "Variable distorting an observed relation"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Factor required for an outcome under specified assumptions is called ___.",
+              "answer": "Necessary condition",
+              "accept": [
+                "Necessary condition"
+              ],
+              "explanation": "The term is Necessary condition."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Variable distorting an observed relation is called ___.",
+              "answer": "Confounder",
+              "accept": [
+                "Confounder"
+              ],
+              "explanation": "The term is Confounder."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Evaluate counterfactual reasoning and selection effects",
+          "summary": "Advanced causal arguments can fail because the comparison group is biased or because investigators condition on the wrong variable. Learn to state assumptions instead of disguising them as conclusions.",
+          "checklist": [
+            "I can identify a confounder in an observational claim",
+            "I can explain a selection effect on causal estimates",
+            "I can distinguish association from a legal causal proposition"
+          ],
+          "sections": [
+            {
+              "title": "The Unseen Comparison",
+              "body_md": "A new legal advice program is associated with higher success rates, but the participants were more motivated or better resourced than those who did not participate. Those differences can affect both participation and outcomes. An observational comparison therefore needs a defensible counterfactual strategy. Legal arguments using such evidence should state what would have to be true for a causal interpretation. Calling an analysis rigorous does not remove the need to examine its selection mechanism.",
+              "example": null,
+              "audio_script": "A new legal advice program is associated with higher success rates, but the participants were more motivated or better resourced than those who did not participate. Those differences can affect both participation and outcomes. An observational comparison therefore needs a defensible counterfactual strategy. Legal arguments using such evidence should state what would have to be true for a causal interpretation. Calling an analysis rigorous does not remove the need to examine its selection mechanism.",
+              "video": null
+            },
+            {
+              "title": "Selection Can Create a False Link",
+              "body_md": "Suppose a study includes only people admitted to a specialist clinic. Both severe symptoms and access to insurance affect admission. Looking only at admitted patients may produce misleading associations between those factors, even when they were unrelated in the broader population. This kind of selection or collider bias can make a causal story appear stronger than the evidence warrants. The analyst should draw the data-selection process before drawing conclusions about a defendant's responsibility.",
+              "example": null,
+              "audio_script": "Suppose a study includes only people admitted to a specialist clinic. Both severe symptoms and access to insurance affect admission. Looking only at admitted patients may produce misleading associations between those factors, even when they were unrelated in the broader population. This kind of selection or collider bias can make a causal story appear stronger than the evidence warrants. The analyst should draw the data-selection process before drawing conclusions about a defendant's responsibility.",
+              "video": null
+            },
+            {
+              "title": "Inference and Legal Burden Are Different",
+              "body_md": "An expert may report a plausible causal relationship with uncertainty, while a tribunal must decide whether the proof satisfies a particular legal standard. Those are not identical judgments. The lawyer should identify which empirical question the analysis answers, which assumptions it relies on, and how the applicable rule allocates uncertainty. The best argument explains strengths and weaknesses plainly instead of transforming a model output into an automatic verdict.",
+              "example": null,
+              "audio_script": "An expert may report a plausible causal relationship with uncertainty, while a tribunal must decide whether the proof satisfies a particular legal standard. Those are not identical judgments. The lawyer should identify which empirical question the analysis answers, which assumptions it relies on, and how the applicable rule allocates uncertainty. The best argument explains strengths and weaknesses plainly instead of transforming a model output into an automatic verdict.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Collider bias means spurious association created by conditioning on a shared effect.",
+              "answer": true,
+              "explanation_if_true": "Collider bias means spurious association created by conditioning on a shared effect.",
+              "explanation_if_false": "Collider bias means spurious association created by conditioning on a shared effect."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "Restricting a study to a selected group can never introduce an association absent in the larger population.",
+              "answer": false,
+              "explanation_if_true": "Conditioning on selection can produce collider or other selection bias.",
+              "explanation_if_false": "Conditioning on selection can produce collider or other selection bias."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Confounding?",
+              "choices": [
+                "Spurious association created by conditioning on a shared effect",
+                "Method for estimating outcomes absent an intervention",
+                "Justified inference of a defined causal effect",
+                "Distortion from a common influence on exposure and outcome"
+              ],
+              "answer_index": 3,
+              "explanation": "Confounding refers to distortion from a common influence on exposure and outcome."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Both illness severity and insurance affect clinic admission, and a study analyzes only admitted patients. What risk arises?",
+              "choices": [
+                "A universal negligence rule",
+                "A treaty reservation",
+                "Collider or selection bias",
+                "A binding legal precedent"
+              ],
+              "answer_index": 2,
+              "explanation": "Selection on a shared consequence can distort observed relationships."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means method for estimating outcomes absent an intervention?",
+              "choices": [
+                "Causal identification",
+                "Collider bias",
+                "Counterfactual design",
+                "Confounding"
+              ],
+              "answer_index": 2,
+              "explanation": "Counterfactual design means method for estimating outcomes absent an intervention."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Confounding",
+                  "Distortion from a common influence on exposure and outcome"
+                ],
+                [
+                  "Collider bias",
+                  "Spurious association created by conditioning on a shared effect"
+                ],
+                [
+                  "Counterfactual design",
+                  "Method for estimating outcomes absent an intervention"
+                ],
+                [
+                  "Causal identification",
+                  "Justified inference of a defined causal effect"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "Distortion from a common influence on exposure and outcome is called ___.",
+              "answer": "Confounding",
+              "accept": [
+                "Confounding"
+              ],
+              "explanation": "The term is Confounding."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "Justified inference of a defined causal effect is called ___.",
+              "answer": "Causal identification",
+              "accept": [
+                "Causal identification"
+              ],
+              "explanation": "The term is Causal identification."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique formal causal models under legal and moral uncertainty",
+          "summary": "At doctoral depth, assess what a causal model can establish, what its assumptions conceal and which consequences belong to normative legal choice. Defend a fair approach to multi-actor harms.",
+          "checklist": [
+            "I can evaluate the assumptions in structural causal models",
+            "I can distinguish causal contribution from legal responsibility",
+            "I can defend procedures to correct high-stakes causal errors"
+          ],
+          "sections": [
+            {
+              "title": "Models Depend on Assumptions",
+              "body_md": "A structural causal model represents relationships among variables, often with equations or a diagram. The graphical clarity can reveal assumptions but does not prove that those assumptions describe reality. Unobserved confounding, measurement error and misspecified mechanisms can change estimated effects. A doctoral lawyer must ask who selected variables, what alternative models fit the evidence and which assumptions can be tested. A precise calculation based on false premises is not reliable proof of responsibility.",
+              "example": null,
+              "audio_script": "A structural causal model represents relationships among variables, often with equations or a diagram. The graphical clarity can reveal assumptions but does not prove that those assumptions describe reality. Unobserved confounding, measurement error and misspecified mechanisms can change estimated effects. A doctoral lawyer must ask who selected variables, what alternative models fit the evidence and which assumptions can be tested. A precise calculation based on false premises is not reliable proof of responsibility.",
+              "video": null
+            },
+            {
+              "title": "Responsibility Is Not Only Physics",
+              "body_md": "Even when a model establishes that an actor's conduct contributed to harm, the governing legal system determines which harms are attributable and which remedies follow. Multiple sufficient causes, long chains and collective institutions make the distinction more important. A moral argument that someone should bear a loss is not the same as the legal proposition that the person does. Scholarly rigor requires disclosing where an empirical conclusion ends and a normative assignment of responsibility begins.",
+              "example": null,
+              "audio_script": "Even when a model establishes that an actor's conduct contributed to harm, the governing legal system determines which harms are attributable and which remedies follow. Multiple sufficient causes, long chains and collective institutions make the distinction more important. A moral argument that someone should bear a loss is not the same as the legal proposition that the person does. Scholarly rigor requires disclosing where an empirical conclusion ends and a normative assignment of responsibility begins.",
+              "video": null
+            },
+            {
+              "title": "Build Reviewability Into Inference",
+              "body_md": "If algorithmic risk scores influence detention, health benefits or regulatory sanctions, affected persons need intelligible reasons and lawful opportunities to challenge the evidence. A doctoral proposal should specify data provenance, independent validation, error measurement and review procedures. It must consider whom false positives and false negatives harm and how those risks are distributed. Legal causal reasoning reaches maturity when sophisticated models remain answerable to human beings rather than becoming unchallengeable sources of coercion.",
+              "example": null,
+              "audio_script": "If algorithmic risk scores influence detention, health benefits or regulatory sanctions, affected persons need intelligible reasons and lawful opportunities to challenge the evidence. A doctoral proposal should specify data provenance, independent validation, error measurement and review procedures. It must consider whom false positives and false negatives harm and how those risks are distributed. Legal causal reasoning reaches maturity when sophisticated models remain answerable to human beings rather than becoming unchallengeable sources of coercion.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Model misspecification means incorrect mathematical or causal structure.",
+              "answer": true,
+              "explanation_if_true": "Model misspecification means incorrect mathematical or causal structure.",
+              "explanation_if_false": "Model misspecification means incorrect mathematical or causal structure."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "A mathematically exact causal estimate automatically establishes the normative and legal scope of liability.",
+              "answer": false,
+              "explanation_if_true": "Empirical inference and legally assigned responsibility remain distinct questions.",
+              "explanation_if_false": "Empirical inference and legally assigned responsibility remain distinct questions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Structural causal model?",
+              "choices": [
+                "Assignment of consequences under a rule",
+                "Conclusion open to meaningful examination and correction",
+                "Explicit representation of causal relationships and assumptions",
+                "Incorrect mathematical or causal structure"
+              ],
+              "answer_index": 2,
+              "explanation": "Structural causal model refers to explicit representation of causal relationships and assumptions."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "An exposure model estimates a contributor's effect, but liability law excludes remote losses. What must be analyzed separately?",
+              "choices": [
+                "The age of the laboratory",
+                "Legal scope of attribution",
+                "Only the model's decimal precision",
+                "Whether the expert has a chart"
+              ],
+              "answer_index": 1,
+              "explanation": "Causal contribution does not replace governing legal limits on responsibility."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means assignment of consequences under a rule?",
+              "choices": [
+                "Model misspecification",
+                "Legal attribution",
+                "Structural causal model",
+                "Reviewable inference"
+              ],
+              "answer_index": 1,
+              "explanation": "Legal attribution means assignment of consequences under a rule."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match each concept to its meaning.",
+              "pairs": [
+                [
+                  "Structural causal model",
+                  "Explicit representation of causal relationships and assumptions"
+                ],
+                [
+                  "Model misspecification",
+                  "Incorrect mathematical or causal structure"
+                ],
+                [
+                  "Legal attribution",
+                  "Assignment of consequences under a rule"
+                ],
+                [
+                  "Reviewable inference",
+                  "Conclusion open to meaningful examination and correction"
+                ]
+              ],
+              "explanation": "Distinguishing these concepts makes legal argument more reliable."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "Explicit representation of causal relationships and assumptions is called ___.",
+              "answer": "Structural causal model",
+              "accept": [
+                "Structural causal model"
+              ],
+              "explanation": "The term is Structural causal model."
+            },
+            {
+              "id": "PSU-1.8.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "Conclusion open to meaningful examination and correction is called ___.",
+              "answer": "Reviewable inference",
+              "accept": [
+                "Reviewable inference"
+              ],
+              "explanation": "The term is Reviewable inference."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

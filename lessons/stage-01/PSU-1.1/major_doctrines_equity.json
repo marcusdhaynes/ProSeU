@@ -1,0 +1,552 @@
+{
+  "key": "major_doctrines",
+  "name": "Major Doctrines",
+  "subsections": [
+    {
+      "key": "equity-doctrines",
+      "name": "Equity Doctrines",
+      "levels": {
+        "red": {
+          "focus": "Understand why legal systems sometimes correct rigid results.",
+          "summary": "Learn why rules that are fair in most cases can produce hardship in unusual cases. Distinguish equitable reasoning from a judge's unrestricted preference for whatever seems kind.",
+          "checklist": [
+            "I can describe the purpose of equity",
+            "I can recognize that equitable remedies have legal conditions",
+            "I can distinguish fairness from an absence of rules"
+          ],
+          "sections": [
+            {
+              "title": "General Rules Meet Particular Lives",
+              "body_md": "A rule is usually stated in general terms, yet real life contains unexpected circumstances. Equity is a family of legal ideas and institutions concerned with fair dealing and relief where rigid application of ordinary rules would be inadequate. In common-law history, courts of equity developed distinct doctrines and remedies. Other legal traditions address similar concerns through different methods. Equity does not mean that an official may ignore valid law whenever a result feels harsh. Equitable power itself has sources, limits, and reasons.",
+              "example": null,
+              "audio_script": "A rule is usually stated in general terms, yet real life contains unexpected circumstances. Equity is a family of legal ideas and institutions concerned with fair dealing and relief where rigid application of ordinary rules would be inadequate. In common-law history, courts of equity developed distinct doctrines and remedies. Other legal traditions address similar concerns through different methods. Equity does not mean that an official may ignore valid law whenever a result feels harsh. Equitable power itself has sources, limits, and reasons.",
+              "video": null
+            },
+            {
+              "title": "Fairness Has Structure",
+              "body_md": "An injunction may prevent a continuing wrong when money is inadequate. Specific performance may require fulfillment of a sufficiently definite obligation. An order may also be denied because of delay, claimant misconduct or hardship under the governing doctrine. These are legal tests, not pure sympathy. The idea often called clean hands reflects concern about a claimant's relevant inequitable conduct; its scope varies. The learner's task is to identify what kind of fairness the applicable rule protects and why that fairness supports or limits relief.",
+              "example": null,
+              "audio_script": "An injunction may prevent a continuing wrong when money is inadequate. Specific performance may require fulfillment of a sufficiently definite obligation. An order may also be denied because of delay, claimant misconduct or hardship under the governing doctrine. These are legal tests, not pure sympathy. The idea often called clean hands reflects concern about a claimant's relevant inequitable conduct; its scope varies. The learner's task is to identify what kind of fairness the applicable rule protects and why that fairness supports or limits relief.",
+              "video": null
+            },
+            {
+              "title": "Equity and Ordinary Law",
+              "body_md": "Common-law discussions historically distinguish legal and equitable rights and remedies, though their administration has often been joined. Equity and trusts form a separate substantive subject elsewhere in ProSeU; here the concern is jurisprudential. Why should a legal system sometimes correct the rigidity of a rule, and how can it do so without making outcomes unpredictable? The beginner should answer in two parts: state the ordinary rule accurately, then identify the authorized equitable principle that might modify its application.",
+              "example": null,
+              "audio_script": "Common-law discussions historically distinguish legal and equitable rights and remedies, though their administration has often been joined. Equity and trusts form a separate substantive subject elsewhere in ProSeU; here the concern is jurisprudential. Why should a legal system sometimes correct the rigidity of a rule, and how can it do so without making outcomes unpredictable? The beginner should answer in two parts: state the ordinary rule accurately, then identify the authorized equitable principle that might modify its application.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q1",
+              "type": "true_false",
+              "prompt": "Equitable remedy means relief governed by established equitable standards.",
+              "answer": true,
+              "explanation_if_true": "Equitable remedy means relief governed by established equitable standards.",
+              "explanation_if_false": "Equitable remedy means relief governed by established equitable standards."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q2",
+              "type": "true_false",
+              "prompt": "Equity allows a judge to disregard any statute that seems unfair.",
+              "answer": false,
+              "explanation_if_true": "Equitable reasoning remains constrained by law and by the power given to the decision maker.",
+              "explanation_if_false": "Equitable reasoning remains constrained by law and by the power given to the decision maker."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Equity?",
+              "choices": [
+                "Authorized choice among legally permissible outcomes",
+                "Legally structured concern with fairness in particular circumstances",
+                "Relief governed by established equitable standards",
+                "Principle concerning a claimant's relevant inequitable conduct"
+              ],
+              "answer_index": 1,
+              "explanation": "Equity means legally structured concern with fairness in particular circumstances."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A claimant wants an injunction but engaged in closely related misconduct. Which equitable principle may matter?",
+              "choices": [
+                "Clean hands",
+                "Territorial jurisdiction",
+                "Strict liability",
+                "Criminal mens rea"
+              ],
+              "answer_index": 0,
+              "explanation": "The relevant conduct of the claimant may affect equitable relief under the applicable rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means principle concerning a claimant's relevant inequitable conduct?",
+              "choices": [
+                "Clean hands",
+                "Equity",
+                "Discretion",
+                "Equitable remedy"
+              ],
+              "answer_index": 0,
+              "explanation": "Clean hands means principle concerning a claimant's relevant inequitable conduct."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q6",
+              "type": "matching",
+              "prompt": "Match each equity term to its meaning.",
+              "pairs": [
+                [
+                  "Equity",
+                  "Legally structured concern with fairness in particular circumstances"
+                ],
+                [
+                  "Equitable remedy",
+                  "Relief governed by established equitable standards"
+                ],
+                [
+                  "Clean hands",
+                  "Principle concerning a claimant's relevant inequitable conduct"
+                ],
+                [
+                  "Discretion",
+                  "Authorized choice among legally permissible outcomes"
+                ]
+              ],
+              "explanation": "Equitable concepts have distinct sources and effects."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q7",
+              "type": "fill_in",
+              "prompt": "Legally structured concern with fairness in particular circumstances is called ___.",
+              "answer": "Equity",
+              "accept": [
+                "Equity"
+              ],
+              "explanation": "The term is Equity."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.red.q8",
+              "type": "fill_in",
+              "prompt": "Authorized choice among legally permissible outcomes is called ___.",
+              "answer": "Discretion",
+              "accept": [
+                "Discretion"
+              ],
+              "explanation": "The term is Discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze equitable obligations and the limits of discretion.",
+          "summary": "Build from equity's purpose to structured doctrines including fiduciary loyalty, unconscionability and preventive relief. Learn why the presence of legal discretion makes reasons more important, not less.",
+          "checklist": [
+            "I can identify a fiduciary's duty of loyalty at a high level",
+            "I can distinguish unconscionability from mere regret",
+            "I can explain why discretion requires transparent legal reasons"
+          ],
+          "sections": [
+            {
+              "title": "A Duty of Loyalty",
+              "body_md": "A fiduciary undertakes or occupies a position requiring loyalty in relation to defined interests, such as a trustee's responsibility to beneficiaries. Duties may include avoiding certain conflicts and unauthorized profits. Their precise content depends on the relationship and legal system. The point is not that every trusted person is automatically a fiduciary. A jurist asks why some relationships demand loyalty beyond ordinary bargaining rules and how law can identify those relationships without imposing impossible obligations on everyone.",
+              "example": null,
+              "audio_script": "A fiduciary undertakes or occupies a position requiring loyalty in relation to defined interests, such as a trustee's responsibility to beneficiaries. Duties may include avoiding certain conflicts and unauthorized profits. Their precise content depends on the relationship and legal system. The point is not that every trusted person is automatically a fiduciary. A jurist asks why some relationships demand loyalty beyond ordinary bargaining rules and how law can identify those relationships without imposing impossible obligations on everyone.",
+              "video": null
+            },
+            {
+              "title": "Unconscionability Needs a Test",
+              "body_md": "Unconscionability concerns seriously objectionable transactions or enforcement in some legal systems, often involving unfairness and circumstances surrounding agreement. Courts do not generally cancel every bad bargain merely because a party regrets it. The elements, remedies and interaction with statute vary widely. An adequate analysis names the relevant jurisdiction, doctrinal threshold, evidence of disadvantage or exploitation, and legally available response. Equity aims to police particular abuses without making every contractual expectation insecure.",
+              "example": null,
+              "audio_script": "Unconscionability concerns seriously objectionable transactions or enforcement in some legal systems, often involving unfairness and circumstances surrounding agreement. Courts do not generally cancel every bad bargain merely because a party regrets it. The elements, remedies and interaction with statute vary widely. An adequate analysis names the relevant jurisdiction, doctrinal threshold, evidence of disadvantage or exploitation, and legally available response. Equity aims to police particular abuses without making every contractual expectation insecure.",
+              "video": null
+            },
+            {
+              "title": "Why Reasons Matter",
+              "body_md": "Discretion allows a court to weigh permitted considerations, but consistency and accountability still require reasons. A refusal of an injunction may turn on adequacy of damages, hardship, delay or the conduct of the parties. Each factor must be connected to governing law rather than invoked as a vague gesture toward fairness. The student should compare two possible remedies and explain why one serves the protected interest with fewer harmful consequences. That is disciplined equitable judgment: flexible enough for context and predictable enough for trust.",
+              "example": null,
+              "audio_script": "Discretion allows a court to weigh permitted considerations, but consistency and accountability still require reasons. A refusal of an injunction may turn on adequacy of damages, hardship, delay or the conduct of the parties. Each factor must be connected to governing law rather than invoked as a vague gesture toward fairness. The student should compare two possible remedies and explain why one serves the protected interest with fewer harmful consequences. That is disciplined equitable judgment: flexible enough for context and predictable enough for trust.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q1",
+              "type": "true_false",
+              "prompt": "Conflict of interest means competing interests that threaten loyal decision-making.",
+              "answer": true,
+              "explanation_if_true": "Conflict of interest means competing interests that threaten loyal decision-making.",
+              "explanation_if_false": "Conflict of interest means competing interests that threaten loyal decision-making."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q2",
+              "type": "true_false",
+              "prompt": "Every economically unfavorable contract is unconscionable.",
+              "answer": false,
+              "explanation_if_true": "A difficult bargain alone does not satisfy a jurisdiction's unconscionability test.",
+              "explanation_if_false": "A difficult bargain alone does not satisfy a jurisdiction's unconscionability test."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Fiduciary duty?",
+              "choices": [
+                "Heightened obligation of loyalty in a defined relationship",
+                "Competing interests that threaten loyal decision-making",
+                "Doctrinal control of certain seriously unfair dealings",
+                "Choice exercised through articulated legal factors"
+              ],
+              "answer_index": 0,
+              "explanation": "Fiduciary duty means heightened obligation of loyalty in a defined relationship."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A trustee secretly profits from a conflict involving beneficiary property. Which obligation is most central?",
+              "choices": [
+                "Territorial jurisdiction",
+                "Criminal sentencing",
+                "Venue",
+                "Fiduciary duty"
+              ],
+              "answer_index": 3,
+              "explanation": "Fiduciary doctrine can prohibit unauthorized conflicts and profits in qualifying relationships."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means doctrinal control of certain seriously unfair dealings?",
+              "choices": [
+                "Fiduciary duty",
+                "Reasoned discretion",
+                "Conflict of interest",
+                "Unconscionability"
+              ],
+              "answer_index": 3,
+              "explanation": "Unconscionability means doctrinal control of certain seriously unfair dealings."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q6",
+              "type": "matching",
+              "prompt": "Match each equity term to its meaning.",
+              "pairs": [
+                [
+                  "Fiduciary duty",
+                  "Heightened obligation of loyalty in a defined relationship"
+                ],
+                [
+                  "Conflict of interest",
+                  "Competing interests that threaten loyal decision-making"
+                ],
+                [
+                  "Unconscionability",
+                  "Doctrinal control of certain seriously unfair dealings"
+                ],
+                [
+                  "Reasoned discretion",
+                  "Choice exercised through articulated legal factors"
+                ]
+              ],
+              "explanation": "Equitable concepts have distinct sources and effects."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q7",
+              "type": "fill_in",
+              "prompt": "Heightened obligation of loyalty in a defined relationship is called ___.",
+              "answer": "Fiduciary duty",
+              "accept": [
+                "Fiduciary duty"
+              ],
+              "explanation": "The term is Fiduciary duty."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.yellow.q8",
+              "type": "fill_in",
+              "prompt": "Choice exercised through articulated legal factors is called ___.",
+              "answer": "Reasoned discretion",
+              "accept": [
+                "Reasoned discretion"
+              ],
+              "explanation": "The term is Reasoned discretion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare equity's history and general principles with other traditions.",
+          "summary": "Move from particular doctrines to the problem of reconciling general law with exceptional circumstances. Explain how corrective discretion differs from a freestanding appeal to morality.",
+          "checklist": [
+            "I can relate Aristotle's epieikeia to the limits of general rules",
+            "I can compare corrective reasoning across legal systems without assuming identical doctrines",
+            "I can analyze tensions between equality and individualized relief"
+          ],
+          "sections": [
+            {
+              "title": "The Ancient Problem of Generality",
+              "body_md": "Aristotle discussed epieikeia, often translated as equity, as a correction where the generality of a rule fails to capture a particular case. This philosophical idea helps explain why detailed rules still require judgment. It is not identical to modern English equitable jurisdiction or to every tradition's concept of fairness. An advanced lawyer distinguishes the philosophical problem from the institutions that answer it. The key question is when correcting an exceptional outcome respects a rule's purpose rather than secretly replacing it with personal preference.",
+              "example": null,
+              "audio_script": "Aristotle discussed epieikeia, often translated as equity, as a correction where the generality of a rule fails to capture a particular case. This philosophical idea helps explain why detailed rules still require judgment. It is not identical to modern English equitable jurisdiction or to every tradition's concept of fairness. An advanced lawyer distinguishes the philosophical problem from the institutions that answer it. The key question is when correcting an exceptional outcome respects a rule's purpose rather than secretly replacing it with personal preference.",
+              "video": null
+            },
+            {
+              "title": "Different Traditions, Related Problems",
+              "body_md": "Civil-law systems may address rigid results through good faith, abuse of rights, proportionality or codified corrective doctrines. Islamic legal reasoning has its own sophisticated debates about fairness, public interest and methods of interpretation. Common-law equity developed particular institutions and remedies. These cannot be collapsed into a single global doctrine. Comparison should identify the actual source, method, effect and limits of each approach. Similar moral concerns may produce very different legal consequences because authority and institutional history differ.",
+              "example": null,
+              "audio_script": "Civil-law systems may address rigid results through good faith, abuse of rights, proportionality or codified corrective doctrines. Islamic legal reasoning has its own sophisticated debates about fairness, public interest and methods of interpretation. Common-law equity developed particular institutions and remedies. These cannot be collapsed into a single global doctrine. Comparison should identify the actual source, method, effect and limits of each approach. Similar moral concerns may produce very different legal consequences because authority and institutional history differ.",
+              "video": null
+            },
+            {
+              "title": "Individual Justice and Equal Treatment",
+              "body_md": "A tailored order may feel fair to one claimant but unfair to another whose facts seem similar. General rules promise predictability and equal treatment; equitable standards allow attention to context. Both are valuable. Suppose a court excuses delay because of an extraordinary obstacle. The judgment should explain which facts make the exception permissible and whether future litigants can rely on the same principle. Without that reasoning, flexibility risks favoritism. The best analysis can articulate both the benefit and the danger of case-specific correction.",
+              "example": null,
+              "audio_script": "A tailored order may feel fair to one claimant but unfair to another whose facts seem similar. General rules promise predictability and equal treatment; equitable standards allow attention to context. Both are valuable. Suppose a court excuses delay because of an extraordinary obstacle. The judgment should explain which facts make the exception permissible and whether future litigants can rely on the same principle. Without that reasoning, flexibility risks favoritism. The best analysis can articulate both the benefit and the danger of case-specific correction.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q1",
+              "type": "true_false",
+              "prompt": "Good faith means a legal standard governing honest or fair dealing.",
+              "answer": true,
+              "explanation_if_true": "Good faith means a legal standard governing honest or fair dealing.",
+              "explanation_if_false": "Good faith means a legal standard governing honest or fair dealing."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q2",
+              "type": "true_false",
+              "prompt": "Modern common-law equity and Aristotle's epieikeia are precisely the same legal institution.",
+              "answer": false,
+              "explanation_if_true": "A philosophical account of correction is not identical to later common-law institutions.",
+              "explanation_if_false": "A philosophical account of correction is not identical to later common-law institutions."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Epieikeia?",
+              "choices": [
+                "A legal standard governing honest or fair dealing",
+                "Improper exercise of an otherwise recognized entitlement",
+                "Consistent treatment of legally relevantly similar cases",
+                "Aristotle's account of correction for overgeneral rules"
+              ],
+              "answer_index": 3,
+              "explanation": "Epieikeia means aristotle's account of correction for overgeneral rules."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A rule applies harshly because of an unforeseen exceptional fact. Which philosophical idea most directly explains principled correction?",
+              "choices": [
+                "Extradition",
+                "Choice of venue",
+                "Epieikeia",
+                "Res judicata"
+              ],
+              "answer_index": 2,
+              "explanation": "Aristotle's idea concerns the limitations of general rules in unusual circumstances."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means improper exercise of an otherwise recognized entitlement?",
+              "choices": [
+                "Equal treatment",
+                "Good faith",
+                "Abuse of rights",
+                "Epieikeia"
+              ],
+              "answer_index": 2,
+              "explanation": "Abuse of rights means improper exercise of an otherwise recognized entitlement."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q6",
+              "type": "matching",
+              "prompt": "Match each equity term to its meaning.",
+              "pairs": [
+                [
+                  "Epieikeia",
+                  "Aristotle's account of correction for overgeneral rules"
+                ],
+                [
+                  "Good faith",
+                  "A legal standard governing honest or fair dealing"
+                ],
+                [
+                  "Abuse of rights",
+                  "Improper exercise of an otherwise recognized entitlement"
+                ],
+                [
+                  "Equal treatment",
+                  "Consistent treatment of legally relevantly similar cases"
+                ]
+              ],
+              "explanation": "Equitable concepts have distinct sources and effects."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q7",
+              "type": "fill_in",
+              "prompt": "Aristotle's account of correction for overgeneral rules is called ___.",
+              "answer": "Epieikeia",
+              "accept": [
+                "Epieikeia"
+              ],
+              "explanation": "The term is Epieikeia."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.orange.q8",
+              "type": "fill_in",
+              "prompt": "Consistent treatment of legally relevantly similar cases is called ___.",
+              "answer": "Equal treatment",
+              "accept": [
+                "Equal treatment"
+              ],
+              "explanation": "The term is Equal treatment."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend equitable justice without arbitrary power.",
+          "summary": "At doctoral depth, analyze the paradox that flexible fairness can correct oppression yet conceal inconsistent or unequal treatment. Design principled discretion with clear grounds, reasons and review.",
+          "checklist": [
+            "I can critique discretion that lacks transparency",
+            "I can connect equitable relief to dignity and structural inequality",
+            "I can propose constraints that preserve fairness and predictability"
+          ],
+          "sections": [
+            {
+              "title": "The Paradox of Flexible Justice",
+              "body_md": "Rigid rules can ignore vulnerability; unchecked discretion can privilege those who resemble the decision maker. A claim to equity therefore requires more than a sincere appeal to conscience. It needs a source of authority, publicly intelligible reasons, attention to similarly situated people, and a route to correction. Historical equitable institutions were not immune from social hierarchy. A doctoral critique examines who could invoke them, what claims were recognized, and whether the apparent exception actually reproduced patterns of power.",
+              "example": null,
+              "audio_script": "Rigid rules can ignore vulnerability; unchecked discretion can privilege those who resemble the decision maker. A claim to equity therefore requires more than a sincere appeal to conscience. It needs a source of authority, publicly intelligible reasons, attention to similarly situated people, and a route to correction. Historical equitable institutions were not immune from social hierarchy. A doctoral critique examines who could invoke them, what claims were recognized, and whether the apparent exception actually reproduced patterns of power.",
+              "video": null
+            },
+            {
+              "title": "Fairness Beyond the Individual Case",
+              "body_md": "An equitable order in one employment dispute may restore a worker's dignity while leaving an institutional practice unchanged. An expansive institutional order may address the pattern but burden people who never had a chance to be heard. These effects create tensions among remedial effectiveness, procedural fairness and separation of powers. Good reasoning distinguishes an individual's justified claim from the wider policy question, then asks what institution has authority and capacity to act. Compassion must be disciplined by regard for every person affected.",
+              "example": null,
+              "audio_script": "An equitable order in one employment dispute may restore a worker's dignity while leaving an institutional practice unchanged. An expansive institutional order may address the pattern but burden people who never had a chance to be heard. These effects create tensions among remedial effectiveness, procedural fairness and separation of powers. Good reasoning distinguishes an individual's justified claim from the wider policy question, then asks what institution has authority and capacity to act. Compassion must be disciplined by regard for every person affected.",
+              "video": null
+            },
+            {
+              "title": "Design a Defensible Discretion",
+              "body_md": "Consider a housing case where a strict deadline would exclude a person hospitalized unexpectedly. A discretionary extension might preserve access without destroying finality. Define exceptional circumstances, proof requirements, a short extension window, reasons in writing, and review for unequal application. Test the design against claimants with less access to documentation and against people who rely on settled outcomes. Equitable intelligence does not mean refusing to choose; it means choosing through principles that another reasonable decision maker can examine and apply.",
+              "example": null,
+              "audio_script": "Consider a housing case where a strict deadline would exclude a person hospitalized unexpectedly. A discretionary extension might preserve access without destroying finality. Define exceptional circumstances, proof requirements, a short extension window, reasons in writing, and review for unequal application. Test the design against claimants with less access to documentation and against people who rely on settled outcomes. Equitable intelligence does not mean refusing to choose; it means choosing through principles that another reasonable decision maker can examine and apply.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q1",
+              "type": "true_false",
+              "prompt": "Arbitrariness means decision without sufficient lawful justification.",
+              "answer": true,
+              "explanation_if_true": "Arbitrariness means decision without sufficient lawful justification.",
+              "explanation_if_false": "Arbitrariness means decision without sufficient lawful justification."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q2",
+              "type": "true_false",
+              "prompt": "An equitable decision is beyond criticism whenever the decision maker sincerely believes it fair.",
+              "answer": false,
+              "explanation_if_true": "Sincerity cannot replace lawful authority, consistent reasons or review.",
+              "explanation_if_false": "Sincerity cannot replace lawful authority, consistent reasons or review."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which definition best describes Principled discretion?",
+              "choices": [
+                "Institutional patterns producing unequal opportunity or treatment",
+                "Ability to test a decision through authorized oversight",
+                "Flexibility controlled by reasons and review",
+                "Decision without sufficient lawful justification"
+              ],
+              "answer_index": 2,
+              "explanation": "Principled discretion means flexibility controlled by reasons and review."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q4",
+              "type": "multiple_choice",
+              "prompt": "A court grants unexplained exceptions for wealthy litigants but refuses identical applications by others. What is the central defect?",
+              "choices": [
+                "Legal standing",
+                "Arbitrariness",
+                "Subject-matter jurisdiction",
+                "Evidentiary weight alone"
+              ],
+              "answer_index": 1,
+              "explanation": "Unreasoned inconsistency undermines equitable legitimacy and the promise of equal treatment."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means institutional patterns producing unequal opportunity or treatment?",
+              "choices": [
+                "Arbitrariness",
+                "Structural inequality",
+                "Principled discretion",
+                "Reviewability"
+              ],
+              "answer_index": 1,
+              "explanation": "Structural inequality means institutional patterns producing unequal opportunity or treatment."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q6",
+              "type": "matching",
+              "prompt": "Match each equity term to its meaning.",
+              "pairs": [
+                [
+                  "Principled discretion",
+                  "Flexibility controlled by reasons and review"
+                ],
+                [
+                  "Arbitrariness",
+                  "Decision without sufficient lawful justification"
+                ],
+                [
+                  "Structural inequality",
+                  "Institutional patterns producing unequal opportunity or treatment"
+                ],
+                [
+                  "Reviewability",
+                  "Ability to test a decision through authorized oversight"
+                ]
+              ],
+              "explanation": "Equitable concepts have distinct sources and effects."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q7",
+              "type": "fill_in",
+              "prompt": "Flexibility controlled by reasons and review is called ___.",
+              "answer": "Principled discretion",
+              "accept": [
+                "Principled discretion"
+              ],
+              "explanation": "The term is Principled discretion."
+            },
+            {
+              "id": "PSU-1.1.major_doctrines.equity-doctrines.black.q8",
+              "type": "fill_in",
+              "prompt": "Ability to test a decision through authorized oversight is called ___.",
+              "answer": "Reviewability",
+              "accept": [
+                "Reviewability"
+              ],
+              "explanation": "The term is Reviewability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "key": "policy_debates",
+  "name": "Policy Debates",
+  "subsections": [
+    {
+      "key": "stability-vs-evolution",
+      "name": "Stability vs Evolution",
+      "levels": {
+        "red": {
+          "focus": "Explain why law must be dependable but capable of correcting injustice.",
+          "summary": "People need stable rules to plan their lives, and social conditions can reveal that an old rule is harmful or inadequate. Learn to distinguish changing a legal rule from applying the existing rule to new facts.",
+          "checklist": [
+            "I can identify a benefit of stable precedent",
+            "I can recognize a reason a rule may need reform",
+            "I can distinguish lawful change from an official's unsupported preference"
+          ],
+          "sections": [
+            {
+              "title": "Stability makes promises meaningful",
+              "body_md": "A family buys a house relying on settled property rules. If a court suddenly changes those rules without lawful justification, the family may lose security despite having acted responsibly. Stability lets people plan, invest, and organize relationships. In many legal systems, precedent and statutory continuity support that expectation. Yet a stable rule is not automatically a fair rule. Lawyers should ask both what the rule currently requires and whether its continued operation causes a legally significant problem.",
+              "example": null,
+              "audio_script": "A family buys a house relying on settled property rules. If a court suddenly changes those rules without lawful justification, the family may lose security despite having acted responsibly. Stability lets people plan, invest, and organize relationships. In many legal systems, precedent and statutory continuity support that expectation. Yet a stable rule is not automatically a fair rule. Lawyers should ask both what the rule currently requires and whether its continued operation causes a legally significant problem.",
+              "video": null
+            },
+            {
+              "title": "New realities can expose old gaps",
+              "body_md": "A statute enacted before widespread digital communication may still protect private correspondence, but its language may leave questions about cloud storage. A court must interpret existing law through its recognized method; a legislature may decide to amend it. Those are different institutional acts. Innovation does not give every official a power to replace law by personal preference. A good student identifies the new factual problem, the present legal source, and the body permitted to make an enduring change.",
+              "example": null,
+              "audio_script": "A statute enacted before widespread digital communication may still protect private correspondence, but its language may leave questions about cloud storage. A court must interpret existing law through its recognized method; a legislature may decide to amend it. Those are different institutional acts. Innovation does not give every official a power to replace law by personal preference. A good student identifies the new factual problem, the present legal source, and the body permitted to make an enduring change.",
+              "video": null
+            },
+            {
+              "title": "Change should be understandable",
+              "body_md": "Suppose a school policy that once seemed neutral is found to exclude a group of children unjustifiably. Reform can serve equality, but affected families and officials need notice, transition arrangements, and reasons explaining the new rule. Not every correction can avoid disruption, especially where basic rights are at stake. The goal is lawful evolution that protects people rather than surprise decision-making. A beginning lawyer should be able to explain what changed, who authorized it, and when it takes effect.",
+              "example": null,
+              "audio_script": "Suppose a school policy that once seemed neutral is found to exclude a group of children unjustifiably. Reform can serve equality, but affected families and officials need notice, transition arrangements, and reasons explaining the new rule. Not every correction can avoid disruption, especially where basic rights are at stake. The goal is lawful evolution that protects people rather than surprise decision-making. A beginning lawyer should be able to explain what changed, who authorized it, and when it takes effect.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q1",
+              "type": "true_false",
+              "prompt": "A stable legal rule can help people make long-term plans even when disputes arise.",
+              "answer": true,
+              "explanation_if_true": "Predictability allows reliance on known obligations and protections.",
+              "explanation_if_false": "Predictability allows reliance on known obligations and protections."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q2",
+              "type": "true_false",
+              "prompt": "A legal rule must never be changed even when it violates a binding constitutional right.",
+              "answer": false,
+              "explanation_if_true": "Legal systems provide authorized methods for correcting unconstitutional or unjust rules.",
+              "explanation_if_false": "Legal systems provide authorized methods for correcting unconstitutional or unjust rules."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A family acted under a well-established property rule before a new interpretation. Which interest matters in managing change?",
+              "choices": [
+                "An absolute ban on all legal amendments",
+                "Reliance on existing law",
+                "The rule's popularity on social media",
+                "The opinion of an unrelated official"
+              ],
+              "answer_index": 1,
+              "explanation": "A transition may need to consider legitimate plans made under the former rule."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q4",
+              "type": "multiple_choice",
+              "prompt": "What distinguishes lawful legal evolution from arbitrary change?",
+              "choices": [
+                "Authorized process, publicly explained reasons, and applicable limits",
+                "Secret replacement by any official",
+                "A refusal to consider legal rights",
+                "Change whenever one litigant prefers it"
+              ],
+              "answer_index": 0,
+              "explanation": "Stability and reform require attention to the legal system's institutions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Legal reform?",
+              "choices": [
+                "Authorized alteration of governing rules",
+                "Earlier decision relevant to later adjudication",
+                "Planning or acting based on existing legal expectations",
+                "Continuity of rules and authoritative decisions"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal reform means authorized alteration of governing rules."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q6",
+              "type": "matching",
+              "prompt": "Match the evolution and precedent concepts.",
+              "pairs": [
+                [
+                  "Legal stability",
+                  "Continuity of rules and authoritative decisions"
+                ],
+                [
+                  "Legal reform",
+                  "Authorized alteration of governing rules"
+                ],
+                [
+                  "Precedent",
+                  "Earlier decision relevant to later adjudication"
+                ],
+                [
+                  "Reliance",
+                  "Planning or acting based on existing legal expectations"
+                ]
+              ],
+              "explanation": "Different methods preserve or revise law in different ways."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for continuity of rules and authoritative decisions is ___.",
+              "answer": "Legal stability",
+              "accept": [
+                "Legal stability"
+              ],
+              "explanation": "The term is Legal stability."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for planning or acting based on existing legal expectations is ___.",
+              "answer": "Reliance",
+              "accept": [
+                "Reliance"
+              ],
+              "explanation": "The term is Reliance."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Analyze stare decisis and the legitimate grounds for overruling precedent.",
+          "summary": "Precedent promotes consistency and reliance, yet courts sometimes depart from earlier holdings. Learn to distinguish binding precedent, factual distinction, overruling, and legislative amendment.",
+          "checklist": [
+            "I can state the purpose of stare decisis",
+            "I can distinguish overruling from distinguishing a case",
+            "I can explain reliance and workability as considerations in change"
+          ],
+          "sections": [
+            {
+              "title": "Precedent connects cases through time",
+              "body_md": "Stare decisis expresses the practice of respecting authoritative prior decisions within the applicable judicial hierarchy. It promotes equality between similar cases and makes the law easier to anticipate. Its force varies by legal system and by the court considering departure. A lower court generally cannot disregard binding authority merely because the judge would decide differently. A student must identify the actual holding, not every sentence in a judgment, before claiming that precedent controls a later dispute.",
+              "example": null,
+              "audio_script": "Stare decisis expresses the practice of respecting authoritative prior decisions within the applicable judicial hierarchy. It promotes equality between similar cases and makes the law easier to anticipate. Its force varies by legal system and by the court considering departure. A lower court generally cannot disregard binding authority merely because the judge would decide differently. A student must identify the actual holding, not every sentence in a judgment, before claiming that precedent controls a later dispute.",
+              "video": null
+            },
+            {
+              "title": "Distinguishing is not overruling",
+              "body_md": "A court distinguishes a case when a material difference makes its rule inapplicable; overruling rejects a previously authoritative legal proposition. A statute may change the governing law through a different institutional process. These possibilities cannot be treated as synonyms. For example, a precedent about an ordinary traffic stop may not govern a materially different search of a home under the same constitutional framework. The lawyer should explain the factual or doctrinal distinction before asking a court to abandon a stable rule.",
+              "example": null,
+              "audio_script": "A court distinguishes a case when a material difference makes its rule inapplicable; overruling rejects a previously authoritative legal proposition. A statute may change the governing law through a different institutional process. These possibilities cannot be treated as synonyms. For example, a precedent about an ordinary traffic stop may not govern a materially different search of a home under the same constitutional framework. The lawyer should explain the factual or doctrinal distinction before asking a court to abandon a stable rule.",
+              "video": null
+            },
+            {
+              "title": "Reconsideration needs serious reasons",
+              "body_md": "A court with power to overrule may consider the earlier rule's reasoning, its practical workability, legal developments, reliance interests, and compatibility with binding sources. The relevant factors differ among jurisdictions and contexts. A rule can be widely relied upon yet perpetuate unlawful exclusion; correcting it may still be necessary. A carefully reasoned judgment acknowledges those costs and explains whether relief applies retrospectively or prospectively under the law. Legal change is a responsibility to those who relied on the old arrangement and those harmed by it.",
+              "example": null,
+              "audio_script": "A court with power to overrule may consider the earlier rule's reasoning, its practical workability, legal developments, reliance interests, and compatibility with binding sources. The relevant factors differ among jurisdictions and contexts. A rule can be widely relied upon yet perpetuate unlawful exclusion; correcting it may still be necessary. A carefully reasoned judgment acknowledges those costs and explains whether relief applies retrospectively or prospectively under the law. Legal change is a responsibility to those who relied on the old arrangement and those harmed by it.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q1",
+              "type": "true_false",
+              "prompt": "Distinguishing a precedent can leave its rule intact for factually similar future cases.",
+              "answer": true,
+              "explanation_if_true": "Distinguishing applies the scope of a holding rather than rejecting its authority.",
+              "explanation_if_false": "Distinguishing applies the scope of a holding rather than rejecting its authority."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q2",
+              "type": "true_false",
+              "prompt": "Any lower court may overrule a binding higher-court precedent whenever it considers it unfair.",
+              "answer": false,
+              "explanation_if_true": "Judicial hierarchy and governing precedent rules limit who may overrule controlling decisions.",
+              "explanation_if_false": "Judicial hierarchy and governing precedent rules limit who may overrule controlling decisions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A lawyer argues that the earlier case involved an entirely different risk and should not control. What technique is being used?",
+              "choices": [
+                "Distinguishing precedent",
+                "Overruling the constitution",
+                "Creating an international treaty",
+                "A claim that courts need no reasons"
+              ],
+              "answer_index": 0,
+              "explanation": "A material difference may justify treating an older holding as inapplicable."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Which issue can support a careful reconsideration of settled doctrine?",
+              "choices": [
+                "A judge's personal dislike of the earlier author",
+                "The age of the courthouse",
+                "The fact that litigants disagree",
+                "Serious unworkability and conflict with controlling legal principles"
+              ],
+              "answer_index": 3,
+              "explanation": "Reconsideration should be governed by authoritative standards and reasoned factors."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Distinguishing?",
+              "choices": [
+                "Judicial rejection of a prior legal rule by a competent court",
+                "Practical capacity of a legal rule to operate consistently",
+                "Doctrine giving authority to prior judicial holdings",
+                "Explaining why a precedent does not control materially different facts"
+              ],
+              "answer_index": 3,
+              "explanation": "Distinguishing means explaining why a precedent does not control materially different facts."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the evolution and precedent concepts.",
+              "pairs": [
+                [
+                  "Stare decisis",
+                  "Doctrine giving authority to prior judicial holdings"
+                ],
+                [
+                  "Distinguishing",
+                  "Explaining why a precedent does not control materially different facts"
+                ],
+                [
+                  "Overruling",
+                  "Judicial rejection of a prior legal rule by a competent court"
+                ],
+                [
+                  "Workability",
+                  "Practical capacity of a legal rule to operate consistently"
+                ]
+              ],
+              "explanation": "Different methods preserve or revise law in different ways."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for doctrine giving authority to prior judicial holdings is ___.",
+              "answer": "Stare decisis",
+              "accept": [
+                "Stare decisis"
+              ],
+              "explanation": "The term is Stare decisis."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for practical capacity of a legal rule to operate consistently is ___.",
+              "answer": "Workability",
+              "accept": [
+                "Workability"
+              ],
+              "explanation": "The term is Workability."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain constitutional adaptation through Brown and competing interpretive approaches.",
+          "summary": "Constitutional texts endure while social practices and legal understandings change. Compare historical meaning, precedential development, and principles that can correct entrenched injustice.",
+          "checklist": [
+            "I can explain how Brown changed the treatment of school segregation",
+            "I can distinguish originalist and living-constitution arguments without caricature",
+            "I can assess a role for reliance when a precedent protects discrimination"
+          ],
+          "sections": [
+            {
+              "title": "Brown illustrates justified disruption",
+              "body_md": "Plessy v Ferguson accepted separate-but-equal reasoning in a railway context in 1896. Brown v Board of Education held state-imposed racial segregation of public schools unconstitutional in 1954, rejecting that approach in education. The judgment did not instantly remove every barrier, and subsequent remedies and resistance complicated implementation. Its importance to the stability debate is direct: reliance on discriminatory systems does not automatically justify preserving them. A court still owes a reasoned legal account of why its reading of constitutional equality governs.",
+              "example": null,
+              "audio_script": "Plessy v Ferguson accepted separate-but-equal reasoning in a railway context in 1896. Brown v Board of Education held state-imposed racial segregation of public schools unconstitutional in 1954, rejecting that approach in education. The judgment did not instantly remove every barrier, and subsequent remedies and resistance complicated implementation. Its importance to the stability debate is direct: reliance on discriminatory systems does not automatically justify preserving them. A court still owes a reasoned legal account of why its reading of constitutional equality governs.",
+              "video": null
+            },
+            {
+              "title": "Interpretive theories differ over change",
+              "body_md": "Originalist approaches emphasize the Constitution's original public meaning, though originalists disagree about how general principles apply to modern facts. Living-constitution approaches emphasize doctrinal and principled development in light of changed circumstances, while remaining subject to debates over constraint. Neither school can accurately be reduced to 'never change' or 'let judges decide anything.' A serious comparison names the authoritative text, historical record, relevant precedent, institutional role, and what kinds of change the theory permits.",
+              "example": null,
+              "audio_script": "Originalist approaches emphasize the Constitution's original public meaning, though originalists disagree about how general principles apply to modern facts. Living-constitution approaches emphasize doctrinal and principled development in light of changed circumstances, while remaining subject to debates over constraint. Neither school can accurately be reduced to 'never change' or 'let judges decide anything.' A serious comparison names the authoritative text, historical record, relevant precedent, institutional role, and what kinds of change the theory permits.",
+              "video": null
+            },
+            {
+              "title": "Reliance is not the only value",
+              "body_md": "A public institution may have organized a longstanding practice around a precedent, while affected citizens have endured continuing exclusion. Courts must decide which reliance interests deserve legal weight and how rights violations should be remedied. An advanced analysis examines legal justification, procedural posture, administrative transition, and the persons whose interests have historically been ignored. The proper balance depends on binding doctrine. But intellectual honesty requires naming that a familiar practice may be both stable and unjust, and that correcting it can carry costs.",
+              "example": null,
+              "audio_script": "A public institution may have organized a longstanding practice around a precedent, while affected citizens have endured continuing exclusion. Courts must decide which reliance interests deserve legal weight and how rights violations should be remedied. An advanced analysis examines legal justification, procedural posture, administrative transition, and the persons whose interests have historically been ignored. The proper balance depends on binding doctrine. But intellectual honesty requires naming that a familiar practice may be both stable and unjust, and that correcting it can carry costs.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q1",
+              "type": "true_false",
+              "prompt": "A precedent's stability cannot by itself establish that the precedent is morally or constitutionally correct.",
+              "answer": true,
+              "explanation_if_true": "An enduring rule can nevertheless violate rights or rest on mistaken reasoning.",
+              "explanation_if_false": "An enduring rule can nevertheless violate rights or rest on mistaken reasoning."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q2",
+              "type": "true_false",
+              "prompt": "Every version of originalism denies that general constitutional language can apply to new technologies.",
+              "answer": false,
+              "explanation_if_true": "Originalists can distinguish fixed linguistic meaning from changing factual applications.",
+              "explanation_if_false": "Originalists can distinguish fixed linguistic meaning from changing factual applications."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A court reconsiders a longstanding rule authorizing discriminatory schooling. Which case is a foundational example of change?",
+              "choices": [
+                "Youngstown as a school equality case",
+                "Gideon as an education finance case",
+                "Palsgraf as a desegregation case",
+                "Brown v Board of Education"
+              ],
+              "answer_index": 3,
+              "explanation": "Brown corrected a profound constitutional wrong despite settled prior practice."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which comparison is accurate?",
+              "choices": [
+                "Living constitutionalism automatically makes all statutes invalid",
+                "Both theories deny that constitutional text has authority",
+                "Different constitutional theories disagree about constraints on doctrinal evolution",
+                "Originalism always requires freezing every factual application"
+              ],
+              "answer_index": 2,
+              "explanation": "The dispute concerns how authoritative text and practice guide later decisions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Living constitutionalism?",
+              "choices": [
+                "Legitimate expectation shaped by prior legal arrangements",
+                "Interpretation attentive to original public meaning of constitutional text",
+                "Approach emphasizing constitutional development through interpretation",
+                "Ending state-mandated racial separation"
+              ],
+              "answer_index": 2,
+              "explanation": "Living constitutionalism means approach emphasizing constitutional development through interpretation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q6",
+              "type": "matching",
+              "prompt": "Match the evolution and precedent concepts.",
+              "pairs": [
+                [
+                  "Originalism",
+                  "Interpretation attentive to original public meaning of constitutional text"
+                ],
+                [
+                  "Living constitutionalism",
+                  "Approach emphasizing constitutional development through interpretation"
+                ],
+                [
+                  "Desegregation",
+                  "Ending state-mandated racial separation"
+                ],
+                [
+                  "Reliance interest",
+                  "Legitimate expectation shaped by prior legal arrangements"
+                ]
+              ],
+              "explanation": "Different methods preserve or revise law in different ways."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for interpretation attentive to original public meaning of constitutional text is ___.",
+              "answer": "Originalism",
+              "accept": [
+                "Originalism"
+              ],
+              "explanation": "The term is Originalism."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for legitimate expectation shaped by prior legal arrangements is ___.",
+              "answer": "Reliance interest",
+              "accept": [
+                "Reliance interest"
+              ],
+              "explanation": "The term is Reliance interest."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Defend legal continuity while protecting constitutional correction and democratic reform.",
+          "summary": "Stability promotes equality under law but may institutionalize historical domination; rapid doctrinal change can vindicate rights but jeopardize democratic planning. Develop a legitimate mechanism for precedent, amendment, and transition.",
+          "checklist": [
+            "I can critique reliance claims that perpetuate domination",
+            "I can compare judicial revision with democratic amendment",
+            "I can design transparent transitions that protect rights without arbitrary surprise"
+          ],
+          "sections": [
+            {
+              "title": "Stability has a distributional dimension",
+              "body_md": "A corporation may invoke reliance on a rule that allowed conduct imposing hidden costs on vulnerable people. Those harmed might have relied on the promise of constitutional equality rather than the existing unlawful practice. A theory of precedent should not count only the expectations of powerful institutions. Identify the legal force of both interests, evidence of dependence, and possibility of tailored transition. A doctoral analysis should reject both automatic preservation and automatic overthrow as substitutes for a careful justification of public legal authority.",
+              "example": null,
+              "audio_script": "A corporation may invoke reliance on a rule that allowed conduct imposing hidden costs on vulnerable people. Those harmed might have relied on the promise of constitutional equality rather than the existing unlawful practice. A theory of precedent should not count only the expectations of powerful institutions. Identify the legal force of both interests, evidence of dependence, and possibility of tailored transition. A doctoral analysis should reject both automatic preservation and automatic overthrow as substitutes for a careful justification of public legal authority.",
+              "video": null
+            },
+            {
+              "title": "The institution making change matters",
+              "body_md": "A legislature can enact reforms prospectively, subject to constitutional limits and political processes. Courts interpret and sometimes overrule existing precedent within their lawful competence. Constitutional amendment may require a specially demanding procedure. These routes differ in transparency, democratic participation, speed, and protection of entrenched rights. A legal system should not rely exclusively on either judicial creativity or legislative inertia. Justified change depends on the issue's source, the institution entitled to act, and the correction available when that institution errs.",
+              "example": null,
+              "audio_script": "A legislature can enact reforms prospectively, subject to constitutional limits and political processes. Courts interpret and sometimes overrule existing precedent within their lawful competence. Constitutional amendment may require a specially demanding procedure. These routes differ in transparency, democratic participation, speed, and protection of entrenched rights. A legal system should not rely exclusively on either judicial creativity or legislative inertia. Justified change depends on the issue's source, the institution entitled to act, and the correction available when that institution errs.",
+              "video": null
+            },
+            {
+              "title": "Build accountable doctrinal evolution",
+              "body_md": "Propose public reasons for overruling, explicit analysis of rights and reliance, predictable implementation rules, and continued review of effects. Where severe constitutional injustice persists, explain when immediate relief must outweigh administrative reliance. Where ordinary economic regulation changes, consider lawful notice and transition periods. Separate present doctrine from your preferred framework. The deepest question is not whether law should stay still or move; it is how law can remain a source of trustworthy reasons while admitting its own mistakes and correcting them.",
+              "example": null,
+              "audio_script": "Propose public reasons for overruling, explicit analysis of rights and reliance, predictable implementation rules, and continued review of effects. Where severe constitutional injustice persists, explain when immediate relief must outweigh administrative reliance. Where ordinary economic regulation changes, consider lawful notice and transition periods. Separate present doctrine from your preferred framework. The deepest question is not whether law should stay still or move; it is how law can remain a source of trustworthy reasons while admitting its own mistakes and correcting them.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q1",
+              "type": "true_false",
+              "prompt": "A reform's costs can fall differently on people who benefited from the old rule and people it previously excluded.",
+              "answer": true,
+              "explanation_if_true": "Reliance and the harms of legal continuity may be unequally distributed.",
+              "explanation_if_false": "Reliance and the harms of legal continuity may be unequally distributed."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q2",
+              "type": "true_false",
+              "prompt": "A doctrine should be preserved solely because well-resourced institutions have invested in following it.",
+              "answer": false,
+              "explanation_if_true": "Rights, excluded communities, and legally justified correction also matter.",
+              "explanation_if_false": "Rights, excluded communities, and legally justified correction also matter."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A precedent causes ongoing rights violations but large institutions rely on it. What must an overruling theory examine?",
+              "choices": [
+                "Only the opinion's age",
+                "A rule that courts never correct mistakes",
+                "Rights, affected persons, reliance, and lawful remedies",
+                "Only institutional investment"
+              ],
+              "answer_index": 2,
+              "explanation": "A principled account compares continuity with the costs of preserving injustice."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which architecture best supports legitimate legal change?",
+              "choices": [
+                "Allowing courts to rewrite constitutions without authority",
+                "Publicly reasoned overruling, lawful amendments, and considered implementation",
+                "Secret retroactive alterations without review",
+                "Treating every moral preference as binding law"
+              ],
+              "answer_index": 1,
+              "explanation": "Law can correct itself through constrained and accountable institutions."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which definition matches Constitutional correction?",
+              "choices": [
+                "Development of legal rules through authoritative decisions",
+                "Lawful remedy for a mistaken constitutional interpretation",
+                "Special protection of norms from ordinary alteration",
+                "Fair management of change from past arrangements"
+              ],
+              "answer_index": 1,
+              "explanation": "Constitutional correction means lawful remedy for a mistaken constitutional interpretation."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q6",
+              "type": "matching",
+              "prompt": "Match the evolution and precedent concepts.",
+              "pairs": [
+                [
+                  "Doctrinal evolution",
+                  "Development of legal rules through authoritative decisions"
+                ],
+                [
+                  "Constitutional correction",
+                  "Lawful remedy for a mistaken constitutional interpretation"
+                ],
+                [
+                  "Entrenchment",
+                  "Special protection of norms from ordinary alteration"
+                ],
+                [
+                  "Transitional justice",
+                  "Fair management of change from past arrangements"
+                ]
+              ],
+              "explanation": "Different methods preserve or revise law in different ways."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for development of legal rules through authoritative decisions is ___.",
+              "answer": "Doctrinal evolution",
+              "accept": [
+                "Doctrinal evolution"
+              ],
+              "explanation": "The term is Doctrinal evolution."
+            },
+            {
+              "id": "PSU-1.1.policy_debates.stability-vs-evolution.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for fair management of change from past arrangements is ___.",
+              "answer": "Transitional justice",
+              "accept": [
+                "Transitional justice"
+              ],
+              "explanation": "The term is Transitional justice."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

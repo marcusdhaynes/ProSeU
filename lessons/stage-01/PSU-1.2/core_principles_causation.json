@@ -1,0 +1,552 @@
+{
+  "key": "core_principles",
+  "name": "Core Principles",
+  "subsections": [
+    {
+      "key": "causation",
+      "name": "Causation",
+      "levels": {
+        "red": {
+          "focus": "Separate the injury from the person held responsible",
+          "summary": "Learn the basic historical problem of causation: an event may cause harm, but law must decide who answers for it. Use early judgments to distinguish physical sequence from a legally chosen consequence.",
+          "checklist": [
+            "I can explain the difference between an injury and its cause",
+            "I can identify who a judgment makes responsible",
+            "I can recognize that a consequence requires an applicable rule"
+          ],
+          "sections": [
+            {
+              "title": "What Happened and Who Did It?",
+              "body_md": "A wall collapses and damages a neighbor's property. One question asks what physically happened; another asks whether a builder, owner or another person owes a legal response. Ancient legal texts, including judgments recorded for Hammurabi, often joined an account of conduct with a prescribed consequence. The clauses show that early rulers were concerned with responsibility for concrete outcomes. They do not establish that those societies used modern tests of negligence, proximate cause or scientific proof.",
+              "example": null,
+              "audio_script": "A wall collapses and damages a neighbor's property. One question asks what physically happened; another asks whether a builder, owner or another person owes a legal response. Ancient legal texts, including judgments recorded for Hammurabi, often joined an account of conduct with a prescribed consequence. The clauses show that early rulers were concerned with responsibility for concrete outcomes. They do not establish that those societies used modern tests of negligence, proximate cause or scientific proof.",
+              "video": null
+            },
+            {
+              "title": "A Cause Is Not Yet a Duty",
+              "body_md": "Rain may weaken a wall, careless construction may contribute, and poor maintenance may matter too. The physical chain can involve many events. Law still needs a rule identifying which acts and persons are relevant. The historian separates descriptions of cause from normative choices about responsibility. An ancient penalty tied to a builder's work reveals the legal connection selected by that source, not a timeless principle that builders must answer for every accident. The underlying lesson applies throughout legal history.",
+              "example": null,
+              "audio_script": "Rain may weaken a wall, careless construction may contribute, and poor maintenance may matter too. The physical chain can involve many events. Law still needs a rule identifying which acts and persons are relevant. The historian separates descriptions of cause from normative choices about responsibility. An ancient penalty tied to a builder's work reveals the legal connection selected by that source, not a timeless principle that builders must answer for every accident. The underlying lesson applies throughout legal history.",
+              "video": null
+            },
+            {
+              "title": "Questions Before a Verdict",
+              "body_md": "Identify the injury, the sequence of events, the actor and the legal rule. Then ask what facts the institution would require to connect them. Sources may be silent about investigation, standards of proof or defenses, so avoid filling the gaps with modern assumptions. A careful historian can explain the visible rule while admitting uncertainty about its application. This discipline matters because an unjust attribution of responsibility can threaten a person's property, reputation or freedom.",
+              "example": null,
+              "audio_script": "Identify the injury, the sequence of events, the actor and the legal rule. Then ask what facts the institution would require to connect them. Sources may be silent about investigation, standards of proof or defenses, so avoid filling the gaps with modern assumptions. A careful historian can explain the visible rule while admitting uncertainty about its application. This discipline matters because an unjust attribution of responsibility can threaten a person's property, reputation or freedom.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q1",
+              "type": "true_false",
+              "prompt": "Actor describes person whose conduct is being examined.",
+              "answer": true,
+              "explanation_if_true": "Actor refers to person whose conduct is being examined.",
+              "explanation_if_false": "Actor refers to person whose conduct is being examined."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q2",
+              "type": "true_false",
+              "prompt": "Every person who physically contributes to a result must be legally responsible for all consequences.",
+              "answer": false,
+              "explanation_if_true": "Legal systems restrict attribution through substantive rules and evidentiary standards.",
+              "explanation_if_false": "Legal systems restrict attribution through substantive rules and evidentiary standards."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Causation?",
+              "choices": [
+                "Limits of what surviving evidence can establish",
+                "Connection between an act or event and a result",
+                "Person whose conduct is being examined",
+                "Consequence assigned by an applicable legal rule"
+              ],
+              "answer_index": 1,
+              "explanation": "Causation means connection between an act or event and a result."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "A falling wall injures someone, but the responsible actor is unknown. What question is unresolved?",
+              "choices": [
+                "Who can be legally connected to the injury",
+                "Whether injury exists",
+                "Whether stone is heavy",
+                "Whether law can name a remedy"
+              ],
+              "answer_index": 0,
+              "explanation": "Evidence of a harmful result does not alone identify the legally responsible person."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means consequence assigned by an applicable legal rule?",
+              "choices": [
+                "Legal responsibility",
+                "Causation",
+                "Historical uncertainty",
+                "Actor"
+              ],
+              "answer_index": 0,
+              "explanation": "Legal responsibility means consequence assigned by an applicable legal rule."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Causation",
+                  "Connection between an act or event and a result"
+                ],
+                [
+                  "Actor",
+                  "Person whose conduct is being examined"
+                ],
+                [
+                  "Legal responsibility",
+                  "Consequence assigned by an applicable legal rule"
+                ],
+                [
+                  "Historical uncertainty",
+                  "Limits of what surviving evidence can establish"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for connection between an act or event and a result is ___.",
+              "answer": "Causation",
+              "accept": [
+                "Causation"
+              ],
+              "explanation": "The term is Causation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for limits of what surviving evidence can establish is ___.",
+              "answer": "Historical uncertainty",
+              "accept": [
+                "Historical uncertainty"
+              ],
+              "explanation": "The term is Historical uncertainty."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Trace causation and responsibility in Roman legal reasoning",
+          "summary": "Study how Roman jurists refined the relation between wrongdoing, damage and available legal actions. Recognize their influence while resisting the assumption that Roman causes of action used modern negligence doctrine.",
+          "checklist": [
+            "I can identify the significance of the Lex Aquilia to damage claims",
+            "I can distinguish an act causing harm from the action allowing redress",
+            "I can explain why later juristic interpretation matters"
+          ],
+          "sections": [
+            {
+              "title": "The Problem of Wrongful Damage",
+              "body_md": "The Lex Aquilia, a Roman statute concerned with specified forms of wrongful property damage, became central to juristic discussions of responsibility. Its interpretation developed across centuries, so a single modern paraphrase cannot capture every stage. A historian asks which conduct the legal action covered, whose interests it protected and how the claimed loss was assessed. The act of damaging property and the right to bring an action were related but not identical categories.",
+              "example": null,
+              "audio_script": "The Lex Aquilia, a Roman statute concerned with specified forms of wrongful property damage, became central to juristic discussions of responsibility. Its interpretation developed across centuries, so a single modern paraphrase cannot capture every stage. A historian asks which conduct the legal action covered, whose interests it protected and how the claimed loss was assessed. The act of damaging property and the right to bring an action were related but not identical categories.",
+              "video": null
+            },
+            {
+              "title": "Jurists Examine the Connection",
+              "body_md": "Roman jurists analyzed cases where someone's conduct contributed to loss in direct or indirect ways. Their reasoning helped later lawyers think more carefully about causation, fault and remedies. But Roman legal categories arose within particular procedural and social institutions. A present-day student should not assume there was one universally applicable but-for test. Trace the actual historical legal source and the jurist's argument before translating the discussion into familiar modern terminology.",
+              "example": null,
+              "audio_script": "Roman jurists analyzed cases where someone's conduct contributed to loss in direct or indirect ways. Their reasoning helped later lawyers think more carefully about causation, fault and remedies. But Roman legal categories arose within particular procedural and social institutions. A present-day student should not assume there was one universally applicable but-for test. Trace the actual historical legal source and the jurist's argument before translating the discussion into familiar modern terminology.",
+              "video": null
+            },
+            {
+              "title": "Ideas Travel and Change",
+              "body_md": "Roman analyses of wrongful damage influenced medieval scholarship and later civil-law systems. The same problem could be reformulated through new concepts of fault, directness and adequate connection. Historical transmission is an intellectual process, not simply carrying an unaltered statute into the present. To compare old and new law, state which elements persisted, which changed and what political or institutional reforms explain the shift. That makes the history of causation useful for understanding why current legal systems draw different boundaries.",
+              "example": null,
+              "audio_script": "Roman analyses of wrongful damage influenced medieval scholarship and later civil-law systems. The same problem could be reformulated through new concepts of fault, directness and adequate connection. Historical transmission is an intellectual process, not simply carrying an unaltered statute into the present. To compare old and new law, state which elements persisted, which changed and what political or institutional reforms explain the shift. That makes the history of causation useful for understanding why current legal systems draw different boundaries.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q1",
+              "type": "true_false",
+              "prompt": "Wrongful damage describes harm that may trigger an applicable legal action.",
+              "answer": true,
+              "explanation_if_true": "Wrongful damage refers to harm that may trigger an applicable legal action.",
+              "explanation_if_false": "Wrongful damage refers to harm that may trigger an applicable legal action."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q2",
+              "type": "true_false",
+              "prompt": "The Lex Aquilia supplied every feature of present-day negligence law unchanged.",
+              "answer": false,
+              "explanation_if_true": "Roman legal actions evolved, and later systems developed and adapted different doctrinal tests.",
+              "explanation_if_false": "Roman legal actions evolved, and later systems developed and adapted different doctrinal tests."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Lex Aquilia?",
+              "choices": [
+                "Roman statute central to wrongful property-damage claims",
+                "Harm that may trigger an applicable legal action",
+                "Reasoned analysis of legal rules by specialist jurists",
+                "Adoption and adaptation of earlier legal concepts"
+              ],
+              "answer_index": 0,
+              "explanation": "Lex Aquilia means roman statute central to wrongful property-damage claims."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "A legal term resembles Roman language but its modern test is different. What should the historian explain?",
+              "choices": [
+                "Why the translation must be wrong",
+                "Why all present cases are Roman law",
+                "Why Roman jurists had no procedure",
+                "How the doctrine changed through reception"
+              ],
+              "answer_index": 3,
+              "explanation": "Historical influence does not establish doctrinal identity."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means reasoned analysis of legal rules by specialist jurists?",
+              "choices": [
+                "Lex Aquilia",
+                "Legal reception",
+                "Wrongful damage",
+                "Juristic interpretation"
+              ],
+              "answer_index": 3,
+              "explanation": "Juristic interpretation means reasoned analysis of legal rules by specialist jurists."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Lex Aquilia",
+                  "Roman statute central to wrongful property-damage claims"
+                ],
+                [
+                  "Wrongful damage",
+                  "Harm that may trigger an applicable legal action"
+                ],
+                [
+                  "Juristic interpretation",
+                  "Reasoned analysis of legal rules by specialist jurists"
+                ],
+                [
+                  "Legal reception",
+                  "Adoption and adaptation of earlier legal concepts"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for roman statute central to wrongful property-damage claims is ___.",
+              "answer": "Lex Aquilia",
+              "accept": [
+                "Lex Aquilia"
+              ],
+              "explanation": "The term is Lex Aquilia."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for adoption and adaptation of earlier legal concepts is ___.",
+              "answer": "Legal reception",
+              "accept": [
+                "Legal reception"
+              ],
+              "explanation": "The term is Legal reception."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Explain the emergence of common-law causal limits",
+          "summary": "Follow the move from action forms toward reasoning about factual connection and the legal scope of responsibility. Learn why courts distinguish causally connected losses from those the defendant must ultimately answer for.",
+          "checklist": [
+            "I can differentiate factual and normative aspects of causation",
+            "I can identify remoteness as a legal limit on liability",
+            "I can compare older action forms with later general theories"
+          ],
+          "sections": [
+            {
+              "title": "A Chain Can Be Too Long",
+              "body_md": "Suppose a careless spark begins a fire that leads to a sequence of losses across a town. Factually, later harms may depend on the first event, yet law may decline to make the actor responsible for every consequence. In common-law history, courts developed concepts of directness, foreseeability and remoteness in different periods and settings. These concepts did not always align. The point is that legal causation became an inquiry into both what happened and how far responsibility should extend.",
+              "example": null,
+              "audio_script": "Suppose a careless spark begins a fire that leads to a sequence of losses across a town. Factually, later harms may depend on the first event, yet law may decline to make the actor responsible for every consequence. In common-law history, courts developed concepts of directness, foreseeability and remoteness in different periods and settings. These concepts did not always align. The point is that legal causation became an inquiry into both what happened and how far responsibility should extend.",
+              "video": null
+            },
+            {
+              "title": "Proof and Scope Are Different",
+              "body_md": "A claimant may prove that the defendant's conduct contributed to an injury but still face rules limiting compensable loss. Conversely, proof that a risk was foreseeable does not necessarily show that this actor caused the harm. Historical lawyers debated these distinctions through particular actions and cases rather than one complete code. Good comparative study identifies the exact cause of action and date, then separates evidentiary questions from substantive limits. This guards against using a broad concept such as fairness to erase essential proof.",
+              "example": null,
+              "audio_script": "A claimant may prove that the defendant's conduct contributed to an injury but still face rules limiting compensable loss. Conversely, proof that a risk was foreseeable does not necessarily show that this actor caused the harm. Historical lawyers debated these distinctions through particular actions and cases rather than one complete code. Good comparative study identifies the exact cause of action and date, then separates evidentiary questions from substantive limits. This guards against using a broad concept such as fairness to erase essential proof.",
+              "video": null
+            },
+            {
+              "title": "Procedure Shapes the Doctrine",
+              "body_md": "The structure of common-law pleading and the available action affected which causal questions courts reached. Later forms of negligence reasoning and appellate analysis made some principles more general, though no single universal test replaced all older distinctions. A historian should trace what a court was actually deciding: the facts, admissible proof, elements of a claim or the scope of relief. That precision explains why superficially similar judicial language can serve different legal functions across centuries.",
+              "example": null,
+              "audio_script": "The structure of common-law pleading and the available action affected which causal questions courts reached. Later forms of negligence reasoning and appellate analysis made some principles more general, though no single universal test replaced all older distinctions. A historian should trace what a court was actually deciding: the facts, admissible proof, elements of a claim or the scope of relief. That precision explains why superficially similar judicial language can serve different legal functions across centuries.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q1",
+              "type": "true_false",
+              "prompt": "Remoteness describes legal limit on consequences attributable to an actor.",
+              "answer": true,
+              "explanation_if_true": "Remoteness refers to legal limit on consequences attributable to an actor.",
+              "explanation_if_false": "Remoteness refers to legal limit on consequences attributable to an actor."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q2",
+              "type": "true_false",
+              "prompt": "Once factual causation is shown, the law always assigns responsibility for every later event.",
+              "answer": false,
+              "explanation_if_true": "Remoteness and scope-of-liability rules may limit attribution.",
+              "explanation_if_false": "Remoteness and scope-of-liability rules may limit attribution."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Factual causation?",
+              "choices": [
+                "Legal limit on consequences attributable to an actor",
+                "Whether an outcome was reasonably anticipatable",
+                "Which consequences the governing rule assigns to a defendant",
+                "Historical link between conduct and result"
+              ],
+              "answer_index": 3,
+              "explanation": "Factual causation means historical link between conduct and result."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A defendant's act starts a long chain of losses, but the court limits recovery to certain consequences. Which concept is central?",
+              "choices": [
+                "Parliamentary sovereignty",
+                "A charter's royal seal",
+                "Remoteness",
+                "Political citizenship"
+              ],
+              "answer_index": 2,
+              "explanation": "The law can limit liability despite a factual sequence connecting events."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means whether an outcome was reasonably anticipatable?",
+              "choices": [
+                "Scope of liability",
+                "Remoteness",
+                "Foreseeability",
+                "Factual causation"
+              ],
+              "answer_index": 2,
+              "explanation": "Foreseeability means whether an outcome was reasonably anticipatable."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Factual causation",
+                  "Historical link between conduct and result"
+                ],
+                [
+                  "Remoteness",
+                  "Legal limit on consequences attributable to an actor"
+                ],
+                [
+                  "Foreseeability",
+                  "Whether an outcome was reasonably anticipatable"
+                ],
+                [
+                  "Scope of liability",
+                  "Which consequences the governing rule assigns to a defendant"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for historical link between conduct and result is ___.",
+              "answer": "Factual causation",
+              "accept": [
+                "Factual causation"
+              ],
+              "explanation": "The term is Factual causation."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for which consequences the governing rule assigns to a defendant is ___.",
+              "answer": "Scope of liability",
+              "accept": [
+                "Scope of liability"
+              ],
+              "explanation": "The term is Scope of liability."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Analyze scientific uncertainty and causation in mass harms",
+          "summary": "Study why modern risks challenge causation rules designed around visible single events. Distinguish policy choices about risk allocation from empirical claims about what a particular defendant caused.",
+          "checklist": [
+            "I can explain probabilistic evidence without overclaiming it",
+            "I can compare population causation and individual causation",
+            "I can design an evidence-sensitive response to mass harm"
+          ],
+          "sections": [
+            {
+              "title": "When the Source Is Hidden",
+              "body_md": "Industrial emissions, toxic exposure and complex medical injuries may involve multiple potential causes. The scientific evidence may establish that exposure raises risk in a population without establishing which source harmed a particular person. Courts and legislatures have taken different approaches to these problems, sometimes through presumptions, special compensation systems or changes in evidentiary rules. A legal historian traces those innovations and their costs; it must not declare statistical association sufficient for legal liability everywhere.",
+              "example": null,
+              "audio_script": "Industrial emissions, toxic exposure and complex medical injuries may involve multiple potential causes. The scientific evidence may establish that exposure raises risk in a population without establishing which source harmed a particular person. Courts and legislatures have taken different approaches to these problems, sometimes through presumptions, special compensation systems or changes in evidentiary rules. A legal historian traces those innovations and their costs; it must not declare statistical association sufficient for legal liability everywhere.",
+              "video": null
+            },
+            {
+              "title": "Two Kinds of Error",
+              "body_md": "A demanding proof rule may deny compensation to people who were genuinely harmed but cannot establish precise causation. A relaxed rule may impose liability on defendants whose acts did not cause the claimed injury. Both outcomes matter. Consider how information asymmetry, scientific methods, available records and the ability to spread risk shape an institution's choice. The historical development of causation shows that evidence rules allocate uncertainty as well as discover facts. That allocation must be publicly justified.",
+              "example": null,
+              "audio_script": "A demanding proof rule may deny compensation to people who were genuinely harmed but cannot establish precise causation. A relaxed rule may impose liability on defendants whose acts did not cause the claimed injury. Both outcomes matter. Consider how information asymmetry, scientific methods, available records and the ability to spread risk shape an institution's choice. The historical development of causation shows that evidence rules allocate uncertainty as well as discover facts. That allocation must be publicly justified.",
+              "video": null
+            },
+            {
+              "title": "Responsibility for the Future",
+              "body_md": "Climate risks, interconnected infrastructure and algorithmic systems make traditional one-actor-one-harm stories increasingly difficult. A doctoral proposal should identify the type of injury, the relevant causal evidence, the parties best placed to produce records and the institution authorized to act. It may recommend prevention or collective compensation where individual liability is unproven. But it must state the difference between existing law and reform, preserving both meaningful protection for victims and safeguards against arbitrary attribution.",
+              "example": null,
+              "audio_script": "Climate risks, interconnected infrastructure and algorithmic systems make traditional one-actor-one-harm stories increasingly difficult. A doctoral proposal should identify the type of injury, the relevant causal evidence, the parties best placed to produce records and the institution authorized to act. It may recommend prevention or collective compensation where individual liability is unproven. But it must state the difference between existing law and reform, preserving both meaningful protection for victims and safeguards against arbitrary attribution.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q1",
+              "type": "true_false",
+              "prompt": "Population causation describes effect or risk observed across a group.",
+              "answer": true,
+              "explanation_if_true": "Population causation refers to effect or risk observed across a group.",
+              "explanation_if_false": "Population causation refers to effect or risk observed across a group."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q2",
+              "type": "true_false",
+              "prompt": "Population-level statistical association always conclusively proves a specific defendant's individual causation.",
+              "answer": false,
+              "explanation_if_true": "Aggregate risk and individual causal attribution require distinct analysis.",
+              "explanation_if_false": "Aggregate risk and individual causal attribution require distinct analysis."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "Which meaning best fits Probabilistic evidence?",
+              "choices": [
+                "Claimed causal link to a specific injury",
+                "Unequal access to relevant facts or records",
+                "Evidence expressing likelihood rather than certainty",
+                "Effect or risk observed across a group"
+              ],
+              "answer_index": 2,
+              "explanation": "Probabilistic evidence means evidence expressing likelihood rather than certainty."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Research shows an increased group risk but cannot identify each person's source of injury. Which question remains?",
+              "choices": [
+                "The number of courtroom benches",
+                "Individual causal attribution",
+                "How to spell a Roman term",
+                "Whether the study was done after 1215"
+              ],
+              "answer_index": 1,
+              "explanation": "Risk evidence is important but not equivalent to proving every individual claim."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "Which term means claimed causal link to a specific injury?",
+              "choices": [
+                "Population causation",
+                "Individual causation",
+                "Probabilistic evidence",
+                "Information asymmetry"
+              ],
+              "answer_index": 1,
+              "explanation": "Individual causation means claimed causal link to a specific injury."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q6",
+              "type": "matching",
+              "prompt": "Match the historical concepts and definitions.",
+              "pairs": [
+                [
+                  "Probabilistic evidence",
+                  "Evidence expressing likelihood rather than certainty"
+                ],
+                [
+                  "Population causation",
+                  "Effect or risk observed across a group"
+                ],
+                [
+                  "Individual causation",
+                  "Claimed causal link to a specific injury"
+                ],
+                [
+                  "Information asymmetry",
+                  "Unequal access to relevant facts or records"
+                ]
+              ],
+              "explanation": "The historical meanings help distinguish these legal ideas."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for evidence expressing likelihood rather than certainty is ___.",
+              "answer": "Probabilistic evidence",
+              "accept": [
+                "Probabilistic evidence"
+              ],
+              "explanation": "The term is Probabilistic evidence."
+            },
+            {
+              "id": "PSU-1.2.core_principles.causation.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for unequal access to relevant facts or records is ___.",
+              "answer": "Information asymmetry",
+              "accept": [
+                "Information asymmetry"
+              ],
+              "explanation": "The term is Information asymmetry."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}

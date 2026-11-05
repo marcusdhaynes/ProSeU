@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "evidence-structuring",
+      "name": "Evidence Structuring",
+      "levels": {
+        "red": {
+          "focus": "Organize evidence so someone else can check what it proves.",
+          "summary": "A case file becomes useful when documents, witnesses, dates, and disputes can be found and verified. Learn to keep original material safe, label it accurately, and connect each item to a legal question.",
+          "checklist": [
+            "I can create a dated evidence inventory",
+            "I can separate an item's contents from its reliability",
+            "I can identify a safe next preservation step"
+          ],
+          "sections": [
+            {
+              "title": "Start with a timeline and original sources",
+              "body_md": "A customer says that a refrigerator caught fire three weeks after installation. Gather purchase records, installation messages, photographs, fire reports, and relevant witness names. Note the time each source was created and when it was obtained. The claim that the fire began inside the appliance should remain marked as an allegation until evidence supports it. Do not merge the client's later recollection into a report as though it were recorded on the day. A simple table with date, source, custodian, and disputed fact helps the lawyer see what can actually be tested.",
+              "example": null,
+              "audio_script": "A customer says that a refrigerator caught fire three weeks after installation. Gather purchase records, installation messages, photographs, fire reports, and relevant witness names. Note the time each source was created and when it was obtained. The claim that the fire began inside the appliance should remain marked as an allegation until evidence supports it. Do not merge the client's later recollection into a report as though it were recorded on the day. A simple table with date, source, custodian, and disputed fact helps the lawyer see what can actually be tested.",
+              "video": null
+            },
+            {
+              "title": "Keep originals and trace copies",
+              "body_md": "A phone photograph can be copied for review, but preserve the original file when possible, including available metadata, and record how the copy was made. Changing its caption to describe an unproved cause creates confusion. A witnessed email may authenticate one communication without proving everything alleged in its text. Store confidential records with appropriate safeguards and avoid sending them to unauthorized people. The correct handling of physical objects and digital devices depends on law and policy. Evidence organization should enable reliable examination, not create an appearance of certainty.",
+              "example": null,
+              "audio_script": "A phone photograph can be copied for review, but preserve the original file when possible, including available metadata, and record how the copy was made. Changing its caption to describe an unproved cause creates confusion. A witnessed email may authenticate one communication without proving everything alleged in its text. Store confidential records with appropriate safeguards and avoid sending them to unauthorized people. The correct handling of physical objects and digital devices depends on law and policy. Evidence organization should enable reliable examination, not create an appearance of certainty.",
+              "video": null
+            },
+            {
+              "title": "Connect the item to a proposition",
+              "body_md": "The installation invoice may show a transaction; a timestamped message might show notice of a malfunction; an expert's analysis may bear on the cause of a fire. None necessarily proves that the seller was legally negligent. Link each item to the issue it addresses, and record contrary evidence too. Ask whether there are missing inspection records or alternative causes. A useful evidence table tells the next reader what the item is, how its authenticity might be shown, which fact it supports, and which question it leaves open.",
+              "example": null,
+              "audio_script": "The installation invoice may show a transaction; a timestamped message might show notice of a malfunction; an expert's analysis may bear on the cause of a fire. None necessarily proves that the seller was legally negligent. Link each item to the issue it addresses, and record contrary evidence too. Ask whether there are missing inspection records or alternative causes. A useful evidence table tells the next reader what the item is, how its authenticity might be shown, which fact it supports, and which question it leaves open.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q1",
+              "type": "true_false",
+              "prompt": "A photograph may show damage without proving who caused it.",
+              "answer": true,
+              "explanation_if_true": "An item's probative force depends on the legal proposition it supports.",
+              "explanation_if_false": "An item's probative force depends on the legal proposition it supports."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q2",
+              "type": "true_false",
+              "prompt": "A lawyer should edit an original document's date if that makes the chronology easier to understand.",
+              "answer": false,
+              "explanation_if_true": "Falsifying or altering evidence can destroy its reliability and violate legal duties.",
+              "explanation_if_false": "Falsifying or altering evidence can destroy its reliability and violate legal duties."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A customer has an original phone photo of a damaged appliance. What is the safest basic approach?",
+              "choices": [
+                "Discard the original after a screenshot",
+                "Preserve the original and document any review copies",
+                "Delete metadata and replace the date",
+                "Edit the scene to emphasize damage"
+              ],
+              "answer_index": 1,
+              "explanation": "Preserving provenance enables later authentication and testing."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which field is essential in an evidence inventory?",
+              "choices": [
+                "The source, date, custody and question addressed",
+                "A guess about the judge's mood",
+                "Only the client's desired damages",
+                "An invented causal conclusion"
+              ],
+              "answer_index": 0,
+              "explanation": "Evidence should be traceable and connected to a specific disputed fact."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Timeline?",
+              "choices": [
+                "Chronological account tied to identified sources",
+                "Showing that an item is what it is claimed to be",
+                "Documented sequence of handling or possession",
+                "Organized list of materials relevant to a dispute"
+              ],
+              "answer_index": 0,
+              "explanation": "Timeline means chronological account tied to identified sources."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q6",
+              "type": "matching",
+              "prompt": "Match the evidentiary concepts to their meanings.",
+              "pairs": [
+                [
+                  "Evidence inventory",
+                  "Organized list of materials relevant to a dispute"
+                ],
+                [
+                  "Timeline",
+                  "Chronological account tied to identified sources"
+                ],
+                [
+                  "Authentication",
+                  "Showing that an item is what it is claimed to be"
+                ],
+                [
+                  "Chain of custody",
+                  "Documented sequence of handling or possession"
+                ]
+              ],
+              "explanation": "Reliability and legal use are assessed through different questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for organized list of materials relevant to a dispute is ___.",
+              "answer": "Evidence inventory",
+              "accept": [
+                "Evidence inventory"
+              ],
+              "explanation": "The answer is Evidence inventory."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for documented sequence of handling or possession is ___.",
+              "answer": "Chain of custody",
+              "accept": [
+                "Chain of custody"
+              ],
+              "explanation": "The answer is Chain of custody."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Build an admissibility-aware evidence chart distinguishing relevance and reliability.",
+          "summary": "Relevance is not the same as admissibility, and an authenticated record need not be true. Create a proposition-by-proposition exhibit plan with source, objections, and missing foundations.",
+          "checklist": [
+            "I can connect each element to supporting and adverse evidence",
+            "I can distinguish relevance, authentication and hearsay concerns",
+            "I can identify gaps without hiding unfavorable material"
+          ],
+          "sections": [
+            {
+              "title": "List what the tribunal must decide",
+              "body_md": "A plaintiff claims that defective wiring caused a house fire. Make a separate row for duty, breach, causation, and the claimed loss under the relevant law. Link each row to photographs, inspection records, witness accounts, and expert opinions, including items that challenge the theory. Relevance asks whether an item has a tendency to affect a fact of consequence under the applicable evidence law; it is only the first question. A recording that appears helpful may still face rules about authentication, hearsay, privilege, or exclusion for unfair prejudice.",
+              "example": null,
+              "audio_script": "A plaintiff claims that defective wiring caused a house fire. Make a separate row for duty, breach, causation, and the claimed loss under the relevant law. Link each row to photographs, inspection records, witness accounts, and expert opinions, including items that challenge the theory. Relevance asks whether an item has a tendency to affect a fact of consequence under the applicable evidence law; it is only the first question. A recording that appears helpful may still face rules about authentication, hearsay, privilege, or exclusion for unfair prejudice.",
+              "video": null
+            },
+            {
+              "title": "Different evidence rules answer different questions",
+              "body_md": "In U.S. federal proceedings, Federal Rules of Evidence 401 and 402 address relevance and general admissibility of relevant evidence; Rule 403 permits exclusion in specified circumstances despite relevance. Rule 901 concerns sufficient proof that an item is what its proponent claims, with some self-authenticating categories in Rule 902. Jurisdictions and tribunals differ. An authentic email proves that a communication exists or occurred, not necessarily the truth of every factual assertion within it. A legal evidence chart should record these distinctions rather than label an exhibit 'admissible' solely because it looks genuine.",
+              "example": null,
+              "audio_script": "In U.S. federal proceedings, Federal Rules of Evidence 401 and 402 address relevance and general admissibility of relevant evidence; Rule 403 permits exclusion in specified circumstances despite relevance. Rule 901 concerns sufficient proof that an item is what its proponent claims, with some self-authenticating categories in Rule 902. Jurisdictions and tribunals differ. An authentic email proves that a communication exists or occurred, not necessarily the truth of every factual assertion within it. A legal evidence chart should record these distinctions rather than label an exhibit 'admissible' solely because it looks genuine.",
+              "video": null
+            },
+            {
+              "title": "Record objections and lawful solutions",
+              "body_md": "A hearsay problem may require a witness with personal knowledge, an applicable exception, or different proof. Confidential material may be privileged or subject to protective rules. Do not solve admissibility by changing a statement or concealing an unfavorable report. Note the foundation still needed, the strongest expected objection, and lawful alternatives. A practical chart can include columns for proposition, exhibit, witness, provenance, relevance, potential objection, and response. The lawyer should then check local procedural and evidence rules instead of relying on a generic template to make final admission decisions.",
+              "example": null,
+              "audio_script": "A hearsay problem may require a witness with personal knowledge, an applicable exception, or different proof. Confidential material may be privileged or subject to protective rules. Do not solve admissibility by changing a statement or concealing an unfavorable report. Note the foundation still needed, the strongest expected objection, and lawful alternatives. A practical chart can include columns for proposition, exhibit, witness, provenance, relevance, potential objection, and response. The lawyer should then check local procedural and evidence rules instead of relying on a generic template to make final admission decisions.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q1",
+              "type": "true_false",
+              "prompt": "A properly authenticated email may still face an objection when offered to prove the truth of its contents.",
+              "answer": true,
+              "explanation_if_true": "Authentication and rules governing out-of-court statements address different questions.",
+              "explanation_if_false": "Authentication and rules governing out-of-court statements address different questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q2",
+              "type": "true_false",
+              "prompt": "Relevant evidence is necessarily admitted in every court without qualification.",
+              "answer": false,
+              "explanation_if_true": "Privilege, exclusionary standards, and other rules may limit otherwise relevant material.",
+              "explanation_if_false": "Privilege, exclusionary standards, and other rules may limit otherwise relevant material."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A witness offers a genuine email asserting that another person caused a fire. What distinction matters?",
+              "choices": [
+                "Authentication does not alone establish admissibility or truth",
+                "Every genuine email proves its allegations",
+                "The document cannot be questioned",
+                "The email's font determines causation"
+              ],
+              "answer_index": 0,
+              "explanation": "Evidence must satisfy the rules relevant to how it is offered."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What belongs in an exhibit chart besides the item name?",
+              "choices": [
+                "Only a favorable closing argument",
+                "An automatic verdict prediction",
+                "No information about source",
+                "The proposition, foundation, objections and contrary material"
+              ],
+              "answer_index": 3,
+              "explanation": "Admissibility planning requires more than collecting apparently helpful objects."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Authentication?",
+              "choices": [
+                "Out-of-court statement subject to applicable truth-use restrictions",
+                "Legal decision not to admit particular material",
+                "Tendency of evidence to affect a consequential fact",
+                "Foundation identifying an item as claimed"
+              ],
+              "answer_index": 3,
+              "explanation": "Authentication means foundation identifying an item as claimed."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the evidentiary concepts to their meanings.",
+              "pairs": [
+                [
+                  "Relevance",
+                  "Tendency of evidence to affect a consequential fact"
+                ],
+                [
+                  "Authentication",
+                  "Foundation identifying an item as claimed"
+                ],
+                [
+                  "Hearsay",
+                  "Out-of-court statement subject to applicable truth-use restrictions"
+                ],
+                [
+                  "Exclusion",
+                  "Legal decision not to admit particular material"
+                ]
+              ],
+              "explanation": "Reliability and legal use are assessed through different questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for tendency of evidence to affect a consequential fact is ___.",
+              "answer": "Relevance",
+              "accept": [
+                "Relevance"
+              ],
+              "explanation": "The answer is Relevance."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal decision not to admit particular material is ___.",
+              "answer": "Exclusion",
+              "accept": [
+                "Exclusion"
+              ],
+              "explanation": "The answer is Exclusion."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Structure a digital evidence record with provenance and defensible forensic limits.",
+          "summary": "Electronic records can be altered, duplicated, or taken out of context. Design a proportionate collection protocol and evidentiary narrative that separates authenticity, integrity, meaning, and admissibility.",
+          "checklist": [
+            "I can explain why a hash verifies integrity without proving truth",
+            "I can distinguish metadata from an inferred human action",
+            "I can build a reproducible, privacy-respecting collection process"
+          ],
+          "sections": [
+            {
+              "title": "Digital provenance has several layers",
+              "body_md": "A cloud log records that a user account accessed a confidential file at 03:12. The record may be genuine, but it does not necessarily prove which human controlled the account. Device sharing, time-zone settings, automation, and credential theft can change the inference. Verify the log source, clock configuration, retention settings, and who exported it. A cryptographic hash can help show that a copy has not changed since it was hashed, but it cannot prove that the underlying record was accurate when created. Treat source integrity, attribution, and substantive meaning as distinct propositions.",
+              "example": null,
+              "audio_script": "A cloud log records that a user account accessed a confidential file at 03:12. The record may be genuine, but it does not necessarily prove which human controlled the account. Device sharing, time-zone settings, automation, and credential theft can change the inference. Verify the log source, clock configuration, retention settings, and who exported it. A cryptographic hash can help show that a copy has not changed since it was hashed, but it cannot prove that the underlying record was accurate when created. Treat source integrity, attribution, and substantive meaning as distinct propositions.",
+              "video": null
+            },
+            {
+              "title": "Collect what law permits and what the case needs",
+              "body_md": "A preservation request may cover relevant emails and audit logs, but wholesale collection of unrelated private messages may be disproportionate or unlawful. Define scope using custodian, time range, topic, and identified systems. Record collection tools and steps, permissions, chain of custody, and any processing that changed the file format. Respect privilege, privacy and disclosure duties. An expert may need to explain the limitations of automated extraction and any missing data. A reproducible workflow makes defense challenges possible rather than trying to defeat them through obscurity.",
+              "example": null,
+              "audio_script": "A preservation request may cover relevant emails and audit logs, but wholesale collection of unrelated private messages may be disproportionate or unlawful. Define scope using custodian, time range, topic, and identified systems. Record collection tools and steps, permissions, chain of custody, and any processing that changed the file format. Respect privilege, privacy and disclosure duties. An expert may need to explain the limitations of automated extraction and any missing data. A reproducible workflow makes defense challenges possible rather than trying to defeat them through obscurity.",
+              "video": null
+            },
+            {
+              "title": "Translate technical records into legal proof",
+              "body_md": "A timeline might show when a contract was signed, when access permissions changed, and when a disputed transfer occurred. Each event should link to an authenticated source and distinguish documented fact from an expert's inference. Identify competing explanations, such as a scheduled backup operation. Then apply the correct legal test for breach, intent, causation, or confidentiality, without presuming that technical anomalies prove a crime. A master's advocate should be able to explain the evidence accurately to someone unfamiliar with the technology and identify what further examination would reasonably change the conclusion.",
+              "example": null,
+              "audio_script": "A timeline might show when a contract was signed, when access permissions changed, and when a disputed transfer occurred. Each event should link to an authenticated source and distinguish documented fact from an expert's inference. Identify competing explanations, such as a scheduled backup operation. Then apply the correct legal test for breach, intent, causation, or confidentiality, without presuming that technical anomalies prove a crime. A master's advocate should be able to explain the evidence accurately to someone unfamiliar with the technology and identify what further examination would reasonably change the conclusion.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q1",
+              "type": "true_false",
+              "prompt": "An unchanged hash can support an integrity claim without proving a document was truthful when created.",
+              "answer": true,
+              "explanation_if_true": "Integrity of a copy and truth of a record are separate matters.",
+              "explanation_if_false": "Integrity of a copy and truth of a record are separate matters."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q2",
+              "type": "true_false",
+              "prompt": "A login timestamp conclusively identifies the human operator of an account in every circumstance.",
+              "answer": false,
+              "explanation_if_true": "Shared credentials, automation, compromised access and clock issues can affect attribution.",
+              "explanation_if_false": "Shared credentials, automation, compromised access and clock issues can affect attribution."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A system log shows access from an account, but a shared device may have been used. What must an analyst avoid?",
+              "choices": [
+                "Preserving metadata",
+                "Checking clock settings",
+                "Recording the export method",
+                "Equating account activity with certain human identity"
+              ],
+              "answer_index": 3,
+              "explanation": "Attribution requires corroboration beyond the mere appearance of an account identifier."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "What should a proportional digital collection plan specify?",
+              "choices": [
+                "Deletion of inconvenient records",
+                "Only the final conclusion with no process",
+                "Custodians, time windows, authority, tools and handling records",
+                "Unrestricted copying of everyone's messages"
+              ],
+              "answer_index": 2,
+              "explanation": "A defensible collection can be reviewed and repeated while respecting rights."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Cryptographic hash?",
+              "choices": [
+                "Ability to repeat and evaluate a collection or analysis",
+                "Recorded origin and handling of electronic evidence",
+                "Fingerprint used to detect changes to digital content",
+                "Descriptive information about a digital record"
+              ],
+              "answer_index": 2,
+              "explanation": "Cryptographic hash means fingerprint used to detect changes to digital content."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q6",
+              "type": "matching",
+              "prompt": "Match the evidentiary concepts to their meanings.",
+              "pairs": [
+                [
+                  "Digital provenance",
+                  "Recorded origin and handling of electronic evidence"
+                ],
+                [
+                  "Cryptographic hash",
+                  "Fingerprint used to detect changes to digital content"
+                ],
+                [
+                  "Metadata",
+                  "Descriptive information about a digital record"
+                ],
+                [
+                  "Forensic reproducibility",
+                  "Ability to repeat and evaluate a collection or analysis"
+                ]
+              ],
+              "explanation": "Reliability and legal use are assessed through different questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for recorded origin and handling of electronic evidence is ___.",
+              "answer": "Digital provenance",
+              "accept": [
+                "Digital provenance"
+              ],
+              "explanation": "The answer is Digital provenance."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for ability to repeat and evaluate a collection or analysis is ___.",
+              "answer": "Forensic reproducibility",
+              "accept": [
+                "Forensic reproducibility"
+              ],
+              "explanation": "The answer is Forensic reproducibility."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Design an evidence architecture robust against uncertainty, bias, and institutional inequality.",
+          "summary": "Decisions increasingly rely on complex records, scientific inference, and automated classification. Construct an evidentiary system that exposes error sources, protects legitimate privacy, and lets opposing parties meaningfully test proof.",
+          "checklist": [
+            "I can separate authenticity, admissibility, probative weight and sufficiency",
+            "I can evaluate model error and selection effects in a legal record",
+            "I can defend a rights-respecting approach to disclosure and expert review"
+          ],
+          "sections": [
+            {
+              "title": "Organize proof as an auditable argument",
+              "body_md": "An agency relies on algorithmic fraud scores to deny hundreds of benefits. A chart of scores alone does not reveal training-data bias, false-positive rates, missing variables, or whether individual facts satisfy the governing statutory standard. Trace each evidence item to its source, method of creation, validation, and the precise proposition it supports. Separate whether the tribunal may consider the item from how much weight it deserves. The issue is not whether statistical information has legal value, but whether affected people can understand and challenge the inference used against them.",
+              "example": null,
+              "audio_script": "An agency relies on algorithmic fraud scores to deny hundreds of benefits. A chart of scores alone does not reveal training-data bias, false-positive rates, missing variables, or whether individual facts satisfy the governing statutory standard. Trace each evidence item to its source, method of creation, validation, and the precise proposition it supports. Separate whether the tribunal may consider the item from how much weight it deserves. The issue is not whether statistical information has legal value, but whether affected people can understand and challenge the inference used against them.",
+              "video": null
+            },
+            {
+              "title": "Selection and missingness are substantive problems",
+              "body_md": "A dataset might contain only people previously investigated, so its observed relationship between behavior and wrongdoing may reflect enforcement patterns. Missing records may be systematic, not random. Distinguish observed correlation from causal inference and avoid imputing guilt from demographic proxies. A serious evidence plan considers expert competence, reproducibility, access to source materials under lawful protections, and alternatives if sensitive data cannot be publicly disclosed. The legal system must balance challenge rights, privacy, proprietary interests, and security without making any of them an automatic trump card.",
+              "example": null,
+              "audio_script": "A dataset might contain only people previously investigated, so its observed relationship between behavior and wrongdoing may reflect enforcement patterns. Missing records may be systematic, not random. Distinguish observed correlation from causal inference and avoid imputing guilt from demographic proxies. A serious evidence plan considers expert competence, reproducibility, access to source materials under lawful protections, and alternatives if sensitive data cannot be publicly disclosed. The legal system must balance challenge rights, privacy, proprietary interests, and security without making any of them an automatic trump card.",
+              "video": null
+            },
+            {
+              "title": "Make the record contestable and humane",
+              "body_md": "Build a layered record: authenticated source materials, transparent methods, independent validation, competing hypotheses, and a map from evidence to legally required elements. Protect privileged or confidential information through lawful procedures, not concealment. Provide meaningful opportunities to correct erroneous data and explain what an unfavorable finding would require. Consider resource asymmetries between the agency and the person denied essential support. A doctoral evidence architecture is successful when it permits rigorous disagreement and reduces unjustified coercion, not merely when it produces a polished exhibit binder.",
+              "example": null,
+              "audio_script": "Build a layered record: authenticated source materials, transparent methods, independent validation, competing hypotheses, and a map from evidence to legally required elements. Protect privileged or confidential information through lawful procedures, not concealment. Provide meaningful opportunities to correct erroneous data and explain what an unfavorable finding would require. Consider resource asymmetries between the agency and the person denied essential support. A doctoral evidence architecture is successful when it permits rigorous disagreement and reduces unjustified coercion, not merely when it produces a polished exhibit binder.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q1",
+              "type": "true_false",
+              "prompt": "A dataset's high apparent accuracy may be misleading when the data selection process is biased.",
+              "answer": true,
+              "explanation_if_true": "Observed performance can reflect who was sampled and investigated rather than actual wrongdoing.",
+              "explanation_if_false": "Observed performance can reflect who was sampled and investigated rather than actual wrongdoing."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q2",
+              "type": "true_false",
+              "prompt": "Evidence that is authentic and admissible must be sufficient to prove every element of a claim.",
+              "answer": false,
+              "explanation_if_true": "Admission, authenticity, weight, and sufficiency are independent questions.",
+              "explanation_if_false": "Admission, authenticity, weight, and sufficiency are independent questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A benefits agency relies on a secret predictive score drawn from selectively investigated cases. What concern should be examined?",
+              "choices": [
+                "A presumption that algorithms always lie",
+                "An obligation to disclose privileged data to everyone publicly",
+                "Selection bias, methodological reliability and challenge rights",
+                "Only whether the interface is attractive"
+              ],
+              "answer_index": 2,
+              "explanation": "Sound assessment considers the evidence-generating process and lawful contestability."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which evidence design best protects accurate adjudication?",
+              "choices": [
+                "Destruction of files after analysis",
+                "Transparent provenance, reliable methods, alternative explanations and review",
+                "Only favorable material shown to the decision maker",
+                "Unexplained statistical scores"
+              ],
+              "answer_index": 1,
+              "explanation": "A trustworthy record supports independent testing and legally justified conclusions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Selection bias?",
+              "choices": [
+                "Persuasive force of evidence on a disputed proposition",
+                "Distortion arising from how observations enter a dataset",
+                "Adequacy of evidence to meet a legal threshold",
+                "Meaningful ability to challenge evidence and inference"
+              ],
+              "answer_index": 1,
+              "explanation": "Selection bias means distortion arising from how observations enter a dataset."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q6",
+              "type": "matching",
+              "prompt": "Match the evidentiary concepts to their meanings.",
+              "pairs": [
+                [
+                  "Probative weight",
+                  "Persuasive force of evidence on a disputed proposition"
+                ],
+                [
+                  "Selection bias",
+                  "Distortion arising from how observations enter a dataset"
+                ],
+                [
+                  "Sufficiency",
+                  "Adequacy of evidence to meet a legal threshold"
+                ],
+                [
+                  "Contestability",
+                  "Meaningful ability to challenge evidence and inference"
+                ]
+              ],
+              "explanation": "Reliability and legal use are assessed through different questions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for persuasive force of evidence on a disputed proposition is ___.",
+              "answer": "Probative weight",
+              "accept": [
+                "Probative weight"
+              ],
+              "explanation": "The answer is Probative weight."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.evidence-structuring.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for meaningful ability to challenge evidence and inference is ___.",
+              "answer": "Contestability",
+              "accept": [
+                "Contestability"
+              ],
+              "explanation": "The answer is Contestability."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
