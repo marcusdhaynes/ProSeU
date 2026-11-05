@@ -732,6 +732,8 @@ export default function LearnPage() {
   const closeLesson = () => {
     const params = new URLSearchParams(searchParams.toString());
     params.delete('node');
+    params.delete('part');
+    params.delete('level');
     router.push(`/learn?${params.toString()}`);
   };
 
