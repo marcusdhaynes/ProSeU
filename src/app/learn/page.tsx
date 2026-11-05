@@ -301,6 +301,14 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, 
         </div>
       </header>
 
+      {(course.curriculumCode || course.code) === 'PSU-1.1' && (
+        <div className="flex flex-wrap items-center gap-3">
+          <Button type="button" onClick={() => onNodeClick(0, 0)} className="rounded-full gap-2 font-black uppercase tracking-widest">
+            <Play className="h-4 w-4 fill-current" /> Begin Course
+          </Button>
+          <span className="text-xs text-muted-foreground">Opens the first lesson. Use Track or ICM to select other lessons.</span>
+        </div>
+      )}
       <section className="space-y-4">
         <h2 className="text-lg font-black flex items-center gap-2 text-foreground uppercase tracking-widest">
           <AlignLeft className="h-4 w-4 text-accent" /> Overview
@@ -521,6 +529,22 @@ export default function LearnPage() {
     params.set('dom', dom.slug);
     params.delete('course');
     params.delete('node');
+    params.delete('view');
+    router.push(`/learn?${params.toString()}`);
+  };
+
+  // Play begins the first playable lesson. Course-title clicks still open the outline.
+  const handleCoursePlay = (course: any) => {
+    if (!activeDomain) return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('dom', activeDomain.slug);
+    params.set('course', course.slug);
+    if ((course.curriculumCode || course.code) === 'PSU-1.1') {
+      const section = MASTERY_SECTIONS[0];
+      params.set('node', subsectionId(section.slug, section.principles[0].slug));
+    } else {
+      params.delete('node');
+    }
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
   };
@@ -816,7 +840,7 @@ export default function LearnPage() {
                                         {course.description || "Course modules pending..."}
                                       </p>
                                       <div className="absolute bottom-[-1rem] right-[-1rem]">
-                                        <button type="button" onClick={() => handleCourseSelect(course)} className="text-muted-foreground hover:text-accent transition-colors p-2">
+                                        <button type="button" onClick={() => handleCoursePlay(course)} aria-label={`Begin learning ${course.title}`} title={`Begin ${course.title}`} className="text-muted-foreground hover:text-accent transition-colors p-2">
                                           <PlayCircle className="h-6 w-6" />
                                         </button>
                                       </div>
@@ -836,7 +860,7 @@ export default function LearnPage() {
                 {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
                   <LessonScreen
                     courseId={activeCourse.id}
-                    curriculumCode={activeCourse.curriculumCode || null}
+                    curriculumCode={activeCourse.curriculumCode || (activeCourse.code === 'PSU-1.1' ? activeCourse.code : null)}
                     subsectionId={nodeParam}
                     subsectionName={findSubsection(nodeParam)!.principle.name}
                     competencyName={findSubsection(nodeParam)!.section.displayName}
