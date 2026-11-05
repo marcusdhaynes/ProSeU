@@ -95,3 +95,69 @@ test('Play path opens authored Jurisprudence reading and questions in preview, n
     else Reflect.deleteProperty(globalThis, 'localStorage');
   }
 });
+
+test('all 28 Practical Application draft lessons load and all four exercise types accept valid answers', async () => {
+  const sourceFiles = [
+    'practical_skills_issue_spotting.json',
+    'practical_skills_rule_extraction.json',
+    'practical_skills_burden_manipulation.json',
+    'practical_skills_evidence_structuring.json',
+    'practical_skills_argument_construction.json',
+    'practical_skills_procedural_leverage.json',
+    'practical_skills_judicial_psychology.json',
+  ];
+  const rows = new Map<string, NonNullable<typeof parsed.file>['lessons'][number]>();
+  for (const filename of sourceFiles) {
+    const fullPath = `lessons/stage-01/PSU-1.1/${filename}`;
+    const result = validateLessonDocument(JSON.parse(readFileSync(fullPath, 'utf8')), {
+      filePath: fullPath, style: 'error', requireAllLevels: true,
+    });
+    assert.deepEqual(result.issues, [], `Invalid Practical Application file ${filename}`);
+    for (const row of result.file!.lessons) rows.set(`${row.subsectionId}/${row.levelId}`, row);
+  }
+  assert.equal(rows.size, 28);
+  const adapter = createDraftPracticeAdapter(liveStub(), async (subsection, level) =>
+    rows.get(`${subsection}/${level}`) ?? null);
+  for (const row of rows.values()) {
+    const input = {
+      courseId: 'test-jurisprudence',
+      curriculumCode: 'PSU-1.1',
+      subsectionId: row.subsectionId,
+      levelId: row.levelId,
+    };
+    const lesson = await adapter.getLesson(input);
+    assert.ok(lesson, `Could not open ${row.id}`);
+    assert.equal(lesson.preview, true);
+    assert.equal(lesson.sections.length, 3);
+    assert.equal(lesson.questions.length, 8);
+    assert.deepEqual(new Set(lesson.questions.map(q => q.questionType)),
+      new Set(['true_false', 'multiple_choice', 'matching', 'fill_in']));
+    for (const normalized of row.questions) {
+      const shown = lesson.questions.find(q => q.id === normalized.stableKey)!;
+      assert.ok(shown);
+      assert.equal('answer' in shown.payload, false);
+      assert.equal('correctIndex' in shown.payload, false);
+      let response: Record<string, unknown>;
+      switch (normalized.questionType) {
+        case 'true_false':
+          response = { answer: normalized.answer };
+          break;
+        case 'multiple_choice':
+          response = { choiceIndex: normalized.correctIndex };
+          break;
+        case 'matching':
+          response = { pairs: normalized.pairs };
+          break;
+        case 'fill_in':
+          response = { blanks: normalized.blanks?.map(blank => blank.answer) };
+          break;
+        default:
+          throw new Error(`Unexpected exercise ${normalized.questionType}`);
+      }
+      const answer = await adapter.submitAnswer({ ...input, questionId: normalized.stableKey, response });
+      assert.equal(answer.correct, true, `Correct exercise rejected: ${normalized.stableKey}`);
+      assert.ok(answer.explanation.trim().length > 0, `Feedback missing: ${normalized.stableKey}`);
+      assert.equal(answer.progress.preview, true);
+    }
+  }
+});
