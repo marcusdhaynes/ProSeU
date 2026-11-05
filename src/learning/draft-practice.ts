@@ -95,7 +95,12 @@ function readRecord(unitId: string): PracticeRecord {
 }
 function writeRecord(unitId: string, value: PracticeRecord): void {
   if (typeof localStorage === 'undefined') return;
-  localStorage.setItem(storageKey(unitId), JSON.stringify(value));
+  try {
+    localStorage.setItem(storageKey(unitId), JSON.stringify(value));
+  } catch {
+    // Some private or storage-restricted browsers reject localStorage writes.
+    // Reading and answering remain possible; no certified progress is claimed.
+  }
 }
 function unitId(subsectionId: string, level: LevelId) {
   return `PSU-1.1/${subsectionId.replace('.', '/')}/${level}`;
@@ -207,7 +212,10 @@ function feedback(row: NormalizedLesson['questions'][number], response: unknown)
  * Published Supabase lessons always win. A local draft never sends its answers
  * to Supabase and is never represented as certified server-side progress.
  */
-export function createDraftPracticeAdapter(live: LessonAdapter): LessonAdapter {
+export function createDraftPracticeAdapter(
+  live: LessonAdapter,
+  loadDraft: (subsectionId: string, levelId: LevelId) => Promise<NormalizedLesson | null> = findDraft,
+): LessonAdapter {
   const previewedUnits = new Set<string>();
   return {
     getCourseTree: input => live.getCourseTree(input),
@@ -219,7 +227,7 @@ export function createDraftPracticeAdapter(live: LessonAdapter): LessonAdapter {
         return published;
       }
       if (input.curriculumCode !== 'PSU-1.1') return null;
-      const row = await findDraft(input.subsectionId, input.levelId);
+      const row = await loadDraft(input.subsectionId, input.levelId);
       if (!row) return null;
       previewedUnits.add(unitId(row.subsectionId, input.levelId));
       return previewLesson(input, row);
@@ -235,7 +243,7 @@ export function createDraftPracticeAdapter(live: LessonAdapter): LessonAdapter {
       if (!previewedUnits.has(key) || input.curriculumCode !== 'PSU-1.1') {
         return live.markSectionUnderstood(input);
       }
-      const row = await findDraft(canonical, input.levelId);
+      const row = await loadDraft(canonical, input.levelId);
       const known = row?.sections.some(section => `${row.id}/s${section.position}` === input.sectionId);
       if (!row || !known) return previewSnapshot(input.courseId, canonical);
       const record = readRecord(row.id);
@@ -252,7 +260,7 @@ export function createDraftPracticeAdapter(live: LessonAdapter): LessonAdapter {
       if (!previewedUnits.has(key) || input.curriculumCode !== 'PSU-1.1') {
         return live.submitAnswer(input);
       }
-      const row = await findDraft(canonical, input.levelId);
+      const row = await loadDraft(canonical, input.levelId);
       const question = row?.questions.find(question => question.stableKey === input.questionId);
       if (!row || !question) {
         return {
