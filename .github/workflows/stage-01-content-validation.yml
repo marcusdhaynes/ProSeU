@@ -9,6 +9,7 @@ on:
       - 'scripts/stage-01-completion-gate.ts'
       - 'scripts/verify-jurisprudence-major-cases.ts'
       - 'scripts/verify-jurisprudence-policy-debates.ts'
+      - 'scripts/verify-jurisprudence-practical-application.ts'
       - 'scripts/import-mastery-content.ts'
       - '.github/workflows/stage-01-content-validation.yml'
   workflow_dispatch:
@@ -33,5 +34,7 @@ jobs:
         run: npx --yes --package=tsx@4.21.0 tsx scripts/verify-jurisprudence-major-cases.ts
       - name: Enforce complete Jurisprudence Policy Debates matrix
         run: npx --yes --package=tsx@4.21.0 tsx scripts/verify-jurisprudence-policy-debates.ts
+      - name: Enforce complete Jurisprudence Practical Application matrix
+        run: npx --yes --package=tsx@4.21.0 tsx scripts/verify-jurisprudence-practical-application.ts
       - name: Inventory every Stage 01 learning slot and flag source gaps
         run: npx --yes --package=tsx@4.21.0 tsx scripts/stage-01-completion-gate.ts
