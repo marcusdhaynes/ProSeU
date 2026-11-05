@@ -58,6 +58,13 @@ const SOURCE_FILES: Record<string, string> = {
   'policy-debates.formalism-vs-pragmatism': 'policy_debates_formalism_pragmatism.json',
   'policy-debates.stability-vs-evolution': 'policy_debates_stability_evolution.json',
   'policy-debates.liberty-vs-security': 'policy_debates_liberty_security.json',
+  'practical-skills.issue-spotting': 'practical_skills_issue_spotting.json',
+  'practical-skills.rule-extraction': 'practical_skills_rule_extraction.json',
+  'practical-skills.burden-manipulation': 'practical_skills_burden_manipulation.json',
+  'practical-skills.evidence-structuring': 'practical_skills_evidence_structuring.json',
+  'practical-skills.argument-construction': 'practical_skills_argument_construction.json',
+  'practical-skills.procedural-leverage': 'practical_skills_procedural_leverage.json',
+  'practical-skills.judicial-psychology-navigation': 'practical_skills_judicial_psychology.json',
 };
 
 const files = new Map<string, Promise<NormalizedCourseFile | null>>();
