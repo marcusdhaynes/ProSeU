@@ -1,7 +1,7 @@
 
 'use client';
 
-import React, { useState, useEffect, useMemo, use } from 'react';
+import React, { useState, useEffect, useMemo, useRef, use } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { 
   Flame, 
@@ -76,6 +76,9 @@ import { lessonAdapter } from '@/lib/lesson-adapter';
 import { competencyMasteryPercent, nextLessonLabel } from '@/lib/lesson-progress';
 import { MASTERY_SECTIONS, findSubsection, subsectionId } from '@/lib/mastery-catalog';
 import { isJurisprudenceCourse, coursePlayUrl } from '@/lib/course-play';
+import { useAdminAccess } from '@/hooks/use-admin-access';
+import { ringSegmentTier, activeLevelFromProgress, type PartRecord } from '@/learning/part-progress';
+import type { LevelId } from '@/lib/mastery-catalog';
 
 
 // --- Types & Constants ---
@@ -196,39 +199,82 @@ function Segment({ index, color, tierIndex }: { index: number, color: string, ti
   );
 }
 
-function TieredProgressRing({ color, progress }: { color: string, progress: number }) {
+function TieredProgressRing({ color, progress }: { color: string; progress: number }) {
   return (
-    <svg 
-      viewBox="0 0 120 120" 
-      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20 w-[6.5rem] h-[6.5rem]"
-    >
-      {[...Array(7)].map((_, i) => {
-        let tierIdx = -1;
-        if (progress >= 26 + i) tierIdx = 3;
-        else if (progress >= 18 + i) tierIdx = 2;
-        else if (progress >= 10 + i) tierIdx = 1;
-        else if (progress >= 2 + i) tierIdx = 0;
-        return <Segment key={i} index={i} color={color} tierIndex={tierIdx} />;
-      })}
+    <svg viewBox="0 0 120 120" aria-hidden="true"
+      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-20 w-[6.5rem] h-[6.5rem]">
+      {Array.from({ length: 7 }, (_, i) => (
+        <Segment key={i} index={i} color={color} tierIndex={ringSegmentTier(progress, i)} />
+      ))}
     </svg>
   );
 }
 
-function DuolingoNode({ color, progress, onNodeClick, id }: { 
-  color: string, 
-  progress: number, 
-  onNodeClick: () => void,
-  id: string 
+/** A real long hold is required before an owner can clear local preview progress.
+ * Normal mouse/touch taps and keyboard activation never erase progress.
+ */
+function HoldTarget({ children, onTap, onHold, canReset, label, className, style }: {
+  children: React.ReactNode;
+  onTap: () => void;
+  onHold: () => void;
+  canReset: boolean;
+  label: string;
+  className: string;
+  style?: React.CSSProperties;
+}) {
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const consumed = useRef(false);
+  const stop = () => {
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = null;
+  };
+  useEffect(() => () => { if (timer.current) clearTimeout(timer.current); }, []);
+  return (
+    <button type="button" aria-label={label} title={label} style={style} className={className}
+      onPointerDown={event => {
+        if (!canReset || event.button !== 0) return;
+        consumed.current = false;
+        stop();
+        timer.current = setTimeout(() => {
+          consumed.current = true;
+          onHold();
+        }, 700);
+      }}
+      onPointerUp={stop}
+      onPointerLeave={stop}
+      onPointerCancel={stop}
+      onContextMenu={event => { if (canReset) event.preventDefault(); }}
+      onClick={event => {
+        event.stopPropagation();
+        if (consumed.current) {
+          event.preventDefault();
+          consumed.current = false;
+          return;
+        }
+        onTap();
+      }}>
+      {children}
+    </button>
+  );
+}
+
+function DuolingoNode({ color, progress, onNodeClick, onPartClick, onResetAll, onResetFromPart, canReset, id }: {
+  color: string;
+  progress: number;
+  onNodeClick: () => void;
+  onPartClick: (part: number) => void;
+  onResetAll: () => void;
+  onResetFromPart: (part: number) => void;
+  canReset: boolean;
+  id: string;
 }) {
   let currentTierIdx = -1;
   if (progress >= 25) currentTierIdx = 3;
   else if (progress >= 17) currentTierIdx = 2;
   else if (progress >= 9) currentTierIdx = 1;
   else if (progress >= 1) currentTierIdx = 0;
-
   let activeColor = "hsl(var(--muted))";
   let activeShadow = "hsl(var(--muted))";
-
   if (currentTierIdx === 0) {
     activeColor = color;
     activeShadow = darkenHex(color, 30);
@@ -237,41 +283,61 @@ function DuolingoNode({ color, progress, onNodeClick, id }: {
     activeColor = style.color;
     activeShadow = style.shadow;
   }
-
   const isPrestige = currentTierIdx > 0;
   const outlineColor = "rgba(0,0,0,0.9)";
-
   return (
-    <div className="relative group flex items-center justify-center w-20 h-20 shrink-0">
+    <div className="relative group flex items-center justify-center w-20 h-20 shrink-0"
+      data-testid={`lesson-node-${id}`}>
       {isPrestige && (
         <div className="absolute inset-[-0.75rem] pointer-events-none flex items-center justify-center z-0">
-          <div className="w-14 h-14 rounded-full blur-2xl transition-opacity duration-1000" style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%)', animation: 'pulse-glow 2s infinite ease-in-out' }} />
+          <div className="w-14 h-14 rounded-full blur-2xl transition-opacity duration-1000"
+            style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 70%)', animation: 'pulse-glow 2s infinite ease-in-out' }} />
         </div>
       )}
       <TieredProgressRing color={color} progress={progress} />
-      <button 
-        type="button"
-        onClick={(e) => { e.stopPropagation(); onNodeClick(); }} 
-        className="w-12 h-12 rounded-full relative transition-all active:translate-y-1 duration-100 flex items-center justify-center group z-10 overflow-hidden" 
-        style={{ 
-          backgroundColor: activeColor, 
-          boxShadow: `0 5px 0 ${activeShadow}, 0 5px 0 2px ${outlineColor}, 0 0 0 2px ${outlineColor}` 
-        }}
-      >
+      {Array.from({ length: 7 }, (_, index) => {
+        const angle = ((index + 0.5) * 360 / 7 - 90) * Math.PI / 180;
+        const x = Math.round(Math.cos(angle) * 42);
+        const y = Math.round(Math.sin(angle) * 42);
+        const filled = ringSegmentTier(progress, index) >= 0;
+        return (
+          <HoldTarget key={index}
+            label={`Part ${index + 1} of 7: ${filled ? 'complete' : 'not complete'}${canReset ? '. Hold to reset this and subsequent parts' : ''}`}
+            canReset={canReset}
+            onTap={() => onPartClick(index)}
+            onHold={() => onResetFromPart(index)}
+            className="absolute z-30 h-8 w-8 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+            style={{ left: `calc(50% + ${x}px)`, top: `calc(50% + ${y}px)`, transform: 'translate(-50%, -50%)', touchAction: 'manipulation' }}>
+            <span className="sr-only">Part {index + 1}</span>
+          </HoldTarget>
+        );
+      })}
+      <HoldTarget
+        label={`Begin or resume this law lesson${canReset ? '. Hold to reset all seven parts at every level' : ''}`}
+        canReset={canReset}
+        onTap={onNodeClick}
+        onHold={onResetAll}
+        className="w-12 h-12 rounded-full relative transition-all active:translate-y-1 duration-100 flex items-center justify-center group z-40 overflow-hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
+        style={{ backgroundColor: activeColor, touchAction: 'manipulation',
+          boxShadow: `0 5px 0 ${activeShadow}, 0 5px 0 2px ${outlineColor}, 0 0 0 2px ${outlineColor}` }}>
         <div className="absolute inset-0 rounded-full border-[2px] border-black/30 pointer-events-none z-30" />
         <div className="absolute inset-[1px] rounded-full border-t-[2px] border-l-[2px] border-white/20 pointer-events-none z-30" />
         {isPrestige && <div className={cn("absolute inset-0 pointer-events-none opacity-80 z-20", TIER_ORDER[currentTierIdx] === 'orichalcum' ? "fiery-gloss" : "gloss-band")} />}
         <BeveledScaleIcon tierIdx={currentTierIdx} progress={progress} />
-      </button>
+      </HoldTarget>
     </div>
   );
 }
 
-function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, setView, setIsICM }: { 
+function PathView({ course, nodeProgress, masteryBySection, onNodeClick, onPartClick, onResetAll, onResetFromPart, canReset, isICM, setView, setIsICM }: { 
   course: any, 
   nodeProgress: Record<string, number>, 
   masteryBySection: number[],
   onNodeClick: (sIdx: number, bIdx: number) => void,
+  onPartClick: (sIdx: number, bIdx: number, part: number) => void,
+  onResetAll: (sIdx: number, bIdx: number) => void,
+  onResetFromPart: (sIdx: number, bIdx: number, part: number) => void,
+  canReset: boolean,
   isICM: boolean,
   setView: (v: 'academy' | 'domain' | 'course' | 'notebook' | 'lesson') => void,
   setIsICM: (v: boolean) => void
@@ -380,6 +446,10 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, 
                           color={section.color} 
                           progress={nodeProgress[`${sIdx}-${pIdx}`] || 0} 
                           onNodeClick={() => onNodeClick(sIdx, pIdx)} 
+                          onPartClick={part => onPartClick(sIdx, pIdx, part)}
+                          onResetAll={() => onResetAll(sIdx, pIdx)}
+                          onResetFromPart={part => onResetFromPart(sIdx, pIdx, part)}
+                          canReset={canReset}
                           id={`${sIdx}-${pIdx}`} 
                         />
                       </div>
@@ -411,6 +481,10 @@ function PathView({ course, nodeProgress, masteryBySection, onNodeClick, isICM, 
                         color={section.color} 
                         progress={progress} 
                         onNodeClick={() => onNodeClick(sIdx, bIdx)} 
+                        onPartClick={part => onPartClick(sIdx, bIdx, part)}
+                        onResetAll={() => onResetAll(sIdx, bIdx)}
+                        onResetFromPart={part => onResetFromPart(sIdx, bIdx, part)}
+                        canReset={canReset}
                         id={id} 
                       />
                     </div>
