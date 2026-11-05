@@ -1,0 +1,552 @@
+{
+  "key": "practical_skills",
+  "name": "Practical Application",
+  "subsections": [
+    {
+      "key": "judicial-psychology-navigation",
+      "name": "Judicial Psychology Navigation",
+      "levels": {
+        "red": {
+          "focus": "Communicate clearly to a judge while respecting the court's independence.",
+          "summary": "A judge's task is to decide a legal dispute through an authorized process, not to reward the most dramatic speaker. Learn to answer the question asked, present reliable information, and respect everyone in the courtroom.",
+          "checklist": [
+            "I can describe the judge's role without personal stereotypes",
+            "I can give a short, evidence-linked answer to a question",
+            "I can recognize improper attempts to influence a tribunal"
+          ],
+          "sections": [
+            {
+              "title": "The judge needs a legal reason",
+              "body_md": "Imagine a judge asks why a tenant should receive an urgent hearing about a heating failure. A helpful answer names the rule that may authorize relief, the documented dates, and the specific harm from waiting. A speech about the landlord's character may not answer the legal question. The advocate should listen, speak accurately, and distinguish proven facts from allegations. Court rules determine how and when a person may address the judge. Clear presentation helps the decision maker follow the case without pretending that personal charm can replace evidence.",
+              "example": null,
+              "audio_script": "Imagine a judge asks why a tenant should receive an urgent hearing about a heating failure. A helpful answer names the rule that may authorize relief, the documented dates, and the specific harm from waiting. A speech about the landlord's character may not answer the legal question. The advocate should listen, speak accurately, and distinguish proven facts from allegations. Court rules determine how and when a person may address the judge. Clear presentation helps the decision maker follow the case without pretending that personal charm can replace evidence.",
+              "video": null
+            },
+            {
+              "title": "Respect is not agreement",
+              "body_md": "A judge may ask a difficult question or express doubt about an argument. Counsel should answer calmly, correct an error respectfully where supported, and preserve lawful objections under the governing procedure. Becoming angry or attacking the judge's personality does not supply missing authority. The tribunal is not a private adversary to manipulate. Treat witnesses, interpreters, court staff and opposing parties with dignity. Effective advocacy can be firm and respectful at the same time, including when a client feels frightened or unheard.",
+              "example": null,
+              "audio_script": "A judge may ask a difficult question or express doubt about an argument. Counsel should answer calmly, correct an error respectfully where supported, and preserve lawful objections under the governing procedure. Becoming angry or attacking the judge's personality does not supply missing authority. The tribunal is not a private adversary to manipulate. Treat witnesses, interpreters, court staff and opposing parties with dignity. Effective advocacy can be firm and respectful at the same time, including when a client feels frightened or unheard.",
+              "video": null
+            },
+            {
+              "title": "Never try to influence the tribunal secretly",
+              "body_md": "Offering a judge a gift, inventing evidence, or contacting a decision maker privately about a pending case contrary to the rules is not legitimate persuasion. The American Bar Association's Model Rule 3.5, for example, limits prohibited influence and unauthorized ex parte communications; actual governing rules depend on jurisdiction. A lawyer should make arguments through permitted channels so both sides can respond. The goal is a fair explanation of law and facts, not a secret relationship with the person deciding the dispute.",
+              "example": null,
+              "audio_script": "Offering a judge a gift, inventing evidence, or contacting a decision maker privately about a pending case contrary to the rules is not legitimate persuasion. The American Bar Association's Model Rule 3.5, for example, limits prohibited influence and unauthorized ex parte communications; actual governing rules depend on jurisdiction. A lawyer should make arguments through permitted channels so both sides can respond. The goal is a fair explanation of law and facts, not a secret relationship with the person deciding the dispute.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q1",
+              "type": "true_false",
+              "prompt": "A respectful, focused answer to a judge's actual legal question can be more useful than a dramatic personal attack.",
+              "answer": true,
+              "explanation_if_true": "Adjudication depends on governing law, relevant facts and orderly procedure.",
+              "explanation_if_false": "Adjudication depends on governing law, relevant facts and orderly procedure."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q2",
+              "type": "true_false",
+              "prompt": "Private contact with a judge about a pending case is always acceptable if a lawyer believes the cause is just.",
+              "answer": false,
+              "explanation_if_true": "Unauthorized ex parte contact can violate law and professional obligations.",
+              "explanation_if_false": "Unauthorized ex parte contact can violate law and professional obligations."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A judge asks which document proves the date of a repair request. What is the strongest response?",
+              "choices": [
+                "Ask to speak privately about the case",
+                "Identify the dated document and explain what it shows",
+                "Deliver a personal insult",
+                "Claim the date is established without evidence"
+              ],
+              "answer_index": 1,
+              "explanation": "Specific record-based answers support reliable decisions."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q4",
+              "type": "multiple_choice",
+              "prompt": "Which approach is legitimate persuasion?",
+              "choices": [
+                "Address authority and evidence through authorized procedures",
+                "Give a secret gift to influence a ruling",
+                "Threaten the judge's family",
+                "Falsify a witness statement"
+              ],
+              "answer_index": 0,
+              "explanation": "Lawful advocacy protects judicial independence and public trust."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Oral advocacy?",
+              "choices": [
+                "Presentation of legal reasons to a tribunal",
+                "Communication with a decision maker without the other side in a defined setting",
+                "Respectful conduct under tribunal rules",
+                "Decision-making without improper favoritism or prejudgment"
+              ],
+              "answer_index": 0,
+              "explanation": "Oral advocacy means presentation of legal reasons to a tribunal."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q6",
+              "type": "matching",
+              "prompt": "Match the decision-making and advocacy concepts.",
+              "pairs": [
+                [
+                  "Judicial impartiality",
+                  "Decision-making without improper favoritism or prejudgment"
+                ],
+                [
+                  "Oral advocacy",
+                  "Presentation of legal reasons to a tribunal"
+                ],
+                [
+                  "Ex parte contact",
+                  "Communication with a decision maker without the other side in a defined setting"
+                ],
+                [
+                  "Courtroom decorum",
+                  "Respectful conduct under tribunal rules"
+                ]
+              ],
+              "explanation": "Psychological insight supports courtroom clarity, not improper influence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for decision-making without improper favoritism or prejudgment is ___.",
+              "answer": "Judicial impartiality",
+              "accept": [
+                "Judicial impartiality"
+              ],
+              "explanation": "The answer is Judicial impartiality."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for respectful conduct under tribunal rules is ___.",
+              "answer": "Courtroom decorum",
+              "accept": [
+                "Courtroom decorum"
+              ],
+              "explanation": "The answer is Courtroom decorum."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Prepare courtroom explanations that account for attention and cognitive load without manipulating factfinders.",
+          "summary": "Judges and jurors work with limited time and complex information. Use clear issue framing, careful sequencing, and accurate visual aids while avoiding stereotypes, misleading anchors, and emotional distortion.",
+          "checklist": [
+            "I can organize a short argument around the controlling issue",
+            "I can identify a cognitive bias without assuming any particular judge is biased",
+            "I can test whether an exhibit clarifies rather than distorts evidence"
+          ],
+          "sections": [
+            {
+              "title": "Make the decision path easy to follow",
+              "body_md": "A judge receives hundreds of pages about a disputed building repair. Rather than recite every paragraph, organize the presentation around the duty, the key dates, the disputed notice, and the requested lawful remedy. Use headings and cite the exact record for each factual assertion. Clear sequencing reduces the burden of locating information without predetermining the answer. A well-designed chart can show when notices and inspections occurred, but its labels must distinguish records from contested inferences. Brevity is valuable when it preserves accuracy.",
+              "example": null,
+              "audio_script": "A judge receives hundreds of pages about a disputed building repair. Rather than recite every paragraph, organize the presentation around the duty, the key dates, the disputed notice, and the requested lawful remedy. Use headings and cite the exact record for each factual assertion. Clear sequencing reduces the burden of locating information without predetermining the answer. A well-designed chart can show when notices and inspections occurred, but its labels must distinguish records from contested inferences. Brevity is valuable when it preserves accuracy.",
+              "video": null
+            },
+            {
+              "title": "Understand bias without diagnosing a judge",
+              "body_md": "People can be influenced by anchors, memorable events, and first impressions. These are general concerns in behavioral research; they do not justify declaring that an identified judge will rule a certain way because of age, background, or temperament. An excessively large damages demand might create an anchor, but deliberately exaggerating a claim risks deception and sanctions. A responsible lawyer checks whether proposed figures follow admissible evidence and governing standards. The purpose of learning cognitive psychology is to recognize possible decision error and improve clarity, not exploit personal vulnerabilities.",
+              "example": null,
+              "audio_script": "People can be influenced by anchors, memorable events, and first impressions. These are general concerns in behavioral research; they do not justify declaring that an identified judge will rule a certain way because of age, background, or temperament. An excessively large damages demand might create an anchor, but deliberately exaggerating a claim risks deception and sanctions. A responsible lawyer checks whether proposed figures follow admissible evidence and governing standards. The purpose of learning cognitive psychology is to recognize possible decision error and improve clarity, not exploit personal vulnerabilities.",
+              "video": null
+            },
+            {
+              "title": "Respond to questions as requests for help",
+              "body_md": "A judge's skeptical question may test a weak premise, examine jurisdiction, or invite an advocate to clarify the record. Listen for the precise concern and answer it before returning to prepared points. If the question exposes an adverse authority, address the real distinction or acknowledge a limitation. Do not interpret every interruption as hostility or infer certainty from facial expressions. An advocate's duty is to provide legally supportable information that permits a fair decision, even when the truthful answer narrows the client's requested relief.",
+              "example": null,
+              "audio_script": "A judge's skeptical question may test a weak premise, examine jurisdiction, or invite an advocate to clarify the record. Listen for the precise concern and answer it before returning to prepared points. If the question exposes an adverse authority, address the real distinction or acknowledge a limitation. Do not interpret every interruption as hostility or infer certainty from facial expressions. An advocate's duty is to provide legally supportable information that permits a fair decision, even when the truthful answer narrows the client's requested relief.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q1",
+              "type": "true_false",
+              "prompt": "A concise timeline linked to original records can help a judge understand a complex sequence of events.",
+              "answer": true,
+              "explanation_if_true": "Clear organization reduces search effort while retaining checkable proof.",
+              "explanation_if_false": "Clear organization reduces search effort while retaining checkable proof."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q2",
+              "type": "true_false",
+              "prompt": "The surest way to win a hearing is to infer a judge's beliefs from stereotypes and exploit them.",
+              "answer": false,
+              "explanation_if_true": "Stereotypes are unreliable and improper manipulation threatens fairness.",
+              "explanation_if_false": "Stereotypes are unreliable and improper manipulation threatens fairness."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A judge asks whether a cited case was overruled. What should counsel do?",
+              "choices": [
+                "Answer candidly and give its current legal status",
+                "Ignore the question and repeat a slogan",
+                "Invent a citation",
+                "Guess what the judge personally prefers"
+              ],
+              "answer_index": 0,
+              "explanation": "Direct answers and verified authority protect credibility."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "What is a permissible use of a courtroom timeline?",
+              "choices": [
+                "Changing dates to make the client's story stronger",
+                "Hiding exculpatory events",
+                "Treating every alleged event as admitted",
+                "Accurately orienting the tribunal to disputed and established events"
+              ],
+              "answer_index": 3,
+              "explanation": "Visual aids should clarify the record rather than fabricate certainty."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Anchoring?",
+              "choices": [
+                "Specific location supporting a factual statement",
+                "Clear statement of the legal question and relevant facts",
+                "Mental effort required to understand information",
+                "Influence of an initial reference point on judgment"
+              ],
+              "answer_index": 3,
+              "explanation": "Anchoring means influence of an initial reference point on judgment."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the decision-making and advocacy concepts.",
+              "pairs": [
+                [
+                  "Cognitive load",
+                  "Mental effort required to understand information"
+                ],
+                [
+                  "Anchoring",
+                  "Influence of an initial reference point on judgment"
+                ],
+                [
+                  "Record citation",
+                  "Specific location supporting a factual statement"
+                ],
+                [
+                  "Issue framing",
+                  "Clear statement of the legal question and relevant facts"
+                ]
+              ],
+              "explanation": "Psychological insight supports courtroom clarity, not improper influence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for mental effort required to understand information is ___.",
+              "answer": "Cognitive load",
+              "accept": [
+                "Cognitive load"
+              ],
+              "explanation": "The answer is Cognitive load."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for clear statement of the legal question and relevant facts is ___.",
+              "answer": "Issue framing",
+              "accept": [
+                "Issue framing"
+              ],
+              "explanation": "The answer is Issue framing."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Apply decision-science safeguards to judicial communication and evidence evaluation.",
+          "summary": "Behavioral research suggests that irrelevant anchors and intuitive impressions can affect judgments, but studies vary in design and external validity. Learn to separate tested effects from speculation about individual judges and to build procedures reducing avoidable error.",
+          "checklist": [
+            "I can distinguish empirical evidence from assumptions about a decision maker",
+            "I can evaluate the effect of irrelevant anchors on valuation and credibility",
+            "I can design accurate briefing and questioning that surfaces weak inferences"
+          ],
+          "sections": [
+            {
+              "title": "Empirical results need qualification",
+              "body_md": "Experiments concerning judicial decision-making have examined anchoring and other cognitive tendencies, but no study can guarantee how a particular judge will behave in a real case. Samples, tasks, and institutional settings matter. An advocate should not treat a published average effect as a personalized psychological profile. The appropriate lesson is to identify sources of irrelevant influence in the decision process. Where law permits, provide the tribunal with transparent calculations, clearly separated issues, and reliable comparisons rather than arbitrary numbers chosen for their subconscious effects.",
+              "example": null,
+              "audio_script": "Experiments concerning judicial decision-making have examined anchoring and other cognitive tendencies, but no study can guarantee how a particular judge will behave in a real case. Samples, tasks, and institutional settings matter. An advocate should not treat a published average effect as a personalized psychological profile. The appropriate lesson is to identify sources of irrelevant influence in the decision process. Where law permits, provide the tribunal with transparent calculations, clearly separated issues, and reliable comparisons rather than arbitrary numbers chosen for their subconscious effects.",
+              "video": null
+            },
+            {
+              "title": "Evidence should overcome narrative fluency",
+              "body_md": "A fluent witness can sound convincing while being mistaken; a hesitant witness may be accurate but stressed or communicating through an interpreter. Credibility analysis should consider perception, memory, consistency, incentives, and corroboration under the governing evidence rules. Do not infer deceit from accent, disability, or demeanor stereotypes. A courtroom argument can acknowledge uncertainty and show independent records supporting a conclusion. This approach helps the court evaluate the legal proposition instead of rewarding a performance style. The advocate must not coach a witness to falsely alter testimony.",
+              "example": null,
+              "audio_script": "A fluent witness can sound convincing while being mistaken; a hesitant witness may be accurate but stressed or communicating through an interpreter. Credibility analysis should consider perception, memory, consistency, incentives, and corroboration under the governing evidence rules. Do not infer deceit from accent, disability, or demeanor stereotypes. A courtroom argument can acknowledge uncertainty and show independent records supporting a conclusion. This approach helps the court evaluate the legal proposition instead of rewarding a performance style. The advocate must not coach a witness to falsely alter testimony.",
+              "video": null
+            },
+            {
+              "title": "Design the presentation to reveal error",
+              "body_md": "Use a neutral chronology, disclosed assumptions, a table distinguishing admitted from disputed facts, and a response to the strongest adverse evidence. Test technical claims for base-rate neglect and selection bias. When an expert gives a probability, ask what population and method the estimate describes and whether it supports the particular legal conclusion. A judge should receive competing explanations in usable form. The master's goal is not to discover a cognitive exploit but to make the judicial task more accurate and procedurally fair while still advancing the client's supported position.",
+              "example": null,
+              "audio_script": "Use a neutral chronology, disclosed assumptions, a table distinguishing admitted from disputed facts, and a response to the strongest adverse evidence. Test technical claims for base-rate neglect and selection bias. When an expert gives a probability, ask what population and method the estimate describes and whether it supports the particular legal conclusion. A judge should receive competing explanations in usable form. The master's goal is not to discover a cognitive exploit but to make the judicial task more accurate and procedurally fair while still advancing the client's supported position.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q1",
+              "type": "true_false",
+              "prompt": "An experimentally observed average bias does not prove that a particular judge will display it in a specific case.",
+              "answer": true,
+              "explanation_if_true": "Generalization depends on context, study quality and individual variation.",
+              "explanation_if_false": "Generalization depends on context, study quality and individual variation."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q2",
+              "type": "true_false",
+              "prompt": "A confident witness's fluency alone conclusively proves their factual account.",
+              "answer": false,
+              "explanation_if_true": "Credibility requires evidence-based examination of perception, memory and corroboration.",
+              "explanation_if_false": "Credibility requires evidence-based examination of perception, memory and corroboration."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "An expert cites a risk percentage without identifying the reference population. What should an advocate ask?",
+              "choices": [
+                "How to frighten the jurors with the number",
+                "Whether the witness sounds confident",
+                "Which unrelated celebrity endorses the method",
+                "What base rate and method support the estimate"
+              ],
+              "answer_index": 3,
+              "explanation": "A numerical claim must be tied to reliable data and the case's proposition."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which practice best counters potentially misleading courtroom narratives?",
+              "choices": [
+                "Suppress inconsistent documents",
+                "Judge credibility by accent",
+                "Separate corroborated facts, disputed inferences and alternative explanations",
+                "Use arbitrary numbers to anchor damages"
+              ],
+              "answer_index": 2,
+              "explanation": "A transparent evidence map helps factfinders assess a claim on its merits."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Base-rate neglect?",
+              "choices": [
+                "Extent to which findings generalize beyond the studied setting",
+                "Potential influence of an initial number on later judgment",
+                "Failure to account for underlying event frequencies",
+                "Independent information supporting a disputed account"
+              ],
+              "answer_index": 2,
+              "explanation": "Base-rate neglect means failure to account for underlying event frequencies."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q6",
+              "type": "matching",
+              "prompt": "Match the decision-making and advocacy concepts.",
+              "pairs": [
+                [
+                  "Anchoring effect",
+                  "Potential influence of an initial number on later judgment"
+                ],
+                [
+                  "Base-rate neglect",
+                  "Failure to account for underlying event frequencies"
+                ],
+                [
+                  "Corroboration",
+                  "Independent information supporting a disputed account"
+                ],
+                [
+                  "External validity",
+                  "Extent to which findings generalize beyond the studied setting"
+                ]
+              ],
+              "explanation": "Psychological insight supports courtroom clarity, not improper influence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for potential influence of an initial number on later judgment is ___.",
+              "answer": "Anchoring effect",
+              "accept": [
+                "Anchoring effect"
+              ],
+              "explanation": "The answer is Anchoring effect."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for extent to which findings generalize beyond the studied setting is ___.",
+              "answer": "External validity",
+              "accept": [
+                "External validity"
+              ],
+              "explanation": "The answer is External validity."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Develop a theory of procedurally fair judicial decision-making informed by behavioral science.",
+          "summary": "Judicial independence and reasoned decisions depend on structures that reduce bias without assuming that judges are machines or that behavioral experiments supply universal answers. Design a reviewable, dignity-preserving adjudicative process.",
+          "checklist": [
+            "I can evaluate the limits of empirical research on judging",
+            "I can analyze structural responses to bias without stereotyping individuals",
+            "I can propose accountability safeguards respecting judicial independence"
+          ],
+          "sections": [
+            {
+              "title": "Behavioral effects and legal authority are different",
+              "body_md": "The availability heuristic or an irrelevant anchor may distort the evaluation of evidence, but an experiment's result does not itself establish a ground for reversal. Legal error depends on governing standards, proof, and the court's institutional role. A doctoral analysis should distinguish cognitive mechanisms, empirical external validity, procedural safeguards, and remedies available in the actual jurisdiction. Avoid treating any single judge as a predictable bundle of traits. The deeper challenge is designing a system in which even conscientious decision makers can identify and correct mistakes.",
+              "example": null,
+              "audio_script": "The availability heuristic or an irrelevant anchor may distort the evaluation of evidence, but an experiment's result does not itself establish a ground for reversal. Legal error depends on governing standards, proof, and the court's institutional role. A doctoral analysis should distinguish cognitive mechanisms, empirical external validity, procedural safeguards, and remedies available in the actual jurisdiction. Avoid treating any single judge as a predictable bundle of traits. The deeper challenge is designing a system in which even conscientious decision makers can identify and correct mistakes.",
+              "video": null
+            },
+            {
+              "title": "Institutions can reduce predictable error",
+              "body_md": "Consider precommitted evaluation criteria, reasoned judgments tied to findings, transparent expert methodology, training on unreliable credibility cues, accessible interpretation, and appellate review where provided. Each safeguard carries costs and legal constraints. Excessive standardization can itself silence vulnerable persons whose cases do not fit expected patterns, while unconstrained discretion can conceal inconsistency. Evaluate whether reforms improve accuracy, perceived fairness, and meaningful participation for litigants with limited resources. A judicial system earns trust through reviewable reasons rather than reliance on a heroic image of individual judges.",
+              "example": null,
+              "audio_script": "Consider precommitted evaluation criteria, reasoned judgments tied to findings, transparent expert methodology, training on unreliable credibility cues, accessible interpretation, and appellate review where provided. Each safeguard carries costs and legal constraints. Excessive standardization can itself silence vulnerable persons whose cases do not fit expected patterns, while unconstrained discretion can conceal inconsistency. Evaluate whether reforms improve accuracy, perceived fairness, and meaningful participation for litigants with limited resources. A judicial system earns trust through reviewable reasons rather than reliance on a heroic image of individual judges.",
+              "video": null
+            },
+            {
+              "title": "Persuasion must not become covert influence",
+              "body_md": "Lawyers may adapt an argument to the questions and workload of the tribunal by making sources accessible and claims precise. They may not purchase influence, knowingly mislead, or use unauthorized private communications to control an outcome. Distinguish a lawful public argument about evidence from exploitation of protected characteristics or secret access to decision makers. Construct a model of effective advocacy where the client's case is heard fully and the opponent has a fair chance to answer. The measure of success is justified, correctable adjudication and the human dignity of everyone affected, not merely a favorable verdict.",
+              "example": null,
+              "audio_script": "Lawyers may adapt an argument to the questions and workload of the tribunal by making sources accessible and claims precise. They may not purchase influence, knowingly mislead, or use unauthorized private communications to control an outcome. Distinguish a lawful public argument about evidence from exploitation of protected characteristics or secret access to decision makers. Construct a model of effective advocacy where the client's case is heard fully and the opponent has a fair chance to answer. The measure of success is justified, correctable adjudication and the human dignity of everyone affected, not merely a favorable verdict.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q1",
+              "type": "true_false",
+              "prompt": "Procedural design can seek to reduce judicial error without assuming any specific judge is personally biased.",
+              "answer": true,
+              "explanation_if_true": "Structures can improve transparency and consistency across many decision makers.",
+              "explanation_if_false": "Structures can improve transparency and consistency across many decision makers."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q2",
+              "type": "true_false",
+              "prompt": "Behavioral research makes it ethically acceptable to secretly influence a judge by prohibited means.",
+              "answer": false,
+              "explanation_if_true": "Empirical psychology does not suspend the legal and professional duty of impartial adjudication.",
+              "explanation_if_false": "Empirical psychology does not suspend the legal and professional duty of impartial adjudication."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A court considers training judges to avoid unreliable demeanor cues while preserving individual hearings. Which institutional goal is served?",
+              "choices": [
+                "Removing every right of appeal",
+                "Rewarding lawyers for private contacts",
+                "More evidence-based and reviewable credibility decisions",
+                "Replacing testimony with personal stereotypes"
+              ],
+              "answer_index": 2,
+              "explanation": "Decision safeguards should improve accuracy while retaining meaningful participation."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q4",
+              "type": "multiple_choice",
+              "prompt": "What is a proper aim of judicial-psychology education for advocates?",
+              "choices": [
+                "Inventing evidence to exploit cognitive weaknesses",
+                "Clear, truthful presentation that protects independent decisions",
+                "Covert psychological manipulation",
+                "Ex parte lobbying of judges"
+              ],
+              "answer_index": 1,
+              "explanation": "Understanding cognition should strengthen fair adjudication, not undermine it."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Decision architecture?",
+              "choices": [
+                "Protection of adjudication from improper external control",
+                "Institutional design shaping how options and evidence are evaluated",
+                "Decision explaining decisive factual and legal grounds",
+                "Procedure intended to reduce avoidable decision errors"
+              ],
+              "answer_index": 1,
+              "explanation": "Decision architecture means institutional design shaping how options and evidence are evaluated."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q6",
+              "type": "matching",
+              "prompt": "Match the decision-making and advocacy concepts.",
+              "pairs": [
+                [
+                  "Judicial independence",
+                  "Protection of adjudication from improper external control"
+                ],
+                [
+                  "Decision architecture",
+                  "Institutional design shaping how options and evidence are evaluated"
+                ],
+                [
+                  "Reasoned judgment",
+                  "Decision explaining decisive factual and legal grounds"
+                ],
+                [
+                  "Debiasing safeguard",
+                  "Procedure intended to reduce avoidable decision errors"
+                ]
+              ],
+              "explanation": "Psychological insight supports courtroom clarity, not improper influence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for protection of adjudication from improper external control is ___.",
+              "answer": "Judicial independence",
+              "accept": [
+                "Judicial independence"
+              ],
+              "explanation": "The answer is Judicial independence."
+            },
+            {
+              "id": "PSU-1.1.practical_skills.judicial-psychology-navigation.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for procedure intended to reduce avoidable decision errors is ___.",
+              "answer": "Debiasing safeguard",
+              "accept": [
+                "Debiasing safeguard"
+              ],
+              "explanation": "The answer is Debiasing safeguard."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
