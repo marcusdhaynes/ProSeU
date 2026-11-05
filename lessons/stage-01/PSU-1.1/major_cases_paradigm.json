@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "paradigm-shifting-cases",
+      "name": "Paradigm-Shifting Cases",
+      "levels": {
+        "red": {
+          "focus": "Understand how Mabo recognized Indigenous native title under Australian law.",
+          "summary": "The Meriam people challenged the assumption that British acquisition of sovereignty erased their traditional land rights. The High Court of Australia recognized native title in Mabo v Queensland (No 2) (1992).",
+          "checklist": [
+            "I can identify the land rights claimed by the Meriam people",
+            "I can explain the significance of native title",
+            "I can recognize why Mabo did not resolve every Indigenous land claim"
+          ],
+          "sections": [
+            {
+              "title": "People already had laws and land",
+              "body_md": "Eddie Koiki Mabo and other Meriam claimants sought recognition of their people's traditional rights to land on Mer, or Murray Island, in the Torres Strait. They relied on long-standing community laws, customs, and occupation. Earlier colonial legal thinking had often treated the land as lacking owners whose rights the imported legal system needed to recognize. The dispute asked whether Australian common law could acknowledge the Meriam people's existing land rights instead of starting from a fiction that the land belonged to nobody.",
+              "example": null,
+              "audio_script": "Eddie Koiki Mabo and other Meriam claimants sought recognition of their people's traditional rights to land on Mer, or Murray Island, in the Torres Strait. They relied on long-standing community laws, customs, and occupation. Earlier colonial legal thinking had often treated the land as lacking owners whose rights the imported legal system needed to recognize. The dispute asked whether Australian common law could acknowledge the Meriam people's existing land rights instead of starting from a fiction that the land belonged to nobody.",
+              "video": null
+            },
+            {
+              "title": "The High Court recognized native title",
+              "body_md": "In Mabo v Queensland (No 2), decided June 3, 1992, Australia's High Court held that the common law could recognize native title grounded in the traditional laws and customs of Indigenous peoples. The Meriam people's rights to the relevant lands were recognized subject to specific qualifications. The decision rejected the assumption that Indigenous land rights were necessarily erased when the Crown acquired sovereignty. It did not announce that every parcel of land was automatically transferred or that native title could never be lawfully extinguished.",
+              "example": null,
+              "audio_script": "In Mabo v Queensland (No 2), decided June 3, 1992, Australia's High Court held that the common law could recognize native title grounded in the traditional laws and customs of Indigenous peoples. The Meriam people's rights to the relevant lands were recognized subject to specific qualifications. The decision rejected the assumption that Indigenous land rights were necessarily erased when the Crown acquired sovereignty. It did not announce that every parcel of land was automatically transferred or that native title could never be lawfully extinguished.",
+              "video": null
+            },
+            {
+              "title": "Recognition requires facts and institutions",
+              "body_md": "Native title claims depend on relevant laws, customs, continuing connections, and the effects of later legally valid acts, among other requirements. The Australian Parliament subsequently enacted the Native Title Act 1993 to provide a statutory framework. A lawyer must not treat Mabo as a universal property deed, yet must also recognize the enormous legal significance of taking Indigenous legal relationships seriously. This is a lesson in how an authoritative court can correct a foundational legal assumption while leaving practical disputes to further processes.",
+              "example": null,
+              "audio_script": "Native title claims depend on relevant laws, customs, continuing connections, and the effects of later legally valid acts, among other requirements. The Australian Parliament subsequently enacted the Native Title Act 1993 to provide a statutory framework. A lawyer must not treat Mabo as a universal property deed, yet must also recognize the enormous legal significance of taking Indigenous legal relationships seriously. This is a lesson in how an authoritative court can correct a foundational legal assumption while leaving practical disputes to further processes.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Mabo (No 2) recognized that Indigenous traditional laws and customs could ground native title.",
+              "answer": true,
+              "explanation_if_true": "The Australian common law acknowledged continuing Indigenous land interests.",
+              "explanation_if_false": "The Australian common law acknowledged continuing Indigenous land interests."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q2",
+              "type": "true_false",
+              "prompt": "Mabo immediately awarded every Australian parcel of land to every Indigenous person without conditions.",
+              "answer": false,
+              "explanation_if_true": "Recognition depends on applicable law, facts, and possible prior valid extinguishment.",
+              "explanation_if_false": "Recognition depends on applicable law, facts, and possible prior valid extinguishment."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "A community seeks recognition of traditional rights to ancestral Australian land under continuing laws and customs. Which case is foundational?",
+              "choices": [
+                "Palsgraf",
+                "Mabo v Queensland (No 2)",
+                "Gideon v Wainwright",
+                "Youngstown"
+              ],
+              "answer_index": 1,
+              "explanation": "Mabo recognized a common-law form of native title grounded in traditional relationships."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "What foundational assumption did Mabo reject?",
+              "choices": [
+                "That Indigenous ownership was necessarily absent on Crown acquisition of sovereignty",
+                "That land can be owned by any person",
+                "That courts may consider historical evidence",
+                "That Parliament may enact native-title legislation"
+              ],
+              "answer_index": 0,
+              "explanation": "The High Court rejected a premise denying recognition of existing Indigenous rights."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Native title mean?",
+              "choices": [
+                "Land interests recognized through Indigenous traditional law and custom",
+                "Indigenous people of the Murray Islands with traditional land rights",
+                "Valid legal ending of a particular recognized interest",
+                "1992 High Court of Australia decision recognizing native title"
+              ],
+              "answer_index": 0,
+              "explanation": "Native title means land interests recognized through indigenous traditional law and custom."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match landmark cases and their doctrinal significance.",
+              "pairs": [
+                [
+                  "Mabo (No 2)",
+                  "1992 High Court of Australia decision recognizing native title"
+                ],
+                [
+                  "Native title",
+                  "Land interests recognized through Indigenous traditional law and custom"
+                ],
+                [
+                  "Meriam people",
+                  "Indigenous people of the Murray Islands with traditional land rights"
+                ],
+                [
+                  "Extinguishment",
+                  "Valid legal ending of a particular recognized interest"
+                ]
+              ],
+              "explanation": "Each landmark decision concerns a specific legal order and issue."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1992 high court of australia decision recognizing native title is ___.",
+              "answer": "Mabo (No 2)",
+              "accept": [
+                "Mabo (No 2)"
+              ],
+              "explanation": "The answer is Mabo (No 2)."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for valid legal ending of a particular recognized interest is ___.",
+              "answer": "Extinguishment",
+              "accept": [
+                "Extinguishment"
+              ],
+              "explanation": "The answer is Extinguishment."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain direct effect through Van Gend en Loos.",
+          "summary": "A Dutch importer disputed customs duties under the European Economic Community Treaty. In 1963 the Court of Justice explained that certain treaty rules could create rights enforceable by individuals in national courts.",
+          "checklist": [
+            "I can identify the customs-duty dispute",
+            "I can state the central principle of direct effect",
+            "I can distinguish direct effect from the enforceability of every treaty clause"
+          ],
+          "sections": [
+            {
+              "title": "A company challenged a customs charge",
+              "body_md": "Van Gend en Loos, a Dutch transport company, was charged duties on chemicals brought from Germany into the Netherlands. It argued that the charge was inconsistent with a rule of the European Economic Community Treaty against increasing certain internal customs duties. The legal question reached the Court of Justice from a national tribunal. Could a company rely on the Treaty rule itself in domestic proceedings, or did only member governments have claims concerning one another's treaty duties?",
+              "example": null,
+              "audio_script": "Van Gend en Loos, a Dutch transport company, was charged duties on chemicals brought from Germany into the Netherlands. It argued that the charge was inconsistent with a rule of the European Economic Community Treaty against increasing certain internal customs duties. The legal question reached the Court of Justice from a national tribunal. Could a company rely on the Treaty rule itself in domestic proceedings, or did only member governments have claims concerning one another's treaty duties?",
+              "video": null
+            },
+            {
+              "title": "The Treaty could create individual rights",
+              "body_md": "In Van Gend en Loos (Case 26/62, decided February 5, 1963), the Court of Justice held that the Community legal order could confer rights on individuals that national courts must protect. The specific Treaty obligation at issue was suitable for direct effect. The judgment shifted the account of international economic integration away from treating treaties solely as promises between governments. It did not hold that every provision of any international agreement automatically produces a directly enforceable individual right.",
+              "example": null,
+              "audio_script": "In Van Gend en Loos (Case 26/62, decided February 5, 1963), the Court of Justice held that the Community legal order could confer rights on individuals that national courts must protect. The specific Treaty obligation at issue was suitable for direct effect. The judgment shifted the account of international economic integration away from treating treaties solely as promises between governments. It did not hold that every provision of any international agreement automatically produces a directly enforceable individual right.",
+              "video": null
+            },
+            {
+              "title": "Test the actual provision",
+              "body_md": "A lawyer invoking direct effect must identify the relevant European Union rule, whether its terms and legal context satisfy the requirements for enforcement, and who may rely on it against whom. Direct effect differs from choosing a favorable forum or showing that an official behaved unfairly. It concerns whether an authoritative legal norm supplies a right a claimant can invoke in national proceedings. Students should learn the principle without treating an influential founding case as a substitute for contemporary EU doctrine and later qualifications.",
+              "example": null,
+              "audio_script": "A lawyer invoking direct effect must identify the relevant European Union rule, whether its terms and legal context satisfy the requirements for enforcement, and who may rely on it against whom. Direct effect differs from choosing a favorable forum or showing that an official behaved unfairly. It concerns whether an authoritative legal norm supplies a right a claimant can invoke in national proceedings. Students should learn the principle without treating an influential founding case as a substitute for contemporary EU doctrine and later qualifications.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Van Gend en Loos involved an importer challenging Dutch customs duties under a Community treaty provision.",
+              "answer": true,
+              "explanation_if_true": "The court considered whether individuals could rely directly on the Treaty prohibition.",
+              "explanation_if_false": "The court considered whether individuals could rely directly on the Treaty prohibition."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "Van Gend en Loos held that every provision of every international treaty is directly enforceable by all individuals.",
+              "answer": false,
+              "explanation_if_true": "The decision recognized a specific EU principle whose application depends on qualifying legal rules.",
+              "explanation_if_false": "The decision recognized a specific EU principle whose application depends on qualifying legal rules."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "A national court asks whether a company may invoke a qualifying EEC treaty rule directly. Which judgment is central?",
+              "choices": [
+                "Van Gend en Loos",
+                "Brown v Board",
+                "Gideon",
+                "Caparo"
+              ],
+              "answer_index": 0,
+              "explanation": "Van Gend en Loos established the principle of direct effect in Community law."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Which statement accurately describes direct effect?",
+              "choices": [
+                "All foreign judgments execute automatically",
+                "Any morally compelling rule is legally binding",
+                "States can ignore every treaty without consequence",
+                "A qualifying EU norm can be relied on in national legal proceedings"
+              ],
+              "answer_index": 3,
+              "explanation": "Direct effect concerns individual enforceability of particular authoritative EU norms."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Direct effect mean?",
+              "choices": [
+                "Duty created by a binding treaty provision",
+                "Legal entitlement held or enforceable by a person",
+                "1963 Court of Justice decision establishing direct effect",
+                "Capacity of a qualifying EU rule to be invoked in national proceedings"
+              ],
+              "answer_index": 3,
+              "explanation": "Direct effect means capacity of a qualifying eu rule to be invoked in national proceedings."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match landmark cases and their doctrinal significance.",
+              "pairs": [
+                [
+                  "Van Gend en Loos",
+                  "1963 Court of Justice decision establishing direct effect"
+                ],
+                [
+                  "Direct effect",
+                  "Capacity of a qualifying EU rule to be invoked in national proceedings"
+                ],
+                [
+                  "Treaty obligation",
+                  "Duty created by a binding treaty provision"
+                ],
+                [
+                  "Individual right",
+                  "Legal entitlement held or enforceable by a person"
+                ]
+              ],
+              "explanation": "Each landmark decision concerns a specific legal order and issue."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1963 court of justice decision establishing direct effect is ___.",
+              "answer": "Van Gend en Loos",
+              "accept": [
+                "Van Gend en Loos"
+              ],
+              "explanation": "The answer is Van Gend en Loos."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for legal entitlement held or enforceable by a person is ___.",
+              "answer": "Individual right",
+              "accept": [
+                "Individual right"
+              ],
+              "explanation": "The answer is Individual right."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Distinguish primacy from direct effect through Costa v ENEL.",
+          "summary": "In 1964 the Court of Justice considered conflict between Community law and a later Italian national law. Costa developed the principle that Community law could not be displaced simply by a subsequent domestic enactment.",
+          "checklist": [
+            "I can explain why Costa matters for primacy of EU law",
+            "I can distinguish primacy from direct effect",
+            "I can analyze the relation between national and EU legal orders"
+          ],
+          "sections": [
+            {
+              "title": "A national law met an integrated legal order",
+              "body_md": "Flaminio Costa challenged aspects of an Italian measure nationalizing the electricity industry, raising arguments based on European Economic Community law. The dispute reached the Court of Justice through a preliminary reference from an Italian court. A fundamental question was whether Italy could defeat obligations from the Community legal order simply by adopting a later domestic law. Without an answer, common rules could apply differently in each member state whenever national legislators changed their minds.",
+              "example": null,
+              "audio_script": "Flaminio Costa challenged aspects of an Italian measure nationalizing the electricity industry, raising arguments based on European Economic Community law. The dispute reached the Court of Justice through a preliminary reference from an Italian court. A fundamental question was whether Italy could defeat obligations from the Community legal order simply by adopting a later domestic law. Without an answer, common rules could apply differently in each member state whenever national legislators changed their minds.",
+              "video": null
+            },
+            {
+              "title": "Primacy protects the common rule",
+              "body_md": "In Costa v ENEL (Case 6/64, decided July 15, 1964), the Court of Justice articulated that law arising from the Community's own legal system could not be overridden by a unilateral subsequent national measure. This became a cornerstone of the doctrine of primacy of EU law. The case did not transfer every area of government to European institutions. EU law's authority remains tied to the Treaties and the legal competences conferred under them, as developed through subsequent doctrine.",
+              "example": null,
+              "audio_script": "In Costa v ENEL (Case 6/64, decided July 15, 1964), the Court of Justice articulated that law arising from the Community's own legal system could not be overridden by a unilateral subsequent national measure. This became a cornerstone of the doctrine of primacy of EU law. The case did not transfer every area of government to European institutions. EU law's authority remains tied to the Treaties and the legal competences conferred under them, as developed through subsequent doctrine.",
+              "video": null
+            },
+            {
+              "title": "Two principles solve different problems",
+              "body_md": "Van Gend en Loos asks whether a qualifying Community rule can give individuals enforceable rights. Costa asks what priority that legal order has when a national measure conflicts with it. A norm's direct effect and its primacy therefore address distinct questions, even where both matter to a case. An advanced lawyer identifies the applicable EU norm, the claimed inconsistency, the court's available remedy, and the role of later treaty and national constitutional developments. Legal integration does not eliminate interpretive disagreement among courts.",
+              "example": null,
+              "audio_script": "Van Gend en Loos asks whether a qualifying Community rule can give individuals enforceable rights. Costa asks what priority that legal order has when a national measure conflicts with it. A norm's direct effect and its primacy therefore address distinct questions, even where both matter to a case. An advanced lawyer identifies the applicable EU norm, the claimed inconsistency, the court's available remedy, and the role of later treaty and national constitutional developments. Legal integration does not eliminate interpretive disagreement among courts.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Costa considered the relationship between European Community law and a later Italian national measure.",
+              "answer": true,
+              "explanation_if_true": "The Court articulated the primacy of Community law within the integrated legal order.",
+              "explanation_if_false": "The Court articulated the primacy of Community law within the integrated legal order."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Costa held that every matter of domestic government had been transferred to European institutions.",
+              "answer": false,
+              "explanation_if_true": "The primacy principle operates within the framework of conferred EU competences and applicable EU law.",
+              "explanation_if_false": "The primacy principle operates within the framework of conferred EU competences and applicable EU law."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A later national rule conflicts with applicable EU law, and the court asks which prevails. Which principle is central?",
+              "choices": [
+                "Only the facts of Palsgraf",
+                "Gideon's appointed-counsel rule",
+                "A private arbitration clause",
+                "Primacy from Costa v ENEL"
+              ],
+              "answer_index": 3,
+              "explanation": "Primacy concerns priority between conflicting legal norms."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "A company asks whether a treaty rule can be invoked by it; a government asks whether later national law defeats EU law. Which distinction matters?",
+              "choices": [
+                "Venue versus evidence only",
+                "Both are civil damages formulas",
+                "Direct effect versus primacy",
+                "Two names for identical criminal burdens"
+              ],
+              "answer_index": 2,
+              "explanation": "Individual enforceability and priority in a conflict are separate doctrinal issues."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Primacy mean?",
+              "choices": [
+                "National court's request for an EU law ruling",
+                "1964 Court of Justice decision articulating primacy",
+                "Priority of EU law over conflicting national measures within its scope",
+                "Enforceability of qualifying EU rules by individuals"
+              ],
+              "answer_index": 2,
+              "explanation": "Primacy means priority of eu law over conflicting national measures within its scope."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match landmark cases and their doctrinal significance.",
+              "pairs": [
+                [
+                  "Costa v ENEL",
+                  "1964 Court of Justice decision articulating primacy"
+                ],
+                [
+                  "Primacy",
+                  "Priority of EU law over conflicting national measures within its scope"
+                ],
+                [
+                  "Direct effect",
+                  "Enforceability of qualifying EU rules by individuals"
+                ],
+                [
+                  "Preliminary reference",
+                  "National court's request for an EU law ruling"
+                ]
+              ],
+              "explanation": "Each landmark decision concerns a specific legal order and issue."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1964 court of justice decision articulating primacy is ___.",
+              "answer": "Costa v ENEL",
+              "accept": [
+                "Costa v ENEL"
+              ],
+              "explanation": "The answer is Costa v ENEL."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for national court's request for an eu law ruling is ___.",
+              "answer": "Preliminary reference",
+              "accept": [
+                "Preliminary reference"
+              ],
+              "explanation": "The answer is Preliminary reference."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Assess constitutional limits on amendment through Kesavananda Bharati.",
+          "summary": "The Indian Supreme Court's 1973 basic-structure doctrine placed limits on the power to alter the Constitution. Compare the protection of constitutional identity with developments in Indigenous recognition and European legal integration.",
+          "checklist": [
+            "I can state the basic-structure principle and its amendment context",
+            "I can compare constitutional identity with direct effect and native title",
+            "I can critique the legitimacy of protecting essentials against ordinary majorities"
+          ],
+          "sections": [
+            {
+              "title": "A constitutional amendment can threaten a constitution",
+              "body_md": "Kesavananda Bharati v State of Kerala (1973) arose from disputes involving land reform and constitutional amendments in India. A thirteen-judge Supreme Court bench examined Parliament's authority under the Constitution's amendment provisions. By a closely divided result, the Court developed the basic-structure doctrine: Parliament may amend the Constitution, but cannot destroy its essential structural features. The decision did not say that every constitutional amendment is forbidden or create a simple exhaustive list of all protected features.",
+              "example": null,
+              "audio_script": "Kesavananda Bharati v State of Kerala (1973) arose from disputes involving land reform and constitutional amendments in India. A thirteen-judge Supreme Court bench examined Parliament's authority under the Constitution's amendment provisions. By a closely divided result, the Court developed the basic-structure doctrine: Parliament may amend the Constitution, but cannot destroy its essential structural features. The decision did not say that every constitutional amendment is forbidden or create a simple exhaustive list of all protected features.",
+              "video": null
+            },
+            {
+              "title": "Different courts reshaped different foundations",
+              "body_md": "Mabo corrected a colonial assumption about Indigenous land rights. Van Gend en Loos and Costa developed the legal force of a regional legal order within national courts. Kesavananda concerned the internal power to change a written constitution. Each decision transformed a foundational premise, yet the relevant legal source, people protected, and institutional consequences differ. A doctoral comparison should resist calling every landmark decision a rights declaration; some reshape sources, some recognize pre-existing interests, and some limit constituent institutions.",
+              "example": null,
+              "audio_script": "Mabo corrected a colonial assumption about Indigenous land rights. Van Gend en Loos and Costa developed the legal force of a regional legal order within national courts. Kesavananda concerned the internal power to change a written constitution. Each decision transformed a foundational premise, yet the relevant legal source, people protected, and institutional consequences differ. A doctoral comparison should resist calling every landmark decision a rights declaration; some reshape sources, some recognize pre-existing interests, and some limit constituent institutions.",
+              "video": null
+            },
+            {
+              "title": "Who may decide what cannot be changed?",
+              "body_md": "Basic-structure limits can protect constitutional democracy against a temporary majority dismantling its safeguards. Critics question whether judges should identify limits not expressly enumerated in the amendment text, potentially restricting democratic reform. A defensible theory must examine institutional history, constitutional interpretation, and the danger of both entrenching injustice and permitting authoritarian change. It should specify how essential features are identified, how courts justify intervention, and how lawful constitutional development remains possible. Legal stability should serve people and freedoms, not merely institutional prestige.",
+              "example": null,
+              "audio_script": "Basic-structure limits can protect constitutional democracy against a temporary majority dismantling its safeguards. Critics question whether judges should identify limits not expressly enumerated in the amendment text, potentially restricting democratic reform. A defensible theory must examine institutional history, constitutional interpretation, and the danger of both entrenching injustice and permitting authoritarian change. It should specify how essential features are identified, how courts justify intervention, and how lawful constitutional development remains possible. Legal stability should serve people and freedoms, not merely institutional prestige.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q1",
+              "type": "true_false",
+              "prompt": "Kesavananda recognized constitutional amendment power while restricting destruction of the Constitution's basic structure.",
+              "answer": true,
+              "explanation_if_true": "The decision protects essential features against amendment beyond constitutional limits.",
+              "explanation_if_false": "The decision protects essential features against amendment beyond constitutional limits."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q2",
+              "type": "true_false",
+              "prompt": "Kesavananda declared that India's Constitution could never be amended again.",
+              "answer": false,
+              "explanation_if_true": "The doctrine constrains amendment of basic features rather than abolishing amendment power.",
+              "explanation_if_false": "The doctrine constrains amendment of basic features rather than abolishing amendment power."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A constitutional amendment would eliminate judicial review and representative institutions entirely. Which Indian doctrine is relevant?",
+              "choices": [
+                "The tort doctrine in Palsgraf",
+                "English equitable estoppel",
+                "Basic structure from Kesavananda Bharati",
+                "Miranda warnings"
+              ],
+              "answer_index": 2,
+              "explanation": "Kesavananda supplies a framework limiting destruction of essential constitutional features."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "How do Mabo, Van Gend en Loos, Costa, and Kesavananda differ?",
+              "choices": [
+                "Each abolished the need for legislative authority",
+                "They transform different foundations: land rights, individual EU rights, primacy, and constitutional amendment limits",
+                "All concern the same private tort rule",
+                "All were decided by the same tribunal in 1973"
+              ],
+              "answer_index": 1,
+              "explanation": "A careful comparison preserves each decision's own jurisdiction and doctrinal question."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What does Basic-structure doctrine mean?",
+              "choices": [
+                "1973 Indian constitutional basic-structure judgment",
+                "Limit on constitutional changes that destroy essential features",
+                "Authorized process for changing a constitution",
+                "Fundamental commitments defining a legal order"
+              ],
+              "answer_index": 1,
+              "explanation": "Basic-structure doctrine means limit on constitutional changes that destroy essential features."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match landmark cases and their doctrinal significance.",
+              "pairs": [
+                [
+                  "Kesavananda Bharati",
+                  "1973 Indian constitutional basic-structure judgment"
+                ],
+                [
+                  "Basic-structure doctrine",
+                  "Limit on constitutional changes that destroy essential features"
+                ],
+                [
+                  "Amendment power",
+                  "Authorized process for changing a constitution"
+                ],
+                [
+                  "Constitutional identity",
+                  "Fundamental commitments defining a legal order"
+                ]
+              ],
+              "explanation": "Each landmark decision concerns a specific legal order and issue."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The legal term for 1973 indian constitutional basic-structure judgment is ___.",
+              "answer": "Kesavananda Bharati",
+              "accept": [
+                "Kesavananda Bharati"
+              ],
+              "explanation": "The answer is Kesavananda Bharati."
+            },
+            {
+              "id": "PSU-1.1.major_cases.paradigm-shifting-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The legal term for fundamental commitments defining a legal order is ___.",
+              "answer": "Constitutional identity",
+              "accept": [
+                "Constitutional identity"
+              ],
+              "explanation": "The answer is Constitutional identity."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
