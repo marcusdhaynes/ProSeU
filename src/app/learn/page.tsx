@@ -517,6 +517,8 @@ function QuestItem({ label, current, total, color }: { label: string, current: n
 // --- Page Wrapper ---
 
 export default function LearnPage() {
+  const { isAdmin } = useAdminAccess();
+  const [resetNotice, setResetNotice] = useState<string | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [view, setView] = useState<'academy' | 'domain' | 'course' | 'notebook' | 'lesson'>('academy');
   const [activeDomain, setActiveDomain] = useState<any>(null);
@@ -530,6 +532,8 @@ export default function LearnPage() {
   const courseSlug = searchParams.get('course');
   const viewParam = searchParams.get('view');
   const nodeParam = searchParams.get('node');
+  const partParam = searchParams.get('part');
+  const levelParam = searchParams.get('level');
   const notebookTab = searchParams.get('tab') || 'toc';
 
   // The Academy is a public, read-only view of Supabase's published catalog.
@@ -663,8 +667,53 @@ export default function LearnPage() {
     params.set('dom', activeDomain.slug);
     params.set('course', activeCourse.slug);
     params.set('node', subsectionId(section.slug, principle.slug));
+    params.delete('part');
+    params.delete('level');
     params.delete('view');
     router.push(`/learn?${params.toString()}`);
+  };
+
+  const handlePartClick = (sIdx: number, bIdx: number, part: number) => {
+    if (!activeDomain || !activeCourse || !Number.isInteger(part) || part < 0 || part >= 7) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle) return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.set('dom', activeDomain.slug);
+    params.set('course', activeCourse.slug);
+    params.set('node', subsectionId(section.slug, principle.slug));
+    params.set('part', String(part + 1));
+    const progress = nodeProgress[`${sIdx}-${bIdx}`] || 0;
+    const visibleLevel: LevelId = progress >= 25 ? 'doctorate'
+      : progress >= 17 ? 'masters' : progress >= 9 ? 'bachelor' : 'paralegal';
+    params.set('level', visibleLevel);
+    params.delete('view');
+    router.push(`/learn?${params.toString()}`);
+  };
+
+  const handleReset = async (sIdx: number, bIdx: number, fromPart?: number) => {
+    if (!isAdmin || !activeCourse || !isJurisprudenceCourse(activeCourse)) return;
+    const section = MASTERY_SECTIONS[sIdx];
+    const principle = section?.principles[bIdx];
+    if (!section || !principle || !lessonAdapter.resetProgress) return;
+    const key = `${sIdx}-${bIdx}`;
+    const progress = nodeProgress[key] || 0;
+    const visibleLevel: LevelId = progress >= 25 ? 'doctorate'
+      : progress >= 17 ? 'masters' : progress >= 9 ? 'bachelor' : 'paralegal';
+    try {
+      const snapshot = await lessonAdapter.resetProgress({
+        courseId: activeCourse.id,
+        curriculumCode: 'PSU-1.1',
+        subsectionId: subsectionId(section.slug, principle.slug),
+        ...(fromPart == null ? {} : { levelId: visibleLevel, fromPart }),
+      });
+      setNodeProgress(current => ({ ...current, [key]: snapshot.progress }));
+      setResetNotice(fromPart == null
+        ? `Reset all seven parts and all levels of ${principle.name} on this device.`
+        : `Reset ${principle.name}, parts ${fromPart + 1}–7 and later mastery levels on this device.`);
+    } catch (error) {
+      setResetNotice(error instanceof Error ? error.message : String(error));
+    }
   };
 
   const closeLesson = () => {
@@ -925,11 +974,16 @@ export default function LearnPage() {
                 )}
 
 
-                {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
+                {resetNotice && (
+                <p role="status" className="mx-auto my-2 max-w-xl text-center text-xs font-semibold text-amber-700 dark:text-amber-300">{resetNotice}</p>
+              )}
+              {view === 'lesson' && activeCourse && nodeParam && findSubsection(nodeParam) && (
                   <LessonScreen
                     courseId={activeCourse.id}
                     curriculumCode={activeCourse.curriculumCode || (isJurisprudenceCourse(activeCourse) ? 'PSU-1.1' : null)}
                     subsectionId={nodeParam}
+                    initialPart={partParam && /^[1-7]$/.test(partParam) ? Number(partParam) - 1 : null}
+                    initialLevel={levelParam && ['paralegal', 'bachelor', 'masters', 'doctorate'].includes(levelParam) ? levelParam as LevelId : null}
                     subsectionName={findSubsection(nodeParam)!.principle.name}
                     competencyName={findSubsection(nodeParam)!.section.displayName}
                     color={findSubsection(nodeParam)!.section.color}
@@ -948,6 +1002,10 @@ export default function LearnPage() {
                       nodeProgress={nodeProgress}
                       masteryBySection={masteryBySection}
                       onNodeClick={handleNodeClick}
+                      onPartClick={handlePartClick}
+                      onResetAll={(sIdx, bIdx) => { void handleReset(sIdx, bIdx); }}
+                      onResetFromPart={(sIdx, bIdx, part) => { void handleReset(sIdx, bIdx, part); }}
+                      canReset={isAdmin && isJurisprudenceCourse(activeCourse)}
                       isICM={isICM}
                       setView={setView}
                       setIsICM={setIsICM}
