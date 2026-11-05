@@ -21,6 +21,7 @@ export function QuestionPlayer({
 }) {
   const [pending, setPending] = useState(false);
   const [result, setResult] = useState<{ correct: boolean; explanation: string } | null>(null);
+  const [attempt, setAttempt] = useState(0);
 
   const submit = async (response: unknown) => {
     if (pending || result) return;
@@ -50,16 +51,16 @@ export function QuestionPlayer({
         Question {index + 1} / {total}
       </p>
       {question.questionType === 'true_false' && (
-        <Veritas embedded prompt={prompt} disabled={!!result} onChoose={answer => { void submit({ answer }); }} />
+        <Veritas key={attempt} embedded prompt={prompt} disabled={!!result} onChoose={answer => { void submit({ answer }); }} />
       )}
       {question.questionType === 'multiple_choice' && (
-        <Multiplix embedded prompt={prompt} options={options} disabled={!!result} onChoose={choiceIndex => { void submit({ choiceIndex }); }} />
+        <Multiplix key={attempt} embedded prompt={prompt} options={options} disabled={!!result} onChoose={choiceIndex => { void submit({ choiceIndex }); }} />
       )}
       {question.questionType === 'matching' && (
-        <Congruens embedded pairs={pairs} disabled={!!result} onComplete={matched => { void submit({ pairs: matched }); }} />
+        <Congruens key={attempt} embedded pairs={pairs} disabled={!!result} onComplete={matched => { void submit({ pairs: matched }); }} />
       )}
       {question.questionType === 'fill_in' && (
-        <FillInQuestion prompt={prompt} disabled={!!result} onSubmit={blanks => { void submit({ blanks }); }} />
+        <FillInQuestion key={attempt} prompt={prompt} disabled={!!result} onSubmit={blanks => { void submit({ blanks }); }} />
       )}
       {result && (
         <div
@@ -74,6 +75,12 @@ export function QuestionPlayer({
             {result.correct ? 'Correct' : 'Not quite'}
           </p>
           {result.explanation && <p className="mt-2 text-sm leading-relaxed text-foreground">{result.explanation}</p>}
+          {!result.correct && (
+            <button type="button" className="mt-3 rounded-lg border border-current px-4 py-2 text-xs font-black uppercase tracking-wider"
+              onClick={() => { setResult(null); setAttempt(number => number + 1); }}>
+              Try again
+            </button>
+          )
         </div>
       )}
     </div>
