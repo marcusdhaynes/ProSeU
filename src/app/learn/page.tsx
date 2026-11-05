@@ -75,6 +75,7 @@ import { LessonScreen } from '@/components/learn/lesson/LessonScreen';
 import { lessonAdapter } from '@/lib/lesson-adapter';
 import { competencyMasteryPercent, nextLessonLabel } from '@/lib/lesson-progress';
 import { MASTERY_SECTIONS, findSubsection, subsectionId } from '@/lib/mastery-catalog';
+import { isJurisprudenceCourse, coursePlayUrl } from '@/lib/course-play';
 
 
 // --- Types & Constants ---
@@ -95,12 +96,7 @@ const TIER_STYLES: Record<TierType, TierStyle> = {
 
 const TIER_ORDER: TierType[] = ['basic', 'electrum', 'orichalcum', 'adamantine'];
 
-function isJurisprudenceCourse(course: { curriculumCode?: string | null; code?: string | null; title?: string } | null): boolean {
-  if (!course) return false;
-  return course.curriculumCode === 'PSU-1.1' ||
-    course.code === 'PSU-1.1' ||
-    course.title === 'Jurisprudence: What Law Is and Why It Binds';
-}
+
 
 
 const CAREER_PATHS = [
@@ -544,17 +540,7 @@ export default function LearnPage() {
   // Play begins the first playable lesson. Course-title clicks still open the outline.
   const handleCoursePlay = (course: any) => {
     if (!activeDomain) return;
-    const params = new URLSearchParams(searchParams.toString());
-    params.set('dom', activeDomain.slug);
-    params.set('course', course.slug);
-    if (isJurisprudenceCourse(course)) {
-      const section = MASTERY_SECTIONS[0];
-      params.set('node', subsectionId(section.slug, section.principles[0].slug));
-    } else {
-      params.delete('node');
-    }
-    params.delete('view');
-    router.push(`/learn?${params.toString()}`);
+    router.push(coursePlayUrl(new URLSearchParams(searchParams.toString()), activeDomain.slug, course));
   };
 
   const handleCourseSelect = (course: any) => {
