@@ -80,7 +80,7 @@ export function QuestionPlayer({
               onClick={() => { setResult(null); setAttempt(number => number + 1); }}>
               Try again
             </button>
-          )
+          )}
         </div>
       )}
     </div>
