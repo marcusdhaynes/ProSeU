@@ -1,0 +1,552 @@
+{
+  "key": "major_cases",
+  "name": "Major Cases",
+  "subsections": [
+    {
+      "key": "procedure-defining-cases",
+      "name": "Procedure-Defining Cases",
+      "levels": {
+        "red": {
+          "focus": "Understand why Gideon v. Wainwright required appointed counsel in serious state criminal prosecutions.",
+          "summary": "Clarence Gideon could not afford a lawyer, yet faced a felony charge in Florida. His case shows that a fair criminal trial may require more than a theoretical right to speak for oneself.",
+          "checklist": [
+            "I can identify Gideon's request and why it was refused",
+            "I can state the core constitutional holding",
+            "I can explain why access to counsel protects a fair trial"
+          ],
+          "sections": [
+            {
+              "title": "An accused person stood alone",
+              "body_md": "Clarence Earl Gideon was charged with a felony in a Florida state court. He could not afford an attorney and asked the judge to appoint one, but the request was denied under the state's practice for the charge involved. He represented himself, was convicted, and challenged the result. The central question for the U.S. Supreme Court was whether the Constitution required states to supply counsel to indigent defendants in these felony prosecutions. The issue concerned fair participation in a process capable of depriving someone of liberty.",
+              "example": null,
+              "audio_script": "Clarence Earl Gideon was charged with a felony in a Florida state court. He could not afford an attorney and asked the judge to appoint one, but the request was denied under the state's practice for the charge involved. He represented himself, was convicted, and challenged the result. The central question for the U.S. Supreme Court was whether the Constitution required states to supply counsel to indigent defendants in these felony prosecutions. The issue concerned fair participation in a process capable of depriving someone of liberty.",
+              "video": null
+            },
+            {
+              "title": "The Court recognized a fundamental safeguard",
+              "body_md": "In Gideon v. Wainwright (1963), the Supreme Court unanimously held that the Sixth Amendment right to counsel was fundamental and applied to state felony prosecutions through the Fourteenth Amendment. It overruled Betts v. Brady and ordered further proceedings. The decision did not make every legal proceeding automatically eligible for appointed counsel. It established a powerful requirement in its criminal context, later interpreted and developed through additional cases. A student should name that context before promising assistance in an unrelated civil dispute.",
+              "example": null,
+              "audio_script": "In Gideon v. Wainwright (1963), the Supreme Court unanimously held that the Sixth Amendment right to counsel was fundamental and applied to state felony prosecutions through the Fourteenth Amendment. It overruled Betts v. Brady and ordered further proceedings. The decision did not make every legal proceeding automatically eligible for appointed counsel. It established a powerful requirement in its criminal context, later interpreted and developed through additional cases. A student should name that context before promising assistance in an unrelated civil dispute.",
+              "video": null
+            },
+            {
+              "title": "Fairness is more than an open courtroom",
+              "body_md": "A hearing may permit both sides to speak, yet still be practically unequal when an untrained defendant faces experienced prosecutors and unfamiliar legal rules. Effective legal assistance helps test allegations, protect evidence, and explain available defenses. Gideon does not guarantee that every attorney or trial will be flawless. It shows why legal rules must attend to people's real capacity to defend their freedom, not simply to whether a courtroom door is unlocked.",
+              "example": null,
+              "audio_script": "A hearing may permit both sides to speak, yet still be practically unequal when an untrained defendant faces experienced prosecutors and unfamiliar legal rules. Effective legal assistance helps test allegations, protect evidence, and explain available defenses. Gideon does not guarantee that every attorney or trial will be flawless. It shows why legal rules must attend to people's real capacity to defend their freedom, not simply to whether a courtroom door is unlocked.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q1",
+              "type": "true_false",
+              "prompt": "Gideon was denied a requested lawyer even though he could not afford one for his felony case.",
+              "answer": true,
+              "explanation_if_true": "The Supreme Court concluded that the applicable constitutional guarantee required counsel.",
+              "explanation_if_false": "The Supreme Court concluded that the applicable constitutional guarantee required counsel."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q2",
+              "type": "true_false",
+              "prompt": "Gideon held that every person gets free counsel in every civil, administrative, or private dispute.",
+              "answer": false,
+              "explanation_if_true": "The holding addressed the fundamental right to counsel in state criminal felony prosecutions.",
+              "explanation_if_false": "The holding addressed the fundamental right to counsel in state criminal felony prosecutions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q3",
+              "type": "multiple_choice",
+              "prompt": "An indigent defendant charged with a state felony requests a lawyer before trial. Which decision is foundational?",
+              "choices": [
+                "Palsgraf v Long Island Railroad",
+                "Gideon v. Wainwright",
+                "Entick v Carrington",
+                "Caparo v Dickman"
+              ],
+              "answer_index": 1,
+              "explanation": "Gideon required states to honor the right to counsel in the felony context."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q4",
+              "type": "multiple_choice",
+              "prompt": "What problem did Gideon principally address?",
+              "choices": [
+                "Meaningful legal defense when liberty is at stake",
+                "An absolute ban on government taxation",
+                "Automatic liability of all police officers",
+                "A right to choose any trial venue"
+              ],
+              "answer_index": 0,
+              "explanation": "Counsel enables the accused to participate in a complex adversarial process."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Sixth Amendment?",
+              "choices": [
+                "Federal constitutional guarantee including counsel in criminal prosecutions",
+                "Accused person without resources to retain counsel",
+                "Legal representative supplied under applicable public duties",
+                "1963 U.S. decision on counsel for indigent felony defendants"
+              ],
+              "answer_index": 0,
+              "explanation": "Sixth Amendment refers to federal constitutional guarantee including counsel in criminal prosecutions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q6",
+              "type": "matching",
+              "prompt": "Match the cases and procedural protections.",
+              "pairs": [
+                [
+                  "Gideon v. Wainwright",
+                  "1963 U.S. decision on counsel for indigent felony defendants"
+                ],
+                [
+                  "Sixth Amendment",
+                  "Federal constitutional guarantee including counsel in criminal prosecutions"
+                ],
+                [
+                  "Indigent defendant",
+                  "Accused person without resources to retain counsel"
+                ],
+                [
+                  "Appointed counsel",
+                  "Legal representative supplied under applicable public duties"
+                ]
+              ],
+              "explanation": "A procedural protection has a specific legal source and purpose."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q7",
+              "type": "fill_in",
+              "prompt": "The term for 1963 u.s. decision on counsel for indigent felony defendants is ___.",
+              "answer": "Gideon v. Wainwright",
+              "accept": [
+                "Gideon v. Wainwright"
+              ],
+              "explanation": "The answer is Gideon v. Wainwright."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.red.q8",
+              "type": "fill_in",
+              "prompt": "The term for legal representative supplied under applicable public duties is ___.",
+              "answer": "Appointed counsel",
+              "accept": [
+                "Appointed counsel"
+              ],
+              "explanation": "The answer is Appointed counsel."
+            }
+          ],
+          "status": "draft"
+        },
+        "yellow": {
+          "focus": "Explain Miranda's warnings in custodial interrogation and their limits.",
+          "summary": "Miranda v. Arizona (1966) responded to the pressure of police questioning after custody. Study the warning and waiver requirements without assuming the decision controls every conversation with officers.",
+          "checklist": [
+            "I can identify the combination of custody and interrogation",
+            "I can explain the right-to-silence and counsel warnings",
+            "I can distinguish the holding from broader claims about police contact"
+          ],
+          "sections": [
+            {
+              "title": "Custody changes the stakes",
+              "body_md": "Ernesto Miranda was questioned by police and made incriminating statements without receiving the safeguards the Supreme Court later required. The Court examined the coercive pressures of custodial interrogation and the Fifth Amendment privilege against compelled self-incrimination. It consolidated several cases raising similar issues. The relevant trigger is not simply that a police officer asked a question. A legal analysis must examine custody, interrogation, warnings, and the asserted use of the statements in a criminal prosecution.",
+              "example": null,
+              "audio_script": "Ernesto Miranda was questioned by police and made incriminating statements without receiving the safeguards the Supreme Court later required. The Court examined the coercive pressures of custodial interrogation and the Fifth Amendment privilege against compelled self-incrimination. It consolidated several cases raising similar issues. The relevant trigger is not simply that a police officer asked a question. A legal analysis must examine custody, interrogation, warnings, and the asserted use of the statements in a criminal prosecution.",
+              "video": null
+            },
+            {
+              "title": "Warnings make rights usable",
+              "body_md": "In Miranda v. Arizona (1966), the U.S. Supreme Court established safeguards before custodial interrogation, including notice of the right to remain silent and the right to counsel, with appointment when required for an indigent person. A suspect may waive rights only under governing standards. The holding concerns admissibility and protection of constitutional privilege, not an automatic judgment of innocence. A missing warning does not necessarily invalidate an entire investigation, erase unrelated evidence, or require that every criminal charge be dismissed.",
+              "example": null,
+              "audio_script": "In Miranda v. Arizona (1966), the U.S. Supreme Court established safeguards before custodial interrogation, including notice of the right to remain silent and the right to counsel, with appointment when required for an indigent person. A suspect may waive rights only under governing standards. The holding concerns admissibility and protection of constitutional privilege, not an automatic judgment of innocence. A missing warning does not necessarily invalidate an entire investigation, erase unrelated evidence, or require that every criminal charge be dismissed.",
+              "video": null
+            },
+            {
+              "title": "Identify the procedure precisely",
+              "body_md": "A person may voluntarily speak with police outside custody; another may be questioned after arrest in a controlled setting. The legal requirements can differ. Later decisions refined custody, interrogation, waiver, exceptions, and remedies, so a 1966 slogan cannot replace current governing precedent. A sound answer identifies which statement was made, under what conditions, and what remedy is being sought. Fair procedure protects both the accused person's choices and the reliability of the legal process.",
+              "example": null,
+              "audio_script": "A person may voluntarily speak with police outside custody; another may be questioned after arrest in a controlled setting. The legal requirements can differ. Later decisions refined custody, interrogation, waiver, exceptions, and remedies, so a 1966 slogan cannot replace current governing precedent. A sound answer identifies which statement was made, under what conditions, and what remedy is being sought. Fair procedure protects both the accused person's choices and the reliability of the legal process.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q1",
+              "type": "true_false",
+              "prompt": "Miranda addresses safeguards against compelled self-incrimination during custodial interrogation.",
+              "answer": true,
+              "explanation_if_true": "Its warning rules were designed to make Fifth Amendment protections effective.",
+              "explanation_if_false": "Its warning rules were designed to make Fifth Amendment protections effective."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q2",
+              "type": "true_false",
+              "prompt": "Miranda warnings are legally required before every informal police question in every setting.",
+              "answer": false,
+              "explanation_if_true": "The doctrine turns on relevant custody and interrogation conditions, among other limits.",
+              "explanation_if_false": "The doctrine turns on relevant custody and interrogation conditions, among other limits."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q3",
+              "type": "multiple_choice",
+              "prompt": "Police question a person in custody without the required warnings and seek to use the resulting statement. Which case is central?",
+              "choices": [
+                "Miranda v. Arizona",
+                "Gideon alone, without interrogation analysis",
+                "Youngstown",
+                "Donoghue v Stevenson"
+              ],
+              "answer_index": 0,
+              "explanation": "Miranda concerns safeguards for statements obtained through custodial questioning."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q4",
+              "type": "multiple_choice",
+              "prompt": "Which statement about missing warnings is most accurate?",
+              "choices": [
+                "Every charge is automatically dismissed",
+                "Every unrelated item of evidence disappears",
+                "The person can no longer be investigated",
+                "Consequences depend on the statement's use and governing exceptions"
+              ],
+              "answer_index": 3,
+              "explanation": "Miranda's exclusionary consequences are specific, not an all-purpose amnesty."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Custody?",
+              "choices": [
+                "Protection against compelled incriminating testimony",
+                "Legally sufficient relinquishment of a known protection",
+                "1966 U.S. custodial interrogation decision",
+                "Restraint of freedom relevant to interrogation doctrine"
+              ],
+              "answer_index": 3,
+              "explanation": "Custody refers to restraint of freedom relevant to interrogation doctrine."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q6",
+              "type": "matching",
+              "prompt": "Match the cases and procedural protections.",
+              "pairs": [
+                [
+                  "Miranda v. Arizona",
+                  "1966 U.S. custodial interrogation decision"
+                ],
+                [
+                  "Custody",
+                  "Restraint of freedom relevant to interrogation doctrine"
+                ],
+                [
+                  "Self-incrimination privilege",
+                  "Protection against compelled incriminating testimony"
+                ],
+                [
+                  "Waiver",
+                  "Legally sufficient relinquishment of a known protection"
+                ]
+              ],
+              "explanation": "A procedural protection has a specific legal source and purpose."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q7",
+              "type": "fill_in",
+              "prompt": "The term for 1966 u.s. custodial interrogation decision is ___.",
+              "answer": "Miranda v. Arizona",
+              "accept": [
+                "Miranda v. Arizona"
+              ],
+              "explanation": "The answer is Miranda v. Arizona."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.yellow.q8",
+              "type": "fill_in",
+              "prompt": "The term for legally sufficient relinquishment of a known protection is ___.",
+              "answer": "Waiver",
+              "accept": [
+                "Waiver"
+              ],
+              "explanation": "The answer is Waiver."
+            }
+          ],
+          "status": "draft"
+        },
+        "orange": {
+          "focus": "Compare European fair-trial rights through Salduz v. Turkey.",
+          "summary": "The European Court of Human Rights emphasized early access to legal advice as part of effective fairness. Compare that principle with Gideon's trial-counsel protection and Miranda's U.S. interrogation safeguards.",
+          "checklist": [
+            "I can state the central principle of Salduz",
+            "I can distinguish trial counsel and early police-interview safeguards",
+            "I can recognize the role of exceptional restrictions and overall fairness"
+          ],
+          "sections": [
+            {
+              "title": "Early questioning can shape the trial",
+              "body_md": "In Salduz v. Turkey (2008), a young suspect was denied legal assistance during police custody and made statements used in the proceedings. The European Court of Human Rights considered Article 6 guarantees of fair trial and legal assistance. The issue was not whether every police encounter everywhere requires the same procedure. It was whether restrictions at the beginning of the criminal process had prejudiced meaningful defense. A person may make consequential choices before understanding the law or appreciating the effect of a statement.",
+              "example": null,
+              "audio_script": "In Salduz v. Turkey (2008), a young suspect was denied legal assistance during police custody and made statements used in the proceedings. The European Court of Human Rights considered Article 6 guarantees of fair trial and legal assistance. The issue was not whether every police encounter everywhere requires the same procedure. It was whether restrictions at the beginning of the criminal process had prejudiced meaningful defense. A person may make consequential choices before understanding the law or appreciating the effect of a statement.",
+              "video": null
+            },
+            {
+              "title": "The rule and its qualifications",
+              "body_md": "The Grand Chamber stated that access to a lawyer should as a rule be provided from the first police interrogation of a suspect, absent compelling reasons for restriction, and that limits must not undermine a fair trial. Later decisions, including Ibrahim and Others v. the United Kingdom (2016), elaborated the role of exceptional compelling reasons and assessment of overall fairness. The European Convention operates within its own institutional framework. Those cases should not be presented as direct amendments to the U.S. Constitution.",
+              "example": null,
+              "audio_script": "The Grand Chamber stated that access to a lawyer should as a rule be provided from the first police interrogation of a suspect, absent compelling reasons for restriction, and that limits must not undermine a fair trial. Later decisions, including Ibrahim and Others v. the United Kingdom (2016), elaborated the role of exceptional compelling reasons and assessment of overall fairness. The European Convention operates within its own institutional framework. Those cases should not be presented as direct amendments to the U.S. Constitution.",
+              "video": null
+            },
+            {
+              "title": "Compare protections without flattening them",
+              "body_md": "Gideon concerned appointed counsel in state felony prosecutions; Miranda addressed protections during custodial interrogation; Salduz interpreted Convention fair-trial rights concerning early legal assistance. Their shared concern is that state procedure can overwhelm people unable to protect themselves. Their legal triggers and remedies are distinct. An advanced student should state the jurisdiction, legal source, procedural stage, and relief involved before comparing how each system makes fairness practical rather than merely symbolic.",
+              "example": null,
+              "audio_script": "Gideon concerned appointed counsel in state felony prosecutions; Miranda addressed protections during custodial interrogation; Salduz interpreted Convention fair-trial rights concerning early legal assistance. Their shared concern is that state procedure can overwhelm people unable to protect themselves. Their legal triggers and remedies are distinct. An advanced student should state the jurisdiction, legal source, procedural stage, and relief involved before comparing how each system makes fairness practical rather than merely symbolic.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q1",
+              "type": "true_false",
+              "prompt": "Salduz treated access to legal assistance during early police interrogation as important for fair trial rights.",
+              "answer": true,
+              "explanation_if_true": "Its Grand Chamber analysis emphasized early defense assistance and limited exceptions.",
+              "explanation_if_false": "Its Grand Chamber analysis emphasized early defense assistance and limited exceptions."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q2",
+              "type": "true_false",
+              "prompt": "Salduz made the European Court of Human Rights the final interpreter of the U.S. Fifth Amendment.",
+              "answer": false,
+              "explanation_if_true": "Salduz interprets European Convention rights, not American constitutional doctrine.",
+              "explanation_if_false": "Salduz interprets European Convention rights, not American constitutional doctrine."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q3",
+              "type": "multiple_choice",
+              "prompt": "A suspect's lawyer is excluded at the first police interview in a Convention state. Which judgment is a key source?",
+              "choices": [
+                "Marbury v Madison",
+                "Palsgraf",
+                "MacPherson",
+                "Salduz v. Turkey"
+              ],
+              "answer_index": 3,
+              "explanation": "Salduz establishes an influential Article 6 framework for early assistance."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q4",
+              "type": "multiple_choice",
+              "prompt": "Which comparison is accurate?",
+              "choices": [
+                "Gideon decided European treaty law",
+                "Miranda decided British parliamentary sovereignty",
+                "Gideon, Miranda, and Salduz address different stages and legal sources",
+                "All three created identical worldwide police rules"
+              ],
+              "answer_index": 2,
+              "explanation": "Fair-trial principles can overlap without identical triggers or remedies."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Article 6?",
+              "choices": [
+                "Assessment of criminal proceedings as a whole",
+                "2008 European human-rights ruling on early legal assistance",
+                "European Convention guarantee of a fair trial",
+                "Exceptional justification invoked for restricting legal access"
+              ],
+              "answer_index": 2,
+              "explanation": "Article 6 refers to european convention guarantee of a fair trial."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q6",
+              "type": "matching",
+              "prompt": "Match the cases and procedural protections.",
+              "pairs": [
+                [
+                  "Salduz v. Turkey",
+                  "2008 European human-rights ruling on early legal assistance"
+                ],
+                [
+                  "Article 6",
+                  "European Convention guarantee of a fair trial"
+                ],
+                [
+                  "Compelling reasons",
+                  "Exceptional justification invoked for restricting legal access"
+                ],
+                [
+                  "Overall fairness",
+                  "Assessment of criminal proceedings as a whole"
+                ]
+              ],
+              "explanation": "A procedural protection has a specific legal source and purpose."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q7",
+              "type": "fill_in",
+              "prompt": "The term for 2008 european human-rights ruling on early legal assistance is ___.",
+              "answer": "Salduz v. Turkey",
+              "accept": [
+                "Salduz v. Turkey"
+              ],
+              "explanation": "The answer is Salduz v. Turkey."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.orange.q8",
+              "type": "fill_in",
+              "prompt": "The term for assessment of criminal proceedings as a whole is ___.",
+              "answer": "Overall fairness",
+              "accept": [
+                "Overall fairness"
+              ],
+              "explanation": "The answer is Overall fairness."
+            }
+          ],
+          "status": "draft"
+        },
+        "black": {
+          "focus": "Critique procedural rights as conditions of legitimate criminal coercion.",
+          "summary": "Gideon, Miranda, and Salduz protect participation before the state imposes punishment. Evaluate whether procedural safeguards actually counter unequal power and how courts should handle exceptional security claims.",
+          "checklist": [
+            "I can analyze institutional and personal vulnerabilities in interrogation",
+            "I can evaluate the justification and limits of exclusionary remedies",
+            "I can design early-access safeguards protecting both liberty and factfinding"
+          ],
+          "sections": [
+            {
+              "title": "A formal warning may be insufficient in practice",
+              "body_md": "A person may hear words about silence or counsel yet be unable to use them because of age, language, disability, intimidation, or lack of resources. Gideon highlights meaningful legal representation at trial; Miranda and Salduz address crucial choices made during questioning. The legal doctrines are not identical, but each raises an ethical challenge: do state procedures merely recite rights, or do they enable the individual to act on them? A doctoral analysis should distinguish empirical vulnerability from the specific legal rule that supplies relief.",
+              "example": null,
+              "audio_script": "A person may hear words about silence or counsel yet be unable to use them because of age, language, disability, intimidation, or lack of resources. Gideon highlights meaningful legal representation at trial; Miranda and Salduz address crucial choices made during questioning. The legal doctrines are not identical, but each raises an ethical challenge: do state procedures merely recite rights, or do they enable the individual to act on them? A doctoral analysis should distinguish empirical vulnerability from the specific legal rule that supplies relief.",
+              "video": null
+            },
+            {
+              "title": "Security claims must be examined carefully",
+              "body_md": "Police and prosecutors have a legitimate role in investigating serious crime and preventing harm. Early access to a lawyer may nevertheless be essential to a reliable and fair conviction. European cases allow analysis of exceptional restrictions using compelling reasons and overall fairness; U.S. rules follow their own constitutional tests and exceptions. A coherent theory must identify the actual emergency, the decision maker's legal authority, duration of restriction, evidentiary consequences, and review. Neither automatic exclusion nor unlimited emergency discretion is a sufficient account.",
+              "example": null,
+              "audio_script": "Police and prosecutors have a legitimate role in investigating serious crime and preventing harm. Early access to a lawyer may nevertheless be essential to a reliable and fair conviction. European cases allow analysis of exceptional restrictions using compelling reasons and overall fairness; U.S. rules follow their own constitutional tests and exceptions. A coherent theory must identify the actual emergency, the decision maker's legal authority, duration of restriction, evidentiary consequences, and review. Neither automatic exclusion nor unlimited emergency discretion is a sufficient account.",
+              "video": null
+            },
+            {
+              "title": "Build a rights-protecting procedure",
+              "body_md": "Consider prompt and recorded notice of rights, practical access to independent legal advice, qualified interpretation, reliable interview recordings, and reasoned review of exceptions where law allows. Evaluate investigative costs and the risk of false admissions alongside the interests of victims. A legitimate criminal process seeks accurate adjudication without treating the accused as an object of state power. A lawyer who protects the client's freedom must also be candid about the governing limits of each constitutional or treaty guarantee.",
+              "example": null,
+              "audio_script": "Consider prompt and recorded notice of rights, practical access to independent legal advice, qualified interpretation, reliable interview recordings, and reasoned review of exceptions where law allows. Evaluate investigative costs and the risk of false admissions alongside the interests of victims. A legitimate criminal process seeks accurate adjudication without treating the accused as an object of state power. A lawyer who protects the client's freedom must also be candid about the governing limits of each constitutional or treaty guarantee.",
+              "video": null
+            }
+          ],
+          "video": null,
+          "questions": [
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q1",
+              "type": "true_false",
+              "prompt": "Meaningful defense can depend on counsel and safeguards before a final criminal trial takes place.",
+              "answer": true,
+              "explanation_if_true": "Early questioning may materially shape evidence, choices, and the fairness of later proceedings.",
+              "explanation_if_false": "Early questioning may materially shape evidence, choices, and the fairness of later proceedings."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q2",
+              "type": "true_false",
+              "prompt": "A serious security threat automatically suspends every right to counsel without review in all jurisdictions.",
+              "answer": false,
+              "explanation_if_true": "Any exceptional restriction must be tested against the particular governing legal framework.",
+              "explanation_if_false": "Any exceptional restriction must be tested against the particular governing legal framework."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q3",
+              "type": "multiple_choice",
+              "prompt": "A detained minor does not understand the language of a rights warning and makes a disputed confession. What is vital to investigate?",
+              "choices": [
+                "The officer's social popularity",
+                "Whether trial was scheduled quickly",
+                "Meaningful understanding, assistance, and reliability",
+                "Only whether the warning was printed"
+              ],
+              "answer_index": 2,
+              "explanation": "Formal notice may not guarantee effective defense participation."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q4",
+              "type": "multiple_choice",
+              "prompt": "Which design most credibly supports fair investigations?",
+              "choices": [
+                "Making counsel available only after conviction",
+                "Recorded, reviewable questioning with accessible legal assistance",
+                "Secret detention without any challenge",
+                "A rule that every admission is necessarily true"
+              ],
+              "answer_index": 1,
+              "explanation": "Practical safeguards can protect both factfinding and individual rights."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q5",
+              "type": "multiple_choice",
+              "prompt": "What is Custodial vulnerability?",
+              "choices": [
+                "Meaningful legal support rather than formal presence alone",
+                "Heightened pressure and disadvantage during detention",
+                "Rule limiting use of improperly obtained evidence",
+                "Justification of state process as fair and accountable"
+              ],
+              "answer_index": 1,
+              "explanation": "Custodial vulnerability refers to heightened pressure and disadvantage during detention."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q6",
+              "type": "matching",
+              "prompt": "Match the cases and procedural protections.",
+              "pairs": [
+                [
+                  "Effective assistance",
+                  "Meaningful legal support rather than formal presence alone"
+                ],
+                [
+                  "Custodial vulnerability",
+                  "Heightened pressure and disadvantage during detention"
+                ],
+                [
+                  "Exclusionary remedy",
+                  "Rule limiting use of improperly obtained evidence"
+                ],
+                [
+                  "Procedural legitimacy",
+                  "Justification of state process as fair and accountable"
+                ]
+              ],
+              "explanation": "A procedural protection has a specific legal source and purpose."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q7",
+              "type": "fill_in",
+              "prompt": "The term for meaningful legal support rather than formal presence alone is ___.",
+              "answer": "Effective assistance",
+              "accept": [
+                "Effective assistance"
+              ],
+              "explanation": "The answer is Effective assistance."
+            },
+            {
+              "id": "PSU-1.1.major_cases.procedure-defining-cases.black.q8",
+              "type": "fill_in",
+              "prompt": "The term for justification of state process as fair and accountable is ___.",
+              "answer": "Procedural legitimacy",
+              "accept": [
+                "Procedural legitimacy"
+              ],
+              "explanation": "The answer is Procedural legitimacy."
+            }
+          ],
+          "status": "draft"
+        }
+      }
+    }
+  ]
+}
