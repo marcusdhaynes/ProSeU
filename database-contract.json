@@ -28,5 +28,15 @@
   "current_stage": "database_reserved_not_live",
   "source_data_migrated": false,
   "docs": "AGENTS.md",
-  "canonical_map": "marcusdhaynes/somniel-holdings/database-routing.json"
+  "canonical_map": "marcusdhaynes/somniel-holdings/database-routing.json",
+  "domain_storage_guidance": {
+    "store": [
+      "Versioned curriculum, courses, lessons, questions, progress, mastery, enrollments and owner-authorized student records",
+      "Private notebooks or legal documents only with tested owner-level access controls"
+    ],
+    "avoid": [
+      "Publicly accessible private cases, unverified role flags, raw OAuth secrets, mock lesson data presented as real content"
+    ],
+    "cutover": "Legacy Firebase and older Supabase project must be exported and reconciled; pair verified identities and protect records."
+  }
 }
