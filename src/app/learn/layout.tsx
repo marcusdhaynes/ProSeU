@@ -2,6 +2,7 @@
 "use client"
 
 import { Suspense } from "react";
+import { CourseGameDock } from "@/games/CourseGameDock";
 
 export default function LearnLayout({
   children,
@@ -12,6 +13,7 @@ export default function LearnLayout({
     <div className="min-h-[calc(100vh-56px)] bg-background relative overflow-hidden">
       <Suspense fallback={<div className="flex items-center justify-center h-screen text-muted-foreground italic animate-pulse">Initializing ScholaIuris Curriculum...</div>}>
         {children}
+        <CourseGameDock />
       </Suspense>
     </div>
   );
